@@ -13,7 +13,7 @@ export function PortfolioProvider({ children }) {
         setLoading(true);
         setErrorMessage("");
 
-        const response = await fetch("/data/portfolio.json");
+        const response = await fetch(`${import.meta.env.BASE_URL}data/portfolio.json`);
 
         if (!response.ok) {
           throw new Error("Nepavyko užkrauti portfolio.json failo.");
