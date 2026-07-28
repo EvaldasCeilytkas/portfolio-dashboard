@@ -26,7 +26,7 @@ import "./styles/dashboard.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<Dashboard />} />
@@ -35,52 +35,24 @@ function App() {
           <Route path="/platforms/indemo" element={<NplPlatformProfile />} />
 
           <Route path="/platforms/crowdpear" element={<Crowdpear />} />
-          <Route
-            path="/platforms/crowdpear/project/:projectId"
-            element={<Crowdpear />}
-          />
+          <Route path="/platforms/crowdpear/project/:projectId" element={<Crowdpear />} />
 
           <Route path="/platforms/profitus" element={<Profitus />} />
-          <Route
-            path="/platforms/profitus/project/:projectId"
-            element={<Profitus />}
-          />
+          <Route path="/platforms/profitus/project/:projectId" element={<Profitus />} />
 
           <Route path="/platforms/rontgen" element={<Rontgen />} />
-          <Route
-            path="/platforms/rontgen/project/:projectId"
-            element={<Rontgen />}
-          />
+          <Route path="/platforms/rontgen/project/:projectId" element={<Rontgen />} />
 
           <Route path="/platforms/nordstreet" element={<Nordstreet />} />
-          <Route
-            path="/platforms/nordstreet/project/:projectId"
-            element={<Nordstreet />}
-          />
+          <Route path="/platforms/nordstreet/project/:projectId" element={<Nordstreet />} />
 
-          <Route
-            path="/platforms/afranga"
-            element={<P2PPlatformProfile />}
-          />
-          <Route
-            path="/platforms/debitum"
-            element={<P2PPlatformProfile />}
-          />
+          <Route path="/platforms/afranga" element={<P2PPlatformProfile />} />
+          <Route path="/platforms/debitum" element={<P2PPlatformProfile />} />
 
           <Route path="/platforms/:slug" element={<PlatformProfile />} />
-
-          <Route
-            path="/platforms/:slug/position/:ticker"
-            element={<EtfProfile />}
-          />
-          <Route
-            path="/platforms/:slug/loan/:loanId"
-            element={<P2PLoanProfile />}
-          />
-          <Route
-            path="/platforms/:slug/project/:projectId"
-            element={<NplProjectProfile />}
-          />
+          <Route path="/platforms/:slug/position/:ticker" element={<EtfProfile />} />
+          <Route path="/platforms/:slug/loan/:loanId" element={<P2PLoanProfile />} />
+          <Route path="/platforms/:slug/project/:projectId" element={<NplProjectProfile />} />
 
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/p2p" element={<P2P />} />
