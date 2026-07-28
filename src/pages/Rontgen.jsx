@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import RealEstatePlatformProfile from "../components/realestate/RealEstatePlatformProfile";
-import { RatingBadge, StatusBadge } from "../components/realestate/RealEstateBadges";
+import RealEstatePlatformProfile from "../components/realEstate/RealEstatePlatformProfile";
+import { RatingBadge, StatusBadge } from "../components/realEstate/RealEstateBadges";
 
 const number = (value) => {
   const parsed = Number(value);
@@ -196,7 +196,7 @@ export default function Rontgen() {
       try {
         setLoading(true);
         setError("");
-        const response = await fetch("/data/rontgen.json");
+        const response = await fetch(`${import.meta.env.BASE_URL}data/rontgen.json`);
         if (!response.ok) {
           throw new Error("Nepavyko užkrauti rontgen.json failo.");
         }
