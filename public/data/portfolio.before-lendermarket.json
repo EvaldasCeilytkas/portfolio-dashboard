@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-28T22:10:26",
+        "updatedAt": "2026-07-28T22:44:51",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-28T22:10:22",
+        "updatedAt": "2026-07-28T22:44:48",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-28T22:10:28",
+        "updatedAt": "2026-07-28T22:44:54",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-28T22:10:29",
+        "updatedAt": "2026-07-28T22:44:55",
         "modules": {
           "broker": true,
           "positions": true,
