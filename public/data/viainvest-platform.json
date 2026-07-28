@@ -1,0 +1,1908 @@
+{
+  "name": "Viainvest",
+  "slug": "viainvest",
+  "category": "P2P paskolos",
+  "assetClass": "p2p",
+  "currency": "EUR",
+  "active": true,
+  "website": "https://viainvest.com",
+  "invested": 340.0,
+  "value": 358.35,
+  "profit": 18.35,
+  "returnRate": 5.397059,
+  "xirr": 9.26251,
+  "history": [
+    {
+      "date": "2025-10-31",
+      "invested": 100.0,
+      "value": 100.0
+    },
+    {
+      "date": "2025-11-30",
+      "invested": 150.0,
+      "value": 150.86
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 200.0,
+      "value": 202.13
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 210.0,
+      "value": 213.88
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 240.0,
+      "value": 245.74
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 270.0,
+      "value": 277.76
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 280.0,
+      "value": 290.24
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 330.0,
+      "value": 342.77
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 340.0,
+      "value": 355.48
+    },
+    {
+      "date": "2026-07-28",
+      "invested": 340.0,
+      "value": 358.35
+    }
+  ],
+  "analytics": {
+    "startDate": "2025-10-31",
+    "months": 10,
+    "highestValue": 358.35,
+    "averageMonthlyReturn": 5.397059,
+    "maxDrawdown": 0,
+    "winningRate": 100,
+    "volatility": 0,
+    "monthlyPerformance": [
+      {
+        "date": "2026-07",
+        "previousValue": 340.0,
+        "value": 358.35,
+        "monthlyProfit": 18.35,
+        "monthlyReturn": 5.397059
+      }
+    ]
+  },
+  "details": {
+    "type": "p2p",
+    "modules": {
+      "loans": true
+    },
+    "p2pSummary": {
+      "totalLoans": 14,
+      "activeLoans": 8,
+      "completedLoans": 6,
+      "lateLoans": 0,
+      "averageInterestRate": 10.69,
+      "cash": 9.88,
+      "interestReceived": 19.29,
+      "principalRepaid": 432.33,
+      "outstandingPrincipal": 348.47
+    },
+    "cashflow": {
+      "deposited": 340.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.0,
+      "cash": 9.88,
+      "invested": 348.47,
+      "principalRepaid": 432.33,
+      "interestReceived": 19.29,
+      "fees": 0.94,
+      "netIncome": 18.35
+    },
+    "health": {
+      "score": 90,
+      "label": "Puiki būklė",
+      "summary": "Paskolos nevėluoja ir portfelis yra diversifikuotas.",
+      "largestLoanShare": 16.92,
+      "lateShare": 0.0,
+      "cashShare": 2.76,
+      "metrics": [
+        {
+          "key": "diversification",
+          "label": "Diversifikacija",
+          "score": 13,
+          "max": 20,
+          "description": "Portfelyje yra 14 paskolos."
+        },
+        {
+          "key": "loanQuality",
+          "label": "Paskolų kokybė",
+          "score": 20,
+          "max": 20,
+          "description": "Aktyvių vėluojančių paskolų: 0."
+        },
+        {
+          "key": "cashEfficiency",
+          "label": "Pinigų efektyvumas",
+          "score": 18,
+          "max": 20,
+          "description": "Laisvų pinigų likutis – 9.88 €."
+        },
+        {
+          "key": "repaymentStability",
+          "label": "Grąžinimų stabilumas",
+          "score": 19,
+          "max": 20,
+          "description": "Vertinama pagal faktinių grąžinimų istoriją."
+        },
+        {
+          "key": "concentration",
+          "label": "Koncentracijos rizika",
+          "score": 20,
+          "max": 20,
+          "description": "Didžiausia paskola sudaro 16.9 % portfelio."
+        }
+      ]
+    },
+    "history": [
+      {
+        "date": "2025-11-07",
+        "principal": 0.52,
+        "interest": 0.45,
+        "fees": 0.02,
+        "netIncome": 0.43
+      },
+      {
+        "date": "2025-11-07",
+        "principal": 6.45,
+        "interest": 0.45,
+        "fees": 0.02,
+        "netIncome": 0.43
+      },
+      {
+        "date": "2025-12-06",
+        "principal": 0.0,
+        "interest": 0.49,
+        "fees": 0.02,
+        "netIncome": 0.47
+      },
+      {
+        "date": "2025-12-07",
+        "principal": 0.0,
+        "interest": 0.45,
+        "fees": 0.02,
+        "netIncome": 0.43
+      },
+      {
+        "date": "2025-12-07",
+        "principal": 0.0,
+        "interest": 0.39,
+        "fees": 0.02,
+        "netIncome": 0.37
+      },
+      {
+        "date": "2025-12-07",
+        "principal": 1.21,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2025-12-08",
+        "principal": 17.01,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2025-12-08",
+        "principal": 11.61,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-01-06",
+        "principal": 2.14,
+        "interest": 0.53,
+        "fees": 0.03,
+        "netIncome": 0.5
+      },
+      {
+        "date": "2026-01-07",
+        "principal": 20.95,
+        "interest": 0.3,
+        "fees": 0.02,
+        "netIncome": 0.28
+      },
+      {
+        "date": "2026-01-07",
+        "principal": 0.0,
+        "interest": 0.3,
+        "fees": 0.02,
+        "netIncome": 0.28
+      },
+      {
+        "date": "2026-01-07",
+        "principal": 21.96,
+        "interest": 0.73,
+        "fees": 0.04,
+        "netIncome": 0.69
+      },
+      {
+        "date": "2026-01-10",
+        "principal": 3.19,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-02-06",
+        "principal": 0.0,
+        "interest": 0.51,
+        "fees": 0.03,
+        "netIncome": 0.48
+      },
+      {
+        "date": "2026-02-07",
+        "principal": 0.0,
+        "interest": 0.11,
+        "fees": 0.01,
+        "netIncome": 0.1
+      },
+      {
+        "date": "2026-02-07",
+        "principal": 0.0,
+        "interest": 0.27,
+        "fees": 0.01,
+        "netIncome": 0.26
+      },
+      {
+        "date": "2026-02-07",
+        "principal": 0.0,
+        "interest": 0.55,
+        "fees": 0.03,
+        "netIncome": 0.52
+      },
+      {
+        "date": "2026-02-07",
+        "principal": 0.0,
+        "interest": 0.53,
+        "fees": 0.03,
+        "netIncome": 0.5
+      },
+      {
+        "date": "2026-02-09",
+        "principal": 0.71,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-02-10",
+        "principal": 6.05,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-02-10",
+        "principal": 1.49,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-02-14",
+        "principal": 4.89,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-02-15",
+        "principal": 3.32,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-03-06",
+        "principal": 0.74,
+        "interest": 0.45,
+        "fees": 0.02,
+        "netIncome": 0.43
+      },
+      {
+        "date": "2026-03-07",
+        "principal": 0.0,
+        "interest": 0.05,
+        "fees": 0.0,
+        "netIncome": 0.05
+      },
+      {
+        "date": "2026-03-07",
+        "principal": 0.0,
+        "interest": 0.22,
+        "fees": 0.01,
+        "netIncome": 0.21
+      },
+      {
+        "date": "2026-03-07",
+        "principal": 0.0,
+        "interest": 0.49,
+        "fees": 0.02,
+        "netIncome": 0.47
+      },
+      {
+        "date": "2026-03-07",
+        "principal": 0.0,
+        "interest": 0.45,
+        "fees": 0.02,
+        "netIncome": 0.43
+      },
+      {
+        "date": "2026-03-09",
+        "principal": 15.31,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-03-15",
+        "principal": 2.46,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-03-15",
+        "principal": 1.46,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-03-15",
+        "principal": 0.0,
+        "interest": 0.43,
+        "fees": 0.02,
+        "netIncome": 0.41
+      },
+      {
+        "date": "2026-03-22",
+        "principal": 0.0,
+        "interest": 0.02,
+        "fees": 0.0,
+        "netIncome": 0.02
+      },
+      {
+        "date": "2026-03-22",
+        "principal": 2.31,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-03-23",
+        "principal": 5.47,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-04-02",
+        "principal": 0.0,
+        "interest": 0.19,
+        "fees": 0.01,
+        "netIncome": 0.18
+      },
+      {
+        "date": "2026-04-03",
+        "principal": 22.97,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-04-06",
+        "principal": 0.0,
+        "interest": 0.5,
+        "fees": 0.03,
+        "netIncome": 0.47
+      },
+      {
+        "date": "2026-04-07",
+        "principal": 0.0,
+        "interest": 0.4,
+        "fees": 0.02,
+        "netIncome": 0.38
+      },
+      {
+        "date": "2026-04-07",
+        "principal": 0.0,
+        "interest": 0.47,
+        "fees": 0.02,
+        "netIncome": 0.45
+      },
+      {
+        "date": "2026-04-09",
+        "principal": 14.65,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-04-09",
+        "principal": 10.79,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-04-13",
+        "principal": 38.38,
+        "interest": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08
+      },
+      {
+        "date": "2026-04-13",
+        "principal": 5.88,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-04-15",
+        "principal": 0.0,
+        "interest": 0.46,
+        "fees": 0.02,
+        "netIncome": 0.44
+      },
+      {
+        "date": "2026-04-23",
+        "principal": 0.0,
+        "interest": 0.51,
+        "fees": 0.03,
+        "netIncome": 0.48
+      },
+      {
+        "date": "2026-05-02",
+        "principal": 21.01,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-05-07",
+        "principal": 0.0,
+        "interest": 0.29,
+        "fees": 0.01,
+        "netIncome": 0.28
+      },
+      {
+        "date": "2026-05-07",
+        "principal": 0.0,
+        "interest": 0.4,
+        "fees": 0.02,
+        "netIncome": 0.38
+      },
+      {
+        "date": "2026-05-14",
+        "principal": 0.0,
+        "interest": 0.49,
+        "fees": 0.02,
+        "netIncome": 0.47
+      },
+      {
+        "date": "2026-05-15",
+        "principal": 0.0,
+        "interest": 0.44,
+        "fees": 0.02,
+        "netIncome": 0.42
+      },
+      {
+        "date": "2026-05-15",
+        "principal": 0.0,
+        "interest": 0.46,
+        "fees": 0.02,
+        "netIncome": 0.44
+      },
+      {
+        "date": "2026-05-18",
+        "principal": 6.15,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-05-19",
+        "principal": 22.7,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-05-23",
+        "principal": 0.0,
+        "interest": 0.37,
+        "fees": 0.02,
+        "netIncome": 0.35
+      },
+      {
+        "date": "2026-05-28",
+        "principal": 31.55,
+        "interest": 0.2,
+        "fees": 0.01,
+        "netIncome": 0.19
+      },
+      {
+        "date": "2026-05-29",
+        "principal": 0.95,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-06-02",
+        "principal": 0.0,
+        "interest": 0.48,
+        "fees": 0.02,
+        "netIncome": 0.46
+      },
+      {
+        "date": "2026-06-07",
+        "principal": 0.0,
+        "interest": 0.42,
+        "fees": 0.02,
+        "netIncome": 0.4
+      },
+      {
+        "date": "2026-06-08",
+        "principal": 6.71,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-06-14",
+        "principal": 0.0,
+        "interest": 0.45,
+        "fees": 0.02,
+        "netIncome": 0.43
+      },
+      {
+        "date": "2026-06-15",
+        "principal": 0.0,
+        "interest": 0.46,
+        "fees": 0.02,
+        "netIncome": 0.44
+      },
+      {
+        "date": "2026-06-15",
+        "principal": 0.0,
+        "interest": 0.26,
+        "fees": 0.01,
+        "netIncome": 0.25
+      },
+      {
+        "date": "2026-06-18",
+        "principal": 1.54,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-06-19",
+        "principal": 0.0,
+        "interest": 0.47,
+        "fees": 0.02,
+        "netIncome": 0.45
+      },
+      {
+        "date": "2026-06-20",
+        "principal": 14.35,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-06-20",
+        "principal": 37.81,
+        "interest": 0.29,
+        "fees": 0.01,
+        "netIncome": 0.28
+      },
+      {
+        "date": "2026-06-22",
+        "principal": 14.9,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-07-02",
+        "principal": 0.0,
+        "interest": 0.4,
+        "fees": 0.02,
+        "netIncome": 0.38
+      },
+      {
+        "date": "2026-07-07",
+        "principal": 44.57,
+        "interest": 0.4,
+        "fees": 0.02,
+        "netIncome": 0.38
+      },
+      {
+        "date": "2026-07-12",
+        "principal": 0.0,
+        "interest": 0.42,
+        "fees": 0.02,
+        "netIncome": 0.4
+      },
+      {
+        "date": "2026-07-13",
+        "principal": 5.46,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      },
+      {
+        "date": "2026-07-14",
+        "principal": 0.0,
+        "interest": 0.42,
+        "fees": 0.02,
+        "netIncome": 0.4
+      },
+      {
+        "date": "2026-07-15",
+        "principal": 0.0,
+        "interest": 0.32,
+        "fees": 0.02,
+        "netIncome": 0.3
+      },
+      {
+        "date": "2026-07-15",
+        "principal": 0.0,
+        "interest": 0.25,
+        "fees": 0.01,
+        "netIncome": 0.24
+      },
+      {
+        "date": "2026-07-19",
+        "principal": 0.0,
+        "interest": 0.32,
+        "fees": 0.02,
+        "netIncome": 0.3
+      },
+      {
+        "date": "2026-07-21",
+        "principal": 0.0,
+        "interest": 0.5,
+        "fees": 0.03,
+        "netIncome": 0.47
+      },
+      {
+        "date": "2026-07-22",
+        "principal": 2.71,
+        "interest": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0
+      }
+    ],
+    "incomeForecast": [
+      {
+        "month": "2026-08",
+        "principal": 34.85,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 34.85
+      },
+      {
+        "month": "2026-10",
+        "principal": 113.6,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 113.6
+      },
+      {
+        "month": "2026-11",
+        "principal": 35.94,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 35.94
+      },
+      {
+        "month": "2026-12",
+        "principal": 47.9,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 47.9
+      },
+      {
+        "month": "2027-01",
+        "principal": 60.63,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 60.63
+      },
+      {
+        "month": "2027-03",
+        "principal": 55.55,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 55.55
+      }
+    ],
+    "loans": [
+      {
+        "id": "LVX0000PK205",
+        "loanId": "LVX0000PK205",
+        "country": "Sweden",
+        "originator": "Viaconto Sweden AB (SE)",
+        "borrower": "Viaconto Sweden AB (SE)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 15 d.",
+        "investedDate": "2025-10-08",
+        "startDate": "2025-10-07",
+        "plannedEndDate": "2026-03-23",
+        "actualEndDate": "2026-03-23",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 50.0,
+        "principalRepaid": 50.0,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 1.38,
+        "fees": 0.07,
+        "netIncome": 1.31,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2025-11-07",
+            "actualDate": "2025-11-07",
+            "delayDays": 0,
+            "principal": 0.52,
+            "interest": 0.45,
+            "fee": 0.02,
+            "netIncome": 0.43,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2025-12-07",
+            "actualDate": "2025-12-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.45,
+            "fee": 0.02,
+            "netIncome": 0.43,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2025-12-08",
+            "actualDate": "2025-12-08",
+            "delayDays": 0,
+            "principal": 17.01,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-01-07",
+            "actualDate": "2026-01-07",
+            "delayDays": 0,
+            "principal": 20.95,
+            "interest": 0.3,
+            "fee": 0.02,
+            "netIncome": 0.28,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-07",
+            "actualDate": "2026-02-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.11,
+            "fee": 0.01,
+            "netIncome": 0.1,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-10",
+            "actualDate": "2026-02-10",
+            "delayDays": 0,
+            "principal": 6.05,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-07",
+            "actualDate": "2026-03-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.05,
+            "fee": 0.0,
+            "netIncome": 0.05,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-22",
+            "actualDate": "2026-03-22",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.02,
+            "fee": 0.0,
+            "netIncome": 0.02,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-23",
+            "actualDate": "2026-03-23",
+            "delayDays": 0,
+            "principal": 5.47,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000PRFL6",
+        "loanId": "LVX0000PRFL6",
+        "country": "Latvia",
+        "originator": "SIA VIA SMS (LV)",
+        "borrower": "SIA VIA SMS (LV)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 26 d.",
+        "investedDate": "2025-10-08",
+        "startDate": "2025-10-07",
+        "plannedEndDate": "2026-04-03",
+        "actualEndDate": "2026-04-03",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 50.0,
+        "principalRepaid": 50.0,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 1.82,
+        "fees": 0.09,
+        "netIncome": 1.73,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2025-11-07",
+            "actualDate": "2025-11-07",
+            "delayDays": 0,
+            "principal": 6.45,
+            "interest": 0.45,
+            "fee": 0.02,
+            "netIncome": 0.43,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2025-12-07",
+            "actualDate": "2025-12-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.39,
+            "fee": 0.02,
+            "netIncome": 0.37,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2025-12-08",
+            "actualDate": "2025-12-08",
+            "delayDays": 0,
+            "principal": 11.61,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-01-07",
+            "actualDate": "2026-01-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.3,
+            "fee": 0.02,
+            "netIncome": 0.28,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-01-10",
+            "actualDate": "2026-01-10",
+            "delayDays": 0,
+            "principal": 3.19,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-07",
+            "actualDate": "2026-02-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.27,
+            "fee": 0.01,
+            "netIncome": 0.26,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-15",
+            "actualDate": "2026-02-15",
+            "delayDays": 0,
+            "principal": 3.32,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-07",
+            "actualDate": "2026-03-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.22,
+            "fee": 0.01,
+            "netIncome": 0.21,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-15",
+            "actualDate": "2026-03-15",
+            "delayDays": 0,
+            "principal": 2.46,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-02",
+            "actualDate": "2026-04-02",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.19,
+            "fee": 0.01,
+            "netIncome": 0.18,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-03",
+            "actualDate": "2026-04-03",
+            "delayDays": 0,
+            "principal": 22.97,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000PXSI3",
+        "loanId": "LVX0000PXSI3",
+        "country": "Sweden",
+        "originator": "Viaconto Sweden AB (SE)",
+        "borrower": "Viaconto Sweden AB (SE)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 6 d.",
+        "investedDate": "2025-11-08",
+        "startDate": "2025-11-06",
+        "plannedEndDate": "2026-04-14",
+        "actualEndDate": "2026-04-13",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 57.83,
+        "principalRepaid": 57.83,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 2.56,
+        "fees": 0.13,
+        "netIncome": 2.43,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2025-12-06",
+            "actualDate": "2025-12-06",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.49,
+            "fee": 0.02,
+            "netIncome": 0.47,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2025-12-07",
+            "actualDate": "2025-12-07",
+            "delayDays": 0,
+            "principal": 1.21,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-01-06",
+            "actualDate": "2026-01-06",
+            "delayDays": 0,
+            "principal": 2.14,
+            "interest": 0.53,
+            "fee": 0.03,
+            "netIncome": 0.5,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-06",
+            "actualDate": "2026-02-06",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.51,
+            "fee": 0.03,
+            "netIncome": 0.48,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-09",
+            "actualDate": "2026-02-09",
+            "delayDays": 0,
+            "principal": 0.71,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-06",
+            "actualDate": "2026-03-06",
+            "delayDays": 0,
+            "principal": 0.74,
+            "interest": 0.45,
+            "fee": 0.02,
+            "netIncome": 0.43,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-06",
+            "actualDate": "2026-04-06",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.5,
+            "fee": 0.03,
+            "netIncome": 0.47,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-09",
+            "actualDate": "2026-04-09",
+            "delayDays": 0,
+            "principal": 14.65,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-13",
+            "actualDate": "2026-04-13",
+            "delayDays": 0,
+            "principal": 38.38,
+            "interest": 0.08,
+            "fee": 0.0,
+            "netIncome": 0.08,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000QU0F1",
+        "loanId": "LVX0000QU0F1",
+        "country": "Sweden",
+        "originator": "Viaconto Sweden AB (SE)",
+        "borrower": "Viaconto Sweden AB (SE)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 21 d.",
+        "investedDate": "2025-12-08",
+        "startDate": "2025-12-07",
+        "plannedEndDate": "2026-05-29",
+        "actualEndDate": "2026-05-28",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 81.1,
+        "principalRepaid": 81.1,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 2.66,
+        "fees": 0.13,
+        "netIncome": 2.53,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-01-07",
+            "actualDate": "2026-01-07",
+            "delayDays": 0,
+            "principal": 21.96,
+            "interest": 0.73,
+            "fee": 0.04,
+            "netIncome": 0.69,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-07",
+            "actualDate": "2026-02-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.55,
+            "fee": 0.03,
+            "netIncome": 0.52,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-10",
+            "actualDate": "2026-02-10",
+            "delayDays": 0,
+            "principal": 1.49,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-07",
+            "actualDate": "2026-03-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.49,
+            "fee": 0.02,
+            "netIncome": 0.47,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-09",
+            "actualDate": "2026-03-09",
+            "delayDays": 0,
+            "principal": 15.31,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-07",
+            "actualDate": "2026-04-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.4,
+            "fee": 0.02,
+            "netIncome": 0.38,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-09",
+            "actualDate": "2026-04-09",
+            "delayDays": 0,
+            "principal": 10.79,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-07",
+            "actualDate": "2026-05-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.29,
+            "fee": 0.01,
+            "netIncome": 0.28,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-28",
+            "actualDate": "2026-05-28",
+            "delayDays": 0,
+            "principal": 31.55,
+            "interest": 0.2,
+            "fee": 0.01,
+            "netIncome": 0.19,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000RLIY2",
+        "loanId": "LVX0000RLIY2",
+        "country": "Latvia",
+        "originator": "SIA VIA SMS (LV)",
+        "borrower": "SIA VIA SMS (LV)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 6 mėn. 1 d.",
+        "investedDate": "2026-01-07",
+        "startDate": "2026-01-07",
+        "plannedEndDate": "2026-07-08",
+        "actualEndDate": "2026-07-07",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 56.8,
+        "principalRepaid": 56.8,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 2.67,
+        "fees": 0.13,
+        "netIncome": 2.54,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-02-07",
+            "actualDate": "2026-02-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.53,
+            "fee": 0.03,
+            "netIncome": 0.5,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-02-14",
+            "actualDate": "2026-02-14",
+            "delayDays": 0,
+            "principal": 4.89,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-07",
+            "actualDate": "2026-03-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.45,
+            "fee": 0.02,
+            "netIncome": 0.43,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-15",
+            "actualDate": "2026-03-15",
+            "delayDays": 0,
+            "principal": 1.46,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-07",
+            "actualDate": "2026-04-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.47,
+            "fee": 0.02,
+            "netIncome": 0.45,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-13",
+            "actualDate": "2026-04-13",
+            "delayDays": 0,
+            "principal": 5.88,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-07",
+            "actualDate": "2026-05-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.4,
+            "fee": 0.02,
+            "netIncome": 0.38,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-07",
+            "actualDate": "2026-06-07",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.42,
+            "fee": 0.02,
+            "netIncome": 0.4,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-07",
+            "actualDate": "2026-07-07",
+            "delayDays": 0,
+            "principal": 44.57,
+            "interest": 0.4,
+            "fee": 0.02,
+            "netIncome": 0.38,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000SFML1",
+        "loanId": "LVX0000SFML1",
+        "country": "Latvia",
+        "originator": "SIA VIA SMS (LV)",
+        "borrower": "SIA VIA SMS (LV)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 6 mėn. 1 d.",
+        "investedDate": "2026-02-15",
+        "startDate": "2026-02-15",
+        "plannedEndDate": "2026-08-16",
+        "actualEndDate": null,
+        "daysRemaining": 19,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 51.51,
+        "principalRepaid": 16.66,
+        "remainingPrincipal": 34.85,
+        "interestReceived": 2.11,
+        "fees": 0.1,
+        "netIncome": 2.01,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-03-15",
+            "actualDate": "2026-03-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.43,
+            "fee": 0.02,
+            "netIncome": 0.41,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-03-22",
+            "actualDate": "2026-03-22",
+            "delayDays": 0,
+            "principal": 2.31,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-04-15",
+            "actualDate": "2026-04-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.46,
+            "fee": 0.02,
+            "netIncome": 0.44,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-15",
+            "actualDate": "2026-05-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.44,
+            "fee": 0.02,
+            "netIncome": 0.42,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-15",
+            "actualDate": "2026-06-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.46,
+            "fee": 0.02,
+            "netIncome": 0.44,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-20",
+            "actualDate": "2026-06-20",
+            "delayDays": 0,
+            "principal": 14.35,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-15",
+            "actualDate": "2026-07-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.32,
+            "fee": 0.02,
+            "netIncome": 0.3,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000T5YE5",
+        "loanId": "LVX0000T5YE5",
+        "country": "Latvia",
+        "originator": "SIA VIA SMS (LV)",
+        "borrower": "SIA VIA SMS (LV)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 2 mėn. 29 d.",
+        "investedDate": "2026-03-23",
+        "startDate": "2026-03-23",
+        "plannedEndDate": "2026-06-21",
+        "actualEndDate": "2026-06-20",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 10.0,
+        "invested": 59.77,
+        "principalRepaid": 59.77,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 1.17,
+        "fees": 0.06,
+        "netIncome": 1.11,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-04-23",
+            "actualDate": "2026-04-23",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.51,
+            "fee": 0.03,
+            "netIncome": 0.48,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-02",
+            "actualDate": "2026-05-02",
+            "delayDays": 0,
+            "principal": 21.01,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-23",
+            "actualDate": "2026-05-23",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.37,
+            "fee": 0.02,
+            "netIncome": 0.35,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-29",
+            "actualDate": "2026-05-29",
+            "delayDays": 0,
+            "principal": 0.95,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-23",
+            "actualDate": "2026-06-20",
+            "delayDays": -3,
+            "principal": 37.81,
+            "interest": 0.29,
+            "fee": 0.01,
+            "netIncome": 0.28,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000TK694",
+        "loanId": "LVX0000TK694",
+        "country": "Sweden",
+        "originator": "Viaconto Sweden AB (SE)",
+        "borrower": "Viaconto Sweden AB (SE)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 29 d.",
+        "investedDate": "2026-04-14",
+        "startDate": "2026-04-14",
+        "plannedEndDate": "2026-10-13",
+        "actualEndDate": null,
+        "daysRemaining": 77,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 54.23,
+        "principalRepaid": 7.69,
+        "remainingPrincipal": 46.54,
+        "interestReceived": 1.36,
+        "fees": 0.06,
+        "netIncome": 1.3,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-05-14",
+            "actualDate": "2026-05-14",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.49,
+            "fee": 0.02,
+            "netIncome": 0.47,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-18",
+            "actualDate": "2026-05-18",
+            "delayDays": 0,
+            "principal": 6.15,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-14",
+            "actualDate": "2026-06-14",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.45,
+            "fee": 0.02,
+            "netIncome": 0.43,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-18",
+            "actualDate": "2026-06-18",
+            "delayDays": 0,
+            "principal": 1.54,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-14",
+            "actualDate": "2026-07-14",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.42,
+            "fee": 0.02,
+            "netIncome": 0.4,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000TKSY9",
+        "loanId": "LVX0000TKSY9",
+        "country": "Sweden",
+        "originator": "Viaconto Sweden AB (SE)",
+        "borrower": "Viaconto Sweden AB (SE)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 29 d.",
+        "investedDate": "2026-04-15",
+        "startDate": "2026-04-15",
+        "plannedEndDate": "2026-10-14",
+        "actualEndDate": null,
+        "daysRemaining": 78,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 50.44,
+        "principalRepaid": 22.7,
+        "remainingPrincipal": 27.74,
+        "interestReceived": 0.97,
+        "fees": 0.04,
+        "netIncome": 0.93,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-05-15",
+            "actualDate": "2026-05-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.46,
+            "fee": 0.02,
+            "netIncome": 0.44,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-19",
+            "actualDate": "2026-05-19",
+            "delayDays": 0,
+            "principal": 22.7,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-15",
+            "actualDate": "2026-06-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.26,
+            "fee": 0.01,
+            "netIncome": 0.25,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-15",
+            "actualDate": "2026-07-15",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.25,
+            "fee": 0.01,
+            "netIncome": 0.24,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000TWW26",
+        "loanId": "LVX0000TWW26",
+        "country": "Latvia",
+        "originator": "SIA VIA SMS (LV)",
+        "borrower": "SIA VIA SMS (LV)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 29 d.",
+        "investedDate": "2026-05-02",
+        "startDate": "2026-05-02",
+        "plannedEndDate": "2026-10-31",
+        "actualEndDate": null,
+        "daysRemaining": 95,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 51.49,
+        "principalRepaid": 12.17,
+        "remainingPrincipal": 39.32,
+        "interestReceived": 0.88,
+        "fees": 0.04,
+        "netIncome": 0.84,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-06-02",
+            "actualDate": "2026-06-02",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.48,
+            "fee": 0.02,
+            "netIncome": 0.46,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-08",
+            "actualDate": "2026-06-08",
+            "delayDays": 0,
+            "principal": 6.71,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-02",
+            "actualDate": "2026-07-02",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.4,
+            "fee": 0.02,
+            "netIncome": 0.38,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-13",
+            "actualDate": "2026-07-13",
+            "delayDays": 0,
+            "principal": 5.46,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000U8E70",
+        "loanId": "LVX0000U8E70",
+        "country": "Latvia",
+        "originator": "SIA VIA SMS (LV)",
+        "borrower": "SIA VIA SMS (LV)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 29 d.",
+        "investedDate": "2026-05-19",
+        "startDate": "2026-05-19",
+        "plannedEndDate": "2026-11-17",
+        "actualEndDate": null,
+        "daysRemaining": 112,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 50.84,
+        "principalRepaid": 14.9,
+        "remainingPrincipal": 35.94,
+        "interestReceived": 0.79,
+        "fees": 0.04,
+        "netIncome": 0.75,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-06-19",
+            "actualDate": "2026-06-19",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.47,
+            "fee": 0.02,
+            "netIncome": 0.45,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-22",
+            "actualDate": "2026-06-22",
+            "delayDays": 0,
+            "principal": 14.9,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-19",
+            "actualDate": "2026-07-19",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.32,
+            "fee": 0.02,
+            "netIncome": 0.3,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000UNB86",
+        "loanId": "LVX0000UNB86",
+        "country": "Sweden",
+        "originator": "Viaconto Sweden AB (SE)",
+        "borrower": "Viaconto Sweden AB (SE)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 28 d.",
+        "investedDate": "2026-06-12",
+        "startDate": "2026-06-12",
+        "plannedEndDate": "2026-12-10",
+        "actualEndDate": null,
+        "daysRemaining": 135,
+        "delayDays": 0,
+        "interestRate": 10.0,
+        "invested": 50.61,
+        "principalRepaid": 2.71,
+        "remainingPrincipal": 47.9,
+        "interestReceived": 0.42,
+        "fees": 0.02,
+        "netIncome": 0.4,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-12",
+            "actualDate": "2026-07-12",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.42,
+            "fee": 0.02,
+            "netIncome": 0.4,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-22",
+            "actualDate": "2026-07-22",
+            "delayDays": 0,
+            "principal": 2.71,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000USE62",
+        "loanId": "LVX0000USE62",
+        "country": "Latvia",
+        "originator": "SIA VIA SMS (LV)",
+        "borrower": "SIA VIA SMS (LV)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 8 mėn. 25 d.",
+        "investedDate": "2026-06-21",
+        "startDate": "2026-06-21",
+        "plannedEndDate": "2027-03-18",
+        "actualEndDate": null,
+        "daysRemaining": 233,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 55.55,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 55.55,
+        "interestReceived": 0.5,
+        "fees": 0.03,
+        "netIncome": 0.47,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-21",
+            "actualDate": "2026-07-21",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.5,
+            "fee": 0.03,
+            "netIncome": 0.47,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "LVX0000V2GD7",
+        "loanId": "LVX0000V2GD7",
+        "country": "Sweden",
+        "originator": "Viaconto Sweden AB (SE)",
+        "borrower": "Viaconto Sweden AB (SE)",
+        "type": "Personal loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 28 d.",
+        "investedDate": "2026-07-13",
+        "startDate": "2026-07-12",
+        "plannedEndDate": "2027-01-10",
+        "actualEndDate": null,
+        "daysRemaining": 166,
+        "delayDays": 0,
+        "interestRate": 10.0,
+        "invested": 60.63,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 60.63,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": []
+      }
+    ]
+  }
+}

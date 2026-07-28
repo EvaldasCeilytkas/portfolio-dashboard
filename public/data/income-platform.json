@@ -1,0 +1,275 @@
+{
+  "name": "Income",
+  "slug": "income",
+  "category": "P2P paskolos",
+  "assetClass": "p2p",
+  "currency": "EUR",
+  "active": true,
+  "website": "https://getincome.com",
+  "invested": 30.0,
+  "value": 30.05,
+  "profit": 0.05,
+  "returnRate": 0.166667,
+  "xirr": 0,
+  "history": [
+    {
+      "date": "2026-07-14",
+      "invested": 20.0,
+      "value": 20.0
+    },
+    {
+      "date": "2026-07-26",
+      "invested": 30.0,
+      "value": 30.0
+    },
+    {
+      "date": "2026-07-27",
+      "invested": 30.0,
+      "value": 30.0
+    },
+    {
+      "date": "2026-07-28",
+      "invested": 30.0,
+      "value": 30.05
+    }
+  ],
+  "analytics": {
+    "startDate": "2026-07-14",
+    "months": 1,
+    "highestValue": 30.05,
+    "averageMonthlyReturn": 0.166667,
+    "maxDrawdown": 0,
+    "winningRate": 100,
+    "volatility": 0,
+    "monthlyPerformance": [
+      {
+        "date": "2026-07",
+        "previousValue": 30.0,
+        "value": 30.05,
+        "monthlyProfit": 0.05,
+        "monthlyReturn": 0.166667
+      }
+    ]
+  },
+  "details": {
+    "type": "p2p",
+    "modules": {
+      "loans": true
+    },
+    "p2pSummary": {
+      "totalLoans": 4,
+      "activeLoans": 3,
+      "completedLoans": 1,
+      "lateLoans": 0,
+      "averageInterestRate": 12.8,
+      "cash": 0.0,
+      "interestReceived": 0.05,
+      "principalRepaid": 11.27,
+      "outstandingPrincipal": 30.05
+    },
+    "cashflow": {
+      "deposited": 30.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.0,
+      "cash": 0.0,
+      "invested": 30.05,
+      "principalRepaid": 11.27,
+      "interestReceived": 0.05,
+      "fees": 0.0,
+      "netIncome": 0.05
+    },
+    "health": {
+      "score": 89,
+      "label": "Puiki būklė",
+      "summary": "Aktyvių vėluojančių paskolų nėra, tačiau portfelis dar nedidelis ir gana koncentruotas.",
+      "largestLoanShare": 37.57,
+      "lateShare": 0.0,
+      "cashShare": 0.0,
+      "metrics": [
+        {
+          "key": "diversification",
+          "label": "Diversifikacija",
+          "score": 19,
+          "max": 20,
+          "description": "4 paskolos ir 3 skirtingi skolintojai."
+        },
+        {
+          "key": "loanQuality",
+          "label": "Paskolų kokybė",
+          "score": 20,
+          "max": 20,
+          "description": "0 aktyvių vėluojančių paskolų."
+        },
+        {
+          "key": "cashEfficiency",
+          "label": "Pinigų efektyvumas",
+          "score": 20,
+          "max": 20,
+          "description": "Laisvų pinigų likutis – 0.00 €."
+        },
+        {
+          "key": "repaymentStability",
+          "label": "Grąžinimų stabilumas",
+          "score": 18,
+          "max": 20,
+          "description": "Vertinama pagal faktinių mokėjimų vėlavimus."
+        },
+        {
+          "key": "concentration",
+          "label": "Koncentracijos rizika",
+          "score": 12,
+          "max": 20,
+          "description": "Didžiausia aktyvi paskola sudaro 37.6 % portfelio."
+        }
+      ]
+    },
+    "history": [
+      {
+        "date": "2026-07-21",
+        "principal": 10.0,
+        "interest": 0.03,
+        "fees": 0.0,
+        "netIncome": 0.03
+      },
+      {
+        "date": "2026-07-23",
+        "principal": 1.27,
+        "interest": 0.02,
+        "fees": 0.0,
+        "netIncome": 0.02
+      }
+    ],
+    "incomeForecast": [
+      {
+        "month": "2026-10",
+        "principal": 10.03,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 10.03
+      },
+      {
+        "month": "2027-01",
+        "principal": 20.02,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 20.02
+      }
+    ],
+    "loans": [
+      {
+        "id": "19883321",
+        "loanId": "19883321",
+        "country": "Estonia",
+        "originator": "Hoovi",
+        "type": "Business loan",
+        "term": "0 m. 6 mėn. 3 d.",
+        "investedDate": "2026-07-14",
+        "startDate": "2026-06-22",
+        "plannedEndDate": "2027-01-17",
+        "actualEndDate": null,
+        "daysRemaining": 173,
+        "delayDays": 0,
+        "interestRate": 10.0,
+        "invested": 10.0,
+        "principalRepaid": 1.27,
+        "remainingPrincipal": 8.73,
+        "interestReceived": 0.02,
+        "fees": 0.0,
+        "netIncome": 0.02,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-17",
+            "actualDate": "2026-07-23",
+            "delayDays": 6,
+            "principal": 1.27,
+            "interest": 0.02,
+            "fee": 0.0,
+            "netIncome": 0.02,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "20191904",
+        "loanId": "20191904",
+        "country": "Indonesia",
+        "originator": "Pinjam Yuk",
+        "type": "Installment loan",
+        "term": "0 m. 2 mėn. 17 d.",
+        "investedDate": "2026-07-14",
+        "startDate": "2026-07-10",
+        "plannedEndDate": "2026-10-01",
+        "actualEndDate": "2026-07-21",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 15.0,
+        "invested": 10.0,
+        "principalRepaid": 10.0,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.03,
+        "fees": 0.0,
+        "netIncome": 0.03,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-10-01",
+            "actualDate": "2026-07-21",
+            "delayDays": -72,
+            "principal": 10.0,
+            "interest": 0.03,
+            "fee": 0.0,
+            "netIncome": 0.03,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "20305579",
+        "loanId": "20305579",
+        "country": "Indonesia",
+        "originator": "Pinjam Yuk",
+        "type": "Installment loan",
+        "term": "0 m. 2 mėn. 13 d.",
+        "investedDate": "2026-07-21",
+        "startDate": "2026-07-17",
+        "plannedEndDate": "2026-10-04",
+        "actualEndDate": null,
+        "daysRemaining": 68,
+        "delayDays": 0,
+        "interestRate": 15.0,
+        "invested": 10.03,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 10.03,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": []
+      },
+      {
+        "id": "20439014",
+        "loanId": "20439014",
+        "country": "Bulgaria",
+        "originator": "ITF Group JSC",
+        "type": "Consumer loan",
+        "term": "0 m. 5 mėn. 29 d.",
+        "investedDate": "2026-07-27",
+        "startDate": "2026-07-27",
+        "plannedEndDate": "2027-01-25",
+        "actualEndDate": null,
+        "daysRemaining": 181,
+        "delayDays": 0,
+        "interestRate": 13.0,
+        "invested": 11.29,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 11.29,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": []
+      }
+    ]
+  }
+}

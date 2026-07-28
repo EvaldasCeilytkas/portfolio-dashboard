@@ -1,0 +1,1 @@
+"""Investicinio portfelio duomenų atnaujinimo skriptų paketas."""

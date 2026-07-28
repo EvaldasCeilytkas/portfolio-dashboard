@@ -1,0 +1,1018 @@
+{
+  "platform": {
+    "name": "Röntgen",
+    "slug": "rontgen",
+    "category": "NT sutelktinis finansavimas",
+    "currency": "EUR",
+    "website": "https://rontgen.lt",
+    "status": "active",
+    "startDate": "2025-11-03",
+    "months": 9,
+    "updatedAt": "2026-07-27",
+    "healthScore": 83,
+    "healthParts": {
+      "diversification": 86,
+      "ratings": 78,
+      "rating": 78,
+      "ltv": 55,
+      "delays": 100,
+      "cash": 100
+    }
+  },
+  "summary": {
+    "deposited": 674.21,
+    "withdrawn": 0.0,
+    "invested": 704.17,
+    "bonuses": 4.0,
+    "cash": 0.5,
+    "repaidPrincipal": 195.83,
+    "interestReceived": 26.46,
+    "extraReceived": 0.0,
+    "portfolioValue": 704.67,
+    "profit": 30.46,
+    "roi": 4.52,
+    "xirr": 7.25,
+    "totalProjects": 9,
+    "activeProjects": 8,
+    "delayedProjects": 0,
+    "repaidProjects": 1,
+    "averageInterest": 7.0,
+    "averageLtv": 64.93,
+    "averageDuration": 11.28
+  },
+  "history": [
+    {
+      "date": "2025-11-30",
+      "invested": 500.0,
+      "value": 502.0,
+      "profit": 2.0,
+      "monthlyProfit": 2.0,
+      "monthlyReturn": 0.4
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 500.0,
+      "value": 502.0,
+      "profit": 2.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 600.0,
+      "value": 607.58,
+      "profit": 7.58,
+      "monthlyProfit": 5.58,
+      "monthlyReturn": 1.11
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 600.0,
+      "value": 607.58,
+      "profit": 7.58,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 600.0,
+      "value": 607.58,
+      "profit": 7.58,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 600.0,
+      "value": 618.13,
+      "profit": 18.13,
+      "monthlyProfit": 10.55,
+      "monthlyReturn": 1.74
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 600.0,
+      "value": 618.13,
+      "profit": 18.13,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 635.07,
+      "value": 654.87,
+      "profit": 19.8,
+      "monthlyProfit": 1.67,
+      "monthlyReturn": 0.27
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 674.21,
+      "value": 704.67,
+      "profit": 30.46,
+      "monthlyProfit": 10.66,
+      "monthlyReturn": 1.63
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-07-31",
+    "invested": 674.21,
+    "value": 704.67,
+    "profit": 30.46,
+    "monthlyProfit": 10.66,
+    "monthlyReturn": 1.63
+  },
+  "largestProject": {
+    "id": "1",
+    "slug": "1",
+    "loanCode": "20250418",
+    "name": "Panemunės apartamentai IX, Kaunas, Panemunė",
+    "investmentDate": "2025-11-03",
+    "interestStart": "2025-11-08",
+    "rating": "B",
+    "ltv": 70.0,
+    "maxLtv": 70.0,
+    "durationMonths": 12,
+    "paymentFrequency": "Q",
+    "interestRate": 7.5,
+    "invested": 100.0,
+    "outstanding": 100.0,
+    "plannedRepayment": "2026-11-09",
+    "actualRepayment": null,
+    "delayDays": 0,
+    "repaidPrincipal": 0.0,
+    "interestReceived": 4.83,
+    "extraReceived": 0.0,
+    "status": "active",
+    "payments": [
+      {
+        "plannedDate": "2026-01-01",
+        "plannedPrincipal": 0.0,
+        "plannedInterest": 1.11,
+        "actualPrincipal": 0.0,
+        "actualInterest": 1.11,
+        "actualExtra": 0.0,
+        "actualDate": "2026-01-01",
+        "delayDays": 0
+      },
+      {
+        "plannedDate": "2026-04-01",
+        "plannedPrincipal": 0.0,
+        "plannedInterest": 1.85,
+        "actualPrincipal": 0.0,
+        "actualInterest": 1.85,
+        "actualExtra": 0.0,
+        "actualDate": "2026-04-01",
+        "delayDays": 0
+      },
+      {
+        "plannedDate": "2026-07-01",
+        "plannedPrincipal": 0.0,
+        "plannedInterest": 1.87,
+        "actualPrincipal": 0.0,
+        "actualInterest": 1.87,
+        "actualExtra": 0.0,
+        "actualDate": "2026-07-01",
+        "delayDays": 0
+      },
+      {
+        "plannedDate": "2026-10-01",
+        "plannedPrincipal": 0.0,
+        "plannedInterest": 0.0,
+        "actualPrincipal": 0.0,
+        "actualInterest": 0.0,
+        "actualExtra": 0.0,
+        "actualDate": null,
+        "delayDays": 0
+      },
+      {
+        "plannedDate": "2026-11-09",
+        "plannedPrincipal": 100.0,
+        "plannedInterest": 0.0,
+        "actualPrincipal": 0.0,
+        "actualInterest": 0.0,
+        "actualExtra": 0.0,
+        "actualDate": null,
+        "delayDays": 0
+      }
+    ],
+    "plannedInterest": 4.83
+  },
+  "distributions": {
+    "rating": [
+      {
+        "label": "A",
+        "count": 1,
+        "value": 100.0
+      },
+      {
+        "label": "A-",
+        "count": 1,
+        "value": 4.17
+      },
+      {
+        "label": "B",
+        "count": 2,
+        "value": 200.0
+      },
+      {
+        "label": "B+",
+        "count": 4,
+        "value": 400.0
+      }
+    ],
+    "ltv": [
+      {
+        "label": "≤ 40 %",
+        "count": 0,
+        "value": 0.0
+      },
+      {
+        "label": "41–50 %",
+        "count": 0,
+        "value": 0.0
+      },
+      {
+        "label": "51–60 %",
+        "count": 3,
+        "value": 204.17
+      },
+      {
+        "label": "61–70 %",
+        "count": 5,
+        "value": 500.0
+      },
+      {
+        "label": "> 70 %",
+        "count": 0,
+        "value": 0.0
+      }
+    ],
+    "interest": [
+      {
+        "label": "< 6 %",
+        "count": 0,
+        "value": 0.0
+      },
+      {
+        "label": "6–6,99 %",
+        "count": 1,
+        "value": 100.0
+      },
+      {
+        "label": "7–7,49 %",
+        "count": 5,
+        "value": 404.17
+      },
+      {
+        "label": "≥ 7,5 %",
+        "count": 2,
+        "value": 200.0
+      }
+    ],
+    "duration": [
+      {
+        "label": "≤ 6 mėn.",
+        "count": 0,
+        "value": 0.0
+      },
+      {
+        "label": "7–9 mėn.",
+        "count": 1,
+        "value": 100.0
+      },
+      {
+        "label": "10–12 mėn.",
+        "count": 7,
+        "value": 604.17
+      },
+      {
+        "label": "13–18 mėn.",
+        "count": 0,
+        "value": 0.0
+      },
+      {
+        "label": "> 18 mėn.",
+        "count": 0,
+        "value": 0.0
+      }
+    ]
+  },
+  "repaymentTimeline": [
+    {
+      "month": "2026-10",
+      "count": 2,
+      "amount": 104.17
+    },
+    {
+      "month": "2026-11",
+      "count": 2,
+      "amount": 200.0
+    },
+    {
+      "month": "2027-01",
+      "count": 2,
+      "amount": 200.0
+    },
+    {
+      "month": "2027-07",
+      "count": 2,
+      "amount": 200.0
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "slug": "1",
+      "loanCode": "20250418",
+      "name": "Panemunės apartamentai IX, Kaunas, Panemunė",
+      "investmentDate": "2025-11-03",
+      "interestStart": "2025-11-08",
+      "rating": "B",
+      "ltv": 70.0,
+      "maxLtv": 70.0,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "interestRate": 7.5,
+      "invested": 100.0,
+      "outstanding": 100.0,
+      "plannedRepayment": "2026-11-09",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 0.0,
+      "interestReceived": 4.83,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.11,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.11,
+          "actualExtra": 0.0,
+          "actualDate": "2026-01-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.85,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.85,
+          "actualExtra": 0.0,
+          "actualDate": "2026-04-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.87,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.87,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-09",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 4.83
+    },
+    {
+      "id": "2",
+      "slug": "2",
+      "loanCode": "20250529",
+      "name": "Riverland III butai VI, Vilnius",
+      "investmentDate": "2025-11-03",
+      "interestStart": "2025-11-08",
+      "rating": "B+",
+      "ltv": 57.0,
+      "maxLtv": 70.0,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "interestRate": 7.0,
+      "invested": 100.0,
+      "outstanding": 100.0,
+      "plannedRepayment": "2026-11-13",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 0.0,
+      "interestReceived": 4.52,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.04,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.04,
+          "actualExtra": 0.0,
+          "actualDate": "2026-01-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.73,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.73,
+          "actualExtra": 0.0,
+          "actualDate": "2026-04-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.75,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.75,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-13",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 4.52
+    },
+    {
+      "id": "3",
+      "slug": "3",
+      "loanCode": "20230607",
+      "name": "Spanguolių takai XXXVIII, Riešė",
+      "investmentDate": "2025-11-04",
+      "interestStart": "2025-11-09",
+      "rating": "A-",
+      "ltv": 53.0,
+      "maxLtv": 58.0,
+      "durationMonths": 11,
+      "paymentFrequency": "Q",
+      "interestRate": 7.0,
+      "invested": 100.0,
+      "outstanding": 4.17,
+      "plannedRepayment": "2026-10-09",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 95.83,
+      "interestReceived": 4.31,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.02,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.02,
+          "actualExtra": 0.0,
+          "actualDate": "2026-01-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.73,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.73,
+          "actualExtra": 0.0,
+          "actualDate": "2026-04-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.17,
+          "actualPrincipal": 45.63,
+          "actualInterest": 1.17,
+          "actualExtra": 0.0,
+          "actualDate": "2026-06-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.31,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.31,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.08,
+          "actualPrincipal": 50.2,
+          "actualInterest": 0.08,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-09",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-09",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 4.31
+    },
+    {
+      "id": "4",
+      "slug": "4",
+      "loanCode": "20250715",
+      "name": "Pylimo g. 57 butai II, Vilnius",
+      "investmentDate": "2025-11-06",
+      "interestStart": "2025-11-12",
+      "rating": "B+",
+      "ltv": 59.0,
+      "maxLtv": 59.0,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "interestRate": 7.0,
+      "invested": 100.0,
+      "outstanding": 100.0,
+      "plannedRepayment": "2026-10-30",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 0.0,
+      "interestReceived": 4.44,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.96,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.96,
+          "actualExtra": 0.0,
+          "actualDate": "2026-01-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.73,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.73,
+          "actualExtra": 0.0,
+          "actualDate": "2026-04-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.75,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.75,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-30",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 4.44
+    },
+    {
+      "id": "5",
+      "slug": "5",
+      "loanCode": "20251031",
+      "name": "ROOTHAUS I, Vilnius",
+      "investmentDate": "2025-11-11",
+      "interestStart": "2025-11-16",
+      "rating": "B+",
+      "ltv": 70.0,
+      "maxLtv": 70.0,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "interestRate": 7.5,
+      "invested": 100.0,
+      "outstanding": 0.0,
+      "plannedRepayment": "2026-11-16",
+      "actualRepayment": "2026-07-09",
+      "delayDays": 0,
+      "repaidPrincipal": 100.0,
+      "interestReceived": 4.83,
+      "extraReceived": 0.0,
+      "status": "repaid",
+      "payments": [
+        {
+          "plannedDate": "2026-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.95,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.95,
+          "actualExtra": 0.0,
+          "actualDate": "2026-01-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.85,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.85,
+          "actualExtra": 0.0,
+          "actualDate": "2026-04-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.87,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.87,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-16",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 0.16,
+          "actualPrincipal": 100.0,
+          "actualInterest": 0.16,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-09",
+          "delayDays": -130
+        }
+      ],
+      "plannedInterest": 4.83
+    },
+    {
+      "id": "6",
+      "slug": "6",
+      "loanCode": "20220721",
+      "name": "UAB „NT reikalas\" projektai VI, Vilnius",
+      "investmentDate": "2026-01-05",
+      "interestStart": "2026-01-10",
+      "rating": "B",
+      "ltv": 65.0,
+      "maxLtv": 70.0,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "interestRate": 7.5,
+      "invested": 100.0,
+      "outstanding": 100.0,
+      "plannedRepayment": "2027-01-12",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 0.0,
+      "interestReceived": 3.53,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.66,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.66,
+          "actualExtra": 0.0,
+          "actualDate": "2026-04-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.87,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.87,
+          "actualExtra": 0.0,
+          "actualDate": "2026-07-01",
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-12",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 3.53
+    },
+    {
+      "id": "7",
+      "slug": "7",
+      "loanCode": "20230414",
+      "name": "Kaip Niujorke XXXVIII, Vilnius",
+      "investmentDate": "2026-06-12",
+      "interestStart": "2026-06-17",
+      "rating": "A",
+      "ltv": 68.0,
+      "maxLtv": 70.0,
+      "durationMonths": 7,
+      "paymentFrequency": "Q",
+      "interestRate": 6.0,
+      "invested": 100.0,
+      "outstanding": 100.0,
+      "plannedRepayment": "2027-01-25",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 0.0,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 0.0
+    },
+    {
+      "id": "8",
+      "slug": "8",
+      "loanCode": "20250804",
+      "name": "UAB „Dear Home\" projektai XV, Vilnius",
+      "investmentDate": "2026-07-13",
+      "interestStart": "2026-07-17",
+      "rating": "B+",
+      "ltv": 66.0,
+      "maxLtv": 70.0,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "interestRate": 7.0,
+      "invested": 100.0,
+      "outstanding": 100.0,
+      "plannedRepayment": "2027-07-25",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 0.0,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 0.0
+    },
+    {
+      "id": "9",
+      "slug": "9",
+      "loanCode": "20260218",
+      "name": "Laikas mėtoms VII, Vilnius",
+      "investmentDate": "2026-07-14",
+      "interestStart": "2026-07-17",
+      "rating": "B+",
+      "ltv": 70.0,
+      "maxLtv": 70.0,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "interestRate": 7.0,
+      "invested": 100.0,
+      "outstanding": 100.0,
+      "plannedRepayment": "2027-07-19",
+      "actualRepayment": null,
+      "delayDays": 0,
+      "repaidPrincipal": 0.0,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "status": "active",
+      "payments": [
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "actualDate": null,
+          "delayDays": 0
+        }
+      ],
+      "plannedInterest": 0.0
+    }
+  ],
+  "dataWarnings": [
+    {
+      "sheet": "Pinigai",
+      "cell": "A9",
+      "sourceValue": "2026-11-07",
+      "usedValue": "2025-11-07",
+      "reason": "Chronologically inconsistent with the platform opening transactions and November 2025 investments."
+    }
+  ]
+}

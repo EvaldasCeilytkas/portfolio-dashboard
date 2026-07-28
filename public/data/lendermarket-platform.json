@@ -1,0 +1,996 @@
+{
+  "name": "Lendermarket",
+  "slug": "lendermarket",
+  "category": "P2P paskolos",
+  "assetClass": "p2p",
+  "currency": "EUR",
+  "active": true,
+  "website": "https://lendermarket.com",
+  "invested": 100.0,
+  "value": 111.79,
+  "profit": 11.79,
+  "returnRate": 11.79,
+  "xirr": 1.135901,
+  "history": [
+    {
+      "date": "2026-03-20",
+      "invested": 0.0,
+      "value": 10.0
+    },
+    {
+      "date": "2026-04-15",
+      "invested": 10.0,
+      "value": 10.0
+    },
+    {
+      "date": "2026-04-23",
+      "invested": 20.0,
+      "value": 20.0
+    },
+    {
+      "date": "2026-05-15",
+      "invested": 30.0,
+      "value": 30.0
+    },
+    {
+      "date": "2026-05-22",
+      "invested": 40.0,
+      "value": 40.0
+    },
+    {
+      "date": "2026-06-12",
+      "invested": 50.0,
+      "value": 50.0
+    },
+    {
+      "date": "2026-06-19",
+      "invested": 60.0,
+      "value": 60.45
+    },
+    {
+      "date": "2026-06-24",
+      "invested": 70.0,
+      "value": 70.0
+    },
+    {
+      "date": "2026-07-01",
+      "invested": 80.0,
+      "value": 80.0
+    },
+    {
+      "date": "2026-07-02",
+      "invested": 90.0,
+      "value": 90.0
+    },
+    {
+      "date": "2026-07-14",
+      "invested": 100.0,
+      "value": 100.0
+    },
+    {
+      "date": "2026-07-28",
+      "invested": 100.0,
+      "value": 111.79
+    }
+  ],
+  "analytics": {
+    "startDate": "2026-03-20",
+    "months": 5,
+    "highestValue": 111.79,
+    "averageMonthlyReturn": 11.79,
+    "maxDrawdown": 0,
+    "winningRate": 100,
+    "volatility": 0,
+    "monthlyPerformance": [
+      {
+        "date": "2026-07",
+        "previousValue": 100.0,
+        "value": 111.79,
+        "monthlyProfit": 11.79,
+        "monthlyReturn": 11.79
+      }
+    ]
+  },
+  "details": {
+    "type": "p2p",
+    "modules": {
+      "loans": true
+    },
+    "p2pSummary": {
+      "totalLoans": 13,
+      "activeLoans": 9,
+      "completedLoans": 3,
+      "lateLoans": 1,
+      "averageInterestRate": 10.92,
+      "cash": 6.35,
+      "interestReceived": 1.03,
+      "principalRepaid": 53.99,
+      "outstandingPrincipal": 108.65
+    },
+    "cashflow": {
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonuses": 10.45,
+      "cash": 6.35,
+      "invested": 105.44,
+      "principalRepaid": 53.99,
+      "interestReceived": 1.03,
+      "fees": 0.0,
+      "netIncome": 11.48
+    },
+    "health": {
+      "score": 84,
+      "label": "Gera būklė",
+      "summary": "Portfelyje yra vėluojančių paskolų.",
+      "largestLoanShare": 15.87,
+      "lateShare": 11.52,
+      "cashShare": 5.68,
+      "metrics": [
+        {
+          "key": "diversification",
+          "label": "Diversifikacija",
+          "score": 20,
+          "max": 20,
+          "description": "Portfelyje yra 13 paskola(-os)."
+        },
+        {
+          "key": "loanQuality",
+          "label": "Paskolų kokybė",
+          "score": 8,
+          "max": 20,
+          "description": "Aktyvių vėluojančių paskolų: 1."
+        },
+        {
+          "key": "cashEfficiency",
+          "label": "Pinigų efektyvumas",
+          "score": 17,
+          "max": 20,
+          "description": "Laisvų pinigų likutis – 6.35 €."
+        },
+        {
+          "key": "repaymentStability",
+          "label": "Grąžinimų stabilumas",
+          "score": 19,
+          "max": 20,
+          "description": "Vertinama pagal faktinius grąžinimus."
+        },
+        {
+          "key": "concentration",
+          "label": "Koncentracijos rizika",
+          "score": 20,
+          "max": 20,
+          "description": "Didžiausia paskola sudaro 15.9 % portfelio."
+        }
+      ]
+    },
+    "history": [
+      {
+        "date": "2026-04-15",
+        "principal": 0.79,
+        "interest": 0.07,
+        "fees": 0.0,
+        "netIncome": 0.07
+      },
+      {
+        "date": "2026-04-23",
+        "principal": 1.75,
+        "interest": 0.01,
+        "fees": 0.0,
+        "netIncome": 0.01
+      },
+      {
+        "date": "2026-05-10",
+        "principal": 11.76,
+        "interest": 0.06,
+        "fees": 0.0,
+        "netIncome": 0.06
+      },
+      {
+        "date": "2026-05-15",
+        "principal": 0.8,
+        "interest": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09
+      },
+      {
+        "date": "2026-05-22",
+        "principal": 1.78,
+        "interest": 0.07,
+        "fees": 0.0,
+        "netIncome": 0.07
+      },
+      {
+        "date": "2026-05-25",
+        "principal": 11.82,
+        "interest": 0.05,
+        "fees": 0.0,
+        "netIncome": 0.05
+      },
+      {
+        "date": "2026-05-27",
+        "principal": 0.91,
+        "interest": 0.03,
+        "fees": 0.0,
+        "netIncome": 0.03
+      },
+      {
+        "date": "2026-06-01",
+        "principal": 1.16,
+        "interest": 0.01,
+        "fees": 0.0,
+        "netIncome": 0.01
+      },
+      {
+        "date": "2026-06-02",
+        "principal": 1.81,
+        "interest": 0.01,
+        "fees": 0.0,
+        "netIncome": 0.01
+      },
+      {
+        "date": "2026-06-15",
+        "principal": 0.81,
+        "interest": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08
+      },
+      {
+        "date": "2026-06-18",
+        "principal": 1.08,
+        "interest": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09
+      },
+      {
+        "date": "2026-06-23",
+        "principal": 1.81,
+        "interest": 0.06,
+        "fees": 0.0,
+        "netIncome": 0.06
+      },
+      {
+        "date": "2026-06-24",
+        "principal": 0.92,
+        "interest": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09
+      },
+      {
+        "date": "2026-06-30",
+        "principal": 3.19,
+        "interest": 0.05,
+        "fees": 0.0,
+        "netIncome": 0.05
+      },
+      {
+        "date": "2026-07-02",
+        "principal": 9.84,
+        "interest": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09
+      },
+      {
+        "date": "2026-07-13",
+        "principal": 0.18,
+        "interest": 0.04,
+        "fees": 0.0,
+        "netIncome": 0.04
+      },
+      {
+        "date": "2026-07-14",
+        "principal": 0.81,
+        "interest": 0.07,
+        "fees": 0.0,
+        "netIncome": 0.07
+      },
+      {
+        "date": "2026-07-16",
+        "principal": 1.09,
+        "interest": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09
+      },
+      {
+        "date": "2026-07-21",
+        "principal": 1.81,
+        "interest": 0.04,
+        "fees": 0.0,
+        "netIncome": 0.04
+      },
+      {
+        "date": "2026-07-27",
+        "principal": 0.89,
+        "interest": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09
+      },
+      {
+        "date": "2026-07-28",
+        "principal": 2.19,
+        "interest": 0.15,
+        "fees": 0.0,
+        "netIncome": 0.15
+      }
+    ],
+    "incomeForecast": [
+      {
+        "month": "2026-09",
+        "principal": 13.51,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 13.51
+      },
+      {
+        "month": "2027-03",
+        "principal": 40.25,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 40.25
+      },
+      {
+        "month": "2027-04",
+        "principal": 17.85,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 17.85
+      },
+      {
+        "month": "2027-05",
+        "principal": 11.1,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 11.1
+      },
+      {
+        "month": "2029-12",
+        "principal": 13.06,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 13.06
+      }
+    ],
+    "loans": [
+      {
+        "id": "c1e3c30d-de81-49b6-a7b5-77be994b7d06",
+        "loanId": "c1e3c30d-de81-49b6-a7b5-77be994b7d06",
+        "country": "Spain",
+        "originator": "Creditstar Spain",
+        "borrower": "Creditstar Spain",
+        "type": "Unregulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 11 mėn. 20 d.",
+        "investedDate": "2026-03-20",
+        "startDate": "2026-03-17",
+        "plannedEndDate": "2027-03-12",
+        "actualEndDate": null,
+        "daysRemaining": 227,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 10.0,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 10.0,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-04-15",
+            "actualDate": "2026-04-15",
+            "delayDays": 0,
+            "principal": 0.79,
+            "interest": 0.07,
+            "fee": 0.0,
+            "netIncome": 0.07,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-15",
+            "actualDate": "2026-05-15",
+            "delayDays": 0,
+            "principal": 0.8,
+            "interest": 0.09,
+            "fee": 0.0,
+            "netIncome": 0.09,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-15",
+            "actualDate": "2026-06-15",
+            "delayDays": 0,
+            "principal": 0.81,
+            "interest": 0.08,
+            "fee": 0.0,
+            "netIncome": 0.08,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-15",
+            "actualDate": "2026-07-14",
+            "delayDays": -1,
+            "principal": 0.81,
+            "interest": 0.07,
+            "fee": 0.0,
+            "netIncome": 0.07,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-08-14",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3421733887",
+        "loanId": "8945000DP4C3YFA45N3421733887",
+        "country": "Estonia",
+        "originator": "Gatelink",
+        "borrower": "Gatelink",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 5 mėn. 5 d.",
+        "investedDate": "2026-04-15",
+        "startDate": "2026-03-24",
+        "plannedEndDate": "2026-09-20",
+        "actualEndDate": null,
+        "daysRemaining": 54,
+        "delayDays": 0,
+        "interestRate": 9.0,
+        "invested": 10.86,
+        "principalRepaid": 7.15,
+        "remainingPrincipal": 3.71,
+        "interestReceived": 0.18,
+        "fees": 0.0,
+        "netIncome": 0.18,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-04-23",
+            "actualDate": "2026-04-23",
+            "delayDays": 0,
+            "principal": 1.75,
+            "interest": 0.01,
+            "fee": 0.0,
+            "netIncome": 0.01,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-05-23",
+            "actualDate": "2026-05-22",
+            "delayDays": -1,
+            "principal": 1.78,
+            "interest": 0.07,
+            "fee": 0.0,
+            "netIncome": 0.07,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-22",
+            "actualDate": "2026-06-23",
+            "delayDays": 1,
+            "principal": 1.81,
+            "interest": 0.06,
+            "fee": 0.0,
+            "netIncome": 0.06,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-22",
+            "actualDate": "2026-07-21",
+            "delayDays": -1,
+            "principal": 1.81,
+            "interest": 0.04,
+            "fee": 0.0,
+            "netIncome": 0.04,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-08-21",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3431985084",
+        "loanId": "8945000DP4C3YFA45N3431985084",
+        "country": "Spain",
+        "originator": "Dineo",
+        "borrower": "Dineo",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 0 mėn. 29 d.",
+        "investedDate": "2026-04-23",
+        "startDate": "2026-04-22",
+        "plannedEndDate": "2026-05-22",
+        "actualEndDate": "2026-05-10",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 12.0,
+        "invested": 11.76,
+        "principalRepaid": 11.76,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.06,
+        "fees": 0.0,
+        "netIncome": 0.06,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-05-22",
+            "actualDate": "2026-05-10",
+            "delayDays": -12,
+            "principal": 11.76,
+            "interest": 0.06,
+            "fee": 0.0,
+            "netIncome": 0.06,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3480247173",
+        "loanId": "8945000DP4C3YFA45N3480247173",
+        "country": "Spain",
+        "originator": "Dineo",
+        "borrower": "Dineo",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 0 mėn. 29 d.",
+        "investedDate": "2026-05-10",
+        "startDate": "2026-05-09",
+        "plannedEndDate": "2026-06-08",
+        "actualEndDate": "2026-05-25",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 12.0,
+        "invested": 11.82,
+        "principalRepaid": 11.82,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.05,
+        "fees": 0.0,
+        "netIncome": 0.05,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-06-08",
+            "actualDate": "2026-05-25",
+            "delayDays": -14,
+            "principal": 11.82,
+            "interest": 0.05,
+            "fee": 0.0,
+            "netIncome": 0.05,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3413742182",
+        "loanId": "8945000DP4C3YFA45N3413742182",
+        "country": "Czech Rep.",
+        "originator": "Flowpay",
+        "borrower": "Flowpay",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 11 mėn. 12 d.",
+        "investedDate": "2026-05-15",
+        "startDate": "2026-04-27",
+        "plannedEndDate": "2027-04-27",
+        "actualEndDate": null,
+        "daysRemaining": 273,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 10.89,
+        "principalRepaid": 2.72,
+        "remainingPrincipal": 8.17,
+        "interestReceived": 0.21,
+        "fees": 0.0,
+        "netIncome": 0.21,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-05-27",
+            "actualDate": "2026-05-27",
+            "delayDays": 0,
+            "principal": 0.91,
+            "interest": 0.03,
+            "fee": 0.0,
+            "netIncome": 0.03,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-27",
+            "actualDate": "2026-06-24",
+            "delayDays": -3,
+            "principal": 0.92,
+            "interest": 0.09,
+            "fee": 0.0,
+            "netIncome": 0.09,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-27",
+            "actualDate": "2026-07-27",
+            "delayDays": 0,
+            "principal": 0.89,
+            "interest": 0.09,
+            "fee": 0.0,
+            "netIncome": 0.09,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3413372056",
+        "loanId": "8945000DP4C3YFA45N3413372056",
+        "country": "Czech Rep.",
+        "originator": "Flowpay",
+        "borrower": "Flowpay",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 10 mėn. 27 d.",
+        "investedDate": "2026-05-22",
+        "startDate": "2026-04-16",
+        "plannedEndDate": "2027-04-18",
+        "actualEndDate": null,
+        "daysRemaining": 264,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 11.85,
+        "principalRepaid": 2.17,
+        "remainingPrincipal": 9.68,
+        "interestReceived": 0.18,
+        "fees": 0.0,
+        "netIncome": 0.18,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-06-18",
+            "actualDate": "2026-06-18",
+            "delayDays": 0,
+            "principal": 1.08,
+            "interest": 0.09,
+            "fee": 0.0,
+            "netIncome": 0.09,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-18",
+            "actualDate": "2026-07-16",
+            "delayDays": -2,
+            "principal": 1.09,
+            "interest": 0.09,
+            "fee": 0.0,
+            "netIncome": 0.09,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-08-18",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3432815787",
+        "loanId": "8945000DP4C3YFA45N3432815787",
+        "country": "Czech Rep.",
+        "originator": "Flowpay",
+        "borrower": "Flowpay",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 10 mėn. 3 d.",
+        "investedDate": "2026-05-27",
+        "startDate": "2026-03-27",
+        "plannedEndDate": "2027-03-30",
+        "actualEndDate": "2026-07-02",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 12.81,
+        "principalRepaid": 12.81,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.11,
+        "fees": 0.0,
+        "netIncome": 0.11,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-05-30",
+            "actualDate": "2026-06-01",
+            "delayDays": 2,
+            "principal": 1.16,
+            "interest": 0.01,
+            "fee": 0.0,
+            "netIncome": 0.01,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-06-30",
+            "actualDate": "2026-06-02",
+            "delayDays": -28,
+            "principal": 1.81,
+            "interest": 0.01,
+            "fee": 0.0,
+            "netIncome": 0.01,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-30",
+            "actualDate": "2026-07-02",
+            "delayDays": -28,
+            "principal": 9.84,
+            "interest": 0.09,
+            "fee": 0.0,
+            "netIncome": 0.09,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3430165789",
+        "loanId": "8945000DP4C3YFA45N3430165789",
+        "country": "Estonia",
+        "originator": "Gatelink",
+        "borrower": "Gatelink",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 3 mėn. 17 d.",
+        "investedDate": "2026-06-12",
+        "startDate": "2026-06-01",
+        "plannedEndDate": "2026-09-29",
+        "actualEndDate": null,
+        "daysRemaining": 63,
+        "delayDays": 0,
+        "interestRate": 9.0,
+        "invested": 12.99,
+        "principalRepaid": 3.19,
+        "remainingPrincipal": 9.8,
+        "interestReceived": 0.05,
+        "fees": 0.0,
+        "netIncome": 0.05,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-01",
+            "actualDate": "2026-06-30",
+            "delayDays": -1,
+            "principal": 3.19,
+            "interest": 0.05,
+            "fee": 0.0,
+            "netIncome": 0.05,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-07-31",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3431128353",
+        "loanId": "8945000DP4C3YFA45N3431128353",
+        "country": "Czech Rep.",
+        "originator": "Flowpay",
+        "borrower": "Flowpay",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 8 mėn. 14 d.",
+        "investedDate": "2026-06-19",
+        "startDate": "2026-03-03",
+        "plannedEndDate": "2027-03-05",
+        "actualEndDate": null,
+        "daysRemaining": 220,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 12.51,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 12.51,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-09-05",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3489849864",
+        "loanId": "8945000DP4C3YFA45N3489849864",
+        "country": "Spain",
+        "originator": "Dineo",
+        "borrower": "Dineo",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 0 mėn. 29 d.",
+        "investedDate": "2026-06-24",
+        "startDate": "2026-06-23",
+        "plannedEndDate": "2026-07-23",
+        "actualEndDate": null,
+        "daysRemaining": 0,
+        "delayDays": 5,
+        "interestRate": 12.0,
+        "invested": 12.88,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 12.88,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "late",
+        "payments": [
+          {
+            "plannedDate": "2026-07-23",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3460847714",
+        "loanId": "8945000DP4C3YFA45N3460847714",
+        "country": "Estonia",
+        "originator": "Gatelink",
+        "borrower": "Gatelink",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "3 m. 5 mėn. 21 d.",
+        "investedDate": "2026-07-01",
+        "startDate": "2026-06-11",
+        "plannedEndDate": "2029-12-22",
+        "actualEndDate": null,
+        "daysRemaining": 1243,
+        "delayDays": 0,
+        "interestRate": 12.5,
+        "invested": 13.24,
+        "principalRepaid": 0.18,
+        "remainingPrincipal": 13.06,
+        "interestReceived": 0.04,
+        "fees": 0.0,
+        "netIncome": 0.04,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-10",
+            "actualDate": "2026-07-13",
+            "delayDays": 3,
+            "principal": 0.18,
+            "interest": 0.04,
+            "fee": 0.0,
+            "netIncome": 0.04,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-08-10",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3469604165",
+        "loanId": "8945000DP4C3YFA45N3469604165",
+        "country": "Czech Rep.",
+        "originator": "Flowpay",
+        "borrower": "Flowpay",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 8 mėn. 16 d.",
+        "investedDate": "2026-07-02",
+        "startDate": "2026-03-27",
+        "plannedEndDate": "2027-03-18",
+        "actualEndDate": null,
+        "daysRemaining": 233,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 19.93,
+        "principalRepaid": 2.19,
+        "remainingPrincipal": 17.74,
+        "interestReceived": 0.15,
+        "fees": 0.0,
+        "netIncome": 0.15,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-28",
+            "actualDate": "2026-07-28",
+            "delayDays": 0,
+            "principal": 2.19,
+            "interest": 0.15,
+            "fee": 0.0,
+            "netIncome": 0.15,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "8945000DP4C3YFA45N3453716086",
+        "loanId": "8945000DP4C3YFA45N3453716086",
+        "country": "Czech Rep.",
+        "originator": "Flowpay",
+        "borrower": "Flowpay",
+        "type": "Regulated service",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 10 mėn. 15 d.",
+        "investedDate": "2026-07-16",
+        "startDate": "2026-06-01",
+        "plannedEndDate": "2027-05-31",
+        "actualEndDate": null,
+        "daysRemaining": 307,
+        "delayDays": 0,
+        "interestRate": 11.0,
+        "invested": 11.1,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 11.1,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-31",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      }
+    ]
+  }
+}

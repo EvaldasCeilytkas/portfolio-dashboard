@@ -1,0 +1,63 @@
+:root {
+  /* Pagrindiniai fonai */
+
+  --color-bg: #07101f;
+  --color-bg-soft: #0a1426;
+
+  --color-surface: rgba(15, 23, 42, 0.9);
+  --color-surface-strong: #0f172a;
+  --color-surface-soft: rgba(15, 23, 42, 0.62);
+  --color-surface-hover: rgba(30, 41, 59, 0.95);
+
+  /* Tekstas */
+
+  --color-text: #f8fafc;
+  --color-text-soft: #cbd5e1;
+  --color-muted: #94a3b8;
+  --color-muted-dark: #64748b;
+
+  /* Pagrindinės spalvos */
+
+  --color-primary: #3b82f6;
+  --color-primary-light: #60a5fa;
+  --color-primary-soft: #93c5fd;
+
+  --color-success: #34d399;
+  --color-danger: #fb7185;
+  --color-warning: #fbbf24;
+
+  /* Rėmeliai */
+
+  --border-color: rgba(148, 163, 184, 0.16);
+  --border-color-strong: rgba(148, 163, 184, 0.22);
+  --border-primary: rgba(96, 165, 250, 0.3);
+
+  /* Kampai */
+
+  --radius-xs: 9px;
+  --radius-sm: 13px;
+  --radius-md: 18px;
+  --radius-lg: 22px;
+  --radius-xl: 24px;
+  --radius-round: 999px;
+
+  /* Šešėliai */
+
+  --shadow-small: 0 12px 30px rgba(2, 6, 23, 0.25);
+  --shadow-card: 0 20px 60px rgba(2, 6, 23, 0.3);
+  --shadow-tooltip: 0 18px 45px rgba(0, 0, 0, 0.35);
+
+  /* Tarpai */
+
+  --space-1: 6px;
+  --space-2: 10px;
+  --space-3: 14px;
+  --space-4: 18px;
+  --space-5: 24px;
+  --space-6: 30px;
+  --space-7: 40px;
+
+  /* Perėjimai */
+
+  --transition-fast: 0.2s ease;
+}

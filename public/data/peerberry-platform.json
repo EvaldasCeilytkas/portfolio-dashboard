@@ -1,0 +1,258 @@
+{
+  "name": "PeerBerry",
+  "slug": "peerberry",
+  "category": "P2P paskolos",
+  "assetClass": "p2p",
+  "currency": "EUR",
+  "active": true,
+  "website": "https://peerberry.com",
+  "invested": 20.0,
+  "value": 20.16,
+  "profit": 0.16,
+  "returnRate": 0.8,
+  "xirr": 9.213313,
+  "history": [
+    {
+      "date": "2026-06-30",
+      "invested": 20.0,
+      "value": 20.0
+    },
+    {
+      "date": "2026-07-28",
+      "invested": 20.0,
+      "value": 20.16
+    }
+  ],
+  "analytics": {
+    "startDate": "2026-06-30",
+    "months": 2,
+    "highestValue": 20.16,
+    "averageMonthlyReturn": 0.8,
+    "maxDrawdown": 0,
+    "winningRate": 100,
+    "volatility": 0,
+    "monthlyPerformance": [
+      {
+        "date": "2026-07",
+        "previousValue": 20.0,
+        "value": 20.16,
+        "monthlyProfit": 0.16,
+        "monthlyReturn": 0.8
+      }
+    ]
+  },
+  "details": {
+    "type": "p2p",
+    "modules": {
+      "loans": true
+    },
+    "p2pSummary": {
+      "totalLoans": 2,
+      "activeLoans": 2,
+      "completedLoans": 0,
+      "lateLoans": 0,
+      "averageInterestRate": 8.75,
+      "cash": 0.16,
+      "interestReceived": 0.16,
+      "principalRepaid": 0.0,
+      "outstandingPrincipal": 20.0
+    },
+    "cashflow": {
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.0,
+      "cash": 0.16,
+      "invested": 20.0,
+      "principalRepaid": 0.0,
+      "interestReceived": 0.16,
+      "fees": 0.0,
+      "netIncome": 0.16
+    },
+    "health": {
+      "score": 82,
+      "label": "Gera būklė",
+      "summary": "Paskolos nevėluoja ir portfelis yra diversifikuotas.",
+      "largestLoanShare": 49.6,
+      "lateShare": 0.0,
+      "cashShare": 0.79,
+      "metrics": [
+        {
+          "key": "diversification",
+          "label": "Diversifikacija",
+          "score": 7,
+          "max": 20,
+          "description": "Portfelyje yra 2 paskolos."
+        },
+        {
+          "key": "loanQuality",
+          "label": "Paskolų kokybė",
+          "score": 20,
+          "max": 20,
+          "description": "Aktyvių vėluojančių paskolų: 0."
+        },
+        {
+          "key": "cashEfficiency",
+          "label": "Pinigų efektyvumas",
+          "score": 20,
+          "max": 20,
+          "description": "Laisvų pinigų likutis – 0.16 €."
+        },
+        {
+          "key": "repaymentStability",
+          "label": "Grąžinimų stabilumas",
+          "score": 19,
+          "max": 20,
+          "description": "Vertinama pagal faktinių grąžinimų istoriją."
+        },
+        {
+          "key": "concentration",
+          "label": "Koncentracijos rizika",
+          "score": 16,
+          "max": 20,
+          "description": "Didžiausia paskola sudaro 49.6 % portfelio."
+        }
+      ]
+    },
+    "history": [
+      {
+        "date": "2026-07-24",
+        "principal": 0.0,
+        "interest": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08
+      },
+      {
+        "date": "2026-07-24",
+        "principal": 0.0,
+        "interest": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08
+      }
+    ],
+    "incomeForecast": [
+      {
+        "month": "2026-09",
+        "principal": 20.0,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 20.0
+      }
+    ],
+    "loans": [
+      {
+        "id": "26575267",
+        "loanId": "26575267",
+        "country": "Romania",
+        "originator": "A Credit RO",
+        "borrower": "A Credit RO",
+        "type": "Short Term Loan",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 3 mėn. 0 d.",
+        "investedDate": "2026-06-24",
+        "startDate": "2026-06-24",
+        "plannedEndDate": "2026-09-24",
+        "actualEndDate": null,
+        "daysRemaining": 58,
+        "delayDays": 0,
+        "interestRate": 9.0,
+        "invested": 10.0,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 10.0,
+        "interestReceived": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-24",
+            "actualDate": "2026-07-24",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.08,
+            "fee": 0.0,
+            "netIncome": 0.08,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-08-24",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          },
+          {
+            "plannedDate": "2026-09-24",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "26575281",
+        "loanId": "26575281",
+        "country": "Lithuania",
+        "originator": "Aventus Group",
+        "borrower": "Aventus Group",
+        "type": "Business",
+        "collateral": "Be užstato",
+        "ltv": 0.0,
+        "term": "0 m. 3 mėn. 0 d.",
+        "investedDate": "2026-06-24",
+        "startDate": "2026-06-24",
+        "plannedEndDate": "2026-09-24",
+        "actualEndDate": null,
+        "daysRemaining": 58,
+        "delayDays": 0,
+        "interestRate": 8.5,
+        "invested": 10.0,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 10.0,
+        "interestReceived": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-07-24",
+            "actualDate": "2026-07-24",
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.08,
+            "fee": 0.0,
+            "netIncome": 0.08,
+            "status": "paid"
+          },
+          {
+            "plannedDate": "2026-08-24",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          },
+          {
+            "plannedDate": "2026-09-24",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      }
+    ]
+  }
+}

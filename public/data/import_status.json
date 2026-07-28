@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 9,
+  "generatedAt": "2026-07-28T22:10:47+03:00",
+  "durationSeconds": 38.201,
+  "portfolioJsonBytes": 6054560,
+  "portfolioUpdatedAt": "2026-06-30",
+  "platforms": [
+    {
+      "platformName": "SEB Fondai",
+      "moduleType": "brokerage",
+      "sourceFile": "SEB Fondai.xlsx",
+      "status": "ok",
+      "records": 2,
+      "latestDataDate": "2026-06-30",
+      "durationSeconds": 9.452,
+      "error": "",
+      "task": "update_brokers.py"
+    },
+    {
+      "platformName": "SEB Mikro",
+      "moduleType": "brokerage",
+      "sourceFile": "Mikro VPLT038884.xlsx",
+      "status": "ok",
+      "records": 13,
+      "latestDataDate": "2026-07-01",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "SEB Robo",
+      "moduleType": "brokerage",
+      "sourceFile": "SEB Robo.xlsx",
+      "status": "ok",
+      "records": 5,
+      "latestDataDate": "2026-07-31",
+      "durationSeconds": 9.452,
+      "error": "",
+      "task": "update_brokers.py"
+    },
+    {
+      "platformName": "Revolut Brokerage",
+      "moduleType": "brokerage",
+      "sourceFile": "Revolut Brokerage.xlsx",
+      "status": "ok",
+      "records": 12,
+      "latestDataDate": "2026-07-01",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "Revolut Robo",
+      "moduleType": "brokerage",
+      "sourceFile": "Revolut Robo.xlsx",
+      "status": "ok",
+      "records": 17,
+      "latestDataDate": "2026-06-30",
+      "durationSeconds": 9.452,
+      "error": "",
+      "task": "update_brokers.py"
+    },
+    {
+      "platformName": "Synergy",
+      "moduleType": "brokerage",
+      "sourceFile": "Synergy.xlsx",
+      "status": "ok",
+      "records": 2,
+      "latestDataDate": "2026-06-30",
+      "durationSeconds": 9.452,
+      "error": "",
+      "task": "update_brokers.py"
+    },
+    {
+      "platformName": "Profitus",
+      "moduleType": "brokerage",
+      "sourceFile": "Profitus.xlsx",
+      "status": "ok",
+      "records": 0,
+      "latestDataDate": "2026-06-30",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "Nordstreet",
+      "moduleType": "brokerage",
+      "sourceFile": "Nordstreet.xlsx",
+      "status": "ok",
+      "records": 0,
+      "latestDataDate": "2026-06-30",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "Indemo",
+      "moduleType": "brokerage",
+      "sourceFile": "Indemo.xlsx",
+      "status": "ok",
+      "records": 87,
+      "latestDataDate": "2026-07-01",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "Crowdpear",
+      "moduleType": "brokerage",
+      "sourceFile": "Crowdpear.xlsx",
+      "status": "ok",
+      "records": 0,
+      "latestDataDate": "2026-06-30",
+      "durationSeconds": 1.139,
+      "error": "",
+      "task": "update_crowdpear.py"
+    },
+    {
+      "platformName": "Scramble",
+      "moduleType": "p2p",
+      "sourceFile": "Scramble.xlsx",
+      "status": "ok",
+      "records": 14,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 4.615,
+      "error": "",
+      "task": "update_scramble.py"
+    },
+    {
+      "platformName": "Nectaro",
+      "moduleType": "p2p",
+      "sourceFile": "Nectaro.xlsx",
+      "status": "ok",
+      "records": 43,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 0.851,
+      "error": "",
+      "task": "update_nectaro.py"
+    },
+    {
+      "platformName": "Debitum",
+      "moduleType": "p2p",
+      "sourceFile": "Debitum.xlsx",
+      "status": "ok",
+      "records": 14,
+      "latestDataDate": "2026-07-01",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "Viainvest",
+      "moduleType": "p2p",
+      "sourceFile": "Viainvest.xlsx",
+      "status": "ok",
+      "records": 14,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 4.974,
+      "error": "",
+      "task": "update_viainvest.py"
+    },
+    {
+      "platformName": "Rontgen",
+      "moduleType": "brokerage",
+      "sourceFile": "Rontgen.xlsx",
+      "status": "ok",
+      "records": 0,
+      "latestDataDate": "2026-06-30",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "Afranga",
+      "moduleType": "p2p",
+      "sourceFile": "Afranga.xlsx",
+      "status": "ok",
+      "records": 11,
+      "latestDataDate": "2026-07-01",
+      "durationSeconds": 10.925,
+      "error": "",
+      "task": "update_portfolio.py"
+    },
+    {
+      "platformName": "Lendermarket",
+      "moduleType": "p2p",
+      "sourceFile": "Lendermarket.xlsx",
+      "status": "ok",
+      "records": 13,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 0.394,
+      "error": "",
+      "task": "update_lendermarket.py"
+    },
+    {
+      "platformName": "Loanch",
+      "moduleType": "p2p",
+      "sourceFile": "Loanch.xlsx",
+      "status": "ok",
+      "records": 9,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 0.326,
+      "error": "",
+      "task": "update_loanch.py"
+    },
+    {
+      "platformName": "PeerBerry",
+      "moduleType": "p2p",
+      "sourceFile": "PeerBerry.xlsx",
+      "status": "ok",
+      "records": 2,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 4.983,
+      "error": "",
+      "task": "update_peerberry.py"
+    },
+    {
+      "platformName": "Income",
+      "moduleType": "p2p",
+      "sourceFile": "Income.xlsx",
+      "status": "ok",
+      "records": 4,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 0.299,
+      "error": "",
+      "task": "update_income.py"
+    },
+    {
+      "platformName": "Lande",
+      "moduleType": "p2p",
+      "sourceFile": "Lande.xlsx",
+      "status": "ok",
+      "records": 1,
+      "latestDataDate": "2026-07-28",
+      "durationSeconds": 0.236,
+      "error": "",
+      "task": "update_lande.py"
+    }
+  ],
+  "summary": {
+    "total": 21,
+    "ok": 21,
+    "failed": 0
+  }
+}

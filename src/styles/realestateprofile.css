@@ -1,0 +1,503 @@
+.re-profile {
+  width: 100%;
+  display: grid;
+  gap: 18px;
+  color: #f4f6fa;
+}
+
+.re-hero,
+.re-summary-card,
+.re-insight-grid article,
+.re-panel {
+  border: 1px solid rgba(132, 153, 184, 0.16);
+  background: #0d1729;
+  box-shadow: 0 20px 50px rgba(1, 7, 17, 0.14);
+}
+
+.re-hero {
+  min-height: 220px;
+  padding: 32px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background:
+    radial-gradient(circle at 94% 15%, rgba(255, 99, 32, 0.15), transparent 26%),
+    radial-gradient(circle at 82% 80%, rgba(48, 118, 255, 0.12), transparent 30%),
+    #0d1729;
+}
+
+.re-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.re-logo {
+  width: 68px;
+  height: 68px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  border: 2px solid #ff6b2b;
+  background: #f4f4f2;
+  color: #ef5d52;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.re-kicker {
+  color: #ff6b2b;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.re-hero h1 {
+  margin: 12px 0 8px;
+  font-size: clamp(38px, 5vw, 60px);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+}
+
+.re-hero p {
+  margin: 0;
+  color: #9aa8bc;
+}
+
+.re-platform-status {
+  margin-left: 10px;
+  color: #55df91;
+  font-weight: 800;
+}
+
+.re-hero-value {
+  min-width: 280px;
+  text-align: right;
+}
+
+.re-hero-value > span,
+.re-hero-value > small {
+  display: block;
+}
+
+.re-hero-value > span {
+  color: #9aa8bc;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.re-hero-value > strong {
+  display: block;
+  margin: 8px 0 5px;
+  font-size: clamp(32px, 4vw, 46px);
+  letter-spacing: -0.04em;
+}
+
+.re-hero-value a {
+  display: inline-flex;
+  margin-top: 22px;
+  padding: 13px 16px;
+  border: 1px solid rgba(255, 107, 43, 0.48);
+  border-radius: 13px;
+  background: rgba(255, 107, 43, 0.12);
+  color: #f3f5f8;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.positive {
+  color: #55df91 !important;
+}
+
+.re-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.re-summary-card {
+  min-height: 145px;
+  padding: 23px;
+  border-radius: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.re-summary-card span,
+.re-summary-card small,
+.re-insight-grid span,
+.re-insight-grid small {
+  color: #8492a7;
+}
+
+.re-summary-card span {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.re-summary-card strong {
+  font-size: 25px;
+  letter-spacing: -0.03em;
+}
+
+.re-summary-card small {
+  font-size: 12px;
+}
+
+.re-insight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.re-insight-grid article {
+  min-height: 118px;
+  padding: 20px;
+  border-radius: 17px;
+  border-left: 3px solid #ff6b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.re-insight-grid article.warning strong {
+  color: #ffc064;
+}
+
+.re-insight-grid span {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.re-insight-grid strong {
+  font-size: 21px;
+}
+
+.re-insight-grid small {
+  font-size: 11px;
+}
+
+.re-panel {
+  padding: 26px;
+  border-radius: 22px;
+}
+
+.re-panel-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.re-panel-heading h2 {
+  margin: 7px 0 0;
+  font-size: 21px;
+}
+
+.re-panel-heading p {
+  margin: 6px 0 0;
+  color: #7f8da1;
+  font-size: 12px;
+}
+
+.re-health-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.re-health-item {
+  min-height: 84px;
+  padding: 10px 18px;
+  border-left: 1px solid rgba(132, 153, 184, 0.14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.re-health-item:first-child {
+  border-left: 0;
+}
+
+.re-health-item strong {
+  font-size: 22px;
+}
+
+.re-health-item span {
+  margin-top: 6px;
+  color: #8795a9;
+  font-size: 11px;
+}
+
+.re-health-item.warning strong {
+  color: #ffc064;
+}
+
+.re-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.re-rating-list {
+  display: grid;
+  gap: 18px;
+}
+
+.re-rating-row {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  align-items: center;
+  gap: 14px;
+}
+
+.re-rating {
+  width: 32px;
+  height: 32px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.rating-a { background: rgba(70, 220, 142, 0.14); color: #60e29b; }
+.rating-b { background: rgba(75, 154, 255, 0.14); color: #73b2ff; }
+.rating-c { background: rgba(255, 183, 76, 0.14); color: #ffc064; }
+.rating-d { background: rgba(255, 93, 93, 0.14); color: #ff7b7b; }
+
+.re-rating-content > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.re-rating-content small {
+  color: #8492a7;
+}
+
+.re-track {
+  height: 7px;
+  margin-top: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(132, 153, 184, 0.14);
+}
+
+.re-track span {
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #337df0, #67b1ff);
+}
+
+.re-cash-list {
+  display: grid;
+}
+
+.re-cash-list > div {
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(132, 153, 184, 0.12);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.re-cash-list span {
+  color: #8e9bae;
+}
+
+.re-cash-total {
+  margin-top: 6px;
+  border-bottom: 0 !important;
+}
+
+.re-cash-total strong {
+  font-size: 21px;
+  color: #55df91;
+}
+
+.re-projects-heading {
+  gap: 20px;
+}
+
+.re-project-tools {
+  display: flex;
+  gap: 10px;
+}
+
+.re-project-tools input,
+.re-project-tools select {
+  min-height: 42px;
+  border: 1px solid rgba(132, 153, 184, 0.16);
+  border-radius: 12px;
+  outline: none;
+  background: #091322;
+  color: #e9eef6;
+  padding: 0 13px;
+}
+
+.re-project-tools input {
+  min-width: 220px;
+}
+
+.re-table-wrap {
+  overflow-x: auto;
+}
+
+.re-project-table {
+  width: 100%;
+  min-width: 1050px;
+  border-collapse: collapse;
+}
+
+.re-project-table th {
+  padding: 13px 12px;
+  border-bottom: 1px solid rgba(132, 153, 184, 0.16);
+  color: #8190a5;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.re-project-table td {
+  padding: 15px 12px;
+  border-bottom: 1px solid rgba(132, 153, 184, 0.09);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.re-project-table tbody tr:hover {
+  background: rgba(91, 135, 196, 0.055);
+}
+
+.re-project-name {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.re-project-name small {
+  color: #7e8ca0;
+}
+
+.re-status {
+  display: inline-flex;
+  padding: 6px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.re-status-active {
+  color: #55df91;
+  background: rgba(85, 223, 145, 0.11);
+}
+
+.re-status-repaid {
+  color: #77b4ff;
+  background: rgba(74, 147, 245, 0.12);
+}
+
+.re-status-delayed {
+  color: #ffc064;
+  background: rgba(255, 180, 76, 0.13);
+}
+
+.re-show-button {
+  display: block;
+  margin: 18px auto 0;
+  padding: 10px 16px;
+  border: 1px solid rgba(132, 153, 184, 0.16);
+  border-radius: 12px;
+  background: #101c2f;
+  color: #d4dbe5;
+  cursor: pointer;
+}
+
+.re-state {
+  padding: 40px;
+  color: #9aa8bc;
+}
+
+.re-state-error {
+  color: #ff8181;
+}
+
+@media (max-width: 1180px) {
+  .re-health-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .re-health-item:nth-child(4) {
+    border-left: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .re-hero {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .re-hero-value {
+    text-align: left;
+  }
+
+  .re-summary-grid,
+  .re-insight-grid,
+  .re-two-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .re-two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .re-projects-heading {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  .re-hero,
+  .re-panel {
+    padding: 20px;
+  }
+
+  .re-brand-row {
+    align-items: flex-start;
+  }
+
+  .re-logo {
+    width: 54px;
+    height: 54px;
+  }
+
+  .re-summary-grid,
+  .re-insight-grid,
+  .re-health-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .re-health-item,
+  .re-health-item:nth-child(4) {
+    border-left: 0;
+    border-top: 1px solid rgba(132, 153, 184, 0.14);
+  }
+
+  .re-project-tools {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .re-project-tools input {
+    width: 100%;
+    min-width: 0;
+  }
+}

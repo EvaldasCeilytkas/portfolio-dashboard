@@ -1,0 +1,512 @@
+{
+  "name": "Loanch",
+  "slug": "loanch",
+  "category": "P2P paskolos",
+  "assetClass": "p2p",
+  "currency": "EUR",
+  "active": true,
+  "website": "https://loanch.com",
+  "invested": 20.0,
+  "value": 20.58,
+  "profit": 0.58,
+  "returnRate": 2.9,
+  "xirr": 12.009962,
+  "history": [
+    {
+      "date": "2026-04-27",
+      "invested": 20.0,
+      "value": 20.0
+    },
+    {
+      "date": "2026-07-28",
+      "invested": 20.0,
+      "value": 20.58
+    }
+  ],
+  "analytics": {
+    "startDate": "2026-04-27",
+    "months": 2,
+    "highestValue": 20.58,
+    "averageMonthlyReturn": 2.9,
+    "maxDrawdown": 0,
+    "winningRate": 100,
+    "volatility": 0,
+    "monthlyPerformance": [
+      {
+        "date": "2026-07",
+        "previousValue": 20.0,
+        "value": 20.58,
+        "monthlyProfit": 0.58,
+        "monthlyReturn": 2.9
+      }
+    ]
+  },
+  "details": {
+    "type": "p2p",
+    "modules": {
+      "loans": true
+    },
+    "p2pSummary": {
+      "totalLoans": 9,
+      "activeLoans": 2,
+      "completedLoans": 7,
+      "lateLoans": 0,
+      "averageInterestRate": 13.6,
+      "cash": 0.0,
+      "interestReceived": 0.58,
+      "principalRepaid": 70.64,
+      "outstandingPrincipal": 20.58
+    },
+    "cashflow": {
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.0,
+      "cash": 0.0,
+      "invested": 20.58,
+      "principalRepaid": 70.64,
+      "interestReceived": 0.58,
+      "fees": 0.0,
+      "netIncome": 0.58
+    },
+    "health": {
+      "score": 95,
+      "label": "Puiki būklė",
+      "summary": "Paskolos nevėluoja, tačiau verta stebėti skolintojų koncentraciją.",
+      "largestLoanShare": 50.24,
+      "lateShare": 0.0,
+      "cashShare": 0.0,
+      "metrics": [
+        {
+          "key": "diversification",
+          "label": "Diversifikacija",
+          "score": 20,
+          "max": 20,
+          "description": "Portfelyje yra 9 paskola(-os)."
+        },
+        {
+          "key": "loanQuality",
+          "label": "Paskolų kokybė",
+          "score": 20,
+          "max": 20,
+          "description": "Aktyvių vėluojančių paskolų: 0."
+        },
+        {
+          "key": "cashEfficiency",
+          "label": "Pinigų efektyvumas",
+          "score": 20,
+          "max": 20,
+          "description": "Laisvų pinigų likutis – 0.00 €."
+        },
+        {
+          "key": "repaymentStability",
+          "label": "Grąžinimų stabilumas",
+          "score": 19,
+          "max": 20,
+          "description": "Vertinama pagal faktinius grąžinimus."
+        },
+        {
+          "key": "concentration",
+          "label": "Koncentracijos rizika",
+          "score": 16,
+          "max": 20,
+          "description": "Didžiausia paskola sudaro 50.2 % portfelio."
+        }
+      ]
+    },
+    "history": [
+      {
+        "date": "2026-05-07",
+        "principal": 10.0,
+        "interest": 0.03,
+        "fees": 0.0,
+        "netIncome": 0.03
+      },
+      {
+        "date": "2026-05-12",
+        "principal": 10.0,
+        "interest": 0.05,
+        "fees": 0.0,
+        "netIncome": 0.05
+      },
+      {
+        "date": "2026-06-04",
+        "principal": 10.03,
+        "interest": 0.1,
+        "fees": 0.0,
+        "netIncome": 0.1
+      },
+      {
+        "date": "2026-06-12",
+        "principal": 10.05,
+        "interest": 0.12,
+        "fees": 0.0,
+        "netIncome": 0.12
+      },
+      {
+        "date": "2026-07-05",
+        "principal": 10.13,
+        "interest": 0.11,
+        "fees": 0.0,
+        "netIncome": 0.11
+      },
+      {
+        "date": "2026-07-06",
+        "principal": 10.17,
+        "interest": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09
+      },
+      {
+        "date": "2026-07-28",
+        "principal": 10.26,
+        "interest": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08
+      }
+    ],
+    "incomeForecast": [
+      {
+        "month": "2026-08",
+        "principal": 20.58,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 20.58
+      }
+    ],
+    "loans": [
+      {
+        "id": "8572f54e...85fb68b6201e",
+        "loanId": "8572f54e...85fb68b6201e",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 1 mėn. 0 d.",
+        "investedDate": "2026-04-28",
+        "startDate": "2026-04-28",
+        "plannedEndDate": "2026-05-28",
+        "actualEndDate": "2026-05-07",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.0,
+        "principalRepaid": 10.0,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.03,
+        "fees": 0.0,
+        "netIncome": 0.03,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-05-28",
+            "actualDate": "2026-05-07",
+            "delayDays": -21,
+            "principal": 10.0,
+            "interest": 0.03,
+            "fee": 0.0,
+            "netIncome": 0.03,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "6a67a901...550919b8d681",
+        "loanId": "6a67a901...550919b8d681",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 1 mėn. 0 d.",
+        "investedDate": "2026-04-28",
+        "startDate": "2026-04-28",
+        "plannedEndDate": "2026-05-28",
+        "actualEndDate": "2026-05-12",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.0,
+        "principalRepaid": 10.0,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.05,
+        "fees": 0.0,
+        "netIncome": 0.05,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-05-28",
+            "actualDate": "2026-05-12",
+            "delayDays": -16,
+            "principal": 10.0,
+            "interest": 0.05,
+            "fee": 0.0,
+            "netIncome": 0.05,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "34060e5d...9d09fabf263e",
+        "loanId": "34060e5d...9d09fabf263e",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 1 mėn. 0 d.",
+        "investedDate": "2026-05-08",
+        "startDate": "2026-05-08",
+        "plannedEndDate": "2026-06-08",
+        "actualEndDate": "2026-06-04",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.03,
+        "principalRepaid": 10.03,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.1,
+        "fees": 0.0,
+        "netIncome": 0.1,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-06-08",
+            "actualDate": "2026-06-04",
+            "delayDays": -4,
+            "principal": 10.03,
+            "interest": 0.1,
+            "fee": 0.0,
+            "netIncome": 0.1,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "edcaf7c8...13263f96f7ec",
+        "loanId": "edcaf7c8...13263f96f7ec",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 0 mėn. 1 d.",
+        "investedDate": "2026-05-12",
+        "startDate": "2026-04-12",
+        "plannedEndDate": "2026-05-13",
+        "actualEndDate": "2026-06-12",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.05,
+        "principalRepaid": 10.05,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.12,
+        "fees": 0.0,
+        "netIncome": 0.12,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-05-13",
+            "actualDate": "2026-06-12",
+            "delayDays": 30,
+            "principal": 10.05,
+            "interest": 0.12,
+            "fee": 0.0,
+            "netIncome": 0.12,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "6503e9b8...38a61e9781c1",
+        "loanId": "6503e9b8...38a61e9781c1",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 1 mėn. 0 d.",
+        "investedDate": "2026-06-05",
+        "startDate": "2026-06-05",
+        "plannedEndDate": "2026-07-05",
+        "actualEndDate": "2026-07-05",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.13,
+        "principalRepaid": 10.13,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.11,
+        "fees": 0.0,
+        "netIncome": 0.11,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-07-05",
+            "actualDate": "2026-07-05",
+            "delayDays": 0,
+            "principal": 10.13,
+            "interest": 0.11,
+            "fee": 0.0,
+            "netIncome": 0.11,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "bab06fd6...b5601686ad35",
+        "loanId": "bab06fd6...b5601686ad35",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 1 mėn. 0 d.",
+        "investedDate": "2026-06-12",
+        "startDate": "2026-06-12",
+        "plannedEndDate": "2026-07-12",
+        "actualEndDate": "2026-07-06",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.17,
+        "principalRepaid": 10.17,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.09,
+        "fees": 0.0,
+        "netIncome": 0.09,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-07-12",
+            "actualDate": "2026-07-06",
+            "delayDays": -6,
+            "principal": 10.17,
+            "interest": 0.09,
+            "fee": 0.0,
+            "netIncome": 0.09,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "6836f159...155f27704bef",
+        "loanId": "6836f159...155f27704bef",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 0 mėn. 30 d.",
+        "investedDate": "2026-07-05",
+        "startDate": "2026-07-05",
+        "plannedEndDate": "2026-08-04",
+        "actualEndDate": null,
+        "daysRemaining": 7,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.24,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 10.24,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-08-04",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      },
+      {
+        "id": "4db6f5a8...8acf4fb9b90a",
+        "loanId": "4db6f5a8...8acf4fb9b90a",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 0 mėn. 30 d.",
+        "investedDate": "2026-07-06",
+        "startDate": "2026-07-06",
+        "plannedEndDate": "2026-08-05",
+        "actualEndDate": "2026-07-28",
+        "daysRemaining": 0,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.26,
+        "principalRepaid": 10.26,
+        "remainingPrincipal": 0.0,
+        "interestReceived": 0.08,
+        "fees": 0.0,
+        "netIncome": 0.08,
+        "status": "completed",
+        "payments": [
+          {
+            "plannedDate": "2026-08-05",
+            "actualDate": "2026-07-28",
+            "delayDays": -8,
+            "principal": 10.26,
+            "interest": 0.08,
+            "fee": 0.0,
+            "netIncome": 0.08,
+            "status": "paid"
+          }
+        ]
+      },
+      {
+        "id": "45b52ba0...0700af8e066e",
+        "loanId": "45b52ba0...0700af8e066e",
+        "country": "Malaysia",
+        "originator": "Tambadana",
+        "borrower": "Tambadana",
+        "type": "Short Term Loan",
+        "collateral": "—",
+        "ltv": 0.0,
+        "term": "0 m. 0 mėn. 30 d.",
+        "investedDate": "2026-07-28",
+        "startDate": "2026-07-28",
+        "plannedEndDate": "2026-08-27",
+        "actualEndDate": null,
+        "daysRemaining": 30,
+        "delayDays": 0,
+        "interestRate": 13.6,
+        "invested": 10.34,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 10.34,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-08-04",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,470 @@
+.portfolio-page {
+  width: 100%;
+  min-width: 0;
+  padding: 30px;
+  color: #f8fafc;
+}
+
+/* ===== Įkėlimas ir klaidos ===== */
+
+.portfolio-loading,
+.portfolio-error {
+  display: grid;
+  place-items: center;
+  min-height: 300px;
+  padding: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 22px;
+  background: rgba(15, 23, 42, 0.72);
+  color: #94a3b8;
+  text-align: center;
+}
+
+.portfolio-error h2 {
+  margin: 0 0 10px;
+  color: #f8fafc;
+}
+
+.portfolio-error p {
+  margin: 0;
+  color: #fb7185;
+}
+
+/* ===== Puslapio antraštė ===== */
+
+.portfolio-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 26px;
+}
+
+.portfolio-eyebrow {
+  margin: 0 0 10px;
+  color: #60a5fa;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.portfolio-header h1 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: clamp(32px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.portfolio-description {
+  margin: 12px 0 0;
+  color: #94a3b8;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ===== Bendra portfelio vertė ===== */
+
+.portfolio-summary-card {
+  flex-shrink: 0;
+  min-width: 260px;
+  padding: 21px 23px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 18px;
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.94),
+    rgba(12, 22, 42, 0.9)
+  );
+  box-shadow: 0 18px 50px rgba(2, 6, 23, 0.26);
+  text-align: right;
+}
+
+.portfolio-summary-label {
+  display: block;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.portfolio-summary-value {
+  display: block;
+  margin: 9px 0 7px;
+  color: #f8fafc;
+  font-size: 27px;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+
+.portfolio-summary-platforms {
+  display: block;
+  color: #93c5fd;
+  font-size: 12px;
+}
+
+/* ===== Statistikos kortelės ===== */
+
+.portfolio-statistics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.portfolio-stat-card {
+  min-width: 0;
+  padding: 19px 20px;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 17px;
+  background: rgba(15, 23, 42, 0.74);
+  box-shadow: 0 14px 36px rgba(2, 6, 23, 0.18);
+}
+
+.portfolio-stat-card span {
+  display: block;
+  margin-bottom: 9px;
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.portfolio-stat-card strong {
+  display: block;
+  color: #f8fafc;
+  font-size: 21px;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.portfolio-positive {
+  color: #34d399 !important;
+}
+
+.portfolio-negative {
+  color: #fb7185 !important;
+}
+
+/* ===== Pagrindinė lentelės kortelė ===== */
+
+.portfolio-content-card {
+  width: 100%;
+  min-width: 0;
+  padding: 26px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 23px;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.92),
+    rgba(8, 15, 30, 0.97)
+  );
+  box-shadow: 0 20px 60px rgba(2, 6, 23, 0.3);
+}
+
+.portfolio-toolbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+
+.portfolio-toolbar h2 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: 21px;
+  letter-spacing: -0.02em;
+}
+
+.portfolio-toolbar p {
+  margin: 7px 0 0;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+/* ===== Filtrai ===== */
+
+.portfolio-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.portfolio-filter-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 0 15px;
+  border: 1px solid rgba(96, 165, 250, 0.28);
+  border-radius: 11px;
+  background: transparent;
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.portfolio-filter-button:hover {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.12);
+  color: #f8fafc;
+  transform: translateY(-1px);
+}
+
+.portfolio-filter-button.active {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.25);
+}
+
+.portfolio-filter-button span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 23px;
+  height: 23px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.14);
+  color: inherit;
+  font-size: 11px;
+}
+
+.portfolio-filter-button.active span {
+  background: rgba(255, 255, 255, 0.17);
+}
+
+/* ===== Lentelė ===== */
+
+.portfolio-table-wrapper {
+  width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  border: 1px solid rgba(148, 163, 184, 0.13);
+  border-radius: 17px;
+  background: rgba(8, 15, 30, 0.42);
+}
+
+.portfolio-table {
+  width: 100%;
+  min-width: 1050px;
+  border-collapse: collapse;
+}
+
+.portfolio-table th,
+.portfolio-table td {
+  padding: 16px 15px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.portfolio-table th {
+  background: rgba(15, 23, 42, 0.95);
+  color: #94a3b8;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+.portfolio-table td {
+  color: #cbd5e1;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.portfolio-table tbody tr {
+  transition: background-color 180ms ease;
+}
+
+.portfolio-table tbody tr:hover {
+  background: rgba(37, 99, 235, 0.07);
+}
+
+.portfolio-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.portfolio-number-column {
+  text-align: right !important;
+}
+
+/* ===== Platforma ===== */
+
+.portfolio-platform {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 205px;
+}
+
+.portfolio-platform-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(96, 165, 250, 0.24);
+  border-radius: 11px;
+  background: linear-gradient(
+    145deg,
+    rgba(37, 99, 235, 0.24),
+    rgba(124, 58, 237, 0.2)
+  );
+  color: #dbeafe;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.portfolio-platform > div:last-child {
+  min-width: 0;
+}
+
+.portfolio-platform strong {
+  display: block;
+  overflow: hidden;
+  color: #f8fafc;
+  font-size: 13px;
+  font-weight: 750;
+  text-overflow: ellipsis;
+}
+
+.portfolio-platform span {
+  display: block;
+  margin-top: 4px;
+  color: #64748b;
+  font-size: 11px;
+}
+
+/* ===== Statusas ===== */
+
+.portfolio-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 82px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.portfolio-status.active {
+  border: 1px solid rgba(52, 211, 153, 0.28);
+  background: rgba(16, 185, 129, 0.11);
+  color: #6ee7b7;
+}
+
+.portfolio-status.inactive {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(100, 116, 139, 0.12);
+  color: #94a3b8;
+}
+
+.portfolio-status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 10px currentColor;
+}
+
+/* ===== Portfelio dalis ===== */
+
+.portfolio-share {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  min-width: 175px;
+}
+
+.portfolio-share .ui-progress {
+  width: 95px;
+  flex: 0 0 95px;
+}
+
+.portfolio-share > span {
+  min-width: 67px;
+  color: #dbeafe;
+  font-weight: 700;
+  text-align: right;
+}
+
+/* ===== Tuščias sąrašas ===== */
+
+.portfolio-empty {
+  display: grid;
+  place-items: center;
+  min-height: 190px;
+  padding: 30px;
+  color: #94a3b8;
+  text-align: center;
+}
+
+/* ===== Prisitaikymas mažesniems ekranams ===== */
+
+@media (max-width: 1100px) {
+  .portfolio-statistics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .portfolio-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .portfolio-filter {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 760px) {
+  .portfolio-page {
+    padding: 22px 18px;
+  }
+
+  .portfolio-header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .portfolio-summary-card {
+    width: 100%;
+    min-width: 0;
+    text-align: left;
+  }
+
+  .portfolio-content-card {
+    padding: 19px;
+  }
+}
+
+@media (max-width: 520px) {
+  .portfolio-statistics {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-filter {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-filter-button {
+    width: 100%;
+  }
+
+  .portfolio-content-card {
+    padding: 15px;
+    border-radius: 19px;
+  }
+}

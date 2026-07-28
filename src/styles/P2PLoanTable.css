@@ -1,0 +1,286 @@
+.p2p-loans-card,
+.p2p-loans-card * {
+  box-sizing: border-box;
+}
+
+.p2p-loan-controls {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 0 18px;
+}
+
+.p2p-loan-tabs {
+  display: inline-flex;
+  gap: 6px;
+  max-width: 100%;
+  padding: 5px;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 14px;
+  background: rgba(5, 13, 27, 0.44);
+}
+
+.p2p-loan-tab {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: #8196b5;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.p2p-loan-tab b {
+  display: grid;
+  place-items: center;
+  min-width: 23px;
+  height: 23px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.1);
+  color: #a9bad1;
+  font-size: 10px;
+}
+
+.p2p-loan-tab:hover {
+  color: #e5eefb;
+}
+
+.p2p-loan-tab.active {
+  background: linear-gradient(
+    135deg,
+    rgba(14, 165, 233, 0.92),
+    rgba(37, 99, 235, 0.92)
+  );
+  box-shadow: 0 9px 23px rgba(37, 99, 235, 0.22);
+  color: #fff;
+}
+
+.p2p-loan-tab.active b {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.p2p-loan-tools {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.p2p-loan-search input,
+.p2p-page-size select {
+  min-height: 40px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 11px;
+  outline: none;
+  background: rgba(5, 13, 27, 0.48);
+  color: #e5edf8;
+  font-family: inherit;
+}
+
+.p2p-loan-search input {
+  width: min(290px, 28vw);
+  padding: 0 13px;
+}
+
+.p2p-loan-search input::placeholder {
+  color: #647b9d;
+}
+
+.p2p-loan-search input:focus,
+.p2p-page-size select:focus {
+  border-color: rgba(56, 189, 248, 0.55);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.08);
+}
+
+.p2p-page-size {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #7387a6;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.p2p-page-size select {
+  padding: 0 28px 0 10px;
+}
+
+.p2p-pagination {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+.p2p-pagination-summary {
+  color: #7287a7;
+  font-size: 11px;
+}
+
+.p2p-pagination-buttons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.p2p-pagination-buttons button {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 11px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 10px;
+  background: rgba(5, 13, 27, 0.45);
+  color: #8da2bf;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    border-color 170ms ease,
+    background 170ms ease,
+    color 170ms ease,
+    transform 170ms ease;
+}
+
+.p2p-pagination-buttons button:hover:not(:disabled) {
+  border-color: rgba(56, 189, 248, 0.42);
+  background: rgba(56, 189, 248, 0.1);
+  color: #eaf6ff;
+  transform: translateY(-1px);
+}
+
+.p2p-pagination-buttons button.active,
+.p2p-pagination-buttons button[aria-current="page"] {
+  border-color: rgba(37, 99, 235, 0.72);
+  background: linear-gradient(135deg, #0ea5e9, #2563eb);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+  color: #fff;
+}
+
+.p2p-pagination-buttons button:disabled {
+  cursor: not-allowed;
+  opacity: 0.38;
+}
+
+.p2p-page-ellipsis {
+  min-width: 24px;
+  color: #617695;
+  text-align: center;
+}
+
+.p2p-filter-empty {
+  margin-top: 18px;
+  border: 1px dashed rgba(148, 163, 184, 0.17);
+  border-radius: 14px;
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 1100px) {
+  .p2p-loan-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .p2p-loan-tabs {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .p2p-loan-tools {
+    justify-content: space-between;
+  }
+
+  .p2p-loan-search {
+    flex: 1;
+  }
+
+  .p2p-loan-search input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .p2p-loan-tools,
+  .p2p-pagination {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .p2p-page-size {
+    justify-content: space-between;
+  }
+
+  .p2p-pagination-buttons {
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 4px;
+  }
+
+  .p2p-pagination-buttons button span {
+    display: none;
+  }
+}
+
+/* === Stable hover: paskolos eilutė nejuda === */
+
+.p2p-loan-row,
+.p2p-loan-row:hover {
+  transform: none !important;
+}
+
+.p2p-loan-row:hover {
+  background: rgba(56, 189, 248, 0.06);
+  box-shadow: none !important;
+}
+
+.p2p-loan-action {
+  width: 110px;
+  min-width: 110px;
+  text-align: right;
+}
+
+.p2p-loan-action span,
+.p2p-loan-action b {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 180ms ease;
+}
+
+.p2p-loan-row:hover .p2p-loan-action span,
+.p2p-loan-row:hover .p2p-loan-action b,
+.p2p-loan-row:focus .p2p-loan-action span,
+.p2p-loan-row:focus .p2p-loan-action b {
+  opacity: 1;
+  visibility: visible;
+}
+

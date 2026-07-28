@@ -1,0 +1,433 @@
+/* =========================================
+   PORTFELIO PASKIRSTYMAS
+========================================= */
+
+.allocation-card {
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  padding: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0.9),
+    rgba(8, 15, 30, 0.96)
+  );
+  box-shadow: 0 20px 60px rgba(2, 6, 23, 0.3);
+}
+
+/* =========================================
+   ANTRAŠTĖ
+========================================= */
+
+.allocation-card .allocation-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.allocation-card .allocation-header h2 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.allocation-card .allocation-total {
+  flex-shrink: 0;
+  padding: 8px 13px;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.12);
+  color: #93c5fd;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* =========================================
+   DIAGRAMA IR LEGENDA
+========================================= */
+
+.allocation-card .allocation-content {
+  display: grid;
+  grid-template-columns: 245px minmax(0, 1fr);
+  align-items: center;
+  gap: 22px;
+  width: 100%;
+  min-width: 0;
+}
+
+.allocation-card .allocation-chart-wrapper {
+  position: relative;
+  width: 245px;
+  height: 245px;
+  min-width: 245px;
+  justify-self: center;
+}
+
+.allocation-card .allocation-chart-cell {
+  cursor: pointer;
+  transition:
+    opacity 0.2s ease,
+    filter 0.2s ease;
+}
+
+/* =========================================
+   DIAGRAMOS CENTRAS
+========================================= */
+
+.allocation-card .donut-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 140px;
+  text-align: center;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.allocation-card .donut-center strong {
+  display: block;
+  margin: 0 0 8px;
+  color: #f8fafc;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.allocation-card .donut-center span {
+  display: block;
+  color: #94a3b8;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+/* =========================================
+   LEGENDOS SĄRAŠAS
+========================================= */
+
+.allocation-card .allocation-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+.allocation-card .allocation-item {
+  --allocation-color: #4f9cff;
+
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 15px 16px;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 15px;
+  background: rgba(15, 23, 42, 0.58);
+  cursor: pointer;
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    border-color 0.22s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease,
+    opacity 0.22s ease,
+    transform 0.22s ease;
+}
+
+.allocation-card .allocation-item::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  left: 0;
+  width: 3px;
+  border-radius: 0 999px 999px 0;
+  background: var(--allocation-color);
+  opacity: 0;
+  transform: scaleY(0.45);
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease;
+}
+
+.allocation-card .allocation-item:hover,
+.allocation-card .allocation-item-active {
+  border-color: color-mix(
+    in srgb,
+    var(--allocation-color) 55%,
+    transparent
+  );
+  background: rgba(30, 41, 59, 0.78);
+  box-shadow:
+    0 12px 28px rgba(2, 6, 23, 0.25),
+    0 0 22px color-mix(
+      in srgb,
+      var(--allocation-color) 16%,
+      transparent
+    );
+  transform: translateY(-2px);
+}
+
+.allocation-card .allocation-item:hover::before,
+.allocation-card
+  .allocation-item-active::before {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.allocation-card .allocation-item-dimmed {
+  opacity: 0.48;
+}
+
+/* =========================================
+   PAVADINIMAS IR PROCENTAS
+========================================= */
+
+.allocation-card .allocation-item-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+.allocation-card .allocation-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.allocation-card .allocation-name span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.allocation-card .allocation-dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  flex: 0 0 10px;
+  border-radius: 50%;
+  transition:
+    box-shadow 0.22s ease,
+    transform 0.22s ease;
+}
+
+.allocation-card
+  .allocation-item-active
+  .allocation-dot,
+.allocation-card
+  .allocation-item:hover
+  .allocation-dot {
+  box-shadow:
+    0 0 0 4px color-mix(
+      in srgb,
+      var(--allocation-color) 14%,
+      transparent
+    ),
+    0 0 14px var(--allocation-color);
+  transform: scale(1.08);
+}
+
+.allocation-card .allocation-percent {
+  display: block;
+  flex-shrink: 0;
+  margin: 0;
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  transition: color 0.22s ease;
+}
+
+.allocation-card
+  .allocation-item-active
+  .allocation-percent,
+.allocation-card
+  .allocation-item:hover
+  .allocation-percent {
+  color: var(--allocation-color);
+}
+
+/* =========================================
+   SUMA
+========================================= */
+
+.allocation-card .allocation-value {
+  display: block;
+  margin-top: 7px;
+  padding-left: 20px;
+  color: #94a3b8;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  transition: color 0.22s ease;
+}
+
+.allocation-card
+  .allocation-item-active
+  .allocation-value,
+.allocation-card
+  .allocation-item:hover
+  .allocation-value {
+  color: #cbd5e1;
+}
+
+/* =========================================
+   TUŠČIA BŪSENA
+========================================= */
+
+.allocation-card .allocation-empty {
+  display: grid;
+  place-items: center;
+  min-height: 220px;
+  padding: 30px;
+  border: 1px dashed rgba(148, 163, 184, 0.22);
+  border-radius: 18px;
+  color: #94a3b8;
+  text-align: center;
+}
+
+/* =========================================
+   MAŽESNI EKRANAI
+========================================= */
+
+@media (max-width: 1400px) {
+  .allocation-card .allocation-content {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .allocation-card .allocation-chart-wrapper {
+    width: 220px;
+    height: 220px;
+    min-width: 220px;
+  }
+
+  .allocation-card .allocation-item {
+    padding: 14px;
+  }
+
+  .allocation-card .allocation-percent {
+    font-size: 14px;
+  }
+
+  .allocation-card .allocation-value {
+    font-size: 12px;
+  }
+
+  .allocation-card .donut-center {
+    width: 130px;
+  }
+
+  .allocation-card .donut-center strong {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .allocation-card .allocation-content {
+    grid-template-columns: 245px minmax(220px, 1fr);
+    gap: 32px;
+  }
+
+  .allocation-card .allocation-chart-wrapper {
+    width: 245px;
+    height: 245px;
+    min-width: 245px;
+  }
+}
+
+@media (max-width: 750px) {
+  .allocation-card .allocation-content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .allocation-card .allocation-chart-wrapper {
+    width: 235px;
+    height: 235px;
+    min-width: 235px;
+  }
+
+  .allocation-card .allocation-list {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .allocation-card {
+    padding: 22px;
+  }
+
+  .allocation-card .allocation-header {
+    flex-direction: column;
+    margin-bottom: 26px;
+  }
+
+  .allocation-card .allocation-header h2 {
+    font-size: 22px;
+  }
+
+  .allocation-card .allocation-total {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 420px) {
+  .allocation-card {
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .allocation-card .allocation-chart-wrapper {
+    width: 210px;
+    height: 210px;
+    min-width: 210px;
+  }
+
+  .allocation-card .allocation-item {
+    padding: 14px;
+  }
+
+  .allocation-card .allocation-name {
+    font-size: 13px;
+  }
+
+  .allocation-card .allocation-percent {
+    font-size: 13px;
+  }
+
+  .allocation-card .allocation-value {
+    padding-left: 20px;
+    font-size: 12px;
+  }
+
+  .allocation-card .donut-center strong {
+    font-size: 14px;
+  }
+}

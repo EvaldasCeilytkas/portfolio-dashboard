@@ -1,0 +1,181 @@
+{
+  "name": "Lande",
+  "slug": "lande",
+  "category": "P2P paskolos",
+  "assetClass": "p2p",
+  "currency": "EUR",
+  "active": true,
+  "website": "https://lande.finance",
+  "invested": 50.0,
+  "value": 56.65,
+  "profit": 6.65,
+  "returnRate": 13.3,
+  "xirr": 157.24286,
+  "history": [
+    {
+      "date": "2026-07-15",
+      "invested": 50.0,
+      "value": 50.0
+    },
+    {
+      "date": "2026-07-16",
+      "invested": 50.0,
+      "value": 55.0
+    },
+    {
+      "date": "2026-07-16",
+      "invested": 50.0,
+      "value": 51.65
+    },
+    {
+      "date": "2026-07-24",
+      "invested": 50.0,
+      "value": 50.0
+    },
+    {
+      "date": "2026-07-28",
+      "invested": 50.0,
+      "value": 56.65
+    }
+  ],
+  "analytics": {
+    "startDate": "2026-07-15",
+    "months": 1,
+    "highestValue": 56.65,
+    "averageMonthlyReturn": 13.3,
+    "maxDrawdown": 0,
+    "winningRate": 100,
+    "volatility": 0,
+    "monthlyPerformance": [
+      {
+        "date": "2026-07",
+        "previousValue": 50.0,
+        "value": 56.65,
+        "monthlyProfit": 6.65,
+        "monthlyReturn": 13.3
+      }
+    ]
+  },
+  "details": {
+    "type": "p2p",
+    "modules": {
+      "loans": true
+    },
+    "p2pSummary": {
+      "totalLoans": 1,
+      "activeLoans": 1,
+      "completedLoans": 0,
+      "lateLoans": 0,
+      "averageInterestRate": 13.0,
+      "cash": 1.65,
+      "interestReceived": 0.0,
+      "principalRepaid": 0.0,
+      "outstandingPrincipal": 55.0
+    },
+    "cashflow": {
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonuses": 6.65,
+      "cash": 1.65,
+      "invested": 55.0,
+      "principalRepaid": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "netIncome": 6.65
+    },
+    "health": {
+      "score": 71,
+      "label": "Gera būklė",
+      "summary": "Paskolos nevėluoja, tačiau portfelis yra labai koncentruotas.",
+      "largestLoanShare": 97.09,
+      "lateShare": 0.0,
+      "cashShare": 2.91,
+      "metrics": [
+        {
+          "key": "diversification",
+          "label": "Diversifikacija",
+          "score": 7,
+          "max": 20,
+          "description": "Portfelyje yra 1 paskola(-os)."
+        },
+        {
+          "key": "loanQuality",
+          "label": "Paskolų kokybė",
+          "score": 20,
+          "max": 20,
+          "description": "Aktyvių vėluojančių paskolų: 0."
+        },
+        {
+          "key": "cashEfficiency",
+          "label": "Pinigų efektyvumas",
+          "score": 18,
+          "max": 20,
+          "description": "Laisvų pinigų likutis – 1.65 €."
+        },
+        {
+          "key": "repaymentStability",
+          "label": "Grąžinimų stabilumas",
+          "score": 16,
+          "max": 20,
+          "description": "Grąžinimų istorijos dar nėra."
+        },
+        {
+          "key": "concentration",
+          "label": "Koncentracijos rizika",
+          "score": 10,
+          "max": 20,
+          "description": "Didžiausia paskola sudaro 97.1 % portfelio."
+        }
+      ]
+    },
+    "history": [],
+    "incomeForecast": [
+      {
+        "month": "2027-07",
+        "principal": 55.0,
+        "interest": 0.0,
+        "fees": 0.0,
+        "total": 55.0
+      }
+    ],
+    "loans": [
+      {
+        "id": "42604620",
+        "loanId": "42604620",
+        "country": "Poland",
+        "originator": "GOSPODARSTWO ROLNE KINGA SZYMAŃSKA",
+        "borrower": "GOSPODARSTWO ROLNE KINGA SZYMAŃSKA",
+        "type": "Agricultural loan",
+        "collateral": "Žemė",
+        "ltv": 58.0,
+        "term": "1 m. 0 mėn. 9 d.",
+        "investedDate": "2026-07-16",
+        "startDate": null,
+        "plannedEndDate": "2027-07-25",
+        "actualEndDate": null,
+        "daysRemaining": 362,
+        "delayDays": 0,
+        "interestRate": 13.0,
+        "invested": 55.0,
+        "principalRepaid": 0.0,
+        "remainingPrincipal": 55.0,
+        "interestReceived": 0.0,
+        "fees": 0.0,
+        "netIncome": 0.0,
+        "status": "active",
+        "payments": [
+          {
+            "plannedDate": "2026-08-25",
+            "actualDate": null,
+            "delayDays": 0,
+            "principal": 0.0,
+            "interest": 0.0,
+            "fee": 0.0,
+            "netIncome": 0.0,
+            "status": "scheduled"
+          }
+        ]
+      }
+    ]
+  }
+}
