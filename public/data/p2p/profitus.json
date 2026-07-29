@@ -9,21 +9,21 @@
     "startDate": "2025-02-14",
     "months": 18,
     "updatedAt": "2026-07-29",
-    "healthScore": 75,
+    "healthScore": 69,
     "healthParts": {
       "diversification": 97,
       "rating": 97,
-      "ltv": 70,
-      "delays": 100,
-      "cash": 13
+      "ltv": 69,
+      "delays": 80,
+      "cash": 0
     }
   },
   "summary": {
     "deposited": 1020.0,
-    "invested": 1107.4,
+    "invested": 1157.4,
     "bonuses": 10.0,
-    "cash": 14.79,
-    "repaidPrincipal": 964.2,
+    "cash": -35.21,
+    "repaidPrincipal": 914.2,
     "interestReceived": 92.19,
     "portfolioValue": 1122.19,
     "profit": 102.19,
@@ -31,10 +31,10 @@
     "xirr": 8.48,
     "totalProjects": 20,
     "activeProjects": 11,
-    "delayedProjects": 0,
+    "delayedProjects": 1,
     "repaidProjects": 9,
     "averageInterest": 8.68,
-    "averageLtv": 61.77,
+    "averageLtv": 61.95,
     "averageDuration": 12.0
   },
   "history": [
@@ -347,7 +347,7 @@
       {
         "label": "A+",
         "count": 3,
-        "value": 322.6
+        "value": 372.6
       },
       {
         "label": "A-",
@@ -389,7 +389,7 @@
       {
         "label": "61–70 %",
         "count": 3,
-        "value": 219.5
+        "value": 269.5
       },
       {
         "label": "> 70 %",
@@ -406,7 +406,7 @@
       {
         "label": "8–8,99 %",
         "count": 7,
-        "value": 651.0
+        "value": 701.0
       },
       {
         "label": "9–9,99 %",
@@ -438,7 +438,7 @@
       {
         "label": "10–12 mėn.",
         "count": 11,
-        "value": 1107.4
+        "value": 1157.4
       },
       {
         "label": "13–18 mėn.",
@@ -456,7 +456,7 @@
     {
       "month": "2026-09",
       "count": 2,
-      "amount": 168.5
+      "amount": 218.5
     },
     {
       "month": "2026-12",
@@ -1244,14 +1244,14 @@
       "paymentFrequency": "Q",
       "interestRate": 8.5,
       "invested": 116.6,
-      "outstanding": 66.6,
+      "outstanding": 116.6,
       "plannedRepayment": "2026-09-07",
       "actualRepayment": null,
-      "delayDays": 0,
-      "repaidPrincipal": 50.0,
+      "delayDays": 22,
+      "repaidPrincipal": 0.0,
       "interestReceived": 7.98,
       "extraReceived": 0.12,
-      "status": "active",
+      "status": "delayed",
       "payments": [
         {
           "plannedDate": "2025-12-31",
@@ -1284,14 +1284,14 @@
           "delayDays": 0
         },
         {
-          "plannedDate": "2026-09-07",
+          "plannedDate": "2026-07-07",
           "plannedPrincipal": 116.6,
           "plannedInterest": 1.87,
           "actualDate": null,
-          "actualPrincipal": 50.0,
+          "actualPrincipal": 0.0,
           "actualInterest": 0.0,
           "actualExtra": 0.0,
-          "delayDays": 0
+          "delayDays": 22
         }
       ],
       "plannedInterest": 9.85
