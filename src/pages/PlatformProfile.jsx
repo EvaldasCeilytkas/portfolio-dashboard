@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import PerformanceChart from "../components/charts/PerformanceChart";
 import EtfTable from "../components/etf/EtfTable";
 import P2PProfileModule from "../components/p2p/P2PProfileModule";
+import RealEstateProfileModule from "../components/realEstate/RealEstateProfileModule";
 import NplProfileModule from "../components/npl/NplProfileModule";
 import BrokerProfileModule from "../components/broker/BrokerProfileModule";
 import ProgressBar from "../components/ui/ProgressBar";
@@ -614,6 +615,12 @@ function PlatformProfile({ slugOverride = "" }) {
   const isBrokerageModule = details?.type === "brokerage";
   const isBrokerModule = details?.modules?.broker === true;
   const isP2PModule = details?.type === "p2p" || details?.modules?.loans === true;
+  const isRealEstateModule =
+    Array.isArray(details?.projects) &&
+    (
+      category.toLocaleLowerCase("lt-LT").includes("nt") ||
+      category.toLocaleLowerCase("lt-LT").includes("sutelktinis finansavimas")
+    );
   const isNplModule = details?.type === "npl" || details?.modules?.projects === true;
   const platformCashflow =
     details?.cashflow && typeof details.cashflow === "object"
@@ -1338,7 +1345,19 @@ function PlatformProfile({ slugOverride = "" }) {
         />
       )}
 
-      {isP2PModule && <P2PProfileModule details={details} platformName={name} />}
+      {isRealEstateModule && (
+        <RealEstateProfileModule
+          details={details}
+          platformName={name}
+        />
+      )}
+
+      {isP2PModule && !isRealEstateModule && (
+        <P2PProfileModule
+          details={details}
+          platformName={name}
+        />
+      )}
 
       {isNplModule && (
         <NplProfileModule
@@ -1351,6 +1370,7 @@ function PlatformProfile({ slugOverride = "" }) {
       {hasInvestmentModule &&
         !isBrokerModule &&
         !isP2PModule &&
+        !isRealEstateModule &&
         !isNplModule && (
         <div className="platform-profile-etf-module">
           <div className="platform-profile-etf-module-heading">

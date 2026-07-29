@@ -71,7 +71,7 @@ export default function RealEstateProjectProfile({ data }) {
   const projects = Array.isArray(data?.projects) ? data.projects : [];
 
   const project = projects.find((item) =>
-    [item.id, item.slug, item.code]
+    [item.id, item.slug, item.code, item.loanCode]
       .filter(Boolean)
       .map(String)
       .includes(String(projectId)),
@@ -125,7 +125,7 @@ export default function RealEstateProjectProfile({ data }) {
       <section className="re-project-hero">
         <div>
           <span className="re-eyebrow">REAL ESTATE PROJECT PROFILE</span>
-          <small>{project.code || "Crowdpear projektas"}</small>
+          <small>{project.loanCode || project.code || "NT projektas"}</small>
           <h1>{project.name || "Projektas"}</h1>
           <p>
             {project.rating ? `${project.rating} reitingas` : "NT projektas"}

@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-29T18:08:36",
+        "updatedAt": "2026-07-29T18:19:36",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-29T18:08:32",
+        "updatedAt": "2026-07-29T18:19:33",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-29T18:08:38",
+        "updatedAt": "2026-07-29T18:19:38",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-29T18:08:38",
+        "updatedAt": "2026-07-29T18:19:39",
         "modules": {
           "broker": true,
           "positions": true,
@@ -84085,14 +84085,7 @@
           "changes": {
             "newProjects": [],
             "removedProjects": [],
-            "statusChanges": [
-              {
-                "loanCode": "LT-481|2026-03-10|100.00",
-                "name": "Horizonto 2A XII",
-                "from": "active",
-                "to": "delayed"
-              }
-            ],
+            "statusChanges": [],
             "portfolioValueChange": 0.0,
             "cashChange": 0.0,
             "outstandingChange": 0.0
