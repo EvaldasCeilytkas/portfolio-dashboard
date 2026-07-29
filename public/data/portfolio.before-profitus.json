@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-29T16:35:46",
+        "updatedAt": "2026-07-29T17:28:48",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-29T16:35:40",
+        "updatedAt": "2026-07-29T17:28:43",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-29T16:35:49",
+        "updatedAt": "2026-07-29T17:28:52",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-29T16:35:49",
+        "updatedAt": "2026-07-29T17:28:53",
         "modules": {
           "broker": true,
           "positions": true,
@@ -81750,10 +81750,10 @@
       "logoUrl": "https://www.google.com/s2/favicons?domain=crowdpear.com&sz=128",
       "website": "https://crowdpear.com",
       "currency": "EUR",
-      "invested": 1030.0,
-      "value": 1178.74,
-      "profit": 148.74,
-      "returnRate": 14.44,
+      "invested": 1189.65,
+      "value": 1184.72,
+      "profit": 154.72,
+      "returnRate": 15.02,
       "active": true,
       "history": [
         {
@@ -81761,112 +81761,136 @@
           "invested": 400.0,
           "value": 410.0,
           "profit": 10.0,
-          "returnRate": 2.5
+          "monthlyProfit": 10.0,
+          "monthlyReturn": 2.5
         },
         {
           "date": "2025-04-30",
           "invested": 600.0,
           "value": 620.0,
           "profit": 20.0,
-          "returnRate": 3.33
+          "monthlyProfit": 10.0,
+          "monthlyReturn": 2.44
         },
         {
           "date": "2025-05-31",
           "invested": 700.0,
           "value": 720.0,
           "profit": 20.0,
-          "returnRate": 2.86
+          "monthlyProfit": 0.0,
+          "monthlyReturn": 0.0
         },
         {
           "date": "2025-06-30",
           "invested": 700.0,
-          "value": 733.64,
-          "profit": 33.64,
-          "returnRate": 4.81
+          "value": 729.92,
+          "profit": 29.92,
+          "monthlyProfit": 9.92,
+          "monthlyReturn": 1.38
         },
         {
           "date": "2025-07-31",
           "invested": 700.0,
           "value": 740.12,
           "profit": 40.12,
-          "returnRate": 5.73
+          "monthlyProfit": 10.2,
+          "monthlyReturn": 1.4
         },
         {
           "date": "2025-08-31",
           "invested": 700.0,
           "value": 740.12,
           "profit": 40.12,
-          "returnRate": 5.73
+          "monthlyProfit": 0.0,
+          "monthlyReturn": 0.0
         },
         {
           "date": "2025-09-30",
-          "invested": 800.0,
-          "value": 852.99,
+          "invested": 900.0,
+          "value": 952.99,
           "profit": 52.99,
-          "returnRate": 6.62
+          "monthlyProfit": 12.87,
+          "monthlyReturn": 1.74
         },
         {
           "date": "2025-10-31",
           "invested": 900.0,
           "value": 963.27,
           "profit": 63.27,
-          "returnRate": 7.03
+          "monthlyProfit": 10.28,
+          "monthlyReturn": 1.08
         },
         {
           "date": "2025-11-30",
           "invested": 900.0,
           "value": 969.05,
           "profit": 69.05,
-          "returnRate": 7.67
+          "monthlyProfit": 5.78,
+          "monthlyReturn": 0.6
         },
         {
           "date": "2025-12-31",
           "invested": 1000.0,
           "value": 1094.0,
           "profit": 94.0,
-          "returnRate": 9.4
+          "monthlyProfit": 24.95,
+          "monthlyReturn": 2.57
         },
         {
           "date": "2026-01-31",
           "invested": 1000.0,
           "value": 1102.32,
           "profit": 102.32,
-          "returnRate": 10.23
+          "monthlyProfit": 8.32,
+          "monthlyReturn": 0.76
         },
         {
           "date": "2026-02-28",
           "invested": 1000.0,
-          "value": 1110.46,
-          "profit": 110.46,
-          "returnRate": 11.05
+          "value": 1110.55,
+          "profit": 110.55,
+          "monthlyProfit": 8.23,
+          "monthlyReturn": 0.75
         },
         {
           "date": "2026-03-31",
           "invested": 1030.0,
           "value": 1156.17,
           "profit": 126.17,
-          "returnRate": 12.25
+          "monthlyProfit": 15.62,
+          "monthlyReturn": 1.41
         },
         {
           "date": "2026-04-30",
           "invested": 1030.0,
           "value": 1156.17,
           "profit": 126.17,
-          "returnRate": 12.25
+          "monthlyProfit": 0.0,
+          "monthlyReturn": 0.0
         },
         {
           "date": "2026-05-31",
           "invested": 1030.0,
           "value": 1156.17,
           "profit": 126.17,
-          "returnRate": 12.25
+          "monthlyProfit": 0.0,
+          "monthlyReturn": 0.0
         },
         {
           "date": "2026-06-30",
           "invested": 1030.0,
           "value": 1178.74,
           "profit": 148.74,
-          "returnRate": 14.44
+          "monthlyProfit": 22.57,
+          "monthlyReturn": 1.95
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 1030.0,
+          "value": 1184.72,
+          "profit": 154.72,
+          "monthlyProfit": 5.98,
+          "monthlyReturn": 0.51
         }
       ],
       "analytics": {
@@ -82036,6 +82060,2158 @@
             "monthlyReturn": 1.95
           }
         ]
+      },
+      "xirr": 12.93,
+      "details": {
+        "platform": {
+          "name": "Crowdpear",
+          "slug": "crowdpear",
+          "category": "NT sutelktinis finansavimas",
+          "currency": "EUR",
+          "website": "https://crowdpear.com",
+          "status": "active",
+          "startDate": "2025-03-03",
+          "months": 17,
+          "updatedAt": "2026-07-29",
+          "healthScore": 70,
+          "healthParts": {
+            "diversification": 95,
+            "rating": 95,
+            "ltv": 81,
+            "delays": 80,
+            "cash": 0
+          }
+        },
+        "summary": {
+          "deposited": 1030.0,
+          "invested": 1189.65,
+          "bonuses": 40.0,
+          "cash": -4.93,
+          "repaidPrincipal": 1150.65,
+          "interestReceived": 114.72,
+          "portfolioValue": 1184.72,
+          "profit": 154.72,
+          "roi": 15.02,
+          "xirr": 12.93,
+          "totalProjects": 26,
+          "activeProjects": 13,
+          "delayedProjects": 1,
+          "repaidProjects": 13,
+          "averageInterest": 9.34,
+          "averageLtv": 53.8,
+          "averageDuration": 11.08
+        },
+        "history": [
+          {
+            "date": "2025-03-31",
+            "invested": 400.0,
+            "value": 410.0,
+            "profit": 10.0,
+            "monthlyProfit": 10.0,
+            "monthlyReturn": 2.5
+          },
+          {
+            "date": "2025-04-30",
+            "invested": 600.0,
+            "value": 620.0,
+            "profit": 20.0,
+            "monthlyProfit": 10.0,
+            "monthlyReturn": 2.44
+          },
+          {
+            "date": "2025-05-31",
+            "invested": 700.0,
+            "value": 720.0,
+            "profit": 20.0,
+            "monthlyProfit": 0.0,
+            "monthlyReturn": 0.0
+          },
+          {
+            "date": "2025-06-30",
+            "invested": 700.0,
+            "value": 729.92,
+            "profit": 29.92,
+            "monthlyProfit": 9.92,
+            "monthlyReturn": 1.38
+          },
+          {
+            "date": "2025-07-31",
+            "invested": 700.0,
+            "value": 740.12,
+            "profit": 40.12,
+            "monthlyProfit": 10.2,
+            "monthlyReturn": 1.4
+          },
+          {
+            "date": "2025-08-31",
+            "invested": 700.0,
+            "value": 740.12,
+            "profit": 40.12,
+            "monthlyProfit": 0.0,
+            "monthlyReturn": 0.0
+          },
+          {
+            "date": "2025-09-30",
+            "invested": 900.0,
+            "value": 952.99,
+            "profit": 52.99,
+            "monthlyProfit": 12.87,
+            "monthlyReturn": 1.74
+          },
+          {
+            "date": "2025-10-31",
+            "invested": 900.0,
+            "value": 963.27,
+            "profit": 63.27,
+            "monthlyProfit": 10.28,
+            "monthlyReturn": 1.08
+          },
+          {
+            "date": "2025-11-30",
+            "invested": 900.0,
+            "value": 969.05,
+            "profit": 69.05,
+            "monthlyProfit": 5.78,
+            "monthlyReturn": 0.6
+          },
+          {
+            "date": "2025-12-31",
+            "invested": 1000.0,
+            "value": 1094.0,
+            "profit": 94.0,
+            "monthlyProfit": 24.95,
+            "monthlyReturn": 2.57
+          },
+          {
+            "date": "2026-01-31",
+            "invested": 1000.0,
+            "value": 1102.32,
+            "profit": 102.32,
+            "monthlyProfit": 8.32,
+            "monthlyReturn": 0.76
+          },
+          {
+            "date": "2026-02-28",
+            "invested": 1000.0,
+            "value": 1110.55,
+            "profit": 110.55,
+            "monthlyProfit": 8.23,
+            "monthlyReturn": 0.75
+          },
+          {
+            "date": "2026-03-31",
+            "invested": 1030.0,
+            "value": 1156.17,
+            "profit": 126.17,
+            "monthlyProfit": 15.62,
+            "monthlyReturn": 1.41
+          },
+          {
+            "date": "2026-04-30",
+            "invested": 1030.0,
+            "value": 1156.17,
+            "profit": 126.17,
+            "monthlyProfit": 0.0,
+            "monthlyReturn": 0.0
+          },
+          {
+            "date": "2026-05-31",
+            "invested": 1030.0,
+            "value": 1156.17,
+            "profit": 126.17,
+            "monthlyProfit": 0.0,
+            "monthlyReturn": 0.0
+          },
+          {
+            "date": "2026-06-30",
+            "invested": 1030.0,
+            "value": 1178.74,
+            "profit": 148.74,
+            "monthlyProfit": 22.57,
+            "monthlyReturn": 1.95
+          },
+          {
+            "date": "2026-07-31",
+            "invested": 1030.0,
+            "value": 1184.72,
+            "profit": 154.72,
+            "monthlyProfit": 5.98,
+            "monthlyReturn": 0.51
+          }
+        ],
+        "latestMonth": {
+          "date": "2026-07-31",
+          "invested": 1030.0,
+          "value": 1184.72,
+          "profit": 154.72,
+          "monthlyProfit": 5.98,
+          "monthlyReturn": 0.51
+        },
+        "largestProject": {
+          "id": "7",
+          "slug": "7",
+          "loanCode": "LT-465",
+          "name": "Namas Panevėžyje",
+          "investmentDate": "2026-02-19",
+          "interestStart": "2026-02-20",
+          "rating": "B",
+          "ltv": 24.0,
+          "maxLtv": 59.0,
+          "durationMonths": 9,
+          "paymentFrequency": "Q",
+          "interestRate": 8.5,
+          "invested": 157.15,
+          "outstanding": 157.15,
+          "plannedRepayment": "2026-11-20",
+          "actualRepayment": null,
+          "delayDays": 0,
+          "repaidPrincipal": 0.0,
+          "interestReceived": 3.78,
+          "extraReceived": 0.0,
+          "status": "active",
+          "payments": [
+            {
+              "plannedDate": "2026-06-01",
+              "plannedPrincipal": 0.0,
+              "plannedInterest": 3.78,
+              "actualDate": "2026-06-01",
+              "actualPrincipal": 0.0,
+              "actualInterest": 3.78,
+              "actualExtra": 0.0,
+              "delayDays": 0
+            },
+            {
+              "plannedDate": "2026-08-31",
+              "plannedPrincipal": 0.0,
+              "plannedInterest": 3.3,
+              "actualDate": null,
+              "actualPrincipal": 0.0,
+              "actualInterest": 0.0,
+              "actualExtra": 0.0,
+              "delayDays": 0
+            },
+            {
+              "plannedDate": "2026-11-20",
+              "plannedPrincipal": 157.15,
+              "plannedInterest": 2.97,
+              "actualDate": null,
+              "actualPrincipal": 0.0,
+              "actualInterest": 0.0,
+              "actualExtra": 0.0,
+              "delayDays": 0
+            }
+          ],
+          "plannedInterest": 10.05
+        },
+        "distributions": {
+          "rating": [
+            {
+              "label": "B",
+              "count": 4,
+              "value": 392.4
+            },
+            {
+              "label": "C",
+              "count": 9,
+              "value": 797.25
+            }
+          ],
+          "ltv": [
+            {
+              "label": "≤ 40 %",
+              "count": 3,
+              "value": 386.45
+            },
+            {
+              "label": "41–50 %",
+              "count": 1,
+              "value": 10.0
+            },
+            {
+              "label": "51–60 %",
+              "count": 2,
+              "value": 201.49
+            },
+            {
+              "label": "61–70 %",
+              "count": 5,
+              "value": 386.02
+            },
+            {
+              "label": "> 70 %",
+              "count": 2,
+              "value": 205.69
+            }
+          ],
+          "interest": [
+            {
+              "label": "< 8 %",
+              "count": 0,
+              "value": 0.0
+            },
+            {
+              "label": "8–8,99 %",
+              "count": 3,
+              "value": 269.16
+            },
+            {
+              "label": "9–9,99 %",
+              "count": 8,
+              "value": 697.25
+            },
+            {
+              "label": "10–10,99 %",
+              "count": 2,
+              "value": 223.24
+            },
+            {
+              "label": "≥ 11 %",
+              "count": 0,
+              "value": 0.0
+            }
+          ],
+          "duration": [
+            {
+              "label": "≤ 6 mėn.",
+              "count": 1,
+              "value": 103.68
+            },
+            {
+              "label": "7–9 mėn.",
+              "count": 2,
+              "value": 257.15
+            },
+            {
+              "label": "10–12 mėn.",
+              "count": 9,
+              "value": 728.82
+            },
+            {
+              "label": "13–18 mėn.",
+              "count": 1,
+              "value": 100.0
+            },
+            {
+              "label": "> 18 mėn.",
+              "count": 0,
+              "value": 0.0
+            }
+          ]
+        },
+        "repaymentTimeline": [
+          {
+            "month": "2026-07",
+            "count": 1,
+            "amount": 103.68
+          },
+          {
+            "month": "2026-09",
+            "count": 2,
+            "amount": 224.73
+          },
+          {
+            "month": "2026-11",
+            "count": 2,
+            "amount": 167.15
+          },
+          {
+            "month": "2026-12",
+            "count": 3,
+            "amount": 216.06
+          },
+          {
+            "month": "2027-02",
+            "count": 1,
+            "amount": 123.63
+          },
+          {
+            "month": "2027-03",
+            "count": 1,
+            "amount": 102.01
+          },
+          {
+            "month": "2027-06",
+            "count": 1,
+            "amount": 100.0
+          },
+          {
+            "month": "2027-07",
+            "count": 2,
+            "amount": 152.39
+          }
+        ],
+        "projects": [
+          {
+            "id": "1",
+            "slug": "1",
+            "loanCode": "LT-558",
+            "name": "Testas",
+            "investmentDate": "2026-07-08",
+            "interestStart": null,
+            "rating": "C",
+            "ltv": 70.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 9.25,
+            "invested": 10.0,
+            "outstanding": 10.0,
+            "plannedRepayment": "2027-07-09",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 0.0,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-11-03",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 4.21,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-02-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.22,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-04-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.26,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-07-09",
+                "plannedPrincipal": 142.39,
+                "plannedInterest": 2.52,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 13.21
+          },
+          {
+            "id": "2",
+            "slug": "2",
+            "loanCode": "LT-558",
+            "name": "Vakaro 3A K1 III",
+            "investmentDate": "2026-07-08",
+            "interestStart": null,
+            "rating": "C",
+            "ltv": 70.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 9.25,
+            "invested": 142.39,
+            "outstanding": 142.39,
+            "plannedRepayment": "2027-07-09",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 0.0,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-11-03",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 4.21,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-02-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.22,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-04-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.26,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-07-09",
+                "plannedPrincipal": 142.39,
+                "plannedInterest": 2.52,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 13.21
+          },
+          {
+            "id": "3",
+            "slug": "3",
+            "loanCode": "LT-484",
+            "name": "Kauno 36-118 II",
+            "investmentDate": "2026-03-14",
+            "interestStart": "2026-03-16",
+            "rating": "B",
+            "ltv": 73.0,
+            "maxLtv": 75.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 8.5,
+            "invested": 102.01,
+            "outstanding": 102.01,
+            "plannedRepayment": "2027-03-16",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 2.55,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.55,
+                "actualDate": "2026-07-10",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.55,
+                "actualExtra": 0.0,
+                "delayDays": 10
+              },
+              {
+                "plannedDate": "2026-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.17,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-12-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.17,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-03-16",
+                "plannedPrincipal": 102.01,
+                "plannedInterest": 1.83,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 8.72
+          },
+          {
+            "id": "4",
+            "slug": "4",
+            "loanCode": "LT-481",
+            "name": "Horizonto 2A XII",
+            "investmentDate": "2026-03-10",
+            "interestStart": "2026-03-10",
+            "rating": "C",
+            "ltv": 70.0,
+            "maxLtv": 70.0,
+            "durationMonths": 9,
+            "paymentFrequency": "Q",
+            "interestRate": 9.5,
+            "invested": 100.0,
+            "outstanding": 100.0,
+            "plannedRepayment": "2026-12-09",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 0.0,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.9,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.38,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-12-09",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 1.82,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 7.1
+          },
+          {
+            "id": "5",
+            "slug": "5",
+            "loanCode": "LT-477",
+            "name": "Tautvilo kotedžai XIV",
+            "investmentDate": "2026-03-07",
+            "interestStart": "2026-03-11",
+            "rating": "C",
+            "ltv": 60.0,
+            "maxLtv": 75.0,
+            "durationMonths": 16,
+            "paymentFrequency": "Q",
+            "interestRate": 10.0,
+            "invested": 100.0,
+            "outstanding": 100.0,
+            "plannedRepayment": "2027-06-11",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 3.14,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.14,
+                "actualDate": "2026-06-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.14,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.5,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-12-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.5,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-03-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.5,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-06-11",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 1.97,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 12.61
+          },
+          {
+            "id": "6",
+            "slug": "6",
+            "loanCode": "LT-466",
+            "name": "Žemoji 52 XXIX“",
+            "investmentDate": "2026-02-20",
+            "interestStart": "2026-02-20",
+            "rating": "C",
+            "ltv": 71.0,
+            "maxLtv": 80.0,
+            "durationMonths": 5,
+            "paymentFrequency": "Q",
+            "interestRate": 9.5,
+            "invested": 103.68,
+            "outstanding": 103.68,
+            "plannedRepayment": "2026-07-17",
+            "actualRepayment": null,
+            "delayDays": 12,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 2.76,
+            "extraReceived": 0.0,
+            "status": "delayed",
+            "payments": [
+              {
+                "plannedDate": "2026-06-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.76,
+                "actualDate": "2026-06-01",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.76,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-07-17",
+                "plannedPrincipal": 103.68,
+                "plannedInterest": 1.26,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 12
+              }
+            ],
+            "plannedInterest": 4.02
+          },
+          {
+            "id": "7",
+            "slug": "7",
+            "loanCode": "LT-465",
+            "name": "Namas Panevėžyje",
+            "investmentDate": "2026-02-19",
+            "interestStart": "2026-02-20",
+            "rating": "B",
+            "ltv": 24.0,
+            "maxLtv": 59.0,
+            "durationMonths": 9,
+            "paymentFrequency": "Q",
+            "interestRate": 8.5,
+            "invested": 157.15,
+            "outstanding": 157.15,
+            "plannedRepayment": "2026-11-20",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 3.78,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-06-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.78,
+                "actualDate": "2026-06-01",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.78,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-08-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.3,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-11-20",
+                "plannedPrincipal": 157.15,
+                "plannedInterest": 2.97,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 10.05
+          },
+          {
+            "id": "8",
+            "slug": "8",
+            "loanCode": "LT-451",
+            "name": "Vingio namai XIV",
+            "investmentDate": "2026-01-27",
+            "interestStart": "2026-02-02",
+            "rating": "C",
+            "ltv": 62.0,
+            "maxLtv": 80.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 9.5,
+            "invested": 123.63,
+            "outstanding": 123.63,
+            "plannedRepayment": "2027-02-02",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 4.05,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-06-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 4.05,
+                "actualDate": "2026-06-01",
+                "actualPrincipal": 0.0,
+                "actualInterest": 4.05,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-08-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.9,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-11-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.94,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-02-02",
+                "plannedPrincipal": 123.63,
+                "plannedInterest": 2.02,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 11.91
+          },
+          {
+            "id": "9",
+            "slug": "9",
+            "loanCode": "LT-424",
+            "name": "Birelių namas II",
+            "investmentDate": "2025-12-19",
+            "interestStart": "2025-12-22",
+            "rating": "B",
+            "ltv": 49.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 8.25,
+            "invested": 10.0,
+            "outstanding": 10.0,
+            "plannedRepayment": "2026-12-22",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 0.44,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-03-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.23,
+                "actualDate": "2026-03-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.23,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.21,
+                "actualDate": "2026-06-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.21,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.21,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-12-22",
+                "plannedPrincipal": 10.0,
+                "plannedInterest": 0.19,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 0.84
+          },
+          {
+            "id": "10",
+            "slug": "10",
+            "loanCode": "LT-418",
+            "name": "Sūduvos 8-2",
+            "investmentDate": "2025-12-12",
+            "interestStart": "2025-12-12",
+            "rating": "C",
+            "ltv": 22.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 9.5,
+            "invested": 106.06,
+            "outstanding": 106.06,
+            "plannedRepayment": "2026-12-15",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 5.54,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-03-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.02,
+                "actualDate": "2026-03-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.02,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.52,
+                "actualDate": "2026-07-14",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.52,
+                "actualExtra": 0.0,
+                "delayDays": 14
+              },
+              {
+                "plannedDate": "2026-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.52,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-12-15",
+                "plannedPrincipal": 106.06,
+                "plannedInterest": 2.1,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 10.16
+          },
+          {
+            "id": "11",
+            "slug": "11",
+            "loanCode": "LT-388",
+            "name": "Miškininkų 30 II",
+            "investmentDate": "2025-10-28",
+            "interestStart": "2025-11-06",
+            "rating": "C",
+            "ltv": 65.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 9.0,
+            "invested": 10.0,
+            "outstanding": 10.0,
+            "plannedRepayment": "2026-11-06",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 0.53,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2026-03-02",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.31,
+                "actualDate": "2026-03-02",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.31,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-06-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.22,
+                "actualDate": "2026-06-01",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.22,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-08-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.22,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-11-06",
+                "plannedPrincipal": 10.0,
+                "plannedInterest": 0.17,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 0.92
+          },
+          {
+            "id": "12",
+            "slug": "12",
+            "loanCode": "LT-363",
+            "name": "Vienbutis Minsko 5A",
+            "investmentDate": "2025-09-15",
+            "interestStart": "2025-09-16",
+            "rating": "C",
+            "ltv": 56.0,
+            "maxLtv": 56.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 9.0,
+            "invested": 101.49,
+            "outstanding": 101.49,
+            "plannedRepayment": "2026-09-16",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 7.22,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2025-12-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.66,
+                "actualDate": "2025-12-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.66,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-03-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.28,
+                "actualDate": "2026-03-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.28,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.28,
+                "actualDate": "2026-06-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.28,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-09-16",
+                "plannedPrincipal": 101.49,
+                "plannedInterest": 1.93,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 9.15
+          },
+          {
+            "id": "13",
+            "slug": "13",
+            "loanCode": "RO-360",
+            "name": "Sfintii Arhangheli 21",
+            "investmentDate": "2025-09-08",
+            "interestStart": "2025-09-08",
+            "rating": "B",
+            "ltv": 40.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 10.5,
+            "invested": 123.24,
+            "outstanding": 123.24,
+            "plannedRepayment": "2026-09-09",
+            "actualRepayment": null,
+            "delayDays": 0,
+            "repaidPrincipal": 0.0,
+            "interestReceived": 10.51,
+            "extraReceived": 0.0,
+            "status": "active",
+            "payments": [
+              {
+                "plannedDate": "2025-12-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 4.03,
+                "actualDate": "2025-12-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 4.03,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-03-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.24,
+                "actualDate": "2026-03-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.24,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.24,
+                "actualDate": "2026-06-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.24,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-09-09",
+                "plannedPrincipal": 123.24,
+                "plannedInterest": 2.48,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 12.99
+          },
+          {
+            "id": "14",
+            "slug": "14",
+            "loanCode": "LT-457",
+            "name": "Vanagupės 36A-204 II",
+            "investmentDate": "2026-02-03",
+            "interestStart": "2026-02-04",
+            "rating": "B",
+            "ltv": 41.0,
+            "maxLtv": 65.0,
+            "durationMonths": 9,
+            "paymentFrequency": "Q",
+            "interestRate": 8.5,
+            "invested": 103.62,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-11-04",
+            "actualRepayment": "2026-07-08",
+            "delayDays": 0,
+            "repaidPrincipal": 103.62,
+            "interestReceived": 3.8,
+            "extraReceived": 0.0,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2026-06-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.89,
+                "actualDate": "2026-06-01",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.89,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-08-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.18,
+                "actualDate": null,
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-11-04",
+                "plannedPrincipal": 103.62,
+                "plannedInterest": 1.57,
+                "actualDate": "2026-07-08",
+                "actualPrincipal": 103.62,
+                "actualInterest": 0.91,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 6.64
+          },
+          {
+            "id": "15",
+            "slug": "15",
+            "loanCode": "LT-285",
+            "name": "Piliarožių 10 VI",
+            "investmentDate": "2025-04-17",
+            "interestStart": "2025-04-24",
+            "rating": "C",
+            "ltv": 70.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 11.0,
+            "invested": 10.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-04-24",
+            "actualRepayment": "2026-03-24",
+            "delayDays": 0,
+            "repaidPrincipal": 10.0,
+            "interestReceived": 0.94,
+            "extraReceived": 0.0,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-07-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.31,
+                "actualDate": "2025-07-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.31,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-10-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.28,
+                "actualDate": "2025-10-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.28,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-01-08",
+                "plannedPrincipal": 3.58,
+                "plannedInterest": 0.28,
+                "actualDate": "2026-01-08",
+                "actualPrincipal": 3.58,
+                "actualInterest": 0.07,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-02-02",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.18,
+                "actualDate": "2026-02-02",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.18,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-04-24",
+                "plannedPrincipal": 6.42,
+                "plannedInterest": 0.16,
+                "actualDate": "2026-03-24",
+                "actualPrincipal": 6.42,
+                "actualInterest": 0.1,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 1.21
+          },
+          {
+            "id": "16",
+            "slug": "16",
+            "loanCode": "ID 44763",
+            "name": "Užnerio butai III",
+            "investmentDate": "2025-03-03",
+            "interestStart": "2025-03-06",
+            "rating": "C",
+            "ltv": 53.0,
+            "maxLtv": 75.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 10.5,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-03-06",
+            "actualRepayment": "2026-03-10",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 10.6,
+            "extraReceived": 0.17,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.41,
+                "actualDate": "2025-06-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.41,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.63,
+                "actualDate": "2025-09-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.63,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-12-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.63,
+                "actualDate": "2025-12-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.63,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-03-06",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 1.93,
+                "actualDate": "2026-03-10",
+                "actualPrincipal": 100.0,
+                "actualInterest": 1.93,
+                "actualExtra": 0.17,
+                "delayDays": 4
+              }
+            ],
+            "plannedInterest": 10.6
+          },
+          {
+            "id": "17",
+            "slug": "17",
+            "loanCode": "LT-440",
+            "name": "Druskonio perlai VII",
+            "investmentDate": "2026-01-13",
+            "interestStart": "2026-01-21",
+            "rating": "C",
+            "ltv": 32.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 9.5,
+            "invested": 118.77,
+            "outstanding": 0.0,
+            "plannedRepayment": "2027-01-21",
+            "actualRepayment": "2026-03-05",
+            "delayDays": 0,
+            "repaidPrincipal": 118.77,
+            "interestReceived": 3.35,
+            "extraReceived": 0.0,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2026-04-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.35,
+                "actualDate": "2026-03-05",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.35,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-07-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.82,
+                "actualDate": "2026-03-05",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-11-03",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.91,
+                "actualDate": "2026-03-05",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2027-01-21",
+                "plannedPrincipal": 118.77,
+                "plannedInterest": 2.44,
+                "actualDate": "2026-03-05",
+                "actualPrincipal": 118.77,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 11.52
+          },
+          {
+            "id": "18",
+            "slug": "18",
+            "loanCode": "LT-364",
+            "name": "Dvibutis Sodybų 12",
+            "investmentDate": "2025-09-12",
+            "interestStart": "2025-09-17",
+            "rating": "C",
+            "ltv": 70.0,
+            "maxLtv": 70.0,
+            "durationMonths": 6,
+            "paymentFrequency": "Q",
+            "interestRate": 9.0,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-03-17",
+            "actualRepayment": "2026-03-03",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 3.89,
+            "extraReceived": 0.26,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-12-31",
+                "plannedPrincipal": 5.55,
+                "plannedInterest": 2.7,
+                "actualDate": "2026-01-19",
+                "actualPrincipal": 5.55,
+                "actualInterest": 2.73,
+                "actualExtra": 0.0,
+                "delayDays": 19
+              },
+              {
+                "plannedDate": "2026-02-06",
+                "plannedPrincipal": 48.05,
+                "plannedInterest": 0.43,
+                "actualDate": "2026-02-06",
+                "actualPrincipal": 48.05,
+                "actualInterest": 0.43,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-03-17",
+                "plannedPrincipal": 46.4,
+                "plannedInterest": 0.89,
+                "actualDate": "2026-03-03",
+                "actualPrincipal": 46.4,
+                "actualInterest": 0.73,
+                "actualExtra": 0.26,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 4.02
+          },
+          {
+            "id": "19",
+            "slug": "19",
+            "loanCode": "LT-288",
+            "name": "Girios 112 II",
+            "investmentDate": "2025-04-23",
+            "interestStart": "2025-04-28",
+            "rating": "C",
+            "ltv": 70.0,
+            "maxLtv": 70.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 11.0,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-04-28",
+            "actualRepayment": "2026-02-20",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 9.07,
+            "extraReceived": 0.32,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-07-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.96,
+                "actualDate": "2025-07-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.96,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-10-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.75,
+                "actualDate": "2025-11-05",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.75,
+                "actualExtra": 0.0,
+                "delayDays": 5
+              },
+              {
+                "plannedDate": "2026-02-02",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.81,
+                "actualDate": "2026-02-20",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.81,
+                "actualExtra": 0.32,
+                "delayDays": 18
+              },
+              {
+                "plannedDate": "2026-04-28",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 2.63,
+                "actualDate": "2026-02-20",
+                "actualPrincipal": 100.0,
+                "actualInterest": 0.55,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 11.15
+          },
+          {
+            "id": "20",
+            "slug": "20",
+            "loanCode": "LT-382",
+            "name": "Pagojo 1 II",
+            "investmentDate": "2025-10-20",
+            "interestStart": "2025-10-21",
+            "rating": "B",
+            "ltv": 41.0,
+            "maxLtv": 70.0,
+            "durationMonths": 9,
+            "paymentFrequency": "Q",
+            "interestRate": 8.0,
+            "invested": 108.26,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-07-21",
+            "actualRepayment": "2026-02-19",
+            "delayDays": 0,
+            "repaidPrincipal": 108.26,
+            "interestReceived": 2.86,
+            "extraReceived": 0.0,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2026-02-02",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.45,
+                "actualDate": "2026-02-02",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.45,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-04-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.12,
+                "actualDate": "2026-02-19",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.0,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-07-21",
+                "plannedPrincipal": 108.26,
+                "plannedInterest": 1.95,
+                "actualDate": "2026-02-19",
+                "actualPrincipal": 108.26,
+                "actualInterest": 0.41,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 6.52
+          },
+          {
+            "id": "21",
+            "slug": "21",
+            "loanCode": "LT-262",
+            "name": "Pušynas VII",
+            "investmentDate": "2025-03-05",
+            "interestStart": "2025-03-05",
+            "rating": "D",
+            "ltv": 69.0,
+            "maxLtv": 69.0,
+            "durationMonths": 11,
+            "paymentFrequency": "Q",
+            "interestRate": 11.5,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-02-01",
+            "actualRepayment": "2026-02-03",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 10.42,
+            "extraReceived": 0.09,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.67,
+                "actualDate": "2025-06-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.67,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.88,
+                "actualDate": "2025-09-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.88,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-12-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.88,
+                "actualDate": "2025-12-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.88,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-02-01",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 0.99,
+                "actualDate": "2026-02-03",
+                "actualPrincipal": 100.0,
+                "actualInterest": 0.99,
+                "actualExtra": 0.09,
+                "delayDays": 2
+              }
+            ],
+            "plannedInterest": 10.42
+          },
+          {
+            "id": "22",
+            "slug": "22",
+            "loanCode": "LT-264",
+            "name": "Sodziaus 7A",
+            "investmentDate": "2025-03-09",
+            "interestStart": "2025-03-14",
+            "rating": "C",
+            "ltv": 65.0,
+            "maxLtv": 0.0,
+            "durationMonths": 9,
+            "paymentFrequency": "Q",
+            "interestRate": 11.0,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2025-12-14",
+            "actualRepayment": "2026-01-27",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 8.4,
+            "extraReceived": 2.6,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.39,
+                "actualDate": "2025-07-16",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.39,
+                "actualExtra": 0.0,
+                "delayDays": 16
+              },
+              {
+                "plannedDate": "2025-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.75,
+                "actualDate": "2025-11-04",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.75,
+                "actualExtra": 0.0,
+                "delayDays": 35
+              },
+              {
+                "plannedDate": "2025-12-14",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 2.26,
+                "actualDate": "2026-01-27",
+                "actualPrincipal": 100.0,
+                "actualInterest": 2.26,
+                "actualExtra": 2.6,
+                "delayDays": 44
+              }
+            ],
+            "plannedInterest": 8.4
+          },
+          {
+            "id": "23",
+            "slug": "23",
+            "loanCode": "LT-264",
+            "name": "Sodziaus 7A",
+            "investmentDate": "2025-03-13",
+            "interestStart": "2025-03-14",
+            "rating": "C",
+            "ltv": 65.0,
+            "maxLtv": 0.0,
+            "durationMonths": 9,
+            "paymentFrequency": "Q",
+            "interestRate": 11.0,
+            "invested": 10.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2025-12-14",
+            "actualRepayment": "2026-01-27",
+            "delayDays": 0,
+            "repaidPrincipal": 10.0,
+            "interestReceived": 0.84,
+            "extraReceived": 0.26,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.33,
+                "actualDate": "2025-07-16",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.33,
+                "actualExtra": 0.0,
+                "delayDays": 16
+              },
+              {
+                "plannedDate": "2025-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.28,
+                "actualDate": "2025-11-04",
+                "actualPrincipal": 0.0,
+                "actualInterest": 0.28,
+                "actualExtra": 0.0,
+                "delayDays": 35
+              },
+              {
+                "plannedDate": "2025-12-14",
+                "plannedPrincipal": 10.0,
+                "plannedInterest": 0.23,
+                "actualDate": "2026-01-27",
+                "actualPrincipal": 10.0,
+                "actualInterest": 0.23,
+                "actualExtra": 0.26,
+                "delayDays": 44
+              }
+            ],
+            "plannedInterest": 0.84
+          },
+          {
+            "id": "24",
+            "slug": "24",
+            "loanCode": "LT-268",
+            "name": "Kauno 36-232",
+            "investmentDate": "2025-03-27",
+            "interestStart": "2025-03-31",
+            "rating": "C",
+            "ltv": 64.0,
+            "maxLtv": 75.0,
+            "durationMonths": 12,
+            "paymentFrequency": "Q",
+            "interestRate": 11.0,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2026-03-31",
+            "actualRepayment": "2026-01-13",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 8.51,
+            "extraReceived": 0.0,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-06-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.84,
+                "actualDate": "2025-06-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.84,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-09-30",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.75,
+                "actualDate": "2025-09-30",
+                "actualPrincipal": 0.0,
+                "actualInterest": 2.75,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-12-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 2.75,
+                "actualDate": "2025-12-30",
+                "actualPrincipal": 37.32,
+                "actualInterest": 2.75,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-01-06",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 0.0,
+                "actualDate": "2026-01-06",
+                "actualPrincipal": 37.32,
+                "actualInterest": 0.07,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2026-03-31",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 2.75,
+                "actualDate": "2026-01-13",
+                "actualPrincipal": 25.36,
+                "actualInterest": 0.1,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 11.09
+          },
+          {
+            "id": "25",
+            "slug": "25",
+            "loanCode": "LT-296",
+            "name": "Girinaičių 7 II",
+            "investmentDate": "2025-05-14",
+            "interestStart": "2025-05-14",
+            "rating": "B",
+            "ltv": 75.0,
+            "maxLtv": 75.0,
+            "durationMonths": 6,
+            "paymentFrequency": "Q",
+            "interestRate": 10.5,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2025-11-14",
+            "actualRepayment": "2025-09-12",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 3.41,
+            "extraReceived": 0.0,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-09-01",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.12,
+                "actualDate": "2025-09-01",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.12,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-11-14",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 2.13,
+                "actualDate": "2025-09-12",
+                "actualPrincipal": 100.0,
+                "actualInterest": 0.29,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 5.25
+          },
+          {
+            "id": "26",
+            "slug": "26",
+            "loanCode": "LT-279",
+            "name": "Girinaičių 7",
+            "investmentDate": "2025-04-10",
+            "interestStart": "2025-04-18",
+            "rating": "B",
+            "ltv": 66.0,
+            "maxLtv": 75.0,
+            "durationMonths": 6,
+            "paymentFrequency": "Q",
+            "interestRate": 10.5,
+            "invested": 100.0,
+            "outstanding": 0.0,
+            "plannedRepayment": "2025-10-18",
+            "actualRepayment": "2025-09-11",
+            "delayDays": 0,
+            "repaidPrincipal": 100.0,
+            "interestReceived": 4.41,
+            "extraReceived": 0.0,
+            "status": "repaid",
+            "payments": [
+              {
+                "plannedDate": "2025-07-31",
+                "plannedPrincipal": 0.0,
+                "plannedInterest": 3.21,
+                "actualDate": "2025-07-31",
+                "actualPrincipal": 0.0,
+                "actualInterest": 3.21,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              },
+              {
+                "plannedDate": "2025-10-18",
+                "plannedPrincipal": 100.0,
+                "plannedInterest": 2.28,
+                "actualDate": "2025-09-11",
+                "actualPrincipal": 100.0,
+                "actualInterest": 1.2,
+                "actualExtra": 0.0,
+                "delayDays": 0
+              }
+            ],
+            "plannedInterest": 5.49
+          }
+        ],
+        "qualityControl": {
+          "valid": true,
+          "excelProjectCount": 26,
+          "jsonProjectCount": 26,
+          "checksPassed": 10,
+          "warningsCount": 2,
+          "errorsCount": 0,
+          "checks": [
+            "Projektų duomenų struktūra teisinga.",
+            "Projektų skaičius sutampa: Excel 26, JSON 26.",
+            "Visi projektai turi paskolos kodą.",
+            "Visų projektų statusai atpažinti.",
+            "Bendras projektų skaičius teisingas: 26.",
+            "Aktyvių projektų skaičius teisingas: 13.",
+            "Vėluojančių projektų skaičius teisingas: 1.",
+            "Užbaigtų projektų skaičius teisingas: 13.",
+            "Aktyvus paskolų likutis sutampa: 1189.65 €.",
+            "Portfelio vertė sutampa su laisvais pinigais ir paskolų likučiu."
+          ],
+          "warnings": [
+            "Tie patys paskolos kodai naudojami kelioms atskiroms investicijoms: LT-264, LT-558",
+            "Laisvų pinigų likutis neigiamas: -4.93 €."
+          ],
+          "errors": [],
+          "skippedSheets": [],
+          "changes": {
+            "newProjects": [
+              {
+                "loanCode": "ID 44763|2025-03-03|100.00",
+                "name": "Užnerio butai III"
+              },
+              {
+                "loanCode": "LT-262|2025-03-05|100.00",
+                "name": "Pušynas VII"
+              },
+              {
+                "loanCode": "LT-264|2025-03-09|100.00",
+                "name": "Sodziaus 7A"
+              },
+              {
+                "loanCode": "LT-264|2025-03-13|10.00",
+                "name": "Sodziaus 7A"
+              },
+              {
+                "loanCode": "LT-268|2025-03-27|100.00",
+                "name": "Kauno 36-232"
+              },
+              {
+                "loanCode": "LT-279|2025-04-10|100.00",
+                "name": "Girinaičių 7"
+              },
+              {
+                "loanCode": "LT-285|2025-04-17|10.00",
+                "name": "Piliarožių 10 VI"
+              },
+              {
+                "loanCode": "LT-288|2025-04-23|100.00",
+                "name": "Girios 112 II"
+              },
+              {
+                "loanCode": "LT-296|2025-05-14|100.00",
+                "name": "Girinaičių 7 II"
+              },
+              {
+                "loanCode": "LT-363|2025-09-15|101.49",
+                "name": "Vienbutis Minsko 5A"
+              },
+              {
+                "loanCode": "LT-364|2025-09-12|100.00",
+                "name": "Dvibutis Sodybų 12"
+              },
+              {
+                "loanCode": "LT-382|2025-10-20|108.26",
+                "name": "Pagojo 1 II"
+              },
+              {
+                "loanCode": "LT-388|2025-10-28|10.00",
+                "name": "Miškininkų 30 II"
+              },
+              {
+                "loanCode": "LT-418|2025-12-12|106.06",
+                "name": "Sūduvos 8-2"
+              },
+              {
+                "loanCode": "LT-424|2025-12-19|10.00",
+                "name": "Birelių namas II"
+              },
+              {
+                "loanCode": "LT-440|2026-01-13|118.77",
+                "name": "Druskonio perlai VII"
+              },
+              {
+                "loanCode": "LT-451|2026-01-27|123.63",
+                "name": "Vingio namai XIV"
+              },
+              {
+                "loanCode": "LT-457|2026-02-03|103.62",
+                "name": "Vanagupės 36A-204 II"
+              },
+              {
+                "loanCode": "LT-465|2026-02-19|157.15",
+                "name": "Namas Panevėžyje"
+              },
+              {
+                "loanCode": "LT-466|2026-02-20|103.68",
+                "name": "Žemoji 52 XXIX“"
+              },
+              {
+                "loanCode": "LT-477|2026-03-07|100.00",
+                "name": "Tautvilo kotedžai XIV"
+              },
+              {
+                "loanCode": "LT-481|2026-03-10|100.00",
+                "name": "Horizonto 2A XII"
+              },
+              {
+                "loanCode": "LT-484|2026-03-14|102.01",
+                "name": "Kauno 36-118 II"
+              },
+              {
+                "loanCode": "LT-558|2026-07-08|10.00",
+                "name": "Testas"
+              },
+              {
+                "loanCode": "LT-558|2026-07-08|142.39",
+                "name": "Vakaro 3A K1 III"
+              },
+              {
+                "loanCode": "RO-360|2025-09-08|123.24",
+                "name": "Sfintii Arhangheli 21"
+              }
+            ],
+            "removedProjects": [],
+            "statusChanges": [],
+            "portfolioValueChange": 1184.72,
+            "cashChange": -4.93,
+            "outstandingChange": 1189.65
+          }
+        },
+        "type": "p2p",
+        "modules": {
+          "loans": true
+        },
+        "health": {
+          "score": 70,
+          "label": "Portfolio Health",
+          "parts": {
+            "diversification": 95,
+            "rating": 95,
+            "ltv": 81,
+            "delays": 80,
+            "cash": 0
+          }
+        }
       }
     },
     {

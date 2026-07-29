@@ -1889,12 +1889,7 @@
     "errors": [],
     "skippedSheets": [],
     "changes": {
-      "newProjects": [
-        {
-          "loanCode": "P00001480",
-          "name": "Golf Hills Vilos, Alikantė"
-        }
-      ],
+      "newProjects": [],
       "removedProjects": [],
       "statusChanges": [],
       "portfolioValueChange": 0.0,
