@@ -28,7 +28,7 @@
       "value": 30.0
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "invested": 30.0,
       "value": 30.05
     }
@@ -167,7 +167,7 @@
         "startDate": "2026-06-22",
         "plannedEndDate": "2027-01-17",
         "actualEndDate": null,
-        "daysRemaining": 173,
+        "daysRemaining": 172,
         "delayDays": 0,
         "interestRate": 10.0,
         "invested": 10.0,
@@ -235,7 +235,7 @@
         "startDate": "2026-07-17",
         "plannedEndDate": "2026-10-04",
         "actualEndDate": null,
-        "daysRemaining": 68,
+        "daysRemaining": 67,
         "delayDays": 0,
         "interestRate": 15.0,
         "invested": 10.03,
@@ -258,7 +258,7 @@
         "startDate": "2026-07-27",
         "plannedEndDate": "2027-01-25",
         "actualEndDate": null,
-        "daysRemaining": 181,
+        "daysRemaining": 180,
         "delayDays": 0,
         "interestRate": 13.0,
         "invested": 11.29,

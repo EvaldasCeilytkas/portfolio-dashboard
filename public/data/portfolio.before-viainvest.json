@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-28T22:52:52",
+        "updatedAt": "2026-07-29T15:40:57",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-28T22:52:47",
+        "updatedAt": "2026-07-29T15:40:53",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-28T22:52:54",
+        "updatedAt": "2026-07-29T15:41:01",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-28T22:52:57",
+        "updatedAt": "2026-07-29T15:41:01",
         "modules": {
           "broker": true,
           "positions": true,
@@ -82118,7 +82118,7 @@
           "value": 1050.62
         },
         {
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "invested": 950.0,
           "value": 1062.91
         }
@@ -83404,7 +83404,7 @@
             "startDate": "2026-02-17",
             "plannedEndDate": "2026-08-05",
             "actualEndDate": null,
-            "daysRemaining": 8,
+            "daysRemaining": 7,
             "delayDays": 0,
             "interestRate": 10.5,
             "invested": 158.38,
@@ -83491,7 +83491,7 @@
             "startDate": "2026-03-17",
             "plannedEndDate": "2026-09-05",
             "actualEndDate": null,
-            "daysRemaining": 39,
+            "daysRemaining": 38,
             "delayDays": 0,
             "interestRate": 10.5,
             "invested": 142.8,
@@ -83578,7 +83578,7 @@
             "startDate": "2026-04-17",
             "plannedEndDate": "2026-10-05",
             "actualEndDate": null,
-            "daysRemaining": 69,
+            "daysRemaining": 68,
             "delayDays": 0,
             "interestRate": 10.5,
             "invested": 146.67,
@@ -83665,7 +83665,7 @@
             "startDate": "2026-06-17",
             "plannedEndDate": "2026-12-07",
             "actualEndDate": null,
-            "daysRemaining": 132,
+            "daysRemaining": 131,
             "delayDays": 0,
             "interestRate": 10.5,
             "invested": 294.26,
@@ -83752,7 +83752,7 @@
             "startDate": "2026-06-17",
             "plannedEndDate": "2026-12-07",
             "actualEndDate": null,
-            "daysRemaining": 132,
+            "daysRemaining": 131,
             "delayDays": 0,
             "interestRate": 10.5,
             "invested": 219.61,
@@ -83839,7 +83839,7 @@
             "startDate": "2026-07-17",
             "plannedEndDate": "2027-01-05",
             "actualEndDate": null,
-            "daysRemaining": 161,
+            "daysRemaining": 160,
             "delayDays": 0,
             "interestRate": 10.5,
             "invested": 223.86,
@@ -84030,7 +84030,7 @@
           "value": 302.06
         },
         {
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "invested": 300.0,
           "value": 323.29
         }
@@ -85551,7 +85551,7 @@
             "startDate": "2025-09-05",
             "plannedEndDate": "2026-08-25",
             "actualEndDate": null,
-            "daysRemaining": 28,
+            "daysRemaining": 27,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 50.0,
@@ -85678,7 +85678,7 @@
             "startDate": "2025-09-15",
             "plannedEndDate": "2026-09-08",
             "actualEndDate": null,
-            "daysRemaining": 42,
+            "daysRemaining": 41,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 53.9,
@@ -86725,7 +86725,7 @@
             "startDate": "2025-11-26",
             "plannedEndDate": "2026-08-23",
             "actualEndDate": null,
-            "daysRemaining": 26,
+            "daysRemaining": 25,
             "delayDays": 0,
             "interestRate": 12.0,
             "invested": 14.43,
@@ -86929,7 +86929,7 @@
             "startDate": "2025-12-11",
             "plannedEndDate": "2026-09-07",
             "actualEndDate": null,
-            "daysRemaining": 41,
+            "daysRemaining": 40,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 10.58,
@@ -87739,7 +87739,7 @@
             "startDate": "2026-03-17",
             "plannedEndDate": "2027-06-25",
             "actualEndDate": null,
-            "daysRemaining": 332,
+            "daysRemaining": 331,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 18.62,
@@ -87806,7 +87806,7 @@
             "startDate": "2026-03-17",
             "plannedEndDate": "2027-04-01",
             "actualEndDate": null,
-            "daysRemaining": 247,
+            "daysRemaining": 246,
             "delayDays": 0,
             "interestRate": 12.0,
             "invested": 14.01,
@@ -87863,7 +87863,7 @@
             "startDate": "2026-03-05",
             "plannedEndDate": "2026-11-30",
             "actualEndDate": null,
-            "daysRemaining": 125,
+            "daysRemaining": 124,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 11.15,
@@ -87920,7 +87920,7 @@
             "startDate": "2026-04-13",
             "plannedEndDate": "2027-01-15",
             "actualEndDate": null,
-            "daysRemaining": 171,
+            "daysRemaining": 170,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 20.0,
@@ -87977,7 +87977,7 @@
             "startDate": "2026-04-15",
             "plannedEndDate": "2026-10-22",
             "actualEndDate": null,
-            "daysRemaining": 86,
+            "daysRemaining": 85,
             "delayDays": 0,
             "interestRate": 12.0,
             "invested": 20.0,
@@ -88034,7 +88034,7 @@
             "startDate": "2026-04-13",
             "plannedEndDate": "2027-03-09",
             "actualEndDate": null,
-            "daysRemaining": 224,
+            "daysRemaining": 223,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 31.84,
@@ -88091,7 +88091,7 @@
             "startDate": "2026-04-13",
             "plannedEndDate": "2027-01-15",
             "actualEndDate": null,
-            "daysRemaining": 171,
+            "daysRemaining": 170,
             "delayDays": 0,
             "interestRate": 11.5,
             "invested": 17.46,
@@ -88148,7 +88148,7 @@
             "startDate": "2026-04-20",
             "plannedEndDate": "2026-10-21",
             "actualEndDate": null,
-            "daysRemaining": 85,
+            "daysRemaining": 84,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 13.66,
@@ -88205,7 +88205,7 @@
             "startDate": "2026-04-23",
             "plannedEndDate": "2026-10-20",
             "actualEndDate": null,
-            "daysRemaining": 84,
+            "daysRemaining": 83,
             "delayDays": 0,
             "interestRate": 12.0,
             "invested": 14.87,
@@ -88252,7 +88252,7 @@
             "startDate": "2026-04-23",
             "plannedEndDate": "2026-08-31",
             "actualEndDate": null,
-            "daysRemaining": 34,
+            "daysRemaining": 33,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 11.66,
@@ -88299,7 +88299,7 @@
             "startDate": "2026-05-14",
             "plannedEndDate": "2027-05-06",
             "actualEndDate": null,
-            "daysRemaining": 282,
+            "daysRemaining": 281,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 16.58,
@@ -88346,7 +88346,7 @@
             "startDate": "2026-06-10",
             "plannedEndDate": "2028-11-25",
             "actualEndDate": null,
-            "daysRemaining": 851,
+            "daysRemaining": 850,
             "delayDays": 0,
             "interestRate": 14.0,
             "invested": 10.3,
@@ -88383,7 +88383,7 @@
             "startDate": "2026-06-15",
             "plannedEndDate": "2028-04-18",
             "actualEndDate": null,
-            "daysRemaining": 630,
+            "daysRemaining": 629,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 14.5,
@@ -88420,7 +88420,7 @@
             "startDate": "2026-06-19",
             "plannedEndDate": "2026-12-18",
             "actualEndDate": null,
-            "daysRemaining": 143,
+            "daysRemaining": 142,
             "delayDays": 0,
             "interestRate": 12.0,
             "invested": 14.16,
@@ -88457,7 +88457,7 @@
             "startDate": "2026-06-19",
             "plannedEndDate": "2026-12-18",
             "actualEndDate": null,
-            "daysRemaining": 143,
+            "daysRemaining": 142,
             "delayDays": 0,
             "interestRate": 12.0,
             "invested": 22.13,
@@ -88483,7 +88483,7 @@
             "startDate": "2026-07-01",
             "plannedEndDate": "2027-02-28",
             "actualEndDate": null,
-            "daysRemaining": 215,
+            "daysRemaining": 214,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 16.02,
@@ -88509,7 +88509,7 @@
             "startDate": "2026-06-25",
             "plannedEndDate": "2026-12-22",
             "actualEndDate": null,
-            "daysRemaining": 147,
+            "daysRemaining": 146,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 12.58,
@@ -88535,7 +88535,7 @@
             "startDate": "2026-07-01",
             "plannedEndDate": "2027-02-28",
             "actualEndDate": null,
-            "daysRemaining": 215,
+            "daysRemaining": 214,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 15.29,
@@ -88561,7 +88561,7 @@
             "startDate": "2026-07-16",
             "plannedEndDate": "2028-04-24",
             "actualEndDate": null,
-            "daysRemaining": 636,
+            "daysRemaining": 635,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 19.43,
@@ -89186,7 +89186,7 @@
               "interestReceived": 0.78,
               "fees": 0.0,
               "netIncome": 0.78,
-              "daysRemaining": 42,
+              "daysRemaining": 41,
               "status": "active",
               "payments": [
                 {
@@ -89250,7 +89250,7 @@
               "interestReceived": 3.04,
               "fees": 0.0,
               "netIncome": 3.04,
-              "daysRemaining": 48,
+              "daysRemaining": 47,
               "status": "active",
               "payments": [
                 {
@@ -89374,7 +89374,7 @@
               "interestReceived": 1.63,
               "fees": 0.0,
               "netIncome": 1.63,
-              "daysRemaining": 55,
+              "daysRemaining": 54,
               "status": "active",
               "payments": [
                 {
@@ -89498,7 +89498,7 @@
               "interestReceived": 1.13,
               "fees": 0.0,
               "netIncome": 1.13,
-              "daysRemaining": 153,
+              "daysRemaining": 152,
               "status": "active",
               "payments": [
                 {
@@ -89582,7 +89582,7 @@
               "interestReceived": 0.35,
               "fees": 0.0,
               "netIncome": 0.35,
-              "daysRemaining": 167,
+              "daysRemaining": 166,
               "status": "active",
               "payments": [
                 {
@@ -89626,7 +89626,7 @@
               "interestReceived": 0.86,
               "fees": 0.0,
               "netIncome": 0.86,
-              "daysRemaining": 189,
+              "daysRemaining": 188,
               "status": "active",
               "payments": [
                 {
@@ -89700,7 +89700,7 @@
               "interestReceived": 0.3,
               "fees": 0.0,
               "netIncome": 0.3,
-              "daysRemaining": 207,
+              "daysRemaining": 206,
               "status": "active",
               "payments": [
                 {
@@ -89744,7 +89744,7 @@
               "interestReceived": 0.12,
               "fees": 0.0,
               "netIncome": 0.12,
-              "daysRemaining": 221,
+              "daysRemaining": 220,
               "status": "active",
               "payments": [
                 {
@@ -89778,7 +89778,7 @@
               "interestReceived": 0.54,
               "fees": 0.0,
               "netIncome": 0.54,
-              "daysRemaining": 274,
+              "daysRemaining": 273,
               "status": "active",
               "payments": [
                 {
@@ -89832,7 +89832,7 @@
               "interestReceived": 0.0,
               "fees": 0.0,
               "netIncome": 0.0,
-              "daysRemaining": 336,
+              "daysRemaining": 335,
               "status": "active",
               "payments": []
             },
@@ -89855,7 +89855,7 @@
               "interestReceived": 0.0,
               "fees": 0.0,
               "netIncome": 0.0,
-              "daysRemaining": 350,
+              "daysRemaining": 349,
               "status": "active",
               "payments": []
             },
@@ -90143,7 +90143,7 @@
               "interestReceived": 0.78,
               "fees": 0.0,
               "netIncome": 0.78,
-              "daysRemaining": 42,
+              "daysRemaining": 41,
               "status": "active",
               "payments": [
                 {
@@ -90207,7 +90207,7 @@
               "interestReceived": 3.04,
               "fees": 0.0,
               "netIncome": 3.04,
-              "daysRemaining": 48,
+              "daysRemaining": 47,
               "status": "active",
               "payments": [
                 {
@@ -90331,7 +90331,7 @@
               "interestReceived": 1.63,
               "fees": 0.0,
               "netIncome": 1.63,
-              "daysRemaining": 55,
+              "daysRemaining": 54,
               "status": "active",
               "payments": [
                 {
@@ -90455,7 +90455,7 @@
               "interestReceived": 1.13,
               "fees": 0.0,
               "netIncome": 1.13,
-              "daysRemaining": 153,
+              "daysRemaining": 152,
               "status": "active",
               "payments": [
                 {
@@ -90539,7 +90539,7 @@
               "interestReceived": 0.35,
               "fees": 0.0,
               "netIncome": 0.35,
-              "daysRemaining": 167,
+              "daysRemaining": 166,
               "status": "active",
               "payments": [
                 {
@@ -90583,7 +90583,7 @@
               "interestReceived": 0.86,
               "fees": 0.0,
               "netIncome": 0.86,
-              "daysRemaining": 189,
+              "daysRemaining": 188,
               "status": "active",
               "payments": [
                 {
@@ -90657,7 +90657,7 @@
               "interestReceived": 0.3,
               "fees": 0.0,
               "netIncome": 0.3,
-              "daysRemaining": 207,
+              "daysRemaining": 206,
               "status": "active",
               "payments": [
                 {
@@ -90701,7 +90701,7 @@
               "interestReceived": 0.12,
               "fees": 0.0,
               "netIncome": 0.12,
-              "daysRemaining": 221,
+              "daysRemaining": 220,
               "status": "active",
               "payments": [
                 {
@@ -90735,7 +90735,7 @@
               "interestReceived": 0.54,
               "fees": 0.0,
               "netIncome": 0.54,
-              "daysRemaining": 274,
+              "daysRemaining": 273,
               "status": "active",
               "payments": [
                 {
@@ -90789,7 +90789,7 @@
               "interestReceived": 0.0,
               "fees": 0.0,
               "netIncome": 0.0,
-              "daysRemaining": 336,
+              "daysRemaining": 335,
               "status": "active",
               "payments": []
             },
@@ -90812,7 +90812,7 @@
               "interestReceived": 0.0,
               "fees": 0.0,
               "netIncome": 0.0,
-              "daysRemaining": 350,
+              "daysRemaining": 349,
               "status": "active",
               "payments": []
             },
@@ -91110,7 +91110,7 @@
             "interestReceived": 0.78,
             "fees": 0.0,
             "netIncome": 0.78,
-            "daysRemaining": 42,
+            "daysRemaining": 41,
             "status": "active",
             "payments": [
               {
@@ -91174,7 +91174,7 @@
             "interestReceived": 3.04,
             "fees": 0.0,
             "netIncome": 3.04,
-            "daysRemaining": 48,
+            "daysRemaining": 47,
             "status": "active",
             "payments": [
               {
@@ -91298,7 +91298,7 @@
             "interestReceived": 1.63,
             "fees": 0.0,
             "netIncome": 1.63,
-            "daysRemaining": 55,
+            "daysRemaining": 54,
             "status": "active",
             "payments": [
               {
@@ -91422,7 +91422,7 @@
             "interestReceived": 1.13,
             "fees": 0.0,
             "netIncome": 1.13,
-            "daysRemaining": 153,
+            "daysRemaining": 152,
             "status": "active",
             "payments": [
               {
@@ -91506,7 +91506,7 @@
             "interestReceived": 0.35,
             "fees": 0.0,
             "netIncome": 0.35,
-            "daysRemaining": 167,
+            "daysRemaining": 166,
             "status": "active",
             "payments": [
               {
@@ -91550,7 +91550,7 @@
             "interestReceived": 0.86,
             "fees": 0.0,
             "netIncome": 0.86,
-            "daysRemaining": 189,
+            "daysRemaining": 188,
             "status": "active",
             "payments": [
               {
@@ -91624,7 +91624,7 @@
             "interestReceived": 0.3,
             "fees": 0.0,
             "netIncome": 0.3,
-            "daysRemaining": 207,
+            "daysRemaining": 206,
             "status": "active",
             "payments": [
               {
@@ -91668,7 +91668,7 @@
             "interestReceived": 0.12,
             "fees": 0.0,
             "netIncome": 0.12,
-            "daysRemaining": 221,
+            "daysRemaining": 220,
             "status": "active",
             "payments": [
               {
@@ -91702,7 +91702,7 @@
             "interestReceived": 0.54,
             "fees": 0.0,
             "netIncome": 0.54,
-            "daysRemaining": 274,
+            "daysRemaining": 273,
             "status": "active",
             "payments": [
               {
@@ -91756,7 +91756,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 336,
+            "daysRemaining": 335,
             "status": "active",
             "payments": []
           },
@@ -91779,7 +91779,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 350,
+            "daysRemaining": 349,
             "status": "active",
             "payments": []
           },
@@ -92066,7 +92066,7 @@
             "interestReceived": 0.78,
             "fees": 0.0,
             "netIncome": 0.78,
-            "daysRemaining": 42,
+            "daysRemaining": 41,
             "status": "active",
             "payments": [
               {
@@ -92130,7 +92130,7 @@
             "interestReceived": 3.04,
             "fees": 0.0,
             "netIncome": 3.04,
-            "daysRemaining": 48,
+            "daysRemaining": 47,
             "status": "active",
             "payments": [
               {
@@ -92254,7 +92254,7 @@
             "interestReceived": 1.63,
             "fees": 0.0,
             "netIncome": 1.63,
-            "daysRemaining": 55,
+            "daysRemaining": 54,
             "status": "active",
             "payments": [
               {
@@ -92378,7 +92378,7 @@
             "interestReceived": 1.13,
             "fees": 0.0,
             "netIncome": 1.13,
-            "daysRemaining": 153,
+            "daysRemaining": 152,
             "status": "active",
             "payments": [
               {
@@ -92462,7 +92462,7 @@
             "interestReceived": 0.35,
             "fees": 0.0,
             "netIncome": 0.35,
-            "daysRemaining": 167,
+            "daysRemaining": 166,
             "status": "active",
             "payments": [
               {
@@ -92506,7 +92506,7 @@
             "interestReceived": 0.86,
             "fees": 0.0,
             "netIncome": 0.86,
-            "daysRemaining": 189,
+            "daysRemaining": 188,
             "status": "active",
             "payments": [
               {
@@ -92580,7 +92580,7 @@
             "interestReceived": 0.3,
             "fees": 0.0,
             "netIncome": 0.3,
-            "daysRemaining": 207,
+            "daysRemaining": 206,
             "status": "active",
             "payments": [
               {
@@ -92624,7 +92624,7 @@
             "interestReceived": 0.12,
             "fees": 0.0,
             "netIncome": 0.12,
-            "daysRemaining": 221,
+            "daysRemaining": 220,
             "status": "active",
             "payments": [
               {
@@ -92658,7 +92658,7 @@
             "interestReceived": 0.54,
             "fees": 0.0,
             "netIncome": 0.54,
-            "daysRemaining": 274,
+            "daysRemaining": 273,
             "status": "active",
             "payments": [
               {
@@ -92712,7 +92712,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 336,
+            "daysRemaining": 335,
             "status": "active",
             "payments": []
           },
@@ -92735,7 +92735,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 350,
+            "daysRemaining": 349,
             "status": "active",
             "payments": []
           },
@@ -93031,7 +93031,7 @@
             "interestReceived": 0.78,
             "fees": 0.0,
             "netIncome": 0.78,
-            "daysRemaining": 42,
+            "daysRemaining": 41,
             "status": "active",
             "payments": [
               {
@@ -93095,7 +93095,7 @@
             "interestReceived": 3.04,
             "fees": 0.0,
             "netIncome": 3.04,
-            "daysRemaining": 48,
+            "daysRemaining": 47,
             "status": "active",
             "payments": [
               {
@@ -93219,7 +93219,7 @@
             "interestReceived": 1.63,
             "fees": 0.0,
             "netIncome": 1.63,
-            "daysRemaining": 55,
+            "daysRemaining": 54,
             "status": "active",
             "payments": [
               {
@@ -93343,7 +93343,7 @@
             "interestReceived": 1.13,
             "fees": 0.0,
             "netIncome": 1.13,
-            "daysRemaining": 153,
+            "daysRemaining": 152,
             "status": "active",
             "payments": [
               {
@@ -93427,7 +93427,7 @@
             "interestReceived": 0.35,
             "fees": 0.0,
             "netIncome": 0.35,
-            "daysRemaining": 167,
+            "daysRemaining": 166,
             "status": "active",
             "payments": [
               {
@@ -93471,7 +93471,7 @@
             "interestReceived": 0.86,
             "fees": 0.0,
             "netIncome": 0.86,
-            "daysRemaining": 189,
+            "daysRemaining": 188,
             "status": "active",
             "payments": [
               {
@@ -93545,7 +93545,7 @@
             "interestReceived": 0.3,
             "fees": 0.0,
             "netIncome": 0.3,
-            "daysRemaining": 207,
+            "daysRemaining": 206,
             "status": "active",
             "payments": [
               {
@@ -93589,7 +93589,7 @@
             "interestReceived": 0.12,
             "fees": 0.0,
             "netIncome": 0.12,
-            "daysRemaining": 221,
+            "daysRemaining": 220,
             "status": "active",
             "payments": [
               {
@@ -93623,7 +93623,7 @@
             "interestReceived": 0.54,
             "fees": 0.0,
             "netIncome": 0.54,
-            "daysRemaining": 274,
+            "daysRemaining": 273,
             "status": "active",
             "payments": [
               {
@@ -93677,7 +93677,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 336,
+            "daysRemaining": 335,
             "status": "active",
             "payments": []
           },
@@ -93700,7 +93700,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 350,
+            "daysRemaining": 349,
             "status": "active",
             "payments": []
           },
@@ -94107,49 +94107,49 @@
           {
             "month": "2026-09",
             "principal": 71.8,
-            "interest": 1.09,
+            "interest": 1.07,
             "fees": 0.0,
-            "total": 72.89,
+            "total": 72.87,
             "estimated": true
           },
           {
             "month": "2026-12",
             "principal": 21.01,
-            "interest": 0.99,
+            "interest": 0.98,
             "fees": 0.0,
-            "total": 22.0,
+            "total": 21.99,
             "estimated": true
           },
           {
             "month": "2027-01",
             "principal": 21.75,
-            "interest": 1.07,
+            "interest": 1.06,
             "fees": 0.0,
-            "total": 22.82,
+            "total": 22.81,
             "estimated": true
           },
           {
             "month": "2027-02",
             "principal": 51.91,
-            "interest": 3.02,
+            "interest": 3.01,
             "fees": 0.0,
-            "total": 54.93,
+            "total": 54.92,
             "estimated": true
           },
           {
             "month": "2027-03",
             "principal": 22.92,
-            "interest": 1.6,
+            "interest": 1.59,
             "fees": 0.0,
-            "total": 24.52,
+            "total": 24.51,
             "estimated": true
           },
           {
             "month": "2027-04",
             "principal": 21.84,
-            "interest": 1.97,
+            "interest": 1.96,
             "fees": 0.0,
-            "total": 23.81,
+            "total": 23.8,
             "estimated": true
           },
           {
@@ -94163,9 +94163,9 @@
           {
             "month": "2027-07",
             "principal": 20.0,
-            "interest": 2.4,
+            "interest": 2.39,
             "fees": 0.0,
-            "total": 22.4,
+            "total": 22.39,
             "estimated": true
           }
         ],
@@ -95078,7 +95078,7 @@
               "interestReceived": 0.48,
               "fees": 0.08,
               "netIncome": 0.4,
-              "daysRemaining": 6,
+              "daysRemaining": 5,
               "status": "active",
               "payments": [
                 {
@@ -95181,7 +95181,7 @@
               "interestReceived": 0.2,
               "fees": 0.02,
               "netIncome": 0.18,
-              "daysRemaining": 31,
+              "daysRemaining": 30,
               "status": "active",
               "payments": [
                 {
@@ -95214,7 +95214,7 @@
               "interestReceived": 0.0,
               "fees": 0.0,
               "netIncome": 0.0,
-              "daysRemaining": 79,
+              "daysRemaining": 78,
               "status": "active",
               "payments": []
             },
@@ -95236,7 +95236,7 @@
               "interestReceived": 4.24,
               "fees": 0.4,
               "netIncome": 3.84,
-              "daysRemaining": 98,
+              "daysRemaining": 97,
               "status": "active",
               "payments": [
                 {
@@ -95339,7 +95339,7 @@
               "interestReceived": 3.65,
               "fees": 0.39,
               "netIncome": 3.26,
-              "daysRemaining": 109,
+              "daysRemaining": 108,
               "status": "active",
               "payments": [
                 {
@@ -95442,7 +95442,7 @@
               "interestReceived": 1.36,
               "fees": 0.14,
               "netIncome": 1.22,
-              "daysRemaining": 144,
+              "daysRemaining": 143,
               "status": "active",
               "payments": [
                 {
@@ -95535,7 +95535,7 @@
               "interestReceived": 1.0,
               "fees": 0.11,
               "netIncome": 0.89,
-              "daysRemaining": 202,
+              "daysRemaining": 201,
               "status": "active",
               "payments": [
                 {
@@ -95608,7 +95608,7 @@
               "interestReceived": 1.1,
               "fees": 0.1,
               "netIncome": 1.0,
-              "daysRemaining": 202,
+              "daysRemaining": 201,
               "status": "active",
               "payments": [
                 {
@@ -95681,7 +95681,7 @@
               "interestReceived": 0.45,
               "fees": 0.04,
               "netIncome": 0.41,
-              "daysRemaining": 274,
+              "daysRemaining": 273,
               "status": "active",
               "payments": [
                 {
@@ -95724,7 +95724,7 @@
               "interestReceived": 0.56,
               "fees": 0.08,
               "netIncome": 0.48,
-              "daysRemaining": 279,
+              "daysRemaining": 278,
               "status": "active",
               "payments": [
                 {
@@ -95827,7 +95827,7 @@
               "interestReceived": 0.94,
               "fees": 0.1,
               "netIncome": 0.84,
-              "daysRemaining": 974,
+              "daysRemaining": 973,
               "status": "active",
               "payments": [
                 {
@@ -95883,7 +95883,7 @@
               "interestReceived": 0.48,
               "fees": 0.08,
               "netIncome": 0.4,
-              "daysRemaining": 6,
+              "daysRemaining": 5,
               "status": "active",
               "payments": [
                 {
@@ -95986,7 +95986,7 @@
               "interestReceived": 0.2,
               "fees": 0.02,
               "netIncome": 0.18,
-              "daysRemaining": 31,
+              "daysRemaining": 30,
               "status": "active",
               "payments": [
                 {
@@ -96019,7 +96019,7 @@
               "interestReceived": 0.0,
               "fees": 0.0,
               "netIncome": 0.0,
-              "daysRemaining": 79,
+              "daysRemaining": 78,
               "status": "active",
               "payments": []
             },
@@ -96041,7 +96041,7 @@
               "interestReceived": 4.24,
               "fees": 0.4,
               "netIncome": 3.84,
-              "daysRemaining": 98,
+              "daysRemaining": 97,
               "status": "active",
               "payments": [
                 {
@@ -96144,7 +96144,7 @@
               "interestReceived": 3.65,
               "fees": 0.39,
               "netIncome": 3.26,
-              "daysRemaining": 109,
+              "daysRemaining": 108,
               "status": "active",
               "payments": [
                 {
@@ -96247,7 +96247,7 @@
               "interestReceived": 1.36,
               "fees": 0.14,
               "netIncome": 1.22,
-              "daysRemaining": 144,
+              "daysRemaining": 143,
               "status": "active",
               "payments": [
                 {
@@ -96340,7 +96340,7 @@
               "interestReceived": 1.0,
               "fees": 0.11,
               "netIncome": 0.89,
-              "daysRemaining": 202,
+              "daysRemaining": 201,
               "status": "active",
               "payments": [
                 {
@@ -96413,7 +96413,7 @@
               "interestReceived": 1.1,
               "fees": 0.1,
               "netIncome": 1.0,
-              "daysRemaining": 202,
+              "daysRemaining": 201,
               "status": "active",
               "payments": [
                 {
@@ -96486,7 +96486,7 @@
               "interestReceived": 0.45,
               "fees": 0.04,
               "netIncome": 0.41,
-              "daysRemaining": 274,
+              "daysRemaining": 273,
               "status": "active",
               "payments": [
                 {
@@ -96529,7 +96529,7 @@
               "interestReceived": 0.56,
               "fees": 0.08,
               "netIncome": 0.48,
-              "daysRemaining": 279,
+              "daysRemaining": 278,
               "status": "active",
               "payments": [
                 {
@@ -96632,7 +96632,7 @@
               "interestReceived": 0.94,
               "fees": 0.1,
               "netIncome": 0.84,
-              "daysRemaining": 974,
+              "daysRemaining": 973,
               "status": "active",
               "payments": [
                 {
@@ -96698,7 +96698,7 @@
             "interestReceived": 0.48,
             "fees": 0.08,
             "netIncome": 0.4,
-            "daysRemaining": 6,
+            "daysRemaining": 5,
             "status": "active",
             "payments": [
               {
@@ -96801,7 +96801,7 @@
             "interestReceived": 0.2,
             "fees": 0.02,
             "netIncome": 0.18,
-            "daysRemaining": 31,
+            "daysRemaining": 30,
             "status": "active",
             "payments": [
               {
@@ -96834,7 +96834,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 79,
+            "daysRemaining": 78,
             "status": "active",
             "payments": []
           },
@@ -96856,7 +96856,7 @@
             "interestReceived": 4.24,
             "fees": 0.4,
             "netIncome": 3.84,
-            "daysRemaining": 98,
+            "daysRemaining": 97,
             "status": "active",
             "payments": [
               {
@@ -96959,7 +96959,7 @@
             "interestReceived": 3.65,
             "fees": 0.39,
             "netIncome": 3.26,
-            "daysRemaining": 109,
+            "daysRemaining": 108,
             "status": "active",
             "payments": [
               {
@@ -97062,7 +97062,7 @@
             "interestReceived": 1.36,
             "fees": 0.14,
             "netIncome": 1.22,
-            "daysRemaining": 144,
+            "daysRemaining": 143,
             "status": "active",
             "payments": [
               {
@@ -97155,7 +97155,7 @@
             "interestReceived": 1.0,
             "fees": 0.11,
             "netIncome": 0.89,
-            "daysRemaining": 202,
+            "daysRemaining": 201,
             "status": "active",
             "payments": [
               {
@@ -97228,7 +97228,7 @@
             "interestReceived": 1.1,
             "fees": 0.1,
             "netIncome": 1.0,
-            "daysRemaining": 202,
+            "daysRemaining": 201,
             "status": "active",
             "payments": [
               {
@@ -97301,7 +97301,7 @@
             "interestReceived": 0.45,
             "fees": 0.04,
             "netIncome": 0.41,
-            "daysRemaining": 274,
+            "daysRemaining": 273,
             "status": "active",
             "payments": [
               {
@@ -97344,7 +97344,7 @@
             "interestReceived": 0.56,
             "fees": 0.08,
             "netIncome": 0.48,
-            "daysRemaining": 279,
+            "daysRemaining": 278,
             "status": "active",
             "payments": [
               {
@@ -97447,7 +97447,7 @@
             "interestReceived": 0.94,
             "fees": 0.1,
             "netIncome": 0.84,
-            "daysRemaining": 974,
+            "daysRemaining": 973,
             "status": "active",
             "payments": [
               {
@@ -97502,7 +97502,7 @@
             "interestReceived": 0.48,
             "fees": 0.08,
             "netIncome": 0.4,
-            "daysRemaining": 6,
+            "daysRemaining": 5,
             "status": "active",
             "payments": [
               {
@@ -97605,7 +97605,7 @@
             "interestReceived": 0.2,
             "fees": 0.02,
             "netIncome": 0.18,
-            "daysRemaining": 31,
+            "daysRemaining": 30,
             "status": "active",
             "payments": [
               {
@@ -97638,7 +97638,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 79,
+            "daysRemaining": 78,
             "status": "active",
             "payments": []
           },
@@ -97660,7 +97660,7 @@
             "interestReceived": 4.24,
             "fees": 0.4,
             "netIncome": 3.84,
-            "daysRemaining": 98,
+            "daysRemaining": 97,
             "status": "active",
             "payments": [
               {
@@ -97763,7 +97763,7 @@
             "interestReceived": 3.65,
             "fees": 0.39,
             "netIncome": 3.26,
-            "daysRemaining": 109,
+            "daysRemaining": 108,
             "status": "active",
             "payments": [
               {
@@ -97866,7 +97866,7 @@
             "interestReceived": 1.36,
             "fees": 0.14,
             "netIncome": 1.22,
-            "daysRemaining": 144,
+            "daysRemaining": 143,
             "status": "active",
             "payments": [
               {
@@ -97959,7 +97959,7 @@
             "interestReceived": 1.0,
             "fees": 0.11,
             "netIncome": 0.89,
-            "daysRemaining": 202,
+            "daysRemaining": 201,
             "status": "active",
             "payments": [
               {
@@ -98032,7 +98032,7 @@
             "interestReceived": 1.1,
             "fees": 0.1,
             "netIncome": 1.0,
-            "daysRemaining": 202,
+            "daysRemaining": 201,
             "status": "active",
             "payments": [
               {
@@ -98105,7 +98105,7 @@
             "interestReceived": 0.45,
             "fees": 0.04,
             "netIncome": 0.41,
-            "daysRemaining": 274,
+            "daysRemaining": 273,
             "status": "active",
             "payments": [
               {
@@ -98148,7 +98148,7 @@
             "interestReceived": 0.56,
             "fees": 0.08,
             "netIncome": 0.48,
-            "daysRemaining": 279,
+            "daysRemaining": 278,
             "status": "active",
             "payments": [
               {
@@ -98251,7 +98251,7 @@
             "interestReceived": 0.94,
             "fees": 0.1,
             "netIncome": 0.84,
-            "daysRemaining": 974,
+            "daysRemaining": 973,
             "status": "active",
             "payments": [
               {
@@ -98315,7 +98315,7 @@
             "interestReceived": 0.48,
             "fees": 0.08,
             "netIncome": 0.4,
-            "daysRemaining": 6,
+            "daysRemaining": 5,
             "status": "active",
             "payments": [
               {
@@ -98418,7 +98418,7 @@
             "interestReceived": 0.2,
             "fees": 0.02,
             "netIncome": 0.18,
-            "daysRemaining": 31,
+            "daysRemaining": 30,
             "status": "active",
             "payments": [
               {
@@ -98451,7 +98451,7 @@
             "interestReceived": 0.0,
             "fees": 0.0,
             "netIncome": 0.0,
-            "daysRemaining": 79,
+            "daysRemaining": 78,
             "status": "active",
             "payments": []
           },
@@ -98473,7 +98473,7 @@
             "interestReceived": 4.24,
             "fees": 0.4,
             "netIncome": 3.84,
-            "daysRemaining": 98,
+            "daysRemaining": 97,
             "status": "active",
             "payments": [
               {
@@ -98576,7 +98576,7 @@
             "interestReceived": 3.65,
             "fees": 0.39,
             "netIncome": 3.26,
-            "daysRemaining": 109,
+            "daysRemaining": 108,
             "status": "active",
             "payments": [
               {
@@ -98679,7 +98679,7 @@
             "interestReceived": 1.36,
             "fees": 0.14,
             "netIncome": 1.22,
-            "daysRemaining": 144,
+            "daysRemaining": 143,
             "status": "active",
             "payments": [
               {
@@ -98772,7 +98772,7 @@
             "interestReceived": 1.0,
             "fees": 0.11,
             "netIncome": 0.89,
-            "daysRemaining": 202,
+            "daysRemaining": 201,
             "status": "active",
             "payments": [
               {
@@ -98845,7 +98845,7 @@
             "interestReceived": 1.1,
             "fees": 0.1,
             "netIncome": 1.0,
-            "daysRemaining": 202,
+            "daysRemaining": 201,
             "status": "active",
             "payments": [
               {
@@ -98918,7 +98918,7 @@
             "interestReceived": 0.45,
             "fees": 0.04,
             "netIncome": 0.41,
-            "daysRemaining": 274,
+            "daysRemaining": 273,
             "status": "active",
             "payments": [
               {
@@ -98961,7 +98961,7 @@
             "interestReceived": 0.56,
             "fees": 0.08,
             "netIncome": 0.48,
-            "daysRemaining": 279,
+            "daysRemaining": 278,
             "status": "active",
             "payments": [
               {
@@ -99064,7 +99064,7 @@
             "interestReceived": 0.94,
             "fees": 0.1,
             "netIncome": 0.84,
-            "daysRemaining": 974,
+            "daysRemaining": 973,
             "status": "active",
             "payments": [
               {
@@ -99228,9 +99228,9 @@
           {
             "month": "2026-08",
             "principal": 31.82,
-            "interest": 0.2,
+            "interest": 0.19,
             "fees": 0.0,
-            "total": 32.02,
+            "total": 32.01,
             "estimated": true
           },
           {
@@ -99244,9 +99244,9 @@
           {
             "month": "2026-11",
             "principal": 130.0,
-            "interest": 3.36,
+            "interest": 3.33,
             "fees": 0.0,
-            "total": 133.36,
+            "total": 133.33,
             "estimated": true
           },
           {
@@ -99260,9 +99260,9 @@
           {
             "month": "2027-02",
             "principal": 43.17,
-            "interest": 2.63,
+            "interest": 2.62,
             "fees": 0.0,
-            "total": 45.8,
+            "total": 45.79,
             "estimated": true
           },
           {
@@ -99284,9 +99284,9 @@
           {
             "month": "2029-03",
             "principal": 22.16,
-            "interest": 9.46,
+            "interest": 9.45,
             "fees": 0.0,
-            "total": 31.62,
+            "total": 31.61,
             "estimated": true
           }
         ],
@@ -99420,6 +99420,11 @@
         },
         {
           "date": "2026-07-28",
+          "invested": 100.0,
+          "value": 100.0
+        },
+        {
+          "date": "2026-07-29",
           "invested": 100.0,
           "value": 111.79
         }
@@ -99715,7 +99720,7 @@
             "startDate": "2026-03-17",
             "plannedEndDate": "2027-03-12",
             "actualEndDate": null,
-            "daysRemaining": 227,
+            "daysRemaining": 226,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 10.0,
@@ -99792,7 +99797,7 @@
             "startDate": "2026-03-24",
             "plannedEndDate": "2026-09-20",
             "actualEndDate": null,
-            "daysRemaining": 54,
+            "daysRemaining": 53,
             "delayDays": 0,
             "interestRate": 9.0,
             "invested": 10.86,
@@ -99943,7 +99948,7 @@
             "startDate": "2026-04-27",
             "plannedEndDate": "2027-04-27",
             "actualEndDate": null,
-            "daysRemaining": 273,
+            "daysRemaining": 272,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 10.89,
@@ -100000,7 +100005,7 @@
             "startDate": "2026-04-16",
             "plannedEndDate": "2027-04-18",
             "actualEndDate": null,
-            "daysRemaining": 264,
+            "daysRemaining": 263,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 11.85,
@@ -100114,7 +100119,7 @@
             "startDate": "2026-06-01",
             "plannedEndDate": "2026-09-29",
             "actualEndDate": null,
-            "daysRemaining": 63,
+            "daysRemaining": 62,
             "delayDays": 0,
             "interestRate": 9.0,
             "invested": 12.99,
@@ -100161,7 +100166,7 @@
             "startDate": "2026-03-03",
             "plannedEndDate": "2027-03-05",
             "actualEndDate": null,
-            "daysRemaining": 220,
+            "daysRemaining": 219,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 12.51,
@@ -100235,7 +100240,7 @@
             "startDate": "2026-06-11",
             "plannedEndDate": "2029-12-22",
             "actualEndDate": null,
-            "daysRemaining": 1243,
+            "daysRemaining": 1242,
             "delayDays": 0,
             "interestRate": 12.5,
             "invested": 13.24,
@@ -100282,7 +100287,7 @@
             "startDate": "2026-03-27",
             "plannedEndDate": "2027-03-18",
             "actualEndDate": null,
-            "daysRemaining": 233,
+            "daysRemaining": 232,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 19.93,
@@ -100319,7 +100324,7 @@
             "startDate": "2026-06-01",
             "plannedEndDate": "2027-05-31",
             "actualEndDate": null,
-            "daysRemaining": 307,
+            "daysRemaining": 306,
             "delayDays": 0,
             "interestRate": 11.0,
             "invested": 11.1,
@@ -100366,6 +100371,11 @@
         },
         {
           "date": "2026-07-28",
+          "invested": 20.0,
+          "value": 20.0
+        },
+        {
+          "date": "2026-07-29",
           "invested": 20.0,
           "value": 20.58
         }
@@ -100757,7 +100767,7 @@
             "startDate": "2026-07-05",
             "plannedEndDate": "2026-08-04",
             "actualEndDate": null,
-            "daysRemaining": 7,
+            "daysRemaining": 6,
             "delayDays": 0,
             "interestRate": 13.6,
             "invested": 10.24,
@@ -100831,7 +100841,7 @@
             "startDate": "2026-07-28",
             "plannedEndDate": "2026-08-27",
             "actualEndDate": null,
-            "daysRemaining": 30,
+            "daysRemaining": 29,
             "delayDays": 0,
             "interestRate": 13.6,
             "invested": 10.34,
@@ -100877,7 +100887,7 @@
           "value": 20.0
         },
         {
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "invested": 20.0,
           "value": 20.16
         }
@@ -101012,7 +101022,7 @@
             "startDate": "2026-06-24",
             "plannedEndDate": "2026-09-24",
             "actualEndDate": null,
-            "daysRemaining": 58,
+            "daysRemaining": 57,
             "delayDays": 0,
             "interestRate": 9.0,
             "invested": 10.0,
@@ -101069,7 +101079,7 @@
             "startDate": "2026-06-24",
             "plannedEndDate": "2026-09-24",
             "actualEndDate": null,
-            "daysRemaining": 58,
+            "daysRemaining": 57,
             "delayDays": 0,
             "interestRate": 8.5,
             "invested": 10.0,
@@ -101145,7 +101155,7 @@
           "value": 30.0
         },
         {
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "invested": 30.0,
           "value": 30.05
         }
@@ -101284,7 +101294,7 @@
             "startDate": "2026-06-22",
             "plannedEndDate": "2027-01-17",
             "actualEndDate": null,
-            "daysRemaining": 173,
+            "daysRemaining": 172,
             "delayDays": 0,
             "interestRate": 10.0,
             "invested": 10.0,
@@ -101352,7 +101362,7 @@
             "startDate": "2026-07-17",
             "plannedEndDate": "2026-10-04",
             "actualEndDate": null,
-            "daysRemaining": 68,
+            "daysRemaining": 67,
             "delayDays": 0,
             "interestRate": 15.0,
             "invested": 10.03,
@@ -101375,7 +101385,7 @@
             "startDate": "2026-07-27",
             "plannedEndDate": "2027-01-25",
             "actualEndDate": null,
-            "daysRemaining": 181,
+            "daysRemaining": 180,
             "delayDays": 0,
             "interestRate": 13.0,
             "invested": 11.29,
@@ -101425,7 +101435,7 @@
           "value": 50.0
         },
         {
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "invested": 50.0,
           "value": 56.65
         }
@@ -101545,7 +101555,7 @@
             "startDate": null,
             "plannedEndDate": "2027-07-25",
             "actualEndDate": null,
-            "daysRemaining": 362,
+            "daysRemaining": 361,
             "delayDays": 0,
             "interestRate": 13.0,
             "invested": 55.0,
@@ -132511,7 +132521,7 @@
           "interestReceived": 0.48,
           "fees": 0.08,
           "netIncome": 0.4,
-          "daysRemaining": 6,
+          "daysRemaining": 5,
           "status": "active",
           "payments": [
             {
@@ -132614,7 +132624,7 @@
           "interestReceived": 0.2,
           "fees": 0.02,
           "netIncome": 0.18,
-          "daysRemaining": 31,
+          "daysRemaining": 30,
           "status": "active",
           "payments": [
             {
@@ -132647,7 +132657,7 @@
           "interestReceived": 0.0,
           "fees": 0.0,
           "netIncome": 0.0,
-          "daysRemaining": 79,
+          "daysRemaining": 78,
           "status": "active",
           "payments": []
         },
@@ -132669,7 +132679,7 @@
           "interestReceived": 4.24,
           "fees": 0.4,
           "netIncome": 3.84,
-          "daysRemaining": 98,
+          "daysRemaining": 97,
           "status": "active",
           "payments": [
             {
@@ -132772,7 +132782,7 @@
           "interestReceived": 3.65,
           "fees": 0.39,
           "netIncome": 3.26,
-          "daysRemaining": 109,
+          "daysRemaining": 108,
           "status": "active",
           "payments": [
             {
@@ -132875,7 +132885,7 @@
           "interestReceived": 1.36,
           "fees": 0.14,
           "netIncome": 1.22,
-          "daysRemaining": 144,
+          "daysRemaining": 143,
           "status": "active",
           "payments": [
             {
@@ -132968,7 +132978,7 @@
           "interestReceived": 1.0,
           "fees": 0.11,
           "netIncome": 0.89,
-          "daysRemaining": 202,
+          "daysRemaining": 201,
           "status": "active",
           "payments": [
             {
@@ -133041,7 +133051,7 @@
           "interestReceived": 1.1,
           "fees": 0.1,
           "netIncome": 1.0,
-          "daysRemaining": 202,
+          "daysRemaining": 201,
           "status": "active",
           "payments": [
             {
@@ -133114,7 +133124,7 @@
           "interestReceived": 0.45,
           "fees": 0.04,
           "netIncome": 0.41,
-          "daysRemaining": 274,
+          "daysRemaining": 273,
           "status": "active",
           "payments": [
             {
@@ -133157,7 +133167,7 @@
           "interestReceived": 0.56,
           "fees": 0.08,
           "netIncome": 0.48,
-          "daysRemaining": 279,
+          "daysRemaining": 278,
           "status": "active",
           "payments": [
             {
@@ -133260,7 +133270,7 @@
           "interestReceived": 0.94,
           "fees": 0.1,
           "netIncome": 0.84,
-          "daysRemaining": 974,
+          "daysRemaining": 973,
           "status": "active",
           "payments": [
             {
@@ -133316,7 +133326,7 @@
           "interestReceived": 0.48,
           "fees": 0.08,
           "netIncome": 0.4,
-          "daysRemaining": 6,
+          "daysRemaining": 5,
           "status": "active",
           "payments": [
             {
@@ -133419,7 +133429,7 @@
           "interestReceived": 0.2,
           "fees": 0.02,
           "netIncome": 0.18,
-          "daysRemaining": 31,
+          "daysRemaining": 30,
           "status": "active",
           "payments": [
             {
@@ -133452,7 +133462,7 @@
           "interestReceived": 0.0,
           "fees": 0.0,
           "netIncome": 0.0,
-          "daysRemaining": 79,
+          "daysRemaining": 78,
           "status": "active",
           "payments": []
         },
@@ -133474,7 +133484,7 @@
           "interestReceived": 4.24,
           "fees": 0.4,
           "netIncome": 3.84,
-          "daysRemaining": 98,
+          "daysRemaining": 97,
           "status": "active",
           "payments": [
             {
@@ -133577,7 +133587,7 @@
           "interestReceived": 3.65,
           "fees": 0.39,
           "netIncome": 3.26,
-          "daysRemaining": 109,
+          "daysRemaining": 108,
           "status": "active",
           "payments": [
             {
@@ -133680,7 +133690,7 @@
           "interestReceived": 1.36,
           "fees": 0.14,
           "netIncome": 1.22,
-          "daysRemaining": 144,
+          "daysRemaining": 143,
           "status": "active",
           "payments": [
             {
@@ -133773,7 +133783,7 @@
           "interestReceived": 1.0,
           "fees": 0.11,
           "netIncome": 0.89,
-          "daysRemaining": 202,
+          "daysRemaining": 201,
           "status": "active",
           "payments": [
             {
@@ -133846,7 +133856,7 @@
           "interestReceived": 1.1,
           "fees": 0.1,
           "netIncome": 1.0,
-          "daysRemaining": 202,
+          "daysRemaining": 201,
           "status": "active",
           "payments": [
             {
@@ -133919,7 +133929,7 @@
           "interestReceived": 0.45,
           "fees": 0.04,
           "netIncome": 0.41,
-          "daysRemaining": 274,
+          "daysRemaining": 273,
           "status": "active",
           "payments": [
             {
@@ -133962,7 +133972,7 @@
           "interestReceived": 0.56,
           "fees": 0.08,
           "netIncome": 0.48,
-          "daysRemaining": 279,
+          "daysRemaining": 278,
           "status": "active",
           "payments": [
             {
@@ -134065,7 +134075,7 @@
           "interestReceived": 0.94,
           "fees": 0.1,
           "netIncome": 0.84,
-          "daysRemaining": 974,
+          "daysRemaining": 973,
           "status": "active",
           "payments": [
             {
@@ -134131,7 +134141,7 @@
         "interestReceived": 0.48,
         "fees": 0.08,
         "netIncome": 0.4,
-        "daysRemaining": 6,
+        "daysRemaining": 5,
         "status": "active",
         "payments": [
           {
@@ -134234,7 +134244,7 @@
         "interestReceived": 0.2,
         "fees": 0.02,
         "netIncome": 0.18,
-        "daysRemaining": 31,
+        "daysRemaining": 30,
         "status": "active",
         "payments": [
           {
@@ -134267,7 +134277,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 79,
+        "daysRemaining": 78,
         "status": "active",
         "payments": []
       },
@@ -134289,7 +134299,7 @@
         "interestReceived": 4.24,
         "fees": 0.4,
         "netIncome": 3.84,
-        "daysRemaining": 98,
+        "daysRemaining": 97,
         "status": "active",
         "payments": [
           {
@@ -134392,7 +134402,7 @@
         "interestReceived": 3.65,
         "fees": 0.39,
         "netIncome": 3.26,
-        "daysRemaining": 109,
+        "daysRemaining": 108,
         "status": "active",
         "payments": [
           {
@@ -134495,7 +134505,7 @@
         "interestReceived": 1.36,
         "fees": 0.14,
         "netIncome": 1.22,
-        "daysRemaining": 144,
+        "daysRemaining": 143,
         "status": "active",
         "payments": [
           {
@@ -134588,7 +134598,7 @@
         "interestReceived": 1.0,
         "fees": 0.11,
         "netIncome": 0.89,
-        "daysRemaining": 202,
+        "daysRemaining": 201,
         "status": "active",
         "payments": [
           {
@@ -134661,7 +134671,7 @@
         "interestReceived": 1.1,
         "fees": 0.1,
         "netIncome": 1.0,
-        "daysRemaining": 202,
+        "daysRemaining": 201,
         "status": "active",
         "payments": [
           {
@@ -134734,7 +134744,7 @@
         "interestReceived": 0.45,
         "fees": 0.04,
         "netIncome": 0.41,
-        "daysRemaining": 274,
+        "daysRemaining": 273,
         "status": "active",
         "payments": [
           {
@@ -134777,7 +134787,7 @@
         "interestReceived": 0.56,
         "fees": 0.08,
         "netIncome": 0.48,
-        "daysRemaining": 279,
+        "daysRemaining": 278,
         "status": "active",
         "payments": [
           {
@@ -134880,7 +134890,7 @@
         "interestReceived": 0.94,
         "fees": 0.1,
         "netIncome": 0.84,
-        "daysRemaining": 974,
+        "daysRemaining": 973,
         "status": "active",
         "payments": [
           {
@@ -134935,7 +134945,7 @@
         "interestReceived": 0.48,
         "fees": 0.08,
         "netIncome": 0.4,
-        "daysRemaining": 6,
+        "daysRemaining": 5,
         "status": "active",
         "payments": [
           {
@@ -135038,7 +135048,7 @@
         "interestReceived": 0.2,
         "fees": 0.02,
         "netIncome": 0.18,
-        "daysRemaining": 31,
+        "daysRemaining": 30,
         "status": "active",
         "payments": [
           {
@@ -135071,7 +135081,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 79,
+        "daysRemaining": 78,
         "status": "active",
         "payments": []
       },
@@ -135093,7 +135103,7 @@
         "interestReceived": 4.24,
         "fees": 0.4,
         "netIncome": 3.84,
-        "daysRemaining": 98,
+        "daysRemaining": 97,
         "status": "active",
         "payments": [
           {
@@ -135196,7 +135206,7 @@
         "interestReceived": 3.65,
         "fees": 0.39,
         "netIncome": 3.26,
-        "daysRemaining": 109,
+        "daysRemaining": 108,
         "status": "active",
         "payments": [
           {
@@ -135299,7 +135309,7 @@
         "interestReceived": 1.36,
         "fees": 0.14,
         "netIncome": 1.22,
-        "daysRemaining": 144,
+        "daysRemaining": 143,
         "status": "active",
         "payments": [
           {
@@ -135392,7 +135402,7 @@
         "interestReceived": 1.0,
         "fees": 0.11,
         "netIncome": 0.89,
-        "daysRemaining": 202,
+        "daysRemaining": 201,
         "status": "active",
         "payments": [
           {
@@ -135465,7 +135475,7 @@
         "interestReceived": 1.1,
         "fees": 0.1,
         "netIncome": 1.0,
-        "daysRemaining": 202,
+        "daysRemaining": 201,
         "status": "active",
         "payments": [
           {
@@ -135538,7 +135548,7 @@
         "interestReceived": 0.45,
         "fees": 0.04,
         "netIncome": 0.41,
-        "daysRemaining": 274,
+        "daysRemaining": 273,
         "status": "active",
         "payments": [
           {
@@ -135581,7 +135591,7 @@
         "interestReceived": 0.56,
         "fees": 0.08,
         "netIncome": 0.48,
-        "daysRemaining": 279,
+        "daysRemaining": 278,
         "status": "active",
         "payments": [
           {
@@ -135684,7 +135694,7 @@
         "interestReceived": 0.94,
         "fees": 0.1,
         "netIncome": 0.84,
-        "daysRemaining": 974,
+        "daysRemaining": 973,
         "status": "active",
         "payments": [
           {
@@ -135748,7 +135758,7 @@
         "interestReceived": 0.48,
         "fees": 0.08,
         "netIncome": 0.4,
-        "daysRemaining": 6,
+        "daysRemaining": 5,
         "status": "active",
         "payments": [
           {
@@ -135851,7 +135861,7 @@
         "interestReceived": 0.2,
         "fees": 0.02,
         "netIncome": 0.18,
-        "daysRemaining": 31,
+        "daysRemaining": 30,
         "status": "active",
         "payments": [
           {
@@ -135884,7 +135894,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 79,
+        "daysRemaining": 78,
         "status": "active",
         "payments": []
       },
@@ -135906,7 +135916,7 @@
         "interestReceived": 4.24,
         "fees": 0.4,
         "netIncome": 3.84,
-        "daysRemaining": 98,
+        "daysRemaining": 97,
         "status": "active",
         "payments": [
           {
@@ -136009,7 +136019,7 @@
         "interestReceived": 3.65,
         "fees": 0.39,
         "netIncome": 3.26,
-        "daysRemaining": 109,
+        "daysRemaining": 108,
         "status": "active",
         "payments": [
           {
@@ -136112,7 +136122,7 @@
         "interestReceived": 1.36,
         "fees": 0.14,
         "netIncome": 1.22,
-        "daysRemaining": 144,
+        "daysRemaining": 143,
         "status": "active",
         "payments": [
           {
@@ -136205,7 +136215,7 @@
         "interestReceived": 1.0,
         "fees": 0.11,
         "netIncome": 0.89,
-        "daysRemaining": 202,
+        "daysRemaining": 201,
         "status": "active",
         "payments": [
           {
@@ -136278,7 +136288,7 @@
         "interestReceived": 1.1,
         "fees": 0.1,
         "netIncome": 1.0,
-        "daysRemaining": 202,
+        "daysRemaining": 201,
         "status": "active",
         "payments": [
           {
@@ -136351,7 +136361,7 @@
         "interestReceived": 0.45,
         "fees": 0.04,
         "netIncome": 0.41,
-        "daysRemaining": 274,
+        "daysRemaining": 273,
         "status": "active",
         "payments": [
           {
@@ -136394,7 +136404,7 @@
         "interestReceived": 0.56,
         "fees": 0.08,
         "netIncome": 0.48,
-        "daysRemaining": 279,
+        "daysRemaining": 278,
         "status": "active",
         "payments": [
           {
@@ -136497,7 +136507,7 @@
         "interestReceived": 0.94,
         "fees": 0.1,
         "netIncome": 0.84,
-        "daysRemaining": 974,
+        "daysRemaining": 973,
         "status": "active",
         "payments": [
           {
@@ -136661,9 +136671,9 @@
       {
         "month": "2026-08",
         "principal": 31.82,
-        "interest": 0.2,
+        "interest": 0.19,
         "fees": 0.0,
-        "total": 32.02,
+        "total": 32.01,
         "estimated": true
       },
       {
@@ -136677,9 +136687,9 @@
       {
         "month": "2026-11",
         "principal": 130.0,
-        "interest": 3.36,
+        "interest": 3.33,
         "fees": 0.0,
-        "total": 133.36,
+        "total": 133.33,
         "estimated": true
       },
       {
@@ -136693,9 +136703,9 @@
       {
         "month": "2027-02",
         "principal": 43.17,
-        "interest": 2.63,
+        "interest": 2.62,
         "fees": 0.0,
-        "total": 45.8,
+        "total": 45.79,
         "estimated": true
       },
       {
@@ -136717,9 +136727,9 @@
       {
         "month": "2029-03",
         "principal": 22.16,
-        "interest": 9.46,
+        "interest": 9.45,
         "fees": 0.0,
-        "total": 31.62,
+        "total": 31.61,
         "estimated": true
       }
     ],
@@ -137049,7 +137059,7 @@
           "interestReceived": 0.78,
           "fees": 0.0,
           "netIncome": 0.78,
-          "daysRemaining": 42,
+          "daysRemaining": 41,
           "status": "active",
           "payments": [
             {
@@ -137113,7 +137123,7 @@
           "interestReceived": 3.04,
           "fees": 0.0,
           "netIncome": 3.04,
-          "daysRemaining": 48,
+          "daysRemaining": 47,
           "status": "active",
           "payments": [
             {
@@ -137237,7 +137247,7 @@
           "interestReceived": 1.63,
           "fees": 0.0,
           "netIncome": 1.63,
-          "daysRemaining": 55,
+          "daysRemaining": 54,
           "status": "active",
           "payments": [
             {
@@ -137361,7 +137371,7 @@
           "interestReceived": 1.13,
           "fees": 0.0,
           "netIncome": 1.13,
-          "daysRemaining": 153,
+          "daysRemaining": 152,
           "status": "active",
           "payments": [
             {
@@ -137445,7 +137455,7 @@
           "interestReceived": 0.35,
           "fees": 0.0,
           "netIncome": 0.35,
-          "daysRemaining": 167,
+          "daysRemaining": 166,
           "status": "active",
           "payments": [
             {
@@ -137489,7 +137499,7 @@
           "interestReceived": 0.86,
           "fees": 0.0,
           "netIncome": 0.86,
-          "daysRemaining": 189,
+          "daysRemaining": 188,
           "status": "active",
           "payments": [
             {
@@ -137563,7 +137573,7 @@
           "interestReceived": 0.3,
           "fees": 0.0,
           "netIncome": 0.3,
-          "daysRemaining": 207,
+          "daysRemaining": 206,
           "status": "active",
           "payments": [
             {
@@ -137607,7 +137617,7 @@
           "interestReceived": 0.12,
           "fees": 0.0,
           "netIncome": 0.12,
-          "daysRemaining": 221,
+          "daysRemaining": 220,
           "status": "active",
           "payments": [
             {
@@ -137641,7 +137651,7 @@
           "interestReceived": 0.54,
           "fees": 0.0,
           "netIncome": 0.54,
-          "daysRemaining": 274,
+          "daysRemaining": 273,
           "status": "active",
           "payments": [
             {
@@ -137695,7 +137705,7 @@
           "interestReceived": 0.0,
           "fees": 0.0,
           "netIncome": 0.0,
-          "daysRemaining": 336,
+          "daysRemaining": 335,
           "status": "active",
           "payments": []
         },
@@ -137718,7 +137728,7 @@
           "interestReceived": 0.0,
           "fees": 0.0,
           "netIncome": 0.0,
-          "daysRemaining": 350,
+          "daysRemaining": 349,
           "status": "active",
           "payments": []
         },
@@ -138006,7 +138016,7 @@
           "interestReceived": 0.78,
           "fees": 0.0,
           "netIncome": 0.78,
-          "daysRemaining": 42,
+          "daysRemaining": 41,
           "status": "active",
           "payments": [
             {
@@ -138070,7 +138080,7 @@
           "interestReceived": 3.04,
           "fees": 0.0,
           "netIncome": 3.04,
-          "daysRemaining": 48,
+          "daysRemaining": 47,
           "status": "active",
           "payments": [
             {
@@ -138194,7 +138204,7 @@
           "interestReceived": 1.63,
           "fees": 0.0,
           "netIncome": 1.63,
-          "daysRemaining": 55,
+          "daysRemaining": 54,
           "status": "active",
           "payments": [
             {
@@ -138318,7 +138328,7 @@
           "interestReceived": 1.13,
           "fees": 0.0,
           "netIncome": 1.13,
-          "daysRemaining": 153,
+          "daysRemaining": 152,
           "status": "active",
           "payments": [
             {
@@ -138402,7 +138412,7 @@
           "interestReceived": 0.35,
           "fees": 0.0,
           "netIncome": 0.35,
-          "daysRemaining": 167,
+          "daysRemaining": 166,
           "status": "active",
           "payments": [
             {
@@ -138446,7 +138456,7 @@
           "interestReceived": 0.86,
           "fees": 0.0,
           "netIncome": 0.86,
-          "daysRemaining": 189,
+          "daysRemaining": 188,
           "status": "active",
           "payments": [
             {
@@ -138520,7 +138530,7 @@
           "interestReceived": 0.3,
           "fees": 0.0,
           "netIncome": 0.3,
-          "daysRemaining": 207,
+          "daysRemaining": 206,
           "status": "active",
           "payments": [
             {
@@ -138564,7 +138574,7 @@
           "interestReceived": 0.12,
           "fees": 0.0,
           "netIncome": 0.12,
-          "daysRemaining": 221,
+          "daysRemaining": 220,
           "status": "active",
           "payments": [
             {
@@ -138598,7 +138608,7 @@
           "interestReceived": 0.54,
           "fees": 0.0,
           "netIncome": 0.54,
-          "daysRemaining": 274,
+          "daysRemaining": 273,
           "status": "active",
           "payments": [
             {
@@ -138652,7 +138662,7 @@
           "interestReceived": 0.0,
           "fees": 0.0,
           "netIncome": 0.0,
-          "daysRemaining": 336,
+          "daysRemaining": 335,
           "status": "active",
           "payments": []
         },
@@ -138675,7 +138685,7 @@
           "interestReceived": 0.0,
           "fees": 0.0,
           "netIncome": 0.0,
-          "daysRemaining": 350,
+          "daysRemaining": 349,
           "status": "active",
           "payments": []
         },
@@ -138973,7 +138983,7 @@
         "interestReceived": 0.78,
         "fees": 0.0,
         "netIncome": 0.78,
-        "daysRemaining": 42,
+        "daysRemaining": 41,
         "status": "active",
         "payments": [
           {
@@ -139037,7 +139047,7 @@
         "interestReceived": 3.04,
         "fees": 0.0,
         "netIncome": 3.04,
-        "daysRemaining": 48,
+        "daysRemaining": 47,
         "status": "active",
         "payments": [
           {
@@ -139161,7 +139171,7 @@
         "interestReceived": 1.63,
         "fees": 0.0,
         "netIncome": 1.63,
-        "daysRemaining": 55,
+        "daysRemaining": 54,
         "status": "active",
         "payments": [
           {
@@ -139285,7 +139295,7 @@
         "interestReceived": 1.13,
         "fees": 0.0,
         "netIncome": 1.13,
-        "daysRemaining": 153,
+        "daysRemaining": 152,
         "status": "active",
         "payments": [
           {
@@ -139369,7 +139379,7 @@
         "interestReceived": 0.35,
         "fees": 0.0,
         "netIncome": 0.35,
-        "daysRemaining": 167,
+        "daysRemaining": 166,
         "status": "active",
         "payments": [
           {
@@ -139413,7 +139423,7 @@
         "interestReceived": 0.86,
         "fees": 0.0,
         "netIncome": 0.86,
-        "daysRemaining": 189,
+        "daysRemaining": 188,
         "status": "active",
         "payments": [
           {
@@ -139487,7 +139497,7 @@
         "interestReceived": 0.3,
         "fees": 0.0,
         "netIncome": 0.3,
-        "daysRemaining": 207,
+        "daysRemaining": 206,
         "status": "active",
         "payments": [
           {
@@ -139531,7 +139541,7 @@
         "interestReceived": 0.12,
         "fees": 0.0,
         "netIncome": 0.12,
-        "daysRemaining": 221,
+        "daysRemaining": 220,
         "status": "active",
         "payments": [
           {
@@ -139565,7 +139575,7 @@
         "interestReceived": 0.54,
         "fees": 0.0,
         "netIncome": 0.54,
-        "daysRemaining": 274,
+        "daysRemaining": 273,
         "status": "active",
         "payments": [
           {
@@ -139619,7 +139629,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 336,
+        "daysRemaining": 335,
         "status": "active",
         "payments": []
       },
@@ -139642,7 +139652,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 350,
+        "daysRemaining": 349,
         "status": "active",
         "payments": []
       },
@@ -139929,7 +139939,7 @@
         "interestReceived": 0.78,
         "fees": 0.0,
         "netIncome": 0.78,
-        "daysRemaining": 42,
+        "daysRemaining": 41,
         "status": "active",
         "payments": [
           {
@@ -139993,7 +140003,7 @@
         "interestReceived": 3.04,
         "fees": 0.0,
         "netIncome": 3.04,
-        "daysRemaining": 48,
+        "daysRemaining": 47,
         "status": "active",
         "payments": [
           {
@@ -140117,7 +140127,7 @@
         "interestReceived": 1.63,
         "fees": 0.0,
         "netIncome": 1.63,
-        "daysRemaining": 55,
+        "daysRemaining": 54,
         "status": "active",
         "payments": [
           {
@@ -140241,7 +140251,7 @@
         "interestReceived": 1.13,
         "fees": 0.0,
         "netIncome": 1.13,
-        "daysRemaining": 153,
+        "daysRemaining": 152,
         "status": "active",
         "payments": [
           {
@@ -140325,7 +140335,7 @@
         "interestReceived": 0.35,
         "fees": 0.0,
         "netIncome": 0.35,
-        "daysRemaining": 167,
+        "daysRemaining": 166,
         "status": "active",
         "payments": [
           {
@@ -140369,7 +140379,7 @@
         "interestReceived": 0.86,
         "fees": 0.0,
         "netIncome": 0.86,
-        "daysRemaining": 189,
+        "daysRemaining": 188,
         "status": "active",
         "payments": [
           {
@@ -140443,7 +140453,7 @@
         "interestReceived": 0.3,
         "fees": 0.0,
         "netIncome": 0.3,
-        "daysRemaining": 207,
+        "daysRemaining": 206,
         "status": "active",
         "payments": [
           {
@@ -140487,7 +140497,7 @@
         "interestReceived": 0.12,
         "fees": 0.0,
         "netIncome": 0.12,
-        "daysRemaining": 221,
+        "daysRemaining": 220,
         "status": "active",
         "payments": [
           {
@@ -140521,7 +140531,7 @@
         "interestReceived": 0.54,
         "fees": 0.0,
         "netIncome": 0.54,
-        "daysRemaining": 274,
+        "daysRemaining": 273,
         "status": "active",
         "payments": [
           {
@@ -140575,7 +140585,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 336,
+        "daysRemaining": 335,
         "status": "active",
         "payments": []
       },
@@ -140598,7 +140608,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 350,
+        "daysRemaining": 349,
         "status": "active",
         "payments": []
       },
@@ -140894,7 +140904,7 @@
         "interestReceived": 0.78,
         "fees": 0.0,
         "netIncome": 0.78,
-        "daysRemaining": 42,
+        "daysRemaining": 41,
         "status": "active",
         "payments": [
           {
@@ -140958,7 +140968,7 @@
         "interestReceived": 3.04,
         "fees": 0.0,
         "netIncome": 3.04,
-        "daysRemaining": 48,
+        "daysRemaining": 47,
         "status": "active",
         "payments": [
           {
@@ -141082,7 +141092,7 @@
         "interestReceived": 1.63,
         "fees": 0.0,
         "netIncome": 1.63,
-        "daysRemaining": 55,
+        "daysRemaining": 54,
         "status": "active",
         "payments": [
           {
@@ -141206,7 +141216,7 @@
         "interestReceived": 1.13,
         "fees": 0.0,
         "netIncome": 1.13,
-        "daysRemaining": 153,
+        "daysRemaining": 152,
         "status": "active",
         "payments": [
           {
@@ -141290,7 +141300,7 @@
         "interestReceived": 0.35,
         "fees": 0.0,
         "netIncome": 0.35,
-        "daysRemaining": 167,
+        "daysRemaining": 166,
         "status": "active",
         "payments": [
           {
@@ -141334,7 +141344,7 @@
         "interestReceived": 0.86,
         "fees": 0.0,
         "netIncome": 0.86,
-        "daysRemaining": 189,
+        "daysRemaining": 188,
         "status": "active",
         "payments": [
           {
@@ -141408,7 +141418,7 @@
         "interestReceived": 0.3,
         "fees": 0.0,
         "netIncome": 0.3,
-        "daysRemaining": 207,
+        "daysRemaining": 206,
         "status": "active",
         "payments": [
           {
@@ -141452,7 +141462,7 @@
         "interestReceived": 0.12,
         "fees": 0.0,
         "netIncome": 0.12,
-        "daysRemaining": 221,
+        "daysRemaining": 220,
         "status": "active",
         "payments": [
           {
@@ -141486,7 +141496,7 @@
         "interestReceived": 0.54,
         "fees": 0.0,
         "netIncome": 0.54,
-        "daysRemaining": 274,
+        "daysRemaining": 273,
         "status": "active",
         "payments": [
           {
@@ -141540,7 +141550,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 336,
+        "daysRemaining": 335,
         "status": "active",
         "payments": []
       },
@@ -141563,7 +141573,7 @@
         "interestReceived": 0.0,
         "fees": 0.0,
         "netIncome": 0.0,
-        "daysRemaining": 350,
+        "daysRemaining": 349,
         "status": "active",
         "payments": []
       },
@@ -141970,49 +141980,49 @@
       {
         "month": "2026-09",
         "principal": 71.8,
-        "interest": 1.09,
+        "interest": 1.07,
         "fees": 0.0,
-        "total": 72.89,
+        "total": 72.87,
         "estimated": true
       },
       {
         "month": "2026-12",
         "principal": 21.01,
-        "interest": 0.99,
+        "interest": 0.98,
         "fees": 0.0,
-        "total": 22.0,
+        "total": 21.99,
         "estimated": true
       },
       {
         "month": "2027-01",
         "principal": 21.75,
-        "interest": 1.07,
+        "interest": 1.06,
         "fees": 0.0,
-        "total": 22.82,
+        "total": 22.81,
         "estimated": true
       },
       {
         "month": "2027-02",
         "principal": 51.91,
-        "interest": 3.02,
+        "interest": 3.01,
         "fees": 0.0,
-        "total": 54.93,
+        "total": 54.92,
         "estimated": true
       },
       {
         "month": "2027-03",
         "principal": 22.92,
-        "interest": 1.6,
+        "interest": 1.59,
         "fees": 0.0,
-        "total": 24.52,
+        "total": 24.51,
         "estimated": true
       },
       {
         "month": "2027-04",
         "principal": 21.84,
-        "interest": 1.97,
+        "interest": 1.96,
         "fees": 0.0,
-        "total": 23.81,
+        "total": 23.8,
         "estimated": true
       },
       {
@@ -142026,9 +142036,9 @@
       {
         "month": "2027-07",
         "principal": 20.0,
-        "interest": 2.4,
+        "interest": 2.39,
         "fees": 0.0,
-        "total": 22.4,
+        "total": 22.39,
         "estimated": true
       }
     ],
