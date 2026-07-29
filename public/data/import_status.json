@@ -1,8 +1,8 @@
 {
   "schemaVersion": 9,
-  "generatedAt": "2026-07-29T18:21:44+03:00",
-  "durationSeconds": 38.377,
-  "portfolioJsonBytes": 6187827,
+  "generatedAt": "2026-07-29T18:30:51+03:00",
+  "durationSeconds": 45.446,
+  "portfolioJsonBytes": 6187393,
   "portfolioUpdatedAt": "2026-06-30",
   "platforms": [
     {
@@ -12,7 +12,7 @@
       "status": "ok",
       "records": 2,
       "latestDataDate": "2026-06-30",
-      "durationSeconds": 9.864,
+      "durationSeconds": 10.004,
       "error": "",
       "task": "update_brokers.py"
     },
@@ -23,7 +23,7 @@
       "status": "ok",
       "records": 13,
       "latestDataDate": "2026-07-01",
-      "durationSeconds": 12.139,
+      "durationSeconds": 13.351,
       "error": "",
       "task": "update_portfolio.py"
     },
@@ -34,7 +34,7 @@
       "status": "ok",
       "records": 5,
       "latestDataDate": "2026-07-31",
-      "durationSeconds": 9.864,
+      "durationSeconds": 10.004,
       "error": "",
       "task": "update_brokers.py"
     },
@@ -45,7 +45,7 @@
       "status": "ok",
       "records": 12,
       "latestDataDate": "2026-07-01",
-      "durationSeconds": 12.139,
+      "durationSeconds": 13.351,
       "error": "",
       "task": "update_portfolio.py"
     },
@@ -56,7 +56,7 @@
       "status": "ok",
       "records": 17,
       "latestDataDate": "2026-06-30",
-      "durationSeconds": 9.864,
+      "durationSeconds": 10.004,
       "error": "",
       "task": "update_brokers.py"
     },
@@ -67,7 +67,7 @@
       "status": "ok",
       "records": 2,
       "latestDataDate": "2026-06-30",
-      "durationSeconds": 9.864,
+      "durationSeconds": 10.004,
       "error": "",
       "task": "update_brokers.py"
     },
@@ -78,7 +78,7 @@
       "status": "ok",
       "records": 19,
       "latestDataDate": "2026-07-31",
-      "durationSeconds": 0.741,
+      "durationSeconds": 0.789,
       "error": "",
       "task": "update_profitus.py"
     },
@@ -89,7 +89,7 @@
       "status": "ok",
       "records": 0,
       "latestDataDate": "2026-06-30",
-      "durationSeconds": 12.139,
+      "durationSeconds": 13.351,
       "error": "",
       "task": "update_portfolio.py"
     },
@@ -100,7 +100,7 @@
       "status": "ok",
       "records": 87,
       "latestDataDate": "2026-07-01",
-      "durationSeconds": 12.139,
+      "durationSeconds": 13.351,
       "error": "",
       "task": "update_portfolio.py"
     },
@@ -111,7 +111,7 @@
       "status": "ok",
       "records": 26,
       "latestDataDate": "2026-07-31",
-      "durationSeconds": 0.834,
+      "durationSeconds": 0.863,
       "error": "",
       "task": "update_crowdpear.py"
     },
@@ -122,7 +122,7 @@
       "status": "ok",
       "records": 14,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 3.94,
+      "durationSeconds": 5.985,
       "error": "",
       "task": "update_scramble.py"
     },
@@ -133,7 +133,7 @@
       "status": "ok",
       "records": 43,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 0.901,
+      "durationSeconds": 0.922,
       "error": "",
       "task": "update_nectaro.py"
     },
@@ -144,7 +144,7 @@
       "status": "ok",
       "records": 14,
       "latestDataDate": "2026-07-01",
-      "durationSeconds": 12.139,
+      "durationSeconds": 13.351,
       "error": "",
       "task": "update_portfolio.py"
     },
@@ -155,7 +155,7 @@
       "status": "ok",
       "records": 14,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 3.938,
+      "durationSeconds": 5.974,
       "error": "",
       "task": "update_viainvest.py"
     },
@@ -166,7 +166,7 @@
       "status": "ok",
       "records": 0,
       "latestDataDate": "2026-06-30",
-      "durationSeconds": 12.139,
+      "durationSeconds": 13.351,
       "error": "",
       "task": "update_portfolio.py"
     },
@@ -177,7 +177,7 @@
       "status": "ok",
       "records": 11,
       "latestDataDate": "2026-07-01",
-      "durationSeconds": 12.139,
+      "durationSeconds": 13.351,
       "error": "",
       "task": "update_portfolio.py"
     },
@@ -188,7 +188,7 @@
       "status": "ok",
       "records": 13,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 0.381,
+      "durationSeconds": 0.392,
       "error": "",
       "task": "update_lendermarket.py"
     },
@@ -199,7 +199,7 @@
       "status": "ok",
       "records": 9,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 0.357,
+      "durationSeconds": 0.33,
       "error": "",
       "task": "update_loanch.py"
     },
@@ -210,7 +210,7 @@
       "status": "ok",
       "records": 2,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 4.771,
+      "durationSeconds": 6.315,
       "error": "",
       "task": "update_peerberry.py"
     },
@@ -221,7 +221,7 @@
       "status": "ok",
       "records": 4,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 0.263,
+      "durationSeconds": 0.272,
       "error": "",
       "task": "update_income.py"
     },
@@ -232,7 +232,7 @@
       "status": "ok",
       "records": 1,
       "latestDataDate": "2026-07-29",
-      "durationSeconds": 0.221,
+      "durationSeconds": 0.241,
       "error": "",
       "task": "update_lande.py"
     }

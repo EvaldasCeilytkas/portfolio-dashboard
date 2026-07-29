@@ -2016,23 +2016,10 @@
     "changes": {
       "newProjects": [],
       "removedProjects": [],
-      "statusChanges": [
-        {
-          "loanCode": "LT-465|2026-02-19|157.15",
-          "name": "Namas Panevėžyje",
-          "from": "delayed",
-          "to": "active"
-        },
-        {
-          "loanCode": "LT-466|2026-02-20|103.68",
-          "name": "Žemoji 52 XXIX“",
-          "from": "delayed",
-          "to": "repaid"
-        }
-      ],
-      "portfolioValueChange": -3.24,
-      "cashChange": 90.44,
-      "outstandingChange": -93.68
+      "statusChanges": [],
+      "portfolioValueChange": 0.0,
+      "cashChange": 0.0,
+      "outstandingChange": 0.0
     }
   }
 }
