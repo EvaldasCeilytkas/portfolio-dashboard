@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-29T16:22:48",
+        "updatedAt": "2026-07-29T16:35:46",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-29T16:22:43",
+        "updatedAt": "2026-07-29T16:35:40",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-29T16:22:50",
+        "updatedAt": "2026-07-29T16:35:49",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-29T16:22:50",
+        "updatedAt": "2026-07-29T16:35:49",
         "modules": {
           "broker": true,
           "positions": true,
@@ -35562,7 +35562,7 @@
           {
             "id": "6",
             "slug": "6",
-            "loanCode": "P00001514-2",
+            "loanCode": "P00001480",
             "name": "Golf Hills Vilos, Alikantė",
             "investmentDate": "2026-02-06",
             "interestStart": "2026-02-09",
@@ -36524,6 +36524,43 @@
             "plannedInterest": 4.41
           }
         ],
+        "qualityControl": {
+          "valid": true,
+          "excelProjectCount": 19,
+          "jsonProjectCount": 19,
+          "checksPassed": 11,
+          "warningsCount": 0,
+          "errorsCount": 0,
+          "checks": [
+            "Projektų duomenų struktūra teisinga.",
+            "Projektų skaičius sutampa: Excel 19, JSON 19.",
+            "Visi projektai turi paskolos kodą.",
+            "Dubliuotų paskolos kodų nerasta.",
+            "Visų projektų statusai atpažinti.",
+            "Bendras projektų skaičius teisingas: 19.",
+            "Aktyvių projektų skaičius teisingas: 10.",
+            "Vėluojančių projektų skaičius teisingas: 0.",
+            "Užbaigtų projektų skaičius teisingas: 9.",
+            "Aktyvus paskolų likutis sutampa: 1107.40 €.",
+            "Portfelio vertė sutampa su laisvais pinigais ir paskolų likučiu."
+          ],
+          "warnings": [],
+          "errors": [],
+          "skippedSheets": [],
+          "changes": {
+            "newProjects": [
+              {
+                "loanCode": "P00001480",
+                "name": "Golf Hills Vilos, Alikantė"
+              }
+            ],
+            "removedProjects": [],
+            "statusChanges": [],
+            "portfolioValueChange": 0.0,
+            "cashChange": 0.0,
+            "outstandingChange": 0.0
+          }
+        },
         "type": "p2p",
         "modules": {
           "loans": true
