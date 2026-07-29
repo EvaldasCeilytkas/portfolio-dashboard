@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-29T16:18:54",
+        "updatedAt": "2026-07-29T16:22:48",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-29T16:18:51",
+        "updatedAt": "2026-07-29T16:22:43",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-29T16:18:58",
+        "updatedAt": "2026-07-29T16:22:50",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-29T16:18:58",
+        "updatedAt": "2026-07-29T16:22:50",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34327,7 +34327,7 @@
       "logoUrl": "https://www.google.com/s2/favicons?domain=profitus.lt&sz=128",
       "website": "https://profitus.lt",
       "currency": "EUR",
-      "invested": 1157.4,
+      "invested": 1107.4,
       "value": 1122.19,
       "profit": 102.19,
       "returnRate": 10.02,
@@ -34668,32 +34668,32 @@
           "startDate": "2025-02-14",
           "months": 18,
           "updatedAt": "2026-07-29",
-          "healthScore": 69,
+          "healthScore": 75,
           "healthParts": {
             "diversification": 97,
             "rating": 97,
-            "ltv": 69,
-            "delays": 80,
-            "cash": 0
+            "ltv": 70,
+            "delays": 100,
+            "cash": 13
           }
         },
         "summary": {
           "deposited": 1020.0,
-          "invested": 1157.4,
+          "invested": 1107.4,
           "bonuses": 10.0,
-          "cash": -35.21,
+          "cash": 14.79,
           "repaidPrincipal": 914.2,
           "interestReceived": 92.19,
           "portfolioValue": 1122.19,
           "profit": 102.19,
           "roi": 10.02,
           "xirr": 8.48,
-          "totalProjects": 20,
-          "activeProjects": 11,
-          "delayedProjects": 1,
+          "totalProjects": 19,
+          "activeProjects": 10,
+          "delayedProjects": 0,
           "repaidProjects": 9,
-          "averageInterest": 8.68,
-          "averageLtv": 61.95,
+          "averageInterest": 8.71,
+          "averageLtv": 61.59,
           "averageDuration": 12.0
         },
         "history": [
@@ -34851,8 +34851,8 @@
           "monthlyReturn": 0.19
         },
         "largestProject": {
-          "id": "5",
-          "slug": "5",
+          "id": "4",
+          "slug": "4",
           "loanCode": "P00001560",
           "name": "Brivibas 28, Jūrmala",
           "investmentDate": "2026-03-20",
@@ -35000,8 +35000,8 @@
           "rating": [
             {
               "label": "A",
-              "count": 3,
-              "value": 269.2
+              "count": 2,
+              "value": 219.2
             },
             {
               "label": "A+",
@@ -35047,8 +35047,8 @@
             },
             {
               "label": "61–70 %",
-              "count": 3,
-              "value": 269.5
+              "count": 2,
+              "value": 219.5
             },
             {
               "label": "> 70 %",
@@ -35064,8 +35064,8 @@
             },
             {
               "label": "8–8,99 %",
-              "count": 7,
-              "value": 701.0
+              "count": 6,
+              "value": 651.0
             },
             {
               "label": "9–9,99 %",
@@ -35096,8 +35096,8 @@
             },
             {
               "label": "10–12 mėn.",
-              "count": 11,
-              "value": 1157.4
+              "count": 10,
+              "value": 1107.4
             },
             {
               "label": "13–18 mėn.",
@@ -35144,80 +35144,14 @@
           },
           {
             "month": "2027-05",
-            "count": 3,
-            "amount": 258.1
+            "count": 2,
+            "amount": 208.1
           }
         ],
         "projects": [
           {
             "id": "1",
             "slug": "1",
-            "loanCode": "P00001402-2",
-            "name": "Testas",
-            "investmentDate": "2026-05-22",
-            "interestStart": "2026-05-26",
-            "rating": "A",
-            "ltv": 70.0,
-            "maxLtv": 85.0,
-            "durationMonths": 12,
-            "paymentFrequency": "M",
-            "interestRate": 8.0,
-            "invested": 50.0,
-            "outstanding": 50.0,
-            "plannedRepayment": "2027-05-24",
-            "actualRepayment": null,
-            "delayDays": 0,
-            "repaidPrincipal": 0.0,
-            "interestReceived": 0.0,
-            "extraReceived": 0.0,
-            "status": "active",
-            "payments": [
-              {
-                "plannedDate": "2026-08-31",
-                "plannedPrincipal": 0.0,
-                "plannedInterest": 2.19,
-                "actualDate": null,
-                "actualPrincipal": 0.0,
-                "actualInterest": 0.0,
-                "actualExtra": 0.0,
-                "delayDays": 0
-              },
-              {
-                "plannedDate": "2026-11-30",
-                "plannedPrincipal": 0.0,
-                "plannedInterest": 2.05,
-                "actualDate": null,
-                "actualPrincipal": 0.0,
-                "actualInterest": 0.0,
-                "actualExtra": 0.0,
-                "delayDays": 0
-              },
-              {
-                "plannedDate": "2027-02-28",
-                "plannedPrincipal": 0.0,
-                "plannedInterest": 2.03,
-                "actualDate": null,
-                "actualPrincipal": 0.0,
-                "actualInterest": 0.0,
-                "actualExtra": 0.0,
-                "delayDays": 0
-              },
-              {
-                "plannedDate": "2027-05-24",
-                "plannedPrincipal": 102.9,
-                "plannedInterest": 1.92,
-                "actualDate": null,
-                "actualPrincipal": 0.0,
-                "actualInterest": 0.0,
-                "actualExtra": 0.0,
-                "delayDays": 0
-              }
-            ],
-            "plannedInterest": 8.19
-          },
-          {
-            "id": "2",
-            "slug": "2",
             "loanCode": "P00001402-2",
             "name": "Dvibučių kvartalas Kauno r. II",
             "investmentDate": "2026-05-22",
@@ -35282,8 +35216,8 @@
             "plannedInterest": 8.19
           },
           {
-            "id": "3",
-            "slug": "3",
+            "id": "2",
+            "slug": "2",
             "loanCode": "P00001400-14",
             "name": "Molėtų Oazė XII",
             "investmentDate": "2026-05-14",
@@ -35348,8 +35282,8 @@
             "plannedInterest": 9.0
           },
           {
-            "id": "4",
-            "slug": "4",
+            "id": "3",
+            "slug": "3",
             "loanCode": "P00001398-20",
             "name": "Europos 70, Kaunas XX",
             "investmentDate": "2026-04-27",
@@ -35414,8 +35348,8 @@
             "plannedInterest": 9.82
           },
           {
-            "id": "5",
-            "slug": "5",
+            "id": "4",
+            "slug": "4",
             "loanCode": "P00001560",
             "name": "Brivibas 28, Jūrmala",
             "investmentDate": "2026-03-20",
@@ -35560,8 +35494,8 @@
             "plannedInterest": 12.27
           },
           {
-            "id": "6",
-            "slug": "6",
+            "id": "5",
+            "slug": "5",
             "loanCode": "P00001553",
             "name": "Svajonių Daugiabutis, Kaunas",
             "investmentDate": "2026-02-20",
@@ -35626,8 +35560,8 @@
             "plannedInterest": 9.08
           },
           {
-            "id": "7",
-            "slug": "7",
+            "id": "6",
+            "slug": "6",
             "loanCode": "P00001514-2",
             "name": "Golf Hills Vilos, Alikantė",
             "investmentDate": "2026-02-06",
@@ -35692,8 +35626,8 @@
             "plannedInterest": 9.82
           },
           {
-            "id": "8",
-            "slug": "8",
+            "id": "7",
+            "slug": "7",
             "loanCode": "P00001514-2",
             "name": "Sklypas Kalnėnuose, Vilnius II",
             "investmentDate": "2026-01-06",
@@ -35758,8 +35692,8 @@
             "plannedInterest": 8.28
           },
           {
-            "id": "9",
-            "slug": "9",
+            "id": "8",
+            "slug": "8",
             "loanCode": "P00001508",
             "name": "Dvibutis Didžiojoje Riešėje",
             "investmentDate": "2025-12-12",
@@ -35824,8 +35758,8 @@
             "plannedInterest": 10.41
           },
           {
-            "id": "10",
-            "slug": "10",
+            "id": "9",
+            "slug": "9",
             "loanCode": "P00001341-12",
             "name": "Piekrasta Rezidence, Ryga XII",
             "investmentDate": "2025-09-26",
@@ -35890,8 +35824,8 @@
             "plannedInterest": 8.61
           },
           {
-            "id": "11",
-            "slug": "11",
+            "id": "10",
+            "slug": "10",
             "loanCode": "P00001434",
             "name": "Dvibutis Upelio g., Vilniaus r.",
             "investmentDate": "2025-09-08",
@@ -35906,11 +35840,11 @@
             "outstanding": 116.6,
             "plannedRepayment": "2026-09-07",
             "actualRepayment": null,
-            "delayDays": 22,
+            "delayDays": 0,
             "repaidPrincipal": 0.0,
             "interestReceived": 7.98,
             "extraReceived": 0.12,
-            "status": "delayed",
+            "status": "active",
             "payments": [
               {
                 "plannedDate": "2025-12-31",
@@ -35943,21 +35877,21 @@
                 "delayDays": 0
               },
               {
-                "plannedDate": "2026-07-07",
+                "plannedDate": "2026-09-07",
                 "plannedPrincipal": 116.6,
                 "plannedInterest": 1.87,
                 "actualDate": null,
                 "actualPrincipal": 0.0,
                 "actualInterest": 0.0,
                 "actualExtra": 0.0,
-                "delayDays": 22
+                "delayDays": 0
               }
             ],
             "plannedInterest": 9.85
           },
           {
-            "id": "12",
-            "slug": "12",
+            "id": "11",
+            "slug": "11",
             "loanCode": "P00001372",
             "name": "Kęstučio salos",
             "investmentDate": "2025-04-24",
@@ -36042,8 +35976,8 @@
             "plannedInterest": 8.56
           },
           {
-            "id": "13",
-            "slug": "13",
+            "id": "12",
+            "slug": "12",
             "loanCode": "P00001134-13",
             "name": "Twinhouse XIII",
             "investmentDate": "2025-05-13",
@@ -36108,8 +36042,8 @@
             "plannedInterest": 7.95
           },
           {
-            "id": "14",
-            "slug": "14",
+            "id": "13",
+            "slug": "13",
             "loanCode": "P00001403",
             "name": "Dvibutis Upės g., Vilniaus r.",
             "investmentDate": "2025-07-16",
@@ -36174,8 +36108,8 @@
             "plannedInterest": 8.8
           },
           {
-            "id": "15",
-            "slug": "15",
+            "id": "14",
+            "slug": "14",
             "loanCode": "P00001341",
             "name": "Piekrasta Rezidence, Ryga",
             "investmentDate": "2025-03-12",
@@ -36240,8 +36174,8 @@
             "plannedInterest": 10.93
           },
           {
-            "id": "16",
-            "slug": "16",
+            "id": "15",
+            "slug": "15",
             "loanCode": "P00001433",
             "name": "Dvibutis Klevų g., Kauno r.",
             "investmentDate": "2025-08-29",
@@ -36316,8 +36250,8 @@
             "plannedInterest": 2.77
           },
           {
-            "id": "17",
-            "slug": "17",
+            "id": "16",
+            "slug": "16",
             "loanCode": "P00001274-8",
             "name": "Vyčio slėnis VIII",
             "investmentDate": "2025-05-21",
@@ -36392,8 +36326,8 @@
             "plannedInterest": 6.47
           },
           {
-            "id": "18",
-            "slug": "18",
+            "id": "17",
+            "slug": "17",
             "loanCode": "P00001320-2",
             "name": "Ocean 11 South, II",
             "investmentDate": "2025-02-14",
@@ -36458,8 +36392,8 @@
             "plannedInterest": 7.46
           },
           {
-            "id": "19",
-            "slug": "19",
+            "id": "18",
+            "slug": "18",
             "loanCode": "P00001236-17",
             "name": "Namų kvartalas Bičių Slėnis XVII",
             "investmentDate": "2025-02-26",
@@ -36524,8 +36458,8 @@
             "plannedInterest": 8.45
           },
           {
-            "id": "20",
-            "slug": "20",
+            "id": "19",
+            "slug": "19",
             "loanCode": "P00001241-2",
             "name": "Elfa Loftai II",
             "investmentDate": "2025-03-14",
@@ -36595,14 +36529,14 @@
           "loans": true
         },
         "health": {
-          "score": 69,
+          "score": 75,
           "label": "Portfolio Health",
           "parts": {
             "diversification": 97,
             "rating": 97,
-            "ltv": 69,
-            "delays": 80,
-            "cash": 0
+            "ltv": 70,
+            "delays": 100,
+            "cash": 13
           }
         }
       }
