@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-29T18:02:21",
+        "updatedAt": "2026-07-29T18:03:57",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-29T18:02:17",
+        "updatedAt": "2026-07-29T18:03:53",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-29T18:02:23",
+        "updatedAt": "2026-07-29T18:03:59",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-29T18:02:23",
+        "updatedAt": "2026-07-29T18:04:00",
         "modules": {
           "broker": true,
           "positions": true,
@@ -81750,10 +81750,10 @@
       "logoUrl": "https://www.google.com/s2/favicons?domain=crowdpear.com&sz=128",
       "website": "https://crowdpear.com",
       "currency": "EUR",
-      "invested": 1189.65,
-      "value": 1184.72,
-      "profit": 154.72,
-      "returnRate": 15.02,
+      "invested": 1179.65,
+      "value": 1189.72,
+      "profit": 159.72,
+      "returnRate": 15.51,
       "active": true,
       "history": [
         {
@@ -81887,10 +81887,10 @@
         {
           "date": "2026-07-31",
           "invested": 1030.0,
-          "value": 1184.72,
-          "profit": 154.72,
-          "monthlyProfit": 5.98,
-          "monthlyReturn": 0.51
+          "value": 1189.72,
+          "profit": 159.72,
+          "monthlyProfit": 10.98,
+          "monthlyReturn": 0.93
         }
       ],
       "analytics": {
@@ -82061,7 +82061,7 @@
           }
         ]
       },
-      "xirr": 12.93,
+      "xirr": 13.34,
       "details": {
         "platform": {
           "name": "Crowdpear",
@@ -82073,33 +82073,33 @@
           "startDate": "2025-03-03",
           "months": 17,
           "updatedAt": "2026-07-29",
-          "healthScore": 70,
+          "healthScore": 68,
           "healthParts": {
             "diversification": 95,
             "rating": 95,
             "ltv": 81,
-            "delays": 80,
-            "cash": 0
+            "delays": 60,
+            "cash": 8
           }
         },
         "summary": {
           "deposited": 1030.0,
-          "invested": 1189.65,
+          "invested": 1179.65,
           "bonuses": 40.0,
-          "cash": -4.93,
-          "repaidPrincipal": 1150.65,
-          "interestReceived": 114.72,
-          "portfolioValue": 1184.72,
-          "profit": 154.72,
-          "roi": 15.02,
-          "xirr": 12.93,
+          "cash": 10.07,
+          "repaidPrincipal": 1160.65,
+          "interestReceived": 119.72,
+          "portfolioValue": 1189.72,
+          "profit": 159.72,
+          "roi": 15.51,
+          "xirr": 13.34,
           "totalProjects": 26,
           "activeProjects": 13,
-          "delayedProjects": 1,
+          "delayedProjects": 2,
           "repaidProjects": 13,
           "averageInterest": 9.34,
-          "averageLtv": 53.8,
-          "averageDuration": 11.08
+          "averageLtv": 53.73,
+          "averageDuration": 11.07
         },
         "history": [
           {
@@ -82233,19 +82233,19 @@
           {
             "date": "2026-07-31",
             "invested": 1030.0,
-            "value": 1184.72,
-            "profit": 154.72,
-            "monthlyProfit": 5.98,
-            "monthlyReturn": 0.51
+            "value": 1189.72,
+            "profit": 159.72,
+            "monthlyProfit": 10.98,
+            "monthlyReturn": 0.93
           }
         ],
         "latestMonth": {
           "date": "2026-07-31",
           "invested": 1030.0,
-          "value": 1184.72,
-          "profit": 154.72,
-          "monthlyProfit": 5.98,
-          "monthlyReturn": 0.51
+          "value": 1189.72,
+          "profit": 159.72,
+          "monthlyProfit": 10.98,
+          "monthlyReturn": 0.93
         },
         "largestProject": {
           "id": "7",
@@ -82264,11 +82264,11 @@
           "outstanding": 157.15,
           "plannedRepayment": "2026-11-20",
           "actualRepayment": null,
-          "delayDays": 0,
+          "delayDays": 9,
           "repaidPrincipal": 0.0,
           "interestReceived": 3.78,
           "extraReceived": 0.0,
-          "status": "active",
+          "status": "delayed",
           "payments": [
             {
               "plannedDate": "2026-06-01",
@@ -82291,14 +82291,14 @@
               "delayDays": 0
             },
             {
-              "plannedDate": "2026-11-20",
+              "plannedDate": "2026-07-20",
               "plannedPrincipal": 157.15,
               "plannedInterest": 2.97,
               "actualDate": null,
               "actualPrincipal": 0.0,
               "actualInterest": 0.0,
               "actualExtra": 0.0,
-              "delayDays": 0
+              "delayDays": 9
             }
           ],
           "plannedInterest": 10.05
@@ -82313,7 +82313,7 @@
             {
               "label": "C",
               "count": 9,
-              "value": 797.25
+              "value": 787.25
             }
           ],
           "ltv": [
@@ -82335,7 +82335,7 @@
             {
               "label": "61–70 %",
               "count": 5,
-              "value": 386.02
+              "value": 376.02
             },
             {
               "label": "> 70 %",
@@ -82357,7 +82357,7 @@
             {
               "label": "9–9,99 %",
               "count": 8,
-              "value": 697.25
+              "value": 687.25
             },
             {
               "label": "10–10,99 %",
@@ -82384,7 +82384,7 @@
             {
               "label": "10–12 mėn.",
               "count": 9,
-              "value": 728.82
+              "value": 718.82
             },
             {
               "label": "13–18 mėn.",
@@ -82422,7 +82422,7 @@
           {
             "month": "2027-02",
             "count": 1,
-            "amount": 123.63
+            "amount": 113.63
           },
           {
             "month": "2027-03",
@@ -82834,11 +82834,11 @@
             "outstanding": 157.15,
             "plannedRepayment": "2026-11-20",
             "actualRepayment": null,
-            "delayDays": 0,
+            "delayDays": 9,
             "repaidPrincipal": 0.0,
             "interestReceived": 3.78,
             "extraReceived": 0.0,
-            "status": "active",
+            "status": "delayed",
             "payments": [
               {
                 "plannedDate": "2026-06-01",
@@ -82861,14 +82861,14 @@
                 "delayDays": 0
               },
               {
-                "plannedDate": "2026-11-20",
+                "plannedDate": "2026-07-20",
                 "plannedPrincipal": 157.15,
                 "plannedInterest": 2.97,
                 "actualDate": null,
                 "actualPrincipal": 0.0,
                 "actualInterest": 0.0,
                 "actualExtra": 0.0,
-                "delayDays": 0
+                "delayDays": 9
               }
             ],
             "plannedInterest": 10.05
@@ -82887,12 +82887,12 @@
             "paymentFrequency": "Q",
             "interestRate": 9.5,
             "invested": 123.63,
-            "outstanding": 123.63,
+            "outstanding": 113.63,
             "plannedRepayment": "2027-02-02",
             "actualRepayment": null,
             "delayDays": 0,
-            "repaidPrincipal": 0.0,
-            "interestReceived": 4.05,
+            "repaidPrincipal": 10.0,
+            "interestReceived": 9.05,
             "extraReceived": 0.0,
             "status": "active",
             "payments": [
@@ -82910,9 +82910,9 @@
                 "plannedDate": "2026-08-31",
                 "plannedPrincipal": 0.0,
                 "plannedInterest": 2.9,
-                "actualDate": null,
-                "actualPrincipal": 0.0,
-                "actualInterest": 0.0,
+                "actualDate": "2026-07-28",
+                "actualPrincipal": 10.0,
+                "actualInterest": 5.0,
                 "actualExtra": 0.0,
                 "delayDays": 0
               },
@@ -84063,7 +84063,7 @@
           "excelProjectCount": 26,
           "jsonProjectCount": 26,
           "checksPassed": 10,
-          "warningsCount": 2,
+          "warningsCount": 1,
           "errorsCount": 0,
           "checks": [
             "Projektų duomenų struktūra teisinga.",
@@ -84072,24 +84072,30 @@
             "Visų projektų statusai atpažinti.",
             "Bendras projektų skaičius teisingas: 26.",
             "Aktyvių projektų skaičius teisingas: 13.",
-            "Vėluojančių projektų skaičius teisingas: 1.",
+            "Vėluojančių projektų skaičius teisingas: 2.",
             "Užbaigtų projektų skaičius teisingas: 13.",
-            "Aktyvus paskolų likutis sutampa: 1189.65 €.",
+            "Aktyvus paskolų likutis sutampa: 1179.65 €.",
             "Portfelio vertė sutampa su laisvais pinigais ir paskolų likučiu."
           ],
           "warnings": [
-            "Tie patys paskolos kodai naudojami kelioms atskiroms investicijoms: LT-264, LT-558",
-            "Laisvų pinigų likutis neigiamas: -4.93 €."
+            "Tie patys paskolos kodai naudojami kelioms atskiroms investicijoms: LT-264, LT-558"
           ],
           "errors": [],
           "skippedSheets": [],
           "changes": {
             "newProjects": [],
             "removedProjects": [],
-            "statusChanges": [],
-            "portfolioValueChange": 0.0,
-            "cashChange": 0.0,
-            "outstandingChange": 0.0
+            "statusChanges": [
+              {
+                "loanCode": "LT-465|2026-02-19|157.15",
+                "name": "Namas Panevėžyje",
+                "from": "active",
+                "to": "delayed"
+              }
+            ],
+            "portfolioValueChange": 5.0,
+            "cashChange": 15.0,
+            "outstandingChange": -10.0
           }
         },
         "type": "p2p",
@@ -84097,14 +84103,14 @@
           "loans": true
         },
         "health": {
-          "score": 70,
+          "score": 68,
           "label": "Portfolio Health",
           "parts": {
             "diversification": 95,
             "rating": 95,
             "ltv": 81,
-            "delays": 80,
-            "cash": 0
+            "delays": 60,
+            "cash": 8
           }
         }
       }
