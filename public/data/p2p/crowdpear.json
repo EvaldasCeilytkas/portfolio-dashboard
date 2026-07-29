@@ -2020,117 +2020,12 @@
     "errors": [],
     "skippedSheets": [],
     "changes": {
-      "newProjects": [
-        {
-          "loanCode": "ID 44763|2025-03-03|100.00",
-          "name": "Užnerio butai III"
-        },
-        {
-          "loanCode": "LT-262|2025-03-05|100.00",
-          "name": "Pušynas VII"
-        },
-        {
-          "loanCode": "LT-264|2025-03-09|100.00",
-          "name": "Sodziaus 7A"
-        },
-        {
-          "loanCode": "LT-264|2025-03-13|10.00",
-          "name": "Sodziaus 7A"
-        },
-        {
-          "loanCode": "LT-268|2025-03-27|100.00",
-          "name": "Kauno 36-232"
-        },
-        {
-          "loanCode": "LT-279|2025-04-10|100.00",
-          "name": "Girinaičių 7"
-        },
-        {
-          "loanCode": "LT-285|2025-04-17|10.00",
-          "name": "Piliarožių 10 VI"
-        },
-        {
-          "loanCode": "LT-288|2025-04-23|100.00",
-          "name": "Girios 112 II"
-        },
-        {
-          "loanCode": "LT-296|2025-05-14|100.00",
-          "name": "Girinaičių 7 II"
-        },
-        {
-          "loanCode": "LT-363|2025-09-15|101.49",
-          "name": "Vienbutis Minsko 5A"
-        },
-        {
-          "loanCode": "LT-364|2025-09-12|100.00",
-          "name": "Dvibutis Sodybų 12"
-        },
-        {
-          "loanCode": "LT-382|2025-10-20|108.26",
-          "name": "Pagojo 1 II"
-        },
-        {
-          "loanCode": "LT-388|2025-10-28|10.00",
-          "name": "Miškininkų 30 II"
-        },
-        {
-          "loanCode": "LT-418|2025-12-12|106.06",
-          "name": "Sūduvos 8-2"
-        },
-        {
-          "loanCode": "LT-424|2025-12-19|10.00",
-          "name": "Birelių namas II"
-        },
-        {
-          "loanCode": "LT-440|2026-01-13|118.77",
-          "name": "Druskonio perlai VII"
-        },
-        {
-          "loanCode": "LT-451|2026-01-27|123.63",
-          "name": "Vingio namai XIV"
-        },
-        {
-          "loanCode": "LT-457|2026-02-03|103.62",
-          "name": "Vanagupės 36A-204 II"
-        },
-        {
-          "loanCode": "LT-465|2026-02-19|157.15",
-          "name": "Namas Panevėžyje"
-        },
-        {
-          "loanCode": "LT-466|2026-02-20|103.68",
-          "name": "Žemoji 52 XXIX“"
-        },
-        {
-          "loanCode": "LT-477|2026-03-07|100.00",
-          "name": "Tautvilo kotedžai XIV"
-        },
-        {
-          "loanCode": "LT-481|2026-03-10|100.00",
-          "name": "Horizonto 2A XII"
-        },
-        {
-          "loanCode": "LT-484|2026-03-14|102.01",
-          "name": "Kauno 36-118 II"
-        },
-        {
-          "loanCode": "LT-558|2026-07-08|10.00",
-          "name": "Testas"
-        },
-        {
-          "loanCode": "LT-558|2026-07-08|142.39",
-          "name": "Vakaro 3A K1 III"
-        },
-        {
-          "loanCode": "RO-360|2025-09-08|123.24",
-          "name": "Sfintii Arhangheli 21"
-        }
-      ],
+      "newProjects": [],
       "removedProjects": [],
       "statusChanges": [],
-      "portfolioValueChange": 1184.72,
-      "cashChange": -4.93,
-      "outstandingChange": 1189.65
+      "portfolioValueChange": 0.0,
+      "cashChange": 0.0,
+      "outstandingChange": 0.0
     }
   }
 }
