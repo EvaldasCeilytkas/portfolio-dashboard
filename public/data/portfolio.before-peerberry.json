@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-29T16:10:58",
+        "updatedAt": "2026-07-29T16:14:27",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-29T16:10:54",
+        "updatedAt": "2026-07-29T16:14:23",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-29T16:11:00",
+        "updatedAt": "2026-07-29T16:14:29",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-29T16:11:01",
+        "updatedAt": "2026-07-29T16:14:30",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34327,7 +34327,7 @@
       "logoUrl": "https://www.google.com/s2/favicons?domain=profitus.lt&sz=128",
       "website": "https://profitus.lt",
       "currency": "EUR",
-      "invested": 1157.4,
+      "invested": 1107.4,
       "value": 1122.19,
       "profit": 102.19,
       "returnRate": 10.02,
@@ -34668,21 +34668,21 @@
           "startDate": "2025-02-14",
           "months": 18,
           "updatedAt": "2026-07-29",
-          "healthScore": 73,
+          "healthScore": 75,
           "healthParts": {
             "diversification": 97,
             "rating": 97,
-            "ltv": 69,
+            "ltv": 70,
             "delays": 100,
-            "cash": 0
+            "cash": 13
           }
         },
         "summary": {
           "deposited": 1020.0,
-          "invested": 1157.4,
+          "invested": 1107.4,
           "bonuses": 10.0,
-          "cash": -35.21,
-          "repaidPrincipal": 914.2,
+          "cash": 14.79,
+          "repaidPrincipal": 964.2,
           "interestReceived": 92.19,
           "portfolioValue": 1122.19,
           "profit": 102.19,
@@ -34693,7 +34693,7 @@
           "delayedProjects": 0,
           "repaidProjects": 9,
           "averageInterest": 8.68,
-          "averageLtv": 61.95,
+          "averageLtv": 61.77,
           "averageDuration": 12.0
         },
         "history": [
@@ -35006,7 +35006,7 @@
             {
               "label": "A+",
               "count": 3,
-              "value": 372.6
+              "value": 322.6
             },
             {
               "label": "A-",
@@ -35048,7 +35048,7 @@
             {
               "label": "61–70 %",
               "count": 3,
-              "value": 269.5
+              "value": 219.5
             },
             {
               "label": "> 70 %",
@@ -35065,7 +35065,7 @@
             {
               "label": "8–8,99 %",
               "count": 7,
-              "value": 701.0
+              "value": 651.0
             },
             {
               "label": "9–9,99 %",
@@ -35097,7 +35097,7 @@
             {
               "label": "10–12 mėn.",
               "count": 11,
-              "value": 1157.4
+              "value": 1107.4
             },
             {
               "label": "13–18 mėn.",
@@ -35115,7 +35115,7 @@
           {
             "month": "2026-09",
             "count": 2,
-            "amount": 218.5
+            "amount": 168.5
           },
           {
             "month": "2026-12",
@@ -35903,11 +35903,11 @@
             "paymentFrequency": "Q",
             "interestRate": 8.5,
             "invested": 116.6,
-            "outstanding": 116.6,
+            "outstanding": 66.6,
             "plannedRepayment": "2026-09-07",
             "actualRepayment": null,
             "delayDays": 0,
-            "repaidPrincipal": 0.0,
+            "repaidPrincipal": 50.0,
             "interestReceived": 7.98,
             "extraReceived": 0.12,
             "status": "active",
@@ -35943,14 +35943,14 @@
                 "delayDays": 0
               },
               {
-                "plannedDate": "2026-07-07",
+                "plannedDate": "2026-09-07",
                 "plannedPrincipal": 116.6,
                 "plannedInterest": 1.87,
                 "actualDate": null,
-                "actualPrincipal": 0.0,
+                "actualPrincipal": 50.0,
                 "actualInterest": 0.0,
                 "actualExtra": 0.0,
-                "delayDays": 22
+                "delayDays": 0
               }
             ],
             "plannedInterest": 9.85
@@ -36595,14 +36595,14 @@
           "loans": true
         },
         "health": {
-          "score": 73,
+          "score": 75,
           "label": "Portfolio Health",
           "parts": {
             "diversification": 97,
             "rating": 97,
-            "ltv": 69,
+            "ltv": 70,
             "delays": 100,
-            "cash": 0
+            "cash": 13
           }
         }
       }
