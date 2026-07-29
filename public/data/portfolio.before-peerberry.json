@@ -1081,7 +1081,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "SEB Fondai.xlsx",
-        "updatedAt": "2026-07-29T18:03:57",
+        "updatedAt": "2026-07-29T18:08:36",
         "modules": {
           "broker": true,
           "positions": true,
@@ -21632,7 +21632,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "SEB Robo.xlsx",
-        "updatedAt": "2026-07-29T18:03:53",
+        "updatedAt": "2026-07-29T18:08:32",
         "modules": {
           "broker": true,
           "positions": true,
@@ -33171,7 +33171,7 @@
       "details": {
         "type": "robo",
         "sourceFile": "Revolut Robo.xlsx",
-        "updatedAt": "2026-07-29T18:03:59",
+        "updatedAt": "2026-07-29T18:08:38",
         "modules": {
           "broker": true,
           "positions": true,
@@ -34235,7 +34235,7 @@
       "details": {
         "type": "fund",
         "sourceFile": "Synergy.xlsx",
-        "updatedAt": "2026-07-29T18:04:00",
+        "updatedAt": "2026-07-29T18:08:38",
         "modules": {
           "broker": true,
           "positions": true,
@@ -84014,12 +84014,12 @@
           "startDate": "2025-03-03",
           "months": 17,
           "updatedAt": "2026-07-29",
-          "healthScore": 68,
+          "healthScore": 64,
           "healthParts": {
             "diversification": 95,
             "rating": 95,
             "ltv": 81,
-            "delays": 60,
+            "delays": 40,
             "cash": 8
           }
         },
@@ -84036,7 +84036,7 @@
           "xirr": 13.34,
           "totalProjects": 26,
           "activeProjects": 13,
-          "delayedProjects": 2,
+          "delayedProjects": 3,
           "repaidProjects": 13,
           "averageInterest": 9.34,
           "averageLtv": 53.73,
@@ -84597,11 +84597,11 @@
             "outstanding": 100.0,
             "plannedRepayment": "2026-12-09",
             "actualRepayment": null,
-            "delayDays": 0,
+            "delayDays": 29,
             "repaidPrincipal": 0.0,
             "interestReceived": 0.0,
             "extraReceived": 0.0,
-            "status": "active",
+            "status": "delayed",
             "payments": [
               {
                 "plannedDate": "2026-06-30",
@@ -84611,7 +84611,7 @@
                 "actualPrincipal": 0.0,
                 "actualInterest": 0.0,
                 "actualExtra": 0.0,
-                "delayDays": 0
+                "delayDays": 29
               },
               {
                 "plannedDate": "2026-09-30",
@@ -86013,7 +86013,7 @@
             "Visų projektų statusai atpažinti.",
             "Bendras projektų skaičius teisingas: 26.",
             "Aktyvių projektų skaičius teisingas: 13.",
-            "Vėluojančių projektų skaičius teisingas: 2.",
+            "Vėluojančių projektų skaičius teisingas: 3.",
             "Užbaigtų projektų skaičius teisingas: 13.",
             "Aktyvus paskolų likutis sutampa: 1179.65 €.",
             "Portfelio vertė sutampa su laisvais pinigais ir paskolų likučiu."
@@ -86028,15 +86028,15 @@
             "removedProjects": [],
             "statusChanges": [
               {
-                "loanCode": "LT-465|2026-02-19|157.15",
-                "name": "Namas Panevėžyje",
+                "loanCode": "LT-481|2026-03-10|100.00",
+                "name": "Horizonto 2A XII",
                 "from": "active",
                 "to": "delayed"
               }
             ],
-            "portfolioValueChange": 5.0,
-            "cashChange": 15.0,
-            "outstandingChange": -10.0
+            "portfolioValueChange": 0.0,
+            "cashChange": 0.0,
+            "outstandingChange": 0.0
           }
         },
         "type": "p2p",
@@ -86044,13 +86044,13 @@
           "loans": true
         },
         "health": {
-          "score": 68,
+          "score": 64,
           "label": "Portfolio Health",
           "parts": {
             "diversification": 95,
             "rating": 95,
             "ltv": 81,
-            "delays": 60,
+            "delays": 40,
             "cash": 8
           }
         }
