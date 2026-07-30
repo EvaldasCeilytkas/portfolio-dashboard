@@ -1,0 +1,17 @@
+﻿PORTFOLIO V2.7.1 – POWERSHELL FAILO PATAISYMAS
+
+Problema:
+V2_7_TEST_GROUP1.ps1 faile eilutės buvo įrašytos kaip tekstiniai simboliai \n,
+todėl PowerShell jų nesuprato ir rodė ParserError.
+
+Pataisyta:
+- atkurtos tikros PowerShell eilutės;
+- naudotas Windows CRLF formatas;
+- išsaugotas tas pats keturių importerių paleidimas ir JSON validavimas.
+
+Įdiegimas:
+1. Išarchyvuokite ZIP tiesiai į portfolio-v2 aplanką.
+2. Leiskite pakeisti esamus failus.
+3. Paleiskite:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_7_TEST_GROUP1.ps1

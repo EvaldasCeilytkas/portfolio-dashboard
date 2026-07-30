@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-29T19:30:00+03:00",
+  "platform": {
+    "id": "crowdpear",
+    "slug": "crowdpear",
+    "name": "Crowdpear",
+    "group": "real_estate",
+    "type": "real_estate",
+    "category": "NT sutelktinis finansavimas",
+    "currency": "EUR",
+    "active": true,
+    "startDate": "2024-01-01",
+    "updatedAt": "2026-07-29",
+    "website": "https://crowdpear.com"
+  },
+  "summary": {
+    "invested": 1000.0,
+    "currentValue": 1050.0,
+    "profit": 50.0,
+    "returnRate": 5.0,
+    "xirr": null,
+    "cash": 20.0,
+    "incomeReceived": 50.0,
+    "activeInvestments": 1,
+    "delayedInvestments": 0,
+    "completedInvestments": 0,
+    "averageRate": 11.5,
+    "averageLtv": 65.0
+  },
+  "history": [
+    {
+      "date": "2026-07-01",
+      "invested": 1000.0,
+      "value": 1050.0,
+      "profit": 50.0,
+      "cash": 20.0,
+      "income": 12.5
+    }
+  ],
+  "investments": [
+    {
+      "id": "LT-481",
+      "code": "LT-481",
+      "name": "Pavyzdinis NT projektas",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 1000.0,
+      "currentValue": 1030.0,
+      "profit": 30.0,
+      "investmentDate": "2026-01-10",
+      "completionDate": null,
+      "country": "Lithuania",
+      "interestRate": 11.5,
+      "incomeReceived": 30.0,
+      "outstanding": 1000.0,
+      "delayDays": 0,
+      "ltv": 65.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B+",
+      "maturityDate": "2027-01-10",
+      "payments": [
+        {
+          "date": "2026-02-10",
+          "type": "interest",
+          "amount": 9.45,
+          "note": null
+        }
+      ]
+    }
+  ]
+}

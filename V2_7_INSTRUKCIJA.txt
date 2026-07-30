@@ -1,0 +1,10 @@
+PORTFOLIO V2.7 – BENDRAS 1 GRUPĖS IMPORTERIŲ BRANDUOLYS
+
+Išarchyvuokite tiesiai į portfolio-v2 ir leiskite pakeisti 4 importerius.
+Naujas bendras kodas: scripts\common\real_estate_importer.py
+
+Atskiras paleidimas lieka toks pats.
+Visos grupės testas:
+  powershell -ExecutionPolicy Bypass -File .\V2_7_TEST_GROUP1.ps1
+
+Funkcionalumas nekeičiamas: išsaugotos kiekvienos platformos jau patikrintos mokėjimų, vėlavimo, užbaigimo ir kodų taisyklės.

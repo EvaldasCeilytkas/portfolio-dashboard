@@ -1,0 +1,23 @@
+PORTFOLIO V2.3 – CROWDPEAR IMPORTERIS
+
+1. Išarchyvuokite ZIP turinį tiesiai į portfolio-v2 aplanką.
+2. Excel failą laikykite čia:
+
+   portfolio-v2\excel\Crowdpear.xlsx
+
+3. Paleiskite:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_3_IMPORT_CROWDPEAR.ps1
+
+Rezultatas:
+
+   public\data\platforms\crowdpear.json
+
+Importeris:
+- skaito Overview ir Pinigai lapus;
+- skaito visus projektų lapus;
+- sujungia kelias investicijas su tuo pačiu paskolos kodu;
+- LT-264 paverčia vienu projektu su bendra 110 EUR investicija;
+- nustato active / delayed / completed statusus;
+- importuoja mokėjimus ir projektų informaciją;
+- sugeneruoja V2.2.1 schemą atitinkantį JSON.

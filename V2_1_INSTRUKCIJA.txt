@@ -1,0 +1,35 @@
+PORTFOLIO V2.1 – PLATFORMŲ REGISTRAS
+
+1. Išarchyvuokite ZIP turinį tiesiai į portfolio-v2 aplanką.
+
+2. Kai Windows paklaus dėl failų pakeitimo, pasirinkite:
+   Replace the files in the destination.
+
+3. Terminale, būdami portfolio-v2 aplanke, paleiskite:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_1_VALIDATE_REGISTRY.ps1
+
+4. Teisingas rezultatas:
+
+   PLATFORMŲ REGISTRO PATIKRA: GERAI
+   Platformų: 21
+   Aktyvių: 21
+
+SUKURTI FAILAI
+
+- src/data/platforms.json
+  Vienintelis pagrindinis platformų registro šaltinis.
+
+- src/data/platformRegistry.js
+  React pagalbinės funkcijos registro naudojimui.
+
+- scripts/platform_registry.py
+  Python pagalbinės funkcijos to paties registro naudojimui.
+
+- scripts/validate_platform_registry.py
+  Registro struktūros ir dublių patikra.
+
+SVARBU
+
+Platformų duomenys, investuotos sumos ir pelnas registre nelaikomi.
+Registras aprašo tik platformų tapatybę, tipą ir galimybes.

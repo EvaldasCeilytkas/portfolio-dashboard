@@ -1,0 +1,31 @@
+PORTFOLIO V2.4 – PROFITUS IMPORTERIS
+
+1. Išarchyvuokite ZIP tiesiai į portfolio-v2 aplanką.
+2. Profitus Excel failą laikykite čia:
+
+   portfolio-v2\excel\Profitus.xlsx
+
+3. Paleiskite:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_4_IMPORT_PROFITUS.ps1
+
+Rezultatas:
+
+   public\data\platforms\profitus.json
+
+Importeris:
+- skaito Overview ir Pinigai lapus;
+- automatiškai skaito visus projektų lapus;
+- laukus ir stulpelius randa pagal antraštes;
+- palaiko LTV ir LTC laukų variantus;
+- teisingai nustato active / delayed / completed statusus;
+- istorinis vėlavimas statuso nekeičia;
+- nauji projektai bus importuojami automatiškai;
+- sugeneruoja V2 schemą atitinkantį JSON.
+
+Patikrinta su Profitus(3).xlsx:
+- projektų: 19;
+- aktyvių: 10;
+- vėluojančių: 0;
+- užbaigtų: 9;
+- platformos vertė: 1122,19 EUR.

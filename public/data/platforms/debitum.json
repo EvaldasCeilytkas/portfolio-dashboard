@@ -1,0 +1,1909 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T18:55:40+03:00",
+  "moduleType": "p2p_loans",
+  "platform": {
+    "id": "debitum",
+    "slug": "debitum",
+    "name": "Debitum",
+    "group": "p2p",
+    "type": "p2p_loans",
+    "category": "P2P verslo paskolos",
+    "currency": "EUR",
+    "active": true,
+    "status": "active",
+    "startDate": "2025-09-22",
+    "updatedAt": "2026-07-31",
+    "website": "https://debitum.investments"
+  },
+  "summary": {
+    "invested": 240.0,
+    "currentValue": 253.25,
+    "profit": 13.25,
+    "returnRate": 5.5208,
+    "xirr": 11.0029,
+    "cash": 0.0,
+    "incomeReceived": 13.25,
+    "activeInvestments": 11,
+    "delayedInvestments": 0,
+    "completedInvestments": 3,
+    "averageRate": 11.4652,
+    "averageLtv": null,
+    "deposited": 240.0,
+    "withdrawn": 0.0,
+    "lifetimeInvested": 253.25,
+    "outstandingPrincipal": 253.25,
+    "principalReturned": 71.63,
+    "interestReceived": 12.36,
+    "grossInterestReceived": 12.36,
+    "bonuses": 0.89,
+    "fees": 0.0,
+    "totalInvestments": 14,
+    "roi": 5.5208
+  },
+  "history": [
+    {
+      "date": "2025-09-30",
+      "invested": 50.0,
+      "value": 50.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.13,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "invested": 50.0,
+      "value": 50.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.51,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-11-30",
+      "invested": 100.0,
+      "value": 100.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.76,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 120.0,
+      "value": 120.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 1.12,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 140.0,
+      "value": 140.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 1.31,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 160.0,
+      "value": 160.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 1.36,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 160.0,
+      "value": 160.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 22.27,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 180.0,
+      "value": 180.34,
+      "profit": 0.34,
+      "cash": 0.0,
+      "income": 1.92,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.34,
+      "monthlyProfit": 0.34,
+      "monthlyReturn": 0.19
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 200.0,
+      "value": 200.89,
+      "profit": 0.89,
+      "cash": 0.0,
+      "income": 32.41,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.55,
+      "monthlyProfit": 0.55,
+      "monthlyReturn": 0.27
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 200.0,
+      "value": 200.89,
+      "profit": 0.89,
+      "cash": 0.0,
+      "income": 23.09,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 240.0,
+      "value": 253.25,
+      "profit": 13.25,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 40.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-07-31",
+    "invested": 240.0,
+    "value": 253.25,
+    "profit": 13.25,
+    "cash": 0.0,
+    "income": 0.0,
+    "deposits": 40.0,
+    "withdrawals": 0.0,
+    "bonuses": 0.0,
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
+  },
+  "largestInvestment": {
+    "id": "LV0000111698",
+    "slug": "lv0000111698",
+    "loanCode": "LV0000111698",
+    "externalId": "d4a9dcc7-82af-408f-bedb-9203f6d11007",
+    "sourceSheet": "LV0000111698",
+    "country": "Latvia",
+    "lender": "Baltic Terra",
+    "loanType": "Notes",
+    "trustScore": "A",
+    "term": "0 m. 8 mėn. 24 d.",
+    "investmentDate": "2026-05-27",
+    "startDate": "2026-04-15",
+    "plannedEndDate": "2027-02-20",
+    "actualEndDate": null,
+    "rate": 10.75,
+    "invested": 30.48,
+    "currentValue": 30.48,
+    "outstandingPrincipal": 30.48,
+    "principalReturned": 0.0,
+    "interestReceived": 0.3,
+    "fees": 0.0,
+    "profit": 0.3,
+    "xirr": null,
+    "status": "active",
+    "delayDays": 0,
+    "earlyLateDays": 0,
+    "schedule": [
+      {
+        "plannedDate": "2026-05-29",
+        "actualDate": "2026-05-29",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.01,
+        "fee": 0.0,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-06-30",
+        "actualDate": "2026-06-30",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.29,
+        "fee": 0.0,
+        "paid": true
+      },
+      {
+        "plannedDate": null,
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.3,
+        "fee": 0.0,
+        "paid": false
+      }
+    ],
+    "cashFlows": [
+      {
+        "date": "2026-05-27",
+        "amount": -30.48,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-05-29",
+        "amount": 0.01,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-06-30",
+        "amount": 0.29,
+        "delayDays": 0
+      }
+    ]
+  },
+  "distributions": {
+    "country": [
+      {
+        "label": "Latvia",
+        "count": 11,
+        "value": 253.25
+      }
+    ],
+    "lender": [
+      {
+        "label": "Baltic Terra",
+        "count": 3,
+        "value": 73.24
+      },
+      {
+        "label": "Latvian Forest Developement Fund",
+        "count": 4,
+        "value": 96.56
+      },
+      {
+        "label": "Sandbox Funding",
+        "count": 4,
+        "value": 83.45
+      }
+    ],
+    "loanType": [
+      {
+        "label": "Loans",
+        "count": 4,
+        "value": 83.45
+      },
+      {
+        "label": "Notes",
+        "count": 7,
+        "value": 169.8
+      }
+    ],
+    "trustScore": [
+      {
+        "label": "A",
+        "count": 7,
+        "value": 169.8
+      },
+      {
+        "label": "B+",
+        "count": 4,
+        "value": 83.45
+      }
+    ],
+    "status": [
+      {
+        "label": "active",
+        "count": 11,
+        "value": 253.25
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2025-09-22",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-11-11",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-12-15",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-02-11",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-04-16",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.34
+    },
+    {
+      "date": "2026-05-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-05-05",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.15
+    },
+    {
+      "date": "2026-05-27",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.4
+    },
+    {
+      "date": "2026-07-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-07-14",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-07-27",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "LV0000106516",
+      "slug": "lv0000106516",
+      "loanCode": "LV0000106516",
+      "externalId": "b8f70cd8-bf9b-478c-a788-444e61e675eb",
+      "sourceSheet": "LV0000106516",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 11 mėn. 22 d.",
+      "investmentDate": "2025-09-23",
+      "startDate": "2025-08-27",
+      "plannedEndDate": "2026-09-14",
+      "actualEndDate": null,
+      "rate": 13.0,
+      "invested": 30.0,
+      "currentValue": 30.0,
+      "outstandingPrincipal": 30.0,
+      "principalReturned": 0.0,
+      "interestReceived": 3.04,
+      "fees": 0.0,
+      "profit": 3.04,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-09-30",
+          "actualDate": "2025-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.08,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.33,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-28",
+          "actualDate": "2025-11-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.31,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.36,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-30",
+          "actualDate": "2026-01-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.32,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-27",
+          "actualDate": "2026-02-27",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.31,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.34,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.32,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.31,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.36,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 3.04,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-09-23",
+          "amount": -30.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-09-30",
+          "amount": 0.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 0.33,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-28",
+          "amount": 0.31,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.36,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-30",
+          "amount": 0.32,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-27",
+          "amount": 0.31,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.34,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.32,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.31,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.36,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000106920",
+      "slug": "lv0000106920",
+      "loanCode": "LV0000106920",
+      "externalId": "f554a779-27ed-4d9a-aa38-85635001a3fb",
+      "sourceSheet": "LV0000106920",
+      "country": "Latvia",
+      "lender": "Sandbox Funding",
+      "loanType": "Loans",
+      "trustScore": "B+",
+      "term": "0 m. 11 mėn. 29 d.",
+      "investmentDate": "2025-09-23",
+      "startDate": "2025-09-18",
+      "plannedEndDate": "2026-09-21",
+      "actualEndDate": null,
+      "rate": 10.0,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 1.63,
+      "fees": 0.0,
+      "profit": 1.63,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-09-30",
+          "actualDate": "2025-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.05,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-28",
+          "actualDate": "2025-11-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-30",
+          "actualDate": "2026-01-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-27",
+          "actualDate": "2026-02-27",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 1.63,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-09-23",
+          "amount": -20.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-09-30",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-28",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-30",
+          "amount": 0.17,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-27",
+          "amount": 0.17,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.17,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.2,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000107886",
+      "slug": "lv0000107886",
+      "loanCode": "LV0000107886",
+      "externalId": "659c52bf-6023-48b2-bc0f-da590bcd36f9",
+      "sourceSheet": "LV0000107886",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 3 mėn. 19 d.",
+      "investmentDate": "2025-11-12",
+      "startDate": "2025-11-03",
+      "plannedEndDate": "2026-03-03",
+      "actualEndDate": "2026-03-02",
+      "rate": 10.4,
+      "invested": 20.64,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 20.64,
+      "interestReceived": 0.66,
+      "fees": 0.0,
+      "profit": 0.66,
+      "xirr": 11.1481,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -1,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-02",
+          "actualDate": "2026-03-02",
+          "timingDays": 0,
+          "principal": 20.64,
+          "interest": 0.01,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 20.64,
+          "interest": 0.66,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-12",
+          "amount": -20.64,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.17,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-02",
+          "amount": 20.65,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000107902",
+      "slug": "lv0000107902",
+      "loanCode": "LV0000107902",
+      "externalId": "205d18cd-bf4a-4bf1-88e3-fef3ffe6f736",
+      "sourceSheet": "LV0000107902",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 6 mėn. 15 d.",
+      "investmentDate": "2025-11-12",
+      "startDate": "2025-11-05",
+      "plannedEndDate": "2026-05-27",
+      "actualEndDate": "2026-05-27",
+      "rate": 11.0,
+      "invested": 30.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 30.0,
+      "interestReceived": 1.81,
+      "fees": 0.0,
+      "profit": 1.81,
+      "xirr": 11.8386,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.28,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.29,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.25,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.3,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.25,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-27",
+          "actualDate": "2026-05-27",
+          "timingDays": 0,
+          "principal": 30.0,
+          "interest": 0.26,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 30.0,
+          "interest": 1.81,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-12",
+          "amount": -30.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.28,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.29,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.25,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.3,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.25,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-27",
+          "amount": 30.26,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000108736",
+      "slug": "lv0000108736",
+      "loanCode": "LV0000108736",
+      "externalId": "17f3efcd-5a40-4924-87d5-a72ce6d21313",
+      "sourceSheet": "LV0000108736",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 5 mėn. 26 d.",
+      "investmentDate": "2025-12-16",
+      "startDate": "2025-12-10",
+      "plannedEndDate": "2026-06-11",
+      "actualEndDate": "2026-06-12",
+      "rate": 11.0,
+      "invested": 20.99,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 20.99,
+      "interestReceived": 1.14,
+      "fees": 0.0,
+      "profit": 1.14,
+      "xirr": 11.7314,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 1,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-11",
+          "actualDate": "2026-06-12",
+          "timingDays": 1,
+          "principal": 20.99,
+          "interest": 0.08,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 20.99,
+          "interest": 1.14,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-12-16",
+          "amount": -20.99,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-12",
+          "amount": 21.07,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000109064",
+      "slug": "lv0000109064",
+      "loanCode": "LV0000109064",
+      "externalId": "e26c310c-331f-4855-9f5d-294789304acd",
+      "sourceSheet": "LV0000109064",
+      "country": "Latvia",
+      "lender": "Baltic Terra",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 11 mėn. 21 d.",
+      "investmentDate": "2026-01-07",
+      "startDate": "2025-12-22",
+      "plannedEndDate": "2026-12-28",
+      "actualEndDate": null,
+      "rate": 11.25,
+      "invested": 21.01,
+      "currentValue": 21.01,
+      "outstandingPrincipal": 21.01,
+      "principalReturned": 0.0,
+      "interestReceived": 1.13,
+      "fees": 0.0,
+      "profit": 1.13,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 1.13,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-07",
+          "amount": -21.01,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.15,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.21,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.21,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000110047",
+      "slug": "lv0000110047",
+      "loanCode": "LV0000110047",
+      "externalId": "ccf30376-99e2-4ee5-8dd9-bd88dc4179b3",
+      "sourceSheet": "LV0000110047",
+      "country": "Latvia",
+      "lender": "Sandbox Funding",
+      "loanType": "Loans",
+      "trustScore": "B+",
+      "term": "0 m. 11 mėn. 22 d.",
+      "investmentDate": "2026-02-11",
+      "startDate": "2026-03-03",
+      "plannedEndDate": "2027-02-02",
+      "actualEndDate": null,
+      "rate": 10.5,
+      "invested": 21.43,
+      "currentValue": 21.43,
+      "outstandingPrincipal": 21.43,
+      "principalReturned": 0.0,
+      "interestReceived": 0.86,
+      "fees": 0.0,
+      "profit": 0.86,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.86,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-02-11",
+          "amount": -21.43,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.2,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000110328",
+      "slug": "lv0000110328",
+      "loanCode": "LV0000110328",
+      "externalId": "392596bb-f6fe-4c38-8522-ce14eec475b6",
+      "sourceSheet": "LV0000110328",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 6 mėn. 6 d.",
+      "investmentDate": "2026-03-02",
+      "startDate": "2026-02-24",
+      "plannedEndDate": "2026-09-08",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 21.8,
+      "currentValue": 21.8,
+      "outstandingPrincipal": 21.8,
+      "principalReturned": 0.0,
+      "interestReceived": 0.78,
+      "fees": 0.0,
+      "profit": 0.78,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.78,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-03-02",
+          "amount": -21.8,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.21,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000111102",
+      "slug": "lv0000111102",
+      "loanCode": "LV0000111102",
+      "externalId": "cf699f4c-f1b5-444f-9077-c94668c39431",
+      "sourceSheet": "LV0000111102",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "1 m. 0 mėn. 12 d.",
+      "investmentDate": "2026-04-16",
+      "startDate": "2026-04-13",
+      "plannedEndDate": "2027-04-28",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 21.84,
+      "currentValue": 21.84,
+      "outstandingPrincipal": 21.84,
+      "principalReturned": 0.0,
+      "interestReceived": 0.54,
+      "fees": 0.0,
+      "profit": 0.54,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.23,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.54,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-16",
+          "amount": -21.84,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.21,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.23,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000111060",
+      "slug": "lv0000111060",
+      "loanCode": "LV0000111060",
+      "externalId": "02a81318-bea5-4db2-8b3c-4d81db59fc9b",
+      "sourceSheet": "LV0000111060",
+      "country": "Latvia",
+      "lender": "Baltic Terra",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 8 mėn. 6 d.",
+      "investmentDate": "2026-05-05",
+      "startDate": "2026-04-08",
+      "plannedEndDate": "2027-01-11",
+      "actualEndDate": null,
+      "rate": 10.75,
+      "invested": 21.75,
+      "currentValue": 21.75,
+      "outstandingPrincipal": 21.75,
+      "principalReturned": 0.0,
+      "interestReceived": 0.35,
+      "fees": 0.0,
+      "profit": 0.35,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.35,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-05-05",
+          "amount": -21.75,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.15,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.2,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000111698",
+      "slug": "lv0000111698",
+      "loanCode": "LV0000111698",
+      "externalId": "d4a9dcc7-82af-408f-bedb-9203f6d11007",
+      "sourceSheet": "LV0000111698",
+      "country": "Latvia",
+      "lender": "Baltic Terra",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 8 mėn. 24 d.",
+      "investmentDate": "2026-05-27",
+      "startDate": "2026-04-15",
+      "plannedEndDate": "2027-02-20",
+      "actualEndDate": null,
+      "rate": 10.75,
+      "invested": 30.48,
+      "currentValue": 30.48,
+      "outstandingPrincipal": 30.48,
+      "principalReturned": 0.0,
+      "interestReceived": 0.3,
+      "fees": 0.0,
+      "profit": 0.3,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-05-29",
+          "actualDate": "2026-05-29",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.01,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.29,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.3,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-05-27",
+          "amount": -30.48,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 0.01,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.29,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000111847",
+      "slug": "lv0000111847",
+      "loanCode": "LV0000111847",
+      "externalId": "adfe9a00-ffd1-4b14-b52f-30de1ffe3b4e",
+      "sourceSheet": "LV0000111847",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 8 mėn. 21 d.",
+      "investmentDate": "2026-06-13",
+      "startDate": "2026-05-28",
+      "plannedEndDate": "2027-03-06",
+      "actualEndDate": null,
+      "rate": 11.5,
+      "invested": 22.92,
+      "currentValue": 22.92,
+      "outstandingPrincipal": 22.92,
+      "principalReturned": 0.0,
+      "interestReceived": 0.12,
+      "fees": 0.0,
+      "profit": 0.12,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-06-13",
+          "amount": -22.92,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.12,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000112340",
+      "slug": "lv0000112340",
+      "loanCode": "LV0000112340",
+      "externalId": "a1bc197d-257c-4974-99fa-cdc266369d55",
+      "sourceSheet": "LV0000112340",
+      "country": "Latvia",
+      "lender": "Sandbox Funding",
+      "loanType": "Loans",
+      "trustScore": "B+",
+      "term": "0 m. 11 mėn. 27 d.",
+      "investmentDate": "2026-07-02",
+      "startDate": "2026-06-30",
+      "plannedEndDate": "2027-06-29",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 22.02,
+      "currentValue": 22.02,
+      "outstandingPrincipal": 22.02,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-02",
+          "amount": -22.02,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000112639",
+      "slug": "lv0000112639",
+      "loanCode": "LV0000112639",
+      "externalId": "4d675011-7d10-48f2-8b75-877c5e500aa8",
+      "sourceSheet": "LV0000112639",
+      "country": "Latvia",
+      "lender": "Sandbox Funding",
+      "loanType": "Loans",
+      "trustScore": "B+",
+      "term": "0 m. 11 mėn. 29 d.",
+      "investmentDate": "2026-07-14",
+      "startDate": "2026-07-11",
+      "plannedEndDate": "2027-07-13",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-14",
+          "amount": -20.0,
+          "delayDays": 0
+        }
+      ]
+    }
+  ],
+  "source": {
+    "file": "Debitum.xlsx",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "loanSheets": 14,
+    "skippedSheets": [],
+    "generatedAt": "2026-07-30T18:55:40+03:00"
+  }
+}

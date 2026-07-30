@@ -1,0 +1,30 @@
+PORTFOLIO V2.5 – RONTGEN IMPORTERIS
+
+1. Išarchyvuokite ZIP tiesiai į portfolio-v2 aplanką.
+2. Rontgen Excel failą laikykite čia:
+
+   portfolio-v2\excel\Rontgen.xlsx
+
+3. Paleiskite:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_5_IMPORT_RONTGEN.ps1
+
+Rezultatas:
+
+   public\data\platforms\rontgen.json
+
+Importeris:
+- skaito Overview ir Pinigai lapus;
+- automatiškai skaito visus projektų lapus;
+- laukus ir stulpelius randa pagal antraštes;
+- naujus projektų lapus aptiks automatiškai;
+- teisingai nustato active / delayed / completed statusus;
+- istorinis vėlavimas statuso nekeičia;
+- sugeneruoja V2 schemą atitinkantį JSON.
+
+Patikrinta su Rontgen(1).xlsx:
+- projektų: 9;
+- aktyvių: 1;
+- vėluojančių: 0;
+- užbaigtų: 8;
+- platformos vertė: 704,67 EUR.

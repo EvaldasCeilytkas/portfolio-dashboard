@@ -1,0 +1,2251 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T18:57:14+03:00",
+  "moduleType": "p2p_loans",
+  "platform": {
+    "id": "scramble",
+    "slug": "scramble",
+    "name": "Scramble",
+    "group": "p2p",
+    "type": "p2p_loans",
+    "category": "P2P verslo paskolos",
+    "currency": "EUR",
+    "active": true,
+    "status": "active",
+    "startDate": "2025-06-03",
+    "updatedAt": "2026-07-31",
+    "website": "https://scramble.investments"
+  },
+  "summary": {
+    "invested": 950.0,
+    "currentValue": 1062.91,
+    "profit": 112.91,
+    "returnRate": 11.8853,
+    "xirr": 0.0,
+    "cash": 1.0,
+    "incomeReceived": 112.91,
+    "activeInvestments": 6,
+    "delayedInvestments": 0,
+    "completedInvestments": 8,
+    "averageRate": 0.0,
+    "averageLtv": null,
+    "deposited": 950.0,
+    "withdrawn": 0.0,
+    "lifetimeInvested": 1061.91,
+    "outstandingPrincipal": 1061.91,
+    "principalReturned": 1275.06,
+    "interestReceived": 59.45,
+    "grossInterestReceived": 59.45,
+    "bonuses": 53.46,
+    "fees": 0.0,
+    "totalInvestments": 14,
+    "roi": 11.8853
+  },
+  "history": [
+    {
+      "date": "2025-06-30",
+      "invested": 100.0,
+      "value": 115.0,
+      "profit": 15.0,
+      "cash": 0.0,
+      "income": 15.0,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 15.0,
+      "monthlyProfit": 15.0,
+      "monthlyReturn": 15.0
+    },
+    {
+      "date": "2025-07-31",
+      "invested": 200.0,
+      "value": 215.0,
+      "profit": 15.0,
+      "cash": 0.0,
+      "income": 5.78,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-08-31",
+      "invested": 300.0,
+      "value": 315.0,
+      "profit": 15.0,
+      "cash": 0.0,
+      "income": 11.19,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-09-30",
+      "invested": 400.0,
+      "value": 416.0,
+      "profit": 16.0,
+      "cash": 0.0,
+      "income": 12.81,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 1.0,
+      "monthlyProfit": 1.0,
+      "monthlyReturn": 0.24
+    },
+    {
+      "date": "2025-10-31",
+      "invested": 400.0,
+      "value": 438.11,
+      "profit": 38.11,
+      "cash": 0.0,
+      "income": 39.86,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 22.11,
+      "monthlyProfit": 22.11,
+      "monthlyReturn": 5.31
+    },
+    {
+      "date": "2025-11-30",
+      "invested": 500.0,
+      "value": 539.11,
+      "profit": 39.11,
+      "cash": 0.0,
+      "income": 24.81,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 1.0,
+      "monthlyProfit": 1.0,
+      "monthlyReturn": 0.19
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 600.0,
+      "value": 644.13,
+      "profit": 44.13,
+      "cash": 0.0,
+      "income": 116.73,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 5.02,
+      "monthlyProfit": 5.02,
+      "monthlyReturn": 0.79
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 700.0,
+      "value": 745.71,
+      "profit": 45.71,
+      "cash": 0.0,
+      "income": 126.76,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 1.58,
+      "monthlyProfit": 1.58,
+      "monthlyReturn": 0.21
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 700.0,
+      "value": 749.61,
+      "profit": 49.61,
+      "cash": 0.0,
+      "income": 60.77,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 3.9,
+      "monthlyProfit": 3.9,
+      "monthlyReturn": 0.52
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 700.0,
+      "value": 750.11,
+      "profit": 50.11,
+      "cash": 0.0,
+      "income": 139.37,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.5,
+      "monthlyProfit": 0.5,
+      "monthlyReturn": 0.07
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 750.0,
+      "value": 800.61,
+      "profit": 50.61,
+      "cash": 0.0,
+      "income": 146.67,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.5,
+      "monthlyProfit": 0.5,
+      "monthlyReturn": 0.06
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 750.0,
+      "value": 801.96,
+      "profit": 51.96,
+      "cash": 0.0,
+      "income": 170.46,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 1.35,
+      "monthlyProfit": 1.35,
+      "monthlyReturn": 0.17
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 750.0,
+      "value": 802.46,
+      "profit": 52.46,
+      "cash": 0.0,
+      "income": 293.39,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.5,
+      "monthlyProfit": 0.5,
+      "monthlyReturn": 0.06
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 950.0,
+      "value": 1062.91,
+      "profit": 112.91,
+      "cash": 1.0,
+      "income": 224.37,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 1.0,
+      "monthlyProfit": 1.0,
+      "monthlyReturn": 0.12
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-07-31",
+    "invested": 950.0,
+    "value": 1062.91,
+    "profit": 112.91,
+    "cash": 1.0,
+    "income": 224.37,
+    "deposits": 0.0,
+    "withdrawals": 0.0,
+    "bonuses": 1.0,
+    "monthlyProfit": 1.0,
+    "monthlyReturn": 0.12
+  },
+  "largestInvestment": {
+    "id": "June 2026",
+    "slug": "june-2026",
+    "loanCode": "June 2026",
+    "externalId": null,
+    "sourceSheet": "June 2026",
+    "country": "Estonia",
+    "lender": "Scramble",
+    "loanType": "Busines loan",
+    "trustScore": null,
+    "term": "0 m. 6 mėn. 2 d.",
+    "investmentDate": "2026-06-05",
+    "startDate": "2026-06-17",
+    "plannedEndDate": "2026-12-07",
+    "actualEndDate": null,
+    "rate": 0.0,
+    "invested": 294.26,
+    "currentValue": 278.59,
+    "outstandingPrincipal": 278.59,
+    "principalReturned": 15.67,
+    "interestReceived": 0.0,
+    "fees": 0.0,
+    "profit": 0.0,
+    "xirr": null,
+    "status": "active",
+    "delayDays": 0,
+    "earlyLateDays": 0,
+    "schedule": [
+      {
+        "plannedDate": "2026-07-06",
+        "actualDate": "2026-07-06",
+        "timingDays": 0,
+        "principal": 15.67,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-08-05",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-09-05",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-10-05",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-11-05",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-12-07",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": null,
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 15.67,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      }
+    ],
+    "cashFlows": [
+      {
+        "date": "2026-06-05",
+        "amount": -294.26,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-07-06",
+        "amount": 15.67,
+        "delayDays": 0
+      }
+    ]
+  },
+  "distributions": {
+    "country": [
+      {
+        "label": "Estonia",
+        "count": 6,
+        "value": 1061.91
+      }
+    ],
+    "lender": [
+      {
+        "label": "Scramble",
+        "count": 6,
+        "value": 1061.91
+      }
+    ],
+    "loanType": [
+      {
+        "label": "Busines loan",
+        "count": 6,
+        "value": 1061.91
+      }
+    ],
+    "trustScore": [
+      {
+        "label": "Nenurodyta",
+        "count": 6,
+        "value": 1061.91
+      }
+    ],
+    "status": [
+      {
+        "label": "active",
+        "count": 6,
+        "value": 1061.91
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2025-06-03",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 10.0
+    },
+    {
+      "date": "2025-06-04",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-06-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 5.0
+    },
+    {
+      "date": "2025-07-02",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-08-29",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-09-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 1.0
+    },
+    {
+      "date": "2025-09-26",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-10-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 22.11
+    },
+    {
+      "date": null,
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-11-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 1.0
+    },
+    {
+      "date": "2025-11-24",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-12-15",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-12-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 5.02
+    },
+    {
+      "date": null,
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-05",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.08
+    },
+    {
+      "date": "2026-01-21",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 1.5
+    },
+    {
+      "date": "2026-01-30",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-02-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 3.9
+    },
+    {
+      "date": "2026-03-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.5
+    },
+    {
+      "date": "2026-04-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.5
+    },
+    {
+      "date": "2026-04-29",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-05-18",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 1.35
+    },
+    {
+      "date": "2026-06-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.5
+    },
+    {
+      "date": "2026-07-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 1.0
+    },
+    {
+      "date": "2026-07-27",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "June 2025",
+      "slug": "june-2025",
+      "loanCode": "June 2025",
+      "externalId": null,
+      "sourceSheet": "June 2025",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2025-06-05",
+      "startDate": "2025-06-17",
+      "plannedEndDate": "2025-12-05",
+      "actualEndDate": "2025-12-05",
+      "rate": 0.0,
+      "invested": 110.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 110.0,
+      "interestReceived": 5.47,
+      "fees": 0.0,
+      "profit": 5.47,
+      "xirr": 11.7096,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-07-07",
+          "actualDate": "2025-07-07",
+          "timingDays": 0,
+          "principal": 5.78,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-08-05",
+          "actualDate": "2025-08-05",
+          "timingDays": 0,
+          "principal": 5.78,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-09-05",
+          "actualDate": "2025-09-05",
+          "timingDays": 0,
+          "principal": 5.78,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-10-06",
+          "actualDate": "2025-10-06",
+          "timingDays": 0,
+          "principal": 5.78,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-05",
+          "actualDate": "2025-11-05",
+          "timingDays": 0,
+          "principal": 5.78,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-05",
+          "actualDate": "2025-12-05",
+          "timingDays": 0,
+          "principal": 81.1,
+          "interest": 5.47,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 110.0,
+          "interest": 5.47,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-06-05",
+          "amount": -110.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-07-07",
+          "amount": 5.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-08-05",
+          "amount": 5.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-09-05",
+          "amount": 5.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-06",
+          "amount": 5.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-05",
+          "amount": 5.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-05",
+          "amount": 86.57,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "July 2025",
+      "slug": "july-2025",
+      "loanCode": "July 2025",
+      "externalId": null,
+      "sourceSheet": "July 2025",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 29 d.",
+      "investmentDate": "2025-07-07",
+      "startDate": "2025-07-17",
+      "plannedEndDate": "2026-01-05",
+      "actualEndDate": "2026-01-05",
+      "rate": 0.0,
+      "invested": 110.78,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 110.78,
+      "interestReceived": 5.64,
+      "fees": 0.0,
+      "profit": 5.64,
+      "xirr": 11.962,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-08-05",
+          "actualDate": "2025-08-05",
+          "timingDays": 0,
+          "principal": 5.41,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-09-05",
+          "actualDate": "2025-09-05",
+          "timingDays": 0,
+          "principal": 5.41,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-10-06",
+          "actualDate": "2025-10-06",
+          "timingDays": 0,
+          "principal": 5.41,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-05",
+          "actualDate": "2025-11-05",
+          "timingDays": 0,
+          "principal": 5.41,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-05",
+          "actualDate": "2025-12-05",
+          "timingDays": 0,
+          "principal": 5.41,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-05",
+          "actualDate": "2026-01-05",
+          "timingDays": 0,
+          "principal": 83.73,
+          "interest": 5.64,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 110.78,
+          "interest": 5.64,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-07-07",
+          "amount": -110.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-08-05",
+          "amount": 5.41,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-09-05",
+          "amount": 5.41,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-06",
+          "amount": 5.41,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-05",
+          "amount": 5.41,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-05",
+          "amount": 5.41,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-05",
+          "amount": 89.37,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "August 2025",
+      "slug": "august-2025",
+      "loanCode": "August 2025",
+      "externalId": null,
+      "sourceSheet": "August 2025",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2025-08-05",
+      "startDate": "2025-08-17",
+      "plannedEndDate": "2026-02-05",
+      "actualEndDate": "2026-02-05",
+      "rate": 0.0,
+      "invested": 11.19,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 11.19,
+      "interestReceived": 0.56,
+      "fees": 0.0,
+      "profit": 0.56,
+      "xirr": 11.8312,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-09-05",
+          "actualDate": "2025-09-05",
+          "timingDays": 0,
+          "principal": 0.62,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-10-06",
+          "actualDate": "2025-10-06",
+          "timingDays": 0,
+          "principal": 0.62,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-05",
+          "actualDate": "2025-11-05",
+          "timingDays": 0,
+          "principal": 0.62,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-05",
+          "actualDate": "2025-12-05",
+          "timingDays": 0,
+          "principal": 0.62,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-05",
+          "actualDate": "2026-01-05",
+          "timingDays": 0,
+          "principal": 0.62,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-05",
+          "actualDate": "2026-02-05",
+          "timingDays": 0,
+          "principal": 8.09,
+          "interest": 0.56,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 11.19,
+          "interest": 0.56,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-08-05",
+          "amount": -11.19,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-09-05",
+          "amount": 0.62,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-06",
+          "amount": 0.62,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-05",
+          "amount": 0.62,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-05",
+          "amount": 0.62,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-05",
+          "amount": 0.62,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-05",
+          "amount": 8.65,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "September 2025",
+      "slug": "september-2025",
+      "loanCode": "September 2025",
+      "externalId": null,
+      "sourceSheet": "September 2025",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2025-09-05",
+      "startDate": "2025-09-17",
+      "plannedEndDate": "2026-03-05",
+      "actualEndDate": "2026-03-05",
+      "rate": 0.0,
+      "invested": 111.81,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 111.81,
+      "interestReceived": 6.06,
+      "fees": 0.0,
+      "profit": 6.06,
+      "xirr": 12.9554,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-10-06",
+          "actualDate": "2025-10-06",
+          "timingDays": 0,
+          "principal": 5.94,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-05",
+          "actualDate": "2025-11-05",
+          "timingDays": 0,
+          "principal": 5.94,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-05",
+          "actualDate": "2025-12-05",
+          "timingDays": 0,
+          "principal": 5.94,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-05",
+          "actualDate": "2026-01-05",
+          "timingDays": 0,
+          "principal": 5.94,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-05",
+          "actualDate": "2026-02-05",
+          "timingDays": 0,
+          "principal": 5.94,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-05",
+          "actualDate": "2026-03-05",
+          "timingDays": 0,
+          "principal": 82.11,
+          "interest": 6.06,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 111.81,
+          "interest": 6.06,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-09-05",
+          "amount": -111.81,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-06",
+          "amount": 5.94,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-05",
+          "amount": 5.94,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-05",
+          "amount": 5.94,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-05",
+          "amount": 5.94,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-05",
+          "amount": 5.94,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-05",
+          "amount": 88.17,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "October 2025",
+      "slug": "october-2025",
+      "loanCode": "October 2025",
+      "externalId": null,
+      "sourceSheet": "October 2025",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2025-10-06",
+      "startDate": "2025-09-17",
+      "plannedEndDate": "2026-04-06",
+      "actualEndDate": "2026-04-06",
+      "rate": 0.0,
+      "invested": 118.75,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 118.75,
+      "interestReceived": 6.4,
+      "fees": 0.0,
+      "profit": 6.4,
+      "xirr": 12.76,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-05",
+          "actualDate": "2025-11-05",
+          "timingDays": 0,
+          "principal": 6.06,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-05",
+          "actualDate": "2025-12-05",
+          "timingDays": 0,
+          "principal": 6.06,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-05",
+          "actualDate": "2026-01-05",
+          "timingDays": 0,
+          "principal": 6.06,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-05",
+          "actualDate": "2026-02-05",
+          "timingDays": 0,
+          "principal": 6.06,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-05",
+          "actualDate": "2026-03-05",
+          "timingDays": 0,
+          "principal": 6.06,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-06",
+          "actualDate": "2026-04-06",
+          "timingDays": 0,
+          "principal": 88.45,
+          "interest": 6.4,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 118.75,
+          "interest": 6.4,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-10-06",
+          "amount": -118.75,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-05",
+          "amount": 6.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-05",
+          "amount": 6.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-05",
+          "amount": 6.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-05",
+          "amount": 6.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-05",
+          "amount": 6.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 94.85,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "November 2025",
+      "slug": "november-2025",
+      "loanCode": "November 2025",
+      "externalId": null,
+      "sourceSheet": "November 2025",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2025-11-05",
+      "startDate": "2025-11-17",
+      "plannedEndDate": "2026-05-05",
+      "actualEndDate": "2026-05-05",
+      "rate": 0.0,
+      "invested": 145.92,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 145.92,
+      "interestReceived": 7.77,
+      "fees": 0.0,
+      "profit": 7.77,
+      "xirr": 12.574,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-05",
+          "actualDate": "2025-12-05",
+          "timingDays": 0,
+          "principal": 7.11,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-05",
+          "actualDate": "2026-01-05",
+          "timingDays": 0,
+          "principal": 7.11,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-05",
+          "actualDate": "2026-02-05",
+          "timingDays": 0,
+          "principal": 7.11,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-05",
+          "actualDate": "2026-03-05",
+          "timingDays": 0,
+          "principal": 7.11,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-06",
+          "actualDate": "2026-04-06",
+          "timingDays": 0,
+          "principal": 7.11,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-05",
+          "actualDate": "2026-05-05",
+          "timingDays": 0,
+          "principal": 110.37,
+          "interest": 7.77,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 145.92,
+          "interest": 7.77,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-05",
+          "amount": -145.92,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-05",
+          "amount": 7.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-05",
+          "amount": 7.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-05",
+          "amount": 7.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-05",
+          "amount": 7.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 7.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 118.14,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "December 2025",
+      "slug": "december-2025",
+      "loanCode": "December 2025",
+      "externalId": null,
+      "sourceSheet": "December 2025",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2025-12-05",
+      "startDate": "2025-12-17",
+      "plannedEndDate": "2026-06-05",
+      "actualEndDate": "2026-06-05",
+      "rate": 0.0,
+      "invested": 312.73,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 312.73,
+      "interestReceived": 16.22,
+      "fees": 0.0,
+      "profit": 16.22,
+      "xirr": 12.268,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-05",
+          "actualDate": "2026-01-05",
+          "timingDays": 0,
+          "principal": 16.08,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-05",
+          "actualDate": "2026-02-05",
+          "timingDays": 0,
+          "principal": 16.08,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-05",
+          "actualDate": "2026-03-05",
+          "timingDays": 0,
+          "principal": 16.08,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-06",
+          "actualDate": "2026-04-06",
+          "timingDays": 0,
+          "principal": 16.08,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-05",
+          "actualDate": "2026-05-05",
+          "timingDays": 0,
+          "principal": 16.08,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-05",
+          "actualDate": "2026-06-05",
+          "timingDays": 0,
+          "principal": 232.33,
+          "interest": 16.22,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 312.73,
+          "interest": 16.22,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-12-05",
+          "amount": -312.73,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-05",
+          "amount": 16.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-05",
+          "amount": 16.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-05",
+          "amount": 16.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 16.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 16.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-05",
+          "amount": 248.55,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "January 2026",
+      "slug": "january-2026",
+      "loanCode": "January 2026",
+      "externalId": null,
+      "sourceSheet": "January 2026",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 1 d.",
+      "investmentDate": "2026-01-05",
+      "startDate": "2026-01-17",
+      "plannedEndDate": "2026-07-06",
+      "actualEndDate": "2026-07-06",
+      "rate": 0.0,
+      "invested": 230.21,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 230.21,
+      "interestReceived": 11.33,
+      "fees": 0.0,
+      "profit": 11.33,
+      "xirr": 11.8199,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-02-05",
+          "actualDate": "2026-02-05",
+          "timingDays": 0,
+          "principal": 13.03,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-05",
+          "actualDate": "2026-03-05",
+          "timingDays": 0,
+          "principal": 13.03,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-06",
+          "actualDate": "2026-04-06",
+          "timingDays": 0,
+          "principal": 13.03,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-05",
+          "actualDate": "2026-05-05",
+          "timingDays": 0,
+          "principal": 13.03,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-05",
+          "actualDate": "2026-06-05",
+          "timingDays": 0,
+          "principal": 13.03,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-07-06",
+          "timingDays": 0,
+          "principal": 165.06,
+          "interest": 11.33,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 230.21,
+          "interest": 11.33,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-05",
+          "amount": -230.21,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-05",
+          "amount": 13.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-05",
+          "amount": 13.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 13.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 13.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-05",
+          "amount": 13.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-06",
+          "amount": 176.39,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "February 2026",
+      "slug": "february-2026",
+      "loanCode": "February 2026",
+      "externalId": null,
+      "sourceSheet": "February 2026",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2026-02-05",
+      "startDate": "2026-02-17",
+      "plannedEndDate": "2026-08-05",
+      "actualEndDate": null,
+      "rate": 0.0,
+      "invested": 158.38,
+      "currentValue": 116.46,
+      "outstandingPrincipal": 116.46,
+      "principalReturned": 41.92,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-03-05",
+          "actualDate": "2026-03-05",
+          "timingDays": 0,
+          "principal": 8.42,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-06",
+          "actualDate": "2026-04-06",
+          "timingDays": 0,
+          "principal": 8.33,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-05",
+          "actualDate": "2026-05-05",
+          "timingDays": 0,
+          "principal": 8.51,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-05",
+          "actualDate": "2026-06-05",
+          "timingDays": 0,
+          "principal": 8.33,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-07-06",
+          "timingDays": 0,
+          "principal": 8.33,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-08-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 41.92,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-02-05",
+          "amount": -158.38,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-05",
+          "amount": 8.42,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 8.33,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 8.51,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-05",
+          "amount": 8.33,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-06",
+          "amount": 8.33,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "March 2026",
+      "slug": "march-2026",
+      "loanCode": "March 2026",
+      "externalId": null,
+      "sourceSheet": "March 2026",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 0 d.",
+      "investmentDate": "2026-03-05",
+      "startDate": "2026-03-17",
+      "plannedEndDate": "2026-09-05",
+      "actualEndDate": null,
+      "rate": 0.0,
+      "invested": 142.8,
+      "currentValue": 115.72,
+      "outstandingPrincipal": 115.72,
+      "principalReturned": 27.08,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-06",
+          "actualDate": "2026-04-06",
+          "timingDays": 0,
+          "principal": 6.77,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-05",
+          "actualDate": "2026-05-05",
+          "timingDays": 0,
+          "principal": 6.77,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-05",
+          "actualDate": "2026-06-05",
+          "timingDays": 0,
+          "principal": 6.77,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-07-06",
+          "timingDays": 0,
+          "principal": 6.77,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-08-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-09-07",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 27.08,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-03-05",
+          "amount": -142.8,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 6.77,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 6.77,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-05",
+          "amount": 6.77,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-06",
+          "amount": 6.77,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "April 2026",
+      "slug": "april-2026",
+      "loanCode": "April 2026",
+      "externalId": null,
+      "sourceSheet": "April 2026",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 29 d.",
+      "investmentDate": "2026-04-06",
+      "startDate": "2026-04-17",
+      "plannedEndDate": "2026-10-05",
+      "actualEndDate": null,
+      "rate": 0.0,
+      "invested": 146.67,
+      "currentValue": 126.93,
+      "outstandingPrincipal": 126.93,
+      "principalReturned": 19.74,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-05-05",
+          "actualDate": "2026-05-05",
+          "timingDays": 0,
+          "principal": 6.58,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-05",
+          "actualDate": "2026-06-05",
+          "timingDays": 0,
+          "principal": 6.58,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-07-06",
+          "timingDays": 0,
+          "principal": 6.58,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-08-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-09-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-10-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 19.74,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-06",
+          "amount": -146.67,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 6.58,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-05",
+          "amount": 6.58,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-06",
+          "amount": 6.58,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "June 2026",
+      "slug": "june-2026",
+      "loanCode": "June 2026",
+      "externalId": null,
+      "sourceSheet": "June 2026",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 2 d.",
+      "investmentDate": "2026-06-05",
+      "startDate": "2026-06-17",
+      "plannedEndDate": "2026-12-07",
+      "actualEndDate": null,
+      "rate": 0.0,
+      "invested": 294.26,
+      "currentValue": 278.59,
+      "outstandingPrincipal": 278.59,
+      "principalReturned": 15.67,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-07-06",
+          "timingDays": 0,
+          "principal": 15.67,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-08-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-09-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-10-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-07",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 15.67,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-06-05",
+          "amount": -294.26,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-06",
+          "amount": 15.67,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "May 2026",
+      "slug": "may-2026",
+      "loanCode": "May 2026",
+      "externalId": null,
+      "sourceSheet": "May 2026",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 2 d.",
+      "investmentDate": "2026-06-05",
+      "startDate": "2026-06-17",
+      "plannedEndDate": "2026-12-07",
+      "actualEndDate": null,
+      "rate": 0.0,
+      "invested": 219.61,
+      "currentValue": 200.35,
+      "outstandingPrincipal": 200.35,
+      "principalReturned": 19.26,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-06-05",
+          "actualDate": "2026-06-05",
+          "timingDays": 0,
+          "principal": 9.63,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-07-06",
+          "timingDays": 0,
+          "principal": 9.63,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-08-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-09-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-10-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 19.26,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-06-05",
+          "amount": -219.61,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-05",
+          "amount": 9.63,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-06",
+          "amount": 9.63,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "July 2026",
+      "slug": "july-2026",
+      "loanCode": "July 2026",
+      "externalId": null,
+      "sourceSheet": "July 2026",
+      "country": "Estonia",
+      "lender": "Scramble",
+      "loanType": "Busines loan",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 30 d.",
+      "investmentDate": "2026-07-06",
+      "startDate": "2026-07-17",
+      "plannedEndDate": "2027-01-05",
+      "actualEndDate": null,
+      "rate": 0.0,
+      "invested": 223.86,
+      "currentValue": 223.86,
+      "outstandingPrincipal": 223.86,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-08-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-09-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-10-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-07-06",
+          "amount": -223.86,
+          "delayDays": 0
+        }
+      ]
+    }
+  ],
+  "source": {
+    "file": "Scramble.xlsx",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "loanSheets": 14,
+    "skippedSheets": [],
+    "generatedAt": "2026-07-30T18:57:14+03:00"
+  }
+}

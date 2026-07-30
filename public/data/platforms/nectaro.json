@@ -1,0 +1,4998 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T18:55:45+03:00",
+  "moduleType": "p2p_loans",
+  "platform": {
+    "id": "nectaro",
+    "slug": "nectaro",
+    "name": "Nectaro",
+    "group": "p2p",
+    "type": "p2p_loans",
+    "category": "P2P vartojimo paskolos",
+    "currency": "EUR",
+    "active": true,
+    "status": "active",
+    "startDate": "2025-09-09",
+    "updatedAt": "2026-07-31",
+    "website": "https://nectaro.investments"
+  },
+  "summary": {
+    "invested": 300.0,
+    "currentValue": 323.29,
+    "profit": 23.29,
+    "returnRate": 7.7633,
+    "xirr": 10.8042,
+    "cash": -11.96,
+    "incomeReceived": 23.29,
+    "activeInvestments": 23,
+    "delayedInvestments": 0,
+    "completedInvestments": 20,
+    "averageRate": 12.0347,
+    "averageLtv": null,
+    "deposited": 300.0,
+    "withdrawn": 0.0,
+    "lifetimeInvested": 335.25,
+    "outstandingPrincipal": 335.25,
+    "principalReturned": 399.17,
+    "interestReceived": 21.23,
+    "grossInterestReceived": 22.43,
+    "bonuses": 2.06,
+    "fees": 1.2,
+    "totalInvestments": 43,
+    "roi": 7.7633
+  },
+  "history": [
+    {
+      "date": "2025-09-30",
+      "invested": 100.0,
+      "value": 100.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 6.79,
+      "deposits": 100.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "invested": 190.0,
+      "value": 190.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 9.17,
+      "deposits": 90.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-11-30",
+      "invested": 210.0,
+      "value": 210.78,
+      "profit": 0.78,
+      "cash": 0.0,
+      "income": 27.33,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.78,
+      "monthlyProfit": 0.78,
+      "monthlyReturn": 0.37
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 240.0,
+      "value": 240.78,
+      "profit": 0.78,
+      "cash": 0.0,
+      "income": 22.04,
+      "deposits": 30.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 290.0,
+      "value": 290.78,
+      "profit": 0.78,
+      "cash": 0.0,
+      "income": 28.17,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 290.0,
+      "value": 290.99,
+      "profit": 0.99,
+      "cash": 0.0,
+      "income": 26.2,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.21,
+      "monthlyProfit": 0.21,
+      "monthlyReturn": 0.07
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 290.0,
+      "value": 290.99,
+      "profit": 0.99,
+      "cash": 0.0,
+      "income": 32.23,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 290.0,
+      "value": 291.79,
+      "profit": 1.79,
+      "cash": 0.0,
+      "income": 125.93,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.8,
+      "monthlyProfit": 0.8,
+      "monthlyReturn": 0.27
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 300.0,
+      "value": 302.06,
+      "profit": 2.06,
+      "cash": 0.0,
+      "income": 34.42,
+      "deposits": 10.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.27,
+      "monthlyProfit": 0.27,
+      "monthlyReturn": 0.09
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 300.0,
+      "value": 302.06,
+      "profit": 2.06,
+      "cash": 0.0,
+      "income": 56.39,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 300.0,
+      "value": 323.29,
+      "profit": 23.29,
+      "cash": -11.96,
+      "income": 53.79,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-07-31",
+    "invested": 300.0,
+    "value": 323.29,
+    "profit": 23.29,
+    "cash": -11.96,
+    "income": 53.79,
+    "deposits": 0.0,
+    "withdrawals": 0.0,
+    "bonuses": 0.0,
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
+  },
+  "largestInvestment": {
+    "id": "LVX0000URIF2 (2)",
+    "slug": "lvx0000urif2-2",
+    "loanCode": "LVX0000URIF2",
+    "externalId": null,
+    "sourceSheet": "LVX0000URIF2 (2)",
+    "country": "Cyprus",
+    "lender": "SIA \"Abele Finance\"",
+    "loanType": "Business",
+    "trustScore": null,
+    "term": "0 m. 5 mėn. 14 d.",
+    "investmentDate": "2026-07-04",
+    "startDate": "2026-06-19",
+    "plannedEndDate": "2026-12-18",
+    "actualEndDate": null,
+    "rate": 12.0,
+    "invested": 22.13,
+    "currentValue": 22.13,
+    "outstandingPrincipal": 22.13,
+    "principalReturned": 0.0,
+    "interestReceived": 0.0,
+    "fees": 0.0,
+    "profit": 0.0,
+    "xirr": null,
+    "status": "active",
+    "delayDays": 0,
+    "earlyLateDays": 0,
+    "schedule": [],
+    "cashFlows": [
+      {
+        "date": "2026-07-04",
+        "amount": -22.13,
+        "delayDays": 0
+      }
+    ]
+  },
+  "distributions": {
+    "country": [
+      {
+        "label": "Cyprus",
+        "count": 5,
+        "value": 83.35
+      },
+      {
+        "label": "Latvia",
+        "count": 2,
+        "value": 31.31
+      },
+      {
+        "label": "Moldova",
+        "count": 6,
+        "value": 86.65
+      },
+      {
+        "label": "Philippines",
+        "count": 1,
+        "value": 11.66
+      },
+      {
+        "label": "Romania",
+        "count": 9,
+        "value": 122.28
+      }
+    ],
+    "lender": [
+      {
+        "label": "\"ECOFINANCE TECHNOLOGIES\" LLC",
+        "count": 1,
+        "value": 10.05
+      },
+      {
+        "label": "ECOFINANCE IFN SA",
+        "count": 6,
+        "value": 78.58
+      },
+      {
+        "label": "SIA \"Abele Finance\"",
+        "count": 16,
+        "value": 246.62
+      }
+    ],
+    "loanType": [
+      {
+        "label": "Business",
+        "count": 16,
+        "value": 246.62
+      },
+      {
+        "label": "Personal",
+        "count": 5,
+        "value": 80.29
+      },
+      {
+        "label": "Pesonal",
+        "count": 2,
+        "value": 8.34
+      }
+    ],
+    "trustScore": [
+      {
+        "label": "Nenurodyta",
+        "count": 23,
+        "value": 335.25
+      }
+    ],
+    "status": [
+      {
+        "label": "active",
+        "count": 23,
+        "value": 335.25
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2025-09-09",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-09-15",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-10-14",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-10-17",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-10-28",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-11-09",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-11-14",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.78
+    },
+    {
+      "date": "2025-11-24",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-12-05",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-12-11",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-12-24",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-07",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-10",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-15",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-02-18",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.21
+    },
+    {
+      "date": "2026-04-13",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.8
+    },
+    {
+      "date": "2026-05-13",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.27
+    },
+    {
+      "date": "2026-05-15",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-07-28",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "LVX0000P9SY1",
+      "slug": "lvx0000p9sy1",
+      "loanCode": "LVX0000P9SY1",
+      "externalId": null,
+      "sourceSheet": "LVX0000P9SY1",
+      "country": "Romania",
+      "lender": "ECOFINANCE IFN SA",
+      "loanType": "Pesonal",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 16 d.",
+      "investmentDate": "2025-09-09",
+      "startDate": "2025-09-05",
+      "plannedEndDate": "2026-08-25",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 50.0,
+      "currentValue": 0.01,
+      "outstandingPrincipal": 0.01,
+      "principalReturned": 49.99,
+      "interestReceived": 1.9,
+      "fees": 0.11,
+      "profit": 1.79,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-09-30",
+          "actualDate": "2025-09-30",
+          "timingDays": 0,
+          "principal": 6.29,
+          "interest": 0.32,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 4.0,
+          "interest": 0.46,
+          "fee": 0.03,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 4.85,
+          "interest": 0.4,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 8.4,
+          "interest": 0.32,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 11.91,
+          "interest": 0.23,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 10.9,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 3.38,
+          "interest": 0.04,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.26,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 49.99,
+          "interest": 1.9,
+          "fee": 0.11,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-09-09",
+          "amount": -50.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-09-30",
+          "amount": 6.59,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 4.43,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 5.23,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 8.7,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 12.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 11.02,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 3.42,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.26,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000PFLZ9",
+      "slug": "lvx0000pflz9",
+      "loanCode": "LVX0000PFLZ9",
+      "externalId": null,
+      "sourceSheet": "LVX0000PFLZ9",
+      "country": "Romania",
+      "lender": "ECOFINANCE IFN SA",
+      "loanType": "Pesonal",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 21 d.",
+      "investmentDate": "2025-09-18",
+      "startDate": "2025-09-15",
+      "plannedEndDate": "2026-09-08",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 53.9,
+      "currentValue": 8.33,
+      "outstandingPrincipal": 8.33,
+      "principalReturned": 45.57,
+      "interestReceived": 2.95,
+      "fees": 0.15,
+      "profit": 2.8,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-09-30",
+          "actualDate": "2025-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 3.83,
+          "interest": 0.57,
+          "fee": 0.03,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 4.24,
+          "interest": 0.5,
+          "fee": 0.03,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 7.41,
+          "interest": 0.45,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 8.26,
+          "interest": 0.29,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 3.05,
+          "interest": 0.28,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 8.84,
+          "interest": 0.26,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 3.21,
+          "interest": 0.16,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 3.02,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 3.71,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 45.57,
+          "interest": 2.95,
+          "fee": 0.15,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-09-18",
+          "amount": -53.9,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-09-30",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 4.37,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 4.71,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 7.84,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 8.53,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 3.32,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 9.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 3.36,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 3.14,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 3.81,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000PLPE3",
+      "slug": "lvx0000plpe3",
+      "loanCode": "LVX0000PLPE3",
+      "externalId": null,
+      "sourceSheet": "LVX0000PLPE3",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 8 mėn. 19 d.",
+      "investmentDate": "2025-10-04",
+      "startDate": "2025-09-25",
+      "plannedEndDate": "2026-06-23",
+      "actualEndDate": "2026-06-23",
+      "rate": 12.0,
+      "invested": 13.66,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 13.66,
+      "interestReceived": 1.13,
+      "fees": 0.06,
+      "profit": 1.07,
+      "xirr": 11.4651,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-23",
+          "actualDate": "2026-06-23",
+          "timingDays": 0,
+          "principal": 13.66,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 13.66,
+          "interest": 1.13,
+          "fee": 0.06,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-10-04",
+          "amount": -13.66,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-23",
+          "amount": 13.79,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000PQRD0",
+      "slug": "lvx0000pqrd0",
+      "loanCode": "LVX0000PQRD0",
+      "externalId": null,
+      "sourceSheet": "LVX0000PQRD0",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 23 d.",
+      "investmentDate": "2025-10-08",
+      "startDate": "2025-10-02",
+      "plannedEndDate": "2026-03-31",
+      "actualEndDate": "2026-04-03",
+      "rate": 13.0,
+      "invested": 11.35,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 11.35,
+      "interestReceived": 0.72,
+      "fees": 0.04,
+      "profit": 0.68,
+      "xirr": 13.0534,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 3,
+      "schedule": [
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-04-03",
+          "timingDays": 3,
+          "principal": 11.35,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 11.35,
+          "interest": 0.72,
+          "fee": 0.04,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-10-08",
+          "amount": -11.35,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 0.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-03",
+          "amount": 11.45,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000PLQM4",
+      "slug": "lvx0000plqm4",
+      "loanCode": "LVX0000PLQM4",
+      "externalId": null,
+      "sourceSheet": "LVX0000PLQM4",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 8 mėn. 5 d.",
+      "investmentDate": "2025-10-17",
+      "startDate": "2025-09-25",
+      "plannedEndDate": "2026-06-22",
+      "actualEndDate": "2026-06-30",
+      "rate": 12.0,
+      "invested": 13.86,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 13.86,
+      "interestReceived": 1.09,
+      "fees": 0.06,
+      "profit": 1.03,
+      "xirr": 11.6709,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 8,
+      "schedule": [
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-22",
+          "actualDate": "2026-06-18",
+          "timingDays": -4,
+          "principal": 13.86,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 13.86,
+          "interest": 1.09,
+          "fee": 0.06,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-10-17",
+          "amount": -13.86,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.17,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-18",
+          "amount": 13.86,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.14,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000PQUM5",
+      "slug": "lvx0000pqum5",
+      "loanCode": "LVX0000PQUM5",
+      "externalId": null,
+      "sourceSheet": "LVX0000PQUM5",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 14 d.",
+      "investmentDate": "2025-10-17",
+      "startDate": "2025-10-02",
+      "plannedEndDate": "2026-03-31",
+      "actualEndDate": "2026-04-08",
+      "rate": 12.0,
+      "invested": 10.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.0,
+      "interestReceived": 0.57,
+      "fees": 0.03,
+      "profit": 0.54,
+      "xirr": 11.9884,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 8,
+      "schedule": [
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.05,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-04-08",
+          "timingDays": 8,
+          "principal": 10.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 10.0,
+          "interest": 0.57,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-10-17",
+          "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-08",
+          "amount": 10.09,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000Q7QJ9",
+      "slug": "lvx0000q7qj9",
+      "loanCode": "LVX0000Q7QJ9",
+      "externalId": null,
+      "sourceSheet": "LVX0000Q7QJ9",
+      "country": "Romania",
+      "lender": "ECOFINANCE IFN SA",
+      "loanType": "Pesonal",
+      "trustScore": null,
+      "term": "1 m. 8 mėn. 19 d.",
+      "investmentDate": "2025-10-28",
+      "startDate": "2025-10-27",
+      "plannedEndDate": "2027-07-17",
+      "actualEndDate": "2026-01-31",
+      "rate": 12.5,
+      "invested": 25.71,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 25.71,
+      "interestReceived": 0.29,
+      "fees": 0.01,
+      "profit": 0.28,
+      "xirr": 7.8099,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -532,
+      "schedule": [
+        {
+          "plannedDate": "2025-10-31",
+          "actualDate": "2025-10-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 15.55,
+          "interest": 0.17,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 3.92,
+          "interest": 0.08,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 6.24,
+          "interest": 0.01,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 25.71,
+          "interest": 0.29,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-10-28",
+          "amount": -25.71,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-10-31",
+          "amount": 0.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 15.71,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 4.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 6.25,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000PQUR4",
+      "slug": "lvx0000pqur4",
+      "loanCode": "LVX0000PQUR4",
+      "externalId": null,
+      "sourceSheet": "LVX0000PQUR4",
+      "country": "Philippines",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 29 d.",
+      "investmentDate": "2025-11-01",
+      "startDate": "2025-10-02",
+      "plannedEndDate": "2026-01-30",
+      "actualEndDate": "2026-02-11",
+      "rate": 11.5,
+      "invested": 10.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.0,
+      "interestReceived": 0.32,
+      "fees": 0.01,
+      "profit": 0.31,
+      "xirr": 11.6732,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 12,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-30",
+          "actualDate": "2026-01-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.05,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-30",
+          "actualDate": "2026-02-11",
+          "timingDays": 12,
+          "principal": 10.0,
+          "interest": 0.08,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 10.0,
+          "interest": 0.32,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-01",
+          "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-30",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-11",
+          "amount": 10.08,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000Q0ED3",
+      "slug": "lvx0000q0ed3",
+      "loanCode": "LVX0000Q0ED3",
+      "externalId": null,
+      "sourceSheet": "LVX0000Q0ED3",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 14 d.",
+      "investmentDate": "2025-11-01",
+      "startDate": "2025-10-17",
+      "plannedEndDate": "2026-04-15",
+      "actualEndDate": "2026-04-18",
+      "rate": 12.0,
+      "invested": 17.46,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 17.46,
+      "interestReceived": 0.97,
+      "fees": 0.05,
+      "profit": 0.92,
+      "xirr": 12.0419,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 3,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-15",
+          "actualDate": "2026-04-18",
+          "timingDays": 3,
+          "principal": 17.46,
+          "interest": 0.25,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 17.46,
+          "interest": 0.97,
+          "fee": 0.05,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-01",
+          "amount": -17.46,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-18",
+          "amount": 17.7,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000PQUG7",
+      "slug": "lvx0000pqug7",
+      "loanCode": "LVX0000PQUG7",
+      "externalId": null,
+      "sourceSheet": "LVX0000PQUG7",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 4 mėn. 21 d.",
+      "investmentDate": "2025-11-10",
+      "startDate": "2025-10-02",
+      "plannedEndDate": "2026-03-31",
+      "actualEndDate": "2026-04-30",
+      "rate": 12.0,
+      "invested": 17.67,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 17.67,
+      "interestReceived": 0.78,
+      "fees": 0.04,
+      "profit": 0.74,
+      "xirr": 11.8736,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 30,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-25",
+          "actualDate": "2026-03-25",
+          "timingDays": 0,
+          "principal": 17.67,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-04-30",
+          "timingDays": 30,
+          "principal": 0.0,
+          "interest": 0.24,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 17.67,
+          "interest": 0.78,
+          "fee": 0.04,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-10",
+          "amount": -17.67,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-25",
+          "amount": 17.67,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.23,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000Q0E27",
+      "slug": "lvx0000q0e27",
+      "loanCode": "LVX0000Q0E27",
+      "externalId": null,
+      "sourceSheet": "LVX0000Q0E27",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 4 mėn. 25 d.",
+      "investmentDate": "2025-11-20",
+      "startDate": "2025-10-17",
+      "plannedEndDate": "2026-04-14",
+      "actualEndDate": "2026-04-17",
+      "rate": 12.0,
+      "invested": 12.74,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 12.74,
+      "interestReceived": 0.62,
+      "fees": 0.03,
+      "profit": 0.59,
+      "xirr": 12.0138,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 3,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.04,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-14",
+          "actualDate": "2026-04-17",
+          "timingDays": 3,
+          "principal": 12.74,
+          "interest": 0.16,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 12.74,
+          "interest": 0.62,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-20",
+          "amount": -12.74,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.04,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-17",
+          "amount": 12.89,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000QBKH6",
+      "slug": "lvx0000qbkh6",
+      "loanCode": "LVX0000QBKH6",
+      "externalId": null,
+      "sourceSheet": "LVX0000QBKH6",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 4 d.",
+      "investmentDate": "2025-11-24",
+      "startDate": "2025-10-30",
+      "plannedEndDate": "2026-04-28",
+      "actualEndDate": "2026-04-23",
+      "rate": 13.0,
+      "invested": 13.25,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 13.25,
+      "interestReceived": 0.71,
+      "fees": 0.03,
+      "profit": 0.68,
+      "xirr": 13.1939,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -5,
+      "schedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "actualDate": "2025-11-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.04,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-28",
+          "actualDate": "2026-04-23",
+          "timingDays": -5,
+          "principal": 13.25,
+          "interest": 0.21,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 13.25,
+          "interest": 0.71,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-24",
+          "amount": -13.25,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-11-30",
+          "amount": 0.04,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-23",
+          "amount": 13.45,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000QSAL3",
+      "slug": "lvx0000qsal3",
+      "loanCode": "LVX0000QSAL3",
+      "externalId": null,
+      "sourceSheet": "LVX0000QSAL3",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 8 mėn. 18 d.",
+      "investmentDate": "2025-12-05",
+      "startDate": "2025-11-26",
+      "plannedEndDate": "2026-08-23",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 14.43,
+      "currentValue": 14.43,
+      "outstandingPrincipal": 14.43,
+      "principalReturned": 0.0,
+      "interestReceived": 0.89,
+      "fees": 0.05,
+      "profit": 0.84,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.89,
+          "fee": 0.05,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-12-05",
+          "amount": -14.43,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.14,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.14,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.13,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000R31L6",
+      "slug": "lvx0000r31l6",
+      "loanCode": "LVX0000R31L6",
+      "externalId": null,
+      "sourceSheet": "LVX0000R31L6",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 8 mėn. 26 d.",
+      "investmentDate": "2025-12-12",
+      "startDate": "2025-12-11",
+      "plannedEndDate": "2026-09-07",
+      "actualEndDate": "2026-07-23",
+      "rate": 12.0,
+      "invested": 16.45,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 16.45,
+      "interestReceived": 0.98,
+      "fees": 0.04,
+      "profit": 0.94,
+      "xirr": 9.7847,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -46,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-09-07",
+          "actualDate": "2026-07-23",
+          "timingDays": -46,
+          "principal": 16.45,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 16.45,
+          "interest": 0.98,
+          "fee": 0.04,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-12-12",
+          "amount": -16.45,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.15,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.15,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-23",
+          "amount": 16.45,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000R32A7",
+      "slug": "lvx0000r32a7",
+      "loanCode": "LVX0000R32A7",
+      "externalId": null,
+      "sourceSheet": "LVX0000R32A7",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 8 mėn. 25 d.",
+      "investmentDate": "2025-12-13",
+      "startDate": "2025-12-11",
+      "plannedEndDate": "2026-09-07",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 10.58,
+      "currentValue": 10.58,
+      "outstandingPrincipal": 10.58,
+      "principalReturned": 0.0,
+      "interestReceived": 0.65,
+      "fees": 0.04,
+      "profit": 0.61,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.65,
+          "fee": 0.04,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-12-13",
+          "amount": -10.58,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.1,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000RAL27",
+      "slug": "lvx0000ral27",
+      "loanCode": "LVX0000RAL27",
+      "externalId": null,
+      "sourceSheet": "LVX0000RAL27",
+      "country": "Latvia",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 3 mėn. 24 d.",
+      "investmentDate": "2025-12-24",
+      "startDate": "2025-12-22",
+      "plannedEndDate": "2026-04-17",
+      "actualEndDate": "2026-04-17",
+      "rate": 11.0,
+      "invested": 12.36,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 12.36,
+      "interestReceived": 0.42,
+      "fees": 0.02,
+      "profit": 0.4,
+      "xirr": 10.8457,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "actualDate": "2025-12-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.08,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-17",
+          "actualDate": "2026-04-17",
+          "timingDays": 0,
+          "principal": 12.36,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 12.36,
+          "interest": 0.42,
+          "fee": 0.02,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-12-24",
+          "amount": -12.36,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-31",
+          "amount": 0.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-17",
+          "amount": 12.49,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000RAM67",
+      "slug": "lvx0000ram67",
+      "loanCode": "LVX0000RAM67",
+      "externalId": null,
+      "sourceSheet": "LVX0000RAM67",
+      "country": "Latvia",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 3 mėn. 15 d.",
+      "investmentDate": "2026-01-02",
+      "startDate": "2025-12-22",
+      "plannedEndDate": "2026-04-17",
+      "actualEndDate": "2026-04-17",
+      "rate": 11.0,
+      "invested": 21.95,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 21.95,
+      "interestReceived": 0.69,
+      "fees": 0.03,
+      "profit": 0.66,
+      "xirr": 10.9335,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-17",
+          "actualDate": "2026-04-17",
+          "timingDays": 0,
+          "principal": 21.95,
+          "interest": 0.25,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 21.95,
+          "interest": 0.69,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-02",
+          "amount": -21.95,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-17",
+          "amount": 22.19,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000R7P58",
+      "slug": "lvx0000r7p58",
+      "loanCode": "LVX0000R7P58",
+      "externalId": null,
+      "sourceSheet": "LVX0000R7P58",
+      "country": "Latvia",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 3 mėn. 10 d.",
+      "investmentDate": "2026-01-07",
+      "startDate": "2025-12-18",
+      "plannedEndDate": "2026-04-17",
+      "actualEndDate": "2026-04-17",
+      "rate": 11.0,
+      "invested": 18.23,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 18.23,
+      "interestReceived": 0.54,
+      "fees": 0.03,
+      "profit": 0.51,
+      "xirr": 10.6692,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-17",
+          "actualDate": "2026-04-17",
+          "timingDays": 0,
+          "principal": 18.23,
+          "interest": 0.21,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 18.23,
+          "interest": 0.54,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-07",
+          "amount": -18.23,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.14,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-17",
+          "amount": 18.43,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000RL9Y3",
+      "slug": "lvx0000rl9y3",
+      "loanCode": "LVX0000RL9Y3",
+      "externalId": null,
+      "sourceSheet": "LVX0000RL9Y3",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 3 mėn. 27 d.",
+      "investmentDate": "2026-01-10",
+      "startDate": "2026-01-07",
+      "plannedEndDate": "2026-05-07",
+      "actualEndDate": "2026-05-08",
+      "rate": 11.5,
+      "invested": 13.84,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 13.84,
+      "interestReceived": 0.51,
+      "fees": 0.03,
+      "profit": 0.48,
+      "xirr": 11.2326,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 1,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.04,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-07",
+          "actualDate": "2026-05-08",
+          "timingDays": 1,
+          "principal": 13.84,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 13.84,
+          "interest": 0.51,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-10",
+          "amount": -13.84,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.04,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-08",
+          "amount": 13.95,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000RL9Z0",
+      "slug": "lvx0000rl9z0",
+      "loanCode": "LVX0000RL9Z0",
+      "externalId": null,
+      "sourceSheet": "LVX0000RL9Z0",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 21 d.",
+      "investmentDate": "2026-01-15",
+      "startDate": "2026-01-07",
+      "plannedEndDate": "2026-07-06",
+      "actualEndDate": "2026-06-30",
+      "rate": 12.0,
+      "invested": 13.72,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 13.72,
+      "interestReceived": 0.66,
+      "fees": 0.04,
+      "profit": 0.62,
+      "xirr": 11.0557,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -6,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.02,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-06-20",
+          "timingDays": -16,
+          "principal": 13.72,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 13.72,
+          "interest": 0.66,
+          "fee": 0.04,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-15",
+          "amount": -13.72,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.02,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.09,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-20",
+          "amount": 13.72,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.13,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000RLA68",
+      "slug": "lvx0000rla68",
+      "loanCode": "LVX0000RLA68",
+      "externalId": null,
+      "sourceSheet": "LVX0000RLA68",
+      "country": "Philippines",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 3 mėn. 9 d.",
+      "investmentDate": "2026-01-28",
+      "startDate": "2026-01-07",
+      "plannedEndDate": "2026-05-07",
+      "actualEndDate": "2026-05-09",
+      "rate": 11.0,
+      "invested": 11.66,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 11.66,
+      "interestReceived": 0.35,
+      "fees": 0.02,
+      "profit": 0.33,
+      "xirr": 10.6829,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 2,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-31",
+          "actualDate": "2026-01-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.04,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-07",
+          "actualDate": "2026-05-09",
+          "timingDays": 2,
+          "principal": 11.66,
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 11.66,
+          "interest": 0.35,
+          "fee": 0.02,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-28",
+          "amount": -11.66,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-31",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.04,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-09",
+          "amount": 11.75,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000RLA27",
+      "slug": "lvx0000rla27",
+      "loanCode": "LVX0000RLA27",
+      "externalId": null,
+      "sourceSheet": "LVX0000RLA27",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 4 mėn. 25 d.",
+      "investmentDate": "2026-02-11",
+      "startDate": "2026-01-07",
+      "plannedEndDate": "2026-07-06",
+      "actualEndDate": "2026-07-16",
+      "rate": 11.0,
+      "invested": 14.08,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 14.08,
+      "interestReceived": 0.51,
+      "fees": 0.03,
+      "profit": 0.48,
+      "xirr": 8.3259,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 10,
+      "schedule": [
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-06",
+          "actualDate": "2026-07-16",
+          "timingDays": 10,
+          "principal": 14.08,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 14.08,
+          "interest": 0.51,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-02-11",
+          "amount": -14.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-16",
+          "amount": 14.08,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000RXUV8",
+      "slug": "lvx0000rxuv8",
+      "loanCode": "LVX0000RXUV8",
+      "externalId": null,
+      "sourceSheet": "LVX0000RXUV8",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 4 mėn. 28 d.",
+      "investmentDate": "2026-02-26",
+      "startDate": "2026-01-22",
+      "plannedEndDate": "2026-07-24",
+      "actualEndDate": "2026-07-10",
+      "rate": 11.0,
+      "invested": 12.52,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 12.52,
+      "interestReceived": 0.39,
+      "fees": 0.02,
+      "profit": 0.37,
+      "xirr": 8.3441,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -14,
+      "schedule": [
+        {
+          "plannedDate": "2026-02-28",
+          "actualDate": "2026-02-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.04,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-24",
+          "actualDate": "2026-07-10",
+          "timingDays": -14,
+          "principal": 12.52,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 12.52,
+          "interest": 0.39,
+          "fee": 0.02,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-02-26",
+          "amount": -12.52,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-28",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.04,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-10",
+          "amount": 12.52,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000SIO33",
+      "slug": "lvx0000sio33",
+      "loanCode": "LVX0000SIO33",
+      "externalId": null,
+      "sourceSheet": "LVX0000SIO33",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 5 d.",
+      "investmentDate": "2026-03-13",
+      "startDate": "2026-02-19",
+      "plannedEndDate": "2026-08-18",
+      "actualEndDate": "2026-07-09",
+      "rate": 12.0,
+      "invested": 10.74,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.74,
+      "interestReceived": 0.32,
+      "fees": 0.01,
+      "profit": 0.31,
+      "xirr": 9.2899,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -40,
+      "schedule": [
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-09",
+          "actualDate": "2026-07-09",
+          "timingDays": 0,
+          "principal": 10.74,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 10.74,
+          "interest": 0.32,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-03-13",
+          "amount": -10.74,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.11,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-09",
+          "amount": 10.74,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000T2IU1",
+      "slug": "lvx0000t2iu1",
+      "loanCode": "LVX0000T2IU1",
+      "externalId": null,
+      "sourceSheet": "LVX0000T2IU1",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "1 m. 3 mėn. 0 d.",
+      "investmentDate": "2026-03-25",
+      "startDate": "2026-03-17",
+      "plannedEndDate": "2027-06-25",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 18.62,
+      "currentValue": 18.62,
+      "outstandingPrincipal": 18.62,
+      "principalReturned": 0.0,
+      "interestReceived": 0.49,
+      "fees": 0.03,
+      "profit": 0.46,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-03-31",
+          "actualDate": "2026-03-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.1,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.49,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-03-25",
+          "amount": -18.62,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-31",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.1,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.18,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000T2IT3",
+      "slug": "lvx0000t2it3",
+      "loanCode": "LVX0000T2IT3",
+      "externalId": null,
+      "sourceSheet": "LVX0000T2IT3",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 29 d.",
+      "investmentDate": "2026-04-03",
+      "startDate": "2026-03-17",
+      "plannedEndDate": "2027-04-01",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 14.01,
+      "currentValue": 14.01,
+      "outstandingPrincipal": 14.01,
+      "principalReturned": 0.0,
+      "interestReceived": 0.31,
+      "fees": 0.02,
+      "profit": 0.29,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.14,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.31,
+          "fee": 0.02,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-03",
+          "amount": -14.01,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.13,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.13,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000ST8W0",
+      "slug": "lvx0000st8w0",
+      "loanCode": "LVX0000ST8W0",
+      "externalId": null,
+      "sourceSheet": "LVX0000ST8W0",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 7 mėn. 22 d.",
+      "investmentDate": "2026-04-08",
+      "startDate": "2026-03-05",
+      "plannedEndDate": "2026-11-30",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 11.15,
+      "currentValue": 11.15,
+      "outstandingPrincipal": 11.15,
+      "principalReturned": 0.0,
+      "interestReceived": 0.24,
+      "fees": 0.01,
+      "profit": 0.23,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.24,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-08",
+          "amount": -11.15,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.11,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000TJMX6",
+      "slug": "lvx0000tjmx6",
+      "loanCode": "LVX0000TJMX6",
+      "externalId": null,
+      "sourceSheet": "LVX0000TJMX6",
+      "country": "Romania",
+      "lender": "ECOFINANCE IFN SA",
+      "loanType": "Personal",
+      "trustScore": null,
+      "term": "0 m. 10 mėn. 20 d.",
+      "investmentDate": "2026-04-17",
+      "startDate": "2026-04-13",
+      "plannedEndDate": "2027-03-09",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 31.84,
+      "currentValue": 21.57,
+      "outstandingPrincipal": 21.57,
+      "principalReturned": 10.27,
+      "interestReceived": 0.68,
+      "fees": 0.04,
+      "profit": 0.64,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.96,
+          "interest": 0.12,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 2.35,
+          "interest": 0.29,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 6.96,
+          "interest": 0.27,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 10.27,
+          "interest": 0.68,
+          "fee": 0.04,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-17",
+          "amount": -31.84,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 1.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 2.63,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 7.21,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000TJR12",
+      "slug": "lvx0000tjr12",
+      "loanCode": "LVX0000TJR12",
+      "externalId": null,
+      "sourceSheet": "LVX0000TJR12",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 8 mėn. 29 d.",
+      "investmentDate": "2026-04-17",
+      "startDate": "2026-04-13",
+      "plannedEndDate": "2027-01-15",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.37,
+      "fees": 0.03,
+      "profit": 0.34,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.37,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-17",
+          "amount": -20.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.14,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.2,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000TL6K6",
+      "slug": "lvx0000tl6k6",
+      "loanCode": "LVX0000TL6K6",
+      "externalId": null,
+      "sourceSheet": "LVX0000TL6K6",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 6 mėn. 5 d.",
+      "investmentDate": "2026-04-17",
+      "startDate": "2026-04-15",
+      "plannedEndDate": "2026-10-22",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.35,
+      "fees": 0.03,
+      "profit": 0.32,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.15,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.35,
+          "fee": 0.03,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-17",
+          "amount": -20.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.14,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.18,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000TJQV1",
+      "slug": "lvx0000tjqv1",
+      "loanCode": "LVX0000TJQV1",
+      "externalId": null,
+      "sourceSheet": "LVX0000TJQV1",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 8 mėn. 28 d.",
+      "investmentDate": "2026-04-18",
+      "startDate": "2026-04-13",
+      "plannedEndDate": "2027-01-15",
+      "actualEndDate": null,
+      "rate": 11.5,
+      "invested": 17.46,
+      "currentValue": 17.46,
+      "outstandingPrincipal": 17.46,
+      "principalReturned": 0.0,
+      "interestReceived": 0.29,
+      "fees": 0.01,
+      "profit": 0.28,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.12,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.29,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-18",
+          "amount": -17.46,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.12,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.16,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000TPE43",
+      "slug": "lvx0000tpe43",
+      "loanCode": "LVX0000TPE43",
+      "externalId": null,
+      "sourceSheet": "LVX0000TPE43",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 28 d.",
+      "investmentDate": "2026-04-23",
+      "startDate": "2026-04-20",
+      "plannedEndDate": "2026-10-21",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 13.66,
+      "currentValue": 13.66,
+      "outstandingPrincipal": 13.66,
+      "principalReturned": 0.0,
+      "interestReceived": 0.2,
+      "fees": 0.01,
+      "profit": 0.19,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "actualDate": "2026-04-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.13,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-23",
+          "amount": -13.66,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.07,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.12,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000TRIW9",
+      "slug": "lvx0000triw9",
+      "loanCode": "LVX0000TRIW9",
+      "externalId": null,
+      "sourceSheet": "LVX0000TRIW9",
+      "country": "Moldova",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 12 d.",
+      "investmentDate": "2026-05-08",
+      "startDate": "2026-04-23",
+      "plannedEndDate": "2026-10-20",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 14.87,
+      "currentValue": 14.87,
+      "outstandingPrincipal": 14.87,
+      "principalReturned": 0.0,
+      "interestReceived": 0.16,
+      "fees": 0.02,
+      "profit": 0.14,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.02,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-05-08",
+          "amount": -14.87,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.14,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000TRJ61",
+      "slug": "lvx0000trj61",
+      "loanCode": "LVX0000TRJ61",
+      "externalId": null,
+      "sourceSheet": "LVX0000TRJ61",
+      "country": "Philippines",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 3 mėn. 22 d.",
+      "investmentDate": "2026-05-09",
+      "startDate": "2026-04-23",
+      "plannedEndDate": "2026-08-31",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 11.66,
+      "currentValue": 11.66,
+      "outstandingPrincipal": 11.66,
+      "principalReturned": 0.0,
+      "interestReceived": 0.11,
+      "fees": 0.01,
+      "profit": 0.1,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.11,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-05-09",
+          "amount": -11.66,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.1,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000U4UG8",
+      "slug": "lvx0000u4ug8",
+      "loanCode": "LVX0000U4UG8",
+      "externalId": null,
+      "sourceSheet": "LVX0000U4UG8",
+      "country": "Romania",
+      "lender": "ECOFINANCE IFN SA",
+      "loanType": "Personal",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 21 d.",
+      "investmentDate": "2026-05-15",
+      "startDate": "2026-05-14",
+      "plannedEndDate": "2027-05-06",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 16.58,
+      "currentValue": 15.01,
+      "outstandingPrincipal": 15.01,
+      "principalReturned": 1.57,
+      "interestReceived": 0.21,
+      "fees": 0.01,
+      "profit": 0.2,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-05-31",
+          "actualDate": "2026-05-31",
+          "timingDays": 0,
+          "principal": 0.62,
+          "interest": 0.06,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.95,
+          "interest": 0.15,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 1.57,
+          "interest": 0.21,
+          "fee": 0.01,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-05-15",
+          "amount": -16.58,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 0.68,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 1.09,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000ULW59",
+      "slug": "lvx0000ulw59",
+      "loanCode": "LVX0000ULW59",
+      "externalId": null,
+      "sourceSheet": "LVX0000ULW59",
+      "country": "Moldova",
+      "lender": "\"ECOFINANCE TECHNOLOGIES\" LLC",
+      "loanType": "Personal",
+      "trustScore": null,
+      "term": "2 m. 5 mėn. 10 d.",
+      "investmentDate": "2026-06-15",
+      "startDate": "2026-06-10",
+      "plannedEndDate": "2028-11-25",
+      "actualEndDate": null,
+      "rate": 14.0,
+      "invested": 10.3,
+      "currentValue": 10.05,
+      "outstandingPrincipal": 10.05,
+      "principalReturned": 0.25,
+      "interestReceived": 0.03,
+      "fees": 0.0,
+      "profit": 0.03,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.25,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.25,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-06-15",
+          "amount": -10.3,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.28,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000UP6R4",
+      "slug": "lvx0000up6r4",
+      "loanCode": "LVX0000UP6R4",
+      "externalId": null,
+      "sourceSheet": "LVX0000UP6R4",
+      "country": "Romania",
+      "lender": "ECOFINANCE IFN SA",
+      "loanType": "Personal",
+      "trustScore": null,
+      "term": "1 m. 10 mėn. 0 d.",
+      "investmentDate": "2026-06-18",
+      "startDate": "2026-06-15",
+      "plannedEndDate": "2028-04-18",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 14.5,
+      "currentValue": 14.23,
+      "outstandingPrincipal": 14.23,
+      "principalReturned": 0.27,
+      "interestReceived": 0.03,
+      "fees": 0.0,
+      "profit": 0.03,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.27,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.27,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-06-18",
+          "amount": -14.5,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.3,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000URIF2",
+      "slug": "lvx0000urif2",
+      "loanCode": "LVX0000URIF2",
+      "externalId": null,
+      "sourceSheet": "LVX0000URIF2",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 26 d.",
+      "investmentDate": "2026-06-22",
+      "startDate": "2026-06-19",
+      "plannedEndDate": "2026-12-18",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 14.16,
+      "currentValue": 14.16,
+      "outstandingPrincipal": 14.16,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-06-30",
+          "actualDate": "2026-06-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-06-22",
+          "amount": -14.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 0.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000URIF2 (2)",
+      "slug": "lvx0000urif2-2",
+      "loanCode": "LVX0000URIF2",
+      "externalId": null,
+      "sourceSheet": "LVX0000URIF2 (2)",
+      "country": "Cyprus",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 14 d.",
+      "investmentDate": "2026-07-04",
+      "startDate": "2026-06-19",
+      "plannedEndDate": "2026-12-18",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 22.13,
+      "currentValue": 22.13,
+      "outstandingPrincipal": 22.13,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-04",
+          "amount": -22.13,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000UUJT5",
+      "slug": "lvx0000uujt5",
+      "loanCode": "LVX0000UUJT5",
+      "externalId": null,
+      "sourceSheet": "LVX0000UUJT5",
+      "country": "Romania",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 5 mėn. 12 d.",
+      "investmentDate": "2026-07-10",
+      "startDate": "2026-06-25",
+      "plannedEndDate": "2026-12-22",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 12.58,
+      "currentValue": 12.58,
+      "outstandingPrincipal": 12.58,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-10",
+          "amount": -12.58,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000UXVE6",
+      "slug": "lvx0000uxve6",
+      "loanCode": "LVX0000UXVE6",
+      "externalId": null,
+      "sourceSheet": "LVX0000UXVE6",
+      "country": "Latvia",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 7 mėn. 18 d.",
+      "investmentDate": "2026-07-10",
+      "startDate": "2026-07-01",
+      "plannedEndDate": "2027-02-28",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 16.02,
+      "currentValue": 16.02,
+      "outstandingPrincipal": 16.02,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-10",
+          "amount": -16.02,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000UXVI7",
+      "slug": "lvx0000uxvi7",
+      "loanCode": "LVX0000UXVI7",
+      "externalId": null,
+      "sourceSheet": "LVX0000UXVI7",
+      "country": "Latvia",
+      "lender": "SIA \"Abele Finance\"",
+      "loanType": "Business",
+      "trustScore": null,
+      "term": "0 m. 7 mėn. 12 d.",
+      "investmentDate": "2026-07-16",
+      "startDate": "2026-07-01",
+      "plannedEndDate": "2027-02-28",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 15.29,
+      "currentValue": 15.29,
+      "outstandingPrincipal": 15.29,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-16",
+          "amount": -15.29,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000V3XU4",
+      "slug": "lvx0000v3xu4",
+      "loanCode": "LVX0000V3XU4",
+      "externalId": null,
+      "sourceSheet": "LVX0000V3XU4",
+      "country": "Romania",
+      "lender": "ECOFINANCE IFN SA",
+      "loanType": "Personal",
+      "trustScore": null,
+      "term": "1 m. 9 mėn. 1 d.",
+      "investmentDate": "2026-07-23",
+      "startDate": "2026-07-16",
+      "plannedEndDate": "2028-04-24",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 19.43,
+      "currentValue": 19.43,
+      "outstandingPrincipal": 19.43,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-23",
+          "amount": -19.43,
+          "delayDays": 0
+        }
+      ]
+    }
+  ],
+  "source": {
+    "file": "Nectaro.xlsx",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "loanSheets": 43,
+    "skippedSheets": [],
+    "generatedAt": "2026-07-30T18:55:45+03:00"
+  }
+}

@@ -1,0 +1,31 @@
+PORTFOLIO V2.2.1 – VIENINGA PLATFORMOS JSON SCHEMA
+
+1. Išarchyvuokite ZIP turinį tiesiai į portfolio-v2 aplanką.
+
+2. Kai Windows paklaus, pasirinkite:
+   Replace the files in the destination.
+
+3. Terminale paleiskite:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_2_1_VALIDATE_SCHEMA.ps1
+
+Teisingas rezultatas:
+
+   PLATFORMOS JSON PATIKRA: GERAI
+   Platforma: Crowdpear
+   Investicijų: 1
+   Schema: 1
+   V2.2.1 schema patvirtinta.
+
+SUKURTA
+
+- schemas/platform.schema.json
+- public/data/examples/platform-example.json
+- scripts/validate_platform_data.py
+- DATA_SCHEMA.md
+- V2_2_1_VALIDATE_SCHEMA.ps1
+
+SVARBU
+
+Tai yra galutinė schema pirmiesiems V2 importeriams.
+Kitas žingsnis – realus crowdpear.json pagal šią schemą.

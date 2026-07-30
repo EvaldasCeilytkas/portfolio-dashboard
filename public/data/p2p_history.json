@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "type": "monthlyPortfolioHistory",
+  "section": "P2P",
+  "currency": "EUR",
+  "generatedAt": "2026-07-30T15:57:43+00:00",
+  "source": {
+    "file": "Investavimas.xlsx",
+    "sheet": "Investavimas"
+  },
+  "period": {
+    "from": "2025-02-28",
+    "to": "2026-06-30",
+    "months": 17
+  },
+  "latest": {
+    "date": "2026-06-30",
+    "invested": 6335.07,
+    "monthlyContribution": 95.07,
+    "value": 7019.43,
+    "profit": 684.36,
+    "returnRate": 10.8,
+    "monthlyResult": 75.19
+  },
+  "history": [
+    {
+      "date": "2025-02-28",
+      "invested": 150.0,
+      "monthlyContribution": 150.0,
+      "value": 150.64,
+      "profit": 0.64,
+      "returnRate": 0.43,
+      "monthlyResult": 0.64
+    },
+    {
+      "date": "2025-03-31",
+      "invested": 1060.0,
+      "monthlyContribution": 910.0,
+      "value": 1127.62,
+      "profit": 67.62,
+      "returnRate": 6.38,
+      "monthlyResult": 66.98
+    },
+    {
+      "date": "2025-04-30",
+      "invested": 1590.0,
+      "monthlyContribution": 530.0,
+      "value": 1699.26,
+      "profit": 109.26,
+      "returnRate": 6.87,
+      "monthlyResult": 41.64
+    },
+    {
+      "date": "2025-05-31",
+      "invested": 2080.0,
+      "monthlyContribution": 490.0,
+      "value": 2194.87,
+      "profit": 114.87,
+      "returnRate": 5.52,
+      "monthlyResult": 5.61
+    },
+    {
+      "date": "2025-06-30",
+      "invested": 2320.0,
+      "monthlyContribution": 240.0,
+      "value": 2474.84,
+      "profit": 154.84,
+      "returnRate": 6.67,
+      "monthlyResult": 39.97
+    },
+    {
+      "date": "2025-07-31",
+      "invested": 2680.0,
+      "monthlyContribution": 360.0,
+      "value": 2853.38,
+      "profit": 173.38,
+      "returnRate": 6.47,
+      "monthlyResult": 18.54
+    },
+    {
+      "date": "2025-08-31",
+      "invested": 2890.0,
+      "monthlyContribution": 210.0,
+      "value": 3071.39,
+      "profit": 181.39,
+      "returnRate": 6.28,
+      "monthlyResult": 8.01
+    },
+    {
+      "date": "2025-09-30",
+      "invested": 3520.0,
+      "monthlyContribution": 630.0,
+      "value": 3742.25,
+      "profit": 222.25,
+      "returnRate": 6.31,
+      "monthlyResult": 40.86
+    },
+    {
+      "date": "2025-10-31",
+      "invested": 4040.0,
+      "monthlyContribution": 520.0,
+      "value": 4332.99,
+      "profit": 292.99,
+      "returnRate": 7.25,
+      "monthlyResult": 70.74
+    },
+    {
+      "date": "2025-11-30",
+      "invested": 4910.0,
+      "monthlyContribution": 870.0,
+      "value": 5228.18,
+      "profit": 318.18,
+      "returnRate": 6.48,
+      "monthlyResult": 25.19
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 5450.0,
+      "monthlyContribution": 540.0,
+      "value": 5831.42,
+      "profit": 381.42,
+      "returnRate": 7.0,
+      "monthlyResult": 63.24
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 5750.0,
+      "monthlyContribution": 300.0,
+      "value": 6182.09,
+      "profit": 432.09,
+      "returnRate": 7.51,
+      "monthlyResult": 50.67
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 5890.0,
+      "monthlyContribution": 140.0,
+      "value": 6355.94,
+      "profit": 465.94,
+      "returnRate": 7.91,
+      "monthlyResult": 33.85
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 5970.0,
+      "monthlyContribution": 80.0,
+      "value": 6495.12,
+      "profit": 525.12,
+      "returnRate": 8.8,
+      "monthlyResult": 59.18
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 6110.0,
+      "monthlyContribution": 140.0,
+      "value": 6685.72,
+      "profit": 575.72,
+      "returnRate": 9.42,
+      "monthlyResult": 50.6
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 6240.0,
+      "monthlyContribution": 130.0,
+      "value": 6849.17,
+      "profit": 609.17,
+      "returnRate": 9.76,
+      "monthlyResult": 33.45
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 6335.07,
+      "monthlyContribution": 95.07,
+      "value": 7019.43,
+      "profit": 684.36,
+      "returnRate": 10.8,
+      "monthlyResult": 75.19
+    }
+  ]
+}

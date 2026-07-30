@@ -1,0 +1,1770 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T18:55:05+03:00",
+  "moduleType": "p2p_loans",
+  "platform": {
+    "id": "afranga",
+    "slug": "afranga",
+    "name": "Afranga",
+    "group": "p2p",
+    "type": "p2p_loans",
+    "category": "P2P paskolos",
+    "currency": "EUR",
+    "active": true,
+    "status": "active",
+    "startDate": "2025-11-01",
+    "updatedAt": "2026-07-31",
+    "website": "https://afranga.com"
+  },
+  "summary": {
+    "invested": 290.0,
+    "currentValue": 305.0,
+    "profit": 15.0,
+    "returnRate": 5.1724,
+    "xirr": 9.5573,
+    "cash": 1.53,
+    "incomeReceived": 15.0,
+    "activeInvestments": 11,
+    "delayedInvestments": 0,
+    "completedInvestments": 0,
+    "averageRate": 10.3015,
+    "averageLtv": null,
+    "deposited": 290.0,
+    "withdrawn": 0.0,
+    "currentPrincipal": 303.47,
+    "calculatedOutstanding": 303.47,
+    "principalReturned": 0.0,
+    "interestReceived": 13.13,
+    "grossInterestReceived": 14.66,
+    "bonuses": 1.87,
+    "fees": 1.53,
+    "totalInvestments": 11,
+    "roi": 5.1724
+  },
+  "history": [
+    {
+      "date": "2025-11-30",
+      "invested": 150.0,
+      "value": 150.5,
+      "profit": 0.5,
+      "cash": 0.0,
+      "income": 0.5,
+      "deposits": 150.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.5,
+      "monthlyProfit": 0.5,
+      "monthlyReturn": 0.33
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 170.0,
+      "value": 170.5,
+      "profit": 0.5,
+      "cash": 0.0,
+      "income": 0.99,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 190.0,
+      "value": 191.45,
+      "profit": 1.45,
+      "cash": 0.0,
+      "income": 2.15,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.95,
+      "monthlyProfit": 0.95,
+      "monthlyReturn": 0.5
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 210.0,
+      "value": 211.87,
+      "profit": 1.87,
+      "cash": 0.0,
+      "income": 1.62,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.42,
+      "monthlyProfit": 0.42,
+      "monthlyReturn": 0.2
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 230.0,
+      "value": 231.87,
+      "profit": 1.87,
+      "cash": 0.0,
+      "income": 1.56,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 250.0,
+      "value": 251.87,
+      "profit": 1.87,
+      "cash": 0.0,
+      "income": 1.87,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 270.0,
+      "value": 271.87,
+      "profit": 1.87,
+      "cash": 0.0,
+      "income": 1.98,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 270.0,
+      "value": 271.87,
+      "profit": 1.87,
+      "cash": 0.0,
+      "income": 2.21,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 290.0,
+      "value": 305.0,
+      "profit": 15.0,
+      "cash": 1.53,
+      "income": 2.12,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-07-31",
+    "invested": 290.0,
+    "value": 305.0,
+    "profit": 15.0,
+    "cash": 1.53,
+    "income": 2.12,
+    "deposits": 20.0,
+    "withdrawals": 0.0,
+    "bonuses": 0.0,
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
+  },
+  "largestInvestment": {
+    "id": "10000159",
+    "slug": "10000159",
+    "loanCode": "10000159",
+    "name": "ID 205551187 - 10000159",
+    "sourceSheet": "10000159",
+    "country": "Bulgaria",
+    "lender": "Lev Credit",
+    "loanType": "Business loan",
+    "term": "1 m. 0 mėn. 2 d.",
+    "investmentDate": "2025-11-01",
+    "startDate": "2025-11-03",
+    "plannedEndDate": "2026-11-03",
+    "actualEndDate": null,
+    "rate": 8.0,
+    "invested": 80.0,
+    "currentValue": 80.0,
+    "outstandingPrincipal": 80.0,
+    "principalReturned": 0.0,
+    "interestReceived": 4.24,
+    "fees": 0.4,
+    "profit": 3.84,
+    "xirr": null,
+    "status": "active",
+    "delayDays": 0,
+    "earlyLateDays": 0,
+    "schedule": [
+      {
+        "plannedDate": "2025-12-03",
+        "actualDate": "2025-12-03",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.53,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-01-03",
+        "actualDate": "2026-01-03",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.54,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-02-03",
+        "actualDate": "2026-02-03",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.54,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-03-03",
+        "actualDate": "2026-03-03",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.49,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-04-03",
+        "actualDate": "2026-04-03",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.54,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-05-03",
+        "actualDate": "2026-05-05",
+        "timingDays": 2,
+        "principal": 0.0,
+        "interest": 0.53,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-06-03",
+        "actualDate": "2026-06-03",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.54,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-07-03",
+        "actualDate": "2026-07-03",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.53,
+        "fee": 0.05,
+        "paid": true
+      },
+      {
+        "plannedDate": null,
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 4.24,
+        "fee": 0.4,
+        "paid": false
+      }
+    ],
+    "cashFlows": [
+      {
+        "date": "2025-11-01",
+        "amount": -80.0,
+        "delayDays": 0
+      },
+      {
+        "date": "2025-12-03",
+        "amount": 0.48,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-01-03",
+        "amount": 0.49,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-02-03",
+        "amount": 0.49,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-03-03",
+        "amount": 0.44,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-04-03",
+        "amount": 0.49,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-05-05",
+        "amount": 0.48,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-06-03",
+        "amount": 0.49,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-07-03",
+        "amount": 0.48,
+        "delayDays": 0
+      }
+    ]
+  },
+  "distributions": {
+    "country": [
+      {
+        "label": "Bulgaria",
+        "count": 11,
+        "value": 303.47
+      }
+    ],
+    "lender": [
+      {
+        "label": "Lendivo",
+        "count": 1,
+        "value": 21.49
+      },
+      {
+        "label": "Lev Credit",
+        "count": 3,
+        "value": 100.0
+      },
+      {
+        "label": "Stickcredit",
+        "count": 2,
+        "value": 44.13
+      },
+      {
+        "label": "Stikcredit",
+        "count": 1,
+        "value": 50.0
+      },
+      {
+        "label": "Tiberus",
+        "count": 4,
+        "value": 87.85
+      }
+    ],
+    "loanType": [
+      {
+        "label": "Business loan",
+        "count": 11,
+        "value": 303.47
+      }
+    ],
+    "status": [
+      {
+        "label": "active",
+        "count": 11,
+        "value": 303.47
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2025-11-01",
+      "deposited": 100.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-11-11",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-11-25",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.5
+    },
+    {
+      "date": "2025-12-15",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-19",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-27",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.95
+    },
+    {
+      "date": "2026-02-04",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.42
+    },
+    {
+      "date": "2026-02-11",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-03-19",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-04-19",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-05-22",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-07-03",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-07-29",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "10000158",
+      "slug": "10000158",
+      "loanCode": "10000158",
+      "name": "ID 205551187 - 10000158",
+      "sourceSheet": "10000158",
+      "country": "Bulgaria",
+      "lender": "Lev Credit",
+      "loanType": "Business loan",
+      "term": "0 m. 9 mėn. 2 d.",
+      "investmentDate": "2025-11-01",
+      "startDate": "2025-11-03",
+      "plannedEndDate": "2026-08-03",
+      "actualEndDate": null,
+      "rate": 7.5,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.48,
+      "fees": 0.08,
+      "profit": 0.4,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-03",
+          "actualDate": "2025-12-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-03",
+          "actualDate": "2026-01-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-03",
+          "actualDate": "2026-02-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-03",
+          "actualDate": "2026-03-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-03",
+          "actualDate": "2026-04-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-03",
+          "actualDate": "2026-05-05",
+          "timingDays": 2,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-03",
+          "actualDate": "2026-06-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-03",
+          "actualDate": "2026-07-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.06,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.48,
+          "fee": 0.08,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-01",
+          "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-03",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-03",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-03",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-03",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-03",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-03",
+          "amount": 0.05,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-03",
+          "amount": 0.05,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000159",
+      "slug": "10000159",
+      "loanCode": "10000159",
+      "name": "ID 205551187 - 10000159",
+      "sourceSheet": "10000159",
+      "country": "Bulgaria",
+      "lender": "Lev Credit",
+      "loanType": "Business loan",
+      "term": "1 m. 0 mėn. 2 d.",
+      "investmentDate": "2025-11-01",
+      "startDate": "2025-11-03",
+      "plannedEndDate": "2026-11-03",
+      "actualEndDate": null,
+      "rate": 8.0,
+      "invested": 80.0,
+      "currentValue": 80.0,
+      "outstandingPrincipal": 80.0,
+      "principalReturned": 0.0,
+      "interestReceived": 4.24,
+      "fees": 0.4,
+      "profit": 3.84,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-03",
+          "actualDate": "2025-12-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.53,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-03",
+          "actualDate": "2026-01-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.54,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-03",
+          "actualDate": "2026-02-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.54,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-03",
+          "actualDate": "2026-03-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.49,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-03",
+          "actualDate": "2026-04-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.54,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-03",
+          "actualDate": "2026-05-05",
+          "timingDays": 2,
+          "principal": 0.0,
+          "interest": 0.53,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-03",
+          "actualDate": "2026-06-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.54,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-03",
+          "actualDate": "2026-07-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.53,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 4.24,
+          "fee": 0.4,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-01",
+          "amount": -80.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-03",
+          "amount": 0.48,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-03",
+          "amount": 0.49,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-03",
+          "amount": 0.49,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-03",
+          "amount": 0.44,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-03",
+          "amount": 0.49,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 0.48,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-03",
+          "amount": 0.49,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-03",
+          "amount": 0.48,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000160",
+      "slug": "10000160",
+      "loanCode": "10000160",
+      "name": "ID 205551187 - 10000160",
+      "sourceSheet": "10000160",
+      "country": "Bulgaria",
+      "lender": "Lev Credit",
+      "loanType": "Business loan",
+      "term": "1 m. 6 mėn. 2 d.",
+      "investmentDate": "2025-11-01",
+      "startDate": "2025-11-03",
+      "plannedEndDate": "2027-05-03",
+      "actualEndDate": null,
+      "rate": 8.5,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.56,
+      "fees": 0.08,
+      "profit": 0.48,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-03",
+          "actualDate": "2025-12-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-03",
+          "actualDate": "2026-01-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-03",
+          "actualDate": "2026-02-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-03",
+          "actualDate": "2026-03-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-03",
+          "actualDate": "2026-04-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-03",
+          "actualDate": "2026-05-05",
+          "timingDays": 2,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-03",
+          "actualDate": "2026-06-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-03",
+          "actualDate": "2026-07-03",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.56,
+          "fee": 0.08,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-01",
+          "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-03",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-03",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-03",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-03",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-03",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-03",
+          "amount": 0.06,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-03",
+          "amount": 0.06,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000170",
+      "slug": "10000170",
+      "loanCode": "10000170",
+      "name": "ID 202557159 - 10000170",
+      "sourceSheet": "10000170",
+      "country": "Bulgaria",
+      "lender": "Stikcredit",
+      "loanType": "Business loan",
+      "term": "1 m. 0 mėn. 3 d.",
+      "investmentDate": "2025-11-11",
+      "startDate": "2025-11-14",
+      "plannedEndDate": "2026-11-14",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 50.0,
+      "currentValue": 50.0,
+      "outstandingPrincipal": 50.0,
+      "principalReturned": 0.0,
+      "interestReceived": 3.65,
+      "fees": 0.39,
+      "profit": 3.26,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2025-12-14",
+          "actualDate": "2025-12-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.45,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-01-14",
+          "actualDate": "2026-01-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.47,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-14",
+          "actualDate": "2026-02-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.47,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-14",
+          "actualDate": "2026-03-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.42,
+          "fee": 0.04,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-14",
+          "actualDate": "2026-04-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.47,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-14",
+          "actualDate": "2026-05-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.45,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-14",
+          "actualDate": "2026-06-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.47,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-14",
+          "actualDate": "2026-07-14",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.45,
+          "fee": 0.05,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 3.65,
+          "fee": 0.39,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-11-11",
+          "amount": -50.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2025-12-14",
+          "amount": 0.4,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-14",
+          "amount": 0.42,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-14",
+          "amount": 0.42,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-14",
+          "amount": 0.38,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-14",
+          "amount": 0.42,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-14",
+          "amount": 0.4,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-14",
+          "amount": 0.42,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-14",
+          "amount": 0.4,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000212",
+      "slug": "10000212",
+      "loanCode": "10000212",
+      "name": "ID 203811241 - 10000212",
+      "sourceSheet": "10000212",
+      "country": "Bulgaria",
+      "lender": "Lendivo",
+      "loanType": "Business loan",
+      "term": "1 m. 0 mėn. 3 d.",
+      "investmentDate": "2025-12-16",
+      "startDate": "2025-12-19",
+      "plannedEndDate": "2026-12-19",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 21.49,
+      "currentValue": 21.49,
+      "outstandingPrincipal": 21.49,
+      "principalReturned": 0.0,
+      "interestReceived": 1.36,
+      "fees": 0.14,
+      "profit": 1.22,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-01-19",
+          "actualDate": "2026-01-19",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-02-19",
+          "actualDate": "2026-02-19",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-03-19",
+          "actualDate": "2026-03-19",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-19",
+          "actualDate": "2026-04-19",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-19",
+          "actualDate": "2026-05-19",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-19",
+          "actualDate": "2026-06-19",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-19",
+          "actualDate": "2026-07-19",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 1.36,
+          "fee": 0.14,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2025-12-16",
+          "amount": -21.49,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-01-19",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-02-19",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-19",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-19",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-19",
+          "amount": 0.17,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-19",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-19",
+          "amount": 0.17,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000263",
+      "slug": "10000263",
+      "loanCode": "10000263",
+      "name": "ID 205174291 - 10000263",
+      "sourceSheet": "10000263",
+      "country": "Bulgaria",
+      "lender": "Tiberus",
+      "loanType": "Business loan",
+      "term": "1 m. 0 mėn. 26 d.",
+      "investmentDate": "2026-01-20",
+      "startDate": "2026-01-23",
+      "plannedEndDate": "2027-02-15",
+      "actualEndDate": null,
+      "rate": 10.0,
+      "invested": 21.2,
+      "currentValue": 21.2,
+      "outstandingPrincipal": 21.2,
+      "principalReturned": 0.0,
+      "interestReceived": 1.0,
+      "fees": 0.11,
+      "profit": 0.89,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-03-15",
+          "actualDate": "2026-03-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.3,
+          "fee": 0.03,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-15",
+          "actualDate": "2026-04-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-15",
+          "actualDate": "2026-05-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-15",
+          "actualDate": "2026-06-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-15",
+          "actualDate": "2026-07-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 1.0,
+          "fee": 0.11,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-01-20",
+          "amount": -21.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-15",
+          "amount": 0.27,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-15",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-15",
+          "amount": 0.15,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-15",
+          "amount": 0.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-15",
+          "amount": 0.15,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000288",
+      "slug": "10000288",
+      "loanCode": "10000288",
+      "name": "ID 202557159 - 10000288",
+      "sourceSheet": "10000288",
+      "country": "Bulgaria",
+      "lender": "Stickcredit",
+      "loanType": "Business loan",
+      "term": "1 m. 0 mėn. 3 d.",
+      "investmentDate": "2026-02-12",
+      "startDate": "2026-02-13",
+      "plannedEndDate": "2027-02-15",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 21.97,
+      "currentValue": 21.97,
+      "outstandingPrincipal": 21.97,
+      "principalReturned": 0.0,
+      "interestReceived": 1.1,
+      "fees": 0.1,
+      "profit": 1.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-03-15",
+          "actualDate": "2026-03-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-04-15",
+          "actualDate": "2026-04-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-15",
+          "actualDate": "2026-05-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-15",
+          "actualDate": "2026-06-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-15",
+          "actualDate": "2026-07-15",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 1.1,
+          "fee": 0.1,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-02-12",
+          "amount": -21.97,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-03-15",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-15",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-15",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-15",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-15",
+          "amount": 0.2,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000437",
+      "slug": "10000437",
+      "loanCode": "10000437",
+      "name": "ID 202557159 - 10000437",
+      "sourceSheet": "10000437",
+      "country": "Bulgaria",
+      "lender": "Stickcredit",
+      "loanType": "Business loan",
+      "term": "3 m. 0 mėn. 8 d.",
+      "investmentDate": "2026-03-20",
+      "startDate": "2026-03-23",
+      "plannedEndDate": "2029-03-28",
+      "actualEndDate": null,
+      "rate": 16.0,
+      "invested": 22.16,
+      "currentValue": 22.16,
+      "outstandingPrincipal": 22.16,
+      "principalReturned": 0.0,
+      "interestReceived": 1.23,
+      "fees": 0.13,
+      "profit": 1.1,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-04-28",
+          "actualDate": "2026-04-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.35,
+          "fee": 0.04,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-05-28",
+          "actualDate": "2026-05-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.29,
+          "fee": 0.03,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-28",
+          "actualDate": "2026-06-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.3,
+          "fee": 0.03,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-08",
+          "actualDate": "2026-07-08",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.29,
+          "fee": 0.03,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 1.23,
+          "fee": 0.13,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-03-20",
+          "amount": -22.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-04-28",
+          "amount": 0.31,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-28",
+          "amount": 0.26,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-28",
+          "amount": 0.27,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-08",
+          "amount": 0.26,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000591",
+      "slug": "10000591",
+      "loanCode": "10000591",
+      "name": "ID 205174291 - 10000591",
+      "sourceSheet": "10000591",
+      "country": "Bulgaria",
+      "lender": "Tiberus",
+      "loanType": "Business loan",
+      "term": "1 m. 0 mėn. 7 d.",
+      "investmentDate": "2026-04-21",
+      "startDate": "2026-04-25",
+      "plannedEndDate": "2027-04-28",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 21.56,
+      "currentValue": 21.56,
+      "outstandingPrincipal": 21.56,
+      "principalReturned": 0.0,
+      "interestReceived": 0.66,
+      "fees": 0.06,
+      "profit": 0.6,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-05-28",
+          "actualDate": "2026-05-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.23,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-06-28",
+          "actualDate": "2026-06-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-28",
+          "actualDate": "2026-07-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.66,
+          "fee": 0.06,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-04-21",
+          "amount": -21.56,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-05-28",
+          "amount": 0.21,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-28",
+          "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-28",
+          "amount": 0.19,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10000722",
+      "slug": "10000722",
+      "loanCode": "10000722",
+      "name": "ID 205174291 - 10000722",
+      "sourceSheet": "10000722",
+      "country": "Bulgaria",
+      "lender": "Tiberus",
+      "loanType": "Business loan",
+      "term": "0 m. 3 mėn. 5 d.",
+      "investmentDate": "2026-05-23",
+      "startDate": "2026-05-22",
+      "plannedEndDate": "2026-08-28",
+      "actualEndDate": null,
+      "rate": 10.0,
+      "invested": 21.82,
+      "currentValue": 21.82,
+      "outstandingPrincipal": 21.82,
+      "principalReturned": 0.0,
+      "interestReceived": 0.38,
+      "fees": 0.04,
+      "profit": 0.34,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-06-28",
+          "actualDate": "2026-06-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.2,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-07-28",
+          "actualDate": "2026-07-28",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.02,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.38,
+          "fee": 0.04,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-05-23",
+          "amount": -21.82,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-06-28",
+          "amount": 0.18,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-28",
+          "amount": 0.16,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "10001244",
+      "slug": "10001244",
+      "loanCode": "10001244",
+      "name": "ID 205174291 - 10001244",
+      "sourceSheet": "10001244",
+      "country": "Bulgaria",
+      "lender": "Tiberus",
+      "loanType": "Business loan",
+      "term": "0 m. 3 mėn. 8 d.",
+      "investmentDate": "2026-07-07",
+      "startDate": "2026-07-06",
+      "plannedEndDate": "2026-10-15",
+      "actualEndDate": null,
+      "rate": 10.0,
+      "invested": 23.27,
+      "currentValue": 23.27,
+      "outstandingPrincipal": 23.27,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-07-07",
+          "amount": -23.27,
+          "delayDays": 0
+        }
+      ]
+    }
+  ],
+  "source": {
+    "file": "Afranga.xlsx",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "loanSheets": 11,
+    "skippedSheets": [],
+    "generatedAt": "2026-07-30T18:55:05+03:00"
+  }
+}

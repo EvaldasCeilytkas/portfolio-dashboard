@@ -1,0 +1,2669 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T18:55:39+03:00",
+  "platform": {
+    "id": "crowdpear",
+    "slug": "crowdpear",
+    "name": "Crowdpear",
+    "group": "real_estate",
+    "type": "real_estate",
+    "category": "NT sutelktinis finansavimas",
+    "currency": "EUR",
+    "active": true,
+    "startDate": "2025-03-03",
+    "updatedAt": "2026-07-30",
+    "website": "https://crowdpear.com"
+  },
+  "summary": {
+    "invested": 1030.0,
+    "currentValue": 1186.48,
+    "profit": 156.48,
+    "returnRate": 15.1922,
+    "xirr": 13.0741,
+    "cash": 0.0,
+    "incomeReceived": 116.48,
+    "activeInvestments": 11,
+    "delayedInvestments": 1,
+    "completedInvestments": 13,
+    "averageRate": 9.6943,
+    "averageLtv": 56.568
+  },
+  "history": [
+    {
+      "date": "2026-07-01",
+      "invested": 1030.0,
+      "value": 1186.48,
+      "profit": 156.48,
+      "cash": 0.0,
+      "income": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "ID 44763",
+      "code": "ID 44763",
+      "name": "Užnerio butai III",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 21.54,
+      "investmentDate": "2025-03-03",
+      "completionDate": "2026-03-10",
+      "country": null,
+      "interestRate": 10.5,
+      "incomeReceived": 21.54,
+      "outstanding": 0.0,
+      "delayDays": 146,
+      "ltv": 53.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-03-06",
+      "payments": [
+        {
+          "date": "2025-06-30",
+          "type": "interest",
+          "amount": 3.41,
+          "note": null
+        },
+        {
+          "date": "2025-09-30",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2025-09-30",
+          "type": "interest",
+          "amount": 2.63,
+          "note": null
+        },
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 2.63,
+          "note": null
+        },
+        {
+          "date": "2026-03-10",
+          "type": "interest",
+          "amount": 1.93,
+          "note": null
+        },
+        {
+          "date": "2026-03-10",
+          "type": "other",
+          "amount": 0.17,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.41,
+          "actualDate": "2025-06-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.41,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.63,
+          "actualDate": "2025-09-30",
+          "actualPrincipal": 100.0,
+          "actualInterest": 2.63,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.63,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.63,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-06",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.93,
+          "actualDate": "2026-03-10",
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.93,
+          "actualExtra": 0.17,
+          "historicalDelayDays": 4
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 10.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 10.6,
+          "actualExtra": 0.17,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-03-06",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 100.0,
+      "plannedInterest": 21.2,
+      "sourceSheets": [
+        "Užnerio butai III"
+      ]
+    },
+    {
+      "id": "LT-262",
+      "code": "LT-262",
+      "name": "Pušynas VII",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 21.02,
+      "investmentDate": "2025-03-05",
+      "completionDate": "2026-02-03",
+      "country": null,
+      "interestRate": 11.5,
+      "incomeReceived": 21.02,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 69.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "D",
+      "maturityDate": "2026-02-01",
+      "payments": [
+        {
+          "date": "2025-06-30",
+          "type": "interest",
+          "amount": 3.67,
+          "note": null
+        },
+        {
+          "date": "2025-09-30",
+          "type": "interest",
+          "amount": 2.88,
+          "note": null
+        },
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 2.88,
+          "note": null
+        },
+        {
+          "date": "2026-02-03",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2026-02-03",
+          "type": "interest",
+          "amount": 0.99,
+          "note": null
+        },
+        {
+          "date": "2026-02-03",
+          "type": "other",
+          "amount": 0.09,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.67,
+          "actualDate": "2025-06-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.67,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.88,
+          "actualDate": "2025-09-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.88,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.88,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.88,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-01",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 0.99,
+          "actualDate": "2026-02-03",
+          "actualPrincipal": 100.0,
+          "actualInterest": 0.99,
+          "actualExtra": 0.09,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 10.42,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 10.42,
+          "actualExtra": 0.09,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-03-05",
+      "durationMonths": 11,
+      "paymentFrequency": "Q",
+      "maxLtv": 69.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 20.84,
+      "sourceSheets": [
+        "Pušynas VII"
+      ]
+    },
+    {
+      "id": "LT-264",
+      "code": "LT-264",
+      "name": "Sodziaus 7A",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 110.0,
+      "currentValue": 0.0,
+      "profit": 24.2,
+      "investmentDate": "2025-03-09",
+      "completionDate": "2026-01-27",
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 24.2,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 65.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2025-12-14",
+      "payments": [
+        {
+          "date": "2025-07-16",
+          "type": "interest",
+          "amount": 0.33,
+          "note": null
+        },
+        {
+          "date": "2025-07-16",
+          "type": "interest",
+          "amount": 3.39,
+          "note": null
+        },
+        {
+          "date": "2025-11-04",
+          "type": "interest",
+          "amount": 0.28,
+          "note": null
+        },
+        {
+          "date": "2025-11-04",
+          "type": "interest",
+          "amount": 2.75,
+          "note": null
+        },
+        {
+          "date": "2026-01-27",
+          "type": "interest",
+          "amount": 0.23,
+          "note": null
+        },
+        {
+          "date": "2026-01-27",
+          "type": "interest",
+          "amount": 2.26,
+          "note": null
+        },
+        {
+          "date": "2026-01-27",
+          "type": "other",
+          "amount": 0.26,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-01-27",
+          "type": "other",
+          "amount": 2.6,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-01-27",
+          "type": "principal",
+          "amount": 10.0,
+          "note": null
+        },
+        {
+          "date": "2026-01-27",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.33,
+          "actualDate": "2025-07-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.33,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 16
+        },
+        {
+          "plannedDate": "2025-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.39,
+          "actualDate": "2025-07-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.39,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 16
+        },
+        {
+          "plannedDate": "2025-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.28,
+          "actualDate": "2025-11-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.28,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 35
+        },
+        {
+          "plannedDate": "2025-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.75,
+          "actualDate": "2025-11-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.75,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 35
+        },
+        {
+          "plannedDate": "2025-12-14",
+          "plannedPrincipal": 10.0,
+          "plannedInterest": 0.23,
+          "actualDate": "2026-01-27",
+          "actualPrincipal": 10.0,
+          "actualInterest": 0.23,
+          "actualExtra": 0.26,
+          "historicalDelayDays": 44
+        },
+        {
+          "plannedDate": "2025-12-14",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 2.26,
+          "actualDate": "2026-01-27",
+          "actualPrincipal": 100.0,
+          "actualInterest": 2.26,
+          "actualExtra": 2.6,
+          "historicalDelayDays": 44
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 10.0,
+          "plannedInterest": 0.84,
+          "actualDate": null,
+          "actualPrincipal": 10.0,
+          "actualInterest": 0.84,
+          "actualExtra": 0.26,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 8.4,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 8.4,
+          "actualExtra": 2.6,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-03-14",
+      "durationMonths": 9,
+      "paymentFrequency": "Q",
+      "maxLtv": null,
+      "repaidPrincipal": 220.0,
+      "plannedInterest": 18.48,
+      "sourceSheets": [
+        "Sodziaus 7A (1)",
+        "Sodziaus 7A"
+      ]
+    },
+    {
+      "id": "LT-268",
+      "code": "LT-268",
+      "name": "Kauno 36-232",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 17.02,
+      "investmentDate": "2025-03-27",
+      "completionDate": "2026-01-13",
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 17.02,
+      "outstanding": 0.0,
+      "delayDays": 121,
+      "ltv": 64.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-03-31",
+      "payments": [
+        {
+          "date": "2025-06-30",
+          "type": "interest",
+          "amount": 2.84,
+          "note": null
+        },
+        {
+          "date": "2025-09-30",
+          "type": "interest",
+          "amount": 2.75,
+          "note": null
+        },
+        {
+          "date": "2025-12-30",
+          "type": "principal",
+          "amount": 37.32,
+          "note": null
+        },
+        {
+          "date": "2025-12-30",
+          "type": "interest",
+          "amount": 2.75,
+          "note": null
+        },
+        {
+          "date": "2026-01-06",
+          "type": "principal",
+          "amount": 37.32,
+          "note": null
+        },
+        {
+          "date": "2026-01-06",
+          "type": "interest",
+          "amount": 0.07,
+          "note": null
+        },
+        {
+          "date": "2026-01-13",
+          "type": "principal",
+          "amount": 25.36,
+          "note": null
+        },
+        {
+          "date": "2026-01-13",
+          "type": "interest",
+          "amount": 0.1,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.84,
+          "actualDate": "2025-06-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.84,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.75,
+          "actualDate": "2025-09-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.75,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.75,
+          "actualDate": "2025-12-30",
+          "actualPrincipal": 37.32,
+          "actualInterest": 2.75,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-06",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualDate": "2026-01-06",
+          "actualPrincipal": 37.32,
+          "actualInterest": 0.07,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 2.75,
+          "actualDate": "2026-01-13",
+          "actualPrincipal": 25.36,
+          "actualInterest": 0.1,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 11.09,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 8.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-03-31",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 22.18,
+      "sourceSheets": [
+        "Kauno 36-232"
+      ]
+    },
+    {
+      "id": "LT-279",
+      "code": "LT-279",
+      "name": "Girinaičių 7",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 8.82,
+      "investmentDate": "2025-04-10",
+      "completionDate": "2025-09-11",
+      "country": null,
+      "interestRate": 10.5,
+      "incomeReceived": 8.82,
+      "outstanding": 0.0,
+      "delayDays": 285,
+      "ltv": 66.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2025-10-18",
+      "payments": [
+        {
+          "date": "2025-07-31",
+          "type": "interest",
+          "amount": 3.21,
+          "note": null
+        },
+        {
+          "date": "2025-09-11",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2025-09-11",
+          "type": "interest",
+          "amount": 1.2,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-07-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.21,
+          "actualDate": "2025-07-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.21,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-18",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 2.28,
+          "actualDate": "2025-09-11",
+          "actualPrincipal": 100.0,
+          "actualInterest": 1.2,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 5.49,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 4.41,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-04-18",
+      "durationMonths": 6,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 10.98,
+      "sourceSheets": [
+        "Girinaičių 7"
+      ]
+    },
+    {
+      "id": "LT-285",
+      "code": "LT-285",
+      "name": "Piliarožių 10 VI",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 10.0,
+      "currentValue": 0.0,
+      "profit": 1.88,
+      "investmentDate": "2025-04-17",
+      "completionDate": "2026-03-24",
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 1.88,
+      "outstanding": 0.0,
+      "delayDays": 203,
+      "ltv": 70.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-04-24",
+      "payments": [
+        {
+          "date": "2025-07-31",
+          "type": "interest",
+          "amount": 0.31,
+          "note": null
+        },
+        {
+          "date": "2025-10-31",
+          "type": "interest",
+          "amount": 0.28,
+          "note": null
+        },
+        {
+          "date": "2026-01-08",
+          "type": "principal",
+          "amount": 3.58,
+          "note": null
+        },
+        {
+          "date": "2026-01-08",
+          "type": "interest",
+          "amount": 0.07,
+          "note": null
+        },
+        {
+          "date": "2026-02-02",
+          "type": "interest",
+          "amount": 0.18,
+          "note": null
+        },
+        {
+          "date": "2026-03-24",
+          "type": "principal",
+          "amount": 6.42,
+          "note": null
+        },
+        {
+          "date": "2026-03-24",
+          "type": "interest",
+          "amount": 0.1,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-07-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.31,
+          "actualDate": "2025-07-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.31,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.28,
+          "actualDate": "2025-10-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.28,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-08",
+          "plannedPrincipal": 3.58,
+          "plannedInterest": 0.28,
+          "actualDate": "2026-01-08",
+          "actualPrincipal": 3.58,
+          "actualInterest": 0.07,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.18,
+          "actualDate": "2026-02-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.18,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-24",
+          "plannedPrincipal": 6.42,
+          "plannedInterest": 0.16,
+          "actualDate": "2026-03-24",
+          "actualPrincipal": 6.42,
+          "actualInterest": 0.1,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 10.0,
+          "plannedInterest": 1.21,
+          "actualDate": null,
+          "actualPrincipal": 10.0,
+          "actualInterest": 0.94,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-04-24",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 20.0,
+      "plannedInterest": 2.42,
+      "sourceSheets": [
+        "Piliarožių 10 VI"
+      ]
+    },
+    {
+      "id": "LT-288",
+      "code": "LT-288",
+      "name": "Girios 112 II",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 18.78,
+      "investmentDate": "2025-04-23",
+      "completionDate": "2026-02-20",
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 18.78,
+      "outstanding": 0.0,
+      "delayDays": 93,
+      "ltv": 70.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-04-28",
+      "payments": [
+        {
+          "date": "2025-07-31",
+          "type": "interest",
+          "amount": 2.96,
+          "note": null
+        },
+        {
+          "date": "2025-11-05",
+          "type": "interest",
+          "amount": 2.75,
+          "note": null
+        },
+        {
+          "date": "2026-02-20",
+          "type": "interest",
+          "amount": 2.81,
+          "note": null
+        },
+        {
+          "date": "2026-02-20",
+          "type": "other",
+          "amount": 0.32,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-02-20",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2026-02-20",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-07-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.96,
+          "actualDate": "2025-07-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.96,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.75,
+          "actualDate": "2025-11-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.75,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 5
+        },
+        {
+          "plannedDate": "2026-02-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.81,
+          "actualDate": "2026-02-20",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.81,
+          "actualExtra": 0.32,
+          "historicalDelayDays": 18
+        },
+        {
+          "plannedDate": "2026-04-28",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 2.63,
+          "actualDate": "2026-02-20",
+          "actualPrincipal": 100.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 11.15,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 9.07,
+          "actualExtra": 0.32,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-04-28",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 22.3,
+      "sourceSheets": [
+        "Girios 112 II"
+      ]
+    },
+    {
+      "id": "LT-296",
+      "code": "LT-296",
+      "name": "Girinaičių 7 II",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 6.82,
+      "investmentDate": "2025-05-14",
+      "completionDate": "2025-09-12",
+      "country": null,
+      "interestRate": 10.5,
+      "incomeReceived": 6.82,
+      "outstanding": 0.0,
+      "delayDays": 258,
+      "ltv": 75.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2025-11-14",
+      "payments": [
+        {
+          "date": "2025-09-01",
+          "type": "interest",
+          "amount": 3.12,
+          "note": null
+        },
+        {
+          "date": "2025-09-12",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2025-09-12",
+          "type": "interest",
+          "amount": 0.29,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-09-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.12,
+          "actualDate": "2025-09-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.12,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-14",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 2.13,
+          "actualDate": "2025-09-12",
+          "actualPrincipal": 100.0,
+          "actualInterest": 0.29,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 5.25,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 3.41,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-05-14",
+      "durationMonths": 6,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 10.5,
+      "sourceSheets": [
+        "Girinaičių 7 II"
+      ]
+    },
+    {
+      "id": "RO-360",
+      "code": "RO-360",
+      "name": "Sfintii Arhangheli 21",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 123.24,
+      "currentValue": 123.24,
+      "profit": 21.02,
+      "investmentDate": "2025-09-08",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 10.5,
+      "incomeReceived": 21.02,
+      "outstanding": 123.24,
+      "delayDays": 0,
+      "ltv": 40.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-09-09",
+      "payments": [
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 4.03,
+          "note": null
+        },
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 3.24,
+          "note": null
+        },
+        {
+          "date": "2026-06-30",
+          "type": "interest",
+          "amount": 3.24,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 4.03,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 4.03,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.24,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.24,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.24,
+          "actualDate": "2026-06-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.24,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-09",
+          "plannedPrincipal": 123.24,
+          "plannedInterest": 2.48,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 123.24,
+          "plannedInterest": 12.99,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 10.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-08",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 25.98,
+      "sourceSheets": [
+        "Sfintii Arhangheli 21"
+      ]
+    },
+    {
+      "id": "LT-364",
+      "code": "LT-364",
+      "name": "Dvibutis Sodybų 12",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 8.3,
+      "investmentDate": "2025-09-12",
+      "completionDate": "2026-03-03",
+      "country": null,
+      "interestRate": 9.0,
+      "incomeReceived": 8.3,
+      "outstanding": 0.0,
+      "delayDays": 135,
+      "ltv": 70.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-03-17",
+      "payments": [
+        {
+          "date": "2026-01-19",
+          "type": "principal",
+          "amount": 5.55,
+          "note": null
+        },
+        {
+          "date": "2026-01-19",
+          "type": "interest",
+          "amount": 2.73,
+          "note": null
+        },
+        {
+          "date": "2026-02-06",
+          "type": "principal",
+          "amount": 48.05,
+          "note": null
+        },
+        {
+          "date": "2026-02-06",
+          "type": "interest",
+          "amount": 0.43,
+          "note": null
+        },
+        {
+          "date": "2026-03-03",
+          "type": "principal",
+          "amount": 46.4,
+          "note": null
+        },
+        {
+          "date": "2026-03-03",
+          "type": "interest",
+          "amount": 0.73,
+          "note": null
+        },
+        {
+          "date": "2026-03-03",
+          "type": "other",
+          "amount": 0.26,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 5.55,
+          "plannedInterest": 2.7,
+          "actualDate": "2026-01-19",
+          "actualPrincipal": 5.55,
+          "actualInterest": 2.73,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 19
+        },
+        {
+          "plannedDate": "2026-02-06",
+          "plannedPrincipal": 48.05,
+          "plannedInterest": 0.43,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 48.05,
+          "actualInterest": 0.43,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-17",
+          "plannedPrincipal": 46.4,
+          "plannedInterest": 0.89,
+          "actualDate": "2026-03-03",
+          "actualPrincipal": 46.4,
+          "actualInterest": 0.73,
+          "actualExtra": 0.26,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 4.02,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 3.89,
+          "actualExtra": 0.26,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-17",
+      "durationMonths": 6,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 8.04,
+      "sourceSheets": [
+        "Dvibutis Sodybų 12"
+      ]
+    },
+    {
+      "id": "LT-363",
+      "code": "LT-363",
+      "name": "Vienbutis Minsko 5A",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 101.49,
+      "currentValue": 101.49,
+      "profit": 14.44,
+      "investmentDate": "2025-09-15",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.0,
+      "incomeReceived": 14.44,
+      "outstanding": 101.49,
+      "delayDays": 0,
+      "ltv": 56.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-09-16",
+      "payments": [
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 2.66,
+          "note": null
+        },
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 2.28,
+          "note": null
+        },
+        {
+          "date": "2026-06-30",
+          "type": "interest",
+          "amount": 2.28,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.66,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.66,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.28,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.28,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.28,
+          "actualDate": "2026-06-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.28,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-16",
+          "plannedPrincipal": 101.49,
+          "plannedInterest": 1.93,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 101.49,
+          "plannedInterest": 9.15,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 7.22,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-16",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 56.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 18.3,
+      "sourceSheets": [
+        "Vienbutis Minsko 5A"
+      ]
+    },
+    {
+      "id": "LT-382",
+      "code": "LT-382",
+      "name": "Pagojo 1 II",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 108.26,
+      "currentValue": 0.0,
+      "profit": 5.72,
+      "investmentDate": "2025-10-20",
+      "completionDate": "2026-02-19",
+      "country": null,
+      "interestRate": 8.0,
+      "incomeReceived": 5.72,
+      "outstanding": 0.0,
+      "delayDays": 91,
+      "ltv": 41.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-07-21",
+      "payments": [
+        {
+          "date": "2026-02-02",
+          "type": "interest",
+          "amount": 2.45,
+          "note": null
+        },
+        {
+          "date": "2026-02-19",
+          "type": "principal",
+          "amount": 108.26,
+          "note": null
+        },
+        {
+          "date": "2026-02-19",
+          "type": "interest",
+          "amount": 0.41,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-02-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.45,
+          "actualDate": "2026-02-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.12,
+          "actualDate": "2026-02-19",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-21",
+          "plannedPrincipal": 108.26,
+          "plannedInterest": 1.95,
+          "actualDate": "2026-02-19",
+          "actualPrincipal": 108.26,
+          "actualInterest": 0.41,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 108.26,
+          "plannedInterest": 6.52,
+          "actualDate": null,
+          "actualPrincipal": 108.26,
+          "actualInterest": 2.86,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-10-21",
+      "durationMonths": 9,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 216.52,
+      "plannedInterest": 13.04,
+      "sourceSheets": [
+        "Pagojo 1 II"
+      ]
+    },
+    {
+      "id": "LT-388",
+      "code": "LT-388",
+      "name": "Miškininkų 30 II",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "profit": 1.06,
+      "investmentDate": "2025-10-28",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.0,
+      "incomeReceived": 1.06,
+      "outstanding": 10.0,
+      "delayDays": 0,
+      "ltv": 65.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-11-06",
+      "payments": [
+        {
+          "date": "2026-03-02",
+          "type": "interest",
+          "amount": 0.31,
+          "note": null
+        },
+        {
+          "date": "2026-06-01",
+          "type": "interest",
+          "amount": 0.22,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-03-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.31,
+          "actualDate": "2026-03-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.31,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.22,
+          "actualDate": "2026-06-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.22,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.22,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-06",
+          "plannedPrincipal": 10.0,
+          "plannedInterest": 0.17,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 10.0,
+          "plannedInterest": 0.92,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-11-06",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 1.84,
+      "sourceSheets": [
+        "Miškininkų 30 II"
+      ]
+    },
+    {
+      "id": "LT-418",
+      "code": "LT-418",
+      "name": "Sūduvos 8-2",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 106.06,
+      "currentValue": 106.06,
+      "profit": 11.08,
+      "investmentDate": "2025-12-12",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 11.08,
+      "outstanding": 106.06,
+      "delayDays": 0,
+      "ltv": 22.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-12-15",
+      "payments": [
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 3.02,
+          "note": null
+        },
+        {
+          "date": "2026-07-14",
+          "type": "interest",
+          "amount": 2.52,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.02,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.02,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.52,
+          "actualDate": "2026-07-14",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 14
+        },
+        {
+          "plannedDate": "2026-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-15",
+          "plannedPrincipal": 106.06,
+          "plannedInterest": 2.1,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 106.06,
+          "plannedInterest": 10.16,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 5.54,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-12-12",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 20.32,
+      "sourceSheets": [
+        "Sūduvos 8-2"
+      ]
+    },
+    {
+      "id": "LT-424",
+      "code": "LT-424",
+      "name": "Birelių namas II",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "profit": 0.88,
+      "investmentDate": "2025-12-19",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.25,
+      "incomeReceived": 0.88,
+      "outstanding": 10.0,
+      "delayDays": 0,
+      "ltv": 49.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-12-22",
+      "payments": [
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 0.23,
+          "note": null
+        },
+        {
+          "date": "2026-06-30",
+          "type": "interest",
+          "amount": 0.21,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.23,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.23,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.21,
+          "actualDate": "2026-06-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.21,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.21,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-22",
+          "plannedPrincipal": 10.0,
+          "plannedInterest": 0.19,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 10.0,
+          "plannedInterest": 0.84,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.44,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-12-22",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 1.68,
+      "sourceSheets": [
+        "Birelių namas II"
+      ]
+    },
+    {
+      "id": "LT-440",
+      "code": "LT-440",
+      "name": "Druskonio perlai VII",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 118.77,
+      "currentValue": 0.0,
+      "profit": 6.7,
+      "investmentDate": "2026-01-13",
+      "completionDate": "2026-03-05",
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 6.7,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 32.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2027-01-21",
+      "payments": [
+        {
+          "date": "2026-03-05",
+          "type": "interest",
+          "amount": 3.35,
+          "note": null
+        },
+        {
+          "date": "2026-03-05",
+          "type": "principal",
+          "amount": 118.77,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-04-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.35,
+          "actualDate": "2026-03-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.35,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.82,
+          "actualDate": "2026-03-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-03",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.91,
+          "actualDate": "2026-03-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-21",
+          "plannedPrincipal": 118.77,
+          "plannedInterest": 2.44,
+          "actualDate": "2026-03-05",
+          "actualPrincipal": 118.77,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 118.77,
+          "plannedInterest": 11.52,
+          "actualDate": null,
+          "actualPrincipal": 118.77,
+          "actualInterest": 3.35,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-01-21",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 237.54,
+      "plannedInterest": 23.04,
+      "sourceSheets": [
+        "Druskonio perlai VII"
+      ]
+    },
+    {
+      "id": "LT-451",
+      "code": "LT-451",
+      "name": "Vingio namai XIV",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 123.63,
+      "currentValue": 123.63,
+      "profit": 8.1,
+      "investmentDate": "2026-01-27",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 8.1,
+      "outstanding": 123.63,
+      "delayDays": 0,
+      "ltv": 62.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2027-02-02",
+      "payments": [
+        {
+          "date": "2026-06-01",
+          "type": "interest",
+          "amount": 4.05,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 4.05,
+          "actualDate": "2026-06-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 4.05,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.9,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.94,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-02",
+          "plannedPrincipal": 123.63,
+          "plannedInterest": 2.02,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 123.63,
+          "plannedInterest": 11.91,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 4.05,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-02-02",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 80.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 23.82,
+      "sourceSheets": [
+        "Vingio namai XIV"
+      ]
+    },
+    {
+      "id": "LT-457",
+      "code": "LT-457",
+      "name": "Vanagupės 36A-204 II",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 103.62,
+      "currentValue": 0.0,
+      "profit": 7.6,
+      "investmentDate": "2026-02-03",
+      "completionDate": "2026-07-08",
+      "country": null,
+      "interestRate": 8.5,
+      "incomeReceived": 7.6,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 41.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-11-04",
+      "payments": [
+        {
+          "date": "2026-06-01",
+          "type": "interest",
+          "amount": 2.89,
+          "note": null
+        },
+        {
+          "date": "2026-07-08",
+          "type": "principal",
+          "amount": 103.62,
+          "note": null
+        },
+        {
+          "date": "2026-07-08",
+          "type": "interest",
+          "amount": 0.91,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.89,
+          "actualDate": "2026-06-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.89,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.18,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-04",
+          "plannedPrincipal": 103.62,
+          "plannedInterest": 1.57,
+          "actualDate": "2026-07-08",
+          "actualPrincipal": 103.62,
+          "actualInterest": 0.91,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 103.62,
+          "plannedInterest": 6.64,
+          "actualDate": null,
+          "actualPrincipal": 103.62,
+          "actualInterest": 3.8,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-02-04",
+      "durationMonths": 9,
+      "paymentFrequency": "Q",
+      "maxLtv": 65.0,
+      "repaidPrincipal": 207.24,
+      "plannedInterest": 13.28,
+      "sourceSheets": [
+        "Vanagupės 36A-204 II"
+      ]
+    },
+    {
+      "id": "LT-465",
+      "code": "LT-465",
+      "name": "Namas Panevėžyje",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 157.15,
+      "currentValue": 157.15,
+      "profit": 7.56,
+      "investmentDate": "2026-02-19",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.5,
+      "incomeReceived": 7.56,
+      "outstanding": 157.15,
+      "delayDays": 0,
+      "ltv": 24.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-11-20",
+      "payments": [
+        {
+          "date": "2026-06-01",
+          "type": "interest",
+          "amount": 3.78,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.78,
+          "actualDate": "2026-06-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.78,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.3,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-20",
+          "plannedPrincipal": 157.15,
+          "plannedInterest": 2.97,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 157.15,
+          "plannedInterest": 10.05,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.78,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-02-20",
+      "durationMonths": 9,
+      "paymentFrequency": "Q",
+      "maxLtv": 59.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 20.1,
+      "sourceSheets": [
+        "Namas Panevėžyje"
+      ]
+    },
+    {
+      "id": "LT-466",
+      "code": "LT-466",
+      "name": "Žemoji 52 XXIX“",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 103.68,
+      "currentValue": 0.0,
+      "profit": 9.04,
+      "investmentDate": "2026-02-20",
+      "completionDate": "2026-07-29",
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 9.04,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 71.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-07-17",
+      "payments": [
+        {
+          "date": "2026-06-01",
+          "type": "interest",
+          "amount": 2.76,
+          "note": null
+        },
+        {
+          "date": "2026-07-29",
+          "type": "principal",
+          "amount": 103.68,
+          "note": null
+        },
+        {
+          "date": "2026-07-29",
+          "type": "interest",
+          "amount": 1.26,
+          "note": null
+        },
+        {
+          "date": "2026-07-29",
+          "type": "other",
+          "amount": 0.5,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.76,
+          "actualDate": "2026-06-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.76,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-17",
+          "plannedPrincipal": 103.68,
+          "plannedInterest": 1.26,
+          "actualDate": "2026-07-29",
+          "actualPrincipal": 103.68,
+          "actualInterest": 1.26,
+          "actualExtra": 0.5,
+          "historicalDelayDays": 12
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 103.68,
+          "plannedInterest": 4.02,
+          "actualDate": null,
+          "actualPrincipal": 103.68,
+          "actualInterest": 4.02,
+          "actualExtra": 0.5,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-02-20",
+      "durationMonths": 5,
+      "paymentFrequency": "Q",
+      "maxLtv": 80.0,
+      "repaidPrincipal": 207.36,
+      "plannedInterest": 8.04,
+      "sourceSheets": [
+        "Žemoji 52 XXIX“"
+      ]
+    },
+    {
+      "id": "LT-477",
+      "code": "LT-477",
+      "name": "Tautvilo kotedžai XIV",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 100.0,
+      "profit": 6.28,
+      "investmentDate": "2026-03-07",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 10.0,
+      "incomeReceived": 6.28,
+      "outstanding": 100.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2027-06-11",
+      "payments": [
+        {
+          "date": "2026-06-30",
+          "type": "interest",
+          "amount": 3.14,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.14,
+          "actualDate": "2026-06-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.14,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.5,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.5,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.5,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-11",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.97,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 12.61,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.14,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-03-11",
+      "durationMonths": 16,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 25.22,
+      "sourceSheets": [
+        "Tautvilo kotedžai XIV"
+      ]
+    },
+    {
+      "id": "LT-481",
+      "code": "LT-481",
+      "name": "Horizonto 2A XII",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 100.0,
+      "profit": 0.0,
+      "investmentDate": "2026-03-10",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 0.0,
+      "outstanding": 100.0,
+      "delayDays": 30,
+      "ltv": 70.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-12-09",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.9,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.38,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.82,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 7.1,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-03-10",
+      "durationMonths": 9,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 14.2,
+      "sourceSheets": [
+        "Horizonto 2A XII"
+      ]
+    },
+    {
+      "id": "LT-484",
+      "code": "LT-484",
+      "name": "Kauno 36-118 II",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 102.01,
+      "currentValue": 102.01,
+      "profit": 5.1,
+      "investmentDate": "2026-03-14",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.5,
+      "incomeReceived": 5.1,
+      "outstanding": 102.01,
+      "delayDays": 0,
+      "ltv": 73.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2027-03-16",
+      "payments": [
+        {
+          "date": "2026-07-10",
+          "type": "interest",
+          "amount": 2.55,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.55,
+          "actualDate": "2026-07-10",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 10
+        },
+        {
+          "plannedDate": "2026-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.17,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.17,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-16",
+          "plannedPrincipal": 102.01,
+          "plannedInterest": 1.83,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 102.01,
+          "plannedInterest": 8.72,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-03-16",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 17.44,
+      "sourceSheets": [
+        "Kauno 36-118 II"
+      ]
+    },
+    {
+      "id": "LT-558",
+      "code": "LT-558",
+      "name": "Vakaro 3A K1 III",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 142.39,
+      "currentValue": 142.39,
+      "profit": 0.0,
+      "investmentDate": "2026-07-08",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.25,
+      "incomeReceived": 0.0,
+      "outstanding": 142.39,
+      "delayDays": 0,
+      "ltv": 70.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2027-07-09",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-11-03",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 4.21,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.22,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.26,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-09",
+          "plannedPrincipal": 142.39,
+          "plannedInterest": 2.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 142.39,
+          "plannedInterest": 13.21,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": null,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 70.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 26.42,
+      "sourceSheets": [
+        "Vakaro 3A K1 III"
+      ]
+    },
+    {
+      "id": "LT-571",
+      "code": "LT-571",
+      "name": "Užnerio butai XV",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 110.51,
+      "currentValue": 110.51,
+      "profit": 0,
+      "investmentDate": "2026-07-29",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 0,
+      "outstanding": 110.51,
+      "delayDays": 0,
+      "ltv": 70.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2027-07-29",
+      "payments": [],
+      "paymentSchedule": [],
+      "interestStartDate": null,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 0,
+      "plannedInterest": 0,
+      "sourceSheets": [
+        "Užnerio butai XV"
+      ]
+    }
+  ]
+}

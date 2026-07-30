@@ -1,0 +1,383 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://portfolio-v2.local/schemas/platform.schema.json",
+  "title": "Portfolio V2 Platform Data",
+  "description": "Vieninga visų Portfolio V2 platformų JSON struktūra.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "platform",
+    "summary",
+    "history",
+    "investments"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "platform": {
+      "$ref": "#/$defs/platform"
+    },
+    "summary": {
+      "$ref": "#/$defs/summary"
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/historyEntry"
+      }
+    },
+    "investments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/investment"
+      }
+    }
+  },
+  "$defs": {
+    "nullableNumber": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nullableDate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "platform": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "group",
+        "type",
+        "category",
+        "currency",
+        "active",
+        "startDate",
+        "updatedAt",
+        "website"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "group": {
+          "type": "string",
+          "enum": [
+            "funds",
+            "brokerage",
+            "robo",
+            "p2p",
+            "real_estate"
+          ]
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "fund",
+            "broker",
+            "robo",
+            "p2p",
+            "real_estate",
+            "npl"
+          ]
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "currency": {
+          "type": "string",
+          "const": "EUR"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "startDate": {
+          "$ref": "#/$defs/nullableDate"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "website": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "invested",
+        "currentValue",
+        "profit",
+        "returnRate",
+        "xirr",
+        "cash",
+        "incomeReceived",
+        "activeInvestments",
+        "delayedInvestments",
+        "completedInvestments"
+      ],
+      "properties": {
+        "invested": {
+          "type": "number"
+        },
+        "currentValue": {
+          "type": "number"
+        },
+        "profit": {
+          "type": "number"
+        },
+        "returnRate": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "xirr": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "cash": {
+          "type": "number"
+        },
+        "incomeReceived": {
+          "type": "number"
+        },
+        "activeInvestments": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "delayedInvestments": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "completedInvestments": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "averageRate": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "averageLtv": {
+          "$ref": "#/$defs/nullableNumber"
+        }
+      }
+    },
+    "historyEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "date",
+        "invested",
+        "value",
+        "profit",
+        "cash",
+        "income"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "invested": {
+          "type": "number"
+        },
+        "value": {
+          "type": "number"
+        },
+        "profit": {
+          "type": "number"
+        },
+        "cash": {
+          "type": "number"
+        },
+        "income": {
+          "type": "number"
+        }
+      }
+    },
+    "investment": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "code",
+        "name",
+        "investmentType",
+        "status",
+        "currency",
+        "invested",
+        "currentValue",
+        "profit",
+        "investmentDate"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "investmentType": {
+          "type": "string",
+          "enum": [
+            "fund",
+            "stock",
+            "etf",
+            "loan",
+            "real_estate_project",
+            "npl_asset",
+            "robo_portfolio",
+            "other"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "delayed",
+            "completed",
+            "sold",
+            "written_off"
+          ]
+        },
+        "currency": {
+          "type": "string",
+          "const": "EUR"
+        },
+        "invested": {
+          "type": "number"
+        },
+        "currentValue": {
+          "type": "number"
+        },
+        "profit": {
+          "type": "number"
+        },
+        "investmentDate": {
+          "$ref": "#/$defs/nullableDate"
+        },
+        "completionDate": {
+          "$ref": "#/$defs/nullableDate"
+        },
+        "country": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "interestRate": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "incomeReceived": {
+          "type": "number"
+        },
+        "outstanding": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "delayDays": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "ltv": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "quantity": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "averagePrice": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "marketPrice": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "ticker": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "isin": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "rating": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "maturityDate": {
+          "$ref": "#/$defs/nullableDate"
+        },
+        "payments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/payment"
+          }
+        }
+      }
+    },
+    "payment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "date",
+        "type",
+        "amount"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "principal",
+            "interest",
+            "dividend",
+            "fee",
+            "tax",
+            "deposit",
+            "withdrawal",
+            "other"
+          ]
+        },
+        "amount": {
+          "type": "number"
+        },
+        "note": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    }
+  }
+}

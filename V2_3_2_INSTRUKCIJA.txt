@@ -1,0 +1,30 @@
+PORTFOLIO V2.3.2 – CROWDPEAR IMPORTERIO ATSPARUMAS
+
+Pakeistas failas:
+  scripts\import_crowdpear.py
+
+Kas pakeista:
+- projekto duomenys ieškomi pagal laukų pavadinimus, o ne B1–B14 adresus;
+- mokėjimų stulpeliai ieškomi pagal antraštes, o ne D–K raides;
+- Pinigai lapo stulpeliai ieškomi pagal antraštes;
+- Overview suvestinės reikšmės ieškomos pagal grupę ir antraštę;
+- palaikomi esami laukų variantai, pvz. „Sutartis“ / „Paskola“ ir
+  „Investuota,Eur“ / „Investuota viso“;
+- jei būtina antraštė dingsta arba pervadinama neatpažįstamai, importeris
+  sustoja su aiškiu klaidos pranešimu, užuot sugeneravęs neteisingą JSON.
+
+Įdiegimas:
+1. Išarchyvuok ZIP tiesiai į portfolio-v2 aplanką.
+2. Leisk pakeisti scripts\import_crowdpear.py.
+3. Paleisk įprastą komandą:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_3_IMPORT_CROWDPEAR.ps1
+
+Patikrinta su Crowdpear(10).xlsx:
+- projektų lapų: 26;
+- unikalių projektų: 25;
+- aktyvių: 11;
+- vėluojančių: 1;
+- užbaigtų: 13;
+- vertė: 1186,48 EUR;
+- sujungiamas LT-264.

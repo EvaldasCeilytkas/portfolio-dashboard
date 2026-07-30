@@ -1,0 +1,43 @@
+PORTFOLIO V2.6 – NORDSTREET IMPORTERIS
+
+1. Išarchyvuokite ZIP tiesiai į portfolio-v2 aplanką.
+2. Nordstreet Excel failą pervadinkite į:
+
+   Nordstreet.xlsx
+
+3. Įkelkite jį čia:
+
+   portfolio-v2\excel\Nordstreet.xlsx
+
+4. Paleiskite:
+
+   powershell -ExecutionPolicy Bypass -File .\V2_6_IMPORT_NORDSTREET.ps1
+
+Rezultatas:
+
+   public\data\platforms\nordstreet.json
+
+Importeris:
+- skaito „Apžvalga“ ir „Pinigai“ lapus;
+- automatiškai aptinka visus projektų lapus;
+- laukus ir mokėjimų stulpelius randa pagal antraštes;
+- atskiria projekto informacijos „Paskola“ lauką nuo mokėjimų lentelės;
+- „completed“ nustato tik tada, kai „Grąžinta“ turi reikšmę;
+- istorinis vėlavimas statuso nekeičia;
+- „delayed“ nustato tik pagal šiuo metu nesumokėtą pradelstą įmoką;
+- sumokėta įmoka laikoma nevėluojančia, net jei anksčiau vėlavo;
+- nauji projektų lapai bus importuojami automatiškai;
+- generuoja V2 schemą atitinkantį JSON.
+
+Patikrinta su Nordstreet(1).xlsx:
+- projektų lapų: 26;
+- unikalių projektų: 26;
+- aktyvių: 9;
+- vėluojančių: 8;
+- užbaigtų: 9;
+- platformos vertė: 1111,85 EUR.
+
+Pastaba:
+„Bistryčios g. 27 (3 etapas)“ turi istorinį vėlavimo ženklą, tačiau laukas
+„Grąžinta“ užpildytas, todėl projektas teisingai laikomas užbaigtu, o ne
+vėluojančiu.

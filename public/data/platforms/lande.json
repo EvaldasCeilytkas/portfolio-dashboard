@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T18:55:42+03:00",
+  "moduleType": "p2p_loans",
+  "platform": {
+    "id": "lande",
+    "slug": "lande",
+    "name": "Lande",
+    "group": "p2p",
+    "type": "p2p_loans",
+    "category": "Žemės ūkio paskolos",
+    "currency": "EUR",
+    "active": true,
+    "status": "active",
+    "startDate": "2026-07-15",
+    "updatedAt": "2026-07-31"
+  },
+  "summary": {
+    "invested": 50.0,
+    "currentValue": 56.65,
+    "profit": 6.65,
+    "returnRate": 13.3,
+    "xirr": 15724.286,
+    "cash": 1.65,
+    "incomeReceived": 6.65,
+    "activeInvestments": 1,
+    "delayedInvestments": 0,
+    "completedInvestments": 0,
+    "averageRate": 13.0,
+    "averageLtv": 58.0,
+    "deposited": 50.0,
+    "withdrawn": 0.0,
+    "platformInvested": 55.0,
+    "calculatedOutstanding": 55.0,
+    "principalReturned": 0.0,
+    "interestReceived": 0.0,
+    "grossInterestReceived": 0.0,
+    "bonuses": 6.65,
+    "fees": 0.0,
+    "totalInvestments": 1,
+    "roi": 13.3
+  },
+  "history": [
+    {
+      "date": "2026-07-31",
+      "invested": 50.0,
+      "value": 56.65,
+      "profit": 6.65,
+      "cash": 1.65,
+      "income": 6.65,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 6.65,
+      "monthlyProfit": 6.65,
+      "monthlyReturn": 13.3
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-07-31",
+    "invested": 50.0,
+    "value": 56.65,
+    "profit": 6.65,
+    "cash": 1.65,
+    "income": 6.65,
+    "deposits": 50.0,
+    "withdrawals": 0.0,
+    "bonuses": 6.65,
+    "monthlyProfit": 6.65,
+    "monthlyReturn": 13.3
+  },
+  "largestInvestment": {
+    "id": "42604620",
+    "slug": "42604620",
+    "loanCode": "42604620",
+    "name": "42604620",
+    "sourceSheet": "42604620",
+    "country": "Poland",
+    "borrower": "GOSPODARSTWO ROLNE KINGA SZYMAŃSKA",
+    "collateral": "Žemė",
+    "ltv": 58.0,
+    "loanType": "Žemės ūkio paskola",
+    "term": "1 m. 0 mėn. 9 d.",
+    "investmentDate": "2026-07-16",
+    "startDate": null,
+    "plannedEndDate": "2027-07-25",
+    "actualEndDate": null,
+    "rate": 13.0,
+    "invested": 55.0,
+    "currentValue": 55.0,
+    "outstandingPrincipal": 55.0,
+    "principalReturned": 0.0,
+    "interestReceived": 0.0,
+    "fees": 0.0,
+    "profit": 0.0,
+    "xirr": null,
+    "status": "active",
+    "delayDays": 0,
+    "earlyLateDays": 0,
+    "schedule": [
+      {
+        "plannedDate": "2026-08-25",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      }
+    ],
+    "cashFlows": [
+      {
+        "date": "2026-07-16",
+        "amount": -55.0,
+        "delayDays": 0
+      }
+    ]
+  },
+  "distributions": {
+    "country": [
+      {
+        "label": "Poland",
+        "count": 1,
+        "value": 55.0
+      }
+    ],
+    "borrower": [
+      {
+        "label": "GOSPODARSTWO ROLNE KINGA SZYMAŃSKA",
+        "count": 1,
+        "value": 55.0
+      }
+    ],
+    "collateral": [
+      {
+        "label": "Žemė",
+        "count": 1,
+        "value": 55.0
+      }
+    ],
+    "loanType": [
+      {
+        "label": "Žemės ūkio paskola",
+        "count": 1,
+        "value": 55.0
+      }
+    ],
+    "status": [
+      {
+        "label": "active",
+        "count": 1,
+        "value": 55.0
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2026-07-15",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-07-16",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 5.0
+    },
+    {
+      "date": "2026-07-16",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 1.65
+    },
+    {
+      "date": "2026-07-24",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "42604620",
+      "slug": "42604620",
+      "loanCode": "42604620",
+      "name": "42604620",
+      "sourceSheet": "42604620",
+      "country": "Poland",
+      "borrower": "GOSPODARSTWO ROLNE KINGA SZYMAŃSKA",
+      "collateral": "Žemė",
+      "ltv": 58.0,
+      "loanType": "Žemės ūkio paskola",
+      "term": "1 m. 0 mėn. 9 d.",
+      "investmentDate": "2026-07-16",
+      "startDate": null,
+      "plannedEndDate": "2027-07-25",
+      "actualEndDate": null,
+      "rate": 13.0,
+      "invested": 55.0,
+      "currentValue": 55.0,
+      "outstandingPrincipal": 55.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-08-25",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-07-16",
+          "amount": -55.0,
+          "delayDays": 0
+        }
+      ]
+    }
+  ],
+  "source": {
+    "file": "Lande.xlsx",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "loanSheets": 1,
+    "skippedSheets": [],
+    "generatedAt": "2026-07-30T18:55:42+03:00"
+  }
+}

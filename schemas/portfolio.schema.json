@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://portfolio-v2.local/schemas/portfolio.schema.json",
+  "title": "Portfolio V2 Aggregate Data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "currency",
+    "summary",
+    "allocation",
+    "platforms",
+    "history"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "currency": {
+      "type": "string",
+      "const": "EUR"
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "invested",
+        "currentValue",
+        "profit",
+        "returnRate",
+        "xirr",
+        "cash",
+        "incomeReceived",
+        "platformCount",
+        "activeInvestments",
+        "delayedInvestments",
+        "completedInvestments"
+      ],
+      "properties": {
+        "invested": {
+          "type": "number"
+        },
+        "currentValue": {
+          "type": "number"
+        },
+        "profit": {
+          "type": "number"
+        },
+        "returnRate": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "xirr": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "cash": {
+          "type": "number"
+        },
+        "incomeReceived": {
+          "type": "number"
+        },
+        "platformCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "activeInvestments": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "delayedInvestments": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "completedInvestments": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "allocation": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

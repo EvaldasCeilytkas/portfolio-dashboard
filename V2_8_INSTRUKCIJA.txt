@@ -1,0 +1,29 @@
+﻿PORTFOLIO V2.8 – BUILD_PORTFOLIO.PY
+
+Paketas prideda:
+
+  scripts\build_portfolio.py
+  scripts\validate_portfolio_data.py
+  schemas\portfolio.schema.json
+  V2_8_BUILD_PORTFOLIO.ps1
+
+Ką daro:
+1. Paleidžia visus keturis 1 grupės importerius.
+2. Perskaito visus JSON failus iš:
+   public\data\platforms\
+3. Sujungia juos į:
+   public\data\portfolio.json
+4. Patikrina galutinį failą.
+
+Paleidimas:
+
+  powershell -ExecutionPolicy Bypass -File .\V2_8_BUILD_PORTFOLIO.ps1
+
+Svarbu:
+- build_portfolio.py automatiškai įtrauks ir būsimas platformas, kai jų JSON
+  atsiras public\data\platforms kataloge.
+- Bendras returnRate skaičiuojamas:
+  bendras pelnas / bendra investuota suma.
+- Bendras XIRR yra platformų XIRR svertinis vidurkis pagal dabartinę vertę.
+- history sujungiamas pagal datas, kiekvienai platformai naudojant naujausią
+  jos įrašą iki konkrečios datos.

@@ -1,0 +1,6586 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-30T18:56:25+03:00",
+  "platform": {
+    "id": "nordstreet",
+    "slug": "nordstreet",
+    "name": "Nordstreet",
+    "group": "real_estate",
+    "type": "real_estate",
+    "category": "NT sutelktinis finansavimas",
+    "currency": "EUR",
+    "active": true,
+    "startDate": "2025-02-28",
+    "updatedAt": "2026-07-30",
+    "website": "https://nordstreet.com"
+  },
+  "summary": {
+    "invested": 950.0,
+    "currentValue": 1111.85,
+    "profit": 161.85,
+    "returnRate": 17.0368,
+    "xirr": 15.314,
+    "cash": 77.97,
+    "incomeReceived": 112.91,
+    "activeInvestments": 9,
+    "delayedInvestments": 9,
+    "completedInvestments": 8,
+    "averageRate": 12.2685,
+    "averageLtv": 57.4773
+  },
+  "history": [
+    {
+      "date": "2026-07-01",
+      "invested": 950.0,
+      "value": 1111.85,
+      "profit": 161.85,
+      "cash": 77.97,
+      "income": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "LT-974",
+      "code": "LT-974",
+      "name": "Mesiheina tee 5 ir 8, Pärnu miestas, Estija (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 50.0,
+      "currentValue": 0.0,
+      "profit": 15.08,
+      "investmentDate": "2025-02-27",
+      "completionDate": "2026-04-28",
+      "country": null,
+      "interestRate": 13.0,
+      "incomeReceived": 15.08,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 48.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-04-28",
+      "payments": [
+        {
+          "date": "2025-03-28",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2025-04-28",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-05-28",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-06-28",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-08-28",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-08-28",
+          "type": "other",
+          "amount": 0.03,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2025-09-02",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-09-02",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2025-09-22",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-10-25",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-11-25",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-12-25",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-01-25",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-02-27",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-03-30",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2026-04-28",
+          "type": "principal",
+          "amount": 50.0,
+          "note": null
+        },
+        {
+          "date": "2026-04-28",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-03-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-03-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-04-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-04-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-05-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-05-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-06-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-06-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-07-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-08-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.03,
+          "historicalDelayDays": 31
+        },
+        {
+          "plannedDate": "2025-08-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-09-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 5
+        },
+        {
+          "plannedDate": "2025-09-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-09-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-10-25",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-11-25",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-12-25",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-01-25",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-02-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2026-03-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2026-04-28",
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-04-28",
+          "actualPrincipal": 50.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 7.55,
+          "actualDate": null,
+          "actualPrincipal": 50.0,
+          "actualInterest": 7.5,
+          "actualExtra": 0.04,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-02-28",
+      "durationMonths": 14,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 100.0,
+      "plannedInterest": 15.1,
+      "sourceSheets": [
+        "Mesiheina tee 5 ir 8 (1)"
+      ]
+    },
+    {
+      "id": "LT-969",
+      "code": "LT-969",
+      "name": "Bistryčios g. 27, Vilnius, Lietuva (3 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 50.0,
+      "currentValue": 50.0,
+      "profit": 15.8,
+      "investmentDate": "2025-03-01",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 13.0,
+      "incomeReceived": 15.8,
+      "outstanding": 50.0,
+      "delayDays": 20,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-07-10",
+      "payments": [
+        {
+          "date": "2025-04-01",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-05-05",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2025-06-05",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-07-04",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2025-08-04",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-09-04",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-10-02",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2025-11-04",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-12-05",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2026-01-04",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-02-03",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-03-04",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-04-03",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-05-06",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2026-06-05",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-07-03",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-04-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-04-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-05-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-05-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-06-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-06-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-07-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-07-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-08-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-08-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-09-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-10-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-11-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-12-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-01-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-02-03",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2026-03-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-04-03",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2026-05-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-06-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-06-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2026-07-03",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-10",
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 0.18,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 8.08,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 7.9,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-03-05",
+      "durationMonths": 17,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 16.16,
+      "sourceSheets": [
+        "Bistryčios g. 27 (3)"
+      ]
+    },
+    {
+      "id": "LT-987",
+      "code": "LT-987",
+      "name": "2 MW saulės elektrinių parkas Narvydžių k. (9 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 50.0,
+      "currentValue": 50.0,
+      "profit": 5.86,
+      "investmentDate": "2025-03-01",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 14.0,
+      "incomeReceived": 5.86,
+      "outstanding": 50.0,
+      "delayDays": 328,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-01-06",
+      "payments": [
+        {
+          "date": "2025-04-02",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2025-05-07",
+          "type": "interest",
+          "amount": 0.57,
+          "note": null
+        },
+        {
+          "date": "2025-06-04",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2025-07-07",
+          "type": "interest",
+          "amount": 0.57,
+          "note": null
+        },
+        {
+          "date": "2025-08-19",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2025-08-19",
+          "type": "other",
+          "amount": 0.02,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-04-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2025-04-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-05-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": "2025-05-07",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.57,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2025-06-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2025-06-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-07-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": "2025-07-07",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.57,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2025-08-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2025-08-19",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.02,
+          "historicalDelayDays": 14
+        },
+        {
+          "plannedDate": "2025-09-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-06",
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 0.06,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 5.88,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.91,
+          "actualExtra": 0.02,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-03-05",
+      "durationMonths": 11,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 11.76,
+      "sourceSheets": [
+        "2 MW saulės elektrinių par. (9)"
+      ]
+    },
+    {
+      "id": "LT-981",
+      "code": "LT-981",
+      "name": "Kvartalas \"Asiūklės parkas” (2 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 50.0,
+      "currentValue": 48.98,
+      "profit": 14.5,
+      "investmentDate": "2025-03-14",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 14.5,
+      "outstanding": 48.98,
+      "delayDays": 0,
+      "ltv": 69.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-02-21",
+      "payments": [
+        {
+          "date": "2025-04-22",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2025-05-12",
+          "type": "interest",
+          "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2025-06-06",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2025-07-21",
+          "type": "interest",
+          "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2025-08-13",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2025-09-10",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2025-10-09",
+          "type": "interest",
+          "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2025-11-07",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2025-12-08",
+          "type": "interest",
+          "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2026-01-16",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-02-09",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-03-10",
+          "type": "interest",
+          "amount": 0.42,
+          "note": null
+        },
+        {
+          "date": "2026-04-14",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-05-08",
+          "type": "interest",
+          "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2026-06-10",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-06-12",
+          "type": "principal",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2026-07-20",
+          "type": "interest",
+          "amount": 0.44,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-04-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2025-04-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2025-05-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2025-05-12",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-06-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2025-06-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-07-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2025-07-21",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2025-08-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2025-08-13",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2025-09-10",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2025-10-09",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2025-11-07",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2025-12-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2026-01-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2026-02-09",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.42,
+          "actualDate": "2026-03-10",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.42,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2026-04-14",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2026-05-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2026-06-10",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualDate": "2026-06-12",
+          "actualPrincipal": 0.51,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2026-07-20",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.44,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-20",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-21",
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 0.13,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 10.59,
+          "actualDate": null,
+          "actualPrincipal": 0.51,
+          "actualInterest": 7.25,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-03-20",
+      "durationMonths": 24,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 1.02,
+      "plannedInterest": 21.18,
+      "sourceSheets": [
+        "Kvartalas \"Asiūklės parkas” (2)"
+      ]
+    },
+    {
+      "id": "LT-1027",
+      "code": "LT-1027",
+      "name": "Jono Puzino g. 21 - 1, Vilnius, Lietuva (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 50.0,
+      "currentValue": 0.0,
+      "profit": 11.22,
+      "investmentDate": "2025-04-19",
+      "completionDate": "2026-04-13",
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 11.22,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 51.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-04-25",
+      "payments": [
+        {
+          "date": "2025-05-22",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2025-06-09",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-07-22",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2025-08-22",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-09-24",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-10-23",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2025-11-24",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-12-23",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2026-01-19",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-02-26",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-03-23",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-03-26",
+          "type": "principal",
+          "amount": 18.66,
+          "note": null
+        },
+        {
+          "date": "2026-03-26",
+          "type": "interest",
+          "amount": 0.01,
+          "note": null
+        },
+        {
+          "date": "2026-04-13",
+          "type": "principal",
+          "amount": 31.34,
+          "note": null
+        },
+        {
+          "date": "2026-04-13",
+          "type": "interest",
+          "amount": 0.18,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-05-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-05-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-06-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-06-09",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-07-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-07-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-08-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-08-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-09-24",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-10-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-11-24",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2025-12-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-01-19",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-02-26",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-03-25",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.46,
+          "actualDate": "2026-03-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.46,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualDate": "2026-03-26",
+          "actualPrincipal": 18.66,
+          "actualInterest": 0.01,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-25",
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 0.58,
+          "actualDate": "2026-04-13",
+          "actualPrincipal": 31.34,
+          "actualInterest": 0.18,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 6.0,
+          "actualDate": null,
+          "actualPrincipal": 50.0,
+          "actualInterest": 5.61,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-04-25",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 100.0,
+      "plannedInterest": 12.0,
+      "sourceSheets": [
+        "Jono Puzino g. 21-1 (1)"
+      ]
+    },
+    {
+      "id": "LT-1029",
+      "code": "LT-1029",
+      "name": "Jono Puzino g. 21 - 1, Vilnius, Lietuva (2 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 54.0,
+      "currentValue": 0.0,
+      "profit": 12.18,
+      "investmentDate": "2025-04-26",
+      "completionDate": "2026-04-13",
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 12.18,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 51.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-04-25",
+      "payments": [
+        {
+          "date": "2025-05-27",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-06-09",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-07-22",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-08-22",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-09-24",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-10-23",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-11-24",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-12-22",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-01-19",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-02-26",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-03-23",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-03-26",
+          "type": "principal",
+          "amount": 20.12,
+          "note": null
+        },
+        {
+          "date": "2026-04-13",
+          "type": "principal",
+          "amount": 33.88,
+          "note": null
+        },
+        {
+          "date": "2026-04-13",
+          "type": "interest",
+          "amount": 0.12,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-05-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-05-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-06-09",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-07-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-07-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-08-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-08-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-09-24",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-10-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-11-24",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-12-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-01-19",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-02-26",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-03-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualDate": "2026-03-26",
+          "actualPrincipal": 20.12,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-25",
+          "plannedPrincipal": 54.0,
+          "plannedInterest": 0.42,
+          "actualDate": "2026-04-13",
+          "actualPrincipal": 33.88,
+          "actualInterest": 0.12,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 54.0,
+          "plannedInterest": 6.39,
+          "actualDate": null,
+          "actualPrincipal": 54.0,
+          "actualInterest": 6.09,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-04-30",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 108.0,
+      "plannedInterest": 12.78,
+      "sourceSheets": [
+        "Jono Puzino g. 21-1 (2)"
+      ]
+    },
+    {
+      "id": "LT-1035",
+      "code": "LT-1035",
+      "name": "Lubānas g. 133A, Ryga, Latvija (7 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 51.0,
+      "currentValue": 0.0,
+      "profit": 7.54,
+      "investmentDate": "2025-05-02",
+      "completionDate": "2025-12-19",
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 7.54,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2025-11-22",
+      "payments": [
+        {
+          "date": "2025-06-09",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2025-07-02",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-08-03",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2025-09-02",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2025-10-02",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "principal",
+          "amount": 51.0,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "interest",
+          "amount": 0.33,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "other",
+          "amount": 0.4,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-06-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2025-06-09",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 4
+        },
+        {
+          "plannedDate": "2025-07-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-07-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-08-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2025-08-03",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2025-09-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-10-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-05",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2025-12-19",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 44
+        },
+        {
+          "plannedDate": "2025-11-22",
+          "plannedPrincipal": 51.0,
+          "plannedInterest": 0.33,
+          "actualDate": "2025-12-19",
+          "actualPrincipal": 51.0,
+          "actualInterest": 0.33,
+          "actualExtra": 0.4,
+          "historicalDelayDays": 27
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 51.0,
+          "plannedInterest": 3.37,
+          "actualDate": null,
+          "actualPrincipal": 51.0,
+          "actualInterest": 3.37,
+          "actualExtra": 0.4,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-05-05",
+      "durationMonths": 7,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 102.0,
+      "plannedInterest": 6.74,
+      "sourceSheets": [
+        "Lubānas g. 133A, Ryga (7)"
+      ]
+    },
+    {
+      "id": "LT-1041",
+      "code": "LT-1041",
+      "name": "Vilniaus g. 38/38A/38B, Putiniškių k. (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 52.0,
+      "currentValue": 52.0,
+      "profit": 10.34,
+      "investmentDate": "2025-05-13",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 10.34,
+      "outstanding": 52.0,
+      "delayDays": 56,
+      "ltv": 58.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-07-04",
+      "payments": [
+        {
+          "date": "2025-08-01",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-09-01",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-10-01",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2025-11-21",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-11-21",
+          "type": "other",
+          "amount": 0.02,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2025-12-01",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2026-01-06",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-02-18",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-02-18",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-03-25",
+          "type": "interest",
+          "amount": 0.47,
+          "note": null
+        },
+        {
+          "date": "2026-03-25",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-04-16",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-04-16",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-05-11",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-08-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-08-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-09-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2025-10-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-11-21",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.02,
+          "historicalDelayDays": 17
+        },
+        {
+          "plannedDate": "2025-12-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2025-12-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-01-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2026-02-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-02-18",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 14
+        },
+        {
+          "plannedDate": "2026-03-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.47,
+          "actualDate": "2026-03-25",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.47,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 21
+        },
+        {
+          "plannedDate": "2026-04-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-04-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 12
+        },
+        {
+          "plannedDate": "2026-05-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2026-05-11",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 7
+        },
+        {
+          "plannedDate": "2026-06-04",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-04",
+          "plannedPrincipal": 52.0,
+          "plannedInterest": 0.59,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 52.0,
+          "plannedInterest": 6.23,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 5.12,
+          "actualExtra": 0.05,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-07-04",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 12.46,
+      "sourceSheets": [
+        "Vilniaus g. 38 38A 38B (1)"
+      ]
+    },
+    {
+      "id": "LT-1047",
+      "code": "LT-1047",
+      "name": "Stoties g. 38, Panevėžys, Lietuva",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 50.0,
+      "currentValue": 0.0,
+      "profit": 13.38,
+      "investmentDate": "2025-05-20",
+      "completionDate": "2026-05-29",
+      "country": null,
+      "interestRate": 13.0,
+      "incomeReceived": 13.38,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-05-26",
+      "payments": [
+        {
+          "date": "2025-06-27",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-07-28",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-08-27",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-09-22",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-10-15",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-11-26",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-12-29",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-01-30",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-02-27",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-05-02",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-05-29",
+          "type": "principal",
+          "amount": 50.0,
+          "note": null
+        },
+        {
+          "date": "2026-05-29",
+          "type": "interest",
+          "amount": 0.42,
+          "note": null
+        },
+        {
+          "date": "2026-05-29",
+          "type": "other",
+          "amount": 0.3,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-06-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-07-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-07-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-08-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-08-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-09-22",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-10-15",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-11-26",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-12-29",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-01-30",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-02-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2026-05-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-26",
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2026-05-29",
+          "actualPrincipal": 50.0,
+          "actualInterest": 0.42,
+          "actualExtra": 0.3,
+          "historicalDelayDays": 3
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 6.42,
+          "actualDate": null,
+          "actualPrincipal": 50.0,
+          "actualInterest": 6.39,
+          "actualExtra": 0.3,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-05-30",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 100.0,
+      "plannedInterest": 12.84,
+      "sourceSheets": [
+        "Stoties g. 38, Panevėžys"
+      ]
+    },
+    {
+      "id": "LT-1066",
+      "code": "LT-1066",
+      "name": "Vidiškių vs., Žemaitkiemio sen., Ukmergės r. (2 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 55.0,
+      "currentValue": 55.0,
+      "profit": 15.44,
+      "investmentDate": "2025-06-12",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 15.0,
+      "incomeReceived": 15.44,
+      "outstanding": 55.0,
+      "delayDays": 65,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2027-06-26",
+      "payments": [
+        {
+          "date": "2025-07-23",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2025-08-25",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2025-09-23",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2026-01-06",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-01-06",
+          "type": "other",
+          "amount": 0.1,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-01-29",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2026-01-29",
+          "type": "other",
+          "amount": 0.09,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-05-08",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-05-08",
+          "type": "other",
+          "amount": 0.18,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-05-08",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2026-05-08",
+          "type": "other",
+          "amount": 0.14,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-05-08",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2026-05-08",
+          "type": "other",
+          "amount": 0.1,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-07-23",
+          "type": "interest",
+          "amount": 0.63,
+          "note": null
+        },
+        {
+          "date": "2026-07-23",
+          "type": "other",
+          "amount": 0.15,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-07-23",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2026-07-23",
+          "type": "other",
+          "amount": 0.12,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-07-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2025-07-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-08-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": "2025-08-25",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.7,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": "2025-09-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.7,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-01-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.1,
+          "historicalDelayDays": 72
+        },
+        {
+          "plannedDate": "2025-11-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": "2026-01-29",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.7,
+          "actualExtra": 0.09,
+          "historicalDelayDays": 64
+        },
+        {
+          "plannedDate": "2025-12-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-05-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.18,
+          "historicalDelayDays": 133
+        },
+        {
+          "plannedDate": "2026-01-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": "2026-05-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.7,
+          "actualExtra": 0.14,
+          "historicalDelayDays": 102
+        },
+        {
+          "plannedDate": "2026-02-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": "2026-05-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.7,
+          "actualExtra": 0.1,
+          "historicalDelayDays": 71
+        },
+        {
+          "plannedDate": "2026-03-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2026-07-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.63,
+          "actualExtra": 0.15,
+          "historicalDelayDays": 119
+        },
+        {
+          "plannedDate": "2026-04-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": "2026-07-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.7,
+          "actualExtra": 0.12,
+          "historicalDelayDays": 88
+        },
+        {
+          "plannedDate": "2026-05-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.7,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-26",
+          "plannedPrincipal": 55.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 55.0,
+          "plannedInterest": 16.43,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 6.84,
+          "actualExtra": 0.88,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-06-26",
+      "durationMonths": 24,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 32.86,
+      "sourceSheets": [
+        "Vidiškių vs., Žemaitkiemio (2)"
+      ]
+    },
+    {
+      "id": "LT-1067",
+      "code": "LT-1067",
+      "name": "Gyvenamasis kvartalas Javų g., Šiauliai, Lietuva (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 50.0,
+      "currentValue": 0.0,
+      "profit": 17.0,
+      "investmentDate": "2025-06-18",
+      "completionDate": "2026-07-17",
+      "country": null,
+      "interestRate": 14.0,
+      "incomeReceived": 17.0,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-12-27",
+      "payments": [
+        {
+          "date": "2025-07-28",
+          "type": "interest",
+          "amount": 0.57,
+          "note": null
+        },
+        {
+          "date": "2025-08-28",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2025-09-29",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2025-10-28",
+          "type": "interest",
+          "amount": 0.57,
+          "note": null
+        },
+        {
+          "date": "2025-11-28",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2025-12-29",
+          "type": "interest",
+          "amount": 0.57,
+          "note": null
+        },
+        {
+          "date": "2026-01-27",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2026-02-27",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2026-03-27",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-04-28",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2026-05-27",
+          "type": "interest",
+          "amount": 0.57,
+          "note": null
+        },
+        {
+          "date": "2026-06-27",
+          "type": "interest",
+          "amount": 0.65,
+          "note": null
+        },
+        {
+          "date": "2026-07-15",
+          "type": "interest",
+          "amount": 1.5,
+          "note": null
+        },
+        {
+          "date": "2026-07-17",
+          "type": "principal",
+          "amount": 50.0,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-07-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": "2025-07-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.57,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2025-08-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2025-08-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2025-09-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2025-09-29",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2025-10-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": "2025-10-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.57,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2025-11-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2025-11-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2025-12-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": "2025-12-29",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.57,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2026-01-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2026-01-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2026-02-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2026-03-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2026-04-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-05-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": "2026-05-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.57,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.65,
+          "actualDate": "2026-06-27",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.65,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.5,
+          "actualDate": "2026-07-15",
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.5,
+          "actualDate": "2026-07-17",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.5,
+          "actualDate": "2026-07-17",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.5,
+          "actualDate": "2026-07-17",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-27",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.5,
+          "actualDate": "2026-07-17",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-27",
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 1.5,
+          "actualDate": "2026-07-17",
+          "actualPrincipal": 50.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 50.0,
+          "plannedInterest": 16.0,
+          "actualDate": null,
+          "actualPrincipal": 50.0,
+          "actualInterest": 8.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-06-27",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 100.0,
+      "plannedInterest": 32.0,
+      "sourceSheets": [
+        "Gyvenamasis kvar. Javų g. (1)"
+      ]
+    },
+    {
+      "id": "LT-1103",
+      "code": "LT-1103",
+      "name": "Lubānas g. 133A, Ryga, Latvija (12 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 56.0,
+      "currentValue": 0.0,
+      "profit": 5.06,
+      "investmentDate": "2025-07-15",
+      "completionDate": "2025-12-19",
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 5.06,
+      "outstanding": 0.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2025-11-22",
+      "payments": [
+        {
+          "date": "2025-08-18",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-09-18",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-10-20",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "principal",
+          "amount": 56.0,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "interest",
+          "amount": 0.03,
+          "note": null
+        },
+        {
+          "date": "2025-12-19",
+          "type": "other",
+          "amount": 0.44,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-08-21",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-08-18",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-09-21",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-09-18",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-10-21",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-10-20",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-21",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-12-19",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 28
+        },
+        {
+          "plannedDate": "2025-11-22",
+          "plannedPrincipal": 56.0,
+          "plannedInterest": 0.03,
+          "actualDate": "2025-12-19",
+          "actualPrincipal": 56.0,
+          "actualInterest": 0.03,
+          "actualExtra": 0.44,
+          "historicalDelayDays": 27
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 56.0,
+          "plannedInterest": 2.09,
+          "actualDate": null,
+          "actualPrincipal": 56.0,
+          "actualInterest": 2.09,
+          "actualExtra": 0.44,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-07-21",
+      "durationMonths": 5,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 112.0,
+      "plannedInterest": 4.18,
+      "sourceSheets": [
+        "Lubānas g. 133A, Ryga, (12)"
+      ]
+    },
+    {
+      "id": "LT-1118",
+      "code": "LT-1118",
+      "name": "Viensėdžio g. 36A, Krikšioniškių k., (3 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 56.0,
+      "currentValue": 56.0,
+      "profit": 10.14,
+      "investmentDate": "2025-08-20",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 10.14,
+      "outstanding": 56.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2026-08-14",
+      "payments": [
+        {
+          "date": "2025-10-02",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2025-11-02",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-12-02",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-01-02",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-02-02",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-03-02",
+          "type": "interest",
+          "amount": 0.47,
+          "note": null
+        },
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-05-02",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        },
+        {
+          "date": "2026-06-02",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-07-02",
+          "type": "interest",
+          "amount": 0.5,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-10-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-10-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-11-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2025-12-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-01-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-02-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.47,
+          "actualDate": "2026-03-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.47,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-05-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-06-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.5,
+          "actualDate": "2026-07-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.5,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-14",
+          "plannedPrincipal": 56.0,
+          "plannedInterest": 0.24,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 56.0,
+          "plannedInterest": 5.83,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 5.07,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-02",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 11.66,
+      "sourceSheets": [
+        "Viensėdžio g. 36A (3)"
+      ]
+    },
+    {
+      "id": "LT-1125",
+      "code": "LT-1125",
+      "name": "Šaltinio g. 7, Panevėžys, Lietuva (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 54.0,
+      "currentValue": 54.0,
+      "profit": 10.72,
+      "investmentDate": "2025-09-01",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 10.72,
+      "outstanding": 54.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-09-08",
+      "payments": [
+        {
+          "date": "2025-10-01",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2025-11-04",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-12-04",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-01-08",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-02-05",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-03-06",
+          "type": "interest",
+          "amount": 0.49,
+          "note": null
+        },
+        {
+          "date": "2026-04-07",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-05-04",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-06-04",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-07-07",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-10-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-10-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-11-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-11-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-12-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-01-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-02-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": "2026-03-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-04-07",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2026-05-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-06-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2026-07-07",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.49,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-08-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-09-08",
+          "plannedPrincipal": 54.0,
+          "plannedInterest": 0.59,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 54.0,
+          "plannedInterest": 12.96,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 5.36,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-08",
+      "durationMonths": 24,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 25.92,
+      "sourceSheets": [
+        "Šaltinio g. 7, Panevėžys (1)"
+      ]
+    },
+    {
+      "id": "LT-1131",
+      "code": "LT-1131",
+      "name": "Mozūriškių g. 17 - 3, Vilnius, Lietuva",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 53.0,
+      "currentValue": 53.0,
+      "profit": 9.66,
+      "investmentDate": "2025-09-15",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 9.66,
+      "outstanding": 53.0,
+      "delayDays": 11,
+      "ltv": 65.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-09-19",
+      "payments": [
+        {
+          "date": "2025-10-20",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-11-19",
+          "type": "interest",
+          "amount": 0.54,
+          "note": null
+        },
+        {
+          "date": "2025-12-29",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2025-12-29",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-01-23",
+          "type": "interest",
+          "amount": 0.54,
+          "note": null
+        },
+        {
+          "date": "2026-02-18",
+          "type": "interest",
+          "amount": 0.54,
+          "note": null
+        },
+        {
+          "date": "2026-03-10",
+          "type": "interest",
+          "amount": 0.48,
+          "note": null
+        },
+        {
+          "date": "2026-05-13",
+          "type": "interest",
+          "amount": 0.54,
+          "note": null
+        },
+        {
+          "date": "2026-05-13",
+          "type": "other",
+          "amount": 0.03,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-06-16",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-06-16",
+          "type": "other",
+          "amount": 0.03,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-07-03",
+          "type": "interest",
+          "amount": 0.54,
+          "note": null
+        },
+        {
+          "date": "2026-07-03",
+          "type": "other",
+          "amount": 0.02,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-10-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-10-20",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2025-11-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.54,
+          "actualDate": "2025-11-19",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.54,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2025-12-29",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 10
+        },
+        {
+          "plannedDate": "2026-01-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.54,
+          "actualDate": "2026-01-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.54,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 4
+        },
+        {
+          "plannedDate": "2026-02-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.54,
+          "actualDate": "2026-02-18",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.54,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.48,
+          "actualDate": "2026-03-10",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.48,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.54,
+          "actualDate": "2026-05-13",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.54,
+          "actualExtra": 0.03,
+          "historicalDelayDays": 24
+        },
+        {
+          "plannedDate": "2026-05-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-06-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.03,
+          "historicalDelayDays": 28
+        },
+        {
+          "plannedDate": "2026-06-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.54,
+          "actualDate": "2026-07-03",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.54,
+          "actualExtra": 0.02,
+          "historicalDelayDays": 14
+        },
+        {
+          "plannedDate": "2026-07-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.54,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-19",
+          "plannedPrincipal": 53.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 53.0,
+          "plannedInterest": 6.35,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 4.74,
+          "actualExtra": 0.09,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-19",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 12.7,
+      "sourceSheets": [
+        "Mozūriškių g. 17 - 3, Vilnius"
+      ]
+    },
+    {
+      "id": "LT-1137",
+      "code": "LT-1137",
+      "name": "Parko g. 21 / Pergalės g. 36A, Vilnius, Lietuva (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 54.0,
+      "currentValue": 54.0,
+      "profit": 5.54,
+      "investmentDate": "2025-09-24",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 5.54,
+      "outstanding": 54.0,
+      "delayDays": 90,
+      "ltv": 55.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-10-28",
+      "payments": [
+        {
+          "date": "2025-11-26",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2025-12-26",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-01-26",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-03-16",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-03-16",
+          "type": "other",
+          "amount": 0.02,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-04-16",
+          "type": "interest",
+          "amount": 0.55,
+          "note": null
+        },
+        {
+          "date": "2026-04-16",
+          "type": "other",
+          "amount": 0.02,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-11-29",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2025-11-26",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2025-12-29",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": "2025-12-26",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.53,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-01-29",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-01-26",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-03-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.02,
+          "historicalDelayDays": 15
+        },
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": "2026-04-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.55,
+          "actualExtra": 0.02,
+          "historicalDelayDays": 15
+        },
+        {
+          "plannedDate": "2026-05-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.55,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-28",
+          "plannedPrincipal": 54.0,
+          "plannedInterest": 0.49,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 54.0,
+          "plannedInterest": 6.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.73,
+          "actualExtra": 0.04,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-10-29",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 12.92,
+      "sourceSheets": [
+        "Parko g. 21 Pergalės g. 36A (1)"
+      ]
+    },
+    {
+      "id": "LT-1148",
+      "code": "LT-1148",
+      "name": "Pienių g. 28A-28E, Užliedžių k., Užliedžių sen., (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 53.0,
+      "currentValue": 0.0,
+      "profit": 5.06,
+      "investmentDate": "2025-10-09",
+      "completionDate": "2026-02-06",
+      "country": null,
+      "interestRate": 14.0,
+      "incomeReceived": 5.06,
+      "outstanding": 0.0,
+      "delayDays": 150,
+      "ltv": 65.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "C",
+      "maturityDate": "2026-10-30",
+      "payments": [
+        {
+          "date": "2025-12-12",
+          "type": "interest",
+          "amount": 0.63,
+          "note": null
+        },
+        {
+          "date": "2025-12-12",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-01-13",
+          "type": "interest",
+          "amount": 0.6,
+          "note": null
+        },
+        {
+          "date": "2026-01-13",
+          "type": "other",
+          "amount": 0.02,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-02-06",
+          "type": "interest",
+          "amount": 0.63,
+          "note": null
+        },
+        {
+          "date": "2026-02-06",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-02-06",
+          "type": "principal",
+          "amount": 53.0,
+          "note": null
+        },
+        {
+          "date": "2026-02-06",
+          "type": "interest",
+          "amount": 0.63,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-11-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2025-12-12",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.63,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 12
+        },
+        {
+          "plannedDate": "2025-12-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-01-13",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.6,
+          "actualExtra": 0.02,
+          "historicalDelayDays": 14
+        },
+        {
+          "plannedDate": "2026-01-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.63,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 7
+        },
+        {
+          "plannedDate": "2026-03-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-02",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-30",
+          "plannedPrincipal": 53.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-02-06",
+          "actualPrincipal": 53.0,
+          "actualInterest": 0.63,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 53.0,
+          "plannedInterest": 7.41,
+          "actualDate": null,
+          "actualPrincipal": 53.0,
+          "actualInterest": 2.49,
+          "actualExtra": 0.04,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-10-30",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 106.0,
+      "plannedInterest": 14.82,
+      "sourceSheets": [
+        "Pienių g. 28A-28E (1)"
+      ]
+    },
+    {
+      "id": "LT-1152",
+      "code": "LT-1152",
+      "name": "\"Baltų Avenue\" - Baltų pr. 87B ir 87C, Kaunas(1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 77.0,
+      "currentValue": 77.0,
+      "profit": 11.1,
+      "investmentDate": "2025-10-18",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 11.0,
+      "incomeReceived": 11.1,
+      "outstanding": 77.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-11-18",
+      "payments": [
+        {
+          "date": "2025-12-20",
+          "type": "interest",
+          "amount": 0.69,
+          "note": null
+        },
+        {
+          "date": "2026-01-18",
+          "type": "interest",
+          "amount": 0.71,
+          "note": null
+        },
+        {
+          "date": "2026-02-17",
+          "type": "interest",
+          "amount": 0.71,
+          "note": null
+        },
+        {
+          "date": "2026-03-16",
+          "type": "interest",
+          "amount": 0.64,
+          "note": null
+        },
+        {
+          "date": "2026-04-16",
+          "type": "interest",
+          "amount": 0.71,
+          "note": null
+        },
+        {
+          "date": "2026-05-17",
+          "type": "interest",
+          "amount": 0.69,
+          "note": null
+        },
+        {
+          "date": "2026-06-15",
+          "type": "interest",
+          "amount": 0.71,
+          "note": null
+        },
+        {
+          "date": "2026-07-16",
+          "type": "interest",
+          "amount": 0.69,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": "2025-12-20",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.69,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-01-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": "2026-01-18",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.71,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-02-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": "2026-02-17",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.71,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.64,
+          "actualDate": "2026-03-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.64,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-04-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": "2026-04-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.71,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": "2026-05-17",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.69,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": "2026-06-15",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.71,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": "2026-07-16",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.69,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.64,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-08-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-09-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-10-19",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-11-18",
+          "plannedPrincipal": 77.0,
+          "plannedInterest": 0.88,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 77.0,
+          "plannedInterest": 16.91,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 5.55,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-11-19",
+      "durationMonths": 24,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 33.82,
+      "sourceSheets": [
+        "Baltų Avenue (1)"
+      ]
+    },
+    {
+      "id": "LT-1194",
+      "code": "LT-1194",
+      "name": "\"Filleo Home\" - Klevų 8-oji g., Palanga, Lietuva (3 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 66.0,
+      "currentValue": 66.0,
+      "profit": 7.96,
+      "investmentDate": "2025-12-19",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 7.96,
+      "outstanding": 66.0,
+      "delayDays": 0,
+      "ltv": 50.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-12-15",
+      "payments": [
+        {
+          "date": "2026-01-26",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-03-02",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-04-02",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-05-04",
+          "type": "interest",
+          "amount": 0.65,
+          "note": null
+        },
+        {
+          "date": "2026-06-02",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-06-29",
+          "type": "interest",
+          "amount": 0.65,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-01-29",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-01-26",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-03-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-04-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-04-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-05-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.65,
+          "actualDate": "2026-05-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.65,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 3
+        },
+        {
+          "plannedDate": "2026-06-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-06-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-07-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.65,
+          "actualDate": "2026-06-29",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.65,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.65,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.65,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-15",
+          "plannedPrincipal": 66.0,
+          "plannedInterest": 0.32,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 66.0,
+          "plannedInterest": 7.61,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.98,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-12-29",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 15.22,
+      "sourceSheets": [
+        "\"Filleo Home\", Palanga (3)"
+      ]
+    },
+    {
+      "id": "LT-1198",
+      "code": "LT-1198",
+      "name": "Sklypų masyvas Loo tee, Elu tee, Pärnu, Estija (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 60.0,
+      "currentValue": 44.78,
+      "profit": 6.42,
+      "investmentDate": "2025-12-19",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 13.0,
+      "incomeReceived": 6.42,
+      "outstanding": 44.78,
+      "delayDays": 23,
+      "ltv": 56.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2027-03-01",
+      "payments": [
+        {
+          "date": "2026-02-09",
+          "type": "interest",
+          "amount": 0.66,
+          "note": null
+        },
+        {
+          "date": "2026-03-08",
+          "type": "interest",
+          "amount": 0.59,
+          "note": null
+        },
+        {
+          "date": "2026-04-08",
+          "type": "interest",
+          "amount": 0.66,
+          "note": null
+        },
+        {
+          "date": "2026-04-14",
+          "type": "interest",
+          "amount": 0.64,
+          "note": null
+        },
+        {
+          "date": "2026-06-04",
+          "type": "principal",
+          "amount": 7.61,
+          "note": null
+        },
+        {
+          "date": "2026-06-04",
+          "type": "interest",
+          "amount": 0.66,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-02-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": "2026-02-09",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.66,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 2
+        },
+        {
+          "plannedDate": "2026-03-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.59,
+          "actualDate": "2026-03-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.59,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-04-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": "2026-04-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.66,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-05-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.64,
+          "actualDate": "2026-04-14",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.64,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": "2026-06-04",
+          "actualPrincipal": 7.61,
+          "actualInterest": 0.66,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.64,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.64,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.64,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.66,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-01",
+          "plannedPrincipal": 60.0,
+          "plannedInterest": 0.5,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 60.0,
+          "plannedInterest": 8.93,
+          "actualDate": null,
+          "actualPrincipal": 7.61,
+          "actualInterest": 3.21,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-01-07",
+      "durationMonths": 14,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 15.22,
+      "plannedInterest": 17.86,
+      "sourceSheets": [
+        "Sklypų masyvas Loo, Parnu (1)"
+      ]
+    },
+    {
+      "id": "LT-1250",
+      "code": "LT-1250",
+      "name": "Liepų g. 3, Vyšniūnai, Stakliškių sen., Prienų r. (1 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 68.0,
+      "currentValue": 68.0,
+      "profit": 4.28,
+      "investmentDate": "2026-02-03",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 4.28,
+      "outstanding": 68.0,
+      "delayDays": 48,
+      "ltv": 50.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-02-11",
+      "payments": [
+        {
+          "date": "2026-04-10",
+          "type": "interest",
+          "amount": 0.62,
+          "note": null
+        },
+        {
+          "date": "2026-04-10",
+          "type": "other",
+          "amount": 0.04,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-06-02",
+          "type": "interest",
+          "amount": 0.69,
+          "note": null
+        },
+        {
+          "date": "2026-06-02",
+          "type": "other",
+          "amount": 0.07,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-06-23",
+          "type": "other",
+          "amount": 0.05,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-03-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.62,
+          "actualDate": "2026-04-10",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.62,
+          "actualExtra": 0.04,
+          "historicalDelayDays": 29
+        },
+        {
+          "plannedDate": "2026-04-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": "2026-06-02",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.69,
+          "actualExtra": 0.07,
+          "historicalDelayDays": 51
+        },
+        {
+          "plannedDate": "2026-05-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-06-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.67,
+          "actualExtra": 0.05,
+          "historicalDelayDays": 42
+        },
+        {
+          "plannedDate": "2026-06-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.67,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-12",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-11",
+          "plannedPrincipal": 68.0,
+          "plannedInterest": 0.69,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 68.0,
+          "plannedInterest": 8.13,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.98,
+          "actualExtra": 0.16,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-02-12",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 16.26,
+      "sourceSheets": [
+        "Liepų g. 3, Vyšniūnai (1)"
+      ]
+    },
+    {
+      "id": "LT-1253",
+      "code": "LT-1253",
+      "name": "Basliupio g. 14, Panevėžys, Lietuva (3 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 55.0,
+      "currentValue": 55.0,
+      "profit": 4.72,
+      "investmentDate": "2026-02-07",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 13.0,
+      "incomeReceived": 4.72,
+      "outstanding": 55.0,
+      "delayDays": 0,
+      "ltv": 61.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2028-02-13",
+      "payments": [
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 0.6,
+          "note": null
+        },
+        {
+          "date": "2026-05-08",
+          "type": "interest",
+          "amount": 0.58,
+          "note": null
+        },
+        {
+          "date": "2026-06-08",
+          "type": "interest",
+          "amount": 0.6,
+          "note": null
+        },
+        {
+          "date": "2026-07-07",
+          "type": "interest",
+          "amount": 0.58,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-04-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.6,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-05-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": "2026-05-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.58,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": "2026-06-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.6,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": "2026-07-07",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.58,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.54,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-08-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-09-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-10-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-11-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-12-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.58,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2028-01-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2028-02-09",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2028-02-13",
+          "plannedPrincipal": 55.0,
+          "plannedInterest": 0.24,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 55.0,
+          "plannedInterest": 13.82,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.36,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-03-09",
+      "durationMonths": 24,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 27.64,
+      "sourceSheets": [
+        "Basliupio g. 14, Panevėžys (3)"
+      ]
+    },
+    {
+      "id": "LT-1303",
+      "code": "LT-1303",
+      "name": "Mėguvos g. 6 ir 8, Palanga, Lietuva (2 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 52.0,
+      "currentValue": 52.0,
+      "profit": 2.08,
+      "investmentDate": "2026-03-26",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 2.08,
+      "outstanding": 52.0,
+      "delayDays": 15,
+      "ltv": 51.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2027-04-13",
+      "payments": [
+        {
+          "date": "2026-04-28",
+          "type": "interest",
+          "amount": 0.51,
+          "note": null
+        },
+        {
+          "date": "2026-06-23",
+          "type": "interest",
+          "amount": 0.52,
+          "note": null
+        },
+        {
+          "date": "2026-06-23",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-05-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": "2026-04-28",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.51,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": "2026-06-23",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.52,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 8
+        },
+        {
+          "plannedDate": "2026-07-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.51,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.47,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-13",
+          "plannedPrincipal": 52.0,
+          "plannedInterest": 0.57,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 52.0,
+          "plannedInterest": 6.2,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.03,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-04-15",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 12.4,
+      "sourceSheets": [
+        "Mėguvos g. 6 ir 8, Palanga (2)"
+      ]
+    },
+    {
+      "id": "LT-1314",
+      "code": "LT-1314",
+      "name": "\"Filleo Home\" - Klevų 8-oji g., Palanga (10 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 75.0,
+      "currentValue": 75.0,
+      "profit": 2.98,
+      "investmentDate": "2026-04-16",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 2.98,
+      "outstanding": 75.0,
+      "delayDays": 0,
+      "ltv": 50.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2026-12-15",
+      "payments": [
+        {
+          "date": "2026-06-08",
+          "type": "interest",
+          "amount": 0.76,
+          "note": null
+        },
+        {
+          "date": "2026-07-09",
+          "type": "interest",
+          "amount": 0.73,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.76,
+          "actualDate": "2026-06-08",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.76,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.73,
+          "actualDate": "2026-07-09",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.73,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-08-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.76,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.76,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.73,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.76,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.73,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-15",
+          "plannedPrincipal": 75.0,
+          "plannedInterest": 0.21,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 75.0,
+          "plannedInterest": 5.44,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 1.49,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-05-08",
+      "durationMonths": 8,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 10.88,
+      "sourceSheets": [
+        "\"Filleo Home\", Palanga (10)"
+      ]
+    },
+    {
+      "id": "LT-1337",
+      "code": "LT-1337",
+      "name": "\"Baltų Avenue\" - Baltų pr. 87B ir 87C, Kaunas(11 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 53.0,
+      "currentValue": 53.0,
+      "profit": 1.76,
+      "investmentDate": "2026-04-30",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 10.0,
+      "incomeReceived": 1.76,
+      "outstanding": 53.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-11-18",
+      "payments": [
+        {
+          "date": "2026-06-04",
+          "type": "interest",
+          "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2026-07-05",
+          "type": "interest",
+          "amount": 0.43,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-06-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": "2026-06-04",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-07-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.43,
+          "actualDate": "2026-07-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.43,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.43,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.43,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.4,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.43,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.43,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-08-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-09-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-10-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.43,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-11-08",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.45,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-11-18",
+          "plannedPrincipal": 53.0,
+          "plannedInterest": 0.18,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 53.0,
+          "plannedInterest": 8.11,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.88,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-05-08",
+      "durationMonths": 19,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 16.22,
+      "sourceSheets": [
+        "Baltų Avenue (11)"
+      ]
+    },
+    {
+      "id": "NORDSTREET-PLENTO-G-5A-TRAKAI-2",
+      "code": "NORDSTREET-PLENTO-G-5A-TRAKAI-2",
+      "name": "Plento g. 5A, Trakai, Lietuva (2 etapas)",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 62.0,
+      "currentValue": 62.0,
+      "profit": 0.0,
+      "investmentDate": "2026-05-29",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 12.0,
+      "incomeReceived": 0.0,
+      "outstanding": 62.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "B",
+      "maturityDate": "2027-06-23",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-08-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-10-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.61,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-12-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.61,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.57,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.61,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-22",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-23",
+          "plannedPrincipal": 62.0,
+          "plannedInterest": 0.03,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 62.0,
+          "plannedInterest": 6.84,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-07-22",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": null,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 13.68,
+      "sourceSheets": [
+        "Plento g. 5A, Trakai (2)"
+      ]
+    }
+  ]
+}
