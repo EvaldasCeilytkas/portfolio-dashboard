@@ -240,6 +240,10 @@ function P2PLoanProfile() {
       ? Math.min(100, (loan.principalReturned / loan.invested) * 100)
       : 0;
 
+  const validSchedule = loan.schedule.filter(
+    (payment) => payment?.plannedDate || payment?.actualDate,
+  );
+
   return (
     <main className="platform-profile-page p2p-loan-profile-page">
       <Link className="platform-profile-back" to={`/platforms/${slug}`}>
@@ -253,7 +257,7 @@ function P2PLoanProfile() {
 
           <div className="p2p-loan-title-row">
             <h1>{loan.id}</h1>
-            <span className={`p2p-status ${loan.status}`}>
+            <span className={`p2p-status p2p-loan-status-badge ${loan.status}`}>
               <i />
               {STATUS_LABELS[loan.status]}
             </span>
@@ -308,7 +312,7 @@ function P2PLoanProfile() {
       </section>
 
       <section className="p2p-loan-grid">
-        <article className="p2p-loan-card">
+        <article className="p2p-loan-card p2p-loan-progress-card">
           <div className="p2p-module-header">
             <div>
               <p>GRĄŽINIMAS</p>
@@ -364,14 +368,14 @@ function P2PLoanProfile() {
         </article>
       </section>
 
-      {loan.schedule.length > 0 && (
+      {validSchedule.length > 0 && (
         <section className="p2p-loans-card p2p-payment-card">
           <div className="p2p-module-header">
             <div>
               <p>MOKĖJIMŲ GRAFIKAS</p>
               <h2>Planuoti ir atlikti mokėjimai</h2>
             </div>
-            <strong>{loan.schedule.length}</strong>
+            <strong>{validSchedule.length}</strong>
           </div>
 
           <div className="p2p-loan-table-wrap">
@@ -387,7 +391,7 @@ function P2PLoanProfile() {
                 </tr>
               </thead>
               <tbody>
-                {loan.schedule.map((payment, index) => {
+                {validSchedule.map((payment, index) => {
                   const paid =
                     payment?.paid === true || Boolean(payment?.actualDate);
 
