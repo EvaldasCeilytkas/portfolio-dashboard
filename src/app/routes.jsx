@@ -5,6 +5,7 @@ import AnalyticsPage from "../pages/AnalyticsPage";
 import DashboardPage from "../pages/DashboardPage";
 import NotFoundPage from "../pages/NotFoundPage";
 import P2PPage from "../pages/P2PPage";
+import P2PLoanProfile from "../pages/P2PLoanProfile";
 import PlatformPage from "../pages/PlatformPage";
 import PortfolioPage from "../pages/PortfolioPage";
 import ProjectPage from "../pages/ProjectPage";
@@ -20,6 +21,10 @@ function AppRoutes() {
         <Route
           path="platforms/:platformSlug"
           element={<PlatformPage />}
+        />
+        <Route
+          path="platforms/:slug/loan/:loanId"
+          element={<P2PLoanProfile />}
         />
         <Route
           path="platforms/:platformSlug/projects/:projectCode"

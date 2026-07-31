@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T17:19:58+03:00",
+  "generatedAt": "2026-07-31T17:37:30+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "scramble",
@@ -2246,6 +2246,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 14,
     "skippedSheets": [],
-    "generatedAt": "2026-07-31T17:19:58+03:00"
+    "generatedAt": "2026-07-31T17:37:30+03:00"
   }
 }
