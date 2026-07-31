@@ -3,8 +3,10 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import re
 import sys
+import time
 from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
@@ -206,9 +208,8 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
         interest = rounded(ws.cell(row, 8).value)
         fee = rounded(ws.cell(row, 9).value)
 
-        if not planned_date and not actual_date and all(
-            abs(v) <= EPSILON for v in (principal, interest, fee)
-        ):
+        # Eilutės be datos yra Excel suvestinės, o ne realūs mokėjimai.
+        if not planned_date and not actual_date:
             continue
 
         item = {
@@ -698,6 +699,7 @@ def load_lande(excel_file: Path) -> dict[str, Any]:
                 "status": "active",
                 "startDate": start_date,
                 "updatedAt": updated_at,
+                "website": "https://lande.finance",
             },
             "summary": summary,
             "history": history,
@@ -732,10 +734,28 @@ def load_lande(excel_file: Path) -> dict[str, Any]:
 def write_json(path: Path, data: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
+
     with temporary.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    temporary.replace(path)
+        file.flush()
+        os.fsync(file.fileno())
+
+    last_error: PermissionError | None = None
+
+    for attempt in range(12):
+        try:
+            os.replace(temporary, path)
+            return
+        except PermissionError as error:
+            last_error = error
+            if attempt < 11:
+                time.sleep(0.5)
+
+    raise PermissionError(
+        f"Nepavyko atnaujinti JSON failo: {path}. "
+        "Failą gali būti trumpam užrakinęs OneDrive arba Vite."
+    ) from last_error
 
 
 def main() -> int:

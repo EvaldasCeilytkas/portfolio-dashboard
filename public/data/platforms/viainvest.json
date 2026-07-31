@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T17:51:19+03:00",
+  "generatedAt": "2026-07-31T23:36:53+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "viainvest",
@@ -563,15 +563,6 @@
           "interest": 0.0,
           "fee": 0.0,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 50.0,
-          "interest": 1.38,
-          "fee": 0.07,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -753,15 +744,6 @@
           "interest": 0.0,
           "fee": 0.0,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 50.0,
-          "interest": 1.82,
-          "fee": 0.09,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -935,15 +917,6 @@
           "interest": 0.08,
           "fee": 0.0,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 57.83,
-          "interest": 2.56,
-          "fee": 0.13,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1107,15 +1080,6 @@
           "interest": 0.2,
           "fee": 0.01,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 81.1,
-          "interest": 2.66,
-          "fee": 0.13,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1279,15 +1243,6 @@
           "interest": 0.4,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 56.8,
-          "interest": 2.67,
-          "fee": 0.13,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1433,15 +1388,6 @@
           "interest": 0.32,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 16.66,
-          "interest": 2.11,
-          "fee": 0.1,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1559,15 +1505,6 @@
           "interest": 0.29,
           "fee": 0.01,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 59.77,
-          "interest": 1.17,
-          "fee": 0.06,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1675,15 +1612,6 @@
           "interest": 0.42,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 7.69,
-          "interest": 1.36,
-          "fee": 0.06,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1782,15 +1710,6 @@
           "interest": 0.25,
           "fee": 0.01,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 22.7,
-          "interest": 0.97,
-          "fee": 0.04,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1884,15 +1803,6 @@
           "interest": 0.0,
           "fee": 0.0,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 12.17,
-          "interest": 0.88,
-          "fee": 0.04,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1977,15 +1887,6 @@
           "interest": 0.32,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 14.9,
-          "interest": 0.79,
-          "fee": 0.04,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -2056,15 +1957,6 @@
           "interest": 0.0,
           "fee": 0.0,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 2.71,
-          "interest": 0.42,
-          "fee": 0.02,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -2121,15 +2013,6 @@
           "interest": 0.5,
           "fee": 0.03,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.5,
-          "fee": 0.03,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -2188,6 +2071,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 14,
     "skippedSheets": [],
-    "generatedAt": "2026-07-31T17:51:19+03:00"
+    "generatedAt": "2026-07-31T23:36:53+03:00"
   }
 }

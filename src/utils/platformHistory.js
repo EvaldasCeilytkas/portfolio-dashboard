@@ -80,9 +80,25 @@ export function buildPlatformChartHistory(historicalHistory, platformPayload) {
     return result;
   }
 
-  const invested = toNumber(summary?.invested ?? latestMonth?.invested);
-  const value = toNumber(summary?.currentValue ?? latestMonth?.value);
-  const profit = toNumber(summary?.profit, value - invested);
+  // Einamojo mėnesio grafiko taškui platformos latestMonth yra
+  // autoritetingas šaltinis. Tai ypač svarbu Indemo, kur:
+  // - summary.invested reiškia aktyviai paskirstytą kapitalą;
+  // - latestMonth.invested reiškia gryną įneštą kapitalą.
+  const invested = toNumber(
+    latestMonth?.invested ??
+      latestMonth?.deposited ??
+      summary?.deposited ??
+      summary?.invested,
+  );
+  const value = toNumber(
+    latestMonth?.value ??
+      latestMonth?.currentValue ??
+      summary?.currentValue,
+  );
+  const profit = toNumber(
+    latestMonth?.profit ?? summary?.profit,
+    value - invested,
+  );
 
   result.push({
     date: currentDate,
@@ -90,7 +106,10 @@ export function buildPlatformChartHistory(historicalHistory, platformPayload) {
     value,
     profit,
     returnRate: toNumber(
-      summary?.returnRate ?? summary?.roi,
+      latestMonth?.returnRate ??
+        latestMonth?.monthlyReturn ??
+        summary?.returnRate ??
+        summary?.roi,
       invested > 0 ? (profit / invested) * 100 : 0,
     ),
     source: "platform-json",

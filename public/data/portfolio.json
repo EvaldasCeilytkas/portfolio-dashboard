@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T17:51:20+03:00",
+  "generatedAt": "2026-07-31T23:36:53+03:00",
   "currency": "EUR",
   "summary": {
     "invested": 11654.96,
     "currentValue": 12665.33,
     "profit": 1559.71,
     "returnRate": 13.3824,
-    "xirr": 83.6111,
+    "xirr": 83.6073,
     "cash": 112.39,
     "incomeReceived": 577.12,
     "platformCount": 21,
@@ -170,7 +170,7 @@
         "currentValue": 1122.19,
         "profit": 102.19,
         "returnRate": 10.0186,
-        "xirr": 8.4797,
+        "xirr": 8.4388,
         "cash": 14.79,
         "incomeReceived": 92.19,
         "activeInvestments": 10,
@@ -471,7 +471,7 @@
       "active": true,
       "startDate": "2026-07-15",
       "updatedAt": "2026-07-31",
-      "website": null,
+      "website": "https://lande.finance",
       "sourceFile": "lande.json",
       "summary": {
         "invested": 50.0,
@@ -499,7 +499,7 @@
       "active": true,
       "startDate": "2026-07-14",
       "updatedAt": "2026-07-31",
-      "website": null,
+      "website": "https://getincome.com",
       "sourceFile": "income.json",
       "summary": {
         "invested": 30.0,

@@ -5,6 +5,7 @@ import json
 import math
 import re
 import sys
+import time
 from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
@@ -200,9 +201,9 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
         interest = rounded(ws.cell(row, 8).value)
         fee = rounded(ws.cell(row, 9).value)
 
-        if not planned_date and not actual_date and all(
-            abs(v) <= EPSILON for v in (principal, interest, fee)
-        ):
+        # Excel paskolų lapų apačioje gali būti formulinių suvestinių eilučių
+        # su sumomis, bet be planinės ir faktinės datos. Tai nėra mokėjimai.
+        if not planned_date and not actual_date:
             continue
 
         item = {
@@ -632,6 +633,7 @@ def load_income(excel_file: Path) -> dict[str, Any]:
             "deposited": overview["deposited"],
             "withdrawn": withdrawn,
             "currentPrincipal": overview["currentPrincipal"],
+            "outstandingPrincipal": overview["currentPrincipal"],
             "calculatedOutstanding": outstanding,
             "principalReturned": overview["principalReturned"],
             # Vienoda visos P2P grupės palūkanų struktūra.
@@ -671,6 +673,7 @@ def load_income(excel_file: Path) -> dict[str, Any]:
                 "status": "active",
                 "startDate": start_date,
                 "updatedAt": updated_at,
+                "website": "https://getincome.com",
             },
             "summary": summary,
             "history": history,
@@ -702,13 +705,22 @@ def load_income(excel_file: Path) -> dict[str, Any]:
         workbook.close()
 
 
-def write_json(path: Path, data: dict[str, Any]) -> None:
+def write_json(path: Path, data: dict[str, Any], attempts: int = 8) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
+
     with temporary.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    temporary.replace(path)
+
+    for attempt in range(1, attempts + 1):
+        try:
+            temporary.replace(path)
+            return
+        except PermissionError:
+            if attempt == attempts:
+                raise
+            time.sleep(0.35 * attempt)
 
 
 def main() -> int:

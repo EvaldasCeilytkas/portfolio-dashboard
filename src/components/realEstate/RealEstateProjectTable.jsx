@@ -246,7 +246,7 @@ export default function RealEstateProjectTable({
     if (!identifier) return;
 
     navigate(
-      `/platforms/${slug}/loan/${encodeURIComponent(
+      `/platforms/${slug}/projects/${encodeURIComponent(
         identifier,
       )}`,
     );
@@ -374,12 +374,12 @@ export default function RealEstateProjectTable({
                       >
                         <td>
                           <strong>
-                            {project.loanCode ||
-                              project.code ||
-                              project._identifier}
+                            {project.name || "NT projektas"}
                           </strong>
                           <span>
-                            {project.name || "NT projektas"}
+                            {project.code ||
+                              project.loanCode ||
+                              project._identifier}
                           </span>
                         </td>
 
@@ -411,7 +411,8 @@ export default function RealEstateProjectTable({
 
                         <td>
                           {formatDate(
-                            project.plannedRepayment,
+                            project.maturityDate ||
+                              project.plannedRepayment,
                           )}
                         </td>
 

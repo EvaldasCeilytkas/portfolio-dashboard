@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T17:49:48+03:00",
+  "generatedAt": "2026-07-31T23:35:37+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "income",
@@ -13,7 +13,8 @@
     "active": true,
     "status": "active",
     "startDate": "2026-07-14",
-    "updatedAt": "2026-07-31"
+    "updatedAt": "2026-07-31",
+    "website": "https://getincome.com"
   },
   "summary": {
     "invested": 30.0,
@@ -31,6 +32,7 @@
     "deposited": 30.0,
     "withdrawn": 0.0,
     "currentPrincipal": 30.05,
+    "outstandingPrincipal": 30.05,
     "calculatedOutstanding": 30.05,
     "principalReturned": 11.27,
     "interestReceived": 0.05,
@@ -228,15 +230,6 @@
           "interest": 0.0,
           "fee": 0.0,
           "paid": false
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 1.27,
-          "interest": 0.02,
-          "fee": 0.0,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -287,15 +280,6 @@
           "interest": 0.03,
           "fee": 0.0,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 10.0,
-          "interest": 0.03,
-          "fee": 0.0,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -388,6 +372,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 4,
     "skippedSheets": [],
-    "generatedAt": "2026-07-31T17:49:48+03:00"
+    "generatedAt": "2026-07-31T23:35:37+03:00"
   }
 }

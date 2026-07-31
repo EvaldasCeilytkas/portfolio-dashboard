@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T17:49:18+03:00",
+  "generatedAt": "2026-07-31T23:35:08+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "afranga",
@@ -32,6 +32,7 @@
     "deposited": 290.0,
     "withdrawn": 0.0,
     "currentPrincipal": 303.47,
+    "outstandingPrincipal": 303.47,
     "calculatedOutstanding": 303.47,
     "principalReturned": 0.0,
     "interestReceived": 13.13,
@@ -271,15 +272,6 @@
         "interest": 0.53,
         "fee": 0.05,
         "paid": true
-      },
-      {
-        "plannedDate": null,
-        "actualDate": null,
-        "timingDays": 0,
-        "principal": 0.0,
-        "interest": 4.24,
-        "fee": 0.4,
-        "paid": false
       }
     ],
     "cashFlows": [
@@ -351,13 +343,8 @@
       },
       {
         "label": "Stickcredit",
-        "count": 2,
-        "value": 44.13
-      },
-      {
-        "label": "Stikcredit",
-        "count": 1,
-        "value": 50.0
+        "count": 3,
+        "value": 94.13
       },
       {
         "label": "Tiberus",
@@ -559,15 +546,6 @@
           "interest": 0.06,
           "fee": 0.01,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.48,
-          "fee": 0.08,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -716,15 +694,6 @@
           "interest": 0.53,
           "fee": 0.05,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 4.24,
-          "fee": 0.4,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -873,15 +842,6 @@
           "interest": 0.07,
           "fee": 0.01,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.56,
-          "fee": 0.08,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -939,7 +899,7 @@
       "name": "ID 202557159 - 10000170",
       "sourceSheet": "10000170",
       "country": "Bulgaria",
-      "lender": "Stikcredit",
+      "lender": "Stickcredit",
       "loanType": "Business loan",
       "term": "1 m. 0 mėn. 3 d.",
       "investmentDate": "2025-11-11",
@@ -1030,15 +990,6 @@
           "interest": 0.45,
           "fee": 0.05,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 3.65,
-          "fee": 0.39,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1178,15 +1129,6 @@
           "interest": 0.19,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 1.36,
-          "fee": 0.14,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1303,15 +1245,6 @@
           "interest": 0.17,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 1.0,
-          "fee": 0.11,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1418,15 +1351,6 @@
           "interest": 0.22,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 1.1,
-          "fee": 0.1,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1524,15 +1448,6 @@
           "interest": 0.29,
           "fee": 0.03,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 1.23,
-          "fee": 0.13,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1616,15 +1531,6 @@
           "interest": 0.21,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.66,
-          "fee": 0.06,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1694,15 +1600,6 @@
           "interest": 0.18,
           "fee": 0.02,
           "paid": true
-        },
-        {
-          "plannedDate": null,
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.38,
-          "fee": 0.04,
-          "paid": false
         }
       ],
       "cashFlows": [
@@ -1765,6 +1662,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 11,
     "skippedSheets": [],
-    "generatedAt": "2026-07-31T17:49:18+03:00"
+    "generatedAt": "2026-07-31T23:35:08+03:00"
   }
 }

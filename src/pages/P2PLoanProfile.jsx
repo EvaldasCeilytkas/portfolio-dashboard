@@ -248,7 +248,7 @@ function P2PLoanProfile() {
     <main className="platform-profile-page p2p-loan-profile-page">
       <Link className="platform-profile-back" to={`/platforms/${slug}`}>
         <span aria-hidden="true">←</span>
-        Grįžti į {platform.name || slug}
+        Grįžti į {platform.name || slug} paskolas
       </Link>
 
       <section className="p2p-loan-hero">
@@ -396,7 +396,10 @@ function P2PLoanProfile() {
                     payment?.paid === true || Boolean(payment?.actualDate);
 
                   return (
-                    <tr key={`${payment?.plannedDate || "payment"}-${index}`}>
+                    <tr
+                      key={`${payment?.plannedDate || "payment"}-${index}`}
+                      className={paid ? "p2p-payment-row paid" : "p2p-payment-row scheduled"}
+                    >
                       <td>{formatDate(payment?.plannedDate)}</td>
                       <td>{formatDate(payment?.actualDate)}</td>
                       <td>

@@ -3,8 +3,10 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import re
 import sys
+import time
 from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
@@ -184,6 +186,8 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
     country = str(ws["B2"].value or "").strip() or None
     lender = str(ws["B3"].value or "").strip() or None
     loan_type = str(ws["B4"].value or "").strip() or None
+    if loan_type and loan_type.lower() == "busines loan":
+        loan_type = "Business loan"
     external_id = str(ws["B5"].value or "").strip() or None
     trust_score = str(ws["B6"].value or "").strip() or None
     term = str(ws["B8"].value or "").strip() or None
@@ -205,9 +209,9 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
         interest = rounded(ws.cell(row, 8).value)
         fee = rounded(ws.cell(row, 9).value)
 
-        if not planned_date and not actual_date and all(
-            abs(v) <= EPSILON for v in (principal, interest, fee)
-        ):
+        # Eilutės be planuotos ir faktinės datos yra Excel suvestinės,
+        # o ne realūs mokėjimai.
+        if not planned_date and not actual_date:
             continue
 
         item = {
@@ -221,12 +225,10 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
         }
         schedule.append(item)
 
-        amount_due = principal + interest + fee
         if (
             planned_date is not None
             and planned_date < today
             and actual_date is None
-            and amount_due > EPSILON
         ):
             overdue_unpaid.append(item)
 
@@ -262,10 +264,18 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
         principal_returned >= invested - EPSILON and invested > EPSILON
     )
     current_principal = 0.0 if completed else rounded(max(invested - principal_returned, 0))
+    calculated_delay = max(
+        [
+            today.toordinal()
+            - date.fromisoformat(item["plannedDate"]).toordinal()
+            for item in overdue_unpaid
+            if item["plannedDate"]
+        ]
+        + [0]
+    )
     actual_delay_days = max(
-        [today.toordinal() - date.fromisoformat(item["plannedDate"]).toordinal()
-         for item in overdue_unpaid if item["plannedDate"]]
-        + [overview_delay, 0]
+        calculated_delay,
+        overview_delay if overdue_unpaid else 0,
     )
     status = "completed" if completed else ("delayed" if actual_delay_days > 0 else "active")
 
@@ -334,9 +344,22 @@ def merge_overview(
             investment["currentValue"] = 0.0
             investment["outstandingPrincipal"] = 0.0
 
-        if investment["status"] != "completed" and overview["delayDays"] > 0:
+        has_unpaid_overdue = any(
+            item.get("plannedDate")
+            and not item.get("paid")
+            and date.fromisoformat(item["plannedDate"]) < date.today()
+            for item in investment["schedule"]
+        )
+
+        if (
+            investment["status"] != "completed"
+            and has_unpaid_overdue
+        ):
             investment["status"] = "delayed"
-            investment["delayDays"] = max(investment["delayDays"], overview["delayDays"])
+            investment["delayDays"] = max(
+                investment["delayDays"],
+                overview["delayDays"],
+            )
 
 
 def build_history(
@@ -691,10 +714,28 @@ def load_scramble(excel_file: Path) -> dict[str, Any]:
 def write_json(path: Path, data: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
-    with temporary.open("w", encoding="utf-8") as file:
+
+    with temporary.open("w", encoding="utf-8", newline="\n") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    temporary.replace(path)
+        file.flush()
+        os.fsync(file.fileno())
+
+    last_error: PermissionError | None = None
+
+    for attempt in range(12):
+        try:
+            os.replace(temporary, path)
+            return
+        except PermissionError as error:
+            last_error = error
+            if attempt < 11:
+                time.sleep(0.5)
+
+    raise PermissionError(
+        f"Nepavyko atnaujinti JSON failo: {path}. "
+        "Failą gali būti trumpam užrakinęs OneDrive arba Vite."
+    ) from last_error
 
 
 def main() -> int:

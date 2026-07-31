@@ -181,6 +181,8 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
     loan_code = ws.title.strip()
     country = str(ws["B2"].value or "").strip() or None
     lender = str(ws["B3"].value or "").strip() or None
+    if lender == "Stikcredit":
+        lender = "Stickcredit"
     loan_type = str(ws["B4"].value or "").strip() or None
     term = str(ws["B8"].value or "").strip() or None
     investment_date = parse_date(ws["B9"].value, epoch)
@@ -200,9 +202,9 @@ def read_loan_sheet(ws, epoch: datetime, today: date) -> dict[str, Any]:
         interest = rounded(ws.cell(row, 8).value)
         fee = rounded(ws.cell(row, 9).value)
 
-        if not planned_date and not actual_date and all(
-            abs(v) <= EPSILON for v in (principal, interest, fee)
-        ):
+        # Eilutė be planinės ir faktinės datos nėra tikras mokėjimas.
+        # Afranga failuose tokia eilutė kartais saugo tik bendras sumas.
+        if not planned_date and not actual_date:
             continue
 
         item = {
@@ -632,6 +634,7 @@ def load_afranga(excel_file: Path) -> dict[str, Any]:
             "deposited": overview["deposited"],
             "withdrawn": withdrawn,
             "currentPrincipal": overview["currentPrincipal"],
+            "outstandingPrincipal": outstanding,
             "calculatedOutstanding": outstanding,
             "principalReturned": overview["principalReturned"],
             # Vienoda visos P2P grupės palūkanų struktūra.
@@ -704,12 +707,24 @@ def load_afranga(excel_file: Path) -> dict[str, Any]:
 
 
 def write_json(path: Path, data: dict[str, Any]) -> None:
+    import time
+
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
     with temporary.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    temporary.replace(path)
+
+    last_error: OSError | None = None
+    for attempt in range(8):
+        try:
+            temporary.replace(path)
+            return
+        except PermissionError as error:
+            last_error = error
+            time.sleep(0.25 * (attempt + 1))
+
+    raise last_error or PermissionError(f"Nepavyko įrašyti failo: {path}")
 
 
 def main() -> int:
