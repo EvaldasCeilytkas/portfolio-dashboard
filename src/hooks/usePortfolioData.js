@@ -1,109 +1,252 @@
 import { useEffect, useMemo, useState } from "react";
-import {
-  getAssetClass, getAssetClassLabel, getPlatformInvested, getPlatformName,
-  getPlatformValue, isPlatformActive, toNumber,
-} from "../utils/portfolioFormatters";
 
-function normalizeHistory(history, currentValue, invested) {
-  const rows = Array.isArray(history)
-    ? history.map((item) => ({
-        date: item?.date ?? item?.month ?? item?.period ?? "",
-        value: toNumber(item?.value ?? item?.currentValue ?? item?.portfolioValue ?? item?.balance),
-        invested: toNumber(item?.invested ?? item?.investedAmount ?? item?.capital),
-        profit: toNumber(item?.profit),
-      })).filter((item) => item.date).sort((a, b) => String(a.date).localeCompare(String(b.date)))
-    : [];
-
-  if (!rows.length) return rows;
-  const result = [...rows];
-  const last = result.length - 1;
-  result[last] = { ...result[last], value: currentValue, invested, profit: currentValue - invested };
-  return result;
+function toNumber(value, fallback = 0) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : fallback;
 }
 
-function buildAllocation(platforms, currentValue) {
-  const groups = new Map();
-  platforms.forEach((platform) => {
-    const label = getAssetClassLabel(getAssetClass(platform));
-    const active = isPlatformActive(platform);
-    const current = groups.get(label) ?? {
-      key: label.toLocaleLowerCase("lt-LT").replaceAll(" ", "-"),
-      label, value: 0, activeCount: 0, archivedCount: 0,
-    };
-    if (active) {
-      current.value += getPlatformValue(platform);
-      current.activeCount += 1;
-    } else {
-      current.archivedCount += 1;
-    }
-    groups.set(label, current);
-  });
+function normalizeDate(value) {
+  if (!value) return "";
 
-  return [...groups.values()].map((group) => ({
-    ...group,
-    share: currentValue > 0 ? (group.value / currentValue) * 100 : 0,
-  })).filter((group) => group.value > 0 || group.activeCount > 0 || group.archivedCount > 0)
-    .sort((a, b) => b.value - a.value);
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return String(value);
+  }
+
+  return date.toISOString().slice(0, 10);
+}
+
+function normalizeHistory(source) {
+  const rows = Array.isArray(source)
+    ? source
+    : Array.isArray(source?.history)
+      ? source.history
+      : Array.isArray(source?.data)
+        ? source.data
+        : [];
+
+  return rows
+    .map((item) => {
+      const invested = toNumber(
+        item?.invested ??
+          item?.contributed ??
+          item?.contributions ??
+          item?.capital,
+      );
+
+      const value = toNumber(
+        item?.value ??
+          item?.currentValue ??
+          item?.portfolioValue ??
+          item?.balance,
+      );
+
+      const profit = toNumber(item?.profit, value - invested);
+
+      const returnRate = toNumber(
+        item?.returnRate ??
+          item?.return ??
+          item?.roi,
+        invested > 0 ? (profit / invested) * 100 : 0,
+      );
+
+      return {
+        date: normalizeDate(
+          item?.date ??
+            item?.month ??
+            item?.period,
+        ),
+        invested,
+        value,
+        profit,
+        returnRate,
+        monthlyContribution: toNumber(
+          item?.monthlyContribution ??
+            item?.contribution ??
+            item?.cashFlow,
+        ),
+        monthlyResult: toNumber(
+          item?.monthlyResult ??
+            item?.monthlyProfit ??
+            item?.result,
+        ),
+      };
+    })
+    .filter((item) => item.date)
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+function getLastItem(items) {
+  return items.length > 0 ? items[items.length - 1] : null;
+}
+
+function createAllocationItem(key, label, item, totalValue) {
+  const value = toNumber(item?.value);
+  const invested = toNumber(item?.invested);
+  const profit = toNumber(item?.profit, value - invested);
+
+  return {
+    key,
+    label,
+    value,
+    invested,
+    profit,
+    share: totalValue > 0 ? (value / totalValue) * 100 : 0,
+    activeCount: 0,
+    archivedCount: 0,
+  };
+}
+
+async function fetchJson(path, signal) {
+  const response = await fetch(
+    `${import.meta.env.BASE_URL}data/${path}`,
+    {
+      cache: "no-store",
+      signal,
+    },
+  );
+
+  if (!response.ok) {
+    throw new Error(
+      `${path} nepavyko įkelti (${response.status}).`,
+    );
+  }
+
+  return response.json();
 }
 
 export default function usePortfolioData() {
-  const [portfolio, setPortfolio] = useState(null);
+  const [historyFiles, setHistoryFiles] = useState(null);
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch(`${import.meta.env.BASE_URL}data/portfolio.json`, { cache: "no-store", signal: controller.signal })
-      .then((response) => {
-        if (!response.ok) throw new Error(`portfolio.json nepavyko įkelti (${response.status}).`);
-        return response.json();
-      })
-      .then(setPortfolio)
-      .catch((error) => {
-        if (error?.name !== "AbortError") setErrorMessage(error?.message ?? "Nepavyko įkelti duomenų.");
-      })
-      .finally(() => { if (!controller.signal.aborted) setLoading(false); });
+
+    async function loadDashboardData() {
+      try {
+        setLoading(true);
+        setErrorMessage("");
+
+        const [
+          portfolioHistory,
+          fundsHistory,
+          p2pHistory,
+        ] = await Promise.all([
+          fetchJson("portfolio_history.json", controller.signal),
+          fetchJson("funds_history.json", controller.signal),
+          fetchJson("p2p_history.json", controller.signal),
+        ]);
+
+        if (!controller.signal.aborted) {
+          setHistoryFiles({
+            portfolioHistory,
+            fundsHistory,
+            p2pHistory,
+          });
+        }
+      } catch (error) {
+        if (
+          !controller.signal.aborted &&
+          error?.name !== "AbortError"
+        ) {
+          setErrorMessage(
+            error?.message ??
+              "Nepavyko įkelti istorinių portfelio duomenų.",
+          );
+        }
+      } finally {
+        if (!controller.signal.aborted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    loadDashboardData();
+
     return () => controller.abort();
   }, []);
 
   const dashboard = useMemo(() => {
-    if (!portfolio) return null;
-    const platforms = Array.isArray(portfolio.platforms) ? portfolio.platforms : [];
-    const summary = portfolio.summary && typeof portfolio.summary === "object" ? portfolio.summary : {};
-    const activePlatforms = platforms.filter(isPlatformActive);
-    const archivedPlatforms = platforms.filter((item) => !isPlatformActive(item));
-    const currentValue = toNumber(summary.currentValue ?? summary.portfolioValue ?? portfolio.portfolioValue,
-      activePlatforms.reduce((sum, item) => sum + getPlatformValue(item), 0));
-    const invested = toNumber(summary.invested ?? portfolio.invested,
-      activePlatforms.reduce((sum, item) => sum + getPlatformInvested(item), 0));
-    const profit = toNumber(summary.profit ?? portfolio.profit, currentValue - invested);
-    const returnRate = toNumber(summary.returnRate ?? portfolio.returnRate, invested > 0 ? (profit / invested) * 100 : 0);
-    const cash = toNumber(summary.cash ?? summary.availableCash ?? summary.freeCash ?? portfolio.cash);
-    const passiveIncome = toNumber(summary.passiveIncome ?? summary.income ?? portfolio.passiveIncome);
-    const xirr = toNumber(summary.xirr ?? portfolio.xirr);
-    const allocation = buildAllocation(platforms, currentValue);
-    const topPlatforms = activePlatforms.map((platform) => {
-      const value = getPlatformValue(platform);
-      return {
-        name: getPlatformName(platform), slug: platform?.slug ?? "",
-        category: getAssetClassLabel(getAssetClass(platform)), value,
-        share: currentValue > 0 ? (value / currentValue) * 100 : 0,
-        logoUrl: platform?.logoUrl ?? platform?.logo ?? "",
-      };
-    }).sort((a, b) => b.value - a.value).slice(0, 6);
+    if (!historyFiles) return null;
+
+    const history = normalizeHistory(
+      historyFiles.portfolioHistory,
+    );
+    const fundsHistory = normalizeHistory(
+      historyFiles.fundsHistory,
+    );
+    const p2pHistory = normalizeHistory(
+      historyFiles.p2pHistory,
+    );
+
+    const latest = getLastItem(history);
+
+    if (!latest) {
+      return null;
+    }
+
+    const latestFunds = getLastItem(fundsHistory);
+    const latestP2p = getLastItem(p2pHistory);
+
+    const currentValue = latest.value;
+    const invested = latest.invested;
+    const profit = latest.profit;
+    const returnRate = latest.returnRate;
+
+    const allocation = [
+      createAllocationItem(
+        "funds",
+        "Fondai ir brokeriai",
+        latestFunds,
+        currentValue,
+      ),
+      createAllocationItem(
+        "p2p",
+        "P2P ir NT finansavimas",
+        latestP2p,
+        currentValue,
+      ),
+    ]
+      .filter((item) => item.value > 0 || item.invested > 0)
+      .sort((a, b) => b.value - a.value);
 
     return {
-      currency: portfolio.currency ?? "EUR",
-      generatedAt: portfolio.generatedAt ?? summary.updatedAt ?? portfolio.updatedAt ?? "",
-      currentValue, invested, profit, returnRate, cash, passiveIncome, xirr,
-      activePlatformCount: activePlatforms.length,
-      archivedPlatformCount: archivedPlatforms.length,
-      allocation, topPlatforms,
-      largestPlatform: topPlatforms[0] ?? null,
-      largestAssetClass: allocation.filter((item) => item.activeCount > 0).sort((a, b) => b.value - a.value)[0] ?? null,
-      history: normalizeHistory(portfolio.history, currentValue, invested),
-    };
-  }, [portfolio]);
+      currency: "EUR",
+      generatedAt: latest.date,
 
-  return { portfolio, dashboard, loading, errorMessage };
+      currentValue,
+      invested,
+      profit,
+      returnRate,
+
+      // Šių rodiklių istorinis Excel šiuo metu nepateikia.
+      // Jie sąmoningai nėra skaičiuojami iš platformų JSON.
+      cash: 0,
+      passiveIncome: 0,
+      xirr: null,
+      activePlatformCount: 0,
+      archivedPlatformCount: 0,
+
+      history,
+      allocation,
+      topPlatforms: [],
+
+      largestPlatform: null,
+      largestAssetClass: allocation[0] ?? null,
+
+      latestMonthlyContribution:
+        latest.monthlyContribution,
+      latestMonthlyResult:
+        latest.monthlyResult,
+    };
+  }, [historyFiles]);
+
+  return {
+    portfolio: historyFiles,
+    dashboard,
+    loading,
+    errorMessage,
+  };
 }

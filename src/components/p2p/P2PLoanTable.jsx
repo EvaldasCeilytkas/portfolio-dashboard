@@ -52,7 +52,7 @@ const FILTERS = [
   { key: "all", label: "Visos" },
 ];
 
-function normalizeStatus(value) {
+function normalizeStatus(value, delayDays = 0) {
   const status = String(value || "")
     .trim()
     .toLocaleLowerCase("lt-LT");
@@ -74,6 +74,7 @@ function normalizeStatus(value) {
   }
 
   if (
+    Number(delayDays) > 0 ||
     [
       "late",
       "delayed",
@@ -87,6 +88,84 @@ function normalizeStatus(value) {
   }
 
   return "active";
+}
+
+function firstDefined(...values) {
+  return values.find(
+    (value) => value !== undefined && value !== null && value !== "",
+  );
+}
+
+function normalizeLoan(loan, index) {
+  const id = firstDefined(
+    loan?.loanCode,
+    loan?.id,
+    loan?.loanId,
+    loan?.externalId,
+    `loan-${index + 1}`,
+  );
+
+  const delayDays = Number(
+    firstDefined(loan?.delayDays, loan?.lateDays, 0),
+  ) || 0;
+
+  return {
+    ...loan,
+    _id: String(id),
+    _type: firstDefined(
+      loan?.loanType,
+      loan?.type,
+      loan?.category,
+      "P2P paskola",
+    ),
+    _lender: firstDefined(
+      loan?.lender,
+      loan?.originator,
+      loan?.borrower,
+      loan?.loanOriginator,
+      "—",
+    ),
+    _country: firstDefined(
+      loan?.country,
+      loan?.borrowerCountry,
+      loan?.originatorCountry,
+      "—",
+    ),
+    _rate: Number(
+      firstDefined(
+        loan?.rate,
+        loan?.interestRate,
+        loan?.annualRate,
+        loan?.apr,
+        0,
+      ),
+    ) || 0,
+    _invested: Number(
+      firstDefined(
+        loan?.invested,
+        loan?.investedAmount,
+        loan?.initialInvestment,
+        0,
+      ),
+    ) || 0,
+    _remaining: Number(
+      firstDefined(
+        loan?.outstandingPrincipal,
+        loan?.remainingPrincipal,
+        loan?.currentValue,
+        loan?.remainingAmount,
+        0,
+      ),
+    ) || 0,
+    _endDate: firstDefined(
+      loan?.plannedEndDate,
+      loan?.endDate,
+      loan?.maturityDate,
+      loan?.actualEndDate,
+      null,
+    ),
+    _status: normalizeStatus(loan?.status, delayDays),
+  };
 }
 
 function getPageNumbers(currentPage, totalPages) {
@@ -146,11 +225,7 @@ function P2PLoanTable({
   const slug = routeSlug || pathSlug;
 
   const preparedItems = useMemo(
-    () =>
-      items.map((loan) => ({
-        ...loan,
-        _status: normalizeStatus(loan?.status),
-      })),
+    () => items.map((loan, index) => normalizeLoan(loan, index)),
     [items],
   );
 
@@ -181,11 +256,12 @@ function P2PLoanTable({
         loan._status === statusFilter;
 
       const searchableText = [
-        loan?.id,
-        loan?.loanId,
-        loan?.originator,
-        loan?.country,
-        loan?.type,
+        loan?._id,
+        loan?.externalId,
+        loan?._lender,
+        loan?._country,
+        loan?._type,
+        loan?.trustScore,
       ]
         .filter(Boolean)
         .join(" ")
@@ -353,12 +429,12 @@ function P2PLoanTable({
                   <tbody>
                     {visibleItems.map((loan) => (
                       <tr
-                        key={loan.id}
+                        key={loan._id}
                         className="p2p-loan-row"
                         tabIndex={0}
                         role="link"
                         onClick={() =>
-                          openLoan(loan.id)
+                          openLoan(loan._id)
                         }
                         onKeyDown={(event) => {
                           if (
@@ -366,45 +442,44 @@ function P2PLoanTable({
                             event.key === " "
                           ) {
                             event.preventDefault();
-                            openLoan(loan.id);
+                            openLoan(loan._id);
                           }
                         }}
                       >
                         <td>
-                          <strong>{loan.id}</strong>
+                          <strong>{loan._id}</strong>
                           <span>
-                            {loan.type ||
-                              "P2P paskola"}
+                            {loan._type}
                           </span>
                         </td>
 
                         <td>
-                          {loan.originator || "—"}
+                          {loan._lender}
                         </td>
 
-                        <td>{loan.country || "—"}</td>
+                        <td>{loan._country}</td>
 
                         <td className="p2p-number p2p-positive">
                           {formatPercentage(
-                            loan.interestRate,
+                            loan._rate,
                           )}
                         </td>
 
                         <td className="p2p-number">
                           {formatCurrency(
-                            loan.invested,
+                            loan._invested,
                           )}
                         </td>
 
                         <td className="p2p-number">
                           {formatCurrency(
-                            loan.remainingPrincipal,
+                            loan._remaining,
                           )}
                         </td>
 
                         <td>
                           {formatDate(
-                            loan.plannedEndDate,
+                            loan._endDate,
                           )}
                         </td>
 
