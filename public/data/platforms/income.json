@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T23:35:37+03:00",
+  "generatedAt": "2026-08-01T17:29:09+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "income",
@@ -13,7 +13,7 @@
     "active": true,
     "status": "active",
     "startDate": "2026-07-14",
-    "updatedAt": "2026-07-31",
+    "updatedAt": "2026-08-31",
     "website": "https://getincome.com"
   },
   "summary": {
@@ -46,8 +46,8 @@
     {
       "date": "2026-07-31",
       "invested": 30.0,
-      "value": 30.05,
-      "profit": 0.05,
+      "value": 30.0,
+      "profit": 0.0,
       "cash": 0.0,
       "income": 11.32,
       "deposits": 30.0,
@@ -55,16 +55,29 @@
       "bonuses": 0.0,
       "monthlyProfit": 0.0,
       "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "invested": 30.0,
+      "value": 30.05,
+      "profit": 0.05,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
     }
   ],
   "latestMonth": {
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "invested": 30.0,
     "value": 30.05,
     "profit": 0.05,
     "cash": 0.0,
-    "income": 11.32,
-    "deposits": 30.0,
+    "income": 0.0,
+    "deposits": 0.0,
     "withdrawals": 0.0,
     "bonuses": 0.0,
     "monthlyProfit": 0.0,
@@ -372,6 +385,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 4,
     "skippedSheets": [],
-    "generatedAt": "2026-07-31T23:35:37+03:00"
+    "generatedAt": "2026-08-01T17:29:09+03:00"
   }
 }

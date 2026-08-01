@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "type": "platform_history",
   "currency": "EUR",
-  "generatedAt": "2026-07-31T23:37:17+03:00",
+  "generatedAt": "2026-08-01T17:31:22+03:00",
   "source": {
     "file": "Investavimas.xlsx",
     "sheet": "Investavimas"
@@ -703,6 +703,14 @@
           "profit": 123.89,
           "returnRate": 5.1738,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 2994.57,
+          "value": 3028.57,
+          "profit": 34.0,
+          "returnRate": 1.1354,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -984,6 +992,14 @@
           "value": 1665.79,
           "profit": 135.79,
           "returnRate": 8.8752,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 1670.0,
+          "value": 1773.83,
+          "profit": 103.83,
+          "returnRate": 6.2174,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -1459,6 +1475,14 @@
           "profit": 125.64,
           "returnRate": 35.8971,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 350.0,
+          "value": 471.62,
+          "profit": 121.62,
+          "returnRate": 34.7486,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -1599,6 +1623,14 @@
           "value": 1120.03,
           "profit": 100.03,
           "returnRate": 9.8069,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 1020.0,
+          "value": 1125.34,
+          "profit": 105.34,
+          "returnRate": 10.3275,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -1741,6 +1773,14 @@
           "profit": 152.56,
           "returnRate": 16.0589,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 950.0,
+          "value": 1111.85,
+          "profit": 161.85,
+          "returnRate": 17.0368,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -1873,6 +1913,14 @@
           "value": 616.19,
           "profit": 86.19,
           "returnRate": 16.2623,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 550.0,
+          "value": 637.06,
+          "profit": 87.06,
+          "returnRate": 15.8291,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -2007,6 +2055,14 @@
           "profit": 148.74,
           "returnRate": 14.4408,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 1030.0,
+          "value": 1186.84,
+          "profit": 156.84,
+          "returnRate": 15.2272,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -2116,6 +2172,14 @@
           "profit": 100.62,
           "returnRate": 10.5916,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 950.0,
+          "value": 1062.91,
+          "profit": 112.91,
+          "returnRate": 11.8853,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -2200,6 +2264,14 @@
           "value": 323.29,
           "profit": 23.29,
           "returnRate": 7.7633,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 300.0,
+          "value": 326.39,
+          "profit": 26.39,
+          "returnRate": 8.7967,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -2286,6 +2358,14 @@
           "profit": 13.25,
           "returnRate": 6.625,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 240.0,
+          "value": 255.6,
+          "profit": 15.6,
+          "returnRate": 6.5,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -2363,6 +2443,14 @@
           "profit": 15.48,
           "returnRate": 4.5529,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 340.0,
+          "value": 358.35,
+          "profit": 18.35,
+          "returnRate": 5.3971,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -2431,6 +2519,14 @@
           "value": 654.87,
           "profit": 19.8,
           "returnRate": 3.1178,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 674.21,
+          "value": 704.67,
+          "profit": 30.46,
+          "returnRate": 4.5179,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -2501,6 +2597,14 @@
           "profit": 12.88,
           "returnRate": 4.7704,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 290.0,
+          "value": 305.0,
+          "profit": 15.0,
+          "returnRate": 5.1724,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -2538,6 +2642,14 @@
           "profit": 11.22,
           "returnRate": 16.0286,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 100.0,
+          "value": 111.91,
+          "profit": 11.91,
+          "returnRate": 11.91,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -2567,6 +2679,14 @@
           "profit": 0.3,
           "returnRate": 1.5,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 20.0,
+          "value": 20.58,
+          "profit": 0.58,
+          "returnRate": 2.9,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -2579,6 +2699,40 @@
           "value": 20.0,
           "profit": 0.0,
           "returnRate": 0.0,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 20.0,
+          "value": 20.16,
+          "profit": 0.16,
+          "returnRate": 0.8,
+          "source": "Investavimas.xlsx"
+        }
+      ]
+    },
+    "income": {
+      "name": "Income",
+      "history": [
+        {
+          "date": "2026-07-31",
+          "invested": 30.0,
+          "value": 30.05,
+          "profit": 0.05,
+          "returnRate": 0.1667,
+          "source": "Investavimas.xlsx"
+        }
+      ]
+    },
+    "lande": {
+      "name": "Lande",
+      "history": [
+        {
+          "date": "2026-07-31",
+          "invested": 50.0,
+          "value": 56.65,
+          "profit": 6.65,
+          "returnRate": 13.3,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -3073,6 +3227,14 @@
           "profit": 482.37,
           "returnRate": 10.3401,
           "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 5014.57,
+          "value": 5274.02,
+          "profit": 259.45,
+          "returnRate": 5.1739,
+          "source": "Investavimas.xlsx"
         }
       ]
     },
@@ -3213,6 +3375,14 @@
           "value": 7019.43,
           "profit": 684.36,
           "returnRate": 10.8027,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 6564.21,
+          "value": 7306.66,
+          "profit": 742.45,
+          "returnRate": 11.3106,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -3706,6 +3876,14 @@
           "value": 12166.86,
           "profit": 1166.73,
           "returnRate": 10.6065,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 11578.78,
+          "value": 12580.68,
+          "profit": 1001.9,
+          "returnRate": 8.6529,
           "source": "Investavimas.xlsx"
         }
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T23:36:53+03:00",
+  "generatedAt": "2026-08-01T17:30:46+03:00",
   "currency": "EUR",
   "summary": {
     "invested": 11654.96,
@@ -11,8 +11,8 @@
     "cash": 112.39,
     "incomeReceived": 577.12,
     "platformCount": 21,
-    "activeInvestments": 204,
-    "delayedInvestments": 11,
+    "activeInvestments": 199,
+    "delayedInvestments": 16,
     "completedInvestments": 145
   },
   "allocation": [
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-01",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-01",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -173,8 +173,8 @@
         "xirr": 8.4388,
         "cash": 14.79,
         "incomeReceived": 92.19,
-        "activeInvestments": 10,
-        "delayedInvestments": 0,
+        "activeInvestments": 7,
+        "delayedInvestments": 3,
         "completedInvestments": 9,
         "averageRate": 8.664,
         "averageLtv": 61.2633
@@ -190,7 +190,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-01",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -218,7 +218,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-06-03",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://scramble.investments",
       "sourceFile": "scramble.json",
       "summary": {
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-01",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {
@@ -274,7 +274,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-21",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://indemo.eu",
       "sourceFile": "indemo.json",
       "summary": {
@@ -330,7 +330,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-01-07",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://viainvest.investments",
       "sourceFile": "viainvest.json",
       "summary": {
@@ -358,7 +358,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-09-09",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://nectaro.investments",
       "sourceFile": "nectaro.json",
       "summary": {
@@ -386,7 +386,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-01",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://afranga.com",
       "sourceFile": "afranga.json",
       "summary": {
@@ -414,7 +414,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-09-22",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://debitum.investments",
       "sourceFile": "debitum.json",
       "summary": {
@@ -442,7 +442,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2026-03-20",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://lendermarket.com",
       "sourceFile": "lendermarket.json",
       "summary": {
@@ -453,8 +453,8 @@
         "xirr": 110.6895,
         "cash": 6.35,
         "incomeReceived": 11.79,
-        "activeInvestments": 9,
-        "delayedInvestments": 1,
+        "activeInvestments": 7,
+        "delayedInvestments": 3,
         "completedInvestments": 3,
         "averageRate": 11.0517,
         "averageLtv": null
@@ -470,7 +470,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2026-07-15",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://lande.finance",
       "sourceFile": "lande.json",
       "summary": {
@@ -498,7 +498,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2026-07-14",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://getincome.com",
       "sourceFile": "income.json",
       "summary": {
@@ -526,7 +526,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2026-04-27",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://loanch.com",
       "sourceFile": "loanch.json",
       "summary": {
@@ -554,7 +554,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2026-06-23",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "website": "https://peerberry.com",
       "sourceFile": "peerberry.json",
       "summary": {
@@ -1292,19 +1292,35 @@
     },
     {
       "date": "2026-07-01",
-      "invested": 11188.78,
-      "value": 6783.36,
-      "profit": 1429.13,
-      "cash": 103.24,
+      "invested": 7514.57,
+      "value": 2658.17,
+      "profit": 978.15,
+      "cash": 9.98,
       "income": 486.47
     },
     {
       "date": "2026-07-31",
+      "invested": 7694.57,
+      "value": 2846.35,
+      "profit": 986.33,
+      "cash": 9.98,
+      "income": 402.24
+    },
+    {
+      "date": "2026-08-01",
+      "invested": 11368.78,
+      "value": 6971.54,
+      "profit": 1437.31,
+      "cash": 103.24,
+      "income": 402.24
+    },
+    {
+      "date": "2026-08-31",
       "invested": 11568.78,
       "value": 7293.94,
       "profit": 1559.71,
       "cash": 112.39,
-      "income": 402.24
+      "income": 0.0
     }
   ]
 }

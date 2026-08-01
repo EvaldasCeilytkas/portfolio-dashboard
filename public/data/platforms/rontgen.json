@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T23:36:44+03:00",
+  "generatedAt": "2026-08-01T17:30:36+03:00",
   "platform": {
     "id": "rontgen",
     "slug": "rontgen",
@@ -11,7 +11,7 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-11-03",
-    "updatedAt": "2026-07-31",
+    "updatedAt": "2026-08-01",
     "website": "https://rontgen.lt"
   },
   "summary": {
@@ -30,7 +30,7 @@
   },
   "history": [
     {
-      "date": "2026-07-01",
+      "date": "2026-08-01",
       "invested": 674.21,
       "value": 704.67,
       "profit": 30.46,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T23:35:38+03:00",
+  "generatedAt": "2026-08-01T17:29:11+03:00",
   "moduleType": "indemo",
   "platform": {
     "id": "indemo",
@@ -14,7 +14,7 @@
     "website": "https://indemo.eu",
     "status": "active",
     "startDate": "2025-03-21",
-    "updatedAt": "2026-07-31",
+    "updatedAt": "2026-08-31",
     "healthScore": 100,
     "healthParts": {
       "diversification": 100,
@@ -314,9 +314,9 @@
     {
       "date": "2026-07-31",
       "invested": 540.0,
-      "value": 626.72,
-      "profit": 86.72,
-      "cash": 0.54,
+      "value": 630.97,
+      "profit": 90.97,
+      "cash": 0.0,
       "income": 0.0,
       "deposits": 10.0,
       "withdrawals": 0.0,
@@ -326,23 +326,39 @@
       "extraIncome": 0.0,
       "monthlyProfit": 0.53,
       "monthlyReturn": 0.08
+    },
+    {
+      "date": "2026-08-31",
+      "invested": 540.0,
+      "value": 626.72,
+      "profit": 86.72,
+      "cash": 0.54,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
     }
   ],
   "latestMonth": {
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "invested": 540.0,
     "value": 626.72,
     "profit": 86.72,
     "cash": 0.54,
     "income": 0.0,
-    "deposits": 10.0,
+    "deposits": 0.0,
     "withdrawals": 0.0,
-    "bonuses": 0.53,
+    "bonuses": 0.0,
     "principalRepaid": 0.0,
     "interest": 0.0,
     "extraIncome": 0.0,
-    "monthlyProfit": 0.53,
-    "monthlyReturn": 0.08
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
   },
   "largestProject": {
     "id": "J062",
@@ -10137,6 +10153,6 @@
     "moneySheet": "Pinigai",
     "projectSheets": 87,
     "skippedSheets": [],
-    "generatedAt": "2026-07-31T23:35:38+03:00"
+    "generatedAt": "2026-08-01T17:29:11+03:00"
   }
 }

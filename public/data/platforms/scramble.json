@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T23:36:45+03:00",
+  "generatedAt": "2026-08-01T17:30:36+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "scramble",
@@ -13,7 +13,7 @@
     "active": true,
     "status": "active",
     "startDate": "2025-06-03",
-    "updatedAt": "2026-07-31",
+    "updatedAt": "2026-08-31",
     "website": "https://scramble.investments"
   },
   "summary": {
@@ -213,30 +213,43 @@
     },
     {
       "date": "2026-07-31",
-      "invested": 950.0,
-      "value": 1062.91,
-      "profit": 112.91,
-      "cash": 1.0,
+      "invested": 750.0,
+      "value": 803.46,
+      "profit": 53.46,
+      "cash": 0.0,
       "income": 224.37,
       "deposits": 0.0,
       "withdrawals": 0.0,
       "bonuses": 1.0,
       "monthlyProfit": 1.0,
       "monthlyReturn": 0.12
+    },
+    {
+      "date": "2026-08-31",
+      "invested": 950.0,
+      "value": 1062.91,
+      "profit": 112.91,
+      "cash": 1.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
     }
   ],
   "latestMonth": {
-    "date": "2026-07-31",
+    "date": "2026-08-31",
     "invested": 950.0,
     "value": 1062.91,
     "profit": 112.91,
     "cash": 1.0,
-    "income": 224.37,
+    "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
-    "bonuses": 1.0,
-    "monthlyProfit": 1.0,
-    "monthlyReturn": 0.12
+    "bonuses": 0.0,
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
   },
   "largestInvestment": {
     "id": "June 2026",
@@ -2120,6 +2133,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 14,
     "skippedSheets": [],
-    "generatedAt": "2026-07-31T23:36:45+03:00"
+    "generatedAt": "2026-08-01T17:30:36+03:00"
   }
 }
