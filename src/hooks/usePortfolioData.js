@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { usePortfolioOwner } from "../context/PortfolioContext";
 
 function toNumber(value, fallback = 0) {
   const number = Number(value);
@@ -99,17 +100,14 @@ function createAllocationItem(key, label, item, totalValue) {
 }
 
 async function fetchJson(path, signal) {
-  const response = await fetch(
-    `${import.meta.env.BASE_URL}data/${path}`,
-    {
-      cache: "no-store",
-      signal,
-    },
-  );
+  const response = await fetch(path, {
+    cache: "no-store",
+    signal,
+  });
 
   if (!response.ok) {
     throw new Error(
-      `${path} nepavyko įkelti (${response.status}).`,
+      `${path.split("/").pop()} nepavyko įkelti (${response.status}).`,
     );
   }
 
@@ -117,6 +115,7 @@ async function fetchJson(path, signal) {
 }
 
 export default function usePortfolioData() {
+  const { ownerId, dataPath } = usePortfolioOwner();
   const [historyFiles, setHistoryFiles] = useState(null);
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
@@ -134,9 +133,9 @@ export default function usePortfolioData() {
           fundsHistory,
           p2pHistory,
         ] = await Promise.all([
-          fetchJson("portfolio_history.json", controller.signal),
-          fetchJson("funds_history.json", controller.signal),
-          fetchJson("p2p_history.json", controller.signal),
+          fetchJson(dataPath("portfolio_history.json"), controller.signal),
+          fetchJson(dataPath("funds_history.json"), controller.signal),
+          fetchJson(dataPath("p2p_history.json"), controller.signal),
         ]);
 
         if (!controller.signal.aborted) {
@@ -166,7 +165,7 @@ export default function usePortfolioData() {
     loadDashboardData();
 
     return () => controller.abort();
-  }, []);
+  }, [ownerId, dataPath]);
 
   const dashboard = useMemo(() => {
     if (!historyFiles) return null;

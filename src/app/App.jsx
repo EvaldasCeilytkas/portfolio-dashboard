@@ -1,7 +1,12 @@
+import { PortfolioProvider } from "../context/PortfolioContext";
 import AppRoutes from "./routes";
 
 function App() {
-  return <AppRoutes />;
+  return (
+    <PortfolioProvider>
+      <AppRoutes />
+    </PortfolioProvider>
+  );
 }
 
 export default App;

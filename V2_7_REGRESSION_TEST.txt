@@ -1,4 +1,0 @@
-Crowdpear: rezultatai sutampa su V2.3.2 (11 active, 1 delayed, 13 completed, 1186.48 EUR)
-Profitus: rezultatai sutampa su V2.4 (10 active, 0 delayed, 9 completed, 1122.19 EUR)
-Rontgen: rezultatai sutampa su V2.5.2 (8 active, 0 delayed, 1 completed, 704.67 EUR)
-Nordstreet: išsaugota V2.6 platformos konfigūracija ir jos specifinės kodų/mokėjimų taisyklės.
