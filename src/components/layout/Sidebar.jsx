@@ -10,6 +10,7 @@ const navigation = [
   { to: "/alerts", label: "Alerts", icon: "!" },
   { to: "/intelligence", label: "Intelligence", icon: "IQ" },
   { to: "/goals", label: "Goals", icon: "G" },
+  { to: "/sync", label: "Sync", icon: "SY" },
 ];
 
 function Sidebar() {

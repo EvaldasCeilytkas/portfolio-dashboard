@@ -13,6 +13,7 @@ import PortfolioPage from "../pages/PortfolioPage";
 import PerformancePage from "../pages/PerformancePage";
 import IntelligencePage from "../pages/IntelligencePage";
 import GoalsPage from "../pages/GoalsPage";
+import SyncPage from "../pages/SyncPage";
 import ProjectPage from "../pages/ProjectPage";
 
 function FullAccessRoute({ children }) {
@@ -47,6 +48,7 @@ function AppRoutes() {
         <Route path="alerts" element={<AlertsPage />} />
         <Route path="intelligence" element={<IntelligencePage />} />
         <Route path="goals" element={<GoalsPage />} />
+        <Route path="sync" element={<SyncPage />} />
         <Route path="platforms/:platformSlug" element={<PortfolioAccessRoute><PlatformPage /></PortfolioAccessRoute>} />
         <Route path="platforms/:slug/loan/:loanId" element={<P2PAccessRoute><P2PLoanProfile /></P2PAccessRoute>} />
         <Route path="platforms/:platformSlug/projects/:projectCode" element={<PortfolioAccessRoute><ProjectPage /></PortfolioAccessRoute>} />
