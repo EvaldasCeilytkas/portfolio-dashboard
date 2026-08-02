@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T17:12:51+03:00",
+  "generatedAt": "2026-08-02T17:17:34+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "peerberry",
@@ -376,6 +376,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 2,
     "skippedSheets": [],
-    "generatedAt": "2026-08-02T17:12:51+03:00"
+    "generatedAt": "2026-08-02T17:17:34+03:00"
   }
 }
