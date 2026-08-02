@@ -1,3 +1,5 @@
+import StatCard from "../ui/StatCard";
+
 function number(value) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : 0;
@@ -89,16 +91,14 @@ export default function MetricCards({ data }) {
   return (
     <section className="dashboard-metrics">
       {cards.map((card) => (
-        <article
-          className={`dashboard-metric ${
-            card.tone ? `dashboard-tone-${card.tone}` : ""
-          }`}
+        <StatCard
           key={card.label}
-        >
-          <span>{card.label}</span>
-          <strong>{card.value}</strong>
-          <small>{card.note}</small>
-        </article>
+          label={card.label}
+          value={card.value}
+          note={card.note}
+          tone={card.tone || "info"}
+          className={`dashboard-metric ${card.tone ? `dashboard-tone-${card.tone}` : ""}`}
+        />
       ))}
     </section>
   );

@@ -12,6 +12,10 @@ const titles = {
   "/intelligence": { eyebrow: "IŠMANIOJI PORTFELIO ANALIZĖ", title: "Portfolio Intelligence" },
   "/goals": { eyebrow: "FINANSINIAI TIKSLAI", title: "Goals Center" },
   "/sync": { eyebrow: "PORTFOLIO SYNCHRONIZATION HUB", title: "Sync Center" },
+  "/search": { eyebrow: "GLOBALI INVESTICIJŲ PAIEŠKA", title: "Search Center" },
+  "/reports": { eyebrow: "PORTFELIO ATASKAITOS", title: "Report Center" },
+  "/ai-insights": { eyebrow: "IŠMANIOSIOS ĮŽVALGOS", title: "AI Insights" },
+  "/system": { eyebrow: "STABLE RELEASE VALDYMAS", title: "System Info" },
 };
 
 function resolveTitle(pathname) {
@@ -28,7 +32,18 @@ function TopBar() {
   const [isOpen, setIsOpen] = useState(false);
   const selectorRef = useRef(null);
   const page = resolveTitle(location.pathname);
-  const isSyncPage = location.pathname === "/sync";
+  const isSystemPage = location.pathname === "/sync" || location.pathname === "/system";
+
+  useEffect(() => {
+    function openSearch(event) {
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        navigate("/search");
+      }
+    }
+    window.addEventListener("keydown", openSearch);
+    return () => window.removeEventListener("keydown", openSearch);
+  }, [navigate]);
 
   useEffect(() => {
     function closeOnOutsideClick(event) {
@@ -52,7 +67,7 @@ function TopBar() {
     const isPortfolioPath = location.pathname === "/portfolio" || location.pathname.startsWith("/platforms/");
     const isAnalyticsPath = location.pathname === "/analytics";
     const isP2PPath = location.pathname === "/p2p" || location.pathname.includes("/loan/");
-    const isUniversalPath = location.pathname === "/performance" || location.pathname === "/alerts" || location.pathname === "/intelligence" || location.pathname === "/goals";
+    const isUniversalPath = location.pathname === "/performance" || location.pathname === "/alerts" || location.pathname === "/intelligence" || location.pathname === "/goals" || location.pathname === "/search" || location.pathname === "/reports" || location.pathname === "/ai-insights" || location.pathname === "/system" || location.pathname === "/sync";
     const canStay =
       location.pathname === "/" ||
       (isPortfolioPath && nextOwner.portfolioAccess) ||
@@ -74,12 +89,14 @@ function TopBar() {
       </div>
 
       <div className="topbar-meta">
+        <button className="search-quick-button" type="button" onClick={() => navigate("/search")}><span>⌕</span> Paieška <kbd>Ctrl K</kbd></button>
+
         <span className="topbar-status">
           <span className="status-dot" />
           Sistema veikia
         </span>
 
-        {isSyncPage ? (
+        {isSystemPage ? (
           <div className="owner-selector owner-selector-system">
             <div className="owner-selector-button system-profile-card">
               <span className="user-badge" aria-hidden="true">SYS</span>

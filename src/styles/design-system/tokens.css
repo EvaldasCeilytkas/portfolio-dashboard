@@ -1,0 +1,113 @@
+/* Portfolio Dashboard Pro — Design System v2.0.1
+   Foundation tokens. Values intentionally mirror the current UI. */
+:root {
+  /* Brand */
+  --ds-brand-50: #eef2ff;
+  --ds-brand-100: #e0e7ff;
+  --ds-brand-400: #60a5fa;
+  --ds-brand-500: #4169e1;
+  --ds-brand-600: #3654b7;
+  --ds-brand-700: #29439b;
+
+  /* Semantic colors */
+  --ds-success: #34d399;
+  --ds-success-strong: #22b97a;
+  --ds-success-soft: rgba(52, 211, 153, 0.12);
+  --ds-warning: #fbbf24;
+  --ds-warning-strong: #f59e0b;
+  --ds-warning-soft: rgba(251, 191, 36, 0.12);
+  --ds-danger: #fb7185;
+  --ds-danger-strong: #ef476f;
+  --ds-danger-soft: rgba(251, 113, 133, 0.12);
+  --ds-info: #38bdf8;
+  --ds-info-soft: rgba(56, 189, 248, 0.12);
+  --ds-analytics: #8b5cf6;
+  --ds-analytics-soft: rgba(139, 92, 246, 0.12);
+
+  /* App shell (light) */
+  --ds-app-bg: #f4f6fa;
+  --ds-app-bg-elevated: #ffffff;
+  --ds-app-text: #172033;
+  --ds-app-text-muted: #7b8498;
+  --ds-app-border: #e4e8f0;
+
+  /* Data surfaces (dark cards) */
+  --ds-data-bg: #07101f;
+  --ds-data-bg-soft: #0a1426;
+  --ds-data-surface: #11283a;
+  --ds-data-surface-strong: #0f2234;
+  --ds-data-surface-hover: #17364b;
+  --ds-data-text: #f8fafc;
+  --ds-data-text-soft: #cbd5e1;
+  --ds-data-muted: #8bb9dc;
+  --ds-data-border: rgba(96, 165, 250, 0.16);
+
+  /* Typography */
+  --ds-font-sans: Inter, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --ds-font-size-xs: 0.6875rem;
+  --ds-font-size-sm: 0.75rem;
+  --ds-font-size-md: 0.875rem;
+  --ds-font-size-lg: 1rem;
+  --ds-font-size-xl: 1.25rem;
+  --ds-font-size-2xl: 1.75rem;
+  --ds-font-size-3xl: clamp(1.75rem, 3vw, 2.25rem);
+  --ds-line-tight: 1.15;
+  --ds-line-normal: 1.5;
+  --ds-weight-medium: 550;
+  --ds-weight-semibold: 650;
+  --ds-weight-bold: 750;
+  --ds-weight-black: 850;
+
+  /* Spacing — 4 px base scale */
+  --ds-space-0: 0;
+  --ds-space-1: 0.25rem;
+  --ds-space-2: 0.5rem;
+  --ds-space-3: 0.75rem;
+  --ds-space-4: 1rem;
+  --ds-space-5: 1.25rem;
+  --ds-space-6: 1.5rem;
+  --ds-space-7: 1.75rem;
+  --ds-space-8: 2rem;
+  --ds-space-10: 2.5rem;
+  --ds-space-12: 3rem;
+  --ds-space-16: 4rem;
+
+  /* Radius */
+  --ds-radius-xs: 0.5rem;
+  --ds-radius-sm: 0.75rem;
+  --ds-radius-md: 1rem;
+  --ds-radius-lg: 1.375rem;
+  --ds-radius-xl: 1.625rem;
+  --ds-radius-pill: 999px;
+
+  /* Shadows */
+  --ds-shadow-sm: 0 8px 22px rgba(24, 32, 51, 0.07);
+  --ds-shadow-md: 0 18px 45px rgba(24, 32, 51, 0.08);
+  --ds-shadow-data: 0 20px 60px rgba(2, 6, 23, 0.3);
+  --ds-shadow-focus: 0 0 0 3px rgba(65, 105, 225, 0.22);
+
+  /* Layout */
+  --ds-sidebar-width: 268px;
+  --ds-page-max-width: 1600px;
+  --ds-page-gutter: clamp(1rem, 2.65vw, 2.625rem);
+  --ds-section-gap: clamp(1rem, 2vw, 1.5rem);
+  --ds-card-padding: clamp(1.25rem, 2vw, 2rem);
+
+  /* Motion */
+  --ds-duration-fast: 140ms;
+  --ds-duration-normal: 200ms;
+  --ds-duration-slow: 320ms;
+  --ds-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ds-ease-emphasized: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Compatibility aliases used by the current application */
+  --sidebar-width: var(--ds-sidebar-width);
+  --border: var(--ds-app-border);
+  --muted: var(--ds-app-text-muted);
+  --surface: var(--ds-app-bg-elevated);
+  --accent: var(--ds-brand-500);
+  --accent-soft: var(--ds-brand-50);
+  --shadow: var(--ds-shadow-md);
+}

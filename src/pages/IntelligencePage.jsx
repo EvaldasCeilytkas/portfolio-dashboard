@@ -353,7 +353,7 @@ export default function IntelligencePage() {
       </section>
 
       <section className="ic-grid ic-grid-main">
-        <article className="ic-card ic-insights-card">
+        <article className="ds-card ic-card ic-insights-card">
           <header><div><p>INTELLIGENCE FEED</p><h2>Išmaniosios įžvalgos</h2></div><span>Kas dabar labiausiai veikia portfelio būklę</span></header>
           <div className="ic-insight-list">
             {model.insights.map((insight, index) => (
@@ -366,7 +366,7 @@ export default function IntelligencePage() {
           </div>
         </article>
 
-        <article className="ic-card ic-cash-card">
+        <article className="ds-card ic-card ic-cash-card">
           <header><div><p>CASH DRAG</p><h2>Neįdarbintos lėšos</h2></div></header>
           <div className="ic-cash-value"><strong>{money(model.totalCash)}</strong><span>{percent(model.cashRatio)} portfelio</span></div>
           <div className="ic-cash-impact"><span>Galima metinė negauta grąža</span><strong>{money(model.yearlyCashDrag)}</strong><small>Skaičiuojama pagal didesnę iš 7 % arba dabartinio ROI reikšmę.</small></div>
@@ -375,7 +375,7 @@ export default function IntelligencePage() {
       </section>
 
       <section className="ic-grid ic-grid-secondary">
-        <article className="ic-card ic-allocation-card">
+        <article className="ds-card ic-card ic-allocation-card">
           <header><div><p>ALLOCATION ADVISOR</p><h2>Turto klasių balansas</h2></div><span>Orientyras – tolygesnis paskirstymas tarp turimų klasių</span></header>
           <div className="ic-allocation-list">
             {model.groups.map((group) => {
@@ -393,7 +393,7 @@ export default function IntelligencePage() {
           </div>
         </article>
 
-        <article className="ic-card ic-opportunity-card">
+        <article className="ds-card ic-card ic-opportunity-card">
           <header><div><p>OPPORTUNITY FINDER</p><h2>Galimybės ir silpnos vietos</h2></div></header>
           <div className="ic-opportunity-list">
             <button className="is-best" onClick={() => openPlatform(model.bestPlatform)} disabled={!model.bestPlatform}>
@@ -410,7 +410,7 @@ export default function IntelligencePage() {
         </article>
       </section>
 
-      <section className="ic-card ic-concentration-card">
+      <section className="ds-card ic-card ic-concentration-card">
         <header><div><p>CONCENTRATION MAP</p><h2>Didžiausios portfelio pozicijos</h2></div><span>Spustelėjus atidaromas platformos puslapis</span></header>
         <div className="ic-position-grid">
           {model.rankedByValue.slice(0, 8).map((platform, index) => {
@@ -435,7 +435,7 @@ export default function IntelligencePage() {
         </div>
       </section>
 
-      <section className="ic-card ic-summary-card">
+      <section className="ds-card ic-card ic-summary-card">
         <div className="ic-summary-orb">AI</div>
         <div className="ic-summary-copy">
           <p>AI PORTFOLIO SUMMARY</p>
@@ -449,7 +449,7 @@ export default function IntelligencePage() {
         </div>
       </section>
 
-      <section className="ic-card ic-copilot-card">
+      <section className="ds-card ic-card ic-copilot-card">
         <div className="ic-copilot-heading">
           <div className="ic-copilot-orb">✦</div>
           <div><p>PORTFOLIO COPILOT</p><h2>Paklauskite apie kitą portfelio žingsnį</h2><span>Atsakymai skaičiuojami iš dabartinių portfelio duomenų.</span></div>

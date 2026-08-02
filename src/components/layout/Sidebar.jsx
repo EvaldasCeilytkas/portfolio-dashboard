@@ -11,6 +11,10 @@ const navigation = [
   { to: "/intelligence", label: "Intelligence", icon: "IQ" },
   { to: "/goals", label: "Goals", icon: "G" },
   { to: "/sync", label: "Sync", icon: "SY" },
+  { to: "/search", label: "Search", icon: "S" },
+  { to: "/reports", label: "Reports", icon: "R" },
+  { to: "/ai-insights", label: "AI Insights", icon: "AI" },
+  { to: "/system", label: "System Info", icon: "SI" },
 ];
 
 function Sidebar() {
@@ -19,10 +23,10 @@ function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <div className="brand-mark">V2</div>
+        <div className="brand-mark">P2</div>
         <div>
           <strong>Portfolio</strong>
-          <span>Analytics</span>
+          <span>Pro v2.0 Stable</span>
         </div>
       </div>
 

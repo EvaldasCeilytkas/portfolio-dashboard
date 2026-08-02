@@ -1,11 +1,17 @@
+import AppErrorBoundary from "../components/common/AppErrorBoundary";
+import { ToastProvider } from "../components/ui/Toast";
 import { PortfolioProvider } from "../context/PortfolioContext";
 import AppRoutes from "./routes";
 
 function App() {
   return (
-    <PortfolioProvider>
-      <AppRoutes />
-    </PortfolioProvider>
+    <AppErrorBoundary>
+      <PortfolioProvider>
+        <ToastProvider>
+          <AppRoutes />
+        </ToastProvider>
+      </PortfolioProvider>
+    </AppErrorBoundary>
   );
 }
 

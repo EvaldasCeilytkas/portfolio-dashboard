@@ -1,16 +1,60 @@
-# React + Vite
+# Portfolio Dashboard Pro v2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio Dashboard Pro yra kelių portfelių investicijų valdymo sistema, sujungianti Excel importus, React sąsają, analitiką, tikslus, paiešką, ataskaitas, AI įžvalgas ir sinchronizavimo diagnostiką.
 
-Currently, two official plugins are available:
+## Leidimas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Versija: **2.0**
+- Kanalo tipas: **Stable**
+- Build: **2026.08.02**
+- Design System: **2.0.3**
 
-## React Compiler
+## Pagrindiniai moduliai
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Dashboard
+- Portfolio
+- Analytics
+- P2P ir platformų puslapiai
+- Performance Center
+- Alerts Center
+- Portfolio Intelligence
+- Goals Center
+- Sync Center
+- Search Center
+- Report Center
+- AI Insights
+- System Info ir Diagnostics
 
-## Expanding the ESLint configuration
+## Portfeliai
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sistema palaiko Evaldo, Rimos, Gerdos ir bendrą šeimos portfelį. Gerdos portfelis nėra įtraukiamas į šeimos sumas.
+
+## Paleidimas lokaliai
+
+```bash
+npm install
+npm run dev
+```
+
+## Produkcinis build
+
+```bash
+npm run build
+npm run preview
+```
+
+GitHub Pages bazinis kelias nustatytas `vite.config.js` faile: `/portfolio-dashboard/`.
+
+## Duomenų atnaujinimas
+
+Pagrindiniame projekto aplanke paleiskite:
+
+```text
+ATNAUJINTI_VISUS_PORTFELIUS.bat
+```
+
+Jis atnaujina visų portfelių JSON, Sync Center būseną ir publikuoja pakeitimus.
+
+## Duomenų saugumas
+
+System Info puslapio Backup funkcija eksportuoja naršyklės nustatymus ir Goals konfigūraciją. Excel bei sugeneruoti JSON failai lieka projekto aplankuose ir turi būti saugomi atskirai.
