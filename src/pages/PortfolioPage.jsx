@@ -349,16 +349,12 @@ function PortfolioPage() {
           <span className="portfolio-eyebrow">
             {ownerId === "family"
               ? "FAMILY PORTFOLIO OVERVIEW"
-              : ownerId === "rima"
-                ? "RIMOS PORTFOLIO OVERVIEW"
-                : "PORTFOLIO OVERVIEW"}
+              : `${owner.name.toLocaleUpperCase("lt-LT")} PORTFOLIO OVERVIEW`}
           </span>
           <h1>
             {ownerId === "family"
               ? "Šeimos portfelis"
-              : ownerId === "rima"
-                ? "Rimos portfelis"
-                : "Portfelis"}
+              : `${owner.name} portfelis`}
           </h1>
         </div>
 
@@ -482,9 +478,7 @@ function PortfolioPage() {
             <p>
               {ownerId === "family"
                 ? "Evaldas ir Rima · "
-                : ownerId === "rima"
-                  ? `${owner.name} · `
-                  : ""}
+                : `${owner.name} · `}
               {statusFilter === "active"
                 ? `Rodomos ${filteredPlatforms.length} aktyvios platformos iš ${counts.all}`
                 : statusFilter === "inactive"

@@ -32,6 +32,7 @@ const OWNER_P2P_SLUGS = Object.freeze({
     "lendermarket",
     "scramble",
   ]),
+  gerda: Object.freeze(["profitus"]),
 });
 
 const REAL_ESTATE_SLUGS = new Set([
@@ -129,7 +130,7 @@ function getInitials(name) {
 }
 
 function buildPlatformRows(platformHistory, slugs, ownerId = "evaldas") {
-  const ownerName = ownerId === "rima" ? "Rima" : "Evaldas";
+  const ownerName = ownerId === "rima" ? "Rima" : ownerId === "gerda" ? "Gerda" : "Evaldas";
 
   return slugs.map((slug) => {
     const historyItem = platformHistory?.platforms?.[slug];
@@ -934,7 +935,7 @@ function OwnerP2PPage() {
       <section className="p2p-hero">
         <div className="p2p-hero-main">
           <div className="p2p-hero-badges">
-            <span className="p2p-eyebrow">{ownerId === "rima" ? "Rimos P2P portfolio overview" : "P2P portfolio overview"}</span>
+            <span className="p2p-eyebrow">{ownerId === "rima" ? "Rimos P2P portfolio overview" : ownerId === "gerda" ? "Gerdos P2P portfolio overview" : "P2P portfolio overview"}</span>
             <span className="p2p-status-badge"><i />Portfelis aktyvus</span>
           </div>
           <h1>P2P investicijų portfelis</h1>
@@ -989,7 +990,7 @@ function OwnerP2PPage() {
         <article className="p2p-metric-card p2p-metric-real-estate">
           <span className="p2p-metric-label">NT finansavimas</span>
           <strong className="p2p-metric-value">{formatCurrency(realEstateValue)}</strong>
-          <span className="p2p-metric-description">{ownerId === "rima" ? "Profitus, Nordstreet ir Indemo" : "Profitus, Crowdpear, Nordstreet, Röntgen ir Indemo"}</span>
+          <span className="p2p-metric-description">{ownerId === "rima" ? "Profitus, Nordstreet ir Indemo" : ownerId === "gerda" ? "Profitus" : "Profitus, Crowdpear, Nordstreet, Röntgen ir Indemo"}</span>
         </article>
         <article className="p2p-metric-card p2p-metric-loans">
           <span className="p2p-metric-label">P2P paskolos</span>

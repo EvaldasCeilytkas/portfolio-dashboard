@@ -1,0 +1,8 @@
+GERDOS PORTFELIO INTEGRACIJA V1.0
+
+1. Nukopijuokite aplankus src, public ir scripts į projekto šaknį, patvirtindami failų pakeitimą.
+2. Nukopijuokite excel/Investavimas Gerda.xlsx ir excel/Profitus Gerda.xlsx į projekto excel aplanką.
+3. Pirmam atnaujinimui paleiskite ATNAUJINTI_GERDOS_PORTFELI.bat.
+4. Naršyklėje portfelio pasirinkime atsiras Gerda.
+
+Svarbu: Šeimos portfelis ir toliau skaičiuojamas tik iš Evaldo + Rimos duomenų. Gerdos duomenys į šeimos sumas neįtraukiami.

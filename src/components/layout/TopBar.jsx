@@ -9,6 +9,8 @@ const titles = {
   "/p2p": { eyebrow: "P2P INVESTICIJOS", title: "P2P" },
   "/performance": { eyebrow: "INVESTICIJŲ EFEKTYVUMAS", title: "Performance" },
   "/alerts": { eyebrow: "PORTFELIO STEBĖJIMAS", title: "Alerts Center" },
+  "/intelligence": { eyebrow: "IŠMANIOJI PORTFELIO ANALIZĖ", title: "Portfolio Intelligence" },
+  "/goals": { eyebrow: "FINANSINIAI TIKSLAI", title: "Goals Center" },
 };
 
 function resolveTitle(pathname) {
@@ -48,7 +50,7 @@ function TopBar() {
     const isPortfolioPath = location.pathname === "/portfolio" || location.pathname.startsWith("/platforms/");
     const isAnalyticsPath = location.pathname === "/analytics";
     const isP2PPath = location.pathname === "/p2p" || location.pathname.includes("/loan/");
-    const isUniversalPath = location.pathname === "/performance" || location.pathname === "/alerts";
+    const isUniversalPath = location.pathname === "/performance" || location.pathname === "/alerts" || location.pathname === "/intelligence" || location.pathname === "/goals";
     const canStay =
       location.pathname === "/" ||
       (isPortfolioPath && nextOwner.portfolioAccess) ||

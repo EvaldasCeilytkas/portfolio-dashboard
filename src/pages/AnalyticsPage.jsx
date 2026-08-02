@@ -98,7 +98,7 @@ export default function AnalyticsPage() {
     const controller = new AbortController();
 
     const ownerPath = (owner, fileName) => {
-      const prefix = owner === "rima" ? "rima/" : "";
+      const prefix = owner === "evaldas" ? "" : `${owner}/`;
       return `${import.meta.env.BASE_URL}data/${prefix}${fileName}`;
     };
 

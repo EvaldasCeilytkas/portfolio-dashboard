@@ -8,6 +8,8 @@ const navigation = [
   { to: "/p2p", label: "P2P", icon: "2P", requiresP2PAccess: true },
   { to: "/performance", label: "Performance", icon: "PF" },
   { to: "/alerts", label: "Alerts", icon: "!" },
+  { to: "/intelligence", label: "Intelligence", icon: "IQ" },
+  { to: "/goals", label: "Goals", icon: "G" },
 ];
 
 function Sidebar() {

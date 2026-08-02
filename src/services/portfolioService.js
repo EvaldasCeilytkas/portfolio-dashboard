@@ -89,7 +89,7 @@ function resolveDataUrl(dataFile, ownerId = "evaldas") {
     .replace(/^\/+/, "")
     .replace(/^data\//, "");
 
-  const ownerPrefix = ownerId === "rima" ? "rima/" : "";
+  const ownerPrefix = ownerId === "evaldas" ? "" : `${ownerId}/`;
 
   return `${import.meta.env.BASE_URL}data/${ownerPrefix}${relativePath}`;
 }
@@ -203,7 +203,7 @@ function normalizePlatform(registryItem, payload, ownerId = "evaldas") {
     isActive,
     logoUrl: getLogoUrl(slug, website),
     ownerId,
-    ownerName: ownerId === "rima" ? "Rima" : "Evaldas",
+    ownerName: ownerId === "rima" ? "Rima" : ownerId === "gerda" ? "Gerda" : "Evaldas",
     ...getBrandStyle(slug, name),
   };
 }
@@ -246,8 +246,15 @@ export async function loadPortfolioPlatforms(ownerId = "evaldas") {
     ];
   }
 
+  const ownerPlatformSlugs = {
+    gerda: new Set(["profitus"]),
+  };
+  const allowedSlugs = ownerPlatformSlugs[ownerId] || null;
   const enabledPlatforms = platformRegistry.filter(
-    (platform) => platform.enabled !== false && platform.dataFile,
+    (platform) =>
+      platform.enabled !== false &&
+      platform.dataFile &&
+      (!allowedSlugs || allowedSlugs.has(platform.slug)),
   );
 
   const results = await Promise.allSettled(
@@ -262,7 +269,7 @@ export async function loadPortfolioPlatforms(ownerId = "evaldas") {
       loadedPlatforms.push({
         ...result.value,
         ownerId,
-        ownerName: ownerId === "rima" ? "Rima" : "Evaldas",
+        ownerName: ownerId === "rima" ? "Rima" : ownerId === "gerda" ? "Gerda" : "Evaldas",
       });
     } else {
       failedPlatforms.push({
@@ -324,7 +331,7 @@ function combineHistorySeries(firstHistory = [], secondHistory = []) {
 }
 
 async function loadSinglePortfolioHistory(ownerId) {
-  const ownerPrefix = ownerId === "rima" ? "rima/" : "";
+  const ownerPrefix = ownerId === "evaldas" ? "" : `${ownerId}/`;
   const url = `${import.meta.env.BASE_URL}data/${ownerPrefix}portfolio_history.json`;
   const response = await fetch(url, { cache: "no-store" });
 

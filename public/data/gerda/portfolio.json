@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T11:26:02+00:00",
+  "currency": "EUR",
+  "summary": {
+    "invested": 215.3,
+    "currentValue": 240.3,
+    "profit": 25.0,
+    "returnRate": 11.6117,
+    "xirr": 418.8625,
+    "cash": 0.0,
+    "incomeReceived": 0.0,
+    "platformCount": 1,
+    "activeInvestments": 2,
+    "delayedInvestments": 0,
+    "completedInvestments": 0
+  },
+  "allocation": [
+    {
+      "group": "real_estate",
+      "name": "NT sutelktinis finansavimas",
+      "invested": 215.3,
+      "currentValue": 240.3,
+      "profit": 25.0,
+      "cash": 0.0,
+      "percentage": 100.0,
+      "platformCount": 1
+    }
+  ],
+  "platforms": [
+    {
+      "id": "profitus",
+      "slug": "profitus",
+      "name": "Profitus",
+      "group": "real_estate",
+      "type": "real_estate",
+      "category": "NT sutelktinis finansavimas",
+      "currency": "EUR",
+      "active": true,
+      "startDate": "2026-05-22",
+      "updatedAt": "2026-08-02",
+      "website": "https://profitus.lt",
+      "sourceFile": "profitus.json",
+      "summary": {
+        "invested": 215.3,
+        "currentValue": 240.3,
+        "profit": 25.0,
+        "returnRate": 11.6117,
+        "xirr": 418.8625,
+        "cash": 0.0,
+        "incomeReceived": 0.0,
+        "activeInvestments": 2,
+        "delayedInvestments": 0,
+        "completedInvestments": 0,
+        "averageRate": 8.2231,
+        "averageLtv": 64.4236
+      }
+    }
+  ]
+}

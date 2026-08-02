@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "type": "monthlyPortfolioHistory",
+  "section": "Visas portfelis",
+  "currency": "EUR",
+  "generatedAt": "2026-08-02T11:25:56+00:00",
+  "source": {
+    "file": "Investavimas Gerda.xlsx",
+    "sheet": "Investavimas",
+    "owner": "Gerda"
+  },
+  "period": {
+    "from": "2026-05-31",
+    "to": "2026-07-31",
+    "months": 3
+  },
+  "latest": {
+    "date": "2026-07-31",
+    "invested": 215.3,
+    "monthlyContribution": 0.0,
+    "value": 240.3,
+    "profit": 25.0,
+    "returnRate": 11.61,
+    "monthlyResult": 0.0
+  },
+  "history": [
+    {
+      "date": "2026-05-31",
+      "invested": 106.34,
+      "monthlyContribution": 106.34,
+      "value": 106.34,
+      "profit": 0.0,
+      "returnRate": 0.0,
+      "monthlyResult": 0.0
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 215.3,
+      "monthlyContribution": 108.96,
+      "value": 240.3,
+      "profit": 25.0,
+      "returnRate": 11.61,
+      "monthlyResult": 25.0
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 215.3,
+      "monthlyContribution": 0.0,
+      "value": 240.3,
+      "profit": 25.0,
+      "returnRate": 11.61,
+      "monthlyResult": 0.0
+    }
+  ]
+}

@@ -11,6 +11,8 @@ import P2PLoanProfile from "../pages/P2PLoanProfile";
 import PlatformPage from "../pages/PlatformPage";
 import PortfolioPage from "../pages/PortfolioPage";
 import PerformancePage from "../pages/PerformancePage";
+import IntelligencePage from "../pages/IntelligencePage";
+import GoalsPage from "../pages/GoalsPage";
 import ProjectPage from "../pages/ProjectPage";
 
 function FullAccessRoute({ children }) {
@@ -43,6 +45,8 @@ function AppRoutes() {
         <Route path="p2p" element={<P2PAccessRoute><P2PPage /></P2PAccessRoute>} />
         <Route path="performance" element={<PerformancePage />} />
         <Route path="alerts" element={<AlertsPage />} />
+        <Route path="intelligence" element={<IntelligencePage />} />
+        <Route path="goals" element={<GoalsPage />} />
         <Route path="platforms/:platformSlug" element={<PortfolioAccessRoute><PlatformPage /></PortfolioAccessRoute>} />
         <Route path="platforms/:slug/loan/:loanId" element={<P2PAccessRoute><P2PLoanProfile /></P2PAccessRoute>} />
         <Route path="platforms/:platformSlug/projects/:projectCode" element={<PortfolioAccessRoute><ProjectPage /></PortfolioAccessRoute>} />

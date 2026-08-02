@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T11:26:01+00:00",
+  "platform": {
+    "id": "profitus",
+    "slug": "profitus",
+    "name": "Profitus",
+    "group": "real_estate",
+    "type": "real_estate",
+    "category": "NT sutelktinis finansavimas",
+    "currency": "EUR",
+    "active": true,
+    "startDate": "2026-05-22",
+    "updatedAt": "2026-08-02",
+    "website": "https://profitus.lt"
+  },
+  "summary": {
+    "invested": 215.3,
+    "currentValue": 240.3,
+    "profit": 25.0,
+    "returnRate": 11.6117,
+    "xirr": 418.8625,
+    "cash": 0.0,
+    "incomeReceived": 0.0,
+    "activeInvestments": 2,
+    "delayedInvestments": 0,
+    "completedInvestments": 0,
+    "averageRate": 8.2231,
+    "averageLtv": 64.4236
+  },
+  "history": [
+    {
+      "date": "2026-08-01",
+      "invested": 215.3,
+      "value": 240.3,
+      "profit": 25.0,
+      "cash": 0.0,
+      "income": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "Paskola P00001402-2",
+      "code": "Paskola P00001402-2",
+      "name": "Dvibučių kvartalas Kauno r. II",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 106.3,
+      "currentValue": 106.3,
+      "profit": 0.0,
+      "investmentDate": "2026-05-22",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.0,
+      "incomeReceived": 0.0,
+      "outstanding": 106.3,
+      "delayDays": 0,
+      "ltv": 70.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-05-24",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.26,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.12,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.1,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-24",
+          "plannedPrincipal": 106.3,
+          "plannedInterest": 1.98,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 106.3,
+          "plannedInterest": 8.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-05-26",
+      "durationMonths": 12,
+      "paymentFrequency": "M",
+      "maxLtv": 85.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 16.92,
+      "sourceSheets": [
+        "Dvibučių kvartalas Kauno r. II"
+      ]
+    },
+    {
+      "id": "Paskola P00001537-15",
+      "code": "Paskola P00001537-15",
+      "name": "Druskonio Perlai, Druskininkai XV",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 134.0,
+      "currentValue": 134.0,
+      "profit": 0.0,
+      "investmentDate": "2026-06-19",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.4,
+      "incomeReceived": 0.0,
+      "outstanding": 134.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-06-21",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-10-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.05,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.84,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.78,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-21",
+          "plannedPrincipal": 134.0,
+          "plannedInterest": 2.53,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 134.0,
+          "plannedInterest": 11.2,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-06-23",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 22.4,
+      "sourceSheets": [
+        "Druskonio Perlai, Druskininkai "
+      ]
+    }
+  ]
+}

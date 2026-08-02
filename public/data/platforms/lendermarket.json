@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:51:44+03:00",
+  "generatedAt": "2026-08-02T14:33:38+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lendermarket",
@@ -1186,6 +1186,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 13,
     "skippedSheets": [],
-    "generatedAt": "2026-08-02T12:51:44+03:00"
+    "generatedAt": "2026-08-02T14:33:38+03:00"
   }
 }

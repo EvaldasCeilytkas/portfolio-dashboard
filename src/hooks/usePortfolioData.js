@@ -218,7 +218,7 @@ export default function usePortfolioData() {
       currency: "EUR",
       generatedAt: latest.date,
       ownerId,
-      portfolioName: ownerId === "family" ? "Šeimos investicijų portfelis" : "Investicijų portfelis",
+      portfolioName: ownerId === "family" ? "Šeimos investicijų portfelis" : `${owner.name} investicijų portfelis`,
       eyebrow: ownerId === "family" ? "FAMILY PORTFOLIO OVERVIEW" : "PORTFOLIO OVERVIEW",
       currentValue,
       invested,

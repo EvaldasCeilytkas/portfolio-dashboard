@@ -23,6 +23,16 @@ const OWNERS = {
     analyticsAccess: true,
     p2pAccess: true,
   },
+  gerda: {
+    id: "gerda",
+    name: "Gerda",
+    initials: "G",
+    dataFolder: "gerda",
+    fullAccess: false,
+    portfolioAccess: true,
+    analyticsAccess: true,
+    p2pAccess: true,
+  },
   family: {
     id: "family",
     name: "Šeimos portfelis",
