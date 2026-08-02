@@ -1,0 +1,27 @@
+RIMOS INDEMO V1.0
+=================
+
+1. Projekto excel aplanke failą pavadink:
+   Indemo Rima.xlsx
+
+2. Šio paketo aplankus scripts ir public nukopijuok į projekto šaknį.
+   Leisk Windows pakeisti esamus failus.
+
+3. Projekto šaknyje pakeisk seną BAT failą nauju:
+   ATNAUJINTI_RIMOS_PORTFELI.bat
+
+4. Paleisk ATNAUJINTI_RIMOS_PORTFELI.bat.
+
+Sukuriamas failas:
+public/data/rima/platforms/indemo.json
+
+Indemo puslapis ir objektų detalės naudoja jau esamą bendrą React
+maršrutų bei Rimos dataPath logiką, todėl src failų keisti nereikia.
+
+Patikrintas importas:
+- 26 objektai
+- 23 aktyvūs
+- 3 grąžinti
+- aktyvus paskolų likutis 83,18 EUR
+- portfelio vertė 85,35 EUR
+- pelnas 55,35 EUR

@@ -1,8 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { usePortfolioOwner } from "../context/PortfolioContext";
+import AllocationChart from "../components/AllocationChart";
+import PortfolioChart from "../components/PortfolioChart";
 
 import {
   loadPortfolioPlatforms,
+  loadPortfolioHistory,
   PORTFOLIO_GROUP_LABELS,
   PORTFOLIO_GROUP_ORDER,
 } from "../services/portfolioService";
@@ -89,8 +93,11 @@ function getGroupOrder(group) {
 
 function PortfolioPage() {
   const navigate = useNavigate();
+  const { ownerId, owner } = usePortfolioOwner();
 
   const [platforms, setPlatforms] = useState([]);
+  const [portfolioHistory, setPortfolioHistory] = useState([]);
+  const [historyLatest, setHistoryLatest] = useState(null);
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -107,10 +114,15 @@ function PortfolioPage() {
         setLoading(true);
         setErrorMessage("");
 
-        const loadedPlatforms = await loadPortfolioPlatforms();
+        const [loadedPlatforms, loadedHistory] = await Promise.all([
+          loadPortfolioPlatforms(ownerId),
+          loadPortfolioHistory(ownerId),
+        ]);
 
         if (!cancelled) {
           setPlatforms(loadedPlatforms);
+          setPortfolioHistory(loadedHistory.history);
+          setHistoryLatest(loadedHistory.latest);
         }
       } catch (error) {
         console.error(error);
@@ -132,7 +144,7 @@ function PortfolioPage() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [ownerId]);
 
   const counts = useMemo(() => {
     const active = platforms.filter((platform) => platform.isActive).length;
@@ -230,6 +242,26 @@ function PortfolioPage() {
     };
   }, [platforms]);
 
+  const allocation = useMemo(() => {
+    const activePlatforms = platforms.filter((platform) => platform.isActive);
+    const groups = new Map();
+
+    activePlatforms.forEach((platform) => {
+      const group = platform.group || "other";
+      groups.set(group, (groups.get(group) || 0) + platform.currentValue);
+    });
+
+    return [...groups.entries()]
+      .map(([group, value]) => ({
+        name: PORTFOLIO_GROUP_LABELS[group] || group,
+        value,
+      }))
+      .filter((item) => item.value > 0)
+      .sort((first, second) => second.value - first.value);
+  }, [platforms]);
+
+  const historicalCurrentValue = number(historyLatest?.value);
+
   const openPlatform = (slug) => {
     navigate(`/platforms/${slug}`);
   };
@@ -261,16 +293,18 @@ function PortfolioPage() {
     <main className="portfolio-page">
       <section className="portfolio-hero">
         <div>
-          <span className="portfolio-eyebrow">PORTFOLIO OVERVIEW</span>
-          <h1>Portfelis</h1>
+          <span className="portfolio-eyebrow">
+            {ownerId === "rima" ? "RIMOS PORTFOLIO OVERVIEW" : "PORTFOLIO OVERVIEW"}
+          </span>
+          <h1>{ownerId === "rima" ? "Rimos portfelis" : "Portfelis"}</h1>
         </div>
 
         <div className="portfolio-hero-total">
           <span>Aktyvaus portfelio vertė</span>
           <strong>{formatCurrency(summary.currentValue)}</strong>
           <small>
-            {counts.active} aktyvių platformų · {counts.inactive} užbaigtos
-            platformos
+            {counts.active} aktyvių platformų · {counts.inactive} užbaigtų
+            platformų
           </small>
         </div>
       </section>
@@ -310,12 +344,25 @@ function PortfolioPage() {
 
       </section>
 
+      <section className="portfolio-visual-grid">
+        <AllocationChart
+          allocation={allocation}
+          portfolioValue={summary.currentValue}
+        />
+
+        <PortfolioChart
+          history={portfolioHistory}
+          currentValue={historicalCurrentValue || summary.currentValue}
+        />
+      </section>
+
       <section className="portfolio-content">
         <header className="portfolio-content-header">
           <div>
             <span className="portfolio-section-label">PLATFORMOS</span>
             <h2>Investicijų sąrašas</h2>
             <p>
+              {ownerId === "rima" ? `${owner.name} · ` : ""}
               {statusFilter === "active"
                 ? `Rodomos ${filteredPlatforms.length} aktyvios platformos iš ${counts.all}`
                 : statusFilter === "inactive"

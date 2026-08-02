@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T19:24:21+03:00",
+  "generatedAt": "2026-08-02T09:35:56+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lendermarket",
@@ -895,7 +895,7 @@
       "profit": 0.05,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 1,
+      "delayDays": 2,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1001,7 +1001,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 9,
+      "delayDays": 10,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1158,7 +1158,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 1,
+      "delayDays": 2,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1186,6 +1186,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 13,
     "skippedSheets": [],
-    "generatedAt": "2026-08-01T19:24:21+03:00"
+    "generatedAt": "2026-08-02T09:35:56+03:00"
   }
 }

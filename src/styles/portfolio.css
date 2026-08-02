@@ -560,3 +560,28 @@
     padding: 0 8px;
   }
 }
+
+
+.portfolio-visual-grid {
+  display: grid;
+  grid-template-columns: minmax(500px, 0.95fr) minmax(0, 1.65fr);
+  gap: 18px;
+  margin-top: 24px;
+  align-items: stretch;
+}
+
+.portfolio-visual-grid > * {
+  min-width: 0;
+  height: 100%;
+}
+
+.portfolio-visual-grid .allocation-card,
+.portfolio-visual-grid .performance-chart-card {
+  margin: 0;
+}
+
+@media (max-width: 1180px) {
+  .portfolio-visual-grid {
+    grid-template-columns: 1fr;
+  }
+}

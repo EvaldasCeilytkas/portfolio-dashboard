@@ -52,7 +52,7 @@ export default function DashboardHero({ data }) {
     <section className="dashboard-hero">
       <div className="dashboard-hero-main">
         <div className="dashboard-hero-topline">
-          <span className="dashboard-eyebrow">PORTFOLIO OVERVIEW</span>
+          <span className="dashboard-eyebrow">{data?.eyebrow || "PORTFOLIO OVERVIEW"}</span>
 
           <span
             className={`dashboard-status ${
@@ -64,7 +64,7 @@ export default function DashboardHero({ data }) {
           </span>
         </div>
 
-        <h1>Investicijų portfelis</h1>
+        <h1>{data?.portfolioName || "Investicijų portfelis"}</h1>
 
         <div className="dashboard-hero-value">
           <span>Dabartinė vertė</span>

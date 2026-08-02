@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T19:26:09+03:00",
+  "generatedAt": "2026-08-02T09:37:52+03:00",
   "currency": "EUR",
   "summary": {
     "invested": 11654.96,
@@ -11,8 +11,8 @@
     "cash": 112.39,
     "incomeReceived": 577.12,
     "platformCount": 21,
-    "activeInvestments": 199,
-    "delayedInvestments": 16,
+    "activeInvestments": 198,
+    "delayedInvestments": 17,
     "completedInvestments": 145
   },
   "allocation": [
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-08-01",
+      "updatedAt": "2026-08-02",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-08-01",
+      "updatedAt": "2026-08-02",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -190,7 +190,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-08-01",
+      "updatedAt": "2026-08-02",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -201,8 +201,8 @@
         "xirr": 15.314,
         "cash": 77.97,
         "incomeReceived": 112.91,
-        "activeInvestments": 9,
-        "delayedInvestments": 9,
+        "activeInvestments": 8,
+        "delayedInvestments": 10,
         "completedInvestments": 8,
         "averageRate": 12.2685,
         "averageLtv": 57.4773
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-08-01",
+      "updatedAt": "2026-08-02",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {

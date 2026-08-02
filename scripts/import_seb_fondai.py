@@ -98,11 +98,15 @@ def find_data_rows(ws, start_row: int = 3) -> list[int]:
 
 
 def get_fund_sheets(workbook) -> list[str]:
-    return [
-        name
-        for name in workbook.sheetnames
-        if name != OVERVIEW_SHEET and not MONTH_SHEET_RE.fullmatch(name)
-    ]
+    sheets: list[str] = []
+    for name in workbook.sheetnames:
+        if name == OVERVIEW_SHEET or MONTH_SHEET_RE.fullmatch(name):
+            continue
+        # Excel šablone gali būti paruoštų, bet dar nenaudojamų fondų lapų.
+        # Importuojame tik tuos fondus, kuriuose jau yra bent vienas mėnesio įrašas.
+        if find_data_rows(workbook[name], start_row=5):
+            sheets.append(name)
+    return sheets
 
 
 def scan_monthly_activity(

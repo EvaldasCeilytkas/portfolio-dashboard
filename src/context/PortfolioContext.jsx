@@ -9,6 +9,7 @@ const OWNERS = {
     initials: "EČ",
     dataFolder: "",
     fullAccess: true,
+    portfolioAccess: true,
   },
   rima: {
     id: "rima",
@@ -16,6 +17,16 @@ const OWNERS = {
     initials: "R",
     dataFolder: "rima",
     fullAccess: false,
+    portfolioAccess: true,
+  },
+  family: {
+    id: "family",
+    name: "Šeimos portfelis",
+    initials: "Š",
+    dataFolder: null,
+    fullAccess: false,
+    portfolioAccess: false,
+    isCombined: true,
   },
 };
 
@@ -57,6 +68,7 @@ export function PortfolioProvider({ children }) {
       dataPath: (fileName) =>
         `${import.meta.env.BASE_URL}data/${folderPrefix}${fileName}`,
       isFullAccess: owner.fullAccess,
+      canViewPortfolio: owner.portfolioAccess === true,
     };
   }, [ownerId]);
 

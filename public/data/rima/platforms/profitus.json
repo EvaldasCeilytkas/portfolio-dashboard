@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T09:38:52+03:00",
+  "platform": {
+    "id": "profitus",
+    "slug": "profitus",
+    "name": "Profitus",
+    "group": "real_estate",
+    "type": "real_estate",
+    "category": "NT sutelktinis finansavimas",
+    "currency": "EUR",
+    "active": true,
+    "startDate": "2025-08-30",
+    "updatedAt": "2026-08-02",
+    "website": "https://profitus.lt"
+  },
+  "summary": {
+    "invested": 624.35,
+    "currentValue": 666.13,
+    "profit": 41.78,
+    "returnRate": 6.6918,
+    "xirr": 13.7414,
+    "cash": 106.03,
+    "incomeReceived": 16.78,
+    "activeInvestments": 4,
+    "delayedInvestments": 1,
+    "completedInvestments": 1,
+    "averageRate": 8.6341,
+    "averageLtv": 59.9905
+  },
+  "history": [
+    {
+      "date": "2026-08-01",
+      "invested": 624.35,
+      "value": 666.13,
+      "profit": 41.78,
+      "cash": 106.03,
+      "income": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "Paskola P00001405-3",
+      "code": "Paskola P00001405-3",
+      "name": "Sakurų Namai, Marijampolė III",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 12.86,
+      "investmentDate": "2025-08-30",
+      "completionDate": "2026-05-12",
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 12.86,
+      "outstanding": 0.0,
+      "delayDays": 33,
+      "ltv": 57.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A-",
+      "maturityDate": "2026-08-31",
+      "payments": [
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 3.13,
+          "note": null
+        },
+        {
+          "date": "2026-04-01",
+          "type": "interest",
+          "amount": 2.34,
+          "note": null
+        },
+        {
+          "date": "2026-05-12",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2026-05-12",
+          "type": "interest",
+          "amount": 0.96,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.13,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.13,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.34,
+          "actualDate": "2026-04-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.34,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.37,
+          "actualDate": "2026-05-12",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.61,
+          "actualDate": "2026-05-12",
+          "actualPrincipal": 100.0,
+          "actualInterest": 0.96,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 9.45,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 6.43,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-02",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 85.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 18.9,
+      "sourceSheets": [
+        "Sakurų Namai, Marijampolė III"
+      ]
+    },
+    {
+      "id": "Paskola P00001423-4",
+      "code": "Paskola P00001423-4",
+      "name": "Senvagės loftai, Panevėžys IV",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 100.0,
+      "profit": 14.9,
+      "investmentDate": "2025-08-30",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.0,
+      "incomeReceived": 14.9,
+      "outstanding": 100.0,
+      "delayDays": 0,
+      "ltv": 59.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2026-08-30",
+      "payments": [
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 2.99,
+          "note": null
+        },
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 2.22,
+          "note": null
+        },
+        {
+          "date": "2026-07-01",
+          "type": "interest",
+          "amount": 2.24,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.99,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.99,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.22,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.22,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.24,
+          "actualDate": "2026-07-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.24,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-08-30",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.51,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 8.96,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 7.45,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-01",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 80.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 17.92,
+      "sourceSheets": [
+        "Senvagės loftai, Panevėžys IV"
+      ]
+    },
+    {
+      "id": "Paskola P00001489",
+      "code": "Paskola P00001489",
+      "name": "Butai centrinėje Vilniaus dalyje",
+      "investmentType": "real_estate_project",
+      "status": "delayed",
+      "currency": "EUR",
+      "invested": 125.0,
+      "currentValue": 125.0,
+      "profit": 5.8,
+      "investmentDate": "2025-11-18",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.0,
+      "incomeReceived": 5.8,
+      "outstanding": 125.0,
+      "delayDays": 63,
+      "ltv": 42.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "AA-",
+      "maturityDate": "2026-08-24",
+      "payments": [
+        {
+          "date": "2026-03-05",
+          "type": "interest",
+          "amount": 2.9,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-02-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.9,
+          "actualDate": "2026-03-05",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.9,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 5
+        },
+        {
+          "plannedDate": "2026-05-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.84,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-24",
+          "plannedPrincipal": 125.0,
+          "plannedInterest": 2.62,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 125.0,
+          "plannedInterest": 8.36,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.9,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-11-26",
+      "durationMonths": 9,
+      "paymentFrequency": "Q",
+      "maxLtv": 66.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 16.72,
+      "sourceSheets": [
+        "Butai centrinėje Vilniaus dal."
+      ]
+    },
+    {
+      "id": "Paskola P00001456-2",
+      "code": "Paskola P00001456-2",
+      "name": "Butas Didlaukio g., Vilnius II",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 126.1,
+      "currentValue": 126.1,
+      "profit": 0.0,
+      "investmentDate": "2026-05-15",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.0,
+      "incomeReceived": 0.0,
+      "outstanding": 126.1,
+      "delayDays": 0,
+      "ltv": 77.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-05-17",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.87,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.49,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-05-17",
+          "plannedPrincipal": 126.1,
+          "plannedInterest": 2.16,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 126.1,
+          "plannedInterest": 10.04,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-05-19",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 85.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 20.08,
+      "sourceSheets": [
+        "Butas Didlaukio g., Vilnius II"
+      ]
+    },
+    {
+      "id": "Paskola P00001386-5",
+      "code": "Paskola P00001386-5",
+      "name": "Daugiabutis Druskininkuose V",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 100.0,
+      "profit": 0.0,
+      "investmentDate": "2026-05-19",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.0,
+      "incomeReceived": 0.0,
+      "outstanding": 100.0,
+      "delayDays": 0,
+      "ltv": 65.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A+",
+      "maturityDate": "2027-04-28",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.26,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-11-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.99,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-28",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.97,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-28",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.29,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 7.51,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-05-20",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 85.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 15.02,
+      "sourceSheets": [
+        "Daugiabutis Druskininkuose V"
+      ]
+    },
+    {
+      "id": "Paskola P00001537-15",
+      "code": "Paskola P00001537-15",
+      "name": "Druskonio Perlai, Druskininkai XV",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 109.0,
+      "currentValue": 109.0,
+      "profit": 0.0,
+      "investmentDate": "2026-06-18",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.4,
+      "incomeReceived": 0.0,
+      "outstanding": 109.0,
+      "delayDays": 0,
+      "ltv": 60.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2027-06-21",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-10-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.48,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-01-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.31,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.26,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-21",
+          "plannedPrincipal": 109.0,
+          "plannedInterest": 2.06,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 109.0,
+          "plannedInterest": 9.11,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-06-23",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 18.22,
+      "sourceSheets": [
+        "Druskonio Perlai, Druskininkai "
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2244 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T09:39:01+03:00",
+  "moduleType": "indemo",
+  "platform": {
+    "id": "indemo",
+    "name": "Indemo",
+    "slug": "indemo",
+    "group": "p2p",
+    "type": "indemo",
+    "category": "Hipoteka užtikrintos paskolos",
+    "currency": "EUR",
+    "active": true,
+    "website": "https://indemo.eu",
+    "status": "active",
+    "startDate": "2025-03-24",
+    "updatedAt": "2026-08-31",
+    "healthScore": 100,
+    "healthParts": {
+      "diversification": 46,
+      "delays": 100,
+      "cash": 13
+    }
+  },
+  "summary": {
+    "invested": 83.18,
+    "currentValue": 85.35,
+    "profit": 55.35,
+    "returnRate": 64.85,
+    "xirr": 139.2,
+    "cash": 2.17,
+    "incomeReceived": 0.35,
+    "activeInvestments": 23,
+    "delayedInvestments": 0,
+    "completedInvestments": 3,
+    "averageRate": null,
+    "averageLtv": 0.5729,
+    "deposited": 30.0,
+    "withdrawn": 0.0,
+    "totalInvested": 83.18,
+    "lifetimeInvested": 86.05,
+    "outstanding": 83.18,
+    "bonuses": 55.0,
+    "repaidPrincipal": 2.87,
+    "interestReceived": 0.35,
+    "extraReceived": 0.64,
+    "portfolioValue": 85.35,
+    "roi": 64.85,
+    "totalProjects": 26,
+    "activeProjects": 23,
+    "delayedProjects": 0,
+    "repaidProjects": 3,
+    "completedProjects": 3,
+    "averagePtv": 0.5729,
+    "averagePdt": 0.5553
+  },
+  "history": [
+    {
+      "date": "2025-03-31",
+      "invested": 10.0,
+      "value": 65.0,
+      "profit": 55.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 10.0,
+      "withdrawals": 0.0,
+      "bonuses": 55.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 55.0,
+      "monthlyReturn": 550.0
+    },
+    {
+      "date": "2025-04-30",
+      "invested": 10.0,
+      "value": 65.0,
+      "profit": 55.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-05-31",
+      "invested": 10.0,
+      "value": 65.0,
+      "profit": 55.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-06-30",
+      "invested": 30.0,
+      "value": 85.33,
+      "profit": 55.33,
+      "cash": 0.0,
+      "income": 0.33,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 1.0,
+      "interest": 0.05,
+      "extraIncome": 0.28,
+      "monthlyProfit": 0.33,
+      "monthlyReturn": 0.39
+    },
+    {
+      "date": "2025-07-31",
+      "invested": 30.0,
+      "value": 85.33,
+      "profit": 55.33,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-08-31",
+      "invested": 30.0,
+      "value": 85.33,
+      "profit": 55.33,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-09-30",
+      "invested": 30.0,
+      "value": 85.33,
+      "profit": 55.33,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "invested": 30.0,
+      "value": 85.33,
+      "profit": 55.33,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-11-30",
+      "invested": 30.0,
+      "value": 85.33,
+      "profit": 55.33,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 30.0,
+      "value": 85.59,
+      "profit": 55.59,
+      "cash": 0.0,
+      "income": 0.26,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.38,
+      "interest": 0.05,
+      "extraIncome": 0.21,
+      "monthlyProfit": 0.26,
+      "monthlyReturn": 0.3
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 30.0,
+      "value": 85.59,
+      "profit": 55.59,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 30.0,
+      "value": 85.59,
+      "profit": 55.59,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 30.0,
+      "value": 85.59,
+      "profit": 55.59,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 30.0,
+      "value": 85.59,
+      "profit": 55.59,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 30.0,
+      "value": 85.99,
+      "profit": 55.99,
+      "cash": 0.0,
+      "income": 0.4,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 1.49,
+      "interest": 0.25,
+      "extraIncome": 0.15,
+      "monthlyProfit": 0.4,
+      "monthlyReturn": 0.47
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 30.0,
+      "value": 85.99,
+      "profit": 55.99,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 30.0,
+      "value": 85.99,
+      "profit": 55.99,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "invested": 30.0,
+      "value": 85.35,
+      "profit": 55.35,
+      "cash": 2.17,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-08-31",
+    "invested": 30.0,
+    "value": 85.35,
+    "profit": 55.35,
+    "cash": 2.17,
+    "income": 0.0,
+    "deposits": 0.0,
+    "withdrawals": 0.0,
+    "bonuses": 0.0,
+    "principalRepaid": 0.0,
+    "interest": 0.0,
+    "extraIncome": 0.0,
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
+  },
+  "largestProject": {
+    "id": "J062",
+    "slug": "j062",
+    "loanCode": "J062",
+    "sourceSheet": "J062",
+    "name": "Apartment and House in Malaga",
+    "loanGroup": "J",
+    "ptv": 0.49,
+    "pdt": 0.68,
+    "investmentDate": "2025-03-24",
+    "loanStartDate": "2024-09-16",
+    "actualRepayment": null,
+    "durationDays": null,
+    "invested": 12.88,
+    "repaidPrincipal": 0.0,
+    "outstanding": 12.88,
+    "interestReceived": 0.0,
+    "extraReceived": 0.0,
+    "xirr": 0.0,
+    "status": "active",
+    "delayDays": 0,
+    "investments": [
+      {
+        "sequence": 1,
+        "note": "LV0000103604",
+        "date": "2025-03-24",
+        "amount": 4.93
+      },
+      {
+        "sequence": 2,
+        "note": "LV0000103620",
+        "date": "2025-03-24",
+        "amount": 3.96
+      },
+      {
+        "sequence": 3,
+        "note": "LV0000103612",
+        "date": "2025-03-24",
+        "amount": 3.99
+      }
+    ],
+    "repayments": []
+  },
+  "distributions": {
+    "loanGroup": [
+      {
+        "label": "J",
+        "count": 12,
+        "value": 53.09,
+        "display": "53.09 €"
+      },
+      {
+        "label": "R",
+        "count": 11,
+        "value": 30.09,
+        "display": "30.09 €"
+      }
+    ],
+    "ptv": [
+      {
+        "label": "51–60 %",
+        "count": 11,
+        "value": 39.93,
+        "display": "39.93 €"
+      },
+      {
+        "label": "61–70 %",
+        "count": 7,
+        "value": 18.71,
+        "display": "18.71 €"
+      },
+      {
+        "label": ">70 %",
+        "count": 2,
+        "value": 5.08,
+        "display": "5.08 €"
+      },
+      {
+        "label": "≤50 %",
+        "count": 3,
+        "value": 19.46,
+        "display": "19.46 €"
+      }
+    ],
+    "pdt": [
+      {
+        "label": "41–50 %",
+        "count": 6,
+        "value": 17.52,
+        "display": "17.52 €"
+      },
+      {
+        "label": "51–60 %",
+        "count": 5,
+        "value": 18.96,
+        "display": "18.96 €"
+      },
+      {
+        "label": ">60 %",
+        "count": 8,
+        "value": 35.63,
+        "display": "35.63 €"
+      },
+      {
+        "label": "≤40 %",
+        "count": 4,
+        "value": 11.07,
+        "display": "11.07 €"
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2025-03-24",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonuses": 30.0
+    },
+    {
+      "date": "2025-03-24",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonuses": 25.0
+    },
+    {
+      "date": "2025-06-23",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.0
+    },
+    {
+      "date": "2026-08-02",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "J036",
+      "slug": "j036",
+      "loanCode": "J036",
+      "sourceSheet": "J036",
+      "name": "Flat at Calle Noguera",
+      "loanGroup": "J",
+      "ptv": 0.59,
+      "pdt": 0.51,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 0.31,
+      "repaidPrincipal": 0.0,
+      "outstanding": 0.31,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 0.31
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J038",
+      "slug": "j038",
+      "loanCode": "J038",
+      "sourceSheet": "J038",
+      "name": "House at Calle Virgen María",
+      "loanGroup": "J",
+      "ptv": 0.59,
+      "pdt": 0.64,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": "2025-12-05",
+      "durationDays": 445,
+      "invested": 0.38,
+      "repaidPrincipal": 0.38,
+      "outstanding": 0.0,
+      "interestReceived": 0.05,
+      "extraReceived": 0.21,
+      "xirr": 19.27,
+      "status": "repaid",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 0.38
+        }
+      ],
+      "repayments": [
+        {
+          "date": "2025-12-05",
+          "principal": 0.38,
+          "interest": 0.05,
+          "extra": 0.21,
+          "days": 256
+        }
+      ]
+    },
+    {
+      "id": "J040",
+      "slug": "j040",
+      "loanCode": "J040",
+      "sourceSheet": "J040",
+      "name": "Apartment in Cambrils",
+      "loanGroup": "J",
+      "ptv": 0.58,
+      "pdt": 0.55,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 7.88,
+      "repaidPrincipal": 0.0,
+      "outstanding": 7.88,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.91
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.97
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J044",
+      "slug": "j044",
+      "loanCode": "J044",
+      "sourceSheet": "J044",
+      "name": "Apartment in Adeje",
+      "loanGroup": "J",
+      "ptv": 0.2,
+      "pdt": 0.64,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": "2026-05-27",
+      "durationDays": 618,
+      "invested": 1.49,
+      "repaidPrincipal": 1.49,
+      "outstanding": 0.0,
+      "interestReceived": 0.25,
+      "extraReceived": 0.15,
+      "xirr": 14.11,
+      "status": "repaid",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 1.49
+        }
+      ],
+      "repayments": [
+        {
+          "date": "2026-05-27",
+          "principal": 1.49,
+          "interest": 0.25,
+          "extra": 0.15,
+          "days": 429
+        }
+      ]
+    },
+    {
+      "id": "J046",
+      "slug": "j046",
+      "loanCode": "J046",
+      "sourceSheet": "J046",
+      "name": "House in Torrevieja",
+      "loanGroup": "J",
+      "ptv": 0.58,
+      "pdt": 0.52,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 5.37,
+      "repaidPrincipal": 0.0,
+      "outstanding": 5.37,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 1.96
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.41
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J052",
+      "slug": "j052",
+      "loanCode": "J052",
+      "sourceSheet": "J052",
+      "name": "Apartment on Ronda de los Tejares",
+      "loanGroup": "J",
+      "ptv": 0.37,
+      "pdt": 0.68,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 5.37,
+      "repaidPrincipal": 0.0,
+      "outstanding": 5.37,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 1.96
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.41
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J053",
+      "slug": "j053",
+      "loanCode": "J053",
+      "sourceSheet": "J053",
+      "name": "Apartment in Vic",
+      "loanGroup": "J",
+      "ptv": 0.57,
+      "pdt": 0.48,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.01,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.01,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 2.01
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J057",
+      "slug": "j057",
+      "loanCode": "J057",
+      "sourceSheet": "J057",
+      "name": "Apartment in Vigo",
+      "loanGroup": "J",
+      "ptv": 0.61,
+      "pdt": 0.32,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.7,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.7,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 3.7
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J059",
+      "slug": "j059",
+      "loanCode": "J059",
+      "sourceSheet": "J059",
+      "name": "House in Arroyomolinos",
+      "loanGroup": "J",
+      "ptv": 0.59,
+      "pdt": 0.45,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 4.92,
+      "repaidPrincipal": 0.0,
+      "outstanding": 4.92,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 4.92
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J061",
+      "slug": "j061",
+      "loanCode": "J061",
+      "sourceSheet": "J061",
+      "name": "Apartment in Fuenlabrada",
+      "loanGroup": "J",
+      "ptv": 0.55,
+      "pdt": 0.42,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.63,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.63,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 1.63
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J062",
+      "slug": "j062",
+      "loanCode": "J062",
+      "sourceSheet": "J062",
+      "name": "Apartment and House in Malaga",
+      "loanGroup": "J",
+      "ptv": 0.49,
+      "pdt": 0.68,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 12.88,
+      "repaidPrincipal": 0.0,
+      "outstanding": 12.88,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 4.93
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.96
+        },
+        {
+          "sequence": 3,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.99
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J063",
+      "slug": "j063",
+      "loanCode": "J063",
+      "sourceSheet": "J063",
+      "name": "Apartment in Torrejón de Ardoz",
+      "loanGroup": "J",
+      "ptv": 0.57,
+      "pdt": 0.17,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.53,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.53,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.53
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J067",
+      "slug": "j067",
+      "loanCode": "J067",
+      "sourceSheet": "J067",
+      "name": "Apartment on Calle Guadalajara",
+      "loanGroup": "J",
+      "ptv": 0.53,
+      "pdt": 0.15,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.5,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.5,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 1.5
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J071",
+      "slug": "j071",
+      "loanCode": "J071",
+      "sourceSheet": "J071",
+      "name": "Apartments in Sevilla",
+      "loanGroup": "J",
+      "ptv": 0.6,
+      "pdt": 0.48,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.99,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.99,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.99
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R077",
+      "slug": "r077",
+      "loanCode": "R077",
+      "sourceSheet": "R077",
+      "name": "House in Les Franqueses del Valles",
+      "loanGroup": "R",
+      "ptv": 0.59,
+      "pdt": 0.63,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 4.6,
+      "repaidPrincipal": 0.0,
+      "outstanding": 4.6,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 3.58
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 1.02
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R078",
+      "slug": "r078",
+      "loanCode": "R078",
+      "sourceSheet": "R078",
+      "name": "House in Lloret de Mar",
+      "loanGroup": "R",
+      "ptv": 0.74,
+      "pdt": 0.84,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.74,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.74,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 2.74
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R079",
+      "slug": "r079",
+      "loanCode": "R079",
+      "sourceSheet": "R079",
+      "name": "House in Les Preses",
+      "loanGroup": "R",
+      "ptv": 0.6,
+      "pdt": 0.57,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": "2025-06-09",
+      "durationDays": 193,
+      "invested": 1.0,
+      "repaidPrincipal": 1.0,
+      "outstanding": 0.0,
+      "interestReceived": 0.05,
+      "extraReceived": 0.28,
+      "xirr": 26.02,
+      "status": "repaid",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 1.0
+        }
+      ],
+      "repayments": [
+        {
+          "date": "2025-06-09",
+          "principal": 1.0,
+          "interest": 0.05,
+          "extra": 0.28,
+          "days": 77
+        }
+      ]
+    },
+    {
+      "id": "R080",
+      "slug": "r080",
+      "loanCode": "R080",
+      "sourceSheet": "R080",
+      "name": "Apartament in St. Cugat Valles",
+      "loanGroup": "R",
+      "ptv": 0.55,
+      "pdt": 0.59,
+      "investmentDate": "2025-03-25",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 4.19,
+      "repaidPrincipal": 0.0,
+      "outstanding": 4.19,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-25",
+          "amount": 4.19
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R081",
+      "slug": "r081",
+      "loanCode": "R081",
+      "sourceSheet": "R081",
+      "name": "House in Llinars del Valles",
+      "loanGroup": "R",
+      "ptv": 0.46,
+      "pdt": 0.52,
+      "investmentDate": "2025-03-25",
+      "loanStartDate": "2025-01-09",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.21,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.21,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103612",
+          "date": "2025-03-25",
+          "amount": 1.21
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R089",
+      "slug": "r089",
+      "loanCode": "R089",
+      "sourceSheet": "R089",
+      "name": "House in Castellar del Valles",
+      "loanGroup": "R",
+      "ptv": 0.64,
+      "pdt": 0.42,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.32,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.32,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.32
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R090",
+      "slug": "r090",
+      "loanCode": "R090",
+      "sourceSheet": "R090",
+      "name": "House in Llers",
+      "loanGroup": "R",
+      "ptv": 0.65,
+      "pdt": 0.62,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.8,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.8,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.8
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R091",
+      "slug": "r091",
+      "loanCode": "R091",
+      "sourceSheet": "R091",
+      "name": "Apartment in Sabadell",
+      "loanGroup": "R",
+      "ptv": 0.64,
+      "pdt": 0.7,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.72,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.72,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 1.72
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R092",
+      "slug": "r092",
+      "loanCode": "R092",
+      "sourceSheet": "R092",
+      "name": "Apartment on Calle Covadonga",
+      "loanGroup": "R",
+      "ptv": 0.75,
+      "pdt": 0.4,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.34,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.34,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.34
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R093",
+      "slug": "r093",
+      "loanCode": "R093",
+      "sourceSheet": "R093",
+      "name": "Apartment in Sant Pere de Ribes",
+      "loanGroup": "R",
+      "ptv": 0.65,
+      "pdt": 0.71,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.6,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.6,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 1.6
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R094",
+      "slug": "r094",
+      "loanCode": "R094",
+      "sourceSheet": "R094",
+      "name": "Apartment on Calle Manresa",
+      "loanGroup": "R",
+      "ptv": 0.66,
+      "pdt": 0.81,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.92,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.92,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 3.92
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R096",
+      "slug": "r096",
+      "loanCode": "R096",
+      "sourceSheet": "R096",
+      "name": "House in Vacarisses",
+      "loanGroup": "R",
+      "ptv": 0.64,
+      "pdt": 0.47,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.65,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.65,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.65
+        }
+      ],
+      "repayments": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "J036",
+      "slug": "j036",
+      "loanCode": "J036",
+      "sourceSheet": "J036",
+      "name": "Flat at Calle Noguera",
+      "loanGroup": "J",
+      "ptv": 0.59,
+      "pdt": 0.51,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 0.31,
+      "repaidPrincipal": 0.0,
+      "outstanding": 0.31,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 0.31
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J038",
+      "slug": "j038",
+      "loanCode": "J038",
+      "sourceSheet": "J038",
+      "name": "House at Calle Virgen María",
+      "loanGroup": "J",
+      "ptv": 0.59,
+      "pdt": 0.64,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": "2025-12-05",
+      "durationDays": 445,
+      "invested": 0.38,
+      "repaidPrincipal": 0.38,
+      "outstanding": 0.0,
+      "interestReceived": 0.05,
+      "extraReceived": 0.21,
+      "xirr": 19.27,
+      "status": "repaid",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 0.38
+        }
+      ],
+      "repayments": [
+        {
+          "date": "2025-12-05",
+          "principal": 0.38,
+          "interest": 0.05,
+          "extra": 0.21,
+          "days": 256
+        }
+      ]
+    },
+    {
+      "id": "J040",
+      "slug": "j040",
+      "loanCode": "J040",
+      "sourceSheet": "J040",
+      "name": "Apartment in Cambrils",
+      "loanGroup": "J",
+      "ptv": 0.58,
+      "pdt": 0.55,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 7.88,
+      "repaidPrincipal": 0.0,
+      "outstanding": 7.88,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.91
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.97
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J044",
+      "slug": "j044",
+      "loanCode": "J044",
+      "sourceSheet": "J044",
+      "name": "Apartment in Adeje",
+      "loanGroup": "J",
+      "ptv": 0.2,
+      "pdt": 0.64,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": "2026-05-27",
+      "durationDays": 618,
+      "invested": 1.49,
+      "repaidPrincipal": 1.49,
+      "outstanding": 0.0,
+      "interestReceived": 0.25,
+      "extraReceived": 0.15,
+      "xirr": 14.11,
+      "status": "repaid",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 1.49
+        }
+      ],
+      "repayments": [
+        {
+          "date": "2026-05-27",
+          "principal": 1.49,
+          "interest": 0.25,
+          "extra": 0.15,
+          "days": 429
+        }
+      ]
+    },
+    {
+      "id": "J046",
+      "slug": "j046",
+      "loanCode": "J046",
+      "sourceSheet": "J046",
+      "name": "House in Torrevieja",
+      "loanGroup": "J",
+      "ptv": 0.58,
+      "pdt": 0.52,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 5.37,
+      "repaidPrincipal": 0.0,
+      "outstanding": 5.37,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 1.96
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.41
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J052",
+      "slug": "j052",
+      "loanCode": "J052",
+      "sourceSheet": "J052",
+      "name": "Apartment on Ronda de los Tejares",
+      "loanGroup": "J",
+      "ptv": 0.37,
+      "pdt": 0.68,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 5.37,
+      "repaidPrincipal": 0.0,
+      "outstanding": 5.37,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 1.96
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.41
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J053",
+      "slug": "j053",
+      "loanCode": "J053",
+      "sourceSheet": "J053",
+      "name": "Apartment in Vic",
+      "loanGroup": "J",
+      "ptv": 0.57,
+      "pdt": 0.48,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.01,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.01,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 2.01
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J057",
+      "slug": "j057",
+      "loanCode": "J057",
+      "sourceSheet": "J057",
+      "name": "Apartment in Vigo",
+      "loanGroup": "J",
+      "ptv": 0.61,
+      "pdt": 0.32,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.7,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.7,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 3.7
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J059",
+      "slug": "j059",
+      "loanCode": "J059",
+      "sourceSheet": "J059",
+      "name": "House in Arroyomolinos",
+      "loanGroup": "J",
+      "ptv": 0.59,
+      "pdt": 0.45,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 4.92,
+      "repaidPrincipal": 0.0,
+      "outstanding": 4.92,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 4.92
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J061",
+      "slug": "j061",
+      "loanCode": "J061",
+      "sourceSheet": "J061",
+      "name": "Apartment in Fuenlabrada",
+      "loanGroup": "J",
+      "ptv": 0.55,
+      "pdt": 0.42,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.63,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.63,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 1.63
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J062",
+      "slug": "j062",
+      "loanCode": "J062",
+      "sourceSheet": "J062",
+      "name": "Apartment and House in Malaga",
+      "loanGroup": "J",
+      "ptv": 0.49,
+      "pdt": 0.68,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 12.88,
+      "repaidPrincipal": 0.0,
+      "outstanding": 12.88,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 4.93
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.96
+        },
+        {
+          "sequence": 3,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 3.99
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J063",
+      "slug": "j063",
+      "loanCode": "J063",
+      "sourceSheet": "J063",
+      "name": "Apartment in Torrejón de Ardoz",
+      "loanGroup": "J",
+      "ptv": 0.57,
+      "pdt": 0.17,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.53,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.53,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.53
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J067",
+      "slug": "j067",
+      "loanCode": "J067",
+      "sourceSheet": "J067",
+      "name": "Apartment on Calle Guadalajara",
+      "loanGroup": "J",
+      "ptv": 0.53,
+      "pdt": 0.15,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.5,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.5,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 1.5
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "J071",
+      "slug": "j071",
+      "loanCode": "J071",
+      "sourceSheet": "J071",
+      "name": "Apartments in Sevilla",
+      "loanGroup": "J",
+      "ptv": 0.6,
+      "pdt": 0.48,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-09-16",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.99,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.99,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103620",
+          "date": "2025-03-24",
+          "amount": 3.99
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R077",
+      "slug": "r077",
+      "loanCode": "R077",
+      "sourceSheet": "R077",
+      "name": "House in Les Franqueses del Valles",
+      "loanGroup": "R",
+      "ptv": 0.59,
+      "pdt": 0.63,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 4.6,
+      "repaidPrincipal": 0.0,
+      "outstanding": 4.6,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 3.58
+        },
+        {
+          "sequence": 2,
+          "note": "LV0000103612",
+          "date": "2025-03-24",
+          "amount": 1.02
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R078",
+      "slug": "r078",
+      "loanCode": "R078",
+      "sourceSheet": "R078",
+      "name": "House in Lloret de Mar",
+      "loanGroup": "R",
+      "ptv": 0.74,
+      "pdt": 0.84,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.74,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.74,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 2.74
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R079",
+      "slug": "r079",
+      "loanCode": "R079",
+      "sourceSheet": "R079",
+      "name": "House in Les Preses",
+      "loanGroup": "R",
+      "ptv": 0.6,
+      "pdt": 0.57,
+      "investmentDate": "2025-03-24",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": "2025-06-09",
+      "durationDays": 193,
+      "invested": 1.0,
+      "repaidPrincipal": 1.0,
+      "outstanding": 0.0,
+      "interestReceived": 0.05,
+      "extraReceived": 0.28,
+      "xirr": 26.02,
+      "status": "repaid",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-24",
+          "amount": 1.0
+        }
+      ],
+      "repayments": [
+        {
+          "date": "2025-06-09",
+          "principal": 1.0,
+          "interest": 0.05,
+          "extra": 0.28,
+          "days": 77
+        }
+      ]
+    },
+    {
+      "id": "R080",
+      "slug": "r080",
+      "loanCode": "R080",
+      "sourceSheet": "R080",
+      "name": "Apartament in St. Cugat Valles",
+      "loanGroup": "R",
+      "ptv": 0.55,
+      "pdt": 0.59,
+      "investmentDate": "2025-03-25",
+      "loanStartDate": "2024-11-28",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 4.19,
+      "repaidPrincipal": 0.0,
+      "outstanding": 4.19,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103604",
+          "date": "2025-03-25",
+          "amount": 4.19
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R081",
+      "slug": "r081",
+      "loanCode": "R081",
+      "sourceSheet": "R081",
+      "name": "House in Llinars del Valles",
+      "loanGroup": "R",
+      "ptv": 0.46,
+      "pdt": 0.52,
+      "investmentDate": "2025-03-25",
+      "loanStartDate": "2025-01-09",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.21,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.21,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000103612",
+          "date": "2025-03-25",
+          "amount": 1.21
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R089",
+      "slug": "r089",
+      "loanCode": "R089",
+      "sourceSheet": "R089",
+      "name": "House in Castellar del Valles",
+      "loanGroup": "R",
+      "ptv": 0.64,
+      "pdt": 0.42,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.32,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.32,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.32
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R090",
+      "slug": "r090",
+      "loanCode": "R090",
+      "sourceSheet": "R090",
+      "name": "House in Llers",
+      "loanGroup": "R",
+      "ptv": 0.65,
+      "pdt": 0.62,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.8,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.8,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.8
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R091",
+      "slug": "r091",
+      "loanCode": "R091",
+      "sourceSheet": "R091",
+      "name": "Apartment in Sabadell",
+      "loanGroup": "R",
+      "ptv": 0.64,
+      "pdt": 0.7,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.72,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.72,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 1.72
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R092",
+      "slug": "r092",
+      "loanCode": "R092",
+      "sourceSheet": "R092",
+      "name": "Apartment on Calle Covadonga",
+      "loanGroup": "R",
+      "ptv": 0.75,
+      "pdt": 0.4,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.34,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.34,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.34
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R093",
+      "slug": "r093",
+      "loanCode": "R093",
+      "sourceSheet": "R093",
+      "name": "Apartment in Sant Pere de Ribes",
+      "loanGroup": "R",
+      "ptv": 0.65,
+      "pdt": 0.71,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 1.6,
+      "repaidPrincipal": 0.0,
+      "outstanding": 1.6,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 1.6
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R094",
+      "slug": "r094",
+      "loanCode": "R094",
+      "sourceSheet": "R094",
+      "name": "Apartment on Calle Manresa",
+      "loanGroup": "R",
+      "ptv": 0.66,
+      "pdt": 0.81,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 3.92,
+      "repaidPrincipal": 0.0,
+      "outstanding": 3.92,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 3.92
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R096",
+      "slug": "r096",
+      "loanCode": "R096",
+      "sourceSheet": "R096",
+      "name": "House in Vacarisses",
+      "loanGroup": "R",
+      "ptv": 0.64,
+      "pdt": 0.47,
+      "investmentDate": "2025-06-23",
+      "loanStartDate": "2025-03-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 2.65,
+      "repaidPrincipal": 0.0,
+      "outstanding": 2.65,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LV0000105062",
+          "date": "2025-06-23",
+          "amount": 2.65
+        }
+      ],
+      "repayments": []
+    }
+  ],
+  "source": {
+    "file": "Indemo Rima.xlsx",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "projectSheets": 26,
+    "skippedSheets": [],
+    "generatedAt": "2026-08-02T09:39:01+03:00"
+  }
+}

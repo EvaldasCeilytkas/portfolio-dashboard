@@ -6,9 +6,11 @@ import IndemoClaimProfile from "../components/indemo/IndemoClaimProfile";
 import BrokerageInvestmentProfile from "../components/brokerage/BrokerageInvestmentProfile";
 import RoboInvestmentProfile from "../components/robo/RoboInvestmentProfile";
 import FundInvestmentProfile from "../components/funds/FundInvestmentProfile";
+import { usePortfolioOwner } from "../context/PortfolioContext";
 
 function ProjectPage() {
   const { platformSlug, projectCode } = useParams();
+  const { ownerId, dataPath } = usePortfolioOwner();
   const [payload, setPayload] = useState(null);
   const [error, setError] = useState("");
 
@@ -21,7 +23,7 @@ function ProjectPage() {
         setError("");
 
         const response = await fetch(
-          `${import.meta.env.BASE_URL}data/platforms/${platformSlug}.json`,
+          dataPath(`platforms/${platformSlug}.json`),
           {
             cache: "no-store",
             signal: controller.signal,
@@ -42,7 +44,7 @@ function ProjectPage() {
 
     loadProject();
     return () => controller.abort();
-  }, [platformSlug]);
+  }, [platformSlug, ownerId, dataPath]);
 
   const project = useMemo(() => {
     const decoded = decodeURIComponent(String(projectCode || ""));

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import { usePortfolioOwner } from "../context/PortfolioContext";
 
 import "../styles/platformprofile.css";
 
@@ -160,6 +161,7 @@ const STATUS_LABELS = {
 
 function P2PLoanProfile() {
   const { slug, loanId } = useParams();
+  const { ownerId, dataPath } = usePortfolioOwner();
   const [payload, setPayload] = useState(null);
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -172,7 +174,7 @@ function P2PLoanProfile() {
         setErrorMessage("");
 
         const response = await fetch(
-          `${import.meta.env.BASE_URL}data/platforms/${slug}.json`,
+          dataPath(`platforms/${slug}.json`),
           {
             cache: "no-store",
             signal: controller.signal,
@@ -195,7 +197,7 @@ function P2PLoanProfile() {
 
     loadLoan();
     return () => controller.abort();
-  }, [slug]);
+  }, [slug, ownerId, dataPath]);
 
   const platform = payload?.platform || {};
   const loans = Array.isArray(payload?.investments)

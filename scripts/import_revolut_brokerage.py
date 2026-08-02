@@ -97,19 +97,44 @@ def find_last_data_row(ws, start_row: int = 3) -> int:
 
 
 def read_overview(ws) -> tuple[list[dict[str, Any]], list[str], int]:
-    tickers: list[str] = []
-    ticker_columns: list[int] = []
+    header_columns: dict[str, int] = {}
+    for col in range(1, ws.max_column + 1):
+        header = str(ws.cell(2, col).value or "").strip()
+        if header:
+            header_columns[header] = col
 
-    for col in range(6, 18):
+    value_col = header_columns.get("Vertė")
+    profit_col = header_columns.get("Pelnas")
+    return_col = header_columns.get("%")
+    if not value_col or not profit_col or not return_col:
+        raise ValueError("Apžvalgos lape nerastos Vertė / Pelnas / % antraštės.")
+
+    ticker_columns: list[int] = []
+    tickers: list[str] = []
+    for col in range(6, value_col):
         ticker = str(ws.cell(2, col).value or "").strip()
         if ticker:
             tickers.append(ticker)
             ticker_columns.append(col)
 
+    if not tickers:
+        raise ValueError("Apžvalgos lape nerasti ETF instrumentai.")
+
+    dividend_col = next(
+        (col for col in range(1, ws.max_column + 1)
+         if str(ws.cell(1, col).value or "").strip() == "Dividendai"),
+        None,
+    )
+    fee_start_col = next(
+        (col for col in range(1, ws.max_column + 1)
+         if str(ws.cell(1, col).value or "").strip() == "Mokesčiai"),
+        None,
+    )
+
     last_row = find_last_data_row(ws)
     history: list[dict[str, Any]] = []
-
     previous_contributed = 0.0
+
     for row in range(3, last_row + 1):
         period = month_start(ws.cell(row, 1).value)
         if not period:
@@ -118,17 +143,16 @@ def read_overview(ws) -> tuple[list[dict[str, Any]], list[str], int]:
         contributed = finite_number(ws.cell(row, 2).value)
         withdrawn = finite_number(ws.cell(row, 3).value)
         cash = finite_number(ws.cell(row, 5).value)
-        current_value = finite_number(ws.cell(row, 18).value)
-        profit = finite_number(ws.cell(row, 19).value)
-        return_raw = ws.cell(row, 20).value
-        dividends = finite_number(ws.cell(row, 21).value)
-        purchase_fees = finite_number(ws.cell(row, 22).value)
-        sale_fees = finite_number(ws.cell(row, 23).value)
-        custody_fees = finite_number(ws.cell(row, 24).value)
+        current_value = finite_number(ws.cell(row, value_col).value)
+        profit = finite_number(ws.cell(row, profit_col).value)
+        return_raw = ws.cell(row, return_col).value
+        dividends = finite_number(ws.cell(row, dividend_col).value) if dividend_col else 0.0
+        purchase_fees = finite_number(ws.cell(row, fee_start_col).value) if fee_start_col else 0.0
+        sale_fees = finite_number(ws.cell(row, fee_start_col + 1).value) if fee_start_col else 0.0
+        custody_fees = finite_number(ws.cell(row, fee_start_col + 2).value) if fee_start_col and fee_start_col + 2 <= ws.max_column else 0.0
 
         active_count = sum(
-            1
-            for col in ticker_columns
+            1 for col in ticker_columns
             if finite_number(ws.cell(row, col).value) > EPSILON
         )
 
@@ -138,11 +162,7 @@ def read_overview(ws) -> tuple[list[dict[str, Any]], list[str], int]:
             "invested": rounded(contributed),
             "currentValue": rounded(current_value),
             "profit": rounded(profit),
-            "returnRate": (
-                round(finite_number(return_raw) * 100, 4)
-                if return_raw is not None
-                else None
-            ),
+            "returnRate": round(finite_number(return_raw) * 100, 4) if return_raw is not None else None,
             "cash": rounded(cash),
             "income": rounded(dividends),
             "fees": rounded(purchase_fees + sale_fees + custody_fees),

@@ -84,12 +84,14 @@ function hexToRgba(hex, alpha) {
   return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
 }
 
-function resolveDataUrl(dataFile) {
+function resolveDataUrl(dataFile, ownerId = "evaldas") {
   const relativePath = String(dataFile || "")
     .replace(/^\/+/, "")
     .replace(/^data\//, "");
 
-  return `${import.meta.env.BASE_URL}data/${relativePath}`;
+  const ownerPrefix = ownerId === "rima" ? "rima/" : "";
+
+  return `${import.meta.env.BASE_URL}data/${ownerPrefix}${relativePath}`;
 }
 
 function getBrandStyle(slug, name) {
@@ -204,8 +206,10 @@ function normalizePlatform(registryItem, payload) {
   };
 }
 
-async function fetchPlatform(registryItem) {
-  const response = await fetch(resolveDataUrl(registryItem.dataFile));
+async function fetchPlatform(registryItem, ownerId) {
+  const response = await fetch(resolveDataUrl(registryItem.dataFile, ownerId), {
+    cache: "no-store",
+  });
 
   if (!response.ok) {
     throw new Error(
@@ -218,13 +222,13 @@ async function fetchPlatform(registryItem) {
   return normalizePlatform(registryItem, payload);
 }
 
-export async function loadPortfolioPlatforms() {
+export async function loadPortfolioPlatforms(ownerId = "evaldas") {
   const enabledPlatforms = platformRegistry.filter(
     (platform) => platform.enabled !== false && platform.dataFile,
   );
 
   const results = await Promise.allSettled(
-    enabledPlatforms.map(fetchPlatform),
+    enabledPlatforms.map((platform) => fetchPlatform(platform, ownerId)),
   );
 
   const loadedPlatforms = [];
@@ -250,4 +254,23 @@ export async function loadPortfolioPlatforms() {
   }
 
   return loadedPlatforms;
+}
+
+export async function loadPortfolioHistory(ownerId = "evaldas") {
+  const ownerPrefix = ownerId === "rima" ? "rima/" : "";
+  const url = `${import.meta.env.BASE_URL}data/${ownerPrefix}portfolio_history.json`;
+
+  const response = await fetch(url, { cache: "no-store" });
+
+  if (!response.ok) {
+    throw new Error("Nepavyko įkelti istorinio portfelio failo.");
+  }
+
+  const payload = await response.json();
+
+  return {
+    history: Array.isArray(payload?.history) ? payload.history : [],
+    latest: payload?.latest || null,
+    period: payload?.period || null,
+  };
 }

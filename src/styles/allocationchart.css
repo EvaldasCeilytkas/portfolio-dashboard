@@ -57,7 +57,7 @@
 
 .allocation-card .allocation-content {
   display: grid;
-  grid-template-columns: 245px minmax(0, 1fr);
+  grid-template-columns: 220px minmax(220px, 1fr);
   align-items: center;
   gap: 22px;
   width: 100%;
@@ -66,9 +66,9 @@
 
 .allocation-card .allocation-chart-wrapper {
   position: relative;
-  width: 245px;
-  height: 245px;
-  min-width: 245px;
+  width: 220px;
+  height: 220px;
+  min-width: 220px;
   justify-self: center;
 }
 
@@ -217,9 +217,10 @@
 }
 
 .allocation-card .allocation-name span:last-child {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+  line-height: 1.25;
 }
 
 .allocation-card .allocation-dot {

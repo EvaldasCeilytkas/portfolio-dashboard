@@ -39,7 +39,9 @@ function TopBar() {
     selectOwner(nextOwnerId);
     setIsOpen(false);
 
-    if (nextOwnerId === "rima" && location.pathname !== "/") {
+    const nextOwner = owners.find((item) => item.id === nextOwnerId);
+
+    if (nextOwner && !nextOwner.fullAccess && location.pathname !== "/") {
       navigate("/");
     }
   }
@@ -87,7 +89,7 @@ function TopBar() {
                   <span className="owner-menu-avatar">{item.initials}</span>
                   <span>
                     <strong>{item.name}</strong>
-                    <small>{item.fullAccess ? "Visas dashboardas" : "Dashboard"}</small>
+                    <small>{item.fullAccess ? "Visas dashboardas" : item.isCombined ? "Bendras Dashboard" : "Dashboard"}</small>
                   </span>
                   {item.id === owner.id && <span className="owner-check">✓</span>}
                 </button>

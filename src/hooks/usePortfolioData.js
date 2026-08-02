@@ -2,18 +2,15 @@ import { useEffect, useMemo, useState } from "react";
 import { usePortfolioOwner } from "../context/PortfolioContext";
 
 function toNumber(value, fallback = 0) {
-  const number = Number(value);
-  return Number.isFinite(number) ? number : fallback;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : fallback;
 }
 
 function normalizeDate(value) {
   if (!value) return "";
 
   const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-    return String(value);
-  }
+  if (Number.isNaN(date.getTime())) return String(value);
 
   return date.toISOString().slice(0, 10);
 }
@@ -30,52 +27,69 @@ function normalizeHistory(source) {
   return rows
     .map((item) => {
       const invested = toNumber(
-        item?.invested ??
-          item?.contributed ??
-          item?.contributions ??
-          item?.capital,
+        item?.invested ?? item?.contributed ?? item?.contributions ?? item?.capital,
       );
-
       const value = toNumber(
-        item?.value ??
-          item?.currentValue ??
-          item?.portfolioValue ??
-          item?.balance,
+        item?.value ?? item?.currentValue ?? item?.portfolioValue ?? item?.balance,
       );
-
       const profit = toNumber(item?.profit, value - invested);
-
       const returnRate = toNumber(
-        item?.returnRate ??
-          item?.return ??
-          item?.roi,
+        item?.returnRate ?? item?.return ?? item?.roi,
         invested > 0 ? (profit / invested) * 100 : 0,
       );
 
       return {
-        date: normalizeDate(
-          item?.date ??
-            item?.month ??
-            item?.period,
-        ),
+        date: normalizeDate(item?.date ?? item?.month ?? item?.period),
         invested,
         value,
         profit,
         returnRate,
         monthlyContribution: toNumber(
-          item?.monthlyContribution ??
-            item?.contribution ??
-            item?.cashFlow,
+          item?.monthlyContribution ?? item?.contribution ?? item?.cashFlow,
         ),
         monthlyResult: toNumber(
-          item?.monthlyResult ??
-            item?.monthlyProfit ??
-            item?.result,
+          item?.monthlyResult ?? item?.monthlyProfit ?? item?.result,
         ),
       };
     })
     .filter((item) => item.date)
     .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+function combineHistories(firstSource, secondSource) {
+  const first = normalizeHistory(firstSource);
+  const second = normalizeHistory(secondSource);
+  const firstByDate = new Map(first.map((item) => [item.date, item]));
+  const secondByDate = new Map(second.map((item) => [item.date, item]));
+  const dates = [...new Set([...firstByDate.keys(), ...secondByDate.keys()])].sort();
+
+  let firstLatest = null;
+  let secondLatest = null;
+
+  return dates.map((date) => {
+    if (firstByDate.has(date)) firstLatest = firstByDate.get(date);
+    if (secondByDate.has(date)) secondLatest = secondByDate.get(date);
+
+    const firstRow = firstLatest || {};
+    const secondRow = secondLatest || {};
+    const invested = toNumber(firstRow.invested) + toNumber(secondRow.invested);
+    const value = toNumber(firstRow.value) + toNumber(secondRow.value);
+    const profit = value - invested;
+
+    return {
+      date,
+      invested,
+      value,
+      profit,
+      returnRate: invested > 0 ? (profit / invested) * 100 : 0,
+      monthlyContribution:
+        toNumber(firstByDate.get(date)?.monthlyContribution) +
+        toNumber(secondByDate.get(date)?.monthlyContribution),
+      monthlyResult:
+        toNumber(firstByDate.get(date)?.monthlyResult) +
+        toNumber(secondByDate.get(date)?.monthlyResult),
+    };
+  });
 }
 
 function getLastItem(items) {
@@ -100,22 +114,22 @@ function createAllocationItem(key, label, item, totalValue) {
 }
 
 async function fetchJson(path, signal) {
-  const response = await fetch(path, {
-    cache: "no-store",
-    signal,
-  });
+  const response = await fetch(path, { cache: "no-store", signal });
 
   if (!response.ok) {
-    throw new Error(
-      `${path.split("/").pop()} nepavyko įkelti (${response.status}).`,
-    );
+    throw new Error(`${path.split("/").pop()} nepavyko įkelti (${response.status}).`);
   }
 
   return response.json();
 }
 
+function directDataPath(folder, fileName) {
+  const prefix = folder ? `${folder}/` : "";
+  return `${import.meta.env.BASE_URL}data/${prefix}${fileName}`;
+}
+
 export default function usePortfolioData() {
-  const { ownerId, dataPath } = usePortfolioOwner();
+  const { ownerId, owner, dataPath } = usePortfolioOwner();
   const [historyFiles, setHistoryFiles] = useState(null);
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
@@ -128,85 +142,74 @@ export default function usePortfolioData() {
         setLoading(true);
         setErrorMessage("");
 
-        const [
-          portfolioHistory,
-          fundsHistory,
-          p2pHistory,
-        ] = await Promise.all([
-          fetchJson(dataPath("portfolio_history.json"), controller.signal),
-          fetchJson(dataPath("funds_history.json"), controller.signal),
-          fetchJson(dataPath("p2p_history.json"), controller.signal),
-        ]);
+        if (ownerId === "family") {
+          const [
+            evaldasPortfolio,
+            evaldasFunds,
+            evaldasP2p,
+            rimaPortfolio,
+            rimaFunds,
+            rimaP2p,
+          ] = await Promise.all([
+            fetchJson(directDataPath("", "portfolio_history.json"), controller.signal),
+            fetchJson(directDataPath("", "funds_history.json"), controller.signal),
+            fetchJson(directDataPath("", "p2p_history.json"), controller.signal),
+            fetchJson(directDataPath("rima", "portfolio_history.json"), controller.signal),
+            fetchJson(directDataPath("rima", "funds_history.json"), controller.signal),
+            fetchJson(directDataPath("rima", "p2p_history.json"), controller.signal),
+          ]);
 
-        if (!controller.signal.aborted) {
-          setHistoryFiles({
-            portfolioHistory,
-            fundsHistory,
-            p2pHistory,
-          });
+          if (!controller.signal.aborted) {
+            setHistoryFiles({
+              portfolioHistory: combineHistories(evaldasPortfolio, rimaPortfolio),
+              fundsHistory: combineHistories(evaldasFunds, rimaFunds),
+              p2pHistory: combineHistories(evaldasP2p, rimaP2p),
+            });
+          }
+        } else {
+          const [portfolioHistory, fundsHistory, p2pHistory] = await Promise.all([
+            fetchJson(dataPath("portfolio_history.json"), controller.signal),
+            fetchJson(dataPath("funds_history.json"), controller.signal),
+            fetchJson(dataPath("p2p_history.json"), controller.signal),
+          ]);
+
+          if (!controller.signal.aborted) {
+            setHistoryFiles({ portfolioHistory, fundsHistory, p2pHistory });
+          }
         }
       } catch (error) {
-        if (
-          !controller.signal.aborted &&
-          error?.name !== "AbortError"
-        ) {
-          setErrorMessage(
-            error?.message ??
-              "Nepavyko įkelti istorinių portfelio duomenų.",
-          );
+        if (!controller.signal.aborted && error?.name !== "AbortError") {
+          setErrorMessage(error?.message ?? "Nepavyko įkelti istorinių portfelio duomenų.");
         }
       } finally {
-        if (!controller.signal.aborted) {
-          setLoading(false);
-        }
+        if (!controller.signal.aborted) setLoading(false);
       }
     }
 
     loadDashboardData();
-
     return () => controller.abort();
   }, [ownerId, dataPath]);
 
   const dashboard = useMemo(() => {
     if (!historyFiles) return null;
 
-    const history = normalizeHistory(
-      historyFiles.portfolioHistory,
-    );
-    const fundsHistory = normalizeHistory(
-      historyFiles.fundsHistory,
-    );
-    const p2pHistory = normalizeHistory(
-      historyFiles.p2pHistory,
-    );
-
+    const history = normalizeHistory(historyFiles.portfolioHistory);
+    const fundsHistory = normalizeHistory(historyFiles.fundsHistory);
+    const p2pHistory = normalizeHistory(historyFiles.p2pHistory);
     const latest = getLastItem(history);
 
-    if (!latest) {
-      return null;
-    }
+    if (!latest) return null;
 
     const latestFunds = getLastItem(fundsHistory);
     const latestP2p = getLastItem(p2pHistory);
-
     const currentValue = latest.value;
     const invested = latest.invested;
     const profit = latest.profit;
     const returnRate = latest.returnRate;
 
     const allocation = [
-      createAllocationItem(
-        "funds",
-        "Fondai ir brokeriai",
-        latestFunds,
-        currentValue,
-      ),
-      createAllocationItem(
-        "p2p",
-        "P2P ir NT finansavimas",
-        latestP2p,
-        currentValue,
-      ),
+      createAllocationItem("funds", "Fondai ir brokeriai", latestFunds, currentValue),
+      createAllocationItem("p2p", "P2P ir NT finansavimas", latestP2p, currentValue),
     ]
       .filter((item) => item.value > 0 || item.invested > 0)
       .sort((a, b) => b.value - a.value);
@@ -214,38 +217,27 @@ export default function usePortfolioData() {
     return {
       currency: "EUR",
       generatedAt: latest.date,
-
+      ownerId,
+      portfolioName: ownerId === "family" ? "Šeimos investicijų portfelis" : "Investicijų portfelis",
+      eyebrow: ownerId === "family" ? "FAMILY PORTFOLIO OVERVIEW" : "PORTFOLIO OVERVIEW",
       currentValue,
       invested,
       profit,
       returnRate,
-
-      // Šių rodiklių istorinis Excel šiuo metu nepateikia.
-      // Jie sąmoningai nėra skaičiuojami iš platformų JSON.
       cash: 0,
       passiveIncome: 0,
       xirr: null,
       activePlatformCount: 0,
       archivedPlatformCount: 0,
-
       history,
       allocation,
       topPlatforms: [],
-
       largestPlatform: null,
       largestAssetClass: allocation[0] ?? null,
-
-      latestMonthlyContribution:
-        latest.monthlyContribution,
-      latestMonthlyResult:
-        latest.monthlyResult,
+      latestMonthlyContribution: latest.monthlyContribution,
+      latestMonthlyResult: latest.monthlyResult,
     };
-  }, [historyFiles]);
+  }, [historyFiles, ownerId, owner]);
 
-  return {
-    portfolio: historyFiles,
-    dashboard,
-    loading,
-    errorMessage,
-  };
+  return { portfolio: historyFiles, dashboard, loading, errorMessage };
 }

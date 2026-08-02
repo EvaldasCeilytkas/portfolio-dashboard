@@ -3,13 +3,13 @@ import { usePortfolioOwner } from "../../context/PortfolioContext";
 
 const navigation = [
   { to: "/", label: "Dashboard", icon: "D", end: true },
-  { to: "/portfolio", label: "Portfolio", icon: "P", requiresFullAccess: true },
+  { to: "/portfolio", label: "Portfolio", icon: "P", requiresPortfolioAccess: true },
   { to: "/analytics", label: "Analytics", icon: "A", requiresFullAccess: true },
   { to: "/p2p", label: "P2P", icon: "2P", requiresFullAccess: true },
 ];
 
 function Sidebar() {
-  const { owner, isFullAccess } = usePortfolioOwner();
+  const { owner, isFullAccess, canViewPortfolio } = usePortfolioOwner();
 
   return (
     <aside className="sidebar">
@@ -23,7 +23,9 @@ function Sidebar() {
 
       <nav className="sidebar-nav" aria-label="Pagrindinė navigacija">
         {navigation.map((item) => {
-          const disabled = item.requiresFullAccess && !isFullAccess;
+          const disabled =
+            (item.requiresFullAccess && !isFullAccess) ||
+            (item.requiresPortfolioAccess && !canViewPortfolio);
 
           if (disabled) {
             return (
@@ -60,7 +62,11 @@ function Sidebar() {
         <span className="status-dot" />
         <div>
           <strong>{owner.name}</strong>
-          <span>{isFullAccess ? "Pilnas portfelis" : "Dashboard režimas"}</span>
+          <span>{isFullAccess
+            ? "Pilnas portfelis"
+            : canViewPortfolio
+              ? "Fondai ir ETF"
+              : "Dashboard režimas"}</span>
         </div>
       </div>
     </aside>

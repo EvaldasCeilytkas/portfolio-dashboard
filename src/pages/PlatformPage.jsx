@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import { usePortfolioOwner } from "../context/PortfolioContext";
 
 import PerformanceChart from "../components/charts/PerformanceChart";
 import P2PLoanTable from "../components/p2p/P2PLoanTable";
@@ -74,6 +75,7 @@ function Distribution({ title, items = [], total = 0 }) {
 
 function PlatformPage() {
   const { platformSlug } = useParams();
+  const { ownerId, dataPath } = usePortfolioOwner();
   const [data, setData] = useState(null);
   const [error, setError] = useState("");
 
@@ -85,31 +87,30 @@ function PlatformPage() {
         setData(null);
         setError("");
 
-        const [platformResponse, historyResponse] = await Promise.all([
-          fetch(
-            `${import.meta.env.BASE_URL}data/platforms/${platformSlug}.json`,
-            { cache: "no-store", signal: controller.signal },
-          ),
-          fetch(`${import.meta.env.BASE_URL}data/platform_history.json`, {
-            cache: "no-store",
-            signal: controller.signal,
-          }),
-        ]);
+        const platformResponse = await fetch(
+          dataPath(`platforms/${platformSlug}.json`),
+          { cache: "no-store", signal: controller.signal },
+        );
 
         if (!platformResponse.ok) {
           throw new Error(`Platformos JSON: HTTP ${platformResponse.status}`);
         }
 
-        if (!historyResponse.ok) {
-          throw new Error(
-            `platform_history.json: HTTP ${historyResponse.status}`,
-          );
-        }
+        const platformPayload = await platformResponse.json();
+        let historyPayload = {};
 
-        const [platformPayload, historyPayload] = await Promise.all([
-          platformResponse.json(),
-          historyResponse.json(),
-        ]);
+        // Kiekvieno savininko platformų grafikai imami iš jo istorinio
+        // Investavimas Excel failo sugeneruoto platform_history.json.
+        // Jei failo dar nėra, platformos puslapis vis tiek atsidaro ir
+        // parodo paskutinį platformos JSON tašką.
+        const historyResponse = await fetch(dataPath("platform_history.json"), {
+          cache: "no-store",
+          signal: controller.signal,
+        });
+
+        if (historyResponse.ok) {
+          historyPayload = await historyResponse.json();
+        }
 
         const historicalHistory = findPlatformHistory(
           historyPayload,
@@ -137,7 +138,7 @@ function PlatformPage() {
 
     loadPlatform();
     return () => controller.abort();
-  }, [platformSlug]);
+  }, [platformSlug, ownerId, dataPath]);
 
   if (error) {
     return (
