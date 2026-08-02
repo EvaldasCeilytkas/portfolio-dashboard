@@ -98,8 +98,21 @@ def main():
     else:
         log.append({"time": now.strftime("%H:%M:%S"), "level": "success", "message": "Kritinių duomenų klaidų nerasta."})
 
+    previous = load(OUT, {}) or {}
+    current_status = "error" if errors else "warning" if warnings else "ok"
+    current_run = {
+        "generatedAt": now.isoformat(),
+        "durationSeconds": main_status.get("durationSeconds", 0),
+        "status": current_status,
+    }
+    history = [current_run]
+    for item in previous.get("history", []):
+        if isinstance(item, dict) and item.get("generatedAt") != current_run["generatedAt"]:
+            history.append(item)
+    history = history[:10]
+
     payload = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "generatedAt": now.isoformat(),
         "durationSeconds": main_status.get("durationSeconds", 0),
         "portfolios": [
@@ -108,6 +121,12 @@ def main():
             profile_status("gerda", "Gerda", "G", DATA / "gerda", gerda_rows),
         ],
         "platforms": rows,
+        "history": history,
+        "system": {
+            "python": True,
+            "pythonVersion": f"Python {__import__('sys').version_info.major}.{__import__('sys').version_info.minor}",
+            "github": True,
+        },
         "log": log,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

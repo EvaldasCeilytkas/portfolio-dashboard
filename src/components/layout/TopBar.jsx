@@ -11,6 +11,7 @@ const titles = {
   "/alerts": { eyebrow: "PORTFELIO STEBĖJIMAS", title: "Alerts Center" },
   "/intelligence": { eyebrow: "IŠMANIOJI PORTFELIO ANALIZĖ", title: "Portfolio Intelligence" },
   "/goals": { eyebrow: "FINANSINIAI TIKSLAI", title: "Goals Center" },
+  "/sync": { eyebrow: "PORTFOLIO SYNCHRONIZATION HUB", title: "Sync Center" },
 };
 
 function resolveTitle(pathname) {
@@ -27,6 +28,7 @@ function TopBar() {
   const [isOpen, setIsOpen] = useState(false);
   const selectorRef = useRef(null);
   const page = resolveTitle(location.pathname);
+  const isSyncPage = location.pathname === "/sync";
 
   useEffect(() => {
     function closeOnOutsideClick(event) {
@@ -77,44 +79,56 @@ function TopBar() {
           Sistema veikia
         </span>
 
-        <div className="owner-selector" ref={selectorRef}>
-          <button
-            className="owner-selector-button"
-            type="button"
-            aria-haspopup="listbox"
-            aria-expanded={isOpen}
-            onClick={() => setIsOpen((current) => !current)}
-          >
-            <span className="user-badge" aria-hidden="true">{owner.initials}</span>
-            <span className="owner-selector-copy">
-              <strong>{owner.name}</strong>
-              <small>Portfelio savininkas</small>
-            </span>
-            <span className={`owner-chevron${isOpen ? " is-open" : ""}`}>⌄</span>
-          </button>
-
-          {isOpen && (
-            <div className="owner-menu" role="listbox" aria-label="Pasirinkti portfelį">
-              {owners.map((item) => (
-                <button
-                  key={item.id}
-                  className={`owner-menu-item${item.id === owner.id ? " is-active" : ""}`}
-                  type="button"
-                  role="option"
-                  aria-selected={item.id === owner.id}
-                  onClick={() => handleOwnerChange(item.id)}
-                >
-                  <span className="owner-menu-avatar">{item.initials}</span>
-                  <span>
-                    <strong>{item.name}</strong>
-                    <small>{item.fullAccess ? "Visas dashboardas" : item.isCombined ? "Bendras Dashboard" : "Dashboard"}</small>
-                  </span>
-                  {item.id === owner.id && <span className="owner-check">✓</span>}
-                </button>
-              ))}
+        {isSyncPage ? (
+          <div className="owner-selector owner-selector-system">
+            <div className="owner-selector-button system-profile-card">
+              <span className="user-badge" aria-hidden="true">SYS</span>
+              <span className="owner-selector-copy">
+                <strong>Sistema</strong>
+                <small>Visi portfeliai</small>
+              </span>
             </div>
-          )}
-        </div>
+          </div>
+        ) : (
+          <div className="owner-selector" ref={selectorRef}>
+            <button
+              className="owner-selector-button"
+              type="button"
+              aria-haspopup="listbox"
+              aria-expanded={isOpen}
+              onClick={() => setIsOpen((current) => !current)}
+            >
+              <span className="user-badge" aria-hidden="true">{owner.initials}</span>
+              <span className="owner-selector-copy">
+                <strong>{owner.name}</strong>
+                <small>Portfelio savininkas</small>
+              </span>
+              <span className={`owner-chevron${isOpen ? " is-open" : ""}`}>⌄</span>
+            </button>
+
+            {isOpen && (
+              <div className="owner-menu" role="listbox" aria-label="Pasirinkti portfelį">
+                {owners.map((item) => (
+                  <button
+                    key={item.id}
+                    className={`owner-menu-item${item.id === owner.id ? " is-active" : ""}`}
+                    type="button"
+                    role="option"
+                    aria-selected={item.id === owner.id}
+                    onClick={() => handleOwnerChange(item.id)}
+                  >
+                    <span className="owner-menu-avatar">{item.initials}</span>
+                    <span>
+                      <strong>{item.name}</strong>
+                      <small>{item.fullAccess ? "Visas dashboardas" : item.isCombined ? "Bendras Dashboard" : "Dashboard"}</small>
+                    </span>
+                    {item.id === owner.id && <span className="owner-check">✓</span>}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </header>
   );

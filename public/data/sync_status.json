@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-08-02T15:15:36.932613+03:00",
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-02T15:27:37.048419+03:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -410,29 +410,46 @@
       "task": "portfolio importer"
     }
   ],
+  "history": [
+    {
+      "generatedAt": "2026-08-02T15:27:37.048419+03:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
+    {
+      "generatedAt": "2026-08-02T12:21:03.522634+00:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    }
+  ],
+  "system": {
+    "python": true,
+    "pythonVersion": "Python 3.14",
+    "github": true
+  },
   "log": [
     {
-      "time": "15:15:36",
+      "time": "15:27:37",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "15:15:36",
+      "time": "15:27:37",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "15:15:36",
+      "time": "15:27:37",
       "level": "success",
       "message": "Rima: 7 platformų patikrinta."
     },
     {
-      "time": "15:15:36",
+      "time": "15:27:37",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "15:15:36",
+      "time": "15:27:37",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }
