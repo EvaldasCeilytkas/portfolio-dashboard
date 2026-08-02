@@ -141,7 +141,7 @@ function getLogoUrl(slug, website) {
   )}&sz=128`;
 }
 
-function normalizePlatform(registryItem, payload) {
+function normalizePlatform(registryItem, payload, ownerId = "evaldas") {
   const platform = payload?.platform || {};
   const summary = payload?.summary || {};
 
@@ -202,6 +202,8 @@ function normalizePlatform(registryItem, payload) {
 
     isActive,
     logoUrl: getLogoUrl(slug, website),
+    ownerId,
+    ownerName: ownerId === "rima" ? "Rima" : "Evaldas",
     ...getBrandStyle(slug, name),
   };
 }
@@ -219,10 +221,31 @@ async function fetchPlatform(registryItem, ownerId) {
 
   const payload = await response.json();
 
-  return normalizePlatform(registryItem, payload);
+  return normalizePlatform(registryItem, payload, ownerId);
 }
 
 export async function loadPortfolioPlatforms(ownerId = "evaldas") {
+  if (ownerId === "family") {
+    const [evaldasPlatforms, rimaPlatforms] = await Promise.all([
+      loadPortfolioPlatforms("evaldas"),
+      loadPortfolioPlatforms("rima"),
+    ]);
+
+    // Savininkas nustatomas pagal duomenų šaltinį, o ne JSON turinį.
+    // Taip žyma rodoma prie kiekvienos šeimos portfelio platformos.
+    const withOwner = (items, id, name) =>
+      items.map((platform) => ({
+        ...platform,
+        ownerId: id,
+        ownerName: name,
+      }));
+
+    return [
+      ...withOwner(evaldasPlatforms, "evaldas", "Evaldas"),
+      ...withOwner(rimaPlatforms, "rima", "Rima"),
+    ];
+  }
+
   const enabledPlatforms = platformRegistry.filter(
     (platform) => platform.enabled !== false && platform.dataFile,
   );
@@ -236,7 +259,11 @@ export async function loadPortfolioPlatforms(ownerId = "evaldas") {
 
   results.forEach((result, index) => {
     if (result.status === "fulfilled") {
-      loadedPlatforms.push(result.value);
+      loadedPlatforms.push({
+        ...result.value,
+        ownerId,
+        ownerName: ownerId === "rima" ? "Rima" : "Evaldas",
+      });
     } else {
       failedPlatforms.push({
         name: enabledPlatforms[index].name,
@@ -256,10 +283,49 @@ export async function loadPortfolioPlatforms(ownerId = "evaldas") {
   return loadedPlatforms;
 }
 
-export async function loadPortfolioHistory(ownerId = "evaldas") {
+function combineHistorySeries(firstHistory = [], secondHistory = []) {
+  const first = [...firstHistory].sort((a, b) => String(a.date).localeCompare(String(b.date)));
+  const second = [...secondHistory].sort((a, b) => String(a.date).localeCompare(String(b.date)));
+  const dates = [...new Set([...first, ...second].map((item) => item.date))].sort();
+
+  let firstLatest = null;
+  let secondLatest = null;
+  let firstIndex = 0;
+  let secondIndex = 0;
+
+  return dates.map((date) => {
+    while (firstIndex < first.length && first[firstIndex].date <= date) {
+      firstLatest = first[firstIndex];
+      firstIndex += 1;
+    }
+
+    while (secondIndex < second.length && second[secondIndex].date <= date) {
+      secondLatest = second[secondIndex];
+      secondIndex += 1;
+    }
+
+    const invested = number(firstLatest?.invested) + number(secondLatest?.invested);
+    const value = number(firstLatest?.value) + number(secondLatest?.value);
+    const profit = value - invested;
+    const firstExact = first.find((item) => item.date === date);
+    const secondExact = second.find((item) => item.date === date);
+
+    return {
+      date,
+      invested,
+      monthlyContribution:
+        number(firstExact?.monthlyContribution) + number(secondExact?.monthlyContribution),
+      value,
+      profit,
+      returnRate: invested > 0 ? (profit / invested) * 100 : 0,
+      monthlyResult: number(firstExact?.monthlyResult) + number(secondExact?.monthlyResult),
+    };
+  });
+}
+
+async function loadSinglePortfolioHistory(ownerId) {
   const ownerPrefix = ownerId === "rima" ? "rima/" : "";
   const url = `${import.meta.env.BASE_URL}data/${ownerPrefix}portfolio_history.json`;
-
   const response = await fetch(url, { cache: "no-store" });
 
   if (!response.ok) {
@@ -272,5 +338,27 @@ export async function loadPortfolioHistory(ownerId = "evaldas") {
     history: Array.isArray(payload?.history) ? payload.history : [],
     latest: payload?.latest || null,
     period: payload?.period || null,
+  };
+}
+
+export async function loadPortfolioHistory(ownerId = "evaldas") {
+  if (ownerId !== "family") {
+    return loadSinglePortfolioHistory(ownerId);
+  }
+
+  const [evaldasHistory, rimaHistory] = await Promise.all([
+    loadSinglePortfolioHistory("evaldas"),
+    loadSinglePortfolioHistory("rima"),
+  ]);
+
+  const history = combineHistorySeries(evaldasHistory.history, rimaHistory.history);
+  const latest = history.at(-1) || null;
+
+  return {
+    history,
+    latest,
+    period: history.length
+      ? { start: history[0].date, end: history.at(-1).date, months: history.length }
+      : null,
   };
 }

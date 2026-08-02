@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import { usePortfolioOwner } from "../context/PortfolioContext";
 
 import platformRegistry from "../data/platforms.json";
 import "../styles/p2p.css";
@@ -21,6 +22,17 @@ const P2P_SLUGS = Object.freeze([
   "scramble",
   "viainvest",
 ]);
+
+const OWNER_P2P_SLUGS = Object.freeze({
+  evaldas: P2P_SLUGS,
+  rima: Object.freeze([
+    "profitus",
+    "nordstreet",
+    "indemo",
+    "lendermarket",
+    "scramble",
+  ]),
+});
 
 const REAL_ESTATE_SLUGS = new Set([
   "profitus",
@@ -53,10 +65,6 @@ const FILTER_OPTIONS = Object.freeze([
   { id: "real_estate", label: "NT finansavimas" },
   { id: "p2p", label: "P2P paskolos" },
 ]);
-
-function dataUrl(fileName) {
-  return `${import.meta.env.BASE_URL}data/${fileName}`;
-}
 
 function number(value) {
   const parsed = Number(value);
@@ -120,8 +128,10 @@ function getInitials(name) {
     .toUpperCase();
 }
 
-function buildPlatformRows(platformHistory) {
-  return P2P_SLUGS.map((slug) => {
+function buildPlatformRows(platformHistory, slugs, ownerId = "evaldas") {
+  const ownerName = ownerId === "rima" ? "Rima" : "Evaldas";
+
+  return slugs.map((slug) => {
     const historyItem = platformHistory?.platforms?.[slug];
     const history = Array.isArray(historyItem?.history)
       ? historyItem.history
@@ -132,6 +142,9 @@ function buildPlatformRows(platformHistory) {
     const previousProfit = number(previous.profit);
 
     return {
+      key: `${ownerId}:${slug}`,
+      ownerId,
+      ownerName,
       slug,
       name: historyItem?.name || PLATFORM_META[slug]?.name || slug,
       category: getPlatformTypeLabel(slug),
@@ -145,6 +158,46 @@ function buildPlatformRows(platformHistory) {
       history,
     };
   }).filter((platform) => platform.history.length > 0);
+}
+
+function mergeMonthlyHistories(histories) {
+  const byDate = new Map();
+
+  histories.forEach((history) => {
+    (Array.isArray(history) ? history : []).forEach((item) => {
+      if (!item?.date) return;
+      const current = byDate.get(item.date) || {
+        date: item.date,
+        invested: 0,
+        monthlyContribution: 0,
+        value: 0,
+        profit: 0,
+        monthlyResult: 0,
+      };
+      current.invested += number(item.invested);
+      current.monthlyContribution += number(item.monthlyContribution);
+      current.value += number(item.value);
+      current.profit += number(item.profit);
+      current.monthlyResult += number(item.monthlyResult);
+      byDate.set(item.date, current);
+    });
+  });
+
+  return [...byDate.values()]
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map((item) => ({
+      ...item,
+      returnRate: item.invested > 0 ? (item.profit / item.invested) * 100 : 0,
+    }));
+}
+
+function OwnerBadge({ platform }) {
+  if (!platform?.showOwner || !platform?.ownerName) return null;
+  return (
+    <span className={`p2p-owner-badge is-${platform.ownerId}`}>
+      {platform.ownerName}
+    </span>
+  );
 }
 
 function RangeButtons({ value, onChange }) {
@@ -401,8 +454,9 @@ function AllocationPanel({ platforms, totalValue }) {
           const share = totalValue > 0 ? (platform.value / totalValue) * 100 : 0;
           return (
             <Link
-              key={platform.slug}
+              key={platform.key || platform.slug}
               to={`/platforms/${platform.slug}`}
+              onClick={() => platform.onOpen?.()}
               className="p2p-allocation-row"
             >
               <span className="p2p-platform-avatar">
@@ -410,7 +464,7 @@ function AllocationPanel({ platforms, totalValue }) {
               </span>
               <span className="p2p-allocation-main">
                 <span className="p2p-allocation-copy">
-                  <strong>{platform.name}</strong>
+                  <strong>{platform.name} <OwnerBadge platform={platform} /></strong>
                   <small>{formatCurrency(platform.value)}</small>
                 </span>
                 <span className="p2p-share-track">
@@ -486,11 +540,12 @@ function MonthlyProfitPanel({ platforms, selectedDate, availableDates, onDateCha
       <div className="p2p-profit-list">
         {sorted.map((platform) => (
           <Link
-            key={platform.slug}
+            key={platform.key || platform.slug}
             to={`/platforms/${platform.slug}`}
+            onClick={() => platform.onOpen?.()}
             className="p2p-profit-row"
           >
-            <span className="p2p-profit-name">{platform.name}</span>
+            <span className="p2p-profit-name">{platform.name} <OwnerBadge platform={platform} /></span>
             <span className="p2p-profit-track">
               <i
                 className={platform.monthlyProfit < 0 ? "is-negative" : ""}
@@ -535,7 +590,7 @@ function PlatformPieChart({ platforms, totalValue }) {
   function handleSegmentMove(event, platform) {
     const bounds = event.currentTarget.ownerSVGElement.getBoundingClientRect();
     setHoveredPlatform(platform);
-    setActivePlatformSlug(platform.slug);
+    setActivePlatformSlug(platform.key || platform.slug);
     setTooltipPosition({
       x: event.clientX - bounds.left,
       y: event.clientY - bounds.top,
@@ -573,10 +628,10 @@ function PlatformPieChart({ platforms, totalValue }) {
             <circle className="p2p-donut-track" cx="100" cy="100" r="72" />
             {segments.map((platform) => (
               <circle
-                key={platform.slug}
+                key={platform.key || platform.slug}
                 className={`p2p-donut-segment ${
-                  activePlatformSlug === platform.slug ? "is-hovered" : ""
-                } ${activePlatformSlug && activePlatformSlug !== platform.slug ? "is-dimmed" : ""}`}
+                  activePlatformSlug === (platform.key || platform.slug) ? "is-hovered" : ""
+                } ${activePlatformSlug && activePlatformSlug !== (platform.key || platform.slug) ? "is-dimmed" : ""}`}
                 cx="100"
                 cy="100"
                 r="72"
@@ -620,19 +675,20 @@ function PlatformPieChart({ platforms, totalValue }) {
         <div className="p2p-pie-legend">
           {segments.map((platform) => (
             <Link
-              key={platform.slug}
+              key={platform.key || platform.slug}
               to={`/platforms/${platform.slug}`}
+              onClick={() => platform.onOpen?.()}
               className={`p2p-pie-legend-row ${
-                activePlatformSlug === platform.slug ? "is-active" : ""
-              } ${activePlatformSlug && activePlatformSlug !== platform.slug ? "is-dimmed" : ""}`}
+                activePlatformSlug === (platform.key || platform.slug) ? "is-active" : ""
+              } ${activePlatformSlug && activePlatformSlug !== (platform.key || platform.slug) ? "is-dimmed" : ""}`}
               onMouseEnter={() => {
                 setHoveredPlatform(null);
-                setActivePlatformSlug(platform.slug);
+                setActivePlatformSlug(platform.key || platform.slug);
               }}
               onMouseLeave={() => setActivePlatformSlug(null)}
             >
               <i style={{ background: platform.color }} />
-              <span>{platform.name}</span>
+              <span>{platform.name} <OwnerBadge platform={platform} /></span>
               <small>{formatCurrency(platform.value)}</small>
               <strong>{formatPercent(platform.share)}</strong>
             </Link>
@@ -691,8 +747,9 @@ function PlatformsTable({ platforms, filter, onFilterChange, totalValue, selecte
           const trendSymbol = valueChange > 0.005 ? "↗" : valueChange < -0.005 ? "↘" : "→";
           return (
             <Link
-              key={platform.slug}
+              key={platform.key || platform.slug}
               to={`/platforms/${platform.slug}`}
+              onClick={() => platform.onOpen?.()}
               className="p2p-table-row"
             >
               <span className="p2p-table-platform">
@@ -700,7 +757,7 @@ function PlatformsTable({ platforms, filter, onFilterChange, totalValue, selecte
                   {getInitials(platform.name)}
                 </span>
                 <span>
-                  <strong>{platform.name}</strong>
+                  <strong>{platform.name} <OwnerBadge platform={platform} /></strong>
                   <small>{platform.category}</small>
                 </span>
               </span>
@@ -741,11 +798,11 @@ function TopPlatformHighlights({ platforms, selectedDate, totalValue }) {
   return (
     <section className="p2p-top-highlights">
       {cards.map((card) => card.platform && (
-        <Link key={card.label} to={`/platforms/${card.platform.slug}`} className="p2p-top-card">
+        <Link key={card.label} to={`/platforms/${card.platform.slug}`} onClick={() => card.platform.onOpen?.()} className="p2p-top-card">
           <span className="p2p-top-icon">{card.icon}</span>
           <span className="p2p-top-copy">
             <small>{card.label}</small>
-            <strong>{card.platform.name}</strong>
+            <strong>{card.platform.name} <OwnerBadge platform={card.platform} /></strong>
           </span>
           <b>{card.value}</b>
           <i>→</i>
@@ -755,7 +812,9 @@ function TopPlatformHighlights({ platforms, selectedDate, totalValue }) {
   );
 }
 
-function P2PPage() {
+function OwnerP2PPage() {
+  const { ownerId, dataPath, selectOwner } = usePortfolioOwner();
+  const ownerSlugs = OWNER_P2P_SLUGS[ownerId] || [];
   const [p2pHistory, setP2pHistory] = useState(null);
   const [platformHistory, setPlatformHistory] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -774,8 +833,8 @@ function P2PPage() {
         setErrorMessage("");
 
         const [p2pResponse, platformResponse] = await Promise.all([
-          fetch(dataUrl("p2p_history.json"), { cache: "no-store" }),
-          fetch(dataUrl("platform_history.json"), { cache: "no-store" }),
+          fetch(dataPath("p2p_history.json"), { cache: "no-store" }),
+          fetch(dataPath("platform_history.json"), { cache: "no-store" }),
         ]);
 
         if (!p2pResponse.ok || !platformResponse.ok) {
@@ -788,9 +847,9 @@ function P2PPage() {
         ]);
 
         const platformPayloads = await Promise.all(
-          P2P_SLUGS.map(async (slug) => {
+          ownerSlugs.map(async (slug) => {
             try {
-              const response = await fetch(dataUrl(`platforms/${slug}.json`), { cache: "no-store" });
+              const response = await fetch(dataPath(`platforms/${slug}.json`), { cache: "no-store" });
               return response.ok ? response.json() : null;
             } catch {
               return null;
@@ -825,11 +884,14 @@ function P2PPage() {
     return () => {
       active = false;
     };
-  }, []);
+  }, [ownerId, dataPath]);
 
   const platforms = useMemo(
-    () => buildPlatformRows(platformHistory),
-    [platformHistory],
+    () => buildPlatformRows(platformHistory, ownerSlugs, ownerId).map((platform) => ({
+      ...platform,
+      onOpen: () => selectOwner(ownerId),
+    })),
+    [platformHistory, ownerId, selectOwner],
   );
 
   if (loading) {
@@ -872,7 +934,7 @@ function P2PPage() {
       <section className="p2p-hero">
         <div className="p2p-hero-main">
           <div className="p2p-hero-badges">
-            <span className="p2p-eyebrow">P2P portfolio overview</span>
+            <span className="p2p-eyebrow">{ownerId === "rima" ? "Rimos P2P portfolio overview" : "P2P portfolio overview"}</span>
             <span className="p2p-status-badge"><i />Portfelis aktyvus</span>
           </div>
           <h1>P2P investicijų portfelis</h1>
@@ -927,7 +989,7 @@ function P2PPage() {
         <article className="p2p-metric-card p2p-metric-real-estate">
           <span className="p2p-metric-label">NT finansavimas</span>
           <strong className="p2p-metric-value">{formatCurrency(realEstateValue)}</strong>
-          <span className="p2p-metric-description">Profitus, Crowdpear, Nordstreet, Röntgen ir Indemo</span>
+          <span className="p2p-metric-description">{ownerId === "rima" ? "Profitus, Nordstreet ir Indemo" : "Profitus, Crowdpear, Nordstreet, Röntgen ir Indemo"}</span>
         </article>
         <article className="p2p-metric-card p2p-metric-loans">
           <span className="p2p-metric-label">P2P paskolos</span>
@@ -965,6 +1027,170 @@ function P2PPage() {
       />
     </main>
   );
+}
+
+function FamilyP2PPage() {
+  const { selectOwner } = usePortfolioOwner();
+  const [payload, setPayload] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [errorMessage, setErrorMessage] = useState("");
+  const [range, setRange] = useState("1y");
+  const [filter, setFilter] = useState("all");
+  const [selectedMonth, setSelectedMonth] = useState("");
+
+  useEffect(() => {
+    let active = true;
+
+    async function readJson(path, required = true) {
+      const response = await fetch(`${import.meta.env.BASE_URL}data/${path}`, { cache: "no-store" });
+      if (!response.ok) {
+        if (!required) return null;
+        throw new Error(`Nepavyko įkelti ${path}.`);
+      }
+      return response.json();
+    }
+
+    async function loadFamilyData() {
+      try {
+        setLoading(true);
+        setErrorMessage("");
+
+        const [evaldasP2P, rimaP2P, evaldasPlatforms, rimaPlatforms] = await Promise.all([
+          readJson("p2p_history.json"),
+          readJson("rima/p2p_history.json"),
+          readJson("platform_history.json"),
+          readJson("rima/platform_history.json"),
+        ]);
+
+        const ownerConfigs = [
+          { ownerId: "evaldas", ownerName: "Evaldas", folder: "", slugs: OWNER_P2P_SLUGS.evaldas },
+          { ownerId: "rima", ownerName: "Rima", folder: "rima/", slugs: OWNER_P2P_SLUGS.rima },
+        ];
+
+        const ownerResults = await Promise.all(ownerConfigs.map(async (config) => {
+          const platformHistory = config.ownerId === "evaldas" ? evaldasPlatforms : rimaPlatforms;
+          const rows = buildPlatformRows(platformHistory, config.slugs, config.ownerId).map((platform) => ({
+            ...platform,
+            showOwner: true,
+            onOpen: () => selectOwner(config.ownerId),
+          }));
+          const details = await Promise.all(config.slugs.map(async (slug) => {
+            try {
+              return await readJson(`${config.folder}platforms/${slug}.json`, false);
+            } catch {
+              return null;
+            }
+          }));
+          const stats = details.reduce((sum, item) => ({
+            active: sum.active + number(item?.summary?.activeInvestments),
+            delayed: sum.delayed + number(item?.summary?.delayedInvestments),
+            completed: sum.completed + number(item?.summary?.completedInvestments),
+            total: sum.total + number(item?.summary?.totalInvestments || item?.summary?.investmentsCount),
+          }), { active: 0, delayed: 0, completed: 0, total: 0 });
+          return { ...config, rows, stats };
+        }));
+
+        const history = mergeMonthlyHistories([
+          evaldasP2P?.history,
+          rimaP2P?.history,
+        ]);
+        const latest = history.at(-1) || {};
+        const previous = history.at(-2) || {};
+        const combined = {
+          history,
+          latest: {
+            ...latest,
+            monthlyResult: number(latest.profit) - number(previous.profit),
+            monthlyContribution: number(latest.invested) - number(previous.invested),
+          },
+          platforms: ownerResults.flatMap((item) => item.rows),
+          owners: ownerResults,
+        };
+
+        if (active) setPayload(combined);
+      } catch (error) {
+        if (active) setErrorMessage(error instanceof Error ? error.message : "Įvyko nežinoma klaida.");
+      } finally {
+        if (active) setLoading(false);
+      }
+    }
+
+    loadFamilyData();
+    return () => { active = false; };
+  }, [selectOwner]);
+
+  if (loading) {
+    return <main className="p2p-page"><section className="p2p-state"><span className="p2p-loader" /><h2>Kraunami šeimos P2P duomenys...</h2></section></main>;
+  }
+
+  if (errorMessage || !payload) {
+    return <main className="p2p-page"><section className="p2p-state p2p-state-error"><h2>Nepavyko atidaryti šeimos P2P puslapio</h2><p>{errorMessage}</p></section></main>;
+  }
+
+  const { history, latest, platforms, owners } = payload;
+  const activePlatforms = platforms.filter((platform) => platform.value > 0);
+  const totalValue = number(latest.value);
+  const realEstateValue = activePlatforms.filter((platform) => platform.type === "real_estate").reduce((sum, platform) => sum + platform.value, 0);
+  const p2pValue = activePlatforms.filter((platform) => platform.type === "p2p").reduce((sum, platform) => sum + platform.value, 0);
+  const availableDates = history.map((item) => item.date).filter(Boolean);
+  const effectiveMonth = selectedMonth || latest.date || availableDates.at(-1) || "";
+  const familyStats = owners.reduce((sum, owner) => ({
+    active: sum.active + owner.stats.active,
+    delayed: sum.delayed + owner.stats.delayed,
+    completed: sum.completed + owner.stats.completed,
+    total: sum.total + owner.stats.total,
+  }), { active: 0, delayed: 0, completed: 0, total: 0 });
+
+  return (
+    <main className="p2p-page family-p2p-page" data-testid="family-p2p-page">
+      <section className="p2p-hero">
+        <div className="p2p-hero-main">
+          <div className="p2p-hero-badges"><span className="p2p-eyebrow">Family P2P portfolio overview</span><span className="p2p-status-badge"><i />Abu portfeliai aktyvūs</span></div>
+          <h1>Šeimos P2P investicijų portfelis</h1>
+          <p className="p2p-hero-label">Bendra dabartinė vertė</p>
+          <strong className="p2p-hero-value">{formatCurrency(latest.value)}</strong>
+          <div className="p2p-hero-result"><span>{formatPercent(latest.returnRate)}</span><p><strong>{formatCurrency(latest.profit)}</strong> bendras rezultatas</p></div>
+        </div>
+        <div className="p2p-hero-stats">
+          <article><span>Investuota</span><strong>{formatCurrency(latest.invested)}</strong><small>Bendras aktyvus kapitalas</small></article>
+          <article><span>Pelnas</span><strong className="p2p-positive">{formatCurrency(latest.profit)}</strong><small>Abiejų portfelių rezultatas</small></article>
+          <article className="p2p-updated-card"><span>Atnaujinta</span><strong>{formatDate(latest.date)}</strong><small>Pagal abu istorinius failus</small></article>
+          <article className="p2p-loan-status-card"><span>Investicijų būklė</span><div className="p2p-loan-status-values"><span><strong>{familyStats.active}</strong><small>Aktyvios</small></span><span><strong className={familyStats.delayed > 0 ? "p2p-warning" : ""}>{familyStats.delayed}</strong><small>Vėluojančios</small></span></div><small>{activePlatforms.length} aktyvių platformų</small></article>
+        </div>
+      </section>
+
+      <section className="p2p-metrics-grid">
+        <article className="p2p-metric-card p2p-metric-result"><span className="p2p-metric-label">Paskutinio mėnesio rezultatas</span><strong className={`p2p-metric-value ${number(latest.monthlyResult) < 0 ? "p2p-negative" : "p2p-positive"}`}>{formatCurrency(latest.monthlyResult)}</strong><span className="p2p-metric-description">Bendras mėnesio pelno pokytis</span></article>
+        <article className="p2p-metric-card p2p-metric-contribution"><span className="p2p-metric-label">Paskutinio mėnesio įnašas</span><strong className="p2p-metric-value">{formatCurrency(latest.monthlyContribution)}</strong><span className="p2p-metric-description">Abiejų portfelių įnašai</span></article>
+        <article className="p2p-metric-card p2p-metric-real-estate"><span className="p2p-metric-label">NT finansavimas</span><strong className="p2p-metric-value">{formatCurrency(realEstateValue)}</strong><span className="p2p-metric-description">NT ir NPL projektai</span></article>
+        <article className="p2p-metric-card p2p-metric-loans"><span className="p2p-metric-label">P2P paskolos</span><strong className="p2p-metric-value">{formatCurrency(p2pValue)}</strong><span className="p2p-metric-description">Vartojimo, verslo ir žemės ūkio paskolos</span></article>
+      </section>
+
+      <section className="p2p-card family-p2p-summary-card">
+        <header className="p2p-card-header"><div><p className="p2p-card-eyebrow">Šeimos suvestinė</p><h2>P2P portfeliai pagal savininką</h2><p>Platformų ir investicijų būklės palyginimas.</p></div></header>
+        <div className="family-p2p-summary-table">
+          <div className="family-p2p-summary-row is-head"><span>Rodiklis</span><strong>Evaldas</strong><strong>Rima</strong><strong>Šeima</strong></div>
+          {[
+            ["Platformos", owners[0].rows.filter((p) => p.value > 0).length, owners[1].rows.filter((p) => p.value > 0).length, activePlatforms.length],
+            ["Aktyvios investicijos", owners[0].stats.active, owners[1].stats.active, familyStats.active],
+            ["Vėluojančios", owners[0].stats.delayed, owners[1].stats.delayed, familyStats.delayed],
+            ["Užbaigtos", owners[0].stats.completed, owners[1].stats.completed, familyStats.completed],
+          ].map(([label, evaldas, rima, family]) => <div className="family-p2p-summary-row" key={label}><span>{label}</span><strong>{evaldas}</strong><strong>{rima}</strong><strong>{family}</strong></div>)}
+        </div>
+      </section>
+
+      <PortfolioHistoryChart history={history} range={range} onRangeChange={setRange} />
+      <section className="p2p-primary-grid"><AllocationPanel platforms={activePlatforms} totalValue={totalValue} /><MonthlyProfitPanel platforms={platforms} selectedDate={effectiveMonth} availableDates={availableDates} onDateChange={setSelectedMonth} /></section>
+      <PlatformPieChart platforms={activePlatforms} totalValue={totalValue} />
+      <PlatformsTable platforms={activePlatforms} filter={filter} onFilterChange={setFilter} totalValue={totalValue} selectedDate={effectiveMonth} />
+      <TopPlatformHighlights platforms={activePlatforms} selectedDate={effectiveMonth} totalValue={totalValue} />
+    </main>
+  );
+}
+
+function P2PPage() {
+  const { ownerId } = usePortfolioOwner();
+  return ownerId === "family" ? <FamilyP2PPage /> : <OwnerP2PPage />;
 }
 
 export default P2PPage;

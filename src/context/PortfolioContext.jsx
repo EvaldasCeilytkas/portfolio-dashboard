@@ -10,6 +10,8 @@ const OWNERS = {
     dataFolder: "",
     fullAccess: true,
     portfolioAccess: true,
+    analyticsAccess: true,
+    p2pAccess: true,
   },
   rima: {
     id: "rima",
@@ -18,6 +20,8 @@ const OWNERS = {
     dataFolder: "rima",
     fullAccess: false,
     portfolioAccess: true,
+    analyticsAccess: true,
+    p2pAccess: true,
   },
   family: {
     id: "family",
@@ -25,7 +29,9 @@ const OWNERS = {
     initials: "Š",
     dataFolder: null,
     fullAccess: false,
-    portfolioAccess: false,
+    portfolioAccess: true,
+    analyticsAccess: true,
+    p2pAccess: true,
     isCombined: true,
   },
 };
@@ -69,6 +75,8 @@ export function PortfolioProvider({ children }) {
         `${import.meta.env.BASE_URL}data/${folderPrefix}${fileName}`,
       isFullAccess: owner.fullAccess,
       canViewPortfolio: owner.portfolioAccess === true,
+      canViewAnalytics: owner.analyticsAccess === true,
+      canViewP2P: owner.p2pAccess === true,
     };
   }, [ownerId]);
 

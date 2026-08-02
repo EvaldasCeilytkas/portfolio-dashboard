@@ -93,7 +93,7 @@ function getGroupOrder(group) {
 
 function PortfolioPage() {
   const navigate = useNavigate();
-  const { ownerId, owner } = usePortfolioOwner();
+  const { ownerId, owner, selectOwner } = usePortfolioOwner();
 
   const [platforms, setPlatforms] = useState([]);
   const [portfolioHistory, setPortfolioHistory] = useState([]);
@@ -242,6 +242,55 @@ function PortfolioPage() {
     };
   }, [platforms]);
 
+  const ownerSummary = useMemo(() => {
+    const result = {
+      evaldas: { value: 0, platforms: 0 },
+      rima: { value: 0, platforms: 0 },
+    };
+
+    platforms
+      .filter((platform) => platform.isActive)
+      .forEach((platform) => {
+        const key = platform.ownerId === "rima" ? "rima" : "evaldas";
+        result[key].value += platform.currentValue;
+        result[key].platforms += 1;
+      });
+
+    const total = result.evaldas.value + result.rima.value;
+
+    result.evaldas.share = total > 0 ? (result.evaldas.value / total) * 100 : 0;
+    result.rima.share = total > 0 ? (result.rima.value / total) * 100 : 0;
+
+    return result;
+  }, [platforms]);
+
+  const allocationByOwner = useMemo(() => {
+    const groups = new Map();
+
+    platforms
+      .filter((platform) => platform.isActive)
+      .forEach((platform) => {
+        const group = platform.group || "other";
+
+        if (!groups.has(group)) {
+          groups.set(group, { evaldas: 0, rima: 0 });
+        }
+
+        const ownerKey = platform.ownerId === "rima" ? "rima" : "evaldas";
+        groups.get(group)[ownerKey] += platform.currentValue;
+      });
+
+    return [...groups.entries()]
+      .map(([group, values]) => ({
+        group,
+        name: PORTFOLIO_GROUP_LABELS[group] || group,
+        ...values,
+        total: values.evaldas + values.rima,
+      }))
+      .filter((item) => item.total > 0)
+      .sort((first, second) => second.total - first.total);
+  }, [platforms]);
+
   const allocation = useMemo(() => {
     const activePlatforms = platforms.filter((platform) => platform.isActive);
     const groups = new Map();
@@ -262,8 +311,12 @@ function PortfolioPage() {
 
   const historicalCurrentValue = number(historyLatest?.value);
 
-  const openPlatform = (slug) => {
-    navigate(`/platforms/${slug}`);
+  const openPlatform = (platform) => {
+    if (ownerId === "family" && platform.ownerId) {
+      selectOwner(platform.ownerId);
+    }
+
+    navigate(`/platforms/${platform.slug}`);
   };
 
   if (loading) {
@@ -294,18 +347,52 @@ function PortfolioPage() {
       <section className="portfolio-hero">
         <div>
           <span className="portfolio-eyebrow">
-            {ownerId === "rima" ? "RIMOS PORTFOLIO OVERVIEW" : "PORTFOLIO OVERVIEW"}
+            {ownerId === "family"
+              ? "FAMILY PORTFOLIO OVERVIEW"
+              : ownerId === "rima"
+                ? "RIMOS PORTFOLIO OVERVIEW"
+                : "PORTFOLIO OVERVIEW"}
           </span>
-          <h1>{ownerId === "rima" ? "Rimos portfelis" : "Portfelis"}</h1>
+          <h1>
+            {ownerId === "family"
+              ? "Šeimos portfelis"
+              : ownerId === "rima"
+                ? "Rimos portfelis"
+                : "Portfelis"}
+          </h1>
         </div>
 
-        <div className="portfolio-hero-total">
-          <span>Aktyvaus portfelio vertė</span>
-          <strong>{formatCurrency(summary.currentValue)}</strong>
-          <small>
-            {counts.active} aktyvių platformų · {counts.inactive} užbaigtų
-            platformų
-          </small>
+        <div className="portfolio-hero-side">
+          <div className="portfolio-hero-total">
+            <span>Aktyvaus portfelio vertė</span>
+            <strong>{formatCurrency(summary.currentValue)}</strong>
+            <small>
+              {counts.active} aktyvių platformų · {counts.inactive} užbaigtų
+              platformų
+            </small>
+          </div>
+
+          {ownerId === "family" && (
+            <div className="portfolio-family-contribution">
+              <div className="portfolio-contribution-row is-evaldas">
+                <span><i>👤</i> Evaldas</span>
+                <strong>{formatCurrency(ownerSummary.evaldas.value)}</strong>
+                <b>{formatPercent(ownerSummary.evaldas.share)}</b>
+              </div>
+              <div className="portfolio-contribution-track">
+                <i style={{ width: `${ownerSummary.evaldas.share}%` }} />
+              </div>
+
+              <div className="portfolio-contribution-row is-rima">
+                <span><i>👤</i> Rima</span>
+                <strong>{formatCurrency(ownerSummary.rima.value)}</strong>
+                <b>{formatPercent(ownerSummary.rima.share)}</b>
+              </div>
+              <div className="portfolio-contribution-track is-rima">
+                <i style={{ width: `${ownerSummary.rima.share}%` }} />
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -356,18 +443,59 @@ function PortfolioPage() {
         />
       </section>
 
+      {ownerId === "family" && (
+        <section className="portfolio-family-allocation-details">
+          <header>
+            <div>
+              <span className="portfolio-section-label">ŠEIMOS STRUKTŪRA</span>
+              <h2>Turto grupės pagal savininką</h2>
+            </div>
+            <p>Kaip kiekvieną turto grupę sudaro Evaldo ir Rimos investicijos.</p>
+          </header>
+
+          <div className="portfolio-family-allocation-grid">
+            {allocationByOwner.map((item) => (
+              <article key={item.group}>
+                <div className="portfolio-family-group-title">
+                  <strong>{item.name}</strong>
+                  <span>{formatCurrency(item.total)}</span>
+                </div>
+                <div className="portfolio-family-group-owner is-evaldas">
+                  <span>👤 Evaldas</span>
+                  <b>{formatCurrency(item.evaldas)}</b>
+                </div>
+                <div className="portfolio-family-group-owner is-rima">
+                  <span>👤 Rima</span>
+                  <b>{formatCurrency(item.rima)}</b>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className="portfolio-content">
         <header className="portfolio-content-header">
           <div>
             <span className="portfolio-section-label">PLATFORMOS</span>
             <h2>Investicijų sąrašas</h2>
             <p>
-              {ownerId === "rima" ? `${owner.name} · ` : ""}
+              {ownerId === "family"
+                ? "Evaldas ir Rima · "
+                : ownerId === "rima"
+                  ? `${owner.name} · `
+                  : ""}
               {statusFilter === "active"
                 ? `Rodomos ${filteredPlatforms.length} aktyvios platformos iš ${counts.all}`
                 : statusFilter === "inactive"
                   ? `Rodomos ${filteredPlatforms.length} užbaigtos platformos iš ${counts.all}`
                   : `Rodomos visos ${filteredPlatforms.length} platformos`}
+              {ownerId === "family" && (
+                <span className="portfolio-owner-counts">
+                  <b>👤 Evaldas {ownerSummary.evaldas.platforms}</b>
+                  <b>👤 Rima {ownerSummary.rima.platforms}</b>
+                </span>
+              )}
             </p>
           </div>
 
@@ -461,14 +589,14 @@ function PortfolioPage() {
                     {groupItems.map((platform) => (
                       <tr
                         className="portfolio-data-row"
-                        key={platform.slug}
+                        key={`${platform.ownerId}-${platform.slug}`}
                         tabIndex={0}
                         role="link"
-                        onClick={() => openPlatform(platform.slug)}
+                        onClick={() => openPlatform(platform)}
                         onKeyDown={(event) => {
                           if (event.key === "Enter" || event.key === " ") {
                             event.preventDefault();
-                            openPlatform(platform.slug);
+                            openPlatform(platform);
                           }
                         }}
                       >
@@ -501,9 +629,20 @@ function PortfolioPage() {
                               </span>
                             </div>
 
-                            <div>
+                            <div className="portfolio-platform-copy">
                               <strong>{platform.name}</strong>
-                              <span>{platform.category}</span>
+                              <div className="portfolio-platform-meta">
+                                <span className="portfolio-platform-category">
+                                  {platform.category}
+                                </span>
+                                {ownerId === "family" && (
+                                  <em
+                                    className={`portfolio-owner-badge is-${platform.ownerId}`}
+                                  >
+                                    <i>👤</i> {platform.ownerName}
+                                  </em>
+                                )}
+                              </div>
                             </div>
                           </div>
                         </td>

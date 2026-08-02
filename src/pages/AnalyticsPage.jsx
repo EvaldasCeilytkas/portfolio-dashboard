@@ -86,7 +86,7 @@ function MonthlyBars({ rows }) {
 }
 
 export default function AnalyticsPage() {
-  const { dataPath } = usePortfolioOwner();
+  const { ownerId, dataPath, selectOwner } = usePortfolioOwner();
   const [data, setData] = useState(null);
   const [error, setError] = useState("");
   const [range, setRange] = useState(12);
@@ -95,16 +95,97 @@ export default function AnalyticsPage() {
 
   useEffect(() => {
     let live = true;
-    Promise.all([
-      fetch(dataPath("portfolio_history.json")).then(r => { if(!r.ok) throw new Error("portfolio_history.json"); return r.json(); }),
-      fetch(dataPath("funds_history.json")).then(r => r.json()),
-      fetch(dataPath("p2p_history.json")).then(r => r.json()),
-      fetch(dataPath("platform_history.json")).then(r => r.json()),
-      fetch(dataPath("portfolio.json")).then(r => r.ok ? r.json() : null),
-    ]).then(([portfolio, funds, p2p, platforms, portfolioData]) => live && setData({portfolio,funds,p2p,platforms,portfolioData}))
-      .catch(e => live && setError(`Nepavyko užkrauti ${e.message}`));
-    return () => { live = false; };
-  }, [dataPath]);
+    const controller = new AbortController();
+
+    const ownerPath = (owner, fileName) => {
+      const prefix = owner === "rima" ? "rima/" : "";
+      return `${import.meta.env.BASE_URL}data/${prefix}${fileName}`;
+    };
+
+    async function loadJson(path, optional = false) {
+      const response = await fetch(path, { cache: "no-store", signal: controller.signal });
+      if (!response.ok) {
+        if (optional) return null;
+        throw new Error(path.split("/").at(-1));
+      }
+      const contentType = response.headers.get("content-type") || "";
+      if (!contentType.includes("application/json")) {
+        if (optional) return null;
+        throw new Error(path.split("/").at(-1));
+      }
+      return response.json();
+    }
+
+    function combineHistories(firstPayload, secondPayload) {
+      const first = [...(firstPayload?.history || [])].sort((a,b)=>String(a.date).localeCompare(String(b.date)));
+      const second = [...(secondPayload?.history || [])].sort((a,b)=>String(a.date).localeCompare(String(b.date)));
+      const dates = [...new Set([...first, ...second].map((item)=>item.date))].sort();
+      let a = null, b = null, ai = 0, bi = 0;
+      const history = dates.map((date) => {
+        while (ai < first.length && first[ai].date <= date) a = first[ai++];
+        while (bi < second.length && second[bi].date <= date) b = second[bi++];
+        const exactA = first.find((item)=>item.date === date);
+        const exactB = second.find((item)=>item.date === date);
+        const invested = (Number(a?.invested)||0) + (Number(b?.invested)||0);
+        const value = (Number(a?.value)||0) + (Number(b?.value)||0);
+        const profit = value - invested;
+        return {
+          date, invested, value, profit,
+          returnRate: invested > 0 ? profit / invested * 100 : 0,
+          monthlyContribution: (Number(exactA?.monthlyContribution)||0) + (Number(exactB?.monthlyContribution)||0),
+          monthlyResult: (Number(exactA?.monthlyResult)||0) + (Number(exactB?.monthlyResult)||0),
+        };
+      });
+      return { history, latest: history.at(-1) || {}, period: { months: history.length } };
+    }
+
+    function combinePlatforms(first, second) {
+      const platforms = {};
+      Object.entries(first?.platforms || {}).forEach(([slug, payload]) => {
+        platforms[`evaldas:${slug}`] = { ...payload, ownerId: "evaldas", ownerName: "Evaldas", originalSlug: slug };
+      });
+      Object.entries(second?.platforms || {}).forEach(([slug, payload]) => {
+        platforms[`rima:${slug}`] = { ...payload, ownerId: "rima", ownerName: "Rima", originalSlug: slug };
+      });
+      return { platforms };
+    }
+
+    async function loadOwner(owner) {
+      const [portfolio, funds, p2p, platforms, portfolioData] = await Promise.all([
+        loadJson(ownerPath(owner, "portfolio_history.json")),
+        loadJson(ownerPath(owner, "funds_history.json")),
+        loadJson(ownerPath(owner, "p2p_history.json")),
+        loadJson(ownerPath(owner, "platform_history.json")),
+        loadJson(ownerPath(owner, "portfolio.json"), true),
+      ]);
+      return { portfolio, funds, p2p, platforms, portfolioData };
+    }
+
+    const request = ownerId === "family"
+      ? Promise.all([loadOwner("evaldas"), loadOwner("rima")]).then(([evaldas, rima]) => ({
+          portfolio: combineHistories(evaldas.portfolio, rima.portfolio),
+          funds: combineHistories(evaldas.funds, rima.funds),
+          p2p: combineHistories(evaldas.p2p, rima.p2p),
+          platforms: combinePlatforms(evaldas.platforms, rima.platforms),
+          portfolioData: null,
+          owners: { evaldas: evaldas.portfolio.latest || {}, rima: rima.portfolio.latest || {} },
+        }))
+      : Promise.all([
+          loadJson(dataPath("portfolio_history.json")),
+          loadJson(dataPath("funds_history.json")),
+          loadJson(dataPath("p2p_history.json")),
+          loadJson(dataPath("platform_history.json")),
+          loadJson(dataPath("portfolio.json"), true),
+        ]).then(([portfolio, funds, p2p, platforms, portfolioData]) => ({ portfolio, funds, p2p, platforms, portfolioData }));
+
+    request.then((payload) => {
+      if (live) { setData(payload); setError(""); }
+    }).catch((error) => {
+      if (live && error.name !== "AbortError") setError(`Nepavyko užkrauti ${error.message}`);
+    });
+
+    return () => { live = false; controller.abort(); };
+  }, [dataPath, ownerId]);
 
   const model = useMemo(() => {
     if (!data) return null;
@@ -128,13 +209,14 @@ export default function AnalyticsPage() {
     });
     const aggregateSlugs = new Set(["viso", "p2p", "fondai"]);
     const platforms = Object.entries(data.platforms.platforms || {})
-      .map(([slug,p])=>{
+      .map(([key,p])=>{
+        const slug = p.originalSlug || key;
         const h=p.history||[], last=h.at(-1)||{};
         const meta=(data.portfolioData?.platforms||[]).find(item=>item.slug===slug)||{};
         const website=meta.website||"";
         let logoUrl="";
         try { const domain=new URL(website).hostname; logoUrl=`https://www.google.com/s2/favicons?domain_url=${encodeURIComponent(domain)}&sz=128`; } catch {}
-        return {slug,name:p.name,value:+last.value||0,invested:+last.invested||0,profit:+last.profit||0,roi:+last.returnRate||0,logoUrl};
+        return {key,slug,name:p.name,value:+last.value||0,invested:+last.invested||0,profit:+last.profit||0,roi:+last.returnRate||0,logoUrl,ownerId:p.ownerId,ownerName:p.ownerName};
       })
       .filter((p)=>p.value>0 && !aggregateSlugs.has(p.slug));
     const topProfit=[...platforms].sort((a,b)=>b.profit-a.profit)[0]||null;
@@ -149,7 +231,7 @@ export default function AnalyticsPage() {
   const { latest } = model;
   return <main className="analytics-page">
     <section className="an-hero">
-      <div><p>PORTFOLIO INTELLIGENCE</p><h1>Analytics</h1><span>Portfelio augimas, pinigų srautai ir rezultatų kokybė vienoje vietoje.</span></div>
+      <div><p>{ownerId === "family" ? "FAMILY PORTFOLIO INTELLIGENCE" : "PORTFOLIO INTELLIGENCE"}</p><h1>{ownerId === "family" ? "Šeimos Analytics" : "Analytics"}</h1><span>{ownerId === "family" ? "Bendras Evaldo ir Rimos portfelio augimas, pinigų srautai ir platformų rezultatai." : "Portfelio augimas, pinigų srautai ir rezultatų kokybė vienoje vietoje."}</span></div>
       <div className="an-hero-main"><small>Dabartinė vertė</small><strong>{euro(latest.value)}</strong><b className={latest.profit>=0?"positive":"negative"}>{euro(latest.profit)} · {pct(latest.returnRate)}</b></div>
       <div className="an-hero-meta"><span>Atnaujinta <b>{fullDate(latest.date)}</b></span><span>Istorija <b>{model.all.length} mėn.</b></span></div>
     </section>
@@ -160,6 +242,18 @@ export default function AnalyticsPage() {
       <article><span>Laikotarpio įnašai</span><strong>{euro(model.periodContrib)}</strong><small>Naujas investuotas kapitalas</small></article>
       <article><span>Teigiami mėnesiai</span><strong>{model.positive} / {model.all.length}</strong><small>{pct(model.positive/model.all.length*100)} sėkmės dažnis</small></article>
     </section>
+
+    {ownerId === "family" && data.owners && <section className="an-family-grid">
+      {[['evaldas','Evaldas'],['rima','Rima']].map(([id,name]) => {
+        const item=data.owners[id]||{};
+        const share=latest.value>0?(Number(item.value)||0)/latest.value*100:0;
+        return <article key={id} className={`an-family-owner is-${id}`}>
+          <div><span>{name}</span><strong>{euro(item.value)}</strong></div>
+          <div className="an-family-track"><i style={{width:`${share}%`}} /></div>
+          <small>{pct(share)} šeimos portfelio · pelnas <b className={(item.profit||0)>=0?'positive':'negative'}>{euro(item.profit)}</b></small>
+        </article>;
+      })}
+    </section>}
 
     <section className="an-card an-growth-card">
       <header className="an-card-head"><div><p>PORTFELIO DINAMIKA</p><h2>Vertė ir investuotas kapitalas</h2><span>Mėnesinė istorija iš Investavimas.xlsx</span></div>
@@ -194,9 +288,9 @@ export default function AnalyticsPage() {
           {[...model.platforms]
             .sort((a,b)=>platformSort === "roi" ? b.roi-a.roi : b.profit-a.profit)
             .slice(0,8)
-            .map((p,i)=><button type="button" key={p.slug} className="an-platform-row" onClick={()=>navigate(`/platforms/${p.slug}`)}>
+            .map((p,i)=><button type="button" key={p.key || `${p.ownerId}:${p.slug}`} className="an-platform-row" onClick={()=>{ if (p.ownerId) selectOwner(p.ownerId); navigate(`/platforms/${p.slug}`); }}>
               <b className="an-platform-logo">{p.logoUrl ? <img src={p.logoUrl} alt="" /> : p.name.slice(0,1)}</b>
-              <span><strong>{p.name}</strong><small>{euro(p.value)} vertė</small></span>
+              <span><strong>{p.name}{p.ownerName ? <em className={`an-owner-badge is-${p.ownerId}`}>{p.ownerName}</em> : null}</strong><small>{euro(p.value)} vertė</small></span>
               <em className={platformSort === "profit" ? (p.profit>=0?"positive":"negative") : (p.roi>=0?"positive":"negative")}>
                 {platformSort === "profit" ? euro(p.profit) : pct(p.roi)}
               </em>
@@ -219,9 +313,9 @@ export default function AnalyticsPage() {
     <section className="an-insights an-insights-six">
       <article><span>Geriausias mėnuo</span><strong>{month(model.best.date)}</strong><b className="positive">{euro(model.best.monthlyResult)}</b></article>
       <article><span>Silpniausias mėnuo</span><strong>{month(model.worst.date)}</strong><b className="negative">{euro(model.worst.monthlyResult)}</b></article>
-      <article className="is-clickable" onClick={()=>model.topProfit&&navigate(`/platforms/${model.topProfit.slug}`)}><span>Didžiausias pelnas</span><strong>{model.topProfit?.name || "–"}</strong><b className="positive">{euro(model.topProfit?.profit)}</b></article>
-      <article className="is-clickable" onClick={()=>model.topRoi&&navigate(`/platforms/${model.topRoi.slug}`)}><span>Didžiausia ROI</span><strong>{model.topRoi?.name || "–"}</strong><b className="positive">{pct(model.topRoi?.roi)}</b></article>
-      <article className="is-clickable" onClick={()=>model.topValue&&navigate(`/platforms/${model.topValue.slug}`)}><span>Didžiausia vertė</span><strong>{model.topValue?.name || "–"}</strong><b>{euro(model.topValue?.value)}</b></article>
+      <article className="is-clickable" onClick={()=>{if(model.topProfit?.ownerId)selectOwner(model.topProfit.ownerId);if(model.topProfit)navigate(`/platforms/${model.topProfit.slug}`)}}><span>Didžiausias pelnas</span><strong>{model.topProfit?.name || "–"}</strong><b className="positive">{euro(model.topProfit?.profit)}</b></article>
+      <article className="is-clickable" onClick={()=>{if(model.topRoi?.ownerId)selectOwner(model.topRoi.ownerId);if(model.topRoi)navigate(`/platforms/${model.topRoi.slug}`)}}><span>Didžiausia ROI</span><strong>{model.topRoi?.name || "–"}</strong><b className="positive">{pct(model.topRoi?.roi)}</b></article>
+      <article className="is-clickable" onClick={()=>{if(model.topValue?.ownerId)selectOwner(model.topValue.ownerId);if(model.topValue)navigate(`/platforms/${model.topValue.slug}`)}}><span>Didžiausia vertė</span><strong>{model.topValue?.name || "–"}</strong><b>{euro(model.topValue?.value)}</b></article>
     </section>
   </main>;
 }

@@ -1340,3 +1340,31 @@
     display: none;
   }
 }
+
+
+/* Family P2P v1.0 */
+.p2p-owner-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  vertical-align: 2px;
+  white-space: nowrap;
+}
+.p2p-owner-badge.is-evaldas { color: #7bd6ff; background: rgba(52, 152, 219, .14); border: 1px solid rgba(82, 181, 239, .28); }
+.p2p-owner-badge.is-rima { color: #d69cff; background: rgba(168, 85, 247, .14); border: 1px solid rgba(190, 111, 255, .30); }
+.family-p2p-summary-card { padding-bottom: 8px; }
+.family-p2p-summary-table { display: grid; gap: 2px; margin-top: 20px; }
+.family-p2p-summary-row { display: grid; grid-template-columns: minmax(180px, 1.6fr) repeat(3, minmax(90px, .7fr)); align-items: center; min-height: 52px; padding: 0 18px; border-radius: 12px; background: rgba(255,255,255,.025); }
+.family-p2p-summary-row.is-head { color: #8ca0bd; background: rgba(255,255,255,.045); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
+.family-p2p-summary-row strong { text-align: right; color: #edf5ff; }
+.family-p2p-summary-row span { color: #aebdd1; }
+@media (max-width: 720px) {
+  .family-p2p-summary-row { grid-template-columns: minmax(130px, 1.4fr) repeat(3, minmax(58px, .6fr)); padding: 0 10px; font-size: 12px; }
+  .p2p-owner-badge { margin-left: 4px; padding: 2px 5px; font-size: 8px; }
+}

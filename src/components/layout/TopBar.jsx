@@ -7,6 +7,8 @@ const titles = {
   "/portfolio": { eyebrow: "VISOS INVESTICIJOS", title: "Portfolio" },
   "/analytics": { eyebrow: "REZULTATŲ ANALIZĖ", title: "Analytics" },
   "/p2p": { eyebrow: "P2P INVESTICIJOS", title: "P2P" },
+  "/performance": { eyebrow: "INVESTICIJŲ EFEKTYVUMAS", title: "Performance" },
+  "/alerts": { eyebrow: "PORTFELIO STEBĖJIMAS", title: "Alerts Center" },
 };
 
 function resolveTitle(pathname) {
@@ -41,7 +43,21 @@ function TopBar() {
 
     const nextOwner = owners.find((item) => item.id === nextOwnerId);
 
-    if (nextOwner && !nextOwner.fullAccess && location.pathname !== "/") {
+    if (!nextOwner) return;
+
+    const isPortfolioPath = location.pathname === "/portfolio" || location.pathname.startsWith("/platforms/");
+    const isAnalyticsPath = location.pathname === "/analytics";
+    const isP2PPath = location.pathname === "/p2p" || location.pathname.includes("/loan/");
+    const isUniversalPath = location.pathname === "/performance" || location.pathname === "/alerts";
+    const canStay =
+      location.pathname === "/" ||
+      (isPortfolioPath && nextOwner.portfolioAccess) ||
+      (isAnalyticsPath && nextOwner.analyticsAccess) ||
+      (isP2PPath && nextOwner.p2pAccess) ||
+      isUniversalPath ||
+      nextOwner.fullAccess;
+
+    if (!canStay) {
       navigate("/");
     }
   }

@@ -4,12 +4,14 @@ import { usePortfolioOwner } from "../../context/PortfolioContext";
 const navigation = [
   { to: "/", label: "Dashboard", icon: "D", end: true },
   { to: "/portfolio", label: "Portfolio", icon: "P", requiresPortfolioAccess: true },
-  { to: "/analytics", label: "Analytics", icon: "A", requiresFullAccess: true },
-  { to: "/p2p", label: "P2P", icon: "2P", requiresFullAccess: true },
+  { to: "/analytics", label: "Analytics", icon: "A", requiresAnalyticsAccess: true },
+  { to: "/p2p", label: "P2P", icon: "2P", requiresP2PAccess: true },
+  { to: "/performance", label: "Performance", icon: "PF" },
+  { to: "/alerts", label: "Alerts", icon: "!" },
 ];
 
 function Sidebar() {
-  const { owner, isFullAccess, canViewPortfolio } = usePortfolioOwner();
+  const { owner, isFullAccess, canViewPortfolio, canViewAnalytics, canViewP2P } = usePortfolioOwner();
 
   return (
     <aside className="sidebar">
@@ -25,7 +27,9 @@ function Sidebar() {
         {navigation.map((item) => {
           const disabled =
             (item.requiresFullAccess && !isFullAccess) ||
-            (item.requiresPortfolioAccess && !canViewPortfolio);
+            (item.requiresPortfolioAccess && !canViewPortfolio) ||
+            (item.requiresAnalyticsAccess && !canViewAnalytics) ||
+            (item.requiresP2PAccess && !canViewP2P);
 
           if (disabled) {
             return (
@@ -65,7 +69,7 @@ function Sidebar() {
           <span>{isFullAccess
             ? "Pilnas portfelis"
             : canViewPortfolio
-              ? "Fondai ir ETF"
+              ? "Pilnas portfelis"
               : "Dashboard režimas"}</span>
         </div>
       </div>
