@@ -1,8 +1,7 @@
-import { lazy, Suspense } from "react";
+import { lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 
 import AppLayout from "../components/layout/AppLayout";
-import Skeleton from "../components/ui/Skeleton";
 import { usePortfolioOwner } from "../context/PortfolioContext";
 
 const AlertsPage = lazy(() => import("../pages/AlertsPage"));
@@ -23,10 +22,6 @@ const AIInsightsPage = lazy(() => import("../pages/AIInsightsPage"));
 const ProjectPage = lazy(() => import("../pages/ProjectPage"));
 const SystemInfoPage = lazy(() => import("../pages/SystemInfoPage"));
 
-function RouteLoader() {
-  return <div style={{ padding: 24 }}><Skeleton lines={7} /></div>;
-}
-
 function PortfolioAccessRoute({ children }) {
   const { canViewPortfolio } = usePortfolioOwner();
   return canViewPortfolio ? children : <Navigate to="/" replace />;
@@ -44,8 +39,7 @@ function P2PAccessRoute({ children }) {
 
 function AppRoutes() {
   return (
-    <Suspense fallback={<RouteLoader />}>
-      <Routes>
+    <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<DashboardPage />} />
           <Route path="portfolio" element={<PortfolioAccessRoute><PortfolioPage /></PortfolioAccessRoute>} />
@@ -66,8 +60,7 @@ function AppRoutes() {
           <Route path="404" element={<NotFoundPage />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
         </Route>
-      </Routes>
-    </Suspense>
+    </Routes>
   );
 }
 

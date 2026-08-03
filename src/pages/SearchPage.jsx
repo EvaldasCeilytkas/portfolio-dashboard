@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import useSearchIndex from "../hooks/useSearchIndex";
 import { usePortfolioOwner } from "../context/PortfolioContext";
@@ -10,7 +10,8 @@ const TYPE_FILTERS = [
   ["project", "Projektai"], ["position", "ETF / pozicijos"], ["fund", "Fondai"],
 ];
 const OWNER_FILTERS = [["all", "Visi portfeliai"], ["evaldas", "Evaldas"], ["rima", "Rima"], ["gerda", "Gerda"]];
-const money = (value) => new Intl.NumberFormat("lt-LT", { style: "currency", currency: "EUR", maximumFractionDigits: 2 }).format(Number(value) || 0);
+const moneyFormatter = new Intl.NumberFormat("lt-LT", { style: "currency", currency: "EUR", maximumFractionDigits: 2 });
+const money = (value) => moneyFormatter.format(Number(value) || 0);
 const normalize = (value) => String(value || "").trim().toLocaleLowerCase("lt-LT");
 
 function scoreItem(item, query) {
@@ -33,6 +34,7 @@ function SearchPage() {
   const [query, setQuery] = useState(params.get("q") || "");
   const [type, setType] = useState("all");
   const [owner, setOwner] = useState("all");
+  const deferredQuery = useDeferredValue(query);
   const inputRef = useRef(null);
 
   useEffect(() => inputRef.current?.focus(), []);
@@ -46,14 +48,14 @@ function SearchPage() {
   }, [query]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const results = useMemo(() => {
-    const q = normalize(query);
+    const q = normalize(deferredQuery);
     return items
       .map((item) => ({ item, score: scoreItem(item, q) }))
       .filter(({ item, score }) => score > 0 && (type === "all" || item.type === type) && (owner === "all" || item.ownerId === owner))
       .sort((a, b) => b.score - a.score || b.item.value - a.item.value)
       .slice(0, 120)
       .map(({ item }) => item);
-  }, [items, query, type, owner]);
+  }, [items, deferredQuery, type, owner]);
 
   function openResult(item) {
     selectOwner(item.ownerId);

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-02T17:19:31.787279+03:00",
+  "generatedAt": "2026-08-03T21:31:32.350883+03:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -313,7 +313,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 26,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -326,7 +326,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 15,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -339,7 +339,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 4,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -352,7 +352,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 6,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -365,7 +365,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 1,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -378,7 +378,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 12,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -391,7 +391,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 2,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -404,13 +404,18 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 2,
-      "latestDataDate": "2026-08-02",
+      "latestDataDate": "2026-08-03",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
     }
   ],
   "history": [
+    {
+      "generatedAt": "2026-08-03T21:31:32.350883+03:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
     {
       "generatedAt": "2026-08-02T17:19:31.787279+03:00",
       "durationSeconds": 42.228,
@@ -439,27 +444,27 @@
   },
   "log": [
     {
-      "time": "17:19:31",
+      "time": "21:31:32",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "17:19:31",
+      "time": "21:31:32",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "17:19:31",
+      "time": "21:31:32",
       "level": "success",
       "message": "Rima: 7 platformų patikrinta."
     },
     {
-      "time": "17:19:31",
+      "time": "21:31:32",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "17:19:31",
+      "time": "21:31:32",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }

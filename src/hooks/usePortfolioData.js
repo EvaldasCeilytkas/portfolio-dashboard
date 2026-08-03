@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { usePortfolioOwner } from "../context/PortfolioContext";
+import { requestJson } from "../services/jsonClient";
 
 function toNumber(value, fallback = 0) {
   const parsed = Number(value);
@@ -113,15 +114,7 @@ function createAllocationItem(key, label, item, totalValue) {
   };
 }
 
-async function fetchJson(path, signal) {
-  const response = await fetch(path, { cache: "no-store", signal });
-
-  if (!response.ok) {
-    throw new Error(`${path.split("/").pop()} nepavyko įkelti (${response.status}).`);
-  }
-
-  return response.json();
-}
+const fetchJson = (path, signal) => requestJson(path, { signal });
 
 function directDataPath(folder, fileName) {
   const prefix = folder ? `${folder}/` : "";

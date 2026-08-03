@@ -1,4 +1,4 @@
-import { createContext, useContext, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useMemo, useState } from "react";
 
 const STORAGE_KEY = "portfolio-dashboard-owner";
 
@@ -46,6 +46,8 @@ const OWNERS = {
   },
 };
 
+const OWNER_LIST = Object.freeze(Object.values(OWNERS));
+
 export const PortfolioContext = createContext(null);
 
 function getInitialOwner() {
@@ -60,7 +62,7 @@ function getInitialOwner() {
 export function PortfolioProvider({ children }) {
   const [ownerId, setOwnerId] = useState(getInitialOwner);
 
-  function selectOwner(nextOwnerId) {
+  const selectOwner = useCallback((nextOwnerId) => {
     if (!OWNERS[nextOwnerId]) return;
 
     setOwnerId(nextOwnerId);
@@ -70,25 +72,27 @@ export function PortfolioProvider({ children }) {
     } catch {
       // Dashboard veiks ir tada, kai localStorage naršyklėje išjungtas.
     }
-  }
+  }, []);
 
   const value = useMemo(() => {
     const owner = OWNERS[ownerId];
     const folderPrefix = owner.dataFolder ? `${owner.dataFolder}/` : "";
 
+    const dataPath = (fileName) =>
+      `${import.meta.env.BASE_URL}data/${folderPrefix}${fileName}`;
+
     return {
       ownerId,
       owner,
-      owners: Object.values(OWNERS),
+      owners: OWNER_LIST,
       selectOwner,
-      dataPath: (fileName) =>
-        `${import.meta.env.BASE_URL}data/${folderPrefix}${fileName}`,
+      dataPath,
       isFullAccess: owner.fullAccess,
       canViewPortfolio: owner.portfolioAccess === true,
       canViewAnalytics: owner.analyticsAccess === true,
       canViewP2P: owner.p2pAccess === true,
     };
-  }, [ownerId]);
+  }, [ownerId, selectOwner]);
 
   return (
     <PortfolioContext.Provider value={value}>

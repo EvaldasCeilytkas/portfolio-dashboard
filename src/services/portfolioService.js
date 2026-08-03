@@ -1,4 +1,5 @@
 import platformRegistry from "../data/platforms.json";
+import { requestJson } from "./jsonClient";
 
 export const PORTFOLIO_GROUP_LABELS = Object.freeze({
   brokerage: "Brokeriai",
@@ -209,19 +210,15 @@ function normalizePlatform(registryItem, payload, ownerId = "evaldas") {
 }
 
 async function fetchPlatform(registryItem, ownerId) {
-  const response = await fetch(resolveDataUrl(registryItem.dataFile, ownerId), {
-    cache: "no-store",
-  });
-
-  if (!response.ok) {
+  try {
+    const payload = await requestJson(resolveDataUrl(registryItem.dataFile, ownerId));
+    return normalizePlatform(registryItem, payload, ownerId);
+  } catch (error) {
     throw new Error(
       `${registryItem.name}: nepavyko įkelti ${registryItem.dataFile}.`,
+      { cause: error },
     );
   }
-
-  const payload = await response.json();
-
-  return normalizePlatform(registryItem, payload, ownerId);
 }
 
 export async function loadPortfolioPlatforms(ownerId = "evaldas") {
@@ -294,6 +291,8 @@ function combineHistorySeries(firstHistory = [], secondHistory = []) {
   const first = [...firstHistory].sort((a, b) => String(a.date).localeCompare(String(b.date)));
   const second = [...secondHistory].sort((a, b) => String(a.date).localeCompare(String(b.date)));
   const dates = [...new Set([...first, ...second].map((item) => item.date))].sort();
+  const firstByDate = new Map(first.map((item) => [item.date, item]));
+  const secondByDate = new Map(second.map((item) => [item.date, item]));
 
   let firstLatest = null;
   let secondLatest = null;
@@ -314,8 +313,8 @@ function combineHistorySeries(firstHistory = [], secondHistory = []) {
     const invested = number(firstLatest?.invested) + number(secondLatest?.invested);
     const value = number(firstLatest?.value) + number(secondLatest?.value);
     const profit = value - invested;
-    const firstExact = first.find((item) => item.date === date);
-    const secondExact = second.find((item) => item.date === date);
+    const firstExact = firstByDate.get(date);
+    const secondExact = secondByDate.get(date);
 
     return {
       date,
@@ -333,13 +332,12 @@ function combineHistorySeries(firstHistory = [], secondHistory = []) {
 async function loadSinglePortfolioHistory(ownerId) {
   const ownerPrefix = ownerId === "evaldas" ? "" : `${ownerId}/`;
   const url = `${import.meta.env.BASE_URL}data/${ownerPrefix}portfolio_history.json`;
-  const response = await fetch(url, { cache: "no-store" });
-
-  if (!response.ok) {
-    throw new Error("Nepavyko įkelti istorinio portfelio failo.");
+  let payload;
+  try {
+    payload = await requestJson(url);
+  } catch (error) {
+    throw new Error("Nepavyko įkelti istorinio portfelio failo.", { cause: error });
   }
-
-  const payload = await response.json();
 
   return {
     history: Array.isArray(payload?.history) ? payload.history : [],

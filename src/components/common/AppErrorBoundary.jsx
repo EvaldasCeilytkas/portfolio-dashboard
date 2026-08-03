@@ -20,7 +20,7 @@ class AppErrorBoundary extends Component {
     return (
       <main className="rc-error-boundary">
         <div className="rc-error-card">
-          <span className="rc-error-code">RC1</span>
+          <span className="rc-error-code">STABLE</span>
           <h1>Puslapio parodyti nepavyko</h1>
           <p>{this.state.error?.message || "Įvyko netikėta aplikacijos klaida."}</p>
           <button type="button" onClick={() => window.location.reload()}>

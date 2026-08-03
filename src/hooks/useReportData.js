@@ -1,17 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import usePortfolioData from "./usePortfolioData";
 import { usePortfolioOwner } from "../context/PortfolioContext";
+import { requestJson } from "../services/jsonClient";
 
-async function fetchOptional(path, signal) {
-  try {
-    const response = await fetch(path, { cache: "no-store", signal });
-    if (!response.ok) return null;
-    return await response.json();
-  } catch (error) {
-    if (error?.name === "AbortError") throw error;
-    return null;
-  }
-}
+const fetchOptional = (path, signal) =>
+  requestJson(path, { signal, optional: true });
 
 function number(value) {
   const parsed = Number(value);

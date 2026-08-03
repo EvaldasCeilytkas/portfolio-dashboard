@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./app/App";
 import "./styles/design-system/index.css";
 import "./styles/global.css";
+import "./styles/final-ui-polish.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

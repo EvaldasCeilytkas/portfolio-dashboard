@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T17:16:44+03:00",
+  "generatedAt": "2026-08-03T21:27:59+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lendermarket",
@@ -18,28 +18,28 @@
   },
   "summary": {
     "invested": 100.0,
-    "currentValue": 111.79,
-    "profit": 11.79,
-    "returnRate": 11.79,
-    "xirr": 110.6895,
-    "cash": 6.35,
-    "incomeReceived": 11.79,
-    "activeInvestments": 7,
-    "delayedInvestments": 3,
+    "currentValue": 111.91,
+    "profit": 11.91,
+    "returnRate": 11.91,
+    "xirr": 104.1458,
+    "cash": 0.0,
+    "incomeReceived": 11.91,
+    "activeInvestments": 10,
+    "delayedInvestments": 1,
     "completedInvestments": 3,
-    "averageRate": 11.0517,
+    "averageRate": 11.4887,
     "averageLtv": null,
     "deposited": 100.0,
     "withdrawn": 0.0,
-    "lifetimeInvested": 105.44,
-    "outstandingPrincipal": 105.44,
-    "principalReturned": 57.2,
-    "interestReceived": 1.34,
-    "grossInterestReceived": 1.34,
+    "lifetimeInvested": 111.91,
+    "outstandingPrincipal": 111.91,
+    "principalReturned": 61.43,
+    "interestReceived": 1.46,
+    "grossInterestReceived": 1.46,
     "bonuses": 10.45,
     "fees": 0.0,
-    "totalInvestments": 13,
-    "roi": 11.79
+    "totalInvestments": 14,
+    "roi": 11.91
   },
   "history": [
     {
@@ -100,7 +100,7 @@
       "value": 110.45,
       "profit": 10.45,
       "cash": 0.0,
-      "income": 17.38,
+      "income": 21.73,
       "deposits": 30.0,
       "withdrawals": 0.0,
       "bonuses": 0.0,
@@ -110,9 +110,9 @@
     {
       "date": "2026-08-31",
       "invested": 100.0,
-      "value": 111.79,
-      "profit": 11.79,
-      "cash": 6.35,
+      "value": 111.91,
+      "profit": 11.91,
+      "cash": 0.0,
       "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
@@ -124,9 +124,9 @@
   "latestMonth": {
     "date": "2026-08-31",
     "invested": 100.0,
-    "value": 111.79,
-    "profit": 11.79,
-    "cash": 6.35,
+    "value": 111.91,
+    "profit": 11.91,
+    "cash": 0.0,
     "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
@@ -170,6 +170,15 @@
         "interest": 0.15,
         "fee": 0.0,
         "paid": true
+      },
+      {
+        "plannedDate": "2026-08-28",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
       }
     ],
     "cashFlows": [
@@ -188,14 +197,19 @@
   "distributions": {
     "country": [
       {
+        "label": "Colombia",
+        "count": 1,
+        "value": 10.7
+      },
+      {
         "label": "Czech Rep.",
         "count": 5,
-        "value": 59.2
+        "value": 58.19
       },
       {
         "label": "Estonia",
         "count": 3,
-        "value": 26.57
+        "value": 23.35
       },
       {
         "label": "Spain",
@@ -217,19 +231,24 @@
       {
         "label": "Flowpay",
         "count": 5,
-        "value": 59.2
+        "value": 58.19
       },
       {
         "label": "Gatelink",
         "count": 3,
-        "value": 26.57
+        "value": 23.35
+      },
+      {
+        "label": "Rapicredit",
+        "count": 1,
+        "value": 10.7
       }
     ],
     "loanType": [
       {
         "label": "Regulated service",
-        "count": 9,
-        "value": 98.65
+        "count": 10,
+        "value": 105.12
       },
       {
         "label": "Unregulated service",
@@ -240,20 +259,20 @@
     "trustScore": [
       {
         "label": "Nenurodyta",
-        "count": 10,
-        "value": 105.44
+        "count": 11,
+        "value": 111.91
       }
     ],
     "status": [
       {
         "label": "active",
-        "count": 7,
-        "value": 71.66
+        "count": 10,
+        "value": 99.03
       },
       {
         "label": "delayed",
-        "count": 3,
-        "value": 33.78
+        "count": 1,
+        "value": 12.88
       }
     ]
   },
@@ -325,7 +344,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-07-29",
+      "date": "2026-08-01",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -692,6 +711,15 @@
           "interest": 0.09,
           "fee": 0.0,
           "paid": true
+        },
+        {
+          "plannedDate": "2026-08-27",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
         }
       ],
       "cashFlows": [
@@ -887,15 +915,15 @@
       "actualEndDate": null,
       "rate": 9.0,
       "invested": 12.99,
-      "currentValue": 9.8,
-      "outstandingPrincipal": 9.8,
-      "principalReturned": 3.19,
-      "interestReceived": 0.05,
+      "currentValue": 6.58,
+      "outstandingPrincipal": 6.58,
+      "principalReturned": 6.41,
+      "interestReceived": 0.13,
       "fees": 0.0,
-      "profit": 0.05,
+      "profit": 0.13,
       "xirr": null,
-      "status": "delayed",
-      "delayDays": 2,
+      "status": "active",
+      "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -908,13 +936,13 @@
           "paid": true
         },
         {
-          "plannedDate": "2026-07-31",
-          "actualDate": null,
+          "plannedDate": "2026-07-30",
+          "actualDate": "2026-07-30",
           "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "principal": 3.22,
+          "interest": 0.08,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         }
       ],
       "cashFlows": [
@@ -926,6 +954,11 @@
         {
           "date": "2026-06-30",
           "amount": 3.24,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-07-30",
+          "amount": 3.3,
           "delayDays": 0
         }
       ]
@@ -1001,7 +1034,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 10,
+      "delayDays": 11,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1118,6 +1151,15 @@
           "interest": 0.15,
           "fee": 0.0,
           "paid": true
+        },
+        {
+          "plannedDate": "2026-08-28",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
         }
       ],
       "cashFlows": [
@@ -1150,19 +1192,28 @@
       "actualEndDate": null,
       "rate": 11.0,
       "invested": 11.1,
-      "currentValue": 11.1,
-      "outstandingPrincipal": 11.1,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 10.09,
+      "outstandingPrincipal": 10.09,
+      "principalReturned": 1.01,
+      "interestReceived": 0.04,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.04,
       "xirr": null,
-      "status": "delayed",
-      "delayDays": 2,
+      "status": "active",
+      "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
           "plannedDate": "2026-07-31",
+          "actualDate": "2026-07-30",
+          "timingDays": -1,
+          "principal": 1.01,
+          "interest": 0.04,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-08-31",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -1176,6 +1227,57 @@
           "date": "2026-07-16",
           "amount": -11.1,
           "delayDays": 0
+        },
+        {
+          "date": "2026-07-30",
+          "amount": 1.05,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "8945000DP4C3YFA45N3457082561",
+      "slug": "8945000dp4c3yfa45n3457082561",
+      "loanCode": "8945000DP4C3YFA45N3457082561",
+      "externalId": null,
+      "sourceSheet": "8945000DP4C3YFA45N3457082561",
+      "country": "Colombia",
+      "lender": "Rapicredit",
+      "loanType": "Regulated service",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 12 d.",
+      "investmentDate": "2026-07-31",
+      "startDate": "2026-04-16",
+      "plannedEndDate": "2026-10-13",
+      "actualEndDate": null,
+      "rate": 15.0,
+      "invested": 10.7,
+      "currentValue": 10.7,
+      "outstandingPrincipal": 10.7,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-10-13",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-07-31",
+          "amount": -10.7,
+          "delayDays": 0
         }
       ]
     }
@@ -1184,8 +1286,8 @@
     "file": "Lendermarket.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 13,
+    "loanSheets": 14,
     "skippedSheets": [],
-    "generatedAt": "2026-08-02T17:16:44+03:00"
+    "generatedAt": "2026-08-03T21:27:59+03:00"
   }
 }

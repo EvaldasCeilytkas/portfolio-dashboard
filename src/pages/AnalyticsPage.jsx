@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { usePortfolioOwner } from "../context/PortfolioContext";
+import { requestJson } from "../services/jsonClient";
 import "../styles/analytics.css";
 
 const RANGES = [
@@ -103,29 +104,21 @@ export default function AnalyticsPage() {
     };
 
     async function loadJson(path, optional = false) {
-      const response = await fetch(path, { cache: "no-store", signal: controller.signal });
-      if (!response.ok) {
-        if (optional) return null;
-        throw new Error(path.split("/").at(-1));
-      }
-      const contentType = response.headers.get("content-type") || "";
-      if (!contentType.includes("application/json")) {
-        if (optional) return null;
-        throw new Error(path.split("/").at(-1));
-      }
-      return response.json();
+      return requestJson(path, { signal: controller.signal, optional });
     }
 
     function combineHistories(firstPayload, secondPayload) {
       const first = [...(firstPayload?.history || [])].sort((a,b)=>String(a.date).localeCompare(String(b.date)));
       const second = [...(secondPayload?.history || [])].sort((a,b)=>String(a.date).localeCompare(String(b.date)));
       const dates = [...new Set([...first, ...second].map((item)=>item.date))].sort();
+      const firstByDate = new Map(first.map((item) => [item.date, item]));
+      const secondByDate = new Map(second.map((item) => [item.date, item]));
       let a = null, b = null, ai = 0, bi = 0;
       const history = dates.map((date) => {
         while (ai < first.length && first[ai].date <= date) a = first[ai++];
         while (bi < second.length && second[bi].date <= date) b = second[bi++];
-        const exactA = first.find((item)=>item.date === date);
-        const exactB = second.find((item)=>item.date === date);
+        const exactA = firstByDate.get(date);
+        const exactB = secondByDate.get(date);
         const invested = (Number(a?.invested)||0) + (Number(b?.invested)||0);
         const value = (Number(a?.value)||0) + (Number(b?.value)||0);
         const profit = value - invested;

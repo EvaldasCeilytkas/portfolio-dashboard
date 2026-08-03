@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { requestJson } from "../services/jsonClient";
 
 const OWNER_SOURCES = [
   {
@@ -122,12 +123,10 @@ export default function useSearchIndex() {
         OWNER_SOURCES.flatMap((owner) =>
           owner.platforms.map(async (slug) => {
             try {
-              const response = await fetch(`${base}${owner.folder}platforms/${slug}.json`, {
-                cache: "no-store",
-                signal: controller.signal,
-              });
-              if (!response.ok) throw new Error(`HTTP ${response.status}`);
-              const payload = await response.json();
+              const payload = await requestJson(
+                `${base}${owner.folder}platforms/${slug}.json`,
+                { signal: controller.signal },
+              );
               items.push(...buildItems(owner, payload, slug));
             } catch (error) {
               if (error?.name !== "AbortError") errors.push(`${owner.name}: ${slug}`);

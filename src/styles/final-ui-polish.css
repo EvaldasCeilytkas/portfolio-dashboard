@@ -1,0 +1,306 @@
+/* Portfolio Dashboard Pro v2.0 FINAL — UI Polish
+   Structural consistency only. Module-owned colors and gradients remain intact. */
+
+:root {
+  --ui-page-gap: clamp(1rem, 1.7vw, 1.5rem);
+  --ui-card-radius: 22px;
+  --ui-card-radius-sm: 16px;
+  --ui-card-pad: clamp(1.15rem, 1.8vw, 1.75rem);
+  --ui-row-height: 52px;
+  --ui-control-height: 42px;
+  --ui-soft-border: rgba(148, 163, 184, 0.15);
+  --ui-dark-hover: rgba(96, 165, 250, 0.055);
+}
+
+html { scroll-behavior: smooth; }
+body { overflow-x: hidden; }
+
+/* Consistent page canvas */
+:is(
+  .dashboard-page, .portfolio-page, .analytics-page, .p2p-page,
+  .pc-page, .ac-page, .ic-page, .gc-page, .search-center,
+  .report-center, .ai-insights, .sync-center, .system-page,
+  .broker-page, .fund-page, .indemo-page, .re-page, .npl-dedicated-page,
+  .p2pp-page, .p2p-loan-profile-page, .etf-profile-page, .platform-profile-page,
+  .data-center-page
+) {
+  width: min(100%, var(--ds-page-max-width));
+  margin-inline: auto;
+  gap: var(--ui-page-gap);
+}
+
+.page-content {
+  width: 100%;
+  padding: clamp(1.25rem, 2.2vw, 2.15rem) var(--ds-page-gutter) clamp(2.5rem, 4vw, 4rem);
+}
+
+/* Stable top bar and controls */
+.topbar {
+  min-height: 94px;
+  padding-inline: var(--ds-page-gutter);
+}
+
+:is(button, [role="button"], input, select, textarea, a):focus-visible {
+  outline: none;
+  box-shadow: var(--ds-shadow-focus);
+}
+
+:is(input, select, textarea) {
+  min-height: var(--ui-control-height);
+}
+
+/* Common section rhythm */
+:is(
+  .dashboard-card-header, .portfolio-content-header, .analytics-card-header,
+  .p2p-card-header, .p2p-module-header, .pc-card > header, .ac-card > header,
+  .ic-card > header, .gc-card > header, .sc-card > header,
+  .report-card > header, .ai-section-header, .system-panel > header,
+  .platform-profile-card-header, .broker-card > header, .fund-card > header
+) {
+  min-height: 48px;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+:is(
+  .dashboard-card-header h2, .portfolio-content-header h2,
+  .analytics-card-header h2, .p2p-card-header h2,
+  .pc-card h3, .ac-card h3, .ic-card h3, .gc-card h3,
+  .sc-card h3, .system-panel h3
+) {
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* Harmonised card geometry without taking ownership of card skins */
+:is(
+  .dashboard-card, .dashboard-metric, .portfolio-content,
+  .portfolio-stat-grid article, .an-card, .an-kpi-grid article,
+  .p2p-card, .p2p-metric-card, .pc-card, .pc-kpi-grid article,
+  .ac-card, .ic-card, .gc-card, .sc-card, .report-card,
+  .ai-score-card, .ai-goal-card, .system-panel,
+  .broker-card, .fund-card, .indemo-card, .re-card,
+  .npl-analysis-card, .npl-overview-card, .p2pp-card,
+  .platform-profile-card, .etf-profile-card
+) {
+  min-width: 0;
+  border-radius: var(--ui-card-radius);
+}
+
+:is(
+  .dashboard-metric, .portfolio-stat-grid article, .an-kpi-grid article,
+  .pc-kpi-grid article, .ac-summary-grid article, .gc-kpi-grid article,
+  .sc-kpis article, .ai-highlight-grid article, .system-stats article
+) {
+  min-height: 126px;
+  align-content: start;
+}
+
+/* Keep hover motion subtle and layout-stable */
+:is(
+  .dashboard-metric, .portfolio-stat-grid article, .an-kpi-grid article,
+  .p2p-metric-card, .pc-kpi-grid article, .ac-card,
+  .ic-card, .gc-card, .sc-card, .report-card,
+  .ai-highlight-grid article, .system-panel
+) {
+  will-change: transform;
+  transition:
+    transform 180ms var(--ds-ease-standard),
+    box-shadow 220ms var(--ds-ease-standard),
+    border-color 220ms var(--ds-ease-standard);
+}
+
+@media (hover: hover) {
+  :is(
+    .dashboard-metric, .portfolio-stat-grid article, .an-kpi-grid article,
+    .p2p-metric-card, .pc-kpi-grid article, .ac-card,
+    .ic-card, .gc-card, .sc-card, .report-card,
+    .ai-highlight-grid article, .system-panel
+  ):hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Tables: same density, clipping and hover language */
+:is(
+  .portfolio-table, .investments-table, .analytics-income-table,
+  .p2p-platform-table, .p2p-loan-table, .p2p-payment-table,
+  .pc-table, .ac-table, .sc-table, .data-center-table,
+  .platform-profile-monthly-table, .broker-table, .fund-table,
+  .indemo-table, .npl-note-table, .npl-project-table,
+  .re-project-table, .etf-table, .etf-profile-table
+) {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+:is(
+  .portfolio-table, .investments-table, .analytics-income-table,
+  .p2p-platform-table, .p2p-loan-table, .p2p-payment-table,
+  .pc-table, .ac-table, .sc-table, .data-center-table,
+  .platform-profile-monthly-table, .broker-table, .fund-table,
+  .indemo-table, .npl-note-table, .npl-project-table,
+  .re-project-table, .etf-table, .etf-profile-table
+) th {
+  height: 44px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+:is(
+  .portfolio-table, .investments-table, .analytics-income-table,
+  .p2p-platform-table, .p2p-loan-table, .p2p-payment-table,
+  .pc-table, .ac-table, .sc-table, .data-center-table,
+  .platform-profile-monthly-table, .broker-table, .fund-table,
+  .indemo-table, .npl-note-table, .npl-project-table,
+  .re-project-table, .etf-table, .etf-profile-table
+) td {
+  min-height: var(--ui-row-height);
+  vertical-align: middle;
+}
+
+:is(
+  .portfolio-table, .investments-table, .analytics-income-table,
+  .p2p-platform-table, .p2p-loan-table, .p2p-payment-table,
+  .pc-table, .ac-table, .sc-table, .data-center-table,
+  .platform-profile-monthly-table, .broker-table, .fund-table,
+  .indemo-table, .npl-note-table, .npl-project-table,
+  .re-project-table, .etf-table, .etf-profile-table
+) tbody tr {
+  transition: background-color 160ms ease, box-shadow 160ms ease;
+}
+
+:is(
+  .portfolio-table, .investments-table, .analytics-income-table,
+  .p2p-platform-table, .p2p-loan-table, .p2p-payment-table,
+  .pc-table, .ac-table, .sc-table, .data-center-table,
+  .platform-profile-monthly-table, .broker-table, .fund-table,
+  .indemo-table, .npl-note-table, .npl-project-table,
+  .re-project-table, .etf-table, .etf-profile-table
+) tbody tr:hover {
+  background: var(--ui-dark-hover);
+  box-shadow: inset 3px 0 0 rgba(56, 189, 248, 0.75);
+}
+
+/* Unified button height without overriding module colours */
+:is(
+  .portfolio-controls button, .portfolio-status-tabs button,
+  .an-range button, .an-platform-sort button,
+  .p2p-history-controls button, .p2p-monthly-controls button,
+  .pc-ranking-controls button, .sc-run-actions button,
+  .search-filters button, .report-tabs button,
+  .gc-actions button, .ai-actions button,
+  .system-actions button
+) {
+  min-height: var(--ui-control-height);
+  border-radius: 11px;
+}
+
+/* Graph cards and chart canvases */
+:is(
+  .dashboard-growth-card, .analytics-growth-card, .an-card,
+  .p2p-history-card, .p2p-monthly-card, .pc-month-card,
+  .gc-projection-card, .report-chart-card,
+  .platform-profile-monthly-card, .etf-profile-performance-card
+) {
+  overflow: hidden;
+}
+
+.recharts-responsive-container,
+.recharts-wrapper,
+svg { max-width: 100%; }
+
+/* Better scrolling experience for long operational tables */
+:is(
+  .sc-table-wrap, .portfolio-table-wrap, .investments-table-wrap,
+  .p2p-table-wrap, .broker-table-card, .fund-table-card,
+  .npl-table-card, .platform-profile-table-wrap
+) {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(96, 165, 250, 0.38) transparent;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background: rgba(100, 116, 139, 0.35);
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background-color: rgba(65, 105, 225, 0.58); }
+
+/* Responsive: prevent action rows and cards from compressing awkwardly */
+@media (max-width: 1100px) {
+  .page-content { padding-inline: clamp(1rem, 2.4vw, 1.75rem); }
+  .topbar { padding-inline: clamp(1rem, 2.4vw, 1.75rem); }
+
+  :is(
+    .dashboard-primary-grid, .dashboard-chart-grid, .portfolio-visual-grid,
+    .ai-main-grid, .ai-secondary-grid, .gc-main-grid, .gc-secondary-grid,
+    .sc-grid, .system-grid
+  ) { gap: 1rem; }
+}
+
+@media (max-width: 760px) {
+  :root { --ui-card-radius: 18px; --ui-card-pad: 1rem; }
+
+  .topbar {
+    min-height: auto;
+    align-items: flex-start;
+    padding-block: 16px;
+  }
+
+  .topbar-meta { gap: 10px; }
+  .topbar-status { display: none; }
+  .page-content { padding-top: 1rem; }
+
+  :is(
+    .dashboard-card-header, .portfolio-content-header,
+    .analytics-card-header, .p2p-card-header,
+    .p2p-module-header, .sc-card > header,
+    .system-panel > header
+  ) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  :is(
+    .portfolio-controls, .investments-toolbar, .analytics-card-header-controls,
+    .p2p-history-controls, .p2p-monthly-controls,
+    .pc-ranking-controls, .sc-run-actions, .search-filters,
+    .report-tabs, .system-actions
+  ) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  :is(
+    .portfolio-controls button, .portfolio-controls input, .portfolio-controls select,
+    .investments-toolbar button, .investments-toolbar input, .investments-toolbar select,
+    .search-filters button, .search-filters input, .search-filters select
+  ) { flex: 1 1 150px; }
+
+  .system-hero { flex-direction: column; }
+  .system-version-block { min-width: 0; align-items: flex-start; }
+}
+
+@media (max-width: 520px) {
+  .page-content { padding-inline: 12px; padding-bottom: 32px; }
+  .topbar { padding-inline: 14px; }
+  .topbar h1 { font-size: 25px; }
+
+  :is(
+    .dashboard-metric, .portfolio-stat-grid article,
+    .an-kpi-grid article, .pc-kpi-grid article,
+    .gc-kpi-grid article, .sc-kpis article,
+    .system-stats article
+  ) { min-height: 112px; }
+
+  .ds-toast-region { width: calc(100vw - 24px); right: 12px; bottom: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
