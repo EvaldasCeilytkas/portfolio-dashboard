@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T21:27:57+03:00",
+  "generatedAt": "2026-08-03T21:44:17+03:00",
   "moduleType": "indemo",
   "platform": {
     "id": "indemo",
@@ -10153,6 +10153,6 @@
     "moneySheet": "Pinigai",
     "projectSheets": 87,
     "skippedSheets": [],
-    "generatedAt": "2026-08-03T21:27:57+03:00"
+    "generatedAt": "2026-08-03T21:44:17+03:00"
   }
 }
