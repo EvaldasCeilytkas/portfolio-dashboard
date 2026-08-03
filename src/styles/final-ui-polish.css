@@ -208,8 +208,7 @@ body { overflow-x: hidden; }
 }
 
 .recharts-responsive-container,
-.recharts-wrapper,
-svg { max-width: 100%; }
+.recharts-wrapper { max-width: 100%; }
 
 /* Better scrolling experience for long operational tables */
 :is(
