@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T22:22:26+03:00",
+  "generatedAt": "2026-08-06T17:06:39+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -24,8 +24,8 @@
     "xirr": 12.01,
     "cash": 0.0,
     "incomeReceived": 0.58,
-    "activeInvestments": 2,
-    "delayedInvestments": 0,
+    "activeInvestments": 0,
+    "delayedInvestments": 2,
     "completedInvestments": 7,
     "averageRate": 13.6,
     "averageLtv": null,
@@ -145,8 +145,8 @@
     "fees": 0.0,
     "profit": 0.0,
     "xirr": null,
-    "status": "active",
-    "delayDays": 0,
+    "status": "delayed",
+    "delayDays": 2,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -198,7 +198,7 @@
     ],
     "status": [
       {
-        "label": "active",
+        "label": "delayed",
         "count": 2,
         "value": 20.58
       }
@@ -549,8 +549,8 @@
       "fees": 0.0,
       "profit": 0.0,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 2,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -646,8 +646,8 @@
       "fees": 0.0,
       "profit": 0.0,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 2,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -675,6 +675,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 9,
     "skippedSheets": [],
-    "generatedAt": "2026-08-03T22:22:26+03:00"
+    "generatedAt": "2026-08-06T17:06:39+03:00"
   }
 }
