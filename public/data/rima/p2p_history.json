@@ -3,7 +3,7 @@
   "type": "monthlyPortfolioHistory",
   "section": "P2P",
   "currency": "EUR",
-  "generatedAt": "2026-08-07T18:52:27+00:00",
+  "generatedAt": "2026-08-07T19:21:10+00:00",
   "source": {
     "file": "Investavimas Rima.xlsx",
     "sheet": "Investavimas"
@@ -15,12 +15,12 @@
   },
   "latest": {
     "date": "2026-07-31",
-    "invested": 1975.35,
-    "monthlyContribution": 21.0,
-    "value": 2222.12,
-    "profit": 246.77,
-    "returnRate": 12.49,
-    "monthlyResult": 9.24
+    "invested": 1954.35,
+    "monthlyContribution": 0.0,
+    "value": 2199.12,
+    "profit": 244.77,
+    "returnRate": 12.52,
+    "monthlyResult": 7.24
   },
   "history": [
     {
@@ -169,12 +169,12 @@
     },
     {
       "date": "2026-07-31",
-      "invested": 1975.35,
-      "monthlyContribution": 21.0,
-      "value": 2222.12,
-      "profit": 246.77,
-      "returnRate": 12.49,
-      "monthlyResult": 9.24
+      "invested": 1954.35,
+      "monthlyContribution": 0.0,
+      "value": 2199.12,
+      "profit": 244.77,
+      "returnRate": 12.52,
+      "monthlyResult": 7.24
     }
   ]
 }

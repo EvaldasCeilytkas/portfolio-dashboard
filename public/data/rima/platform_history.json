@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "type": "platform_history",
   "currency": "EUR",
-  "generatedAt": "2026-08-07T21:52:51+03:00",
+  "generatedAt": "2026-08-07T22:21:33+03:00",
   "source": {
     "file": "Investavimas Rima.xlsx",
     "sheet": "Investavimas"
@@ -691,32 +691,6 @@
         }
       ]
     },
-    "debitum": {
-      "name": "Debitum",
-      "history": [
-        {
-          "date": "2026-07-31",
-          "invested": 11.0,
-          "value": 12.0,
-          "profit": 1.0,
-          "returnRate": 9.0909,
-          "source": "Investavimas Rima.xlsx"
-        }
-      ]
-    },
-    "loanch": {
-      "name": "Loanch",
-      "history": [
-        {
-          "date": "2026-07-31",
-          "invested": 10.0,
-          "value": 11.0,
-          "profit": 1.0,
-          "returnRate": 10.0,
-          "source": "Investavimas Rima.xlsx"
-        }
-      ]
-    },
     "fondai": {
       "name": "Fondai",
       "history": [
@@ -991,10 +965,10 @@
         },
         {
           "date": "2026-07-31",
-          "invested": 1975.35,
-          "value": 2222.12,
-          "profit": 246.77,
-          "returnRate": 12.4925,
+          "invested": 1954.35,
+          "value": 2199.12,
+          "profit": 244.77,
+          "returnRate": 12.5244,
           "source": "Investavimas Rima.xlsx"
         }
       ]
@@ -1132,10 +1106,10 @@
         },
         {
           "date": "2026-07-31",
-          "invested": 3215.35,
-          "value": 3559.99,
-          "profit": 344.64,
-          "returnRate": 10.7186,
+          "invested": 3194.35,
+          "value": 3536.99,
+          "profit": 342.64,
+          "returnRate": 10.7264,
           "source": "Investavimas Rima.xlsx"
         }
       ]
