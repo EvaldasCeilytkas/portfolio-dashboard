@@ -1,0 +1,21 @@
+PORTFOLIO DASHBOARD v2.5.4 – AUTO PLATFORM ENGINE
+=================================================
+
+KAS PAKEISTA
+- src/data/platforms.json tapo vieninteliu platformų registru React ir Rimos Python importui.
+- Kiekviena platforma turi "owners" sąrašą.
+- Jei Rima turi atskirą Excel failą, platformoje nurodomas "ownerSources": { "rima": "Failas Rima.xlsx" }.
+- scripts/import_rima_portfolio.py JOBS sąrašo nebeturi – platformas pasiima automatiškai iš registro.
+- P2PPage.jsx nebeturi rankinių Evaldo/Rimos/Gerdos platformų sąrašų.
+- portfolioService.js filtruoja platformas pagal tą patį registrą.
+
+NAUJOS RIMOS PLATFORMOS PRIDĖJIMAS
+1. src/data/platforms.json surask / pridėk platformą.
+2. Į owners pridėk "rima".
+3. Į ownerSources pridėk, pvz.:
+   "ownerSources": { "rima": "Income Rima.xlsx" }
+4. Excel failą įdėk į excel/.
+5. Importeris, nurodytas "importer" lauke, turi būti scripts/ aplanke.
+6. Paleisk įprastą ATNAUJINTI_VISUS_PORTFELIUS.bat.
+
+Debitum Rima šiame registre jau įjungtas.

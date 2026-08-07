@@ -2,53 +2,41 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { usePortfolioOwner } from "../context/PortfolioContext";
 
-import platformRegistry from "../data/platforms.json";
+import {
+  getOwnerP2PPlatforms,
+  getP2PPlatforms,
+} from "../data/platformRegistry";
 import "../styles/p2p.css";
 
-const P2P_SLUGS = Object.freeze([
-  "profitus",
-  "crowdpear",
-  "nordstreet",
-  "rontgen",
-  "indemo",
-  "afranga",
-  "debitum",
-  "income",
-  "lande",
-  "lendermarket",
-  "loanch",
-  "nectaro",
-  "peerberry",
-  "scramble",
-  "viainvest",
-]);
+const P2P_PLATFORMS = Object.freeze(getP2PPlatforms());
 
-const OWNER_P2P_SLUGS = Object.freeze({
-  evaldas: P2P_SLUGS,
-  rima: Object.freeze([
-    "profitus",
-    "nordstreet",
-    "indemo",
-    "lendermarket",
-    "scramble",
-    "debitum",
-  ]),
-  gerda: Object.freeze(["profitus"]),
-});
+const P2P_SLUGS = Object.freeze(
+  P2P_PLATFORMS.map((platform) => platform.slug),
+);
 
-const REAL_ESTATE_SLUGS = new Set([
-  "profitus",
-  "crowdpear",
-  "nordstreet",
-  "rontgen",
-  "indemo",
-]);
+const OWNER_P2P_SLUGS = Object.freeze(
+  Object.fromEntries(
+    ["evaldas", "rima", "gerda"].map((ownerId) => [
+      ownerId,
+      Object.freeze(
+        getOwnerP2PPlatforms(ownerId).map((platform) => platform.slug),
+      ),
+    ]),
+  ),
+);
+
+const REAL_ESTATE_SLUGS = new Set(
+  P2P_PLATFORMS
+    .filter(
+      (platform) =>
+        platform.group === "real_estate" || platform.type === "npl",
+    )
+    .map((platform) => platform.slug),
+);
 
 const PLATFORM_META = Object.freeze(
   Object.fromEntries(
-    platformRegistry
-      .filter((platform) => P2P_SLUGS.includes(platform.slug))
-      .map((platform) => [platform.slug, platform]),
+    P2P_PLATFORMS.map((platform) => [platform.slug, platform]),
   ),
 );
 
@@ -108,6 +96,16 @@ function formatMonth(value) {
   })
     .format(new Date(`${value}T12:00:00`))
     .replace(" m.", "");
+}
+
+function formatPlatformNames(platforms) {
+  const names = platforms.map((platform) => platform.name).filter(Boolean);
+
+  if (!names.length) return "—";
+  if (names.length === 1) return names[0];
+  if (names.length === 2) return `${names[0]} ir ${names[1]}`;
+
+  return `${names.slice(0, -1).join(", ")} ir ${names.at(-1)}`;
 }
 
 function getPlatformType(slug) {
@@ -928,6 +926,9 @@ function OwnerP2PPage() {
   const p2pValue = activePlatforms
     .filter((platform) => platform.type === "p2p")
     .reduce((sum, platform) => sum + platform.value, 0);
+  const realEstateNames = formatPlatformNames(
+    platforms.filter((platform) => platform.type === "real_estate"),
+  );
   const availableDates = history.map((item) => item.date).filter(Boolean);
   const effectiveMonth = selectedMonth || latest.date || availableDates.at(-1) || "";
 
@@ -991,7 +992,7 @@ function OwnerP2PPage() {
         <article className="p2p-metric-card p2p-metric-real-estate">
           <span className="p2p-metric-label">NT finansavimas</span>
           <strong className="p2p-metric-value">{formatCurrency(realEstateValue)}</strong>
-          <span className="p2p-metric-description">{ownerId === "rima" ? "Profitus, Nordstreet ir Indemo" : ownerId === "gerda" ? "Profitus" : "Profitus, Crowdpear, Nordstreet, Röntgen ir Indemo"}</span>
+          <span className="p2p-metric-description">{realEstateNames}</span>
         </article>
         <article className="p2p-metric-card p2p-metric-loans">
           <span className="p2p-metric-label">P2P paskolos</span>

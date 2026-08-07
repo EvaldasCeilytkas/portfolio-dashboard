@@ -1,4 +1,4 @@
-import platformRegistry from "../data/platforms.json";
+import { getOwnerPlatforms } from "../data/platformRegistry";
 import { requestJson } from "./jsonClient";
 
 export const PORTFOLIO_GROUP_LABELS = Object.freeze({
@@ -243,15 +243,8 @@ export async function loadPortfolioPlatforms(ownerId = "evaldas") {
     ];
   }
 
-  const ownerPlatformSlugs = {
-    gerda: new Set(["profitus"]),
-  };
-  const allowedSlugs = ownerPlatformSlugs[ownerId] || null;
-  const enabledPlatforms = platformRegistry.filter(
-    (platform) =>
-      platform.enabled !== false &&
-      platform.dataFile &&
-      (!allowedSlugs || allowedSlugs.has(platform.slug)),
+  const enabledPlatforms = getOwnerPlatforms(ownerId).filter(
+    (platform) => platform.dataFile,
   );
 
   const results = await Promise.allSettled(

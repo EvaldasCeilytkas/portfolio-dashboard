@@ -1,16 +1,28 @@
 export const RELEASE = Object.freeze({
   product: "Portfolio Dashboard Pro",
-  version: "2.0",
-  label: "v2.0 FINAL",
+  version: "2.5.4",
+  label: "v2.5.4",
   channel: "Stable",
-  build: "2026.08.02",
-  buildNumber: "2.0.0",
+  build: "2026.08.07",
+  buildNumber: "2.5.4",
   designSystem: "2.0.3",
   schema: 1,
   copyrightYear: 2026,
 });
 
 export const CHANGELOG = Object.freeze([
+  {
+    version: "2.5.4",
+    date: "2026-08-07",
+    title: "Auto Platform Engine",
+    items: [
+      "Vienas platformų registras React ir Python importeriams.",
+      "Platformų priklausomybė savininkams valdoma per platforms.json.",
+      "Rimos platformų importas generuojamas automatiškai iš registro.",
+      "P2P puslapio platformų sąrašai nebeįrašyti rankiniu būdu.",
+      "Naujų platformų prijungimui sumažintas keičiamų failų skaičius.",
+    ],
+  },
   {
     version: "2.0 FINAL",
     date: "2026-08-02",

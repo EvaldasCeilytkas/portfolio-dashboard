@@ -14,7 +14,14 @@
     "supportsProjects": false,
     "supportsCash": false,
     "logo": "",
-    "website": "https://www.seb.lt"
+    "website": "https://www.seb.lt",
+    "owners": [
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "SEB Fondai Rima.xlsx"
+    }
   },
   {
     "id": "seb-mikro",
@@ -31,7 +38,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://www.seb.lt"
+    "website": "https://www.seb.lt",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "seb-robo",
@@ -48,7 +58,10 @@
     "supportsProjects": false,
     "supportsCash": false,
     "logo": "",
-    "website": "https://www.seb.lt"
+    "website": "https://www.seb.lt",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "revolut-brokerage",
@@ -65,7 +78,14 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://www.revolut.com"
+    "website": "https://www.revolut.com",
+    "owners": [
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Revolut Brokerage Rima.xlsx"
+    }
   },
   {
     "id": "revolut-robo",
@@ -82,7 +102,10 @@
     "supportsProjects": false,
     "supportsCash": true,
     "logo": "",
-    "website": "https://www.revolut.com"
+    "website": "https://www.revolut.com",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "synergy",
@@ -99,7 +122,10 @@
     "supportsProjects": false,
     "supportsCash": false,
     "logo": "",
-    "website": ""
+    "website": "",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "crowdpear",
@@ -116,7 +142,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://crowdpear.com"
+    "website": "https://crowdpear.com",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "profitus",
@@ -133,7 +162,16 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://profitus.lt"
+    "website": "https://profitus.lt",
+    "owners": [
+      "evaldas",
+      "rima",
+      "gerda"
+    ],
+    "ownerSources": {
+      "rima": "Profitus Rima.xlsx",
+      "gerda": "Profitus Gerda.xlsx"
+    }
   },
   {
     "id": "nordstreet",
@@ -150,7 +188,14 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://nordstreet.com"
+    "website": "https://nordstreet.com",
+    "owners": [
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Nordstreet Rima.xlsx"
+    }
   },
   {
     "id": "rontgen",
@@ -167,7 +212,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://rontgen.lt"
+    "website": "https://rontgen.lt",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "indemo",
@@ -184,7 +232,14 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://indemo.eu"
+    "website": "https://indemo.eu",
+    "owners": [
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Indemo Rima.xlsx"
+    }
   },
   {
     "id": "afranga",
@@ -201,7 +256,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://afranga.com"
+    "website": "https://afranga.com",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "debitum",
@@ -218,7 +276,14 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://debitum.investments"
+    "website": "https://debitum.investments",
+    "owners": [
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Debitum Rima.xlsx"
+    }
   },
   {
     "id": "income",
@@ -235,7 +300,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://getincome.com"
+    "website": "https://getincome.com",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "lande",
@@ -252,7 +320,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://lande.finance"
+    "website": "https://lande.finance",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "lendermarket",
@@ -269,7 +340,14 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://lendermarket.com"
+    "website": "https://lendermarket.com",
+    "owners": [
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Lendermarket Rima.xlsx"
+    }
   },
   {
     "id": "loanch",
@@ -286,7 +364,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://loanch.com"
+    "website": "https://loanch.com",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "nectaro",
@@ -303,7 +384,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://nectaro.eu"
+    "website": "https://nectaro.eu",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "peerberry",
@@ -320,7 +404,10 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://peerberry.com"
+    "website": "https://peerberry.com",
+    "owners": [
+      "evaldas"
+    ]
   },
   {
     "id": "scramble",
@@ -337,7 +424,14 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://scrambleup.com"
+    "website": "https://scrambleup.com",
+    "owners": [
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Scramble Rima.xlsx"
+    }
   },
   {
     "id": "viainvest",
@@ -354,6 +448,9 @@
     "supportsProjects": true,
     "supportsCash": true,
     "logo": "",
-    "website": "https://viainvest.com"
+    "website": "https://viainvest.com",
+    "owners": [
+      "evaldas"
+    ]
   }
 ]
