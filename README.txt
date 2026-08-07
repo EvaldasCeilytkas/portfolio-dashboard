@@ -1,12 +1,9 @@
-SYNC CENTER v1.0.1 PATAISYMAS
+RIMA – DEBITUM prijungimas
 
-1. ATNAUJINTI_VISUS_PORTFELIUS.bat nukopijuokite i pagrindini projekto aplanka.
-2. generate_sync_status.py nukopijuokite i projekto scripts aplanka.
-3. Patvirtinkite esamu failu pakeitima.
-4. Paleiskite ATNAUJINTI_VISUS_PORTFELIUS.bat.
+1. Atnaujintame src pakete Rimos P2P sąraše pridėtas slug "debitum".
+2. scripts/import_rima_debitum.py naudoja esamą scripts/import_debitum.py logiką.
+3. Rimos Excel turi būti: excel/Debitum Rima.xlsx
+4. Išvestis: public/data/rima/platforms/debitum.json
 
-Pataisyta:
-- pasalinta ZoneInfo / tzdata priklausomybe;
-- naudojama Windows vietine data ir laikas;
-- BAT failas issaugotas be UTF-8 BOM;
-- klaidos atveju langas lieka atidarytas.
+Svarbu: kad Debitum būtų generuojamas kartu su viso Rimos portfelio atnaujinimu,
+į esamą scripts/import_rima_portfolio.py reikia įtraukti šio importerio paleidimą.

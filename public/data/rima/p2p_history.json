@@ -1,181 +1,155 @@
-{
-  "schemaVersion": 1,
-  "type": "monthlyPortfolioHistory",
-  "section": "P2P",
-  "currency": "EUR",
-  "generatedAt": "2026-08-06T14:09:27+00:00",
-  "source": {
-    "file": "Investavimas Rima.xlsx",
-    "sheet": "Investavimas",
-    "owner": "Rima"
+[
+  {
+    "date": "2025-03-31",
+    "invested": 10.0,
+    "monthlyContribution": 10.0,
+    "value": 65.0,
+    "profit": 55.0,
+    "returnRate": 550.0,
+    "monthlyResult": 55.0
   },
-  "period": {
-    "from": "2025-03-31",
-    "to": "2026-07-31",
-    "months": 17
+  {
+    "date": "2025-04-30",
+    "invested": 10.0,
+    "monthlyContribution": 0.0,
+    "value": 65.0,
+    "profit": 55.0,
+    "returnRate": 550.0,
+    "monthlyResult": 0.0
   },
-  "latest": {
+  {
+    "date": "2025-05-31",
+    "invested": 10.0,
+    "monthlyContribution": 0.0,
+    "value": 65.0,
+    "profit": 55.0,
+    "returnRate": 550.0,
+    "monthlyResult": 0.0
+  },
+  {
+    "date": "2025-06-30",
+    "invested": 30.0,
+    "monthlyContribution": 20.0,
+    "value": 85.05,
+    "profit": 55.05,
+    "returnRate": 183.5,
+    "monthlyResult": 0.05
+  },
+  {
+    "date": "2025-07-31",
+    "invested": 30.0,
+    "monthlyContribution": 0.0,
+    "value": 85.05,
+    "profit": 55.05,
+    "returnRate": 183.5,
+    "monthlyResult": 0.0
+  },
+  {
+    "date": "2025-08-31",
+    "invested": 840.0,
+    "monthlyContribution": 810.0,
+    "value": 915.05,
+    "profit": 75.05,
+    "returnRate": 8.9345,
+    "monthlyResult": 20.0
+  },
+  {
+    "date": "2025-09-30",
+    "invested": 1440.0,
+    "monthlyContribution": 600.0,
+    "value": 1518.75,
+    "profit": 78.75,
+    "returnRate": 5.4688,
+    "monthlyResult": 3.7
+  },
+  {
+    "date": "2025-10-31",
+    "invested": 1460.0,
+    "monthlyContribution": 20.0,
+    "value": 1570.02,
+    "profit": 110.02,
+    "returnRate": 7.5356,
+    "monthlyResult": 31.27
+  },
+  {
+    "date": "2025-11-30",
+    "invested": 1560.0,
+    "monthlyContribution": 100.0,
+    "value": 1700.19,
+    "profit": 140.19,
+    "returnRate": 8.9865,
+    "monthlyResult": 30.17
+  },
+  {
+    "date": "2025-12-31",
+    "invested": 1560.0,
+    "monthlyContribution": 0.0,
+    "value": 1716.71,
+    "profit": 156.71,
+    "returnRate": 10.0455,
+    "monthlyResult": 16.52
+  },
+  {
+    "date": "2026-01-31",
+    "invested": 1560.0,
+    "monthlyContribution": 0.0,
+    "value": 1721.08,
+    "profit": 161.08,
+    "returnRate": 10.3256,
+    "monthlyResult": 4.37
+  },
+  {
+    "date": "2026-02-28",
+    "invested": 1560.0,
+    "monthlyContribution": 0.0,
+    "value": 1736.15,
+    "profit": 176.15,
+    "returnRate": 11.2917,
+    "monthlyResult": 15.07
+  },
+  {
+    "date": "2026-03-31",
+    "invested": 1760.0,
+    "monthlyContribution": 200.0,
+    "value": 1981.55,
+    "profit": 221.55,
+    "returnRate": 12.5881,
+    "monthlyResult": 45.4
+  },
+  {
+    "date": "2026-04-30",
+    "invested": 1800.0,
+    "monthlyContribution": 40.0,
+    "value": 2038.74,
+    "profit": 238.74,
+    "returnRate": 13.2633,
+    "monthlyResult": 17.19
+  },
+  {
+    "date": "2026-05-31",
+    "invested": 1845.39,
+    "monthlyContribution": 45.39,
+    "value": 2077.35,
+    "profit": 231.96,
+    "returnRate": 12.5697,
+    "monthlyResult": -6.78
+  },
+  {
+    "date": "2026-06-30",
+    "invested": 1954.35,
+    "monthlyContribution": 108.96,
+    "value": 2201.88,
+    "profit": 247.53,
+    "returnRate": 12.6656,
+    "monthlyResult": 15.57
+  },
+  {
     "date": "2026-07-31",
     "invested": 1954.35,
     "monthlyContribution": 0.0,
-    "value": 2199.12,
-    "profit": 244.77,
-    "returnRate": 12.52,
+    "value": 2209.12,
+    "profit": 254.77,
+    "returnRate": 13.036,
     "monthlyResult": 7.24
-  },
-  "history": [
-    {
-      "date": "2025-03-31",
-      "invested": 10.0,
-      "monthlyContribution": 10.0,
-      "value": 65.0,
-      "profit": 55.0,
-      "returnRate": 550.0,
-      "monthlyResult": 55.0
-    },
-    {
-      "date": "2025-04-30",
-      "invested": 10.0,
-      "monthlyContribution": 0.0,
-      "value": 65.0,
-      "profit": 55.0,
-      "returnRate": 550.0,
-      "monthlyResult": 0.0
-    },
-    {
-      "date": "2025-05-31",
-      "invested": 10.0,
-      "monthlyContribution": 0.0,
-      "value": 65.0,
-      "profit": 55.0,
-      "returnRate": 550.0,
-      "monthlyResult": 0.0
-    },
-    {
-      "date": "2025-06-30",
-      "invested": 30.0,
-      "monthlyContribution": 20.0,
-      "value": 85.05,
-      "profit": 55.05,
-      "returnRate": 183.5,
-      "monthlyResult": 0.05
-    },
-    {
-      "date": "2025-07-31",
-      "invested": 30.0,
-      "monthlyContribution": 0.0,
-      "value": 85.05,
-      "profit": 55.05,
-      "returnRate": 183.5,
-      "monthlyResult": 0.0
-    },
-    {
-      "date": "2025-08-31",
-      "invested": 840.0,
-      "monthlyContribution": 810.0,
-      "value": 915.05,
-      "profit": 75.05,
-      "returnRate": 8.93,
-      "monthlyResult": 20.0
-    },
-    {
-      "date": "2025-09-30",
-      "invested": 1440.0,
-      "monthlyContribution": 600.0,
-      "value": 1518.75,
-      "profit": 78.75,
-      "returnRate": 5.47,
-      "monthlyResult": 3.7
-    },
-    {
-      "date": "2025-10-31",
-      "invested": 1460.0,
-      "monthlyContribution": 20.0,
-      "value": 1570.02,
-      "profit": 110.02,
-      "returnRate": 7.54,
-      "monthlyResult": 31.27
-    },
-    {
-      "date": "2025-11-30",
-      "invested": 1560.0,
-      "monthlyContribution": 100.0,
-      "value": 1700.19,
-      "profit": 140.19,
-      "returnRate": 8.99,
-      "monthlyResult": 30.17
-    },
-    {
-      "date": "2025-12-31",
-      "invested": 1560.0,
-      "monthlyContribution": 0.0,
-      "value": 1716.71,
-      "profit": 156.71,
-      "returnRate": 10.05,
-      "monthlyResult": 16.52
-    },
-    {
-      "date": "2026-01-31",
-      "invested": 1560.0,
-      "monthlyContribution": 0.0,
-      "value": 1721.08,
-      "profit": 161.08,
-      "returnRate": 10.33,
-      "monthlyResult": 4.37
-    },
-    {
-      "date": "2026-02-28",
-      "invested": 1560.0,
-      "monthlyContribution": 0.0,
-      "value": 1736.15,
-      "profit": 176.15,
-      "returnRate": 11.29,
-      "monthlyResult": 15.07
-    },
-    {
-      "date": "2026-03-31",
-      "invested": 1760.0,
-      "monthlyContribution": 200.0,
-      "value": 1971.55,
-      "profit": 211.55,
-      "returnRate": 12.02,
-      "monthlyResult": 35.4
-    },
-    {
-      "date": "2026-04-30",
-      "invested": 1800.0,
-      "monthlyContribution": 40.0,
-      "value": 2028.74,
-      "profit": 228.74,
-      "returnRate": 12.71,
-      "monthlyResult": 17.19
-    },
-    {
-      "date": "2026-05-31",
-      "invested": 1845.39,
-      "monthlyContribution": 45.39,
-      "value": 2067.35,
-      "profit": 221.96,
-      "returnRate": 12.03,
-      "monthlyResult": -6.78
-    },
-    {
-      "date": "2026-06-30",
-      "invested": 1954.35,
-      "monthlyContribution": 108.96,
-      "value": 2191.88,
-      "profit": 237.53,
-      "returnRate": 12.15,
-      "monthlyResult": 15.57
-    },
-    {
-      "date": "2026-07-31",
-      "invested": 1954.35,
-      "monthlyContribution": 0.0,
-      "value": 2199.12,
-      "profit": 244.77,
-      "returnRate": 12.52,
-      "monthlyResult": 7.24
-    }
-  ]
-}
+  }
+]

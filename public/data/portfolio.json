@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T17:08:51+03:00",
+  "generatedAt": "2026-08-07T20:12:44+03:00",
   "currency": "EUR",
   "summary": {
     "invested": 11654.96,
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-08-06",
+      "updatedAt": "2026-08-07",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-08-06",
+      "updatedAt": "2026-08-07",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -190,7 +190,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-08-06",
+      "updatedAt": "2026-08-07",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-08-06",
+      "updatedAt": "2026-08-07",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {

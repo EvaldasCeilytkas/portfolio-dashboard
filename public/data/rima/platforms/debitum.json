@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-07T20:13:25+03:00",
+  "moduleType": "p2p_loans",
+  "platform": {
+    "id": "debitum",
+    "slug": "debitum",
+    "name": "Debitum",
+    "group": "p2p",
+    "type": "p2p_loans",
+    "category": "P2P verslo paskolos",
+    "currency": "EUR",
+    "active": true,
+    "status": "active",
+    "startDate": "2025-09-22",
+    "updatedAt": "2026-08-31",
+    "website": "https://debitum.investments"
+  },
+  "summary": {
+    "invested": 260.0,
+    "currentValue": 260.89,
+    "profit": 0.89,
+    "returnRate": 0.3423,
+    "xirr": 0.6852,
+    "cash": 139.26,
+    "incomeReceived": 0.89,
+    "activeInvestments": 2,
+    "delayedInvestments": 2,
+    "completedInvestments": 1,
+    "averageRate": 11.2744,
+    "averageLtv": null,
+    "deposited": 260.0,
+    "withdrawn": 0.0,
+    "lifetimeInvested": 121.63,
+    "outstandingPrincipal": 100.64,
+    "principalReturned": 0.0,
+    "interestReceived": 0.0,
+    "grossInterestReceived": 0.0,
+    "bonuses": 0.89,
+    "fees": 0.0,
+    "totalInvestments": 5,
+    "roi": 0.3423
+  },
+  "history": [
+    {
+      "date": "2025-09-30",
+      "invested": 50.0,
+      "value": 50.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "invested": 50.0,
+      "value": 50.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-11-30",
+      "invested": 100.0,
+      "value": 100.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2025-12-31",
+      "invested": 120.0,
+      "value": 120.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-01-31",
+      "invested": 140.0,
+      "value": 140.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-02-28",
+      "invested": 160.0,
+      "value": 160.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-03-31",
+      "invested": 160.0,
+      "value": 160.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-04-30",
+      "invested": 180.0,
+      "value": 180.34,
+      "profit": 0.34,
+      "cash": 0.0,
+      "income": 0.34,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.34,
+      "monthlyProfit": 0.34,
+      "monthlyReturn": 0.19
+    },
+    {
+      "date": "2026-05-31",
+      "invested": 200.0,
+      "value": 200.89,
+      "profit": 0.89,
+      "cash": 0.0,
+      "income": 0.55,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.55,
+      "monthlyProfit": 0.55,
+      "monthlyReturn": 0.27
+    },
+    {
+      "date": "2026-06-30",
+      "invested": 200.0,
+      "value": 200.89,
+      "profit": 0.89,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "invested": 240.0,
+      "value": 240.89,
+      "profit": 0.89,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 40.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "invested": 260.0,
+      "value": 260.89,
+      "profit": 0.89,
+      "cash": 139.26,
+      "income": 0.0,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-08-31",
+    "invested": 260.0,
+    "value": 260.89,
+    "profit": 0.89,
+    "cash": 139.26,
+    "income": 0.0,
+    "deposits": 20.0,
+    "withdrawals": 0.0,
+    "bonuses": 0.0,
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
+  },
+  "largestInvestment": {
+    "id": "LV0000106516",
+    "slug": "lv0000106516",
+    "loanCode": "LV0000106516",
+    "externalId": "b8f70cd8-bf9b-478c-a788-444e61e675eb",
+    "sourceSheet": "LV0000106516",
+    "country": "Latvia",
+    "lender": "Latvian Forest Developement Fund",
+    "loanType": "Notes",
+    "trustScore": "A",
+    "term": "0 m. 11 mėn. 22 d.",
+    "investmentDate": "2025-09-23",
+    "startDate": "2025-08-27",
+    "plannedEndDate": "2026-09-14",
+    "actualEndDate": null,
+    "rate": 13.0,
+    "invested": 30.0,
+    "currentValue": 30.0,
+    "outstandingPrincipal": 30.0,
+    "principalReturned": 0.0,
+    "interestReceived": 0.0,
+    "fees": 0.0,
+    "profit": 0.0,
+    "xirr": null,
+    "status": "active",
+    "delayDays": 0,
+    "earlyLateDays": 0,
+    "schedule": [],
+    "cashFlows": [
+      {
+        "date": "2025-09-23",
+        "amount": -30.0,
+        "delayDays": 0
+      }
+    ]
+  },
+  "distributions": {
+    "country": [
+      {
+        "label": "Latvia",
+        "count": 4,
+        "value": 100.64
+      }
+    ],
+    "lender": [
+      {
+        "label": "Latvian Forest Developement Fund",
+        "count": 3,
+        "value": 80.64
+      },
+      {
+        "label": "Sandbox Funding",
+        "count": 1,
+        "value": 20.0
+      }
+    ],
+    "loanType": [
+      {
+        "label": "Loans",
+        "count": 1,
+        "value": 20.0
+      },
+      {
+        "label": "Notes",
+        "count": 3,
+        "value": 80.64
+      }
+    ],
+    "trustScore": [
+      {
+        "label": "A",
+        "count": 3,
+        "value": 80.64
+      },
+      {
+        "label": "B+",
+        "count": 1,
+        "value": 20.0
+      }
+    ],
+    "status": [
+      {
+        "label": "active",
+        "count": 2,
+        "value": 50.0
+      },
+      {
+        "label": "delayed",
+        "count": 2,
+        "value": 50.64
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2025-09-22",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-11-11",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2025-12-15",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-01-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-02-11",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-04-16",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.34
+    },
+    {
+      "date": "2026-05-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-05-05",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.15
+    },
+    {
+      "date": "2026-05-27",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.4
+    },
+    {
+      "date": "2026-07-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-07-14",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-08-03",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-08-07",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "LV0000106516",
+      "slug": "lv0000106516",
+      "loanCode": "LV0000106516",
+      "externalId": "b8f70cd8-bf9b-478c-a788-444e61e675eb",
+      "sourceSheet": "LV0000106516",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 11 mėn. 22 d.",
+      "investmentDate": "2025-09-23",
+      "startDate": "2025-08-27",
+      "plannedEndDate": "2026-09-14",
+      "actualEndDate": null,
+      "rate": 13.0,
+      "invested": 30.0,
+      "currentValue": 30.0,
+      "outstandingPrincipal": 30.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2025-09-23",
+          "amount": -30.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000106920",
+      "slug": "lv0000106920",
+      "loanCode": "LV0000106920",
+      "externalId": "f554a779-27ed-4d9a-aa38-85635001a3fb",
+      "sourceSheet": "LV0000106920",
+      "country": "Latvia",
+      "lender": "Sandbox Funding",
+      "loanType": "Loans",
+      "trustScore": "B+",
+      "term": "0 m. 11 mėn. 29 d.",
+      "investmentDate": "2025-09-23",
+      "startDate": "2025-09-18",
+      "plannedEndDate": "2026-09-21",
+      "actualEndDate": null,
+      "rate": 10.0,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2025-09-23",
+          "amount": -20.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000107886",
+      "slug": "lv0000107886",
+      "loanCode": "LV0000107886",
+      "externalId": "659c52bf-6023-48b2-bc0f-da590bcd36f9",
+      "sourceSheet": "LV0000107886",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 3 mėn. 19 d.",
+      "investmentDate": "2025-11-12",
+      "startDate": "2025-11-03",
+      "plannedEndDate": "2026-03-03",
+      "actualEndDate": null,
+      "rate": 10.4,
+      "invested": 20.64,
+      "currentValue": 20.64,
+      "outstandingPrincipal": 20.64,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "delayed",
+      "delayDays": 157,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2025-11-12",
+          "amount": -20.64,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000107902",
+      "slug": "lv0000107902",
+      "loanCode": "LV0000107902",
+      "externalId": "205d18cd-bf4a-4bf1-88e3-fef3ffe6f736",
+      "sourceSheet": "LV0000107902",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 6 mėn. 15 d.",
+      "investmentDate": "2025-11-12",
+      "startDate": "2025-11-05",
+      "plannedEndDate": "2026-05-27",
+      "actualEndDate": null,
+      "rate": 11.0,
+      "invested": 30.0,
+      "currentValue": 30.0,
+      "outstandingPrincipal": 30.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "delayed",
+      "delayDays": 72,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2025-11-12",
+          "amount": -30.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000108736",
+      "slug": "lv0000108736",
+      "loanCode": "LV0000108736",
+      "externalId": "17f3efcd-5a40-4924-87d5-a72ce6d21313",
+      "sourceSheet": "LV0000108736",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 5 mėn. 26 d.",
+      "investmentDate": "2025-12-16",
+      "startDate": "2025-12-10",
+      "plannedEndDate": "2026-06-11",
+      "actualEndDate": "2026-06-12",
+      "rate": 11.0,
+      "invested": 20.99,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "completed",
+      "delayDays": 57,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2025-12-16",
+          "amount": -20.99,
+          "delayDays": 0
+        }
+      ]
+    }
+  ],
+  "source": {
+    "file": "Debitum Rima.xlsx",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "loanSheets": 5,
+    "skippedSheets": [],
+    "generatedAt": "2026-08-07T20:13:25+03:00"
+  }
+}

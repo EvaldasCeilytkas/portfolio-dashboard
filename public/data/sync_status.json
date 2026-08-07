@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-06T17:09:57.920023+03:00",
+  "generatedAt": "2026-08-07T20:13:45.917206+03:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -18,8 +18,8 @@
       "initials": "R",
       "status": "ok",
       "updatedAt": "2026-07-31",
-      "platforms": 7,
-      "records": 66
+      "platforms": 8,
+      "records": 71
     },
     {
       "id": "gerda",
@@ -306,6 +306,19 @@
       "ownerName": "Evaldas"
     },
     {
+      "platformName": "Debitum",
+      "ownerId": "rima",
+      "ownerName": "Rima",
+      "moduleType": "p2p_loans",
+      "sourceFile": "Excel / JSON",
+      "status": "ok",
+      "records": 5,
+      "latestDataDate": "2026-08-07",
+      "durationSeconds": 0,
+      "error": "",
+      "task": "portfolio importer"
+    },
+    {
       "platformName": "Indemo",
       "ownerId": "rima",
       "ownerName": "Rima",
@@ -313,7 +326,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 26,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -326,7 +339,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 15,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -339,7 +352,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 4,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -352,7 +365,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 6,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -365,7 +378,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 1,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -378,7 +391,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 12,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -391,7 +404,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 2,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -404,13 +417,18 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 2,
-      "latestDataDate": "2026-08-06",
+      "latestDataDate": "2026-08-07",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
     }
   ],
   "history": [
+    {
+      "generatedAt": "2026-08-07T20:13:45.917206+03:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
     {
       "generatedAt": "2026-08-06T17:09:57.920023+03:00",
       "durationSeconds": 42.228,
@@ -455,11 +473,6 @@
       "generatedAt": "2026-08-02T15:42:10.856631+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
-    },
-    {
-      "generatedAt": "2026-08-02T12:21:03.522634+00:00",
-      "durationSeconds": 42.228,
-      "status": "ok"
     }
   ],
   "system": {
@@ -469,27 +482,27 @@
   },
   "log": [
     {
-      "time": "17:09:57",
+      "time": "20:13:45",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "17:09:57",
+      "time": "20:13:45",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "17:09:57",
+      "time": "20:13:45",
       "level": "success",
-      "message": "Rima: 7 platformų patikrinta."
+      "message": "Rima: 8 platformų patikrinta."
     },
     {
-      "time": "17:09:57",
+      "time": "20:13:45",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "17:09:57",
+      "time": "20:13:45",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }

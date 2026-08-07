@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T17:09:43+03:00",
+  "generatedAt": "2026-08-07T20:13:34+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,7 +11,7 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-08-30",
-    "updatedAt": "2026-08-06",
+    "updatedAt": "2026-08-07",
     "website": "https://profitus.lt"
   },
   "summary": {
@@ -55,7 +55,7 @@
       "interestRate": 9.5,
       "incomeReceived": 12.86,
       "outstanding": 0.0,
-      "delayDays": 37,
+      "delayDays": 38,
       "ltv": 57.0,
       "quantity": null,
       "averagePrice": null,
@@ -275,7 +275,7 @@
       "interestRate": 9.0,
       "incomeReceived": 5.8,
       "outstanding": 125.0,
-      "delayDays": 67,
+      "delayDays": 68,
       "ltv": 42.0,
       "quantity": null,
       "averagePrice": null,

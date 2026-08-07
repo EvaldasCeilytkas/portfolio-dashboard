@@ -27,6 +27,12 @@ JOBS = (
         PROJECT_ROOT / "public" / "data" / "rima" / "platforms" / "lendermarket.json",
     ),
     (
+        "Rima – Debitum",
+        PROJECT_ROOT / "scripts" / "import_debitum.py",
+        PROJECT_ROOT / "excel" / "Debitum Rima.xlsx",
+        PROJECT_ROOT / "public" / "data" / "rima" / "platforms" / "debitum.json",
+    ),
+    (
         "Rima – Scramble",
         PROJECT_ROOT / "scripts" / "import_scramble.py",
         PROJECT_ROOT / "excel" / "Scramble Rima.xlsx",
