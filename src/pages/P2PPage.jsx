@@ -56,6 +56,30 @@ const FILTER_OPTIONS = Object.freeze([
   { id: "p2p", label: "P2P paskolos" },
 ]);
 
+
+function normalizeHistoryPayload(payload) {
+  if (Array.isArray(payload)) {
+    const history = payload.filter(Boolean);
+    return {
+      history,
+      latest: history.at(-1) || {},
+      period: { months: history.length },
+    };
+  }
+
+  if (payload && typeof payload === "object") {
+    const history = Array.isArray(payload.history) ? payload.history : [];
+    return {
+      ...payload,
+      history,
+      latest: payload.latest || history.at(-1) || {},
+      period: payload.period || { months: history.length },
+    };
+  }
+
+  return { history: [], latest: {}, period: { months: 0 } };
+}
+
 function number(value) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : 0;
@@ -850,7 +874,8 @@ function OwnerP2PPage() {
           ownerSlugs.map(async (slug) => {
             try {
               const response = await fetch(dataPath(`platforms/${slug}.json`), { cache: "no-store" });
-              return response.ok ? response.json() : null;
+              if (!response.ok) return null;
+              return await response.json();
             } catch {
               return null;
             }
@@ -867,7 +892,7 @@ function OwnerP2PPage() {
         );
 
         if (active) {
-          setP2pHistory(p2pPayload);
+          setP2pHistory(normalizeHistoryPayload(p2pPayload));
           setPlatformHistory(platformPayload);
           setLoanStats(counts);
         }
@@ -1093,9 +1118,11 @@ function FamilyP2PPage() {
           return { ...config, rows, stats };
         }));
 
+        const normalizedEvaldasP2P = normalizeHistoryPayload(evaldasP2P);
+        const normalizedRimaP2P = normalizeHistoryPayload(rimaP2P);
         const history = mergeMonthlyHistories([
-          evaldasP2P?.history,
-          rimaP2P?.history,
+          normalizedEvaldasP2P.history,
+          normalizedRimaP2P.history,
         ]);
         const latest = history.at(-1) || {};
         const previous = history.at(-2) || {};

@@ -366,8 +366,12 @@
     "logo": "",
     "website": "https://loanch.com",
     "owners": [
-      "evaldas"
-    ]
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Loanch Rima.xlsx"
+    }
   },
   {
     "id": "nectaro",

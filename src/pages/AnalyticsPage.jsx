@@ -15,6 +15,24 @@ const pct = (v) => `${new Intl.NumberFormat("lt-LT", { minimumFractionDigits: 2,
 const month = (d) => new Intl.DateTimeFormat("lt-LT", { year: "numeric", month: "short" }).format(new Date(`${d}T12:00:00`));
 const fullDate = (d) => d ? new Intl.DateTimeFormat("lt-LT", { year: "numeric", month: "long", day: "numeric" }).format(new Date(`${d}T12:00:00`)) : "–";
 
+
+function normalizeHistoryPayload(payload) {
+  if (Array.isArray(payload)) {
+    const history = payload.filter(Boolean);
+    return { history, latest: history.at(-1) || {}, period: { months: history.length } };
+  }
+  if (payload && typeof payload === "object") {
+    const history = Array.isArray(payload.history) ? payload.history : [];
+    return {
+      ...payload,
+      history,
+      latest: payload.latest || history.at(-1) || {},
+      period: payload.period || { months: history.length },
+    };
+  }
+  return { history: [], latest: {}, period: { months: 0 } };
+}
+
 function LineChart({ rows }) {
   const [hover, setHover] = useState(null);
   const ref = useRef(null);
@@ -151,7 +169,13 @@ export default function AnalyticsPage() {
         loadJson(ownerPath(owner, "platform_history.json")),
         loadJson(ownerPath(owner, "portfolio.json"), true),
       ]);
-      return { portfolio, funds, p2p, platforms, portfolioData };
+      return {
+        portfolio: normalizeHistoryPayload(portfolio),
+        funds: normalizeHistoryPayload(funds),
+        p2p: normalizeHistoryPayload(p2p),
+        platforms,
+        portfolioData,
+      };
     }
 
     const request = ownerId === "family"
@@ -169,7 +193,13 @@ export default function AnalyticsPage() {
           loadJson(dataPath("p2p_history.json")),
           loadJson(dataPath("platform_history.json")),
           loadJson(dataPath("portfolio.json"), true),
-        ]).then(([portfolio, funds, p2p, platforms, portfolioData]) => ({ portfolio, funds, p2p, platforms, portfolioData }));
+        ]).then(([portfolio, funds, p2p, platforms, portfolioData]) => ({
+          portfolio: normalizeHistoryPayload(portfolio),
+          funds: normalizeHistoryPayload(funds),
+          p2p: normalizeHistoryPayload(p2p),
+          platforms,
+          portfolioData,
+        }));
 
     request.then((payload) => {
       if (live) { setData(payload); setError(""); }
@@ -189,8 +219,8 @@ export default function AnalyticsPage() {
     const latest = data.portfolio.latest || all.at(-1) || {};
     const periodResult = rows.reduce((s,r)=>s+(Number(r.monthlyResult)||0),0);
     const periodContrib = rows.reduce((s,r)=>s+(Number(r.monthlyContribution)||0),0);
-    const best = [...all].sort((a,b)=>(b.monthlyResult||0)-(a.monthlyResult||0))[0];
-    const worst = [...all].sort((a,b)=>(a.monthlyResult||0)-(b.monthlyResult||0))[0];
+    const best = [...all].sort((a,b)=>(b.monthlyResult||0)-(a.monthlyResult||0))[0] || {};
+    const worst = [...all].sort((a,b)=>(a.monthlyResult||0)-(b.monthlyResult||0))[0] || {};
     const positive = all.filter(r => (r.monthlyResult||0)>0).length;
     const years = Object.values(all.reduce((acc,r)=>{
       const y=r.date.slice(0,4); acc[y] ||= {year:y,result:0,contribution:0,start:null,end:null};
@@ -259,7 +289,10 @@ export default function AnalyticsPage() {
     <section className="an-two-grid">
       <article className="an-card"><header className="an-card-head"><div><p>PINIGŲ SRAUTAS</p><h2>Mėnesio rezultatai ir įnašai</h2><span>Paskutiniai 12 mėnesių</span></div></header><div className="an-legend"><span><i className="result"/>Rezultatas</span><span><i className="contribution"/>Įnašas</span></div><MonthlyBars rows={model.all.slice(-12)}/></article>
       <article className="an-card"><header className="an-card-head"><div><p>TURTO KLASĖS</p><h2>Fondai ir P2P</h2><span>Dabartinis rezultatas</span></div></header>
-        {[data.funds.latest,data.p2p.latest].map((r,i)=><div className="an-compare" key={i}><div><strong>{i===0?"Fondai ir brokeriai":"P2P ir NT"}</strong><span>{euro(r.value)}</span></div><div className="an-progress"><i style={{width:`${Math.max(3,r.value/latest.value*100)}%`}}/></div><div><small>Pelnas <b className={r.profit>=0?"positive":"negative"}>{euro(r.profit)}</b></small><small>ROI <b>{pct(r.returnRate)}</b></small></div></div>)}
+        {[
+          data.funds?.latest || data.funds?.history?.at(-1) || {},
+          data.p2p?.latest || data.p2p?.history?.at(-1) || {},
+        ].map((r,i)=><div className="an-compare" key={i}><div><strong>{i===0?"Fondai ir brokeriai":"P2P ir NT"}</strong><span>{euro(r.value)}</span></div><div className="an-progress"><i style={{width:`${Math.max(3, latest.value > 0 ? (Number(r.value)||0)/latest.value*100 : 3)}%`}}/></div><div><small>Pelnas <b className={(r.profit||0)>=0?"positive":"negative"}>{euro(r.profit)}</b></small><small>ROI <b>{pct(r.returnRate)}</b></small></div></div>)}
       </article>
     </section>
 
@@ -304,8 +337,8 @@ export default function AnalyticsPage() {
     </section>
 
     <section className="an-insights an-insights-six">
-      <article><span>Geriausias mėnuo</span><strong>{month(model.best.date)}</strong><b className="positive">{euro(model.best.monthlyResult)}</b></article>
-      <article><span>Silpniausias mėnuo</span><strong>{month(model.worst.date)}</strong><b className="negative">{euro(model.worst.monthlyResult)}</b></article>
+      <article><span>Geriausias mėnuo</span><strong>{month(model.best?.date)}</strong><b className="positive">{euro(model.best.monthlyResult)}</b></article>
+      <article><span>Silpniausias mėnuo</span><strong>{month(model.worst?.date)}</strong><b className="negative">{euro(model.worst.monthlyResult)}</b></article>
       <article className="is-clickable" onClick={()=>{if(model.topProfit?.ownerId)selectOwner(model.topProfit.ownerId);if(model.topProfit)navigate(`/platforms/${model.topProfit.slug}`)}}><span>Didžiausias pelnas</span><strong>{model.topProfit?.name || "–"}</strong><b className="positive">{euro(model.topProfit?.profit)}</b></article>
       <article className="is-clickable" onClick={()=>{if(model.topRoi?.ownerId)selectOwner(model.topRoi.ownerId);if(model.topRoi)navigate(`/platforms/${model.topRoi.slug}`)}}><span>Didžiausia ROI</span><strong>{model.topRoi?.name || "–"}</strong><b className="positive">{pct(model.topRoi?.roi)}</b></article>
       <article className="is-clickable" onClick={()=>{if(model.topValue?.ownerId)selectOwner(model.topValue.ownerId);if(model.topValue)navigate(`/platforms/${model.topValue.slug}`)}}><span>Didžiausia vertė</span><strong>{model.topValue?.name || "–"}</strong><b>{euro(model.topValue?.value)}</b></article>

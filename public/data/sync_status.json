@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-07T20:54:03.310902+03:00",
+  "generatedAt": "2026-08-07T21:36:23.091332+03:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -18,8 +18,8 @@
       "initials": "R",
       "status": "ok",
       "updatedAt": "2026-07-31",
-      "platforms": 8,
-      "records": 71
+      "platforms": 9,
+      "records": 80
     },
     {
       "id": "gerda",
@@ -345,6 +345,19 @@
       "task": "portfolio importer"
     },
     {
+      "platformName": "Loanch",
+      "ownerId": "rima",
+      "ownerName": "Rima",
+      "moduleType": "p2p_loans",
+      "sourceFile": "Excel / JSON",
+      "status": "ok",
+      "records": 9,
+      "latestDataDate": "2026-08-07",
+      "durationSeconds": 0,
+      "error": "",
+      "task": "portfolio importer"
+    },
+    {
       "platformName": "Nordstreet",
       "ownerId": "rima",
       "ownerName": "Rima",
@@ -425,6 +438,11 @@
   ],
   "history": [
     {
+      "generatedAt": "2026-08-07T21:36:23.091332+03:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
+    {
       "generatedAt": "2026-08-07T20:54:03.310902+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
@@ -468,11 +486,6 @@
       "generatedAt": "2026-08-03T21:31:32.350883+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
-    },
-    {
-      "generatedAt": "2026-08-02T17:19:31.787279+03:00",
-      "durationSeconds": 42.228,
-      "status": "ok"
     }
   ],
   "system": {
@@ -482,27 +495,27 @@
   },
   "log": [
     {
-      "time": "20:54:03",
+      "time": "21:36:23",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "20:54:03",
+      "time": "21:36:23",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "20:54:03",
+      "time": "21:36:23",
       "level": "success",
-      "message": "Rima: 8 platformų patikrinta."
+      "message": "Rima: 9 platformų patikrinta."
     },
     {
-      "time": "20:54:03",
+      "time": "21:36:23",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "20:54:03",
+      "time": "21:36:23",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }
