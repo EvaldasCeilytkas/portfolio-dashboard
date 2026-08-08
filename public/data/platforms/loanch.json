@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:14:23+03:00",
+  "generatedAt": "2026-08-08T11:03:18+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -21,7 +21,7 @@
     "currentValue": 20.58,
     "profit": 0.58,
     "returnRate": 2.9,
-    "xirr": 12.01,
+    "xirr": 11.4819,
     "cash": 0.0,
     "incomeReceived": 0.58,
     "activeInvestments": 0,
@@ -212,7 +212,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-08-01",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -675,6 +675,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 9,
     "skippedSheets": [],
-    "generatedAt": "2026-08-08T10:14:23+03:00"
+    "generatedAt": "2026-08-08T11:03:18+03:00"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:14:52+03:00",
+  "generatedAt": "2026-08-08T11:03:58+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "peerberry",
@@ -21,7 +21,7 @@
     "currentValue": 20.16,
     "profit": 0.16,
     "returnRate": 0.8,
-    "xirr": 9.2133,
+    "xirr": 7.7425,
     "cash": 0.16,
     "incomeReceived": 0.16,
     "activeInvestments": 2,
@@ -224,7 +224,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-07-26",
+      "date": "2026-08-01",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -376,6 +376,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 2,
     "skippedSheets": [],
-    "generatedAt": "2026-08-08T10:14:52+03:00"
+    "generatedAt": "2026-08-08T11:03:58+03:00"
   }
 }

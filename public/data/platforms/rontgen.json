@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:15:28+03:00",
+  "generatedAt": "2026-08-08T11:04:50+03:00",
   "platform": {
     "id": "rontgen",
     "slug": "rontgen",
@@ -19,7 +19,7 @@
     "currentValue": 704.67,
     "profit": 30.46,
     "returnRate": 4.5179,
-    "xirr": 7.188,
+    "xirr": 7.0934,
     "cash": 0.5,
     "incomeReceived": 26.46,
     "activeInvestments": 8,

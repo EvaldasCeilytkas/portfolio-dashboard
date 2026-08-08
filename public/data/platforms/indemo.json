@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:14:22+03:00",
+  "generatedAt": "2026-08-08T11:03:16+03:00",
   "moduleType": "indemo",
   "platform": {
     "id": "indemo",
@@ -23,36 +23,36 @@
     }
   },
   "summary": {
-    "invested": 626.18,
-    "currentValue": 626.72,
-    "profit": 86.72,
-    "returnRate": 13.84,
-    "xirr": 14.53,
-    "cash": 0.54,
-    "incomeReceived": 2.54,
+    "invested": 636.74,
+    "currentValue": 637.06,
+    "profit": 87.06,
+    "returnRate": 13.67,
+    "xirr": 14.43,
+    "cash": 0.32,
+    "incomeReceived": 2.57,
     "activeInvestments": 80,
     "delayedInvestments": 0,
-    "completedInvestments": 7,
+    "completedInvestments": 8,
     "averageRate": null,
-    "averageLtv": 0.5774,
-    "deposited": 540.0,
+    "averageLtv": 0.5797,
+    "deposited": 550.0,
     "withdrawn": 0.0,
-    "totalInvested": 626.18,
-    "lifetimeInvested": 649.94,
-    "outstanding": 626.18,
-    "bonuses": 84.18,
-    "repaidPrincipal": 23.76,
-    "interestReceived": 2.54,
-    "extraReceived": 4.25,
-    "portfolioValue": 626.72,
-    "roi": 13.84,
-    "totalProjects": 87,
+    "totalInvested": 636.74,
+    "lifetimeInvested": 660.61,
+    "outstanding": 636.74,
+    "bonuses": 84.49,
+    "repaidPrincipal": 23.87,
+    "interestReceived": 2.57,
+    "extraReceived": 4.5,
+    "portfolioValue": 637.06,
+    "roi": 13.67,
+    "totalProjects": 88,
     "activeProjects": 80,
     "delayedProjects": 0,
-    "repaidProjects": 7,
-    "completedProjects": 7,
-    "averagePtv": 0.5774,
-    "averagePdt": 0.6091
+    "repaidProjects": 8,
+    "completedProjects": 8,
+    "averagePtv": 0.5797,
+    "averagePdt": 0.6069
   },
   "history": [
     {
@@ -313,26 +313,26 @@
     },
     {
       "date": "2026-07-31",
-      "invested": 540.0,
-      "value": 630.97,
-      "profit": 90.97,
+      "invested": 550.0,
+      "value": 641.56,
+      "profit": 91.56,
       "cash": 0.0,
-      "income": 0.0,
-      "deposits": 10.0,
+      "income": 0.28,
+      "deposits": 20.0,
       "withdrawals": 0.0,
-      "bonuses": 0.53,
-      "principalRepaid": 0.0,
-      "interest": 0.0,
-      "extraIncome": 0.0,
-      "monthlyProfit": 0.53,
-      "monthlyReturn": 0.08
+      "bonuses": 0.84,
+      "principalRepaid": 0.11,
+      "interest": 0.03,
+      "extraIncome": 0.25,
+      "monthlyProfit": 1.12,
+      "monthlyReturn": 0.17
     },
     {
       "date": "2026-08-31",
-      "invested": 540.0,
-      "value": 626.72,
-      "profit": 86.72,
-      "cash": 0.54,
+      "invested": 550.0,
+      "value": 637.06,
+      "profit": 87.06,
+      "cash": 0.32,
       "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
@@ -346,10 +346,10 @@
   ],
   "latestMonth": {
     "date": "2026-08-31",
-    "invested": 540.0,
-    "value": 626.72,
-    "profit": 86.72,
-    "cash": 0.54,
+    "invested": 550.0,
+    "value": 637.06,
+    "profit": 87.06,
+    "cash": 0.32,
     "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
@@ -491,15 +491,15 @@
       },
       {
         "label": "J",
-        "count": 33,
-        "value": 203.61,
-        "display": "203.61 €"
+        "count": 32,
+        "value": 203.5,
+        "display": "203.50 €"
       },
       {
         "label": "R",
-        "count": 46,
-        "value": 404.86,
-        "display": "404.86 €"
+        "count": 47,
+        "value": 415.53,
+        "display": "415.53 €"
       }
     ],
     "ptv": [
@@ -517,23 +517,23 @@
       },
       {
         "label": ">70 %",
-        "count": 6,
-        "value": 55.37,
-        "display": "55.37 €"
+        "count": 7,
+        "value": 66.04,
+        "display": "66.04 €"
       },
       {
         "label": "≤50 %",
-        "count": 11,
-        "value": 121.8,
-        "display": "121.80 €"
+        "count": 10,
+        "value": 121.69,
+        "display": "121.69 €"
       }
     ],
     "pdt": [
       {
         "label": "41–50 %",
-        "count": 14,
-        "value": 88.78,
-        "display": "88.78 €"
+        "count": 15,
+        "value": 99.45,
+        "display": "99.45 €"
       },
       {
         "label": "51–60 %",
@@ -549,9 +549,9 @@
       },
       {
         "label": "≤40 %",
-        "count": 19,
-        "value": 58.57,
-        "display": "58.57 €"
+        "count": 18,
+        "value": 58.46,
+        "display": "58.46 €"
       }
     ]
   },
@@ -713,7 +713,13 @@
       "bonuses": 0.53
     },
     {
-      "date": "2026-07-29",
+      "date": "2026-07-30",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.31
+    },
+    {
+      "date": "2026-08-02",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonuses": 0.0
@@ -2180,15 +2186,15 @@
       "pdt": 0.15,
       "investmentDate": "2025-04-29",
       "loanStartDate": "2024-09-16",
-      "actualRepayment": null,
-      "durationDays": null,
+      "actualRepayment": "2026-07-30",
+      "durationDays": 682,
       "invested": 0.11,
-      "repaidPrincipal": 0.0,
-      "outstanding": 0.11,
-      "interestReceived": 0.0,
-      "extraReceived": 0.0,
-      "xirr": 0.0,
-      "status": "active",
+      "repaidPrincipal": 0.11,
+      "outstanding": 0.0,
+      "interestReceived": 0.03,
+      "extraReceived": 0.25,
+      "xirr": 21.24,
+      "status": "repaid",
       "delayDays": 0,
       "investments": [
         {
@@ -2198,7 +2204,15 @@
           "amount": 0.11
         }
       ],
-      "repayments": []
+      "repayments": [
+        {
+          "date": "2026-07-30",
+          "principal": 0.11,
+          "interest": 0.03,
+          "extra": 0.25,
+          "days": 457
+        }
+      ]
     },
     {
       "id": "J066",
@@ -5428,6 +5442,37 @@
           "note": "LVX0000UAG94",
           "date": "2026-05-27",
           "amount": 13.87
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "R259",
+      "slug": "r259",
+      "loanCode": "R259",
+      "sourceSheet": "R259",
+      "name": "Apartment in Barcelona",
+      "loanGroup": "R",
+      "ptv": 0.71,
+      "pdt": 0.47,
+      "investmentDate": "2026-07-30",
+      "loanStartDate": "2026-07-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 10.67,
+      "repaidPrincipal": 0.0,
+      "outstanding": 10.67,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LVX0000V82T4",
+          "date": "2026-07-30",
+          "amount": 10.67
         }
       ],
       "repayments": []
@@ -6894,15 +6939,15 @@
       "pdt": 0.15,
       "investmentDate": "2025-04-29",
       "loanStartDate": "2024-09-16",
-      "actualRepayment": null,
-      "durationDays": null,
+      "actualRepayment": "2026-07-30",
+      "durationDays": 682,
       "invested": 0.11,
-      "repaidPrincipal": 0.0,
-      "outstanding": 0.11,
-      "interestReceived": 0.0,
-      "extraReceived": 0.0,
-      "xirr": 0.0,
-      "status": "active",
+      "repaidPrincipal": 0.11,
+      "outstanding": 0.0,
+      "interestReceived": 0.03,
+      "extraReceived": 0.25,
+      "xirr": 21.24,
+      "status": "repaid",
       "delayDays": 0,
       "investments": [
         {
@@ -6912,7 +6957,15 @@
           "amount": 0.11
         }
       ],
-      "repayments": []
+      "repayments": [
+        {
+          "date": "2026-07-30",
+          "principal": 0.11,
+          "interest": 0.03,
+          "extra": 0.25,
+          "days": 457
+        }
+      ]
     },
     {
       "id": "J066",
@@ -10145,14 +10198,45 @@
         }
       ],
       "repayments": []
+    },
+    {
+      "id": "R259",
+      "slug": "r259",
+      "loanCode": "R259",
+      "sourceSheet": "R259",
+      "name": "Apartment in Barcelona",
+      "loanGroup": "R",
+      "ptv": 0.71,
+      "pdt": 0.47,
+      "investmentDate": "2026-07-30",
+      "loanStartDate": "2026-07-24",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 10.67,
+      "repaidPrincipal": 0.0,
+      "outstanding": 10.67,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LVX0000V82T4",
+          "date": "2026-07-30",
+          "amount": 10.67
+        }
+      ],
+      "repayments": []
     }
   ],
   "source": {
     "file": "Indemo.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "projectSheets": 87,
+    "projectSheets": 88,
     "skippedSheets": [],
-    "generatedAt": "2026-08-08T10:14:22+03:00"
+    "generatedAt": "2026-08-08T11:03:16+03:00"
   }
 }

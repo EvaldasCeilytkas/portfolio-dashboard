@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:14:19+03:00",
+  "generatedAt": "2026-08-08T11:03:14+03:00",
   "platform": {
     "id": "crowdpear",
     "slug": "crowdpear",
@@ -19,7 +19,7 @@
     "currentValue": 1186.48,
     "profit": 156.48,
     "returnRate": 15.1922,
-    "xirr": 13.0741,
+    "xirr": 12.7843,
     "cash": 0.0,
     "incomeReceived": 116.48,
     "activeInvestments": 11,
@@ -2618,7 +2618,7 @@
           "historicalDelayDays": 0
         }
       ],
-      "interestStartDate": null,
+      "interestStartDate": "2026-07-09",
       "durationMonths": 12,
       "paymentFrequency": "Q",
       "maxLtv": 70.0,
@@ -2637,12 +2637,12 @@
       "currency": "EUR",
       "invested": 110.51,
       "currentValue": 110.51,
-      "profit": 0,
+      "profit": 0.0,
       "investmentDate": "2026-07-29",
       "completionDate": null,
       "country": null,
       "interestRate": 9.5,
-      "incomeReceived": 0,
+      "incomeReceived": 0.0,
       "outstanding": 110.51,
       "delayDays": 0,
       "ltv": 70.0,
@@ -2652,15 +2652,66 @@
       "ticker": null,
       "isin": null,
       "rating": "C",
-      "maturityDate": "2027-07-29",
+      "maturityDate": "2027-08-04",
       "payments": [],
-      "paymentSchedule": [],
-      "interestStartDate": null,
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-11-03",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.74,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-02-01",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.57,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.6,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-08-04",
+          "plannedPrincipal": 110.51,
+          "plannedInterest": 2.74,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 110.51,
+          "plannedInterest": 10.65,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-08-04",
       "durationMonths": 12,
       "paymentFrequency": "Q",
       "maxLtv": 75.0,
-      "repaidPrincipal": 0,
-      "plannedInterest": 0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 21.3,
       "sourceSheets": [
         "Užnerio butai XV"
       ]

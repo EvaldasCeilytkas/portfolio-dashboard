@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:15:36+03:00",
+  "generatedAt": "2026-08-08T11:04:58+03:00",
   "platform": {
     "id": "synergy",
     "slug": "synergy",
@@ -18,10 +18,10 @@
     "invested": 350.0,
     "netInvested": 343.01,
     "totalContributed": 350.0,
-    "currentValue": 475.63,
-    "profit": 125.63,
+    "currentValue": 471.62,
+    "profit": 121.62,
     "realizedProfit": 0.0,
-    "returnRate": 35.89,
+    "returnRate": 34.75,
     "xirr": null,
     "cash": 0.0,
     "incomeReceived": 0.0,
@@ -543,6 +543,23 @@
       "activeInvestments": 2,
       "delayedInvestments": 0,
       "completedInvestments": 0
+    },
+    {
+      "date": "2026-07-01",
+      "month": "2026-07",
+      "invested": 350.0,
+      "netInvested": 343.01,
+      "currentValue": 471.62,
+      "profit": 121.62,
+      "returnRate": 34.75,
+      "cash": 0.0,
+      "income": 0.0,
+      "fees": 0.0,
+      "contributions": 0.0,
+      "withdrawals": 0.0,
+      "activeInvestments": 2,
+      "delayedInvestments": 0,
+      "completedInvestments": 0
     }
   ],
   "investments": [
@@ -559,11 +576,11 @@
       "endDate": null,
       "invested": 300.0,
       "netInvested": 294.01,
-      "currentValue": 394.42,
-      "profit": 94.42,
-      "returnRate": 34.15,
+      "currentValue": 392.99,
+      "profit": 92.99,
+      "returnRate": 33.67,
       "quantity": 1.0058,
-      "price": 392.1498,
+      "price": 390.72,
       "realizedProceeds": 0.0,
       "dividends": 0.0,
       "fees": 5.99
@@ -581,11 +598,11 @@
       "endDate": null,
       "invested": 50.0,
       "netInvested": 49.0,
-      "currentValue": 81.21,
-      "profit": 31.21,
-      "returnRate": 65.73,
+      "currentValue": 78.63,
+      "profit": 28.63,
+      "returnRate": 60.47,
       "quantity": 0.5081,
-      "price": 159.8264,
+      "price": 154.75,
       "realizedProceeds": 0.0,
       "dividends": 0.0,
       "fees": 1.0
@@ -597,7 +614,7 @@
         "key": "active",
         "label": "Aktyvūs",
         "count": 2,
-        "value": 475.63
+        "value": 471.62
       },
       {
         "key": "completed",
@@ -611,26 +628,26 @@
         "key": "NTF",
         "label": "NTF",
         "name": "Nextury Technology",
-        "value": 394.42,
-        "weight": 82.9258
+        "value": 392.99,
+        "weight": 83.3277
       },
       {
         "key": "NAF",
         "label": "NAF",
         "name": "Nextury Asia",
-        "value": 81.21,
-        "weight": 17.0742
+        "value": 78.63,
+        "weight": 16.6723
       }
     ]
   },
   "latestMonth": {
-    "date": "2026-06-01",
-    "month": "2026-06",
+    "date": "2026-07-01",
+    "month": "2026-07",
     "invested": 350.0,
     "netInvested": 343.01,
-    "currentValue": 475.63,
-    "profit": 125.63,
-    "returnRate": 35.89,
+    "currentValue": 471.62,
+    "profit": 121.62,
+    "returnRate": 34.75,
     "cash": 0.0,
     "income": 0.0,
     "fees": 0.0,
@@ -644,7 +661,7 @@
     "id": "nextury-technology",
     "ticker": "NTF",
     "name": "Nextury Technology",
-    "currentValue": 394.42
+    "currentValue": 392.99
   },
   "source": {
     "file": "Synergy.xlsx",
@@ -654,6 +671,7 @@
       "Nextury Asia"
     ],
     "monthlySheets": [
+      "2026.07",
       "2026.06",
       "2026.05",
       "2026.04",

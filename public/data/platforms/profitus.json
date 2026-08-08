@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:15:14+03:00",
+  "generatedAt": "2026-08-08T11:04:32+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -16,14 +16,14 @@
   },
   "summary": {
     "invested": 1020.0,
-    "currentValue": 1122.19,
-    "profit": 102.19,
-    "returnRate": 10.0186,
-    "xirr": 8.4388,
-    "cash": 14.79,
-    "incomeReceived": 92.19,
-    "activeInvestments": 7,
-    "delayedInvestments": 3,
+    "currentValue": 1125.34,
+    "profit": 105.34,
+    "returnRate": 10.3275,
+    "xirr": 8.6754,
+    "cash": 17.94,
+    "incomeReceived": 95.34,
+    "activeInvestments": 9,
+    "delayedInvestments": 1,
     "completedInvestments": 9,
     "averageRate": 8.664,
     "averageLtv": 61.2633
@@ -32,9 +32,9 @@
     {
       "date": "2026-08-01",
       "invested": 1020.0,
-      "value": 1122.19,
-      "profit": 102.19,
-      "cash": 14.79,
+      "value": 1125.34,
+      "profit": 105.34,
+      "cash": 17.94,
       "income": 0.0
     }
   ],
@@ -1518,18 +1518,18 @@
       "code": "Paskola P00001514-2",
       "name": "Sklypas Kalnėnuose, Vilnius II",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 104.1,
       "currentValue": 104.1,
-      "profit": 4.88,
+      "profit": 9.08,
       "investmentDate": "2026-01-06",
       "completionDate": null,
       "country": null,
       "interestRate": 8.0,
-      "incomeReceived": 4.88,
+      "incomeReceived": 9.08,
       "outstanding": 104.1,
-      "delayDays": 8,
+      "delayDays": 0,
       "ltv": 55.0,
       "quantity": null,
       "averagePrice": null,
@@ -1543,6 +1543,12 @@
           "date": "2026-04-30",
           "type": "interest",
           "amount": 2.44,
+          "note": null
+        },
+        {
+          "date": "2026-07-31",
+          "type": "interest",
+          "amount": 2.1,
           "note": null
         }
       ],
@@ -1561,9 +1567,9 @@
           "plannedDate": "2026-07-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.1,
-          "actualDate": null,
+          "actualDate": "2026-07-31",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.1,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -1593,7 +1599,7 @@
           "plannedInterest": 8.28,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 2.44,
+          "actualInterest": 4.54,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -1809,18 +1815,18 @@
       "code": "Paskola P00001560",
       "name": "Brivibas 28, Jūrmala",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 135.7,
       "currentValue": 135.7,
-      "profit": 6.48,
+      "profit": 8.58,
       "investmentDate": "2026-03-20",
       "completionDate": null,
       "country": null,
       "interestRate": 9.5,
-      "incomeReceived": 6.48,
+      "incomeReceived": 8.58,
       "outstanding": 135.7,
-      "delayDays": 8,
+      "delayDays": 0,
       "ltv": 71.0,
       "quantity": null,
       "averagePrice": null,
@@ -1846,6 +1852,12 @@
           "date": "2026-06-30",
           "type": "interest",
           "amount": 1.01,
+          "note": null
+        },
+        {
+          "date": "2026-07-31",
+          "type": "interest",
+          "amount": 1.05,
           "note": null
         }
       ],
@@ -1884,9 +1896,9 @@
           "plannedDate": "2026-07-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 1.05,
-          "actualDate": null,
+          "actualDate": "2026-07-31",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 1.05,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -1976,7 +1988,7 @@
           "plannedInterest": 12.27,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 3.24,
+          "actualInterest": 4.29,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
