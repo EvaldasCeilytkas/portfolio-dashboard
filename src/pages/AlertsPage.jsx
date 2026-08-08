@@ -107,8 +107,9 @@ export default function AlertsPage() {
     const totalInvestments = sum(activePlatforms, "totalInvestments");
     const activeInvestments = sum(activePlatforms, "activeInvestments");
     const delayedInvestments = sum(activePlatforms, "delayedInvestments");
+    const openInvestments = activeInvestments + delayedInvestments;
     const completedInvestments = sum(activePlatforms, "completedInvestments");
-    const delayedShare = activeInvestments > 0 ? delayedInvestments / activeInvestments * 100 : 0;
+    const delayedShare = openInvestments > 0 ? delayedInvestments / openInvestments * 100 : 0;
 
     const latest = history.at(-1) || {};
     const previous = history.at(-2) || {};
@@ -125,8 +126,10 @@ export default function AlertsPage() {
     const alerts = [];
 
     delayedPlatforms.forEach((platform) => {
-      const platformActive = Math.max(Number(platform.activeInvestments) || 0, 1);
-      const platformDelayedShare = platform.delayedInvestments / platformActive * 100;
+      const platformActive = Number(platform.activeInvestments) || 0;
+      const platformDelayed = Number(platform.delayedInvestments) || 0;
+      const platformOpen = platformActive + platformDelayed;
+      const platformDelayedShare = platformOpen > 0 ? platformDelayed / platformOpen * 100 : 0;
       const severity = platform.delayedInvestments >= 5 || platformDelayedShare >= 20
         ? "critical"
         : platform.delayedInvestments >= 2 || platformDelayedShare >= 8
@@ -137,7 +140,7 @@ export default function AlertsPage() {
         id: `delay-${platform.ownerId}-${platform.slug}`,
         severity,
         title: `${platform.name}: vėluojančios investicijos`,
-        description: `${integer(platform.delayedInvestments)} vėluoja iš ${integer(platform.activeInvestments)} aktyvių (${percent(platformDelayedShare)}).`,
+        description: `${integer(platform.delayedInvestments)} vėluoja iš ${integer(platformOpen)} aktyvių (${percent(platformDelayedShare)}).`,
         platform,
         metric: integer(platform.delayedInvestments),
         metricLabel: "vėluoja",
@@ -199,8 +202,10 @@ export default function AlertsPage() {
 
     const platformHealth = activePlatforms
       .map((platform) => {
-        const platformActive = Math.max(Number(platform.activeInvestments) || 0, 1);
-        const platformDelayedShare = platform.delayedInvestments / platformActive * 100;
+        const platformActive = Number(platform.activeInvestments) || 0;
+        const platformDelayed = Number(platform.delayedInvestments) || 0;
+        const platformOpen = platformActive + platformDelayed;
+        const platformDelayedShare = platformOpen > 0 ? platformDelayed / platformOpen * 100 : 0;
         const share = totalValue > 0 ? platform.currentValue / totalValue * 100 : 0;
         let score = 100;
         score -= clamp(platformDelayedShare * 2.4, 0, 55);
@@ -218,7 +223,7 @@ export default function AlertsPage() {
         level: delayedShare >= 10 ? "critical" : delayedShare > 0 ? "medium" : "info",
         title: "Vėluojančių investicijų dalis",
         value: percent(delayedShare),
-        description: `${integer(delayedInvestments)} iš ${integer(activeInvestments)} aktyvių investicijų.`,
+        description: `${integer(delayedInvestments)} iš ${integer(openInvestments)} aktyvių investicijų.`,
       },
       {
         level: maxShare >= 30 ? "high" : maxShare >= 20 ? "medium" : "info",

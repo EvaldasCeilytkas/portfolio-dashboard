@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T22:18:46+03:00",
+  "generatedAt": "2026-08-08T10:14:24+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "nectaro",
@@ -4668,6 +4668,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 43,
     "skippedSheets": [],
-    "generatedAt": "2026-08-07T22:18:46+03:00"
+    "generatedAt": "2026-08-08T10:14:24+03:00"
   }
 }

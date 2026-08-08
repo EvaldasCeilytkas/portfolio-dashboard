@@ -114,14 +114,15 @@ export default function PerformancePage() {
     const totalInvestments = sum(active, "totalInvestments");
     const activeInvestments = sum(active, "activeInvestments");
     const delayedInvestments = sum(active, "delayedInvestments");
+    const openInvestments = activeInvestments + delayedInvestments;
     const completedInvestments = sum(active, "completedInvestments");
-    const delayedShare = activeInvestments > 0 ? delayedInvestments / activeInvestments * 100 : 0;
+    const delayedShare = openInvestments > 0 ? delayedInvestments / openInvestments * 100 : 0;
     const maxShare = totalValue > 0 && topValue ? topValue.currentValue / totalValue * 100 : 0;
     const avgInvestmentsPerPlatform = active.length > 0 ? totalInvestments / active.length : 0;
     const avgValuePerPlatform = active.length > 0 ? totalValue / active.length : 0;
     const positiveMonths = monthly.filter((row) => row.monthlyResult > 0).length;
 
-    return { active, ranked, latest, totalValue, totalInvested, totalProfit, topProfit, topRoi, topValue, risky, bestMonth, worstMonth, avgMonth, groups, sortedPlatforms, totalInvestments, activeInvestments, delayedInvestments, completedInvestments, delayedShare, maxShare, avgInvestmentsPerPlatform, avgValuePerPlatform, positiveMonths };
+    return { active, ranked, latest, totalValue, totalInvested, totalProfit, topProfit, topRoi, topValue, risky, bestMonth, worstMonth, avgMonth, groups, sortedPlatforms, totalInvestments, activeInvestments, openInvestments, delayedInvestments, completedInvestments, delayedShare, maxShare, avgInvestmentsPerPlatform, avgValuePerPlatform, positiveMonths };
   }, [platforms, history, sortBy, ownerFilter, ownerId]);
 
   function openPlatform(platform) {
@@ -146,7 +147,7 @@ export default function PerformancePage() {
       <article><span>Didžiausias ROI</span><strong>{model.topRoi?.name || "–"}</strong><b className="positive">{percent(model.topRoi?.returnRate)}</b>{model.topRoi && <><small>{money(model.topRoi.invested)} investuota · {money(model.topRoi.profit)} pelno</small><OwnerBadge {...model.topRoi} /></>}</article>
       <article><span>Didžiausia pozicija</span><strong>{model.topValue?.name || "–"}</strong><b>{money(model.topValue?.currentValue)}</b><small>{percent(model.maxShare)} portfelio</small></article>
       <article><span>Geriausias mėnuo</span><strong>{monthLabel(model.bestMonth?.date)}</strong><b className="positive">{money(model.bestMonth?.monthlyResult)}</b><small>Istorinis mėnesio rezultatas</small></article>
-      <article><span>Vėlavimų dalis</span><strong>{percent(model.delayedShare)}</strong><b className={model.delayedInvestments > 0 ? "warning" : "positive"}>{model.delayedInvestments} vėluoja</b><small>Iš {model.activeInvestments} aktyvių investicijų</small></article>
+      <article><span>Vėlavimų dalis</span><strong>{percent(model.delayedShare)}</strong><b className={model.delayedInvestments > 0 ? "warning" : "positive"}>{model.delayedInvestments} vėluoja</b><small>Iš {model.openInvestments} aktyvių investicijų</small></article>
     </section>
 
     <section className="pc-grid pc-grid-main">
@@ -200,7 +201,7 @@ export default function PerformancePage() {
       </div></article>
 
       <article className="pc-card"><header><div><p>RIZIKOS SUVESTINĖ</p><h2>Portfelio būklė</h2></div></header><div className="pc-risk-grid">
-        <div><span>Platformos</span><strong>{model.active.length}</strong><small>Aktyvios</small></div><div><span>Investicijos</span><strong>{model.totalInvestments}</strong><small>Visos pozicijos</small></div><div><span>Aktyvios</span><strong>{model.activeInvestments}</strong><small>Dabar portfelyje</small></div><div className={model.delayedInvestments ? "is-warning" : ""}><span>Vėluojančios</span><strong>{model.delayedInvestments}</strong><small>{percent(model.delayedShare)} aktyvių</small></div><div><span>Užbaigtos</span><strong>{model.completedInvestments}</strong><small>Istorinės pozicijos</small></div><div><span>Vidutinė aktyvi</span><strong>{money(model.activeInvestments > 0 ? model.totalValue / model.activeInvestments : 0)}</strong><small>Vienai investicijai</small></div>
+        <div><span>Platformos</span><strong>{model.active.length}</strong><small>Aktyvios</small></div><div><span>Investicijos</span><strong>{model.totalInvestments}</strong><small>Visos pozicijos</small></div><div><span>Aktyvios</span><strong>{model.openInvestments}</strong><small>Dabar portfelyje</small></div><div className={model.delayedInvestments ? "is-warning" : ""}><span>Vėluojančios</span><strong>{model.delayedInvestments}</strong><small>{percent(model.delayedShare)} aktyvių</small></div><div><span>Užbaigtos</span><strong>{model.completedInvestments}</strong><small>Istorinės pozicijos</small></div><div><span>Vidutinė aktyvi</span><strong>{money(model.openInvestments > 0 ? model.totalValue / model.openInvestments : 0)}</strong><small>Vienai investicijai</small></div>
       </div>
       <div className="pc-diversification">
         <div><span>Diversifikacija</span><strong>{model.active.length} platformos</strong><small>{model.totalInvestments} investicijos</small></div>
