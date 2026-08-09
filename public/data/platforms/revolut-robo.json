@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T21:02:45+03:00",
+  "generatedAt": "2026-08-09T21:23:36+03:00",
   "platform": {
     "id": "revolut-robo",
     "slug": "revolut-robo",
@@ -24,7 +24,7 @@
     "realizedProfit": 57.01,
     "realizedProceeds": 490.16,
     "returnRate": 13.1617,
-    "xirr": 0.0,
+    "xirr": 5.33,
     "cash": 0.0,
     "incomeReceived": 12.04,
     "fees": 3.05,

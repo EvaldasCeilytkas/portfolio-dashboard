@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T21:03:18+03:00",
+  "generatedAt": "2026-08-09T21:23:59+03:00",
   "platform": {
     "id": "seb-mikro",
     "slug": "seb-mikro",
@@ -19,7 +19,7 @@
     "currentValue": 3028.57,
     "profit": 34.0,
     "returnRate": 1.1354,
-    "xirr": 5.2479,
+    "xirr": 4.77,
     "cash": 0.0,
     "incomeReceived": 0.0,
     "fees": 8.64,

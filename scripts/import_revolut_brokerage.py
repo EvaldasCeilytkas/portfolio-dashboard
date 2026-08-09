@@ -358,7 +358,7 @@ def build_document(input_path: Path) -> dict[str, Any]:
         )
     )
 
-    overall_xirr_raw = overview.cell(2, 29).value
+    overall_xirr_raw = overview.cell(2, 45).value  # Overview!AS2
     overall_xirr = (
         round(finite_number(overall_xirr_raw) * 100, 4)
         if overall_xirr_raw is not None

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-09T21:04:59.686788+03:00",
+  "generatedAt": "2026-08-09T21:25:14.358539+03:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -438,6 +438,11 @@
   ],
   "history": [
     {
+      "generatedAt": "2026-08-09T21:25:14.358539+03:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
+    {
       "generatedAt": "2026-08-09T21:04:59.686788+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
@@ -481,11 +486,6 @@
       "generatedAt": "2026-08-07T21:36:23.091332+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
-    },
-    {
-      "generatedAt": "2026-08-07T20:54:03.310902+03:00",
-      "durationSeconds": 42.228,
-      "status": "ok"
     }
   ],
   "system": {
@@ -495,27 +495,27 @@
   },
   "log": [
     {
-      "time": "21:04:59",
+      "time": "21:25:14",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "21:04:59",
+      "time": "21:25:14",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "21:04:59",
+      "time": "21:25:14",
       "level": "success",
       "message": "Rima: 9 platformų patikrinta."
     },
     {
-      "time": "21:04:59",
+      "time": "21:25:14",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "21:04:59",
+      "time": "21:25:14",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }

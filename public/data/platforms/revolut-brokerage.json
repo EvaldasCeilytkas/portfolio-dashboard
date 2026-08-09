@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T21:02:43+03:00",
+  "generatedAt": "2026-08-09T21:23:33+03:00",
   "platform": {
     "id": "revolut-brokerage",
     "slug": "revolut-brokerage",
@@ -19,7 +19,7 @@
     "currentValue": 1938.82,
     "profit": 118.82,
     "returnRate": 6.5286,
-    "xirr": 0.0,
+    "xirr": null,
     "cash": 9.09,
     "incomeReceived": 12.47,
     "fees": 1.51,

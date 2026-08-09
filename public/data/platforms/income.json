@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T21:01:14+03:00",
+  "generatedAt": "2026-08-09T21:22:19+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "income",
@@ -21,7 +21,7 @@
     "currentValue": 30.05,
     "profit": 0.05,
     "returnRate": 0.1667,
-    "xirr": 0.0,
+    "xirr": 2.8012,
     "cash": 0.0,
     "incomeReceived": 0.05,
     "activeInvestments": 3,
@@ -192,7 +192,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-07-27",
+      "date": "2026-08-09",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -385,6 +385,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 4,
     "skippedSheets": [],
-    "generatedAt": "2026-08-09T21:01:14+03:00"
+    "generatedAt": "2026-08-09T21:22:19+03:00"
   }
 }
