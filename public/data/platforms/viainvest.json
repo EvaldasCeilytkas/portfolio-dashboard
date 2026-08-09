@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T19:59:07+03:00",
+  "generatedAt": "2026-08-09T21:03:21+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "viainvest",
@@ -2261,6 +2261,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 15,
     "skippedSheets": [],
-    "generatedAt": "2026-08-09T19:59:07+03:00"
+    "generatedAt": "2026-08-09T21:03:21+03:00"
   }
 }
