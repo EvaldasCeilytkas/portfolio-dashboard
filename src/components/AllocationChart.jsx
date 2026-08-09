@@ -1,14 +1,6 @@
 import { useState } from "react";
 import "../styles/allocationchart.css";
 
-import {
-  Cell,
-  Pie,
-  PieChart,
-  ResponsiveContainer,
-  Sector,
-} from "recharts";
-
 const COLORS = [
   "#4F9CFF",
   "#7C5CFC",
@@ -59,43 +51,18 @@ function formatShortCurrency(value) {
   return formatCurrency(numericValue);
 }
 
-function renderActiveShape(props) {
-  const {
-    cx,
-    cy,
-    innerRadius,
-    outerRadius,
-    startAngle,
-    endAngle,
-    fill,
-  } = props;
+function buildDonutGradient(items) {
+  let cursor = 0;
+  const stops = [];
 
-  return (
-    <g>
-      <Sector
-        cx={cx}
-        cy={cy}
-        innerRadius={innerRadius}
-        outerRadius={outerRadius + 7}
-        startAngle={startAngle}
-        endAngle={endAngle}
-        fill={fill}
-        stroke="rgba(248, 250, 252, 0.95)"
-        strokeWidth={1.5}
-      />
+  items.forEach((item) => {
+    const start = cursor;
+    const end = cursor + item.percent;
+    stops.push(`${item.color} ${start}% ${end}%`);
+    cursor = end;
+  });
 
-      <Sector
-        cx={cx}
-        cy={cy}
-        innerRadius={outerRadius + 10}
-        outerRadius={outerRadius + 14}
-        startAngle={startAngle}
-        endAngle={endAngle}
-        fill={fill}
-        opacity={0.2}
-      />
-    </g>
-  );
+  return `conic-gradient(${stops.join(", ")})`;
 }
 
 function AllocationChart({
@@ -161,48 +128,11 @@ function AllocationChart({
       ) : (
         <div className="allocation-content">
           <div className="allocation-chart-wrapper">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie
-                  data={chartData}
-                  dataKey="value"
-                  nameKey="name"
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={70}
-                  outerRadius={98}
-                  paddingAngle={2}
-                  stroke="rgba(226, 232, 240, 0.9)"
-                  strokeWidth={1}
-                  activeIndex={
-                    activeIndex === null
-                      ? undefined
-                      : activeIndex
-                  }
-                  activeShape={renderActiveShape}
-                  onMouseEnter={(_, index) =>
-                    handleMouseEnter(index)
-                  }
-                  onMouseLeave={handleMouseLeave}
-                  animationDuration={800}
-                  animationEasing="ease-out"
-                >
-                  {chartData.map((item, index) => (
-                    <Cell
-                      key={`${item.name}-${index}`}
-                      fill={item.color}
-                      opacity={
-                        activeIndex === null ||
-                        activeIndex === index
-                          ? 1
-                          : 0.48
-                      }
-                      className="allocation-chart-cell"
-                    />
-                  ))}
-                </Pie>
-              </PieChart>
-            </ResponsiveContainer>
+            <div
+              className="allocation-donut-ring"
+              style={{ background: buildDonutGradient(chartData) }}
+              aria-label="Portfelio paskirstymo diagrama"
+            />
 
             <div className="donut-center">
               <strong>

@@ -226,6 +226,10 @@
   line-height: 1.1;
 }
 
+.dashboard-metric .ds-stat-card__value {
+  color: #eef6ff;
+}
+
 .dashboard-metric small {
   display: block;
   margin-top: 10px;
@@ -234,11 +238,13 @@
 }
 
 .dashboard-tone-positive strong,
+.dashboard-metric.dashboard-tone-positive .ds-stat-card__value,
 .dashboard-summary-positive {
   color: #62e6bf;
 }
 
 .dashboard-tone-negative strong,
+.dashboard-metric.dashboard-tone-negative .ds-stat-card__value,
 .dashboard-summary-negative {
   color: #fb8d9d;
 }

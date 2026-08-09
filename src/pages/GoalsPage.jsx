@@ -47,7 +47,7 @@ function ProjectionChart({ currentValue, monthlyContribution, expectedReturn, ta
     <svg className="gc-chart" viewBox="0 0 930 270" role="img" aria-label="Trys portfelio vertės prognozės scenarijai">
       {[0, .25, .5, .75, 1].map((ratio) => <line key={ratio} x1="34" y1={230 - ratio * 188} x2="894" y2={230 - ratio * 188} className="gc-grid-line" />)}
       <line x1="34" y1={targetY} x2="894" y2={targetY} className="gc-target-line" />
-      <text x="884" y={Math.max(18, targetY - 8)} textAnchor="end" className="gc-target-label">Tikslas {money(targetValue)}</text>
+      <text x="48" y={Math.max(18, targetY - 8)} textAnchor="start" className="gc-target-label">Tikslas {money(targetValue)}</text>
       {scenarios.map((scenario) => {
         const points = toPoints(scenario.values);
         return <g key={scenario.key} className={`gc-scenario is-${scenario.key}`}>
