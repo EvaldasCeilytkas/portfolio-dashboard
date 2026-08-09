@@ -152,8 +152,13 @@ function getInitials(name) {
     .toUpperCase();
 }
 
-function buildPlatformRows(platformHistory, slugs, ownerId = "evaldas") {
+function buildPlatformRows(platformHistory, slugs, ownerId = "evaldas", platformDetails = []) {
   const ownerName = ownerId === "rima" ? "Rima" : ownerId === "gerda" ? "Gerda" : "Evaldas";
+  const detailBySlug = new Map(
+    platformDetails
+      .filter(Boolean)
+      .map((payload) => [payload?.platform?.slug, payload]),
+  );
 
   return slugs.map((slug) => {
     const historyItem = platformHistory?.platforms?.[slug];
@@ -163,6 +168,9 @@ function buildPlatformRows(platformHistory, slugs, ownerId = "evaldas") {
     const latest = history.at(-1) || {};
     const previous = history.at(-2) || {};
     const currentProfit = number(latest.profit);
+    const detail = detailBySlug.get(slug);
+    const rawXirr = detail?.summary?.xirr;
+    const parsedXirr = Number(rawXirr);
     const previousProfit = number(previous.profit);
 
     return {
@@ -178,6 +186,7 @@ function buildPlatformRows(platformHistory, slugs, ownerId = "evaldas") {
       value: number(latest.value),
       profit: currentProfit,
       returnRate: number(latest.returnRate),
+      xirr: rawXirr !== null && rawXirr !== undefined && rawXirr !== "" && Number.isFinite(parsedXirr) ? parsedXirr : null,
       monthlyProfit: history.length > 1 ? currentProfit - previousProfit : currentProfit,
       history,
     };
@@ -758,6 +767,7 @@ function PlatformsTable({ platforms, filter, onFilterChange, totalValue, selecte
           <span>Pelnas</span>
           <span>Šį mėnesį</span>
           <span>Grąža</span>
+          <span>XIRR</span>
           <span>Dalis</span>
         </div>
 
@@ -795,6 +805,9 @@ function PlatformsTable({ platforms, filter, onFilterChange, totalValue, selecte
                 <strong>{formatCurrency(monthResult.monthlyProfit)}</strong>
               </span>
               <span>{formatPercent(platform.returnRate)}</span>
+              <span className={platform.xirr === null ? "" : platform.xirr < 0 ? "p2p-negative" : "p2p-positive"}>
+                {platform.xirr === null ? "—" : formatPercent(platform.xirr)}
+              </span>
               <span className="p2p-share-cell">
                 <strong>{formatPercent(share)}</strong>
                 <span className="p2p-share-track"><i style={{ width: `${share}%` }} /></span>
@@ -841,6 +854,7 @@ function OwnerP2PPage() {
   const ownerSlugs = OWNER_P2P_SLUGS[ownerId] || [];
   const [p2pHistory, setP2pHistory] = useState(null);
   const [platformHistory, setPlatformHistory] = useState(null);
+  const [platformDetails, setPlatformDetails] = useState([]);
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
   const [range, setRange] = useState("1y");
@@ -894,6 +908,7 @@ function OwnerP2PPage() {
         if (active) {
           setP2pHistory(normalizeHistoryPayload(p2pPayload));
           setPlatformHistory(platformPayload);
+          setPlatformDetails(platformPayloads);
           setLoanStats(counts);
         }
       } catch (error) {
@@ -912,11 +927,11 @@ function OwnerP2PPage() {
   }, [ownerId, dataPath]);
 
   const platforms = useMemo(
-    () => buildPlatformRows(platformHistory, ownerSlugs, ownerId).map((platform) => ({
+    () => buildPlatformRows(platformHistory, ownerSlugs, ownerId, platformDetails).map((platform) => ({
       ...platform,
       onOpen: () => selectOwner(ownerId),
     })),
-    [platformHistory, ownerId, selectOwner],
+    [platformHistory, platformDetails, ownerId, selectOwner],
   );
 
   if (loading) {
@@ -1097,17 +1112,17 @@ function FamilyP2PPage() {
 
         const ownerResults = await Promise.all(ownerConfigs.map(async (config) => {
           const platformHistory = config.ownerId === "evaldas" ? evaldasPlatforms : rimaPlatforms;
-          const rows = buildPlatformRows(platformHistory, config.slugs, config.ownerId).map((platform) => ({
-            ...platform,
-            showOwner: true,
-            onOpen: () => selectOwner(config.ownerId),
-          }));
           const details = await Promise.all(config.slugs.map(async (slug) => {
             try {
               return await readJson(`${config.folder}platforms/${slug}.json`, false);
             } catch {
               return null;
             }
+          }));
+          const rows = buildPlatformRows(platformHistory, config.slugs, config.ownerId, details).map((platform) => ({
+            ...platform,
+            showOwner: true,
+            onOpen: () => selectOwner(config.ownerId),
           }));
           const stats = details.reduce((sum, item) => ({
             active: sum.active + number(item?.summary?.activeInvestments),

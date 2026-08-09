@@ -54,6 +54,13 @@ function formatPercent(value, signed = false) {
   }).format(numericValue)} %`;
 }
 
+function formatXirr(value) {
+  if (value === null || value === undefined || value === "") return "—";
+  const numericValue = Number(value);
+  if (!Number.isFinite(numericValue)) return "—";
+  return formatPercent(numericValue, true);
+}
+
 function formatDate(value) {
   if (!value) return "—";
 
@@ -564,6 +571,7 @@ function PortfolioPage() {
                   <th className="portfolio-number">Vertė</th>
                   <th className="portfolio-number">Pelnas</th>
                   <th className="portfolio-number">Grąža</th>
+                  <th className="portfolio-number">XIRR</th>
                   <th className="portfolio-number">Pozicijos</th>
                   <th>Atnaujinta</th>
                   <th aria-label="Atidaryti" />
@@ -574,7 +582,7 @@ function PortfolioPage() {
                 {groupedPlatforms.map(({ group, platforms: groupItems }) => (
                   <>
                     <tr className="portfolio-group-row" key={`${group}-header`}>
-                      <td colSpan="9">
+                      <td colSpan="10">
                         <span>{PORTFOLIO_GROUP_LABELS[group] || group}</span>
                         <b>{groupItems.length}</b>
                       </td>
@@ -678,6 +686,18 @@ function PortfolioPage() {
                           }`}
                         >
                           {formatPercent(platform.returnRate, true)}
+                        </td>
+
+                        <td
+                          className={`portfolio-number ${
+                            platform.xirr === null
+                              ? ""
+                              : platform.xirr >= 0
+                                ? "portfolio-positive"
+                                : "portfolio-negative"
+                          }`}
+                        >
+                          {formatXirr(platform.xirr)}
                         </td>
 
                         <td className="portfolio-number">

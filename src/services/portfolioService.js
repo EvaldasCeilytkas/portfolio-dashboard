@@ -159,6 +159,12 @@ function normalizePlatform(registryItem, payload, ownerId = "evaldas") {
     platform.active !== false &&
     (currentValue > 0 || invested > 0 || activeInvestments > 0);
 
+  const explicitXirr = summary.xirr;
+  const parsedXirr = Number(explicitXirr);
+  const xirr = explicitXirr !== null && explicitXirr !== undefined && explicitXirr !== "" && Number.isFinite(parsedXirr)
+    ? parsedXirr
+    : null;
+
   const explicitReturnRate = Number(summary.returnRate);
   const returnRate = Number.isFinite(explicitReturnRate)
     ? explicitReturnRate
@@ -192,6 +198,7 @@ function normalizePlatform(registryItem, payload, ownerId = "evaldas") {
     currentValue,
     profit,
     returnRate,
+    xirr,
     cash: number(summary.cash),
     incomeReceived: number(summary.incomeReceived),
     activeInvestments,

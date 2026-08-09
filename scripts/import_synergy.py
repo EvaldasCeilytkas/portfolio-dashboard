@@ -224,7 +224,8 @@ def build_document(input_path: Path) -> dict[str, Any]:
     if not fund_sheets:
         raise ValueError("Nerasti fondų lapai.")
 
-    history = read_history(workbook[OVERVIEW_SHEET])
+    overview = workbook[OVERVIEW_SHEET]
+    history = read_history(overview)
 
     investments = [
         read_investment(workbook[name], name)
@@ -255,6 +256,13 @@ def build_document(input_path: Path) -> dict[str, Any]:
     latest["activeInvestments"] = len(active)
     latest["completedInvestments"] = len(completed)
 
+    overall_xirr_raw = overview.cell(2, 29).value
+    overall_xirr = (
+        round(finite_number(overall_xirr_raw) * 100, 4)
+        if overall_xirr_raw not in (None, "")
+        else None
+    )
+
     document = {
         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": datetime.now().astimezone().isoformat(
@@ -281,7 +289,7 @@ def build_document(input_path: Path) -> dict[str, Any]:
             "profit": profit,
             "realizedProfit": 0.0,
             "returnRate": return_rate,
-            "xirr": None,
+            "xirr": overall_xirr,
             "cash": 0.0,
             "incomeReceived": 0.0,
             "fees": total_fees,

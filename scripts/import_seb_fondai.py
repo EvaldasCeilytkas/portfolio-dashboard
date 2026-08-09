@@ -474,6 +474,13 @@ def build_document(input_path: Path) -> dict[str, Any]:
     latest["activeInvestments"] = len(active)
     latest["completedInvestments"] = len(completed)
 
+    overall_xirr_raw = overview.cell(2, 29).value
+    overall_xirr = (
+        round(finite_number(overall_xirr_raw) * 100, 4)
+        if overall_xirr_raw not in (None, "")
+        else None
+    )
+
     document = {
         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": datetime.now().astimezone().isoformat(
@@ -500,7 +507,7 @@ def build_document(input_path: Path) -> dict[str, Any]:
             "profit": profit,
             "realizedProfit": realized_profit,
             "returnRate": return_rate,
-            "xirr": None,
+            "xirr": overall_xirr,
             "cash": 0.0,
             "incomeReceived": total_dividends,
             "fees": total_fees,

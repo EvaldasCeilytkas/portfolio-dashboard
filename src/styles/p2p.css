@@ -1186,8 +1186,8 @@
 
 .p2p-table-head,
 .p2p-table-row {
-  grid-template-columns: minmax(235px, 1.45fr) repeat(5, minmax(108px, 0.7fr)) minmax(145px, 0.88fr);
-  min-width: 1180px;
+  grid-template-columns: minmax(235px, 1.45fr) repeat(6, minmax(108px, 0.7fr)) minmax(145px, 0.88fr);
+  min-width: 1290px;
 }
 
 .p2p-month-cell {

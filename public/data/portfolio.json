@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T11:45:17+03:00",
+  "generatedAt": "2026-08-09T19:59:08+03:00",
   "currency": "EUR",
   "summary": {
     "invested": 11865.52,
@@ -11,8 +11,8 @@
     "cash": 124.11,
     "incomeReceived": 594.57,
     "platformCount": 21,
-    "activeInvestments": 205,
-    "delayedInvestments": 13,
+    "activeInvestments": 204,
+    "delayedInvestments": 14,
     "completedInvestments": 148
   },
   "allocation": [
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-08-08",
+      "updatedAt": "2026-08-09",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-08-08",
+      "updatedAt": "2026-08-09",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -190,7 +190,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-08-08",
+      "updatedAt": "2026-08-09",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -201,8 +201,8 @@
         "xirr": 15.3376,
         "cash": 91.86,
         "incomeReceived": 116.21,
-        "activeInvestments": 10,
-        "delayedInvestments": 8,
+        "activeInvestments": 9,
+        "delayedInvestments": 9,
         "completedInvestments": 8,
         "averageRate": 12.2685,
         "averageLtv": 57.4773
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-08-08",
+      "updatedAt": "2026-08-09",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {
@@ -590,7 +590,7 @@
         "currentValue": 0.0,
         "profit": 57.01,
         "returnRate": 13.1617,
-        "xirr": null,
+        "xirr": 0.0,
         "cash": 0.0,
         "incomeReceived": 12.04,
         "activeInvestments": 0,

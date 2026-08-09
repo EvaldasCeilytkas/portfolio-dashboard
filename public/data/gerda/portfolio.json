@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T08:46:22+00:00",
+  "generatedAt": "2026-08-09T17:00:19+00:00",
   "currency": "EUR",
   "summary": {
     "invested": 215.3,
@@ -38,7 +38,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2026-05-22",
-      "updatedAt": "2026-08-08",
+      "updatedAt": "2026-08-09",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
