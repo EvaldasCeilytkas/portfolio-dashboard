@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T22:18:17+03:00",
+  "generatedAt": "2026-08-10T14:07:04+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "debitum",
@@ -507,6 +507,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 5,
     "skippedSheets": [],
-    "generatedAt": "2026-08-09T22:18:17+03:00"
+    "generatedAt": "2026-08-10T14:07:04+03:00"
   }
 }

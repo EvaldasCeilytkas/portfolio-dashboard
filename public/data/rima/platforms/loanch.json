@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T22:18:19+03:00",
+  "generatedAt": "2026-08-10T14:07:06+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -146,7 +146,7 @@
     "profit": 0.0,
     "xirr": null,
     "status": "delayed",
-    "delayDays": 5,
+    "delayDays": 6,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -550,7 +550,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 5,
+      "delayDays": 6,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -647,7 +647,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 5,
+      "delayDays": 6,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -675,6 +675,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 9,
     "skippedSheets": [],
-    "generatedAt": "2026-08-09T22:18:19+03:00"
+    "generatedAt": "2026-08-10T14:07:06+03:00"
   }
 }

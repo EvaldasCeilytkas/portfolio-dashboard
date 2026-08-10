@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T22:16:59+03:00",
+  "generatedAt": "2026-08-10T14:05:50+03:00",
   "currency": "EUR",
   "summary": {
     "invested": 11865.52,
     "currentValue": 12810.71,
     "profit": 1495.09,
     "returnRate": 12.6003,
-    "xirr": 96.5465,
+    "xirr": 96.5445,
     "cash": 124.11,
     "incomeReceived": 594.57,
     "platformCount": 21,
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-08-09",
+      "updatedAt": "2026-08-10",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-08-09",
+      "updatedAt": "2026-08-10",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -190,7 +190,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-08-09",
+      "updatedAt": "2026-08-10",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -201,8 +201,8 @@
         "xirr": 15.3376,
         "cash": 91.86,
         "incomeReceived": 116.21,
-        "activeInvestments": 9,
-        "delayedInvestments": 9,
+        "activeInvestments": 8,
+        "delayedInvestments": 10,
         "completedInvestments": 8,
         "averageRate": 12.2685,
         "averageLtv": 57.4773
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-08-09",
+      "updatedAt": "2026-08-10",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {
@@ -534,11 +534,11 @@
         "currentValue": 20.58,
         "profit": 0.58,
         "returnRate": 2.9,
-        "xirr": 11.4819,
+        "xirr": 10.4481,
         "cash": 0.0,
         "incomeReceived": 0.58,
-        "activeInvestments": 0,
-        "delayedInvestments": 2,
+        "activeInvestments": 1,
+        "delayedInvestments": 1,
         "completedInvestments": 7,
         "averageRate": 13.6,
         "averageLtv": null

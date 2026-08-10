@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T22:15:06+03:00",
+  "generatedAt": "2026-08-10T14:04:11+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -21,11 +21,11 @@
     "currentValue": 20.58,
     "profit": 0.58,
     "returnRate": 2.9,
-    "xirr": 11.4819,
+    "xirr": 10.4481,
     "cash": 0.0,
     "incomeReceived": 0.58,
-    "activeInvestments": 0,
-    "delayedInvestments": 2,
+    "activeInvestments": 1,
+    "delayedInvestments": 1,
     "completedInvestments": 7,
     "averageRate": 13.6,
     "averageLtv": null,
@@ -145,12 +145,12 @@
     "fees": 0.0,
     "profit": 0.0,
     "xirr": null,
-    "status": "delayed",
-    "delayDays": 5,
+    "status": "active",
+    "delayDays": 0,
     "earlyLateDays": 0,
     "schedule": [
       {
-        "plannedDate": "2026-08-04",
+        "plannedDate": "2026-08-27",
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
@@ -198,9 +198,14 @@
     ],
     "status": [
       {
+        "label": "active",
+        "count": 1,
+        "value": 10.34
+      },
+      {
         "label": "delayed",
-        "count": 2,
-        "value": 20.58
+        "count": 1,
+        "value": 10.24
       }
     ]
   },
@@ -212,7 +217,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-10",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -550,7 +555,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 5,
+      "delayDays": 6,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -646,12 +651,12 @@
       "fees": 0.0,
       "profit": 0.0,
       "xirr": null,
-      "status": "delayed",
-      "delayDays": 5,
+      "status": "active",
+      "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
-          "plannedDate": "2026-08-04",
+          "plannedDate": "2026-08-27",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -675,6 +680,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 9,
     "skippedSheets": [],
-    "generatedAt": "2026-08-09T22:15:06+03:00"
+    "generatedAt": "2026-08-10T14:04:11+03:00"
   }
 }
