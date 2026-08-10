@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T14:05:50+03:00",
+  "generatedAt": "2026-08-10T14:17:00+03:00",
   "currency": "EUR",
   "summary": {
     "invested": 11865.52,
-    "currentValue": 12810.71,
-    "profit": 1495.09,
-    "returnRate": 12.6003,
-    "xirr": 96.5445,
-    "cash": 124.11,
-    "incomeReceived": 594.57,
+    "currentValue": 12812.07,
+    "profit": 1496.45,
+    "returnRate": 12.6118,
+    "xirr": 96.5259,
+    "cash": 125.47,
+    "incomeReceived": 595.93,
     "platformCount": 21,
-    "activeInvestments": 204,
-    "delayedInvestments": 14,
+    "activeInvestments": 206,
+    "delayedInvestments": 12,
     "completedInvestments": 148
   },
   "allocation": [
@@ -23,17 +23,17 @@
       "currentValue": 4967.39,
       "profit": 152.82,
       "cash": 9.09,
-      "percentage": 38.7753,
+      "percentage": 38.7712,
       "platformCount": 2
     },
     {
       "group": "real_estate",
       "name": "NT sutelktinis finansavimas",
       "invested": 3674.21,
-      "currentValue": 4131.64,
-      "profit": 457.43,
-      "cash": 110.3,
-      "percentage": 32.2515,
+      "currentValue": 4133.0,
+      "profit": 458.79,
+      "cash": 111.66,
+      "percentage": 32.2586,
       "platformCount": 4
     },
     {
@@ -43,7 +43,7 @@
       "currentValue": 3240.06,
       "profit": 300.06,
       "cash": 4.72,
-      "percentage": 25.2918,
+      "percentage": 25.2891,
       "platformCount": 11
     },
     {
@@ -53,7 +53,7 @@
       "currentValue": 471.62,
       "profit": 433.42,
       "cash": 0.0,
-      "percentage": 3.6815,
+      "percentage": 3.6811,
       "platformCount": 2
     },
     {
@@ -195,14 +195,14 @@
       "sourceFile": "nordstreet.json",
       "summary": {
         "invested": 950.0,
-        "currentValue": 1115.15,
-        "profit": 165.15,
-        "returnRate": 17.3842,
-        "xirr": 15.3376,
-        "cash": 91.86,
-        "incomeReceived": 116.21,
-        "activeInvestments": 8,
-        "delayedInvestments": 10,
+        "currentValue": 1116.51,
+        "profit": 166.51,
+        "returnRate": 17.5274,
+        "xirr": 15.2633,
+        "cash": 93.22,
+        "incomeReceived": 117.57,
+        "activeInvestments": 10,
+        "delayedInvestments": 8,
         "completedInvestments": 8,
         "averageRate": 12.2685,
         "averageLtv": 57.4773
@@ -1309,17 +1309,17 @@
     {
       "date": "2026-08-01",
       "invested": 11728.78,
-      "value": 7188.58,
-      "profit": 1361.97,
-      "cash": 119.39,
+      "value": 7189.94,
+      "profit": 1363.33,
+      "cash": 120.75,
       "income": 409.22
     },
     {
       "date": "2026-08-31",
       "invested": 11778.78,
-      "value": 7371.7,
-      "profit": 1495.09,
-      "cash": 124.11,
+      "value": 7373.06,
+      "profit": 1496.45,
+      "cash": 125.47,
       "income": 222.56
     }
   ]
