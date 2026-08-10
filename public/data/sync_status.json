@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-10T14:17:48.859457+03:00",
+  "generatedAt": "2026-08-10T21:18:32.065368+03:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -19,7 +19,7 @@
       "status": "ok",
       "updatedAt": "2026-07-31",
       "platforms": 9,
-      "records": 81
+      "records": 85
     },
     {
       "id": "gerda",
@@ -312,7 +312,7 @@
       "moduleType": "p2p_loans",
       "sourceFile": "Excel / JSON",
       "status": "ok",
-      "records": 5,
+      "records": 9,
       "latestDataDate": "2026-08-10",
       "durationSeconds": 0,
       "error": "",
@@ -438,6 +438,11 @@
   ],
   "history": [
     {
+      "generatedAt": "2026-08-10T21:18:32.065368+03:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
+    {
       "generatedAt": "2026-08-10T14:17:48.859457+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
@@ -481,11 +486,6 @@
       "generatedAt": "2026-08-08T10:16:24.672615+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
-    },
-    {
-      "generatedAt": "2026-08-07T22:21:40.629343+03:00",
-      "durationSeconds": 42.228,
-      "status": "ok"
     }
   ],
   "system": {
@@ -495,27 +495,27 @@
   },
   "log": [
     {
-      "time": "14:17:48",
+      "time": "21:18:32",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "14:17:48",
+      "time": "21:18:32",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "14:17:48",
+      "time": "21:18:32",
       "level": "success",
       "message": "Rima: 9 platformų patikrinta."
     },
     {
-      "time": "14:17:48",
+      "time": "21:18:32",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "14:17:48",
+      "time": "21:18:32",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }
