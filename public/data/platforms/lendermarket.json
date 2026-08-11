@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T21:15:40+03:00",
+  "generatedAt": "2026-08-11T21:29:35+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lendermarket",
@@ -24,8 +24,8 @@
     "xirr": 104.1458,
     "cash": 0.0,
     "incomeReceived": 11.91,
-    "activeInvestments": 10,
-    "delayedInvestments": 1,
+    "activeInvestments": 9,
+    "delayedInvestments": 2,
     "completedInvestments": 3,
     "averageRate": 11.4887,
     "averageLtv": null,
@@ -266,13 +266,13 @@
     "status": [
       {
         "label": "active",
-        "count": 10,
-        "value": 99.03
+        "count": 9,
+        "value": 85.97
       },
       {
         "label": "delayed",
-        "count": 1,
-        "value": 12.88
+        "count": 2,
+        "value": 25.94
       }
     ]
   },
@@ -1034,7 +1034,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 18,
+      "delayDays": 19,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1079,8 +1079,8 @@
       "fees": 0.0,
       "profit": 0.04,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 1,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1288,6 +1288,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 14,
     "skippedSheets": [],
-    "generatedAt": "2026-08-10T21:15:40+03:00"
+    "generatedAt": "2026-08-11T21:29:35+03:00"
   }
 }

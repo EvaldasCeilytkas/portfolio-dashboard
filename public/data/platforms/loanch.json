@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T21:15:40+03:00",
+  "generatedAt": "2026-08-11T21:29:36+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -555,7 +555,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 6,
+      "delayDays": 7,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -680,6 +680,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 9,
     "skippedSheets": [],
-    "generatedAt": "2026-08-10T21:15:40+03:00"
+    "generatedAt": "2026-08-11T21:29:36+03:00"
   }
 }
