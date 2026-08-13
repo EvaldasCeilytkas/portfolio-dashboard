@@ -42,6 +42,7 @@ STEPS = [
     Step("Viainvest", "import_viainvest.py"),
     Step("Platformų registro tikrinimas", "validate_platform_registry.py"),
     Step("Portfolio JSON sukūrimas", "build_portfolio.py"),
+    Step("Platformų istorijos sukūrimas", "generate_platform_history.py"),
     Step("Portfelio istorijos sukūrimas", "update_history.py"),
 ]
 
@@ -114,6 +115,7 @@ def main() -> int:
     print(" - visų platformų JSON")
     print(" - public\\data\\portfolio.json")
     print(" - public\\data\\portfolio_history.json")
+    print(" - public\\data\\platform_history.json")
     print(" - public\\data\\funds_history.json")
     print(" - public\\data\\p2p_history.json")
     print()

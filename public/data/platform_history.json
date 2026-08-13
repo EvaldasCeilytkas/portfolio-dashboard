@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "type": "platform_history",
   "currency": "EUR",
-  "generatedAt": "2026-08-01T19:19:43+03:00",
+  "generatedAt": "2026-08-13T16:01:14+03:00",
   "source": {
     "file": "Investavimas.xlsx",
     "sheet": "Investavimas"
@@ -2737,6 +2737,27 @@
         }
       ]
     },
+    "twino": {
+      "name": "Twino",
+      "history": [
+        {
+          "date": "2026-06-30",
+          "invested": 50.0,
+          "value": 52.0,
+          "profit": 2.0,
+          "returnRate": 4.0,
+          "source": "Investavimas.xlsx"
+        },
+        {
+          "date": "2026-07-31",
+          "invested": 75.0,
+          "value": 78.0,
+          "profit": 3.0,
+          "returnRate": 4.0,
+          "source": "Investavimas.xlsx"
+        }
+      ]
+    },
     "fondai": {
       "name": "Fondai",
       "history": [
@@ -3371,18 +3392,18 @@
         },
         {
           "date": "2026-06-30",
-          "invested": 6335.07,
-          "value": 7019.43,
+          "invested": 6385.07,
+          "value": 7069.43,
           "profit": 684.36,
-          "returnRate": 10.8027,
+          "returnRate": 10.7181,
           "source": "Investavimas.xlsx"
         },
         {
           "date": "2026-07-31",
-          "invested": 6564.21,
-          "value": 7306.66,
-          "profit": 742.45,
-          "returnRate": 11.3106,
+          "invested": 6639.21,
+          "value": 7388.31,
+          "profit": 749.1,
+          "returnRate": 11.283,
           "source": "Investavimas.xlsx"
         }
       ]
@@ -3872,18 +3893,18 @@
         },
         {
           "date": "2026-06-30",
-          "invested": 11000.13,
-          "value": 12166.86,
+          "invested": 11050.13,
+          "value": 12216.86,
           "profit": 1166.73,
-          "returnRate": 10.6065,
+          "returnRate": 10.5585,
           "source": "Investavimas.xlsx"
         },
         {
           "date": "2026-07-31",
-          "invested": 11578.78,
-          "value": 12580.68,
-          "profit": 1001.9,
-          "returnRate": 8.6529,
+          "invested": 11653.78,
+          "value": 12662.33,
+          "profit": 1008.55,
+          "returnRate": 8.6543,
           "source": "Investavimas.xlsx"
         }
       ]
