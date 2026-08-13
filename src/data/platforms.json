@@ -414,6 +414,26 @@
     ]
   },
   {
+    "id": "twino",
+    "slug": "twino",
+    "name": "TWINO",
+    "group": "p2p",
+    "type": "p2p",
+    "category": "P2P paskolos",
+    "currency": "EUR",
+    "enabled": true,
+    "importer": "import_twino.py",
+    "dataFile": "/data/platforms/twino.json",
+    "supportsHistory": true,
+    "supportsProjects": true,
+    "supportsCash": true,
+    "logo": "",
+    "website": "https://www.twino.eu",
+    "owners": [
+      "evaldas"
+    ]
+  },
+  {
     "id": "scramble",
     "slug": "scramble",
     "name": "Scramble",

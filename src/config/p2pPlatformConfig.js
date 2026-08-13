@@ -7,6 +7,7 @@ const PLATFORM_THEMES = {
   loanch: { logo: "LC" },
   nectaro: { logo: "N" },
   peerberry: { logo: "P" },
+  twino: { logo: "T" },
   scramble: { logo: "S" },
   viainvest: { logo: "V" },
 };

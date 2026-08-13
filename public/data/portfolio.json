@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T21:31:16+03:00",
+  "generatedAt": "2026-08-13T15:34:58+03:00",
   "currency": "EUR",
   "summary": {
-    "invested": 11865.52,
-    "currentValue": 12812.07,
-    "profit": 1496.45,
-    "returnRate": 12.6118,
-    "xirr": 96.5259,
+    "invested": 11885.52,
+    "currentValue": 12832.65,
+    "profit": 1497.03,
+    "returnRate": 12.5954,
+    "xirr": 96.3559,
     "cash": 125.47,
-    "incomeReceived": 595.93,
-    "platformCount": 21,
-    "activeInvestments": 205,
-    "delayedInvestments": 13,
-    "completedInvestments": 148
+    "incomeReceived": 596.51,
+    "platformCount": 22,
+    "activeInvestments": 204,
+    "delayedInvestments": 16,
+    "completedInvestments": 155
   },
   "allocation": [
     {
@@ -23,7 +23,7 @@
       "currentValue": 4967.39,
       "profit": 152.82,
       "cash": 9.09,
-      "percentage": 38.7712,
+      "percentage": 38.709,
       "platformCount": 2
     },
     {
@@ -33,18 +33,18 @@
       "currentValue": 4133.0,
       "profit": 458.79,
       "cash": 111.66,
-      "percentage": 32.2586,
+      "percentage": 32.2069,
       "platformCount": 4
     },
     {
       "group": "p2p",
       "name": "P2P",
-      "invested": 3026.74,
-      "currentValue": 3240.06,
-      "profit": 300.06,
+      "invested": 3046.74,
+      "currentValue": 3260.64,
+      "profit": 300.64,
       "cash": 4.72,
-      "percentage": 25.2891,
-      "platformCount": 11
+      "percentage": 25.4089,
+      "platformCount": 12
     },
     {
       "group": "funds",
@@ -53,7 +53,7 @@
       "currentValue": 471.62,
       "profit": 433.42,
       "cash": 0.0,
-      "percentage": 3.6811,
+      "percentage": 3.6752,
       "platformCount": 2
     },
     {
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-08-11",
+      "updatedAt": "2026-08-13",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-08-11",
+      "updatedAt": "2026-08-13",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -190,7 +190,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-08-11",
+      "updatedAt": "2026-08-13",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-08-11",
+      "updatedAt": "2026-08-13",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {
@@ -341,8 +341,8 @@
         "xirr": 8.9277,
         "cash": 14.6,
         "incomeReceived": 18.72,
-        "activeInvestments": 9,
-        "delayedInvestments": 0,
+        "activeInvestments": 7,
+        "delayedInvestments": 2,
         "completedInvestments": 6,
         "averageRate": 10.7019,
         "averageLtv": null
@@ -529,6 +529,34 @@
       "updatedAt": "2026-08-31",
       "website": "https://loanch.com",
       "sourceFile": "loanch.json",
+      "summary": {
+        "invested": 20.0,
+        "currentValue": 20.58,
+        "profit": 0.58,
+        "returnRate": 2.9,
+        "xirr": 10.4481,
+        "cash": 0.0,
+        "incomeReceived": 0.58,
+        "activeInvestments": 1,
+        "delayedInvestments": 1,
+        "completedInvestments": 7,
+        "averageRate": 13.6,
+        "averageLtv": null
+      }
+    },
+    {
+      "id": "twino",
+      "slug": "twino",
+      "name": "TWINO",
+      "group": "p2p",
+      "type": "p2p_loans",
+      "category": "P2P paskolos",
+      "currency": "EUR",
+      "active": true,
+      "startDate": "2026-04-27",
+      "updatedAt": "2026-08-31",
+      "website": "https://www.twino.eu",
+      "sourceFile": "twino.json",
       "summary": {
         "invested": 20.0,
         "currentValue": 20.58,
@@ -1252,73 +1280,73 @@
     },
     {
       "date": "2026-04-30",
-      "invested": 6109.22,
-      "value": 2662.64,
+      "invested": 6129.22,
+      "value": 2682.64,
       "profit": 945.42,
       "cash": 13.32,
       "income": 378.76
     },
     {
       "date": "2026-05-01",
-      "invested": 6354.05,
-      "value": 2662.64,
+      "invested": 6374.05,
+      "value": 2682.64,
       "profit": 1199.17,
       "cash": 22.8,
       "income": 377.26
     },
     {
       "date": "2026-05-31",
-      "invested": 6484.05,
-      "value": 2795.77,
+      "invested": 6504.05,
+      "value": 2815.77,
       "profit": 1202.3,
       "cash": 22.8,
-      "income": 375.67
+      "income": 395.75
     },
     {
       "date": "2026-06-01",
-      "invested": 7305.06,
-      "value": 2795.77,
+      "invested": 7325.06,
+      "value": 2815.77,
       "profit": 1006.94,
       "cash": 5.04,
-      "income": 372.57
+      "income": 392.65
     },
     {
       "date": "2026-06-30",
-      "invested": 7365.06,
-      "value": 2858.17,
+      "invested": 7385.06,
+      "value": 2878.17,
       "profit": 1009.34,
       "cash": 5.04,
-      "income": 486.47
+      "income": 506.77
     },
     {
       "date": "2026-07-01",
-      "invested": 7714.57,
-      "value": 2858.17,
+      "invested": 7734.57,
+      "value": 2878.17,
       "profit": 880.78,
       "cash": 9.98,
-      "income": 486.47
+      "income": 506.77
     },
     {
       "date": "2026-07-31",
-      "invested": 7904.57,
-      "value": 3056.94,
+      "invested": 7924.57,
+      "value": 3076.94,
       "profit": 889.55,
       "cash": 9.98,
-      "income": 409.22
+      "income": 440.06
     },
     {
       "date": "2026-08-01",
-      "invested": 11728.78,
-      "value": 7189.94,
+      "invested": 11748.78,
+      "value": 7209.94,
       "profit": 1363.33,
       "cash": 120.75,
-      "income": 409.22
+      "income": 440.06
     },
     {
       "date": "2026-08-31",
-      "invested": 11778.78,
-      "value": 7373.06,
-      "profit": 1496.45,
+      "invested": 11798.78,
+      "value": 7393.64,
+      "profit": 1497.03,
       "cash": 125.47,
       "income": 222.56
     }

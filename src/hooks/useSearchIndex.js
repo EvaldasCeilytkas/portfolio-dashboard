@@ -8,7 +8,7 @@ const OWNER_SOURCES = [
     folder: "",
     platforms: [
       "afranga", "crowdpear", "debitum", "income", "indemo", "lande",
-      "lendermarket", "loanch", "nectaro", "nordstreet", "peerberry",
+      "lendermarket", "loanch", "nectaro", "nordstreet", "peerberry", "twino",
       "profitus", "revolut-brokerage", "revolut-robo", "rontgen", "scramble",
       "seb-fondai", "seb-mikro", "seb-robo", "synergy", "viainvest",
     ],

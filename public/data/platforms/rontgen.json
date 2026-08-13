@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T21:31:04+03:00",
+  "generatedAt": "2026-08-13T15:34:42+03:00",
   "platform": {
     "id": "rontgen",
     "slug": "rontgen",
@@ -11,7 +11,7 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-11-03",
-    "updatedAt": "2026-08-11",
+    "updatedAt": "2026-08-13",
     "website": "https://rontgen.lt"
   },
   "summary": {

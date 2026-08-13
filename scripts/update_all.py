@@ -38,6 +38,7 @@ STEPS = [
     Step("SEB Mikro", "import_seb_mikro.py"),
     Step("SEB Robo", "import_seb_robo.py"),
     Step("Synergy", "import_synergy.py"),
+    Step("TWINO", "import_twino.py"),
     Step("Viainvest", "import_viainvest.py"),
     Step("Platformų registro tikrinimas", "validate_platform_registry.py"),
     Step("Portfolio JSON sukūrimas", "build_portfolio.py"),

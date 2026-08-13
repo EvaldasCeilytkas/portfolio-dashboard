@@ -149,6 +149,7 @@ function getPlatformBrand(platform) {
     { words: ["seb"], accent: "#22c55e", soft: "rgba(34, 197, 94, 0.16)" },
     { words: ["revolut"], accent: "#f8fafc", soft: "rgba(248, 250, 252, 0.14)" },
     { words: ["peerberry"], accent: "#fb923c", soft: "rgba(251, 146, 60, 0.16)" },
+    { words: ["twino"], accent: "#f97316", soft: "rgba(249, 115, 22, 0.16)" },
     { words: ["debitum"], accent: "#38bdf8", soft: "rgba(56, 189, 248, 0.16)" },
     { words: ["nectaro"], accent: "#84cc16", soft: "rgba(132, 204, 22, 0.16)" },
     { words: ["viainvest"], accent: "#a78bfa", soft: "rgba(167, 139, 250, 0.16)" },

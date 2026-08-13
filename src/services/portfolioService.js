@@ -37,6 +37,7 @@ const BRAND_STYLES = Object.freeze({
   loanch: ["LC", "#7857df"],
   nectaro: ["N", "#ef7a40"],
   peerberry: ["PB", "#ef5e68"],
+  twino: ["TW", "#ef6c35"],
   scramble: ["S", "#f2b244"],
   viainvest: ["VI", "#42a2c7"],
 });
@@ -60,6 +61,7 @@ const PLATFORM_DOMAINS = Object.freeze({
   loanch: "loanch.com",
   nectaro: "nectaro.eu",
   peerberry: "peerberry.com",
+  twino: "twino.eu",
   scramble: "scrambleup.com",
   viainvest: "viainvest.com",
 });

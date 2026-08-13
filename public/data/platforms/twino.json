@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T15:32:53+03:00",
+  "generatedAt": "2026-08-13T15:34:57+03:00",
   "moduleType": "p2p_loans",
   "platform": {
-    "id": "loanch",
-    "slug": "loanch",
-    "name": "Loanch",
+    "id": "twino",
+    "slug": "twino",
+    "name": "TWINO",
     "group": "p2p",
     "type": "p2p_loans",
-    "category": "P2P vartojimo paskolos",
+    "category": "P2P paskolos",
     "currency": "EUR",
     "active": true,
     "status": "active",
     "startDate": "2026-04-27",
     "updatedAt": "2026-08-31",
-    "website": "https://loanch.com"
+    "website": "https://www.twino.eu"
   },
   "summary": {
     "invested": 20.0,
@@ -675,11 +675,11 @@
     }
   ],
   "source": {
-    "file": "Loanch.xlsx",
+    "file": "TWINO.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
     "loanSheets": 9,
     "skippedSheets": [],
-    "generatedAt": "2026-08-13T15:32:53+03:00"
+    "generatedAt": "2026-08-13T15:34:57+03:00"
   }
 }
