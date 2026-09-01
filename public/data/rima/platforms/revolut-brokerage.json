@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:34:52+03:00",
+  "generatedAt": "2026-09-01T22:40:17+03:00",
   "platform": {
     "id": "revolut-brokerage",
     "slug": "revolut-brokerage",
@@ -11,14 +11,14 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2026-01-01",
-    "updatedAt": "2026-07-31",
+    "updatedAt": "2026-08-31",
     "website": "https://www.revolut.com"
   },
   "summary": {
-    "invested": 700.0,
-    "currentValue": 744.8,
-    "profit": 44.8,
-    "returnRate": 6.4,
+    "invested": 800.0,
+    "currentValue": 860.35,
+    "profit": 60.35,
+    "returnRate": 7.5438,
     "xirr": null,
     "cash": 0.0,
     "incomeReceived": 0.0,
@@ -163,6 +163,25 @@
       "activeInvestments": 1,
       "delayedInvestments": 0,
       "completedInvestments": 0
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "invested": 800.0,
+      "currentValue": 860.35,
+      "profit": 60.35,
+      "returnRate": 7.5433,
+      "cash": 0.0,
+      "income": 0.0,
+      "fees": 0.0,
+      "purchaseFees": 0.0,
+      "saleFees": 0.0,
+      "custodyFees": 0.0,
+      "contributions": 100.0,
+      "withdrawals": 0.0,
+      "activeInvestments": 1,
+      "delayedInvestments": 0,
+      "completedInvestments": 0
     }
   ],
   "investments": [
@@ -179,9 +198,9 @@
       "endDate": null,
       "invested": 800.0,
       "netInvested": 800.0,
-      "currentValue": 744.8,
-      "profit": -55.2,
-      "returnRate": -6.8994,
+      "currentValue": 860.35,
+      "profit": 60.35,
+      "returnRate": 7.5433,
       "quantity": 66.90098382,
       "price": 12.86,
       "realizedProceeds": 0.0,
@@ -197,7 +216,7 @@
         "key": "active",
         "label": "Aktyvios",
         "count": 1,
-        "value": 744.8
+        "value": 860.35
       },
       {
         "key": "completed",
@@ -211,18 +230,18 @@
         "key": "WEBN",
         "label": "WEBN",
         "name": "Amundi Prime ACWI Acc UCITS ETF",
-        "value": 744.8,
+        "value": 860.35,
         "weight": 100.0
       }
     ]
   },
   "latestMonth": {
-    "date": "2026-07-01",
-    "month": "2026-07",
-    "invested": 700.0,
-    "currentValue": 744.8,
-    "profit": 44.8,
-    "returnRate": 6.4007,
+    "date": "2026-08-01",
+    "month": "2026-08",
+    "invested": 800.0,
+    "currentValue": 860.35,
+    "profit": 60.35,
+    "returnRate": 7.5433,
     "cash": 0.0,
     "income": 0.0,
     "fees": 0.0,
@@ -239,7 +258,7 @@
     "id": "webn",
     "ticker": "WEBN",
     "name": "Amundi Prime ACWI Acc UCITS ETF",
-    "currentValue": 744.8
+    "currentValue": 860.35
   },
   "source": {
     "file": "Revolut Brokerage Rima.xlsx",
