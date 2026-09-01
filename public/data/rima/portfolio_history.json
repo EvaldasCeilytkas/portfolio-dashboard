@@ -3,24 +3,24 @@
   "type": "monthlyPortfolioHistory",
   "section": "Visas portfelis",
   "currency": "EUR",
-  "generatedAt": "2026-08-13T13:11:46+00:00",
+  "generatedAt": "2026-09-01T17:45:48+00:00",
   "source": {
     "file": "Investavimas Rima.xlsx",
     "sheet": "Investavimas"
   },
   "period": {
     "from": "2025-03-31",
-    "to": "2026-07-31",
-    "months": 17
+    "to": "2026-08-31",
+    "months": 18
   },
   "latest": {
-    "date": "2026-07-31",
-    "invested": 3194.35,
-    "monthlyContribution": 130.0,
-    "value": 3536.99,
-    "profit": 342.64,
-    "returnRate": 10.73,
-    "monthlyResult": -1.44
+    "date": "2026-08-31",
+    "invested": 3633.95,
+    "monthlyContribution": 439.6,
+    "value": 4021.3,
+    "profit": 387.35,
+    "returnRate": 10.66,
+    "monthlyResult": 44.71
   },
   "history": [
     {
@@ -175,6 +175,15 @@
       "profit": 342.64,
       "returnRate": 10.73,
       "monthlyResult": -1.44
+    },
+    {
+      "date": "2026-08-31",
+      "invested": 3633.95,
+      "monthlyContribution": 439.6,
+      "value": 4021.3,
+      "profit": 387.35,
+      "returnRate": 10.66,
+      "monthlyResult": 44.71
     }
   ]
 }

@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T13:12:13+00:00",
+  "generatedAt": "2026-09-01T17:46:15+00:00",
   "currency": "EUR",
   "summary": {
-    "invested": 215.3,
-    "currentValue": 240.3,
-    "profit": 25.0,
-    "returnRate": 11.6117,
-    "xirr": 332.7953,
-    "cash": 0.0,
-    "incomeReceived": 0.0,
+    "invested": 200.31,
+    "currentValue": 242.56,
+    "profit": 42.25,
+    "returnRate": 21.0923,
+    "xirr": 20.9907,
+    "cash": 2.26,
+    "incomeReceived": 17.25,
     "platformCount": 1,
     "activeInvestments": 2,
     "delayedInvestments": 0,
-    "completedInvestments": 0
+    "completedInvestments": 2
   },
   "allocation": [
     {
       "group": "real_estate",
       "name": "NT sutelktinis finansavimas",
-      "invested": 215.3,
-      "currentValue": 240.3,
-      "profit": 25.0,
-      "cash": 0.0,
+      "invested": 200.31,
+      "currentValue": 242.56,
+      "profit": 42.25,
+      "cash": 2.26,
       "percentage": 100.0,
       "platformCount": 1
     }
@@ -37,23 +37,23 @@
       "category": "NT sutelktinis finansavimas",
       "currency": "EUR",
       "active": true,
-      "startDate": "2026-05-22",
-      "updatedAt": "2026-08-13",
+      "startDate": "2025-08-30",
+      "updatedAt": "2026-09-01",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
-        "invested": 215.3,
-        "currentValue": 240.3,
-        "profit": 25.0,
-        "returnRate": 11.6117,
-        "xirr": 332.7953,
-        "cash": 0.0,
-        "incomeReceived": 0.0,
+        "invested": 200.31,
+        "currentValue": 242.56,
+        "profit": 42.25,
+        "returnRate": 21.0923,
+        "xirr": 20.9907,
+        "cash": 2.26,
+        "incomeReceived": 17.25,
         "activeInvestments": 2,
         "delayedInvestments": 0,
-        "completedInvestments": 0,
-        "averageRate": 8.2231,
-        "averageLtv": 64.4236
+        "completedInvestments": 2,
+        "averageRate": 8.6895,
+        "averageLtv": 61.5058
       }
     }
   ]

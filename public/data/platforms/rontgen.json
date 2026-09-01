@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:10:55+03:00",
+  "generatedAt": "2026-09-01T20:45:06+03:00",
   "platform": {
     "id": "rontgen",
     "slug": "rontgen",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-11-03",
-    "updatedAt": "2026-08-13",
+    "updatedAt": "2026-09-01",
     "website": "https://rontgen.lt"
   },
   "summary": {
     "invested": 674.21,
-    "currentValue": 704.67,
-    "profit": 30.46,
-    "returnRate": 4.5179,
-    "xirr": 7.0934,
-    "cash": 0.5,
-    "incomeReceived": 26.46,
-    "activeInvestments": 8,
+    "currentValue": 704.7,
+    "profit": 30.49,
+    "returnRate": 4.5223,
+    "xirr": 6.2502,
+    "cash": 4.7,
+    "incomeReceived": 26.49,
+    "activeInvestments": 7,
     "delayedInvestments": 0,
-    "completedInvestments": 1,
+    "completedInvestments": 2,
     "averageRate": 7.0556,
     "averageLtv": 64.2222
   },
   "history": [
     {
-      "date": "2026-08-01",
+      "date": "2026-09-01",
       "invested": 674.21,
-      "value": 704.67,
-      "profit": 30.46,
-      "cash": 0.5,
+      "value": 704.7,
+      "profit": 30.49,
+      "cash": 4.7,
       "income": 0.0
     }
   ],
@@ -278,16 +278,16 @@
       "code": "20230607",
       "name": "Spanguolių takai XXXVIII, Riešė",
       "investmentType": "real_estate_project",
-      "status": "active",
+      "status": "completed",
       "currency": "EUR",
       "invested": 100.0,
       "currentValue": 0.0,
-      "profit": 8.62,
+      "profit": 8.68,
       "investmentDate": "2025-11-04",
-      "completionDate": null,
+      "completionDate": "2026-08-18",
       "country": null,
       "interestRate": 7.0,
-      "incomeReceived": 8.62,
+      "incomeReceived": 8.68,
       "outstanding": 0.0,
       "delayDays": 0,
       "ltv": 53.0,
@@ -339,6 +339,18 @@
           "date": "2026-07-09",
           "type": "interest",
           "amount": 0.08,
+          "note": null
+        },
+        {
+          "date": "2026-08-18",
+          "type": "principal",
+          "amount": 4.17,
+          "note": null
+        },
+        {
+          "date": "2026-08-18",
+          "type": "interest",
+          "amount": 0.03,
           "note": null
         }
       ],
@@ -397,7 +409,7 @@
           "plannedDate": "2026-10-01",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.0,
-          "actualDate": null,
+          "actualDate": "2026-08-18",
           "actualPrincipal": 0.0,
           "actualInterest": 0.0,
           "actualExtra": 0.0,
@@ -406,20 +418,20 @@
         {
           "plannedDate": "2026-10-09",
           "plannedPrincipal": 100.0,
-          "plannedInterest": 0.0,
-          "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "plannedInterest": 0.03,
+          "actualDate": "2026-08-18",
+          "actualPrincipal": 4.17,
+          "actualInterest": 0.03,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
         {
           "plannedDate": null,
           "plannedPrincipal": 100.0,
-          "plannedInterest": 4.31,
+          "plannedInterest": 4.34,
           "actualDate": null,
-          "actualPrincipal": 95.83,
-          "actualInterest": 4.31,
+          "actualPrincipal": 100.0,
+          "actualInterest": 4.34,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -428,8 +440,8 @@
       "durationMonths": 11,
       "paymentFrequency": "Q",
       "maxLtv": 58.0,
-      "repaidPrincipal": 191.66,
-      "plannedInterest": 8.62,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 8.68,
       "sourceSheets": [
         "Spanguolių takai XXXVIII, Riešė"
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:12:04+03:00",
+  "generatedAt": "2026-09-01T20:46:05+03:00",
   "platform": {
     "id": "nordstreet",
     "slug": "nordstreet",
@@ -11,17 +11,17 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-09-19",
-    "updatedAt": "2026-08-13",
+    "updatedAt": "2026-09-01",
     "website": "https://nordstreet.com"
   },
   "summary": {
     "invested": 620.0,
-    "currentValue": 695.94,
-    "profit": 75.94,
-    "returnRate": 12.2484,
-    "xirr": 17.1069,
-    "cash": 26.94,
-    "incomeReceived": 43.08,
+    "currentValue": 698.99,
+    "profit": 78.99,
+    "returnRate": 12.7403,
+    "xirr": 15.8799,
+    "cash": 29.99,
+    "incomeReceived": 46.13,
     "activeInvestments": 1,
     "delayedInvestments": 3,
     "completedInvestments": 0,
@@ -30,11 +30,11 @@
   },
   "history": [
     {
-      "date": "2026-08-01",
+      "date": "2026-09-01",
       "invested": 620.0,
-      "value": 695.94,
-      "profit": 75.94,
-      "cash": 26.94,
+      "value": 698.99,
+      "profit": 78.99,
+      "cash": 29.99,
       "income": 0.0
     }
   ],
@@ -55,7 +55,7 @@
       "interestRate": 11.0,
       "incomeReceived": 32.76,
       "outstanding": 200.0,
-      "delayDays": 34,
+      "delayDays": 53,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -258,7 +258,7 @@
       "interestRate": 12.0,
       "incomeReceived": 36.44,
       "outstanding": 200.0,
-      "delayDays": 25,
+      "delayDays": 44,
       "ltv": 65.0,
       "quantity": null,
       "averagePrice": null,
@@ -504,12 +504,12 @@
       "currency": "EUR",
       "invested": 50.0,
       "currentValue": 50.0,
-      "profit": 7.22,
+      "profit": 8.14,
       "investmentDate": "2025-10-27",
       "completionDate": null,
       "country": null,
       "interestRate": 11.0,
-      "incomeReceived": 7.22,
+      "incomeReceived": 8.14,
       "outstanding": 50.0,
       "delayDays": 0,
       "ltv": 60.0,
@@ -567,6 +567,12 @@
           "date": "2026-07-16",
           "type": "interest",
           "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2026-08-17",
+          "type": "interest",
+          "amount": 0.46,
           "note": null
         }
       ],
@@ -655,9 +661,9 @@
           "plannedDate": "2026-08-19",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.46,
-          "actualDate": null,
+          "actualDate": "2026-08-17",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.46,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -817,7 +823,7 @@
           "plannedInterest": 10.98,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 3.61,
+          "actualInterest": 4.07,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -841,14 +847,14 @@
       "currency": "EUR",
       "invested": 219.0,
       "currentValue": 219.0,
-      "profit": 9.74,
+      "profit": 14.92,
       "investmentDate": "2026-03-01",
       "completionDate": null,
       "country": null,
       "interestRate": 12.0,
-      "incomeReceived": 9.74,
+      "incomeReceived": 14.92,
       "outstanding": 219.0,
-      "delayDays": 71,
+      "delayDays": 60,
       "ltv": 50.0,
       "quantity": null,
       "averagePrice": null,
@@ -881,6 +887,18 @@
           "type": "other",
           "amount": 0.21,
           "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-08-24",
+          "type": "interest",
+          "amount": 2.23,
+          "note": null
+        },
+        {
+          "date": "2026-08-24",
+          "type": "other",
+          "amount": 0.36,
+          "note": "Papildoma išmoka"
         }
       ],
       "paymentSchedule": [
@@ -908,11 +926,11 @@
           "plannedDate": "2026-06-03",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.23,
-          "actualDate": null,
+          "actualDate": "2026-08-24",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 2.23,
+          "actualExtra": 0.36,
+          "historicalDelayDays": 82
         },
         {
           "plannedDate": "2026-07-03",
@@ -1010,8 +1028,8 @@
           "plannedInterest": 24.84,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 4.39,
-          "actualExtra": 0.48,
+          "actualInterest": 6.62,
+          "actualExtra": 0.84,
           "historicalDelayDays": 0
         }
       ],

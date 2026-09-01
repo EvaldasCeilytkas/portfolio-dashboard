@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:08:57+03:00",
+  "generatedAt": "2026-09-01T20:43:41+03:00",
   "moduleType": "indemo",
   "platform": {
     "id": "indemo",
@@ -14,7 +14,7 @@
     "website": "https://indemo.eu",
     "status": "active",
     "startDate": "2025-03-21",
-    "updatedAt": "2026-08-31",
+    "updatedAt": "2026-09-30",
     "healthScore": 100,
     "healthParts": {
       "diversification": 100,
@@ -27,7 +27,7 @@
     "currentValue": 637.06,
     "profit": 87.06,
     "returnRate": 13.67,
-    "xirr": 14.16,
+    "xirr": 14.43,
     "cash": 0.32,
     "incomeReceived": 2.57,
     "activeInvestments": 80,
@@ -330,6 +330,22 @@
     {
       "date": "2026-08-31",
       "invested": 550.0,
+      "value": 641.56,
+      "profit": 91.56,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 550.0,
       "value": 637.06,
       "profit": 87.06,
       "cash": 0.32,
@@ -345,7 +361,7 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-08-31",
+    "date": "2026-09-30",
     "invested": 550.0,
     "value": 637.06,
     "profit": 87.06,
@@ -719,7 +735,7 @@
       "bonuses": 0.31
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-02",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonuses": 0.0
@@ -10237,6 +10253,6 @@
     "moneySheet": "Pinigai",
     "projectSheets": 88,
     "skippedSheets": [],
-    "generatedAt": "2026-08-13T16:08:57+03:00"
+    "generatedAt": "2026-09-01T20:43:41+03:00"
   }
 }

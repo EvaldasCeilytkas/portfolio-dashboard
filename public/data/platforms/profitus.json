@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:10:13+03:00",
+  "generatedAt": "2026-09-01T20:44:48+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-02-17",
-    "updatedAt": "2026-08-13",
+    "updatedAt": "2026-09-01",
     "website": "https://profitus.lt"
   },
   "summary": {
-    "invested": 1020.0,
-    "currentValue": 1125.34,
-    "profit": 105.34,
-    "returnRate": 10.3275,
-    "xirr": 8.6754,
-    "cash": 17.94,
-    "incomeReceived": 95.34,
-    "activeInvestments": 9,
+    "invested": 1114.17,
+    "currentValue": 1240.72,
+    "profit": 126.55,
+    "returnRate": 11.3582,
+    "xirr": 9.6519,
+    "cash": 11.22,
+    "incomeReceived": 106.55,
+    "activeInvestments": 10,
     "delayedInvestments": 1,
     "completedInvestments": 9,
-    "averageRate": 8.664,
-    "averageLtv": 61.2633
+    "averageRate": 8.7003,
+    "averageLtv": 60.8496
   },
   "history": [
     {
-      "date": "2026-08-01",
-      "invested": 1020.0,
-      "value": 1125.34,
-      "profit": 105.34,
-      "cash": 17.94,
+      "date": "2026-09-01",
+      "invested": 1114.17,
+      "value": 1240.72,
+      "profit": 126.55,
+      "cash": 11.22,
       "income": 0.0
     }
   ],
@@ -174,7 +174,7 @@
       "interestRate": 8.5,
       "incomeReceived": 9.42,
       "outstanding": 0.0,
-      "delayDays": 317,
+      "delayDays": 336,
       "ltv": 62.0,
       "quantity": null,
       "averagePrice": null,
@@ -400,7 +400,7 @@
       "interestRate": 9.0,
       "incomeReceived": 7.92,
       "outstanding": 0.0,
-      "delayDays": 329,
+      "delayDays": 348,
       "ltv": 54.0,
       "quantity": null,
       "averagePrice": null,
@@ -531,7 +531,7 @@
       "interestRate": 8.6,
       "incomeReceived": 20.96,
       "outstanding": 0.0,
-      "delayDays": 286,
+      "delayDays": 305,
       "ltv": 65.0,
       "quantity": null,
       "averagePrice": null,
@@ -819,7 +819,7 @@
       "interestRate": 9.0,
       "incomeReceived": 12.14,
       "outstanding": 0.0,
-      "delayDays": 166,
+      "delayDays": 185,
       "ltv": 77.0,
       "quantity": null,
       "averagePrice": null,
@@ -960,7 +960,7 @@
       "interestRate": 8.0,
       "incomeReceived": 13.42,
       "outstanding": 0.0,
-      "delayDays": 105,
+      "delayDays": 124,
       "ltv": 59.0,
       "quantity": null,
       "averagePrice": null,
@@ -1073,7 +1073,7 @@
       "interestRate": 8.0,
       "incomeReceived": 4.94,
       "outstanding": 0.0,
-      "delayDays": 74,
+      "delayDays": 93,
       "ltv": 61.0,
       "quantity": null,
       "averagePrice": null,
@@ -1619,7 +1619,7 @@
       "code": "Paskola P00001480",
       "name": "Golf Hills Vilos, Alikantė",
       "investmentType": "real_estate_project",
-      "status": "active",
+      "status": "delayed",
       "currency": "EUR",
       "invested": 102.9,
       "currentValue": 102.9,
@@ -1630,7 +1630,7 @@
       "interestRate": 9.6,
       "incomeReceived": 6.02,
       "outstanding": 102.9,
-      "delayDays": 0,
+      "delayDays": 1,
       "ltv": 43.0,
       "quantity": null,
       "averagePrice": null,
@@ -1724,12 +1724,12 @@
       "currency": "EUR",
       "invested": 101.5,
       "currentValue": 101.5,
-      "profit": 4.8,
+      "profit": 9.4,
       "investmentDate": "2026-02-20",
       "completionDate": null,
       "country": null,
       "interestRate": 9.0,
-      "incomeReceived": 4.8,
+      "incomeReceived": 9.4,
       "outstanding": 101.5,
       "delayDays": 0,
       "ltv": 60.0,
@@ -1745,6 +1745,12 @@
           "date": "2026-06-01",
           "type": "interest",
           "amount": 2.4,
+          "note": null
+        },
+        {
+          "date": "2026-09-01",
+          "type": "interest",
+          "amount": 2.3,
           "note": null
         }
       ],
@@ -1763,11 +1769,11 @@
           "plannedDate": "2026-08-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.3,
-          "actualDate": null,
+          "actualDate": "2026-09-01",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.3,
           "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "historicalDelayDays": 1
         },
         {
           "plannedDate": "2026-11-30",
@@ -1795,7 +1801,7 @@
           "plannedInterest": 9.08,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 2.4,
+          "actualInterest": 4.7,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -1819,12 +1825,12 @@
       "currency": "EUR",
       "invested": 135.7,
       "currentValue": 135.7,
-      "profit": 8.58,
+      "profit": 10.68,
       "investmentDate": "2026-03-20",
       "completionDate": null,
       "country": null,
       "interestRate": 9.5,
-      "incomeReceived": 8.58,
+      "incomeReceived": 10.68,
       "outstanding": 135.7,
       "delayDays": 0,
       "ltv": 71.0,
@@ -1856,6 +1862,12 @@
         },
         {
           "date": "2026-07-31",
+          "type": "interest",
+          "amount": 1.05,
+          "note": null
+        },
+        {
+          "date": "2026-09-01",
           "type": "interest",
           "amount": 1.05,
           "note": null
@@ -1906,11 +1918,11 @@
           "plannedDate": "2026-08-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 1.05,
-          "actualDate": null,
+          "actualDate": "2026-09-01",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 1.05,
           "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "historicalDelayDays": 1
         },
         {
           "plannedDate": "2026-09-30",
@@ -1988,7 +2000,7 @@
           "plannedInterest": 12.27,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 4.29,
+          "actualInterest": 5.34,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -2008,18 +2020,18 @@
       "code": "Paskola P00001398-20",
       "name": "Europos 70, Kaunas XX",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 120.3,
       "currentValue": 120.3,
-      "profit": 0.0,
+      "profit": 5.98,
       "investmentDate": "2026-04-27",
       "completionDate": null,
       "country": null,
       "interestRate": 8.2,
-      "incomeReceived": 0.0,
+      "incomeReceived": 5.98,
       "outstanding": 120.3,
-      "delayDays": 13,
+      "delayDays": 0,
       "ltv": 56.0,
       "quantity": null,
       "averagePrice": null,
@@ -2028,17 +2040,30 @@
       "isin": null,
       "rating": "A+",
       "maturityDate": "2027-04-26",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-09-01",
+          "type": "interest",
+          "amount": 2.54,
+          "note": null
+        },
+        {
+          "date": "2026-09-01",
+          "type": "other",
+          "amount": 0.45,
+          "note": "Papildoma išmoka"
+        }
+      ],
       "paymentSchedule": [
         {
           "plannedDate": "2026-07-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.54,
-          "actualDate": null,
+          "actualDate": "2026-09-01",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 2.54,
+          "actualExtra": 0.45,
+          "historicalDelayDays": 32
         },
         {
           "plannedDate": "2026-10-31",
@@ -2076,14 +2101,14 @@
           "plannedInterest": 9.82,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
+          "actualInterest": 2.54,
+          "actualExtra": 0.45,
           "historicalDelayDays": 0
         }
       ],
       "interestStartDate": "2026-04-27",
       "durationMonths": 12,
-      "paymentFrequency": "M",
+      "paymentFrequency": "Q",
       "maxLtv": 75.0,
       "repaidPrincipal": 0.0,
       "plannedInterest": 19.64,
@@ -2100,12 +2125,12 @@
       "currency": "EUR",
       "invested": 105.2,
       "currentValue": 105.2,
-      "profit": 0.0,
+      "profit": 5.36,
       "investmentDate": "2026-05-14",
       "completionDate": null,
       "country": null,
       "interestRate": 8.6,
-      "incomeReceived": 0.0,
+      "incomeReceived": 5.36,
       "outstanding": 105.2,
       "delayDays": 0,
       "ltv": 59.0,
@@ -2116,15 +2141,22 @@
       "isin": null,
       "rating": "A-",
       "maturityDate": "2027-05-13",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-08-31",
+          "type": "interest",
+          "amount": 2.68,
+          "note": null
+        }
+      ],
       "paymentSchedule": [
         {
           "plannedDate": "2026-08-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.68,
-          "actualDate": null,
+          "actualDate": "2026-08-31",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.68,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -2164,14 +2196,14 @@
           "plannedInterest": 9.0,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.68,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
       ],
       "interestStartDate": "2026-05-14",
       "durationMonths": 12,
-      "paymentFrequency": "M",
+      "paymentFrequency": "Q",
       "maxLtv": 85.0,
       "repaidPrincipal": 0.0,
       "plannedInterest": 18.0,
@@ -2188,12 +2220,12 @@
       "currency": "EUR",
       "invested": 102.9,
       "currentValue": 102.9,
-      "profit": 0.0,
+      "profit": 4.38,
       "investmentDate": "2026-05-22",
       "completionDate": null,
       "country": null,
       "interestRate": 8.0,
-      "incomeReceived": 0.0,
+      "incomeReceived": 4.38,
       "outstanding": 102.9,
       "delayDays": 0,
       "ltv": 70.0,
@@ -2204,15 +2236,22 @@
       "isin": null,
       "rating": "A",
       "maturityDate": "2027-05-24",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-08-31",
+          "type": "interest",
+          "amount": 2.19,
+          "note": null
+        }
+      ],
       "paymentSchedule": [
         {
           "plannedDate": "2026-08-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.19,
-          "actualDate": null,
+          "actualDate": "2026-08-31",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.19,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -2252,19 +2291,107 @@
           "plannedInterest": 8.19,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.19,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
       ],
       "interestStartDate": "2026-05-26",
       "durationMonths": 12,
-      "paymentFrequency": "M",
+      "paymentFrequency": "Q",
       "maxLtv": 85.0,
       "repaidPrincipal": 0.0,
       "plannedInterest": 16.38,
       "sourceSheets": [
         "Dvibučių kvartalas Kauno r. II"
+      ]
+    },
+    {
+      "id": "Paskola  P00001423-8",
+      "code": "Paskola  P00001423-8",
+      "name": "Senvagės loftai, Panevėžys VIII",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 122.1,
+      "currentValue": 122.1,
+      "profit": 0.0,
+      "investmentDate": "2026-08-20",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.3,
+      "incomeReceived": 0.0,
+      "outstanding": 122.1,
+      "delayDays": 0,
+      "ltv": 54.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A-",
+      "maturityDate": "2027-08-18",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-12-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.99,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.8,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.86,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-08-18",
+          "plannedPrincipal": 122.1,
+          "plannedInterest": 2.46,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 122.1,
+          "plannedInterest": 11.11,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-08-26",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 80.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 22.22,
+      "sourceSheets": [
+        "Senvagės loftai, Panevėžys VIII"
       ]
     }
   ]

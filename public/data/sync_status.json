@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-13T16:12:13.621931+03:00",
+  "generatedAt": "2026-09-01T20:46:15.825093+03:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -8,7 +8,7 @@
       "name": "Evaldas",
       "initials": "EČ",
       "status": "ok",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-01",
       "platforms": 21,
       "records": 308
     },
@@ -17,18 +17,18 @@
       "name": "Rima",
       "initials": "R",
       "status": "ok",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "platforms": 9,
-      "records": 85
+      "records": 88
     },
     {
       "id": "gerda",
       "name": "Gerda",
       "initials": "G",
       "status": "ok",
-      "updatedAt": "2026-07-31",
+      "updatedAt": "2026-08-31",
       "platforms": 1,
-      "records": 2
+      "records": 4
     }
   ],
   "platforms": [
@@ -313,7 +313,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 9,
-      "latestDataDate": "2026-08-13",
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -326,7 +326,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 26,
-      "latestDataDate": "2026-08-13",
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -338,8 +338,8 @@
       "moduleType": "p2p_loans",
       "sourceFile": "Excel / JSON",
       "status": "ok",
-      "records": 15,
-      "latestDataDate": "2026-08-13",
+      "records": 16,
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -352,7 +352,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 9,
-      "latestDataDate": "2026-08-13",
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -365,7 +365,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 4,
-      "latestDataDate": "2026-08-13",
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -377,8 +377,8 @@
       "moduleType": "real_estate",
       "sourceFile": "Excel / JSON",
       "status": "ok",
-      "records": 6,
-      "latestDataDate": "2026-08-13",
+      "records": 8,
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -391,7 +391,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 1,
-      "latestDataDate": "2026-08-13",
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -404,7 +404,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 13,
-      "latestDataDate": "2026-08-13",
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -417,7 +417,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 2,
-      "latestDataDate": "2026-08-13",
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -429,14 +429,19 @@
       "moduleType": "real_estate",
       "sourceFile": "Excel / JSON",
       "status": "ok",
-      "records": 2,
-      "latestDataDate": "2026-08-13",
+      "records": 4,
+      "latestDataDate": "2026-09-01",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
     }
   ],
   "history": [
+    {
+      "generatedAt": "2026-09-01T20:46:15.825093+03:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
     {
       "generatedAt": "2026-08-13T16:12:13.621931+03:00",
       "durationSeconds": 42.228,
@@ -481,11 +486,6 @@
       "generatedAt": "2026-08-09T22:18:26.484906+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
-    },
-    {
-      "generatedAt": "2026-08-09T21:25:14.358539+03:00",
-      "durationSeconds": 42.228,
-      "status": "ok"
     }
   ],
   "system": {
@@ -495,27 +495,27 @@
   },
   "log": [
     {
-      "time": "16:12:13",
+      "time": "20:46:15",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "16:12:13",
+      "time": "20:46:15",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "16:12:13",
+      "time": "20:46:15",
       "level": "success",
       "message": "Rima: 9 platformų patikrinta."
     },
     {
-      "time": "16:12:13",
+      "time": "20:46:15",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "16:12:13",
+      "time": "20:46:15",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:11:47+03:00",
+  "generatedAt": "2026-09-01T20:45:49+03:00",
   "platform": {
     "id": "seb-fondai",
     "slug": "seb-fondai",
@@ -15,13 +15,13 @@
     "website": "https://www.seb.lt"
   },
   "summary": {
-    "invested": 540.0,
-    "netInvested": 540.0,
-    "totalContributed": 540.0,
-    "currentValue": 593.07,
-    "profit": 53.07,
-    "realizedProfit": 53.07,
-    "returnRate": 9.83,
+    "invested": 570.0,
+    "netInvested": 570.0,
+    "totalContributed": 570.0,
+    "currentValue": 637.35,
+    "profit": 67.35,
+    "realizedProfit": 67.35,
+    "returnRate": 11.82,
     "xirr": null,
     "cash": 0.0,
     "incomeReceived": 0.0,
@@ -322,6 +322,23 @@
       "activeInvestments": 2,
       "delayedInvestments": 0,
       "completedInvestments": 0
+    },
+    {
+      "date": "2026-08-01",
+      "month": "2026-08",
+      "invested": 570.0,
+      "totalContributed": 570.0,
+      "currentValue": 637.35,
+      "profit": 67.35,
+      "returnRate": 11.8158,
+      "cash": 0.0,
+      "income": 0.0,
+      "fees": 0.0,
+      "contributions": 30.0,
+      "withdrawals": 0.0,
+      "activeInvestments": 2,
+      "delayedInvestments": 0,
+      "completedInvestments": 0
     }
   ],
   "investments": [
@@ -336,15 +353,15 @@
       "currency": "EUR",
       "startDate": "2025-03-01",
       "endDate": null,
-      "invested": 270.0,
-      "netInvested": 270.0,
-      "currentValue": 300.48,
-      "profit": 30.48,
-      "returnRate": 11.2889,
-      "quantity": 1.7396,
-      "purchasedUnits": 1.7396,
+      "invested": 285.0,
+      "netInvested": 285.0,
+      "currentValue": 323.61,
+      "profit": 38.61,
+      "returnRate": 13.5474,
+      "quantity": 1.8244,
+      "purchasedUnits": 1.8244,
       "soldUnits": 0.0,
-      "price": 172.7268,
+      "price": 177.3781,
       "realizedProceeds": 0.0,
       "dividends": 0.0,
       "fees": 0.0,
@@ -362,15 +379,15 @@
       "currency": "EUR",
       "startDate": "2025-03-01",
       "endDate": null,
-      "invested": 270.0,
-      "netInvested": 270.0,
-      "currentValue": 292.59,
-      "profit": 22.59,
-      "returnRate": 8.3667,
-      "quantity": 1.9611,
-      "purchasedUnits": 1.9611,
+      "invested": 285.0,
+      "netInvested": 285.0,
+      "currentValue": 313.74,
+      "profit": 28.74,
+      "returnRate": 10.0842,
+      "quantity": 2.0597,
+      "purchasedUnits": 2.0597,
       "soldUnits": 0.0,
-      "price": 149.1989,
+      "price": 152.3216,
       "realizedProceeds": 0.0,
       "dividends": 0.0,
       "fees": 0.0,
@@ -384,7 +401,7 @@
         "key": "active",
         "label": "Aktyvūs",
         "count": 2,
-        "value": 593.07
+        "value": 637.35
       },
       {
         "key": "completed",
@@ -398,26 +415,26 @@
         "key": "SESA8FE",
         "label": "SESA8FE",
         "name": "SEB Active 80",
-        "value": 300.48,
-        "weight": 50.6652
+        "value": 323.61,
+        "weight": 50.7743
       },
       {
         "key": "SESA5FE",
         "label": "SESA5FE",
         "name": "SEB Active 55",
-        "value": 292.59,
-        "weight": 49.3348
+        "value": 313.74,
+        "weight": 49.2257
       }
     ]
   },
   "latestMonth": {
-    "date": "2026-07-01",
-    "month": "2026-07",
-    "invested": 540.0,
-    "totalContributed": 540.0,
-    "currentValue": 593.07,
-    "profit": 53.07,
-    "returnRate": 9.8278,
+    "date": "2026-08-01",
+    "month": "2026-08",
+    "invested": 570.0,
+    "totalContributed": 570.0,
+    "currentValue": 637.35,
+    "profit": 67.35,
+    "returnRate": 11.8158,
     "cash": 0.0,
     "income": 0.0,
     "fees": 0.0,
@@ -431,7 +448,7 @@
     "id": "seb-active-80",
     "ticker": "SESA8FE",
     "name": "SEB Active 80",
-    "currentValue": 300.48
+    "currentValue": 323.61
   },
   "source": {
     "file": "SEB Fondai Rima.xlsx",
@@ -441,6 +458,7 @@
       "SEB Active 80"
     ],
     "monthlySheets": [
+      "2026.08",
       "2026.07",
       "2026.06",
       "2026.05",

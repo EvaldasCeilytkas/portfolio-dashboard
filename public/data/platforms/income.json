@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:08:56+03:00",
+  "generatedAt": "2026-09-01T20:43:40+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "income",
@@ -13,34 +13,34 @@
     "active": true,
     "status": "active",
     "startDate": "2026-07-14",
-    "updatedAt": "2026-08-31",
+    "updatedAt": "2026-09-30",
     "website": "https://getincome.com"
   },
   "summary": {
     "invested": 30.0,
-    "currentValue": 30.05,
-    "profit": 0.05,
-    "returnRate": 0.1667,
-    "xirr": 2.8012,
-    "cash": 0.0,
-    "incomeReceived": 0.05,
+    "currentValue": 30.52,
+    "profit": 0.52,
+    "returnRate": 1.7333,
+    "xirr": 14.9548,
+    "cash": 0.49,
+    "incomeReceived": 0.52,
     "activeInvestments": 3,
     "delayedInvestments": 0,
-    "completedInvestments": 1,
-    "averageRate": 12.796,
+    "completedInvestments": 2,
+    "averageRate": 12.7173,
     "averageLtv": null,
     "deposited": 30.0,
     "withdrawn": 0.0,
-    "currentPrincipal": 30.05,
-    "outstandingPrincipal": 30.05,
-    "calculatedOutstanding": 30.05,
-    "principalReturned": 11.27,
-    "interestReceived": 0.05,
-    "grossInterestReceived": 0.05,
-    "bonuses": 0.0,
+    "currentPrincipal": 30.03,
+    "outstandingPrincipal": 30.03,
+    "calculatedOutstanding": 30.03,
+    "principalReturned": 24.3,
+    "interestReceived": 0.28,
+    "grossInterestReceived": 0.28,
+    "bonuses": 0.24,
     "fees": 0.0,
-    "totalInvestments": 4,
-    "roi": 0.1667
+    "totalInvestments": 5,
+    "roi": 1.7333
   },
   "history": [
     {
@@ -59,10 +59,23 @@
     {
       "date": "2026-08-31",
       "invested": 30.0,
-      "value": 30.05,
-      "profit": 0.05,
+      "value": 30.24,
+      "profit": 0.24,
       "cash": 0.0,
-      "income": 0.0,
+      "income": 13.04,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.24,
+      "monthlyProfit": 0.24,
+      "monthlyReturn": 0.8
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 30.0,
+      "value": 30.52,
+      "profit": 0.52,
+      "cash": 0.49,
+      "income": 0.46,
       "deposits": 0.0,
       "withdrawals": 0.0,
       "bonuses": 0.0,
@@ -71,12 +84,12 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-08-31",
+    "date": "2026-09-30",
     "invested": 30.0,
-    "value": 30.05,
-    "profit": 0.05,
-    "cash": 0.0,
-    "income": 0.0,
+    "value": 30.52,
+    "profit": 0.52,
+    "cash": 0.49,
+    "income": 0.46,
     "deposits": 0.0,
     "withdrawals": 0.0,
     "bonuses": 0.0,
@@ -84,36 +97,51 @@
     "monthlyReturn": 0.0
   },
   "largestInvestment": {
-    "id": "20439014",
-    "slug": "20439014",
-    "loanCode": "20439014",
-    "name": "20439014",
-    "sourceSheet": "20439014",
+    "id": "20718136",
+    "slug": "20718136",
+    "loanCode": "20718136",
+    "name": "20718136",
+    "sourceSheet": "20718136",
     "country": "Bulgaria",
     "lender": "ITF Group JSC",
-    "loanType": "Consumer loan",
-    "term": "0 m. 5 mėn. 29 d.",
-    "investmentDate": "2026-07-27",
-    "startDate": "2026-07-27",
-    "plannedEndDate": "2027-01-25",
+    "loanType": "Installment loan",
+    "term": "1 m. 8 mėn. 23 d.",
+    "investmentDate": "2026-08-25",
+    "startDate": "2026-08-11",
+    "plannedEndDate": "2028-05-18",
     "actualEndDate": null,
-    "rate": 13.0,
-    "invested": 11.29,
-    "currentValue": 11.29,
-    "outstandingPrincipal": 11.29,
-    "principalReturned": 0.0,
-    "interestReceived": 0.0,
+    "rate": 12.5,
+    "invested": 13.01,
+    "currentValue": 12.58,
+    "outstandingPrincipal": 12.58,
+    "principalReturned": 0.43,
+    "interestReceived": 0.03,
     "fees": 0.0,
-    "profit": 0.0,
+    "profit": 0.03,
     "xirr": null,
     "status": "active",
     "delayDays": 0,
     "earlyLateDays": 0,
-    "schedule": [],
+    "schedule": [
+      {
+        "plannedDate": "2026-09-01",
+        "actualDate": "2026-09-01",
+        "timingDays": 0,
+        "principal": 0.43,
+        "interest": 0.03,
+        "fee": 0.0,
+        "paid": true
+      }
+    ],
     "cashFlows": [
       {
-        "date": "2026-07-27",
-        "amount": -11.29,
+        "date": "2026-08-25",
+        "amount": -13.01,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-09-01",
+        "amount": 0.46,
         "delayDays": 0
       }
     ]
@@ -123,12 +151,12 @@
       {
         "label": "Bulgaria",
         "count": 1,
-        "value": 11.29
+        "value": 12.58
       },
       {
         "label": "Estonia",
         "count": 1,
-        "value": 8.73
+        "value": 7.42
       },
       {
         "label": "Indonesia",
@@ -140,12 +168,12 @@
       {
         "label": "Hoovi",
         "count": 1,
-        "value": 8.73
+        "value": 7.42
       },
       {
         "label": "ITF Group JSC",
         "count": 1,
-        "value": 11.29
+        "value": 12.58
       },
       {
         "label": "Pinjam Yuk",
@@ -157,24 +185,19 @@
       {
         "label": "Business loan",
         "count": 1,
-        "value": 8.73
-      },
-      {
-        "label": "Consumer loan",
-        "count": 1,
-        "value": 11.29
+        "value": 7.42
       },
       {
         "label": "Installment loan",
-        "count": 1,
-        "value": 10.03
+        "count": 2,
+        "value": 22.61
       }
     ],
     "status": [
       {
         "label": "active",
         "count": 3,
-        "value": 30.05
+        "value": 30.03
       }
     ]
   },
@@ -192,7 +215,13 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-24",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.24
+    },
+    {
+      "date": "2026-09-01",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -215,12 +244,12 @@
       "actualEndDate": null,
       "rate": 10.0,
       "invested": 10.0,
-      "currentValue": 8.73,
-      "outstandingPrincipal": 8.73,
-      "principalReturned": 1.27,
-      "interestReceived": 0.02,
+      "currentValue": 7.42,
+      "outstandingPrincipal": 7.42,
+      "principalReturned": 2.58,
+      "interestReceived": 0.1,
       "fees": 0.0,
-      "profit": 0.02,
+      "profit": 0.1,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -237,12 +266,12 @@
         },
         {
           "plannedDate": "2026-08-17",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-08-24",
+          "timingDays": 7,
+          "principal": 1.31,
+          "interest": 0.08,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         }
       ],
       "cashFlows": [
@@ -254,6 +283,11 @@
         {
           "date": "2026-07-23",
           "amount": 1.29,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 1.39,
           "delayDays": 0
         }
       ]
@@ -356,24 +390,103 @@
       "investmentDate": "2026-07-27",
       "startDate": "2026-07-27",
       "plannedEndDate": "2027-01-25",
-      "actualEndDate": null,
+      "actualEndDate": "2026-08-26",
       "rate": 13.0,
       "invested": 11.29,
-      "currentValue": 11.29,
-      "outstandingPrincipal": 11.29,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 11.29,
+      "interestReceived": 0.12,
       "fees": 0.0,
-      "profit": 0.0,
-      "xirr": null,
-      "status": "active",
+      "profit": 0.12,
+      "xirr": 14.2318,
+      "status": "completed",
       "delayDays": 0,
-      "earlyLateDays": 0,
-      "schedule": [],
+      "earlyLateDays": -152,
+      "schedule": [
+        {
+          "plannedDate": "2026-08-25",
+          "actualDate": "2026-08-25",
+          "timingDays": 0,
+          "principal": 11.26,
+          "interest": 0.12,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-08-28",
+          "actualDate": "2026-08-26",
+          "timingDays": -2,
+          "principal": 0.03,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
       "cashFlows": [
         {
           "date": "2026-07-27",
           "amount": -11.29,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-08-25",
+          "amount": 11.38,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-08-26",
+          "amount": 0.03,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "20718136",
+      "slug": "20718136",
+      "loanCode": "20718136",
+      "name": "20718136",
+      "sourceSheet": "20718136",
+      "country": "Bulgaria",
+      "lender": "ITF Group JSC",
+      "loanType": "Installment loan",
+      "term": "1 m. 8 mėn. 23 d.",
+      "investmentDate": "2026-08-25",
+      "startDate": "2026-08-11",
+      "plannedEndDate": "2028-05-18",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 13.01,
+      "currentValue": 12.58,
+      "outstandingPrincipal": 12.58,
+      "principalReturned": 0.43,
+      "interestReceived": 0.03,
+      "fees": 0.0,
+      "profit": 0.03,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-01",
+          "actualDate": "2026-09-01",
+          "timingDays": 0,
+          "principal": 0.43,
+          "interest": 0.03,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-08-25",
+          "amount": -13.01,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-01",
+          "amount": 0.46,
           "delayDays": 0
         }
       ]
@@ -383,8 +496,8 @@
     "file": "Income.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 4,
+    "loanSheets": 5,
     "skippedSheets": [],
-    "generatedAt": "2026-08-13T16:08:56+03:00"
+    "generatedAt": "2026-09-01T20:43:40+03:00"
   }
 }

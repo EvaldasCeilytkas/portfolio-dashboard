@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:08:58+03:00",
+  "generatedAt": "2026-09-01T20:43:41+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lande",
@@ -13,7 +13,7 @@
     "active": true,
     "status": "active",
     "startDate": "2026-07-15",
-    "updatedAt": "2026-08-31",
+    "updatedAt": "2026-09-30",
     "website": "https://lande.finance"
   },
   "summary": {
@@ -60,6 +60,19 @@
       "invested": 50.0,
       "value": 56.65,
       "profit": 6.65,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 50.0,
+      "value": 56.65,
+      "profit": 6.65,
       "cash": 1.65,
       "income": 0.0,
       "deposits": 0.0,
@@ -70,7 +83,7 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-08-31",
+    "date": "2026-09-30",
     "invested": 50.0,
     "value": 56.65,
     "profit": 6.65,
@@ -247,6 +260,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 1,
     "skippedSheets": [],
-    "generatedAt": "2026-08-13T16:08:58+03:00"
+    "generatedAt": "2026-09-01T20:43:41+03:00"
   }
 }

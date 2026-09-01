@@ -3,24 +3,24 @@
   "type": "monthlyPortfolioHistory",
   "section": "Visas portfelis",
   "currency": "EUR",
-  "generatedAt": "2026-08-13T13:11:45+00:00",
+  "generatedAt": "2026-09-01T17:45:47+00:00",
   "source": {
     "file": "Investavimas.xlsx",
     "sheet": "Investavimas"
   },
   "period": {
     "from": "2021-06-30",
-    "to": "2026-07-31",
-    "months": 62
+    "to": "2026-08-01",
+    "months": 63
   },
   "latest": {
-    "date": "2026-07-31",
-    "invested": 11578.78,
-    "monthlyContribution": 578.65,
-    "value": 12587.33,
-    "profit": 1008.55,
-    "returnRate": 8.71,
-    "monthlyResult": -158.18
+    "date": "2026-08-01",
+    "invested": 11947.63,
+    "monthlyContribution": 368.85,
+    "value": 13150.84,
+    "profit": 1203.21,
+    "returnRate": 10.07,
+    "monthlyResult": 195.02
   },
   "history": [
     {
@@ -576,10 +576,19 @@
       "date": "2026-07-31",
       "invested": 11578.78,
       "monthlyContribution": 578.65,
-      "value": 12587.33,
-      "profit": 1008.55,
+      "value": 12586.97,
+      "profit": 1008.19,
       "returnRate": 8.71,
-      "monthlyResult": -158.18
+      "monthlyResult": -158.54
+    },
+    {
+      "date": "2026-08-01",
+      "invested": 11947.63,
+      "monthlyContribution": 368.85,
+      "value": 13150.84,
+      "profit": 1203.21,
+      "returnRate": 10.07,
+      "monthlyResult": 195.02
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:08:59+03:00",
+  "generatedAt": "2026-09-01T20:43:43+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -13,33 +13,33 @@
     "active": true,
     "status": "active",
     "startDate": "2026-04-27",
-    "updatedAt": "2026-08-31",
+    "updatedAt": "2026-09-30",
     "website": "https://loanch.com"
   },
   "summary": {
     "invested": 20.0,
-    "currentValue": 20.58,
-    "profit": 0.58,
-    "returnRate": 2.9,
-    "xirr": 10.4481,
+    "currentValue": 20.7,
+    "profit": 0.7,
+    "returnRate": 3.5,
+    "xirr": 10.479,
     "cash": 0.0,
-    "incomeReceived": 0.58,
+    "incomeReceived": 0.7,
     "activeInvestments": 1,
     "delayedInvestments": 1,
-    "completedInvestments": 7,
+    "completedInvestments": 8,
     "averageRate": 13.6,
     "averageLtv": null,
     "deposited": 20.0,
     "withdrawn": 0.0,
-    "lifetimeInvested": 20.58,
-    "outstandingPrincipal": 20.58,
-    "principalReturned": 70.64,
-    "interestReceived": 0.58,
-    "grossInterestReceived": 0.58,
+    "lifetimeInvested": 20.7,
+    "outstandingPrincipal": 20.7,
+    "principalReturned": 80.98,
+    "interestReceived": 0.7,
+    "grossInterestReceived": 0.7,
     "bonuses": 0.0,
     "fees": 0.0,
-    "totalInvestments": 9,
-    "roi": 2.9
+    "totalInvestments": 10,
+    "roi": 3.5
   },
   "history": [
     {
@@ -97,8 +97,21 @@
     {
       "date": "2026-08-31",
       "invested": 20.0,
-      "value": 20.58,
-      "profit": 0.58,
+      "value": 20.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 10.46,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 20.0,
+      "value": 20.7,
+      "profit": 0.7,
       "cash": 0.0,
       "income": 0.0,
       "deposits": 0.0,
@@ -109,10 +122,10 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-08-31",
+    "date": "2026-09-30",
     "invested": 20.0,
-    "value": 20.58,
-    "profit": 0.58,
+    "value": 20.7,
+    "profit": 0.7,
     "cash": 0.0,
     "income": 0.0,
     "deposits": 0.0,
@@ -122,24 +135,24 @@
     "monthlyReturn": 0.0
   },
   "largestInvestment": {
-    "id": "45b52ba0...0700af8e066e",
-    "slug": "45b52ba0...0700af8e066e",
-    "loanCode": "45b52ba0...0700af8e066e",
+    "id": "90203940...099922b10dbd",
+    "slug": "90203940...099922b10dbd",
+    "loanCode": "90203940...099922b10dbd",
     "externalId": null,
-    "sourceSheet": "45b52ba0...0700af8e066e",
+    "sourceSheet": "90203940...099922b10dbd",
     "country": "Malaysia",
     "lender": "Tambadana",
     "loanType": "Short Term Loan",
     "trustScore": null,
     "term": "0 m. 0 mėn. 30 d.",
-    "investmentDate": "2026-07-28",
-    "startDate": "2026-07-28",
-    "plannedEndDate": "2026-08-27",
+    "investmentDate": "2026-08-27",
+    "startDate": "2026-08-27",
+    "plannedEndDate": "2026-09-26",
     "actualEndDate": null,
     "rate": 13.6,
-    "invested": 10.34,
-    "currentValue": 10.34,
-    "outstandingPrincipal": 10.34,
+    "invested": 10.46,
+    "currentValue": 10.46,
+    "outstandingPrincipal": 10.46,
     "principalReturned": 0.0,
     "interestReceived": 0.0,
     "fees": 0.0,
@@ -148,21 +161,11 @@
     "status": "active",
     "delayDays": 0,
     "earlyLateDays": 0,
-    "schedule": [
-      {
-        "plannedDate": "2026-08-27",
-        "actualDate": null,
-        "timingDays": 0,
-        "principal": 0.0,
-        "interest": 0.0,
-        "fee": 0.0,
-        "paid": false
-      }
-    ],
+    "schedule": [],
     "cashFlows": [
       {
-        "date": "2026-07-28",
-        "amount": -10.34,
+        "date": "2026-08-27",
+        "amount": -10.46,
         "delayDays": 0
       }
     ]
@@ -172,35 +175,35 @@
       {
         "label": "Malaysia",
         "count": 2,
-        "value": 20.58
+        "value": 20.7
       }
     ],
     "lender": [
       {
         "label": "Tambadana",
         "count": 2,
-        "value": 20.58
+        "value": 20.7
       }
     ],
     "loanType": [
       {
         "label": "Short Term Loan",
         "count": 2,
-        "value": 20.58
+        "value": 20.7
       }
     ],
     "trustScore": [
       {
         "label": "Nenurodyta",
         "count": 2,
-        "value": 20.58
+        "value": 20.7
       }
     ],
     "status": [
       {
         "label": "active",
         "count": 1,
-        "value": 10.34
+        "value": 10.46
       },
       {
         "label": "delayed",
@@ -217,7 +220,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-08-10",
+      "date": "2026-08-31",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -555,7 +558,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 9,
+      "delayDays": 28,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -641,11 +644,62 @@
       "investmentDate": "2026-07-28",
       "startDate": "2026-07-28",
       "plannedEndDate": "2026-08-27",
-      "actualEndDate": null,
+      "actualEndDate": "2026-08-27",
       "rate": 13.6,
       "invested": 10.34,
-      "currentValue": 10.34,
-      "outstandingPrincipal": 10.34,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.34,
+      "interestReceived": 0.12,
+      "fees": 0.0,
+      "profit": 0.12,
+      "xirr": 15.0718,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-08-27",
+          "actualDate": "2026-08-27",
+          "timingDays": 0,
+          "principal": 10.34,
+          "interest": 0.12,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-07-28",
+          "amount": -10.34,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-08-27",
+          "amount": 10.46,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "90203940...099922b10dbd",
+      "slug": "90203940...099922b10dbd",
+      "loanCode": "90203940...099922b10dbd",
+      "externalId": null,
+      "sourceSheet": "90203940...099922b10dbd",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Short Term Loan",
+      "trustScore": null,
+      "term": "0 m. 0 mėn. 30 d.",
+      "investmentDate": "2026-08-27",
+      "startDate": "2026-08-27",
+      "plannedEndDate": "2026-09-26",
+      "actualEndDate": null,
+      "rate": 13.6,
+      "invested": 10.46,
+      "currentValue": 10.46,
+      "outstandingPrincipal": 10.46,
       "principalReturned": 0.0,
       "interestReceived": 0.0,
       "fees": 0.0,
@@ -654,21 +708,11 @@
       "status": "active",
       "delayDays": 0,
       "earlyLateDays": 0,
-      "schedule": [
-        {
-          "plannedDate": "2026-08-27",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
-        }
-      ],
+      "schedule": [],
       "cashFlows": [
         {
-          "date": "2026-07-28",
-          "amount": -10.34,
+          "date": "2026-08-27",
+          "amount": -10.46,
           "delayDays": 0
         }
       ]
@@ -678,8 +722,8 @@
     "file": "Loanch.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 9,
+    "loanSheets": 10,
     "skippedSheets": [],
-    "generatedAt": "2026-08-13T16:08:59+03:00"
+    "generatedAt": "2026-09-01T20:43:43+03:00"
   }
 }

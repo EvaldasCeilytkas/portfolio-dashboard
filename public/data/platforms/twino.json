@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:11:07+03:00",
+  "generatedAt": "2026-09-01T20:45:16+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "twino",
@@ -12,95 +12,56 @@
     "currency": "EUR",
     "active": true,
     "status": "active",
-    "startDate": "2026-04-27",
-    "updatedAt": "2026-08-31",
+    "startDate": "2026-08-15",
+    "updatedAt": "2026-09-30",
     "website": "https://www.twino.eu"
   },
   "summary": {
-    "invested": 0.0,
-    "currentValue": 0.0,
-    "profit": 0.0,
-    "returnRate": 0.0,
-    "xirr": 0.0,
-    "cash": 0.0,
-    "incomeReceived": 0.0,
-    "activeInvestments": 2,
+    "invested": 30.0,
+    "currentValue": 30.03,
+    "profit": 0.03,
+    "returnRate": 0.1,
+    "xirr": 2.2494,
+    "cash": 0.03,
+    "incomeReceived": 0.03,
+    "activeInvestments": 3,
     "delayedInvestments": 0,
     "completedInvestments": 0,
-    "averageRate": null,
+    "averageRate": 11.3333,
     "averageLtv": null,
-    "deposited": 0.0,
+    "deposited": 30.0,
     "withdrawn": 0.0,
-    "lifetimeInvested": 0.0,
-    "outstandingPrincipal": 0.0,
+    "lifetimeInvested": 30.0,
+    "outstandingPrincipal": 30.0,
     "principalReturned": 0.0,
-    "interestReceived": 0.0,
-    "grossInterestReceived": 0.0,
+    "interestReceived": 0.03,
+    "grossInterestReceived": 0.04,
     "bonuses": 0.0,
-    "fees": 0.0,
-    "totalInvestments": 2,
-    "roi": 0.0
+    "fees": 0.01,
+    "totalInvestments": 3,
+    "roi": 0.1
   },
   "history": [
     {
-      "date": "2026-04-30",
-      "invested": 0.0,
-      "value": 0.0,
-      "profit": 0.0,
-      "cash": 0.0,
-      "income": 0.0,
-      "deposits": 0.0,
-      "withdrawals": 0.0,
-      "bonuses": 0.0,
-      "monthlyProfit": 0.0,
-      "monthlyReturn": 0.0
-    },
-    {
-      "date": "2026-05-31",
-      "invested": 0.0,
-      "value": 0.0,
-      "profit": 0.0,
-      "cash": 0.0,
-      "income": 0.0,
-      "deposits": 0.0,
-      "withdrawals": 0.0,
-      "bonuses": 0.0,
-      "monthlyProfit": 0.0,
-      "monthlyReturn": 0.0
-    },
-    {
-      "date": "2026-06-30",
-      "invested": 0.0,
-      "value": 0.0,
-      "profit": 0.0,
-      "cash": 0.0,
-      "income": 0.0,
-      "deposits": 0.0,
-      "withdrawals": 0.0,
-      "bonuses": 0.0,
-      "monthlyProfit": 0.0,
-      "monthlyReturn": 0.0
-    },
-    {
-      "date": "2026-07-31",
-      "invested": 0.0,
-      "value": 0.0,
-      "profit": 0.0,
-      "cash": 0.0,
-      "income": 0.0,
-      "deposits": 0.0,
-      "withdrawals": 0.0,
-      "bonuses": 0.0,
-      "monthlyProfit": 0.0,
-      "monthlyReturn": 0.0
-    },
-    {
       "date": "2026-08-31",
-      "invested": 0.0,
-      "value": 0.0,
+      "invested": 30.0,
+      "value": 30.0,
       "profit": 0.0,
       "cash": 0.0,
       "income": 0.0,
+      "deposits": 30.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 30.0,
+      "value": 30.03,
+      "profit": 0.03,
+      "cash": 0.03,
+      "income": 0.03,
       "deposits": 0.0,
       "withdrawals": 0.0,
       "bonuses": 0.0,
@@ -109,12 +70,12 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-08-31",
-    "invested": 0.0,
-    "value": 0.0,
-    "profit": 0.0,
-    "cash": 0.0,
-    "income": 0.0,
+    "date": "2026-09-30",
+    "invested": 30.0,
+    "value": 30.03,
+    "profit": 0.03,
+    "cash": 0.03,
+    "income": 0.03,
     "deposits": 0.0,
     "withdrawals": 0.0,
     "bonuses": 0.0,
@@ -122,81 +83,130 @@
     "monthlyReturn": 0.0
   },
   "largestInvestment": {
-    "id": "6a67a901...550919b8d681",
-    "slug": "6a67a901...550919b8d681",
-    "loanCode": "6a67a901...550919b8d681",
+    "id": "LVX0000R1N56",
+    "slug": "lvx0000r1n56",
+    "loanCode": "LVX0000R1N56",
     "externalId": null,
-    "sourceSheet": "6a67a901...550919b8d681",
-    "country": null,
-    "lender": null,
-    "loanType": null,
+    "sourceSheet": "LVX0000R1N56",
+    "country": "Poland",
+    "lender": "Fincard Sp. z.o.o.",
+    "loanType": "Loan (Asset Backed Securities)",
     "trustScore": null,
-    "term": "0 m. 0 mėn. 0 d.",
-    "investmentDate": null,
-    "startDate": null,
-    "plannedEndDate": null,
+    "term": "0 m. 3 mėn. 21 d.",
+    "investmentDate": "2026-08-17",
+    "startDate": "2025-12-10",
+    "plannedEndDate": "2026-12-08",
     "actualEndDate": null,
-    "rate": 0.0,
-    "invested": 0.0,
-    "currentValue": 0.0,
-    "outstandingPrincipal": 0.0,
+    "rate": 12.0,
+    "invested": 10.0,
+    "currentValue": 10.0,
+    "outstandingPrincipal": 10.0,
     "principalReturned": 0.0,
     "interestReceived": 0.0,
     "fees": 0.0,
     "profit": 0.0,
-    "xirr": 0.0,
+    "xirr": null,
     "status": "active",
     "delayDays": 0,
     "earlyLateDays": 0,
-    "schedule": [],
-    "cashFlows": []
+    "schedule": [
+      {
+        "plannedDate": "2026-09-08",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-10-08",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-11-08",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-12-08",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      }
+    ],
+    "cashFlows": [
+      {
+        "date": "2026-08-17",
+        "amount": -10.0,
+        "delayDays": 0
+      }
+    ]
   },
   "distributions": {
     "country": [
       {
-        "label": "Nenurodyta",
-        "count": 2,
-        "value": 0.0
+        "label": "Poland",
+        "count": 3,
+        "value": 30.0
       }
     ],
     "lender": [
       {
-        "label": "Nenurodyta",
-        "count": 2,
-        "value": 0.0
+        "label": "Fincard Sp. z.o.o.",
+        "count": 3,
+        "value": 30.0
       }
     ],
     "loanType": [
       {
-        "label": "Nenurodyta",
-        "count": 2,
-        "value": 0.0
+        "label": "Loan (Asset Backed Securities)",
+        "count": 3,
+        "value": 30.0
       }
     ],
     "trustScore": [
       {
         "label": "Nenurodyta",
-        "count": 2,
-        "value": 0.0
+        "count": 3,
+        "value": 30.0
       }
     ],
     "status": [
       {
         "label": "active",
-        "count": 2,
-        "value": 0.0
+        "count": 3,
+        "value": 30.0
       }
     ]
   },
   "cashFlows": [
     {
-      "date": "2026-04-27",
-      "deposited": 0.0,
+      "date": "2026-08-15",
+      "deposited": 21.0,
       "withdrawn": 0.0,
       "bonus": 0.0
     },
     {
-      "date": "2026-08-13",
+      "date": "2026-08-17",
+      "deposited": 9.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-09-01",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -204,72 +214,326 @@
   ],
   "investments": [
     {
-      "id": "6a67a901...550919b8d681",
-      "slug": "6a67a901...550919b8d681",
-      "loanCode": "6a67a901...550919b8d681",
+      "id": "LVX0000R1N56",
+      "slug": "lvx0000r1n56",
+      "loanCode": "LVX0000R1N56",
       "externalId": null,
-      "sourceSheet": "6a67a901...550919b8d681",
-      "country": null,
-      "lender": null,
-      "loanType": null,
+      "sourceSheet": "LVX0000R1N56",
+      "country": "Poland",
+      "lender": "Fincard Sp. z.o.o.",
+      "loanType": "Loan (Asset Backed Securities)",
       "trustScore": null,
-      "term": "0 m. 0 mėn. 0 d.",
-      "investmentDate": null,
-      "startDate": null,
-      "plannedEndDate": null,
+      "term": "0 m. 3 mėn. 21 d.",
+      "investmentDate": "2026-08-17",
+      "startDate": "2025-12-10",
+      "plannedEndDate": "2026-12-08",
       "actualEndDate": null,
-      "rate": 0.0,
-      "invested": 0.0,
-      "currentValue": 0.0,
-      "outstandingPrincipal": 0.0,
+      "rate": 12.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
       "principalReturned": 0.0,
       "interestReceived": 0.0,
       "fees": 0.0,
       "profit": 0.0,
-      "xirr": 0.0,
+      "xirr": null,
       "status": "active",
       "delayDays": 0,
       "earlyLateDays": 0,
-      "schedule": [],
-      "cashFlows": []
+      "schedule": [
+        {
+          "plannedDate": "2026-09-08",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-10-08",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-08",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-08",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-08-17",
+          "amount": -10.0,
+          "delayDays": 0
+        }
+      ]
     },
     {
-      "id": "8572f54e...85fb68b6201e",
-      "slug": "8572f54e...85fb68b6201e",
-      "loanCode": "8572f54e...85fb68b6201e",
+      "id": "LVX0000VAUM7",
+      "slug": "lvx0000vaum7",
+      "loanCode": "LVX0000VAUM7",
       "externalId": null,
-      "sourceSheet": "8572f54e...85fb68b6201e",
-      "country": null,
-      "lender": null,
-      "loanType": null,
+      "sourceSheet": "LVX0000VAUM7",
+      "country": "Poland",
+      "lender": "Fincard Sp. z.o.o.",
+      "loanType": "Loan (Asset Backed Securities)",
       "trustScore": null,
-      "term": "0 m. 0 mėn. 0 d.",
-      "investmentDate": null,
-      "startDate": null,
-      "plannedEndDate": null,
+      "term": "0 m. 5 mėn. 16 d.",
+      "investmentDate": "2026-08-17",
+      "startDate": "2026-08-04",
+      "plannedEndDate": "2027-02-02",
       "actualEndDate": null,
-      "rate": 0.0,
-      "invested": 0.0,
-      "currentValue": 0.0,
-      "outstandingPrincipal": 0.0,
+      "rate": 10.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.04,
+      "fees": 0.01,
+      "profit": 0.03,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-02",
+          "actualDate": "2026-09-01",
+          "timingDays": -1,
+          "principal": 0.0,
+          "interest": 0.04,
+          "fee": 0.01,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-10-02",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-02",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-02",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-02",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-02",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-08-17",
+          "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-01",
+          "amount": 0.03,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000VCV76",
+      "slug": "lvx0000vcv76",
+      "loanCode": "LVX0000VCV76",
+      "externalId": null,
+      "sourceSheet": "LVX0000VCV76",
+      "country": "Poland",
+      "lender": "Fincard Sp. z.o.o.",
+      "loanType": "Loan (Asset Backed Securities)",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 23 d.",
+      "investmentDate": "2026-08-17",
+      "startDate": "2026-08-10",
+      "plannedEndDate": "2027-08-09",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
       "principalReturned": 0.0,
       "interestReceived": 0.0,
       "fees": 0.0,
       "profit": 0.0,
-      "xirr": 0.0,
+      "xirr": null,
       "status": "active",
       "delayDays": 0,
       "earlyLateDays": 0,
-      "schedule": [],
-      "cashFlows": []
+      "schedule": [
+        {
+          "plannedDate": "2026-09-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-10-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-03-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-04-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-05-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-06-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-07-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-08-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-08-17",
+          "amount": -10.0,
+          "delayDays": 0
+        }
+      ]
     }
   ],
   "source": {
     "file": "TWINO.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 2,
+    "loanSheets": 3,
     "skippedSheets": [],
-    "generatedAt": "2026-08-13T16:11:07+03:00"
+    "generatedAt": "2026-09-01T20:45:16+03:00"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:12:13+03:00",
+  "generatedAt": "2026-09-01T20:46:15+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -10,35 +10,267 @@
     "category": "NT sutelktinis finansavimas",
     "currency": "EUR",
     "active": true,
-    "startDate": "2026-05-22",
-    "updatedAt": "2026-08-13",
+    "startDate": "2025-08-30",
+    "updatedAt": "2026-09-01",
     "website": "https://profitus.lt"
   },
   "summary": {
-    "invested": 215.3,
-    "currentValue": 240.3,
-    "profit": 25.0,
-    "returnRate": 11.6117,
-    "xirr": 332.7953,
-    "cash": 0.0,
-    "incomeReceived": 0.0,
+    "invested": 200.31,
+    "currentValue": 242.56,
+    "profit": 42.25,
+    "returnRate": 21.0923,
+    "xirr": 20.9907,
+    "cash": 2.26,
+    "incomeReceived": 17.25,
     "activeInvestments": 2,
     "delayedInvestments": 0,
-    "completedInvestments": 0,
-    "averageRate": 8.2231,
-    "averageLtv": 64.4236
+    "completedInvestments": 2,
+    "averageRate": 8.6895,
+    "averageLtv": 61.5058
   },
   "history": [
     {
-      "date": "2026-08-01",
-      "invested": 215.3,
-      "value": 240.3,
-      "profit": 25.0,
-      "cash": 0.0,
+      "date": "2026-09-01",
+      "invested": 200.31,
+      "value": 242.56,
+      "profit": 42.25,
+      "cash": 2.26,
       "income": 0.0
     }
   ],
   "investments": [
+    {
+      "id": "Paskola P00001405-3",
+      "code": "Paskola P00001405-3",
+      "name": "Sakurų Namai, Marijampolė III",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 12.86,
+      "investmentDate": "2025-08-30",
+      "completionDate": "2026-05-12",
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 12.86,
+      "outstanding": 0.0,
+      "delayDays": 63,
+      "ltv": 57.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A-",
+      "maturityDate": "2026-08-31",
+      "payments": [
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 3.13,
+          "note": null
+        },
+        {
+          "date": "2026-04-01",
+          "type": "interest",
+          "amount": 2.34,
+          "note": null
+        },
+        {
+          "date": "2026-05-12",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2026-05-12",
+          "type": "interest",
+          "amount": 0.96,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.13,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 3.13,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.34,
+          "actualDate": "2026-04-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.34,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.37,
+          "actualDate": "2026-05-12",
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-08-31",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.61,
+          "actualDate": "2026-05-12",
+          "actualPrincipal": 100.0,
+          "actualInterest": 0.96,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 9.45,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 6.43,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-02",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 85.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 18.9,
+      "sourceSheets": [
+        "Sakurų Namai, Marijampolė III"
+      ]
+    },
+    {
+      "id": "Paskola P00001423-4",
+      "code": "Paskola P00001423-4",
+      "name": "Senvagės loftai, Panevėžys IV",
+      "investmentType": "real_estate_project",
+      "status": "completed",
+      "currency": "EUR",
+      "invested": 100.0,
+      "currentValue": 0.0,
+      "profit": 17.12,
+      "investmentDate": "2025-08-30",
+      "completionDate": "2026-08-14",
+      "country": null,
+      "interestRate": 9.0,
+      "incomeReceived": 17.12,
+      "outstanding": 0.0,
+      "delayDays": 2,
+      "ltv": 59.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A",
+      "maturityDate": "2026-08-30",
+      "payments": [
+        {
+          "date": "2025-12-31",
+          "type": "interest",
+          "amount": 2.99,
+          "note": null
+        },
+        {
+          "date": "2026-03-31",
+          "type": "interest",
+          "amount": 2.22,
+          "note": null
+        },
+        {
+          "date": "2026-07-01",
+          "type": "interest",
+          "amount": 2.24,
+          "note": null
+        },
+        {
+          "date": "2026-08-14",
+          "type": "principal",
+          "amount": 100.0,
+          "note": null
+        },
+        {
+          "date": "2026-08-14",
+          "type": "interest",
+          "amount": 1.11,
+          "note": null
+        }
+      ],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2025-12-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.99,
+          "actualDate": "2025-12-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.99,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-03-31",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.22,
+          "actualDate": "2026-03-31",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.22,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-06-30",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.24,
+          "actualDate": "2026-07-01",
+          "actualPrincipal": 0.0,
+          "actualInterest": 2.24,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 1
+        },
+        {
+          "plannedDate": "2026-08-30",
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 1.51,
+          "actualDate": "2026-08-14",
+          "actualPrincipal": 100.0,
+          "actualInterest": 1.11,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 100.0,
+          "plannedInterest": 8.96,
+          "actualDate": null,
+          "actualPrincipal": 100.0,
+          "actualInterest": 8.56,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2025-09-01",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 80.0,
+      "repaidPrincipal": 200.0,
+      "plannedInterest": 17.92,
+      "sourceSheets": [
+        "Senvagės loftai, Panevėžys IV"
+      ]
+    },
     {
       "id": "Paskola P00001402-2",
       "code": "Paskola P00001402-2",
@@ -48,12 +280,12 @@
       "currency": "EUR",
       "invested": 106.3,
       "currentValue": 106.3,
-      "profit": 0.0,
+      "profit": 4.52,
       "investmentDate": "2026-05-22",
       "completionDate": null,
       "country": null,
       "interestRate": 8.0,
-      "incomeReceived": 0.0,
+      "incomeReceived": 4.52,
       "outstanding": 106.3,
       "delayDays": 0,
       "ltv": 70.0,
@@ -64,15 +296,22 @@
       "isin": null,
       "rating": "A",
       "maturityDate": "2027-05-24",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-08-31",
+          "type": "interest",
+          "amount": 2.26,
+          "note": null
+        }
+      ],
       "paymentSchedule": [
         {
           "plannedDate": "2026-08-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.26,
-          "actualDate": null,
+          "actualDate": "2026-08-31",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.26,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -112,7 +351,7 @@
           "plannedInterest": 8.46,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.26,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }

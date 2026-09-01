@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T16:12:05+03:00",
+  "generatedAt": "2026-09-01T20:46:06+03:00",
   "moduleType": "indemo",
   "platform": {
     "id": "indemo",
@@ -14,7 +14,7 @@
     "website": "https://indemo.eu",
     "status": "active",
     "startDate": "2025-03-24",
-    "updatedAt": "2026-08-31",
+    "updatedAt": "2026-09-30",
     "healthScore": 100,
     "healthParts": {
       "diversification": 46,
@@ -330,6 +330,22 @@
     {
       "date": "2026-08-31",
       "invested": 30.0,
+      "value": 85.99,
+      "profit": 55.99,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.0,
+      "interest": 0.0,
+      "extraIncome": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 30.0,
       "value": 85.35,
       "profit": 55.35,
       "cash": 2.17,
@@ -345,7 +361,7 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-08-31",
+    "date": "2026-09-30",
     "invested": 30.0,
     "value": 85.35,
     "profit": 55.35,
@@ -2239,6 +2255,6 @@
     "moneySheet": "Pinigai",
     "projectSheets": 26,
     "skippedSheets": [],
-    "generatedAt": "2026-08-13T16:12:05+03:00"
+    "generatedAt": "2026-09-01T20:46:06+03:00"
   }
 }
