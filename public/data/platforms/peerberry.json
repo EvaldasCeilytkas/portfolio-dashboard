@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:38:39+03:00",
+  "generatedAt": "2026-10-01T21:37:39+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "peerberry",
@@ -13,33 +13,33 @@
     "active": true,
     "status": "active",
     "startDate": "2026-06-23",
-    "updatedAt": "2026-09-30",
+    "updatedAt": "2026-10-31",
     "website": "https://peerberry.com"
   },
   "summary": {
     "invested": 60.0,
-    "currentValue": 60.32,
-    "profit": 0.32,
-    "returnRate": 0.5333,
-    "xirr": 6.3097,
+    "currentValue": 60.73,
+    "profit": 0.73,
+    "returnRate": 1.2167,
+    "xirr": 7.5373,
     "cash": 0.0,
-    "incomeReceived": 0.32,
-    "activeInvestments": 5,
+    "incomeReceived": 0.73,
+    "activeInvestments": 4,
     "delayedInvestments": 0,
-    "completedInvestments": 0,
-    "averageRate": 8.3316,
+    "completedInvestments": 2,
+    "averageRate": 8.2504,
     "averageLtv": null,
     "deposited": 60.0,
     "withdrawn": 0.0,
-    "lifetimeInvested": 60.32,
-    "outstandingPrincipal": 60.32,
-    "principalReturned": 0.0,
-    "interestReceived": 0.32,
-    "grossInterestReceived": 0.32,
+    "lifetimeInvested": 60.73,
+    "outstandingPrincipal": 60.73,
+    "principalReturned": 20.06,
+    "interestReceived": 0.73,
+    "grossInterestReceived": 0.73,
     "bonuses": 0.0,
     "fees": 0.0,
-    "totalInvestments": 5,
-    "roi": 0.5333
+    "totalInvestments": 6,
+    "roi": 1.2167
   },
   "history": [
     {
@@ -84,8 +84,21 @@
     {
       "date": "2026-09-30",
       "invested": 60.0,
-      "value": 60.32,
-      "profit": 0.32,
+      "value": 60.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 20.47,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-10-31",
+      "invested": 60.0,
+      "value": 60.73,
+      "profit": 0.73,
       "cash": 0.0,
       "income": 0.0,
       "deposits": 0.0,
@@ -96,10 +109,10 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-09-30",
+    "date": "2026-10-31",
     "invested": 60.0,
-    "value": 60.32,
-    "profit": 0.32,
+    "value": 60.73,
+    "profit": 0.73,
     "cash": 0.0,
     "income": 0.0,
     "deposits": 0.0,
@@ -109,24 +122,24 @@
     "monthlyReturn": 0.0
   },
   "largestInvestment": {
-    "id": "27800234",
-    "slug": "27800234",
-    "loanCode": "27800234",
+    "id": "28336968",
+    "slug": "28336968",
+    "loanCode": "28336968",
     "externalId": null,
-    "sourceSheet": "27800234",
-    "country": "Poland",
-    "lender": "NovaLend PL",
-    "loanType": "Business",
+    "sourceSheet": "28336968",
+    "country": "Lithuania",
+    "lender": "Lithome LT",
+    "loanType": "Real estate",
     "trustScore": null,
-    "term": "0 m. 5 mėn. 24 d.",
-    "investmentDate": "2026-08-27",
-    "startDate": "2026-08-20",
-    "plannedEndDate": "2027-02-20",
+    "term": "0 m. 11 mėn. 18 d.",
+    "investmentDate": "2026-09-24",
+    "startDate": "2026-09-11",
+    "plannedEndDate": "2027-09-11",
     "actualEndDate": null,
-    "rate": 8.0,
-    "invested": 20.16,
-    "currentValue": 20.16,
-    "outstandingPrincipal": 20.16,
+    "rate": 8.5,
+    "invested": 20.47,
+    "currentValue": 20.47,
+    "outstandingPrincipal": 20.47,
     "principalReturned": 0.0,
     "interestReceived": 0.0,
     "fees": 0.0,
@@ -137,7 +150,7 @@
     "earlyLateDays": 0,
     "schedule": [
       {
-        "plannedDate": "2026-09-20",
+        "plannedDate": "2026-10-11",
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
@@ -146,7 +159,7 @@
         "paid": false
       },
       {
-        "plannedDate": "2026-10-20",
+        "plannedDate": "2026-11-11",
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
@@ -155,7 +168,7 @@
         "paid": false
       },
       {
-        "plannedDate": "2026-11-20",
+        "plannedDate": "2026-12-11",
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
@@ -164,7 +177,7 @@
         "paid": false
       },
       {
-        "plannedDate": "2026-12-20",
+        "plannedDate": "2027-01-11",
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
@@ -173,7 +186,7 @@
         "paid": false
       },
       {
-        "plannedDate": "2027-01-20",
+        "plannedDate": "2027-02-11",
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
@@ -182,7 +195,61 @@
         "paid": false
       },
       {
-        "plannedDate": "2027-02-20",
+        "plannedDate": "2027-03-11",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2027-04-11",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2027-05-11",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2027-06-11",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2027-07-11",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2027-08-11",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2027-09-11",
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
@@ -193,8 +260,8 @@
     ],
     "cashFlows": [
       {
-        "date": "2026-08-27",
-        "amount": -20.16,
+        "date": "2026-09-24",
+        "amount": -20.47,
         "delayDays": 0
       }
     ]
@@ -204,39 +271,29 @@
       {
         "label": "Kazakhstan",
         "count": 1,
-        "value": 10.0
+        "value": 9.94
       },
       {
         "label": "Lithuania",
         "count": 1,
-        "value": 10.0
+        "value": 20.47
       },
       {
         "label": "Poland",
         "count": 2,
         "value": 30.32
-      },
-      {
-        "label": "Romania",
-        "count": 1,
-        "value": 10.0
       }
     ],
     "lender": [
       {
-        "label": "A Credit RO",
-        "count": 1,
-        "value": 10.0
-      },
-      {
         "label": "Auto-Money KZ",
         "count": 1,
-        "value": 10.0
+        "value": 9.94
       },
       {
-        "label": "Aventus Group",
+        "label": "Lithome LT",
         "count": 1,
-        "value": 10.0
+        "value": 20.47
       },
       {
         "label": "NovaLend PL",
@@ -247,27 +304,32 @@
     "loanType": [
       {
         "label": "Business",
-        "count": 4,
-        "value": 50.32
+        "count": 2,
+        "value": 30.32
       },
       {
         "label": "Leasing",
         "count": 1,
-        "value": 10.0
+        "value": 9.94
+      },
+      {
+        "label": "Real estate",
+        "count": 1,
+        "value": 20.47
       }
     ],
     "trustScore": [
       {
         "label": "Nenurodyta",
-        "count": 5,
-        "value": 60.32
+        "count": 4,
+        "value": 60.73
       }
     ],
     "status": [
       {
         "label": "active",
-        "count": 5,
-        "value": 60.32
+        "count": 4,
+        "value": 60.73
       }
     ]
   },
@@ -291,7 +353,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-30",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -312,17 +374,17 @@
       "investmentDate": "2026-06-24",
       "startDate": "2026-06-24",
       "plannedEndDate": "2026-09-24",
-      "actualEndDate": null,
+      "actualEndDate": "2026-09-24",
       "rate": 9.0,
       "invested": 10.0,
-      "currentValue": 10.0,
-      "outstandingPrincipal": 10.0,
-      "principalReturned": 0.0,
-      "interestReceived": 0.16,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.0,
+      "interestReceived": 0.24,
       "fees": 0.0,
-      "profit": 0.16,
-      "xirr": null,
-      "status": "active",
+      "profit": 0.24,
+      "xirr": 9.949,
+      "status": "completed",
       "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
@@ -346,12 +408,12 @@
         },
         {
           "plannedDate": "2026-09-24",
-          "actualDate": null,
+          "actualDate": "2026-09-24",
           "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "principal": 10.0,
+          "interest": 0.08,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         }
       ],
       "cashFlows": [
@@ -368,6 +430,11 @@
         {
           "date": "2026-08-24",
           "amount": 0.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-24",
+          "amount": 10.08,
           "delayDays": 0
         }
       ]
@@ -386,17 +453,17 @@
       "investmentDate": "2026-06-24",
       "startDate": "2026-06-24",
       "plannedEndDate": "2026-09-24",
-      "actualEndDate": null,
+      "actualEndDate": "2026-09-24",
       "rate": 8.5,
       "invested": 10.0,
-      "currentValue": 10.0,
-      "outstandingPrincipal": 10.0,
-      "principalReturned": 0.0,
-      "interestReceived": 0.16,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.0,
+      "interestReceived": 0.24,
       "fees": 0.0,
-      "profit": 0.16,
-      "xirr": null,
-      "status": "active",
+      "profit": 0.24,
+      "xirr": 9.949,
+      "status": "completed",
       "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
@@ -420,12 +487,12 @@
         },
         {
           "plannedDate": "2026-09-24",
-          "actualDate": null,
+          "actualDate": "2026-09-24",
           "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "principal": 10.0,
+          "interest": 0.08,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         }
       ],
       "cashFlows": [
@@ -442,6 +509,11 @@
         {
           "date": "2026-08-24",
           "amount": 0.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-24",
+          "amount": 10.08,
           "delayDays": 0
         }
       ]
@@ -466,9 +538,9 @@
       "currentValue": 10.16,
       "outstandingPrincipal": 10.16,
       "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "interestReceived": 0.07,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.07,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -476,12 +548,12 @@
       "schedule": [
         {
           "plannedDate": "2026-09-13",
-          "actualDate": null,
+          "actualDate": "2026-09-13",
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.0,
+          "interest": 0.07,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-10-13",
@@ -534,6 +606,11 @@
           "date": "2026-08-13",
           "amount": -10.16,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-13",
+          "amount": 0.07,
+          "delayDays": 0
         }
       ]
     },
@@ -554,12 +631,12 @@
       "actualEndDate": null,
       "rate": 8.5,
       "invested": 10.0,
-      "currentValue": 10.0,
-      "outstandingPrincipal": 10.0,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 9.94,
+      "outstandingPrincipal": 9.94,
+      "principalReturned": 0.06,
+      "interestReceived": 0.07,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.07,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -567,12 +644,12 @@
       "schedule": [
         {
           "plannedDate": "2026-09-11",
-          "actualDate": null,
+          "actualDate": "2026-09-11",
           "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "principal": 0.06,
+          "interest": 0.07,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-10-11",
@@ -679,6 +756,11 @@
           "date": "2026-08-13",
           "amount": -10.0,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-11",
+          "amount": 0.13,
+          "delayDays": 0
         }
       ]
     },
@@ -702,9 +784,9 @@
       "currentValue": 20.16,
       "outstandingPrincipal": 20.16,
       "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "interestReceived": 0.11,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.11,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -712,12 +794,12 @@
       "schedule": [
         {
           "plannedDate": "2026-09-20",
-          "actualDate": null,
+          "actualDate": "2026-09-20",
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.0,
+          "interest": 0.11,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-10-20",
@@ -770,6 +852,156 @@
           "date": "2026-08-27",
           "amount": -20.16,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-20",
+          "amount": 0.11,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "28336968",
+      "slug": "28336968",
+      "loanCode": "28336968",
+      "externalId": null,
+      "sourceSheet": "28336968",
+      "country": "Lithuania",
+      "lender": "Lithome LT",
+      "loanType": "Real estate",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 18 d.",
+      "investmentDate": "2026-09-24",
+      "startDate": "2026-09-11",
+      "plannedEndDate": "2027-09-11",
+      "actualEndDate": null,
+      "rate": 8.5,
+      "invested": 20.47,
+      "currentValue": 20.47,
+      "outstandingPrincipal": 20.47,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-10-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-03-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-04-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-05-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-06-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-07-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-08-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-09-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-24",
+          "amount": -20.47,
+          "delayDays": 0
         }
       ]
     }
@@ -778,8 +1010,8 @@
     "file": "PeerBerry.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 5,
+    "loanSheets": 6,
     "skippedSheets": [],
-    "generatedAt": "2026-09-01T22:38:39+03:00"
+    "generatedAt": "2026-10-01T21:37:39+03:00"
   }
 }

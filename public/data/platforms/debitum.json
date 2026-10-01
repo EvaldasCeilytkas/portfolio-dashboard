@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:38:00+03:00",
+  "generatedAt": "2026-10-01T21:37:03+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "debitum",
@@ -13,33 +13,33 @@
     "active": true,
     "status": "active",
     "startDate": "2025-09-22",
-    "updatedAt": "2026-09-30",
+    "updatedAt": "2026-10-31",
     "website": "https://debitum.investments"
   },
   "summary": {
-    "invested": 260.0,
-    "currentValue": 278.37,
-    "profit": 18.37,
-    "returnRate": 7.0654,
-    "xirr": 12.6283,
-    "cash": 2.59,
-    "incomeReceived": 18.37,
-    "activeInvestments": 12,
+    "invested": 300.0,
+    "currentValue": 321.4,
+    "profit": 21.4,
+    "returnRate": 7.1333,
+    "xirr": 12.6565,
+    "cash": 2.82,
+    "incomeReceived": 21.4,
+    "activeInvestments": 14,
     "delayedInvestments": 0,
-    "completedInvestments": 4,
-    "averageRate": 11.6904,
+    "completedInvestments": 6,
+    "averageRate": 11.6302,
     "averageLtv": null,
-    "deposited": 260.0,
+    "deposited": 300.0,
     "withdrawn": 0.0,
-    "lifetimeInvested": 275.78,
-    "outstandingPrincipal": 275.78,
-    "principalReturned": 91.63,
-    "interestReceived": 17.48,
-    "grossInterestReceived": 17.48,
+    "lifetimeInvested": 318.58,
+    "outstandingPrincipal": 318.58,
+    "principalReturned": 143.43,
+    "interestReceived": 20.51,
+    "grossInterestReceived": 20.51,
     "bonuses": 0.89,
     "fees": 0.0,
-    "totalInvestments": 16,
-    "roi": 7.0654
+    "totalInvestments": 20,
+    "roi": 7.1333
   },
   "history": [
     {
@@ -200,10 +200,23 @@
     },
     {
       "date": "2026-09-30",
-      "invested": 260.0,
-      "value": 278.37,
-      "profit": 18.37,
-      "cash": 2.59,
+      "invested": 300.0,
+      "value": 300.89,
+      "profit": 0.89,
+      "cash": 0.0,
+      "income": 54.83,
+      "deposits": 40.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-10-31",
+      "invested": 300.0,
+      "value": 321.4,
+      "profit": 21.4,
+      "cash": 2.82,
       "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
@@ -213,11 +226,11 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-09-30",
-    "invested": 260.0,
-    "value": 278.37,
-    "profit": 18.37,
-    "cash": 2.59,
+    "date": "2026-10-31",
+    "invested": 300.0,
+    "value": 321.4,
+    "profit": 21.4,
+    "cash": 2.82,
     "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
@@ -245,9 +258,9 @@
     "currentValue": 30.48,
     "outstandingPrincipal": 30.48,
     "principalReturned": 0.0,
-    "interestReceived": 0.87,
+    "interestReceived": 1.14,
     "fees": 0.0,
-    "profit": 0.87,
+    "profit": 1.14,
     "xirr": null,
     "status": "active",
     "delayDays": 0,
@@ -290,11 +303,20 @@
         "paid": true
       },
       {
+        "plannedDate": "2026-09-30",
+        "actualDate": "2026-09-30",
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.27,
+        "fee": 0.0,
+        "paid": true
+      },
+      {
         "plannedDate": null,
         "actualDate": null,
         "timingDays": 0,
         "principal": 0.0,
-        "interest": 0.87,
+        "interest": 1.14,
         "fee": 0.0,
         "paid": false
       }
@@ -324,6 +346,11 @@
         "date": "2026-08-31",
         "amount": 0.29,
         "delayDays": 0
+      },
+      {
+        "date": "2026-09-30",
+        "amount": 0.27,
+        "delayDays": 0
       }
     ]
   },
@@ -331,56 +358,66 @@
     "country": [
       {
         "label": "Latvia",
-        "count": 12,
-        "value": 275.78
+        "count": 14,
+        "value": 318.58
       }
     ],
     "lender": [
       {
         "label": "Baltic Terra",
-        "count": 3,
-        "value": 73.24
+        "count": 4,
+        "value": 95.09
       },
       {
         "label": "Latvian Forest Developement Fund",
-        "count": 6,
-        "value": 139.09
+        "count": 5,
+        "value": 117.45
+      },
+      {
+        "label": "Latvian Forest Developement Fund II",
+        "count": 1,
+        "value": 22.59
       },
       {
         "label": "Sandbox Funding",
-        "count": 3,
-        "value": 63.45
+        "count": 4,
+        "value": 83.45
       }
     ],
     "loanType": [
       {
         "label": "Loans",
-        "count": 3,
-        "value": 63.45
+        "count": 4,
+        "value": 83.45
       },
       {
         "label": "Notes",
-        "count": 9,
-        "value": 212.33
+        "count": 10,
+        "value": 235.13
       }
     ],
     "trustScore": [
       {
         "label": "A",
         "count": 9,
-        "value": 212.33
+        "value": 212.54
+      },
+      {
+        "label": "B",
+        "count": 1,
+        "value": 22.59
       },
       {
         "label": "B+",
-        "count": 3,
-        "value": 63.45
+        "count": 4,
+        "value": 83.45
       }
     ],
     "status": [
       {
         "label": "active",
-        "count": 12,
-        "value": 275.78
+        "count": 14,
+        "value": 318.58
       }
     ]
   },
@@ -458,7 +495,19 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-09-06",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-09-30",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -479,19 +528,19 @@
       "investmentDate": "2025-09-23",
       "startDate": "2025-08-27",
       "plannedEndDate": "2026-09-14",
-      "actualEndDate": null,
+      "actualEndDate": "2026-09-15",
       "rate": 13.0,
       "invested": 30.0,
-      "currentValue": 30.0,
-      "outstandingPrincipal": 30.0,
-      "principalReturned": 0.0,
-      "interestReceived": 3.71,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 30.0,
+      "interestReceived": 3.87,
       "fees": 0.0,
-      "profit": 3.71,
-      "xirr": null,
-      "status": "active",
+      "profit": 3.87,
+      "xirr": 14.021,
+      "status": "completed",
       "delayDays": 0,
-      "earlyLateDays": 0,
+      "earlyLateDays": 1,
       "schedule": [
         {
           "plannedDate": "2025-09-30",
@@ -602,11 +651,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-14",
+          "actualDate": "2026-09-15",
+          "timingDays": 1,
+          "principal": 30.0,
+          "interest": 0.16,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
-          "principal": 0.0,
-          "interest": 3.71,
+          "principal": 30.0,
+          "interest": 3.87,
           "fee": 0.0,
           "paid": false
         }
@@ -675,6 +733,11 @@
         {
           "date": "2026-08-31",
           "amount": 0.33,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-15",
+          "amount": 30.16,
           "delayDays": 0
         }
       ]
@@ -1317,9 +1380,9 @@
       "currentValue": 21.01,
       "outstandingPrincipal": 21.01,
       "principalReturned": 0.0,
-      "interestReceived": 1.55,
+      "interestReceived": 1.74,
       "fees": 0.0,
-      "profit": 1.55,
+      "profit": 1.74,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -1398,11 +1461,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 1.55,
+          "interest": 1.74,
           "fee": 0.0,
           "paid": false
         }
@@ -1452,6 +1524,11 @@
           "date": "2026-08-31",
           "amount": 0.2,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.19,
+          "delayDays": 0
         }
       ]
     },
@@ -1475,9 +1552,9 @@
       "currentValue": 21.43,
       "outstandingPrincipal": 21.43,
       "principalReturned": 0.0,
-      "interestReceived": 1.25,
+      "interestReceived": 1.43,
       "fees": 0.0,
-      "profit": 1.25,
+      "profit": 1.43,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -1547,11 +1624,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.18,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 1.25,
+          "interest": 1.43,
           "fee": 0.0,
           "paid": false
         }
@@ -1596,6 +1682,11 @@
           "date": "2026-08-31",
           "amount": 0.19,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.18,
+          "delayDays": 0
         }
       ]
     },
@@ -1613,17 +1704,17 @@
       "investmentDate": "2026-03-02",
       "startDate": "2026-02-24",
       "plannedEndDate": "2026-09-08",
-      "actualEndDate": null,
+      "actualEndDate": "2026-09-08",
       "rate": 11.0,
       "invested": 21.8,
-      "currentValue": 21.8,
-      "outstandingPrincipal": 21.8,
-      "principalReturned": 0.0,
-      "interestReceived": 1.21,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 21.8,
+      "interestReceived": 1.26,
       "fees": 0.0,
-      "profit": 1.21,
-      "xirr": null,
-      "status": "active",
+      "profit": 1.26,
+      "xirr": 11.6895,
+      "status": "completed",
       "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
@@ -1682,11 +1773,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-08",
+          "actualDate": "2026-09-08",
+          "timingDays": 0,
+          "principal": 21.8,
+          "interest": 0.05,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
-          "principal": 0.0,
-          "interest": 1.21,
+          "principal": 21.8,
+          "interest": 1.26,
           "fee": 0.0,
           "paid": false
         }
@@ -1726,6 +1826,11 @@
           "date": "2026-08-31",
           "amount": 0.21,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-08",
+          "amount": 21.85,
+          "delayDays": 0
         }
       ]
     },
@@ -1749,9 +1854,9 @@
       "currentValue": 21.84,
       "outstandingPrincipal": 21.84,
       "principalReturned": 0.0,
-      "interestReceived": 0.99,
+      "interestReceived": 1.2,
       "fees": 0.0,
-      "profit": 0.99,
+      "profit": 1.2,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -1803,11 +1908,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.99,
+          "interest": 1.2,
           "fee": 0.0,
           "paid": false
         }
@@ -1842,6 +1956,11 @@
           "date": "2026-08-31",
           "amount": 0.23,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.21,
+          "delayDays": 0
         }
       ]
     },
@@ -1865,9 +1984,9 @@
       "currentValue": 21.75,
       "outstandingPrincipal": 21.75,
       "principalReturned": 0.0,
-      "interestReceived": 0.76,
+      "interestReceived": 0.95,
       "fees": 0.0,
-      "profit": 0.76,
+      "profit": 0.95,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -1910,11 +2029,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.76,
+          "interest": 0.95,
           "fee": 0.0,
           "paid": false
         }
@@ -1944,6 +2072,11 @@
           "date": "2026-08-31",
           "amount": 0.21,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.19,
+          "delayDays": 0
         }
       ]
     },
@@ -1967,9 +2100,9 @@
       "currentValue": 30.48,
       "outstandingPrincipal": 30.48,
       "principalReturned": 0.0,
-      "interestReceived": 0.87,
+      "interestReceived": 1.14,
       "fees": 0.0,
-      "profit": 0.87,
+      "profit": 1.14,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -2012,11 +2145,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.27,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.87,
+          "interest": 1.14,
           "fee": 0.0,
           "paid": false
         }
@@ -2046,6 +2188,11 @@
           "date": "2026-08-31",
           "amount": 0.29,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.27,
+          "delayDays": 0
         }
       ]
     },
@@ -2069,9 +2216,9 @@
       "currentValue": 22.92,
       "outstandingPrincipal": 22.92,
       "principalReturned": 0.0,
-      "interestReceived": 0.57,
+      "interestReceived": 0.78,
       "fees": 0.0,
-      "profit": 0.57,
+      "profit": 0.78,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -2105,11 +2252,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.57,
+          "interest": 0.78,
           "fee": 0.0,
           "paid": false
         }
@@ -2134,6 +2290,11 @@
           "date": "2026-08-31",
           "amount": 0.22,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.21,
+          "delayDays": 0
         }
       ]
     },
@@ -2157,9 +2318,9 @@
       "currentValue": 22.02,
       "outstandingPrincipal": 22.02,
       "principalReturned": 0.0,
-      "interestReceived": 0.45,
+      "interestReceived": 0.68,
       "fees": 0.0,
-      "profit": 0.45,
+      "profit": 0.68,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -2184,11 +2345,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.23,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.45,
+          "interest": 0.68,
           "fee": 0.0,
           "paid": false
         }
@@ -2206,6 +2376,11 @@
         },
         {
           "date": "2026-08-31",
+          "amount": 0.23,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
           "amount": 0.23,
           "delayDays": 0
         }
@@ -2231,9 +2406,9 @@
       "currentValue": 20.0,
       "outstandingPrincipal": 20.0,
       "principalReturned": 0.0,
-      "interestReceived": 0.33,
+      "interestReceived": 0.54,
       "fees": 0.0,
-      "profit": 0.33,
+      "profit": 0.54,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -2258,11 +2433,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.21,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.33,
+          "interest": 0.54,
           "fee": 0.0,
           "paid": false
         }
@@ -2281,6 +2465,11 @@
         {
           "date": "2026-08-31",
           "amount": 0.22,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.21,
           "delayDays": 0
         }
       ]
@@ -2305,9 +2494,9 @@
       "currentValue": 22.39,
       "outstandingPrincipal": 22.39,
       "principalReturned": 0.0,
-      "interestReceived": 0.2,
+      "interestReceived": 0.43,
       "fees": 0.0,
-      "profit": 0.2,
+      "profit": 0.43,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -2323,11 +2512,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.23,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.2,
+          "interest": 0.43,
           "fee": 0.0,
           "paid": false
         }
@@ -2341,6 +2539,11 @@
         {
           "date": "2026-08-31",
           "amount": 0.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.23,
           "delayDays": 0
         }
       ]
@@ -2365,9 +2568,9 @@
       "currentValue": 20.14,
       "outstandingPrincipal": 20.14,
       "principalReturned": 0.0,
-      "interestReceived": 0.04,
+      "interestReceived": 0.26,
       "fees": 0.0,
-      "profit": 0.04,
+      "profit": 0.26,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -2383,11 +2586,20 @@
           "paid": true
         },
         {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.22,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
           "plannedDate": null,
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
-          "interest": 0.04,
+          "interest": 0.26,
           "fee": 0.0,
           "paid": false
         }
@@ -2402,6 +2614,251 @@
           "date": "2026-08-31",
           "amount": 0.04,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.22,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000113066",
+      "slug": "lv0000113066",
+      "loanCode": "LV0000113066",
+      "externalId": "75ded71b-70d3-480f-b30e-fc40bee751fa",
+      "sourceSheet": "LV0000113066",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund II",
+      "loanType": "Notes",
+      "trustScore": "B",
+      "term": "0 m. 11 mėn. 13 d.",
+      "investmentDate": "2026-09-02",
+      "startDate": "2026-08-12",
+      "plannedEndDate": "2027-08-15",
+      "actualEndDate": null,
+      "rate": 10.0,
+      "invested": 22.59,
+      "currentValue": 22.59,
+      "outstandingPrincipal": 22.59,
+      "principalReturned": 0.0,
+      "interestReceived": 0.19,
+      "fees": 0.0,
+      "profit": 0.19,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": null,
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.19,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-02",
+          "amount": -22.59,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.19,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000113389",
+      "slug": "lv0000113389",
+      "loanCode": "LV0000113389",
+      "externalId": "9e874a76-f3bf-42c5-9a2b-1450e0af9ae3",
+      "sourceSheet": "LV0000113389",
+      "country": "Latvia",
+      "lender": "Sandbox Funding",
+      "loanType": "Loans",
+      "trustScore": "B+",
+      "term": "0 m. 11 mėn. 30 d.",
+      "investmentDate": "2026-09-07",
+      "startDate": "2026-09-04",
+      "plannedEndDate": "2027-09-06",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.16,
+      "fees": 0.0,
+      "profit": 0.16,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-07",
+          "amount": -20.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.16,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000113207",
+      "slug": "lv0000113207",
+      "loanCode": "LV0000113207",
+      "externalId": "6ffc241c-4674-470d-9bcc-1d396527f990",
+      "sourceSheet": "LV0000113207",
+      "country": "Latvia",
+      "lender": "Baltic Terra",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "1 m. 6 mėn. 4 d.",
+      "investmentDate": "2026-09-08",
+      "startDate": "2026-08-27",
+      "plannedEndDate": "2028-03-12",
+      "actualEndDate": null,
+      "rate": 12.5,
+      "invested": 21.85,
+      "currentValue": 21.85,
+      "outstandingPrincipal": 21.85,
+      "principalReturned": 0.0,
+      "interestReceived": 0.17,
+      "fees": 0.0,
+      "profit": 0.17,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.17,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-08",
+          "amount": -21.85,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.17,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LV0000113298",
+      "slug": "lv0000113298",
+      "loanCode": "LV0000113298",
+      "externalId": "dd0b19ae-bdc0-4c9f-b824-99949a748bdc",
+      "sourceSheet": "LV0000113298",
+      "country": "Latvia",
+      "lender": "Latvian Forest Developement Fund",
+      "loanType": "Notes",
+      "trustScore": "A",
+      "term": "0 m. 11 mėn. 17 d.",
+      "investmentDate": "2026-09-15",
+      "startDate": "2026-08-31",
+      "plannedEndDate": "2027-09-01",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 30.16,
+      "currentValue": 30.16,
+      "outstandingPrincipal": 30.16,
+      "principalReturned": 0.0,
+      "interestReceived": 0.16,
+      "fees": 0.0,
+      "profit": 0.16,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-30",
+          "actualDate": "2026-09-30",
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": null,
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.16,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-15",
+          "amount": -30.16,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-30",
+          "amount": 0.16,
+          "delayDays": 0
         }
       ]
     }
@@ -2410,8 +2867,8 @@
     "file": "Debitum.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 16,
+    "loanSheets": 20,
     "skippedSheets": [],
-    "generatedAt": "2026-09-01T22:38:00+03:00"
+    "generatedAt": "2026-10-01T21:37:03+03:00"
   }
 }

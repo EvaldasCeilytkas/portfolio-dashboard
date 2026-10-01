@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:39:31+03:00",
+  "generatedAt": "2026-10-01T21:38:25+03:00",
   "platform": {
     "id": "rontgen",
     "slug": "rontgen",
@@ -11,17 +11,17 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-11-03",
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-10-01",
     "website": "https://rontgen.lt"
   },
   "summary": {
     "invested": 674.21,
-    "currentValue": 704.7,
-    "profit": 30.49,
-    "returnRate": 4.5223,
-    "xirr": 6.2502,
-    "cash": 4.7,
-    "incomeReceived": 26.49,
+    "currentValue": 706.59,
+    "profit": 32.38,
+    "returnRate": 4.8027,
+    "xirr": 5.9494,
+    "cash": 6.59,
+    "incomeReceived": 28.38,
     "activeInvestments": 7,
     "delayedInvestments": 0,
     "completedInvestments": 2,
@@ -30,11 +30,11 @@
   },
   "history": [
     {
-      "date": "2026-09-01",
+      "date": "2026-10-01",
       "invested": 674.21,
-      "value": 704.7,
-      "profit": 30.49,
-      "cash": 4.7,
+      "value": 706.59,
+      "profit": 32.38,
+      "cash": 6.59,
       "income": 0.0
     }
   ],
@@ -691,12 +691,12 @@
       "currency": "EUR",
       "invested": 100.0,
       "currentValue": 100.0,
-      "profit": 7.06,
+      "profit": 10.84,
       "investmentDate": "2026-01-05",
       "completionDate": null,
       "country": null,
       "interestRate": 7.5,
-      "incomeReceived": 7.06,
+      "incomeReceived": 10.84,
       "outstanding": 100.0,
       "delayDays": 0,
       "ltv": 65.0,
@@ -718,6 +718,12 @@
           "date": "2026-07-01",
           "type": "interest",
           "amount": 1.87,
+          "note": null
+        },
+        {
+          "date": "2026-09-29",
+          "type": "interest",
+          "amount": 1.89,
           "note": null
         }
       ],
@@ -745,10 +751,10 @@
         {
           "plannedDate": "2026-10-01",
           "plannedPrincipal": 0.0,
-          "plannedInterest": 0.0,
-          "actualDate": null,
+          "plannedInterest": 1.89,
+          "actualDate": "2026-09-29",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 1.89,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -785,10 +791,10 @@
         {
           "plannedDate": null,
           "plannedPrincipal": 100.0,
-          "plannedInterest": 3.53,
+          "plannedInterest": 5.42,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 3.53,
+          "actualInterest": 5.42,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -798,7 +804,7 @@
       "paymentFrequency": "Q",
       "maxLtv": 70.0,
       "repaidPrincipal": 0.0,
-      "plannedInterest": 7.06,
+      "plannedInterest": 10.84,
       "sourceSheets": [
         "UAB \"NT reikalas\" projektai VI"
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:40:46+03:00",
+  "generatedAt": "2026-10-01T21:39:44+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-08-30",
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-10-01",
     "website": "https://profitus.lt"
   },
   "summary": {
-    "invested": 200.31,
-    "currentValue": 242.56,
-    "profit": 42.25,
-    "returnRate": 21.0923,
-    "xirr": 20.9907,
-    "cash": 2.26,
-    "incomeReceived": 17.25,
-    "activeInvestments": 2,
+    "invested": 350.31,
+    "currentValue": 395.61,
+    "profit": 45.3,
+    "returnRate": 12.9314,
+    "xirr": 19.1958,
+    "cash": 5.31,
+    "incomeReceived": 20.3,
+    "activeInvestments": 3,
     "delayedInvestments": 0,
     "completedInvestments": 2,
-    "averageRate": 8.6895,
-    "averageLtv": 61.5058
+    "averageRate": 8.8447,
+    "averageLtv": 57.3115
   },
   "history": [
     {
-      "date": "2026-09-01",
-      "invested": 200.31,
-      "value": 242.56,
-      "profit": 42.25,
-      "cash": 2.26,
+      "date": "2026-10-01",
+      "invested": 350.31,
+      "value": 395.61,
+      "profit": 45.3,
+      "cash": 5.31,
       "income": 0.0
     }
   ],
@@ -55,7 +55,7 @@
       "interestRate": 9.5,
       "incomeReceived": 12.86,
       "outstanding": 0.0,
-      "delayDays": 63,
+      "delayDays": 93,
       "ltv": 57.0,
       "quantity": null,
       "averagePrice": null,
@@ -168,7 +168,7 @@
       "interestRate": 9.0,
       "incomeReceived": 17.12,
       "outstanding": 0.0,
-      "delayDays": 2,
+      "delayDays": 32,
       "ltv": 59.0,
       "quantity": null,
       "averagePrice": null,
@@ -375,12 +375,12 @@
       "currency": "EUR",
       "invested": 134.0,
       "currentValue": 134.0,
-      "profit": 0.0,
+      "profit": 6.1,
       "investmentDate": "2026-06-19",
       "completionDate": null,
       "country": null,
       "interestRate": 8.4,
-      "incomeReceived": 0.0,
+      "incomeReceived": 6.1,
       "outstanding": 134.0,
       "delayDays": 0,
       "ltv": 60.0,
@@ -391,15 +391,22 @@
       "isin": null,
       "rating": "A",
       "maturityDate": "2027-06-21",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-09-29",
+          "type": "interest",
+          "amount": 3.05,
+          "note": null
+        }
+      ],
       "paymentSchedule": [
         {
           "plannedDate": "2026-10-07",
           "plannedPrincipal": 0.0,
           "plannedInterest": 3.05,
-          "actualDate": null,
+          "actualDate": "2026-09-29",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 3.05,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -439,7 +446,7 @@
           "plannedInterest": 11.2,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 3.05,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -452,6 +459,94 @@
       "plannedInterest": 22.4,
       "sourceSheets": [
         "Druskonio Perlai, Druskininkai "
+      ]
+    },
+    {
+      "id": "Paskola P00001553-3",
+      "code": "Paskola P00001553-3",
+      "name": "Svajonių Daugiabutis, Kaunas III",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 150.0,
+      "currentValue": 150.0,
+      "profit": 0.0,
+      "investmentDate": "2026-08-19",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.3,
+      "incomeReceived": 0.0,
+      "outstanding": 150.0,
+      "delayDays": 0,
+      "ltv": 45.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A-",
+      "maturityDate": "2027-08-19",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2026-12-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.86,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-03-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.44,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-06-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.52,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-08-19",
+          "plannedPrincipal": 150.0,
+          "plannedInterest": 3.06,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 150.0,
+          "plannedInterest": 13.88,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-08-21",
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 75.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 27.76,
+      "sourceSheets": [
+        "Svajonių Daugiabutis, Kaunas II"
       ]
     }
   ]

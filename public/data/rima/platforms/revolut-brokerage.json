@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:40:17+03:00",
+  "generatedAt": "2026-10-01T21:39:11+03:00",
   "platform": {
     "id": "revolut-brokerage",
     "slug": "revolut-brokerage",
@@ -11,15 +11,15 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2026-01-01",
-    "updatedAt": "2026-08-31",
+    "updatedAt": "2026-09-30",
     "website": "https://www.revolut.com"
   },
   "summary": {
-    "invested": 800.0,
-    "currentValue": 860.35,
-    "profit": 60.35,
-    "returnRate": 7.5438,
-    "xirr": null,
+    "invested": 900.0,
+    "currentValue": 974.4,
+    "profit": 74.4,
+    "returnRate": 8.2667,
+    "xirr": 23.2585,
     "cash": 0.0,
     "incomeReceived": 0.0,
     "fees": 0.0,
@@ -182,6 +182,25 @@
       "activeInvestments": 1,
       "delayedInvestments": 0,
       "completedInvestments": 0
+    },
+    {
+      "date": "2026-09-01",
+      "month": "2026-09",
+      "invested": 900.0,
+      "currentValue": 974.4,
+      "profit": 74.4,
+      "returnRate": 8.2671,
+      "cash": 0.0,
+      "income": 0.0,
+      "fees": 0.0,
+      "purchaseFees": 0.0,
+      "saleFees": 0.0,
+      "custodyFees": 0.0,
+      "contributions": 100.0,
+      "withdrawals": 0.0,
+      "activeInvestments": 1,
+      "delayedInvestments": 0,
+      "completedInvestments": 0
     }
   ],
   "investments": [
@@ -196,13 +215,13 @@
       "currency": "EUR",
       "startDate": "2026-01-01",
       "endDate": null,
-      "invested": 800.0,
-      "netInvested": 800.0,
-      "currentValue": 860.35,
-      "profit": 60.35,
-      "returnRate": 7.5433,
-      "quantity": 66.90098382,
-      "price": 12.86,
+      "invested": 900.0,
+      "netInvested": 900.0,
+      "currentValue": 974.4,
+      "profit": 74.4,
+      "returnRate": 8.2671,
+      "quantity": 74.70129583,
+      "price": 13.044,
       "realizedProceeds": 0.0,
       "dividends": 0.0,
       "fees": 0.0,
@@ -216,7 +235,7 @@
         "key": "active",
         "label": "Aktyvios",
         "count": 1,
-        "value": 860.35
+        "value": 974.4
       },
       {
         "key": "completed",
@@ -230,18 +249,18 @@
         "key": "WEBN",
         "label": "WEBN",
         "name": "Amundi Prime ACWI Acc UCITS ETF",
-        "value": 860.35,
+        "value": 974.4,
         "weight": 100.0
       }
     ]
   },
   "latestMonth": {
-    "date": "2026-08-01",
-    "month": "2026-08",
-    "invested": 800.0,
-    "currentValue": 860.35,
-    "profit": 60.35,
-    "returnRate": 7.5433,
+    "date": "2026-09-01",
+    "month": "2026-09",
+    "invested": 900.0,
+    "currentValue": 974.4,
+    "profit": 74.4,
+    "returnRate": 8.2671,
     "cash": 0.0,
     "income": 0.0,
     "fees": 0.0,
@@ -258,7 +277,7 @@
     "id": "webn",
     "ticker": "WEBN",
     "name": "Amundi Prime ACWI Acc UCITS ETF",
-    "currentValue": 860.35
+    "currentValue": 974.4
   },
   "source": {
     "file": "Revolut Brokerage Rima.xlsx",
@@ -267,6 +286,7 @@
       "WEBN"
     ],
     "monthlySheets": [
+      "2026.09",
       "2026.08",
       "2026.07",
       "2026.06",

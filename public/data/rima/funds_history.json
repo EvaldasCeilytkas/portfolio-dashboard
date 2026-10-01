@@ -3,24 +3,24 @@
   "type": "monthlyPortfolioHistory",
   "section": "Fondai",
   "currency": "EUR",
-  "generatedAt": "2026-09-01T19:40:15+00:00",
+  "generatedAt": "2026-10-01T18:39:09+00:00",
   "source": {
     "file": "Investavimas Rima.xlsx",
     "sheet": "Investavimas"
   },
   "period": {
     "from": "2025-03-31",
-    "to": "2026-08-31",
-    "months": 18
+    "to": "2026-09-30",
+    "months": 19
   },
   "latest": {
-    "date": "2026-08-31",
-    "invested": 1370.0,
+    "date": "2026-09-30",
+    "invested": 1500.0,
     "monthlyContribution": 130.0,
-    "value": 1497.7,
-    "profit": 127.7,
-    "returnRate": 9.32,
-    "monthlyResult": 29.83
+    "value": 1634.62,
+    "profit": 134.62,
+    "returnRate": 8.97,
+    "monthlyResult": 6.92
   },
   "history": [
     {
@@ -184,6 +184,15 @@
       "profit": 127.7,
       "returnRate": 9.32,
       "monthlyResult": 29.83
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 1500.0,
+      "monthlyContribution": 130.0,
+      "value": 1634.62,
+      "profit": 134.62,
+      "returnRate": 8.97,
+      "monthlyResult": 6.92
     }
   ]
 }

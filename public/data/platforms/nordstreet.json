@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:38:38+03:00",
+  "generatedAt": "2026-10-01T21:37:39+03:00",
   "platform": {
     "id": "nordstreet",
     "slug": "nordstreet",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-02-28",
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-10-01",
     "website": "https://nordstreet.com"
   },
   "summary": {
     "invested": 854.83,
-    "currentValue": 1025.13,
-    "profit": 170.3,
-    "returnRate": 19.9221,
-    "xirr": 14.7193,
-    "cash": 1.34,
-    "incomeReceived": 121.36,
-    "activeInvestments": 7,
-    "delayedInvestments": 11,
+    "currentValue": 1033.7,
+    "profit": 178.87,
+    "returnRate": 20.9246,
+    "xirr": 14.506,
+    "cash": 9.91,
+    "incomeReceived": 129.93,
+    "activeInvestments": 9,
+    "delayedInvestments": 9,
     "completedInvestments": 8,
     "averageRate": 12.2685,
     "averageLtv": 57.4773
   },
   "history": [
     {
-      "date": "2026-09-01",
+      "date": "2026-10-01",
       "invested": 854.83,
-      "value": 1025.13,
-      "profit": 170.3,
-      "cash": 1.34,
+      "value": 1033.7,
+      "profit": 178.87,
+      "cash": 9.91,
       "income": 0.0
     }
   ],
@@ -335,18 +335,18 @@
       "code": "LT-969",
       "name": "Bistryčios g. 27, Vilnius, Lietuva (3 etapas)",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 50.0,
       "currentValue": 50.0,
-      "profit": 15.8,
+      "profit": 18.26,
       "investmentDate": "2025-03-01",
       "completionDate": null,
       "country": null,
       "interestRate": 13.0,
-      "incomeReceived": 15.8,
+      "incomeReceived": 18.26,
       "outstanding": 50.0,
-      "delayDays": 53,
+      "delayDays": 0,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -451,6 +451,18 @@
           "type": "interest",
           "amount": 0.49,
           "note": null
+        },
+        {
+          "date": "2026-09-21",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-09-21",
+          "type": "other",
+          "amount": 0.56,
+          "note": "Papildoma išmoka"
         }
       ],
       "paymentSchedule": [
@@ -615,23 +627,23 @@
           "historicalDelayDays": 0
         },
         {
-          "plannedDate": "2026-07-10",
+          "plannedDate": "2026-09-10",
           "plannedPrincipal": 50.0,
-          "plannedInterest": 0.18,
-          "actualDate": null,
+          "plannedInterest": 0.67,
+          "actualDate": "2026-09-21",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 0.67,
+          "actualExtra": 0.56,
+          "historicalDelayDays": 11
         },
         {
           "plannedDate": null,
           "plannedPrincipal": 50.0,
-          "plannedInterest": 8.08,
+          "plannedInterest": 8.57,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 7.9,
-          "actualExtra": 0.0,
+          "actualInterest": 8.57,
+          "actualExtra": 0.56,
           "historicalDelayDays": 0
         }
       ],
@@ -640,7 +652,7 @@
       "paymentFrequency": "M",
       "maxLtv": null,
       "repaidPrincipal": 0.0,
-      "plannedInterest": 16.16,
+      "plannedInterest": 17.14,
       "sourceSheets": [
         "Bistryčios g. 27 (3)"
       ]
@@ -661,7 +673,7 @@
       "interestRate": 14.0,
       "incomeReceived": 5.86,
       "outstanding": 50.0,
-      "delayDays": 361,
+      "delayDays": 391,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -849,12 +861,12 @@
       "currency": "EUR",
       "invested": 50.0,
       "currentValue": 48.98,
-      "profit": 15.42,
+      "profit": 16.34,
       "investmentDate": "2025-03-14",
       "completionDate": null,
       "country": null,
       "interestRate": 11.0,
-      "incomeReceived": 15.42,
+      "incomeReceived": 16.34,
       "outstanding": 48.98,
       "delayDays": 0,
       "ltv": 69.0,
@@ -970,6 +982,12 @@
         },
         {
           "date": "2026-08-18",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-09-16",
           "type": "interest",
           "amount": 0.46,
           "note": null
@@ -1160,9 +1178,9 @@
           "plannedDate": "2026-09-20",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.46,
-          "actualDate": null,
+          "actualDate": "2026-09-16",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.46,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -1232,7 +1250,7 @@
           "plannedInterest": 10.59,
           "actualDate": null,
           "actualPrincipal": 0.51,
-          "actualInterest": 7.71,
+          "actualInterest": 8.17,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -1968,7 +1986,7 @@
       "interestRate": 12.0,
       "incomeReceived": 10.34,
       "outstanding": 52.0,
-      "delayDays": 89,
+      "delayDays": 119,
       "ltv": 58.0,
       "quantity": null,
       "averagePrice": null,
@@ -2463,18 +2481,18 @@
       "code": "LT-1066",
       "name": "Vidiškių vs., Žemaitkiemio sen., Ukmergės r. (2 etapas)",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 55.0,
       "currentValue": 55.0,
-      "profit": 17.02,
+      "profit": 23.02,
       "investmentDate": "2025-06-12",
       "completionDate": null,
       "country": null,
       "interestRate": 15.0,
-      "incomeReceived": 17.02,
+      "incomeReceived": 23.02,
       "outstanding": 55.0,
-      "delayDays": 67,
+      "delayDays": 0,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -2597,6 +2615,48 @@
           "type": "other",
           "amount": 0.12,
           "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-09-16",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2026-09-16",
+          "type": "other",
+          "amount": 0.11,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-09-21",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-09-21",
+          "type": "other",
+          "amount": 0.08,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-09-21",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
+        },
+        {
+          "date": "2026-09-21",
+          "type": "other",
+          "amount": 0.04,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-09-21",
+          "type": "interest",
+          "amount": 0.7,
+          "note": null
         }
       ],
       "paymentSchedule": [
@@ -2714,39 +2774,39 @@
           "plannedDate": "2026-06-26",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.7,
-          "actualDate": null,
+          "actualDate": "2026-09-16",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 0.7,
+          "actualExtra": 0.11,
+          "historicalDelayDays": 82
         },
         {
           "plannedDate": "2026-07-26",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.67,
-          "actualDate": null,
+          "actualDate": "2026-09-21",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 0.67,
+          "actualExtra": 0.08,
+          "historicalDelayDays": 57
         },
         {
           "plannedDate": "2026-08-26",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.7,
-          "actualDate": null,
+          "actualDate": "2026-09-21",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 0.7,
+          "actualExtra": 0.04,
+          "historicalDelayDays": 26
         },
         {
           "plannedDate": "2026-09-26",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.7,
-          "actualDate": null,
+          "actualDate": "2026-09-21",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.7,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -2846,8 +2906,8 @@
           "plannedInterest": 16.43,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 7.51,
-          "actualExtra": 1.0,
+          "actualInterest": 10.28,
+          "actualExtra": 1.23,
           "historicalDelayDays": 0
         }
       ],
@@ -2877,7 +2937,7 @@
       "interestRate": 14.0,
       "incomeReceived": 17.0,
       "outstanding": 0.0,
-      "delayDays": 5,
+      "delayDays": 35,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -3331,7 +3391,7 @@
       "interestRate": 11.0,
       "incomeReceived": 11.18,
       "outstanding": 56.0,
-      "delayDays": 18,
+      "delayDays": 48,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -3927,7 +3987,7 @@
       "interestRate": 12.0,
       "incomeReceived": 9.66,
       "outstanding": 53.0,
-      "delayDays": 44,
+      "delayDays": 74,
       "ltv": 65.0,
       "quantity": null,
       "averagePrice": null,
@@ -4167,14 +4227,14 @@
       "currency": "EUR",
       "invested": 54.0,
       "currentValue": 54.0,
-      "profit": 5.54,
+      "profit": 6.9,
       "investmentDate": "2025-09-24",
       "completionDate": null,
       "country": null,
       "interestRate": 12.0,
-      "incomeReceived": 5.54,
+      "incomeReceived": 6.9,
       "outstanding": 54.0,
-      "delayDays": 123,
+      "delayDays": 122,
       "ltv": 55.0,
       "quantity": null,
       "averagePrice": null,
@@ -4224,6 +4284,18 @@
           "date": "2026-04-16",
           "type": "other",
           "amount": 0.02,
+          "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-09-17",
+          "type": "interest",
+          "amount": 0.53,
+          "note": null
+        },
+        {
+          "date": "2026-09-17",
+          "type": "other",
+          "amount": 0.15,
           "note": "Papildoma išmoka"
         }
       ],
@@ -4282,11 +4354,11 @@
           "plannedDate": "2026-05-01",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.53,
-          "actualDate": null,
+          "actualDate": "2026-09-17",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 0.53,
+          "actualExtra": 0.15,
+          "historicalDelayDays": 139
         },
         {
           "plannedDate": "2026-06-01",
@@ -4354,8 +4426,8 @@
           "plannedInterest": 6.46,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 2.73,
-          "actualExtra": 0.04,
+          "actualInterest": 3.26,
+          "actualExtra": 0.19,
           "historicalDelayDays": 0
         }
       ],
@@ -4385,7 +4457,7 @@
       "interestRate": 14.0,
       "incomeReceived": 5.06,
       "outstanding": 0.0,
-      "delayDays": 183,
+      "delayDays": 213,
       "ltv": 65.0,
       "quantity": null,
       "averagePrice": null,
@@ -4595,12 +4667,12 @@
       "currency": "EUR",
       "invested": 77.0,
       "currentValue": 77.0,
-      "profit": 12.52,
+      "profit": 13.94,
       "investmentDate": "2025-10-18",
       "completionDate": null,
       "country": null,
       "interestRate": 11.0,
-      "incomeReceived": 12.52,
+      "incomeReceived": 13.94,
       "outstanding": 77.0,
       "delayDays": 0,
       "ltv": 60.0,
@@ -4662,6 +4734,12 @@
         },
         {
           "date": "2026-08-17",
+          "type": "interest",
+          "amount": 0.71,
+          "note": null
+        },
+        {
+          "date": "2026-09-17",
           "type": "interest",
           "amount": 0.71,
           "note": null
@@ -4762,9 +4840,9 @@
           "plannedDate": "2026-09-19",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.71,
-          "actualDate": null,
+          "actualDate": "2026-09-17",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.71,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -4914,7 +4992,7 @@
           "plannedInterest": 16.91,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 6.26,
+          "actualInterest": 6.97,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -4938,12 +5016,12 @@
       "currency": "EUR",
       "invested": 66.0,
       "currentValue": 66.0,
-      "profit": 9.3,
+      "profit": 10.66,
       "investmentDate": "2025-12-19",
       "completionDate": null,
       "country": null,
       "interestRate": 12.0,
-      "incomeReceived": 9.3,
+      "incomeReceived": 10.66,
       "outstanding": 66.0,
       "delayDays": 0,
       "ltv": 50.0,
@@ -4996,6 +5074,18 @@
           "type": "interest",
           "amount": 0.67,
           "note": null
+        },
+        {
+          "date": "2026-09-11",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        },
+        {
+          "date": "2026-09-11",
+          "type": "other",
+          "amount": 0.01,
+          "note": "Papildoma išmoka"
         }
       ],
       "paymentSchedule": [
@@ -5073,11 +5163,11 @@
           "plannedDate": "2026-09-01",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.67,
-          "actualDate": null,
+          "actualDate": "2026-09-11",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 0.67,
+          "actualExtra": 0.01,
+          "historicalDelayDays": 10
         },
         {
           "plannedDate": "2026-10-01",
@@ -5125,8 +5215,8 @@
           "plannedInterest": 7.61,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 4.65,
-          "actualExtra": 0.0,
+          "actualInterest": 5.32,
+          "actualExtra": 0.01,
           "historicalDelayDays": 0
         }
       ],
@@ -5156,7 +5246,7 @@
       "interestRate": 13.0,
       "incomeReceived": 8.58,
       "outstanding": 24.6,
-      "delayDays": 25,
+      "delayDays": 55,
       "ltv": 56.0,
       "quantity": null,
       "averagePrice": null,
@@ -5399,7 +5489,7 @@
       "interestRate": 12.0,
       "incomeReceived": 5.84,
       "outstanding": 68.0,
-      "delayDays": 51,
+      "delayDays": 81,
       "ltv": 50.0,
       "quantity": null,
       "averagePrice": null,
@@ -5609,12 +5699,12 @@
       "currency": "EUR",
       "invested": 55.0,
       "currentValue": 55.0,
-      "profit": 5.92,
+      "profit": 7.12,
       "investmentDate": "2026-02-07",
       "completionDate": null,
       "country": null,
       "interestRate": 13.0,
-      "incomeReceived": 5.92,
+      "incomeReceived": 7.12,
       "outstanding": 55.0,
       "delayDays": 0,
       "ltv": 61.0,
@@ -5652,6 +5742,12 @@
         },
         {
           "date": "2026-08-10",
+          "type": "interest",
+          "amount": 0.6,
+          "note": null
+        },
+        {
+          "date": "2026-09-09",
           "type": "interest",
           "amount": 0.6,
           "note": null
@@ -5712,9 +5808,9 @@
           "plannedDate": "2026-09-09",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.6,
-          "actualDate": null,
+          "actualDate": "2026-09-09",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.6,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -5904,7 +6000,7 @@
           "plannedInterest": 13.82,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 2.96,
+          "actualInterest": 3.56,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -5935,7 +6031,7 @@
       "interestRate": 12.0,
       "incomeReceived": 3.14,
       "outstanding": 52.0,
-      "delayDays": 17,
+      "delayDays": 47,
       "ltv": 51.0,
       "quantity": null,
       "averagePrice": null,
@@ -6127,12 +6223,12 @@
       "currency": "EUR",
       "invested": 75.0,
       "currentValue": 75.0,
-      "profit": 4.5,
+      "profit": 6.02,
       "investmentDate": "2026-04-16",
       "completionDate": null,
       "country": null,
       "interestRate": 12.0,
-      "incomeReceived": 4.5,
+      "incomeReceived": 6.02,
       "outstanding": 75.0,
       "delayDays": 0,
       "ltv": 50.0,
@@ -6158,6 +6254,12 @@
         },
         {
           "date": "2026-08-10",
+          "type": "interest",
+          "amount": 0.76,
+          "note": null
+        },
+        {
+          "date": "2026-09-11",
           "type": "interest",
           "amount": 0.76,
           "note": null
@@ -6198,11 +6300,11 @@
           "plannedDate": "2026-09-08",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.76,
-          "actualDate": null,
+          "actualDate": "2026-09-11",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.76,
           "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "historicalDelayDays": 3
         },
         {
           "plannedDate": "2026-10-08",
@@ -6250,7 +6352,7 @@
           "plannedInterest": 5.44,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 2.25,
+          "actualInterest": 3.01,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -6274,12 +6376,12 @@
       "currency": "EUR",
       "invested": 53.0,
       "currentValue": 53.0,
-      "profit": 2.66,
+      "profit": 3.56,
       "investmentDate": "2026-04-30",
       "completionDate": null,
       "country": null,
       "interestRate": 10.0,
-      "incomeReceived": 2.66,
+      "incomeReceived": 3.56,
       "outstanding": 53.0,
       "delayDays": 0,
       "ltv": 60.0,
@@ -6305,6 +6407,12 @@
         },
         {
           "date": "2026-08-04",
+          "type": "interest",
+          "amount": 0.45,
+          "note": null
+        },
+        {
+          "date": "2026-09-07",
           "type": "interest",
           "amount": 0.45,
           "note": null
@@ -6345,9 +6453,9 @@
           "plannedDate": "2026-09-08",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.45,
-          "actualDate": null,
+          "actualDate": "2026-09-07",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.45,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -6507,7 +6615,7 @@
           "plannedInterest": 8.11,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 1.33,
+          "actualInterest": 1.78,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -6538,7 +6646,7 @@
       "interestRate": 12.0,
       "incomeReceived": 0.0,
       "outstanding": 62.0,
-      "delayDays": 10,
+      "delayDays": 40,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,

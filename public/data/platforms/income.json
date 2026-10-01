@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:38:00+03:00",
+  "generatedAt": "2026-10-01T21:37:04+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "income",
@@ -13,34 +13,34 @@
     "active": true,
     "status": "active",
     "startDate": "2026-07-14",
-    "updatedAt": "2026-09-30",
+    "updatedAt": "2026-10-31",
     "website": "https://getincome.com"
   },
   "summary": {
-    "invested": 30.0,
-    "currentValue": 30.52,
-    "profit": 0.52,
-    "returnRate": 1.7333,
-    "xirr": 14.9548,
-    "cash": 0.49,
-    "incomeReceived": 0.52,
-    "activeInvestments": 3,
+    "invested": 40.0,
+    "currentValue": 41.01,
+    "profit": 1.01,
+    "returnRate": 2.525,
+    "xirr": 15.7207,
+    "cash": 0.1,
+    "incomeReceived": 1.01,
+    "activeInvestments": 4,
     "delayedInvestments": 0,
-    "completedInvestments": 2,
-    "averageRate": 12.7173,
+    "completedInvestments": 3,
+    "averageRate": 11.2806,
     "averageLtv": null,
-    "deposited": 30.0,
+    "deposited": 40.0,
     "withdrawn": 0.0,
-    "currentPrincipal": 30.03,
-    "outstandingPrincipal": 30.03,
-    "calculatedOutstanding": 30.03,
-    "principalReturned": 24.3,
-    "interestReceived": 0.28,
-    "grossInterestReceived": 0.28,
+    "currentPrincipal": 40.91,
+    "outstandingPrincipal": 40.91,
+    "calculatedOutstanding": 40.91,
+    "principalReturned": 34.37,
+    "interestReceived": 0.77,
+    "grossInterestReceived": 0.77,
     "bonuses": 0.24,
     "fees": 0.0,
-    "totalInvestments": 5,
-    "roi": 1.7333
+    "totalInvestments": 7,
+    "roi": 2.525
   },
   "history": [
     {
@@ -71,11 +71,24 @@
     },
     {
       "date": "2026-09-30",
-      "invested": 30.0,
-      "value": 30.52,
-      "profit": 0.52,
-      "cash": 0.49,
-      "income": 0.46,
+      "invested": 40.0,
+      "value": 40.24,
+      "profit": 0.24,
+      "cash": 0.0,
+      "income": 11.02,
+      "deposits": 10.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-10-31",
+      "invested": 40.0,
+      "value": 41.01,
+      "profit": 1.01,
+      "cash": 0.1,
+      "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
       "bonuses": 0.0,
@@ -84,12 +97,12 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-09-30",
-    "invested": 30.0,
-    "value": 30.52,
-    "profit": 0.52,
-    "cash": 0.49,
-    "income": 0.46,
+    "date": "2026-10-31",
+    "invested": 40.0,
+    "value": 41.01,
+    "profit": 1.01,
+    "cash": 0.1,
+    "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
     "bonuses": 0.0,
@@ -115,9 +128,9 @@
     "currentValue": 12.58,
     "outstandingPrincipal": 12.58,
     "principalReturned": 0.43,
-    "interestReceived": 0.03,
+    "interestReceived": 0.12,
     "fees": 0.0,
-    "profit": 0.03,
+    "profit": 0.12,
     "xirr": null,
     "status": "active",
     "delayDays": 0,
@@ -129,6 +142,15 @@
         "timingDays": 0,
         "principal": 0.43,
         "interest": 0.03,
+        "fee": 0.0,
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-09-18",
+        "actualDate": "2026-09-22",
+        "timingDays": 4,
+        "principal": 0.0,
+        "interest": 0.09,
         "fee": 0.0,
         "paid": true
       }
@@ -143,6 +165,11 @@
         "date": "2026-09-01",
         "amount": 0.46,
         "delayDays": 0
+      },
+      {
+        "date": "2026-09-22",
+        "amount": 0.09,
+        "delayDays": 0
       }
     ]
   },
@@ -155,20 +182,20 @@
       },
       {
         "label": "Estonia",
-        "count": 1,
-        "value": 7.42
+        "count": 2,
+        "value": 17.86
       },
       {
-        "label": "Indonesia",
+        "label": "Kosovo",
         "count": 1,
-        "value": 10.03
+        "value": 10.47
       }
     ],
     "lender": [
       {
         "label": "Hoovi",
-        "count": 1,
-        "value": 7.42
+        "count": 2,
+        "value": 17.86
       },
       {
         "label": "ITF Group JSC",
@@ -176,28 +203,28 @@
         "value": 12.58
       },
       {
-        "label": "Pinjam Yuk",
+        "label": "Virtus Lending LLC",
         "count": 1,
-        "value": 10.03
+        "value": 10.47
       }
     ],
     "loanType": [
       {
         "label": "Business loan",
         "count": 1,
-        "value": 7.42
+        "value": 7.4
       },
       {
         "label": "Installment loan",
-        "count": 2,
-        "value": 22.61
+        "count": 3,
+        "value": 33.51
       }
     ],
     "status": [
       {
         "label": "active",
-        "count": 3,
-        "value": 30.03
+        "count": 4,
+        "value": 40.91
       }
     ]
   },
@@ -221,7 +248,13 @@
       "bonus": 0.24
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-03",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-09-30",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -244,12 +277,12 @@
       "actualEndDate": null,
       "rate": 10.0,
       "invested": 10.0,
-      "currentValue": 7.42,
-      "outstandingPrincipal": 7.42,
-      "principalReturned": 2.58,
-      "interestReceived": 0.1,
+      "currentValue": 7.4,
+      "outstandingPrincipal": 7.4,
+      "principalReturned": 2.6,
+      "interestReceived": 0.16,
       "fees": 0.0,
-      "profit": 0.1,
+      "profit": 0.16,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -272,6 +305,15 @@
           "interest": 0.08,
           "fee": 0.0,
           "paid": true
+        },
+        {
+          "plannedDate": "2026-09-17",
+          "actualDate": "2026-09-21",
+          "timingDays": 4,
+          "principal": 0.02,
+          "interest": 0.06,
+          "fee": 0.0,
+          "paid": true
         }
       ],
       "cashFlows": [
@@ -288,6 +330,11 @@
         {
           "date": "2026-08-24",
           "amount": 1.39,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-21",
+          "amount": 0.08,
           "delayDays": 0
         }
       ]
@@ -355,24 +402,39 @@
       "investmentDate": "2026-07-21",
       "startDate": "2026-07-17",
       "plannedEndDate": "2026-10-04",
-      "actualEndDate": null,
+      "actualEndDate": "2026-09-22",
       "rate": 15.0,
       "invested": 10.03,
-      "currentValue": 10.03,
-      "outstandingPrincipal": 10.03,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.03,
+      "interestReceived": 0.26,
       "fees": 0.0,
-      "profit": 0.0,
-      "xirr": null,
-      "status": "active",
+      "profit": 0.26,
+      "xirr": 15.9827,
+      "status": "completed",
       "delayDays": 0,
-      "earlyLateDays": 0,
-      "schedule": [],
+      "earlyLateDays": -12,
+      "schedule": [
+        {
+          "plannedDate": "2026-10-04",
+          "actualDate": "2026-09-22",
+          "timingDays": -12,
+          "principal": 10.03,
+          "interest": 0.26,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
       "cashFlows": [
         {
           "date": "2026-07-21",
           "amount": -10.03,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-22",
+          "amount": 10.29,
           "delayDays": 0
         }
       ]
@@ -460,9 +522,9 @@
       "currentValue": 12.58,
       "outstandingPrincipal": 12.58,
       "principalReturned": 0.43,
-      "interestReceived": 0.03,
+      "interestReceived": 0.12,
       "fees": 0.0,
-      "profit": 0.03,
+      "profit": 0.12,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -474,6 +536,15 @@
           "timingDays": 0,
           "principal": 0.43,
           "interest": 0.03,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-09-18",
+          "actualDate": "2026-09-22",
+          "timingDays": 4,
+          "principal": 0.0,
+          "interest": 0.09,
           "fee": 0.0,
           "paid": true
         }
@@ -488,6 +559,96 @@
           "date": "2026-09-01",
           "amount": 0.46,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-22",
+          "amount": 0.09,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "21231923",
+      "slug": "21231923",
+      "loanCode": "21231923",
+      "name": "21231923",
+      "sourceSheet": "21231923",
+      "country": "Kosovo",
+      "lender": "Virtus Lending LLC",
+      "loanType": "Installment loan",
+      "term": "0 m. 10 mėn. 17 d.",
+      "investmentDate": "2026-09-03",
+      "startDate": "2026-09-03",
+      "plannedEndDate": "2027-07-20",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 10.49,
+      "currentValue": 10.47,
+      "outstandingPrincipal": 10.47,
+      "principalReturned": 0.02,
+      "interestReceived": 0.08,
+      "fees": 0.0,
+      "profit": 0.08,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-20",
+          "actualDate": "2026-09-25",
+          "timingDays": 5,
+          "principal": 0.02,
+          "interest": 0.08,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-03",
+          "amount": -10.49,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-25",
+          "amount": 0.1,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "21446331",
+      "slug": "21446331",
+      "loanCode": "21446331",
+      "name": "21446331",
+      "sourceSheet": "21446331",
+      "country": "Estonia",
+      "lender": "Hoovi",
+      "loanType": "Installment loan",
+      "term": "2 m. 6 mėn. 3 d.",
+      "investmentDate": "2026-09-23",
+      "startDate": "2026-09-11",
+      "plannedEndDate": "2029-03-26",
+      "actualEndDate": null,
+      "rate": 10.0,
+      "invested": 10.46,
+      "currentValue": 10.46,
+      "outstandingPrincipal": 10.46,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [],
+      "cashFlows": [
+        {
+          "date": "2026-09-23",
+          "amount": -10.46,
+          "delayDays": 0
         }
       ]
     }
@@ -496,8 +657,8 @@
     "file": "Income.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 5,
+    "loanSheets": 7,
     "skippedSheets": [],
-    "generatedAt": "2026-09-01T22:38:00+03:00"
+    "generatedAt": "2026-10-01T21:37:04+03:00"
   }
 }

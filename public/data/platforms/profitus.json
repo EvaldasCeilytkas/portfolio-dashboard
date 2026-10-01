@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:39:14+03:00",
+  "generatedAt": "2026-10-01T21:38:08+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-02-17",
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-10-01",
     "website": "https://profitus.lt"
   },
   "summary": {
     "invested": 1114.17,
-    "currentValue": 1240.72,
-    "profit": 126.55,
-    "returnRate": 11.3582,
-    "xirr": 9.6519,
-    "cash": 11.22,
-    "incomeReceived": 106.55,
+    "currentValue": 1250.06,
+    "profit": 135.89,
+    "returnRate": 12.1965,
+    "xirr": 9.6676,
+    "cash": 50.72,
+    "incomeReceived": 115.89,
     "activeInvestments": 10,
     "delayedInvestments": 1,
-    "completedInvestments": 9,
-    "averageRate": 8.7003,
-    "averageLtv": 60.8496
+    "completedInvestments": 12,
+    "averageRate": 8.7485,
+    "averageLtv": 58.2667
   },
   "history": [
     {
-      "date": "2026-09-01",
+      "date": "2026-10-01",
       "invested": 1114.17,
-      "value": 1240.72,
-      "profit": 126.55,
-      "cash": 11.22,
+      "value": 1250.06,
+      "profit": 135.89,
+      "cash": 50.72,
       "income": 0.0
     }
   ],
@@ -174,7 +174,7 @@
       "interestRate": 8.5,
       "incomeReceived": 9.42,
       "outstanding": 0.0,
-      "delayDays": 336,
+      "delayDays": 366,
       "ltv": 62.0,
       "quantity": null,
       "averagePrice": null,
@@ -400,7 +400,7 @@
       "interestRate": 9.0,
       "incomeReceived": 7.92,
       "outstanding": 0.0,
-      "delayDays": 348,
+      "delayDays": 378,
       "ltv": 54.0,
       "quantity": null,
       "averagePrice": null,
@@ -531,7 +531,7 @@
       "interestRate": 8.6,
       "incomeReceived": 20.96,
       "outstanding": 0.0,
-      "delayDays": 305,
+      "delayDays": 335,
       "ltv": 65.0,
       "quantity": null,
       "averagePrice": null,
@@ -819,7 +819,7 @@
       "interestRate": 9.0,
       "incomeReceived": 12.14,
       "outstanding": 0.0,
-      "delayDays": 185,
+      "delayDays": 215,
       "ltv": 77.0,
       "quantity": null,
       "averagePrice": null,
@@ -960,7 +960,7 @@
       "interestRate": 8.0,
       "incomeReceived": 13.42,
       "outstanding": 0.0,
-      "delayDays": 124,
+      "delayDays": 154,
       "ltv": 59.0,
       "quantity": null,
       "averagePrice": null,
@@ -1073,7 +1073,7 @@
       "interestRate": 8.0,
       "incomeReceived": 4.94,
       "outstanding": 0.0,
-      "delayDays": 93,
+      "delayDays": 123,
       "ltv": 61.0,
       "quantity": null,
       "averagePrice": null,
@@ -1197,17 +1197,17 @@
       "code": "P00001434",
       "name": "Dvibutis Upelio g., Vilniaus r.",
       "investmentType": "real_estate_project",
-      "status": "active",
+      "status": "completed",
       "currency": "EUR",
       "invested": 116.6,
-      "currentValue": 116.6,
-      "profit": 16.2,
+      "currentValue": 0.0,
+      "profit": 20.56,
       "investmentDate": "2025-09-08",
-      "completionDate": null,
+      "completionDate": "2026-09-15",
       "country": null,
       "interestRate": 8.5,
-      "incomeReceived": 16.2,
-      "outstanding": 116.6,
+      "incomeReceived": 20.56,
+      "outstanding": 0.0,
       "delayDays": 0,
       "ltv": 66.0,
       "quantity": null,
@@ -1241,6 +1241,24 @@
           "type": "interest",
           "amount": 2.47,
           "note": null
+        },
+        {
+          "date": "2026-09-15",
+          "type": "principal",
+          "amount": 116.6,
+          "note": null
+        },
+        {
+          "date": "2026-09-15",
+          "type": "interest",
+          "amount": 1.87,
+          "note": null
+        },
+        {
+          "date": "2026-09-15",
+          "type": "other",
+          "amount": 0.31,
+          "note": "Papildoma išmoka"
         }
       ],
       "paymentSchedule": [
@@ -1278,20 +1296,20 @@
           "plannedDate": "2026-09-07",
           "plannedPrincipal": 116.6,
           "plannedInterest": 1.87,
-          "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualDate": "2026-09-15",
+          "actualPrincipal": 116.6,
+          "actualInterest": 1.87,
+          "actualExtra": 0.31,
+          "historicalDelayDays": 8
         },
         {
           "plannedDate": null,
           "plannedPrincipal": 116.6,
           "plannedInterest": 9.85,
           "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 7.98,
-          "actualExtra": 0.12,
+          "actualPrincipal": 116.6,
+          "actualInterest": 9.85,
+          "actualExtra": 0.43,
           "historicalDelayDays": 0
         }
       ],
@@ -1299,7 +1317,7 @@
       "durationMonths": 12,
       "paymentFrequency": "Q",
       "maxLtv": 80.0,
-      "repaidPrincipal": 0.0,
+      "repaidPrincipal": 233.2,
       "plannedInterest": 19.7,
       "sourceSheets": [
         "Dvibutis Upelio g., Vilniaus r."
@@ -1310,17 +1328,17 @@
       "code": "Paskola P00001341-12",
       "name": "Piekrasta Rezidence, Ryga XII",
       "investmentType": "real_estate_project",
-      "status": "active",
+      "status": "completed",
       "currency": "EUR",
       "invested": 101.9,
-      "currentValue": 101.9,
-      "profit": 13.1,
+      "currentValue": 0.0,
+      "profit": 17.22,
       "investmentDate": "2025-09-26",
-      "completionDate": null,
+      "completionDate": "2026-09-28",
       "country": null,
       "interestRate": 8.5,
-      "incomeReceived": 13.1,
-      "outstanding": 101.9,
+      "incomeReceived": 17.22,
+      "outstanding": 0.0,
       "delayDays": 0,
       "ltv": 60.0,
       "quantity": null,
@@ -1347,6 +1365,18 @@
           "date": "2026-07-01",
           "type": "interest",
           "amount": 2.16,
+          "note": null
+        },
+        {
+          "date": "2026-09-28",
+          "type": "principal",
+          "amount": 101.9,
+          "note": null
+        },
+        {
+          "date": "2026-09-28",
+          "type": "interest",
+          "amount": 2.06,
           "note": null
         }
       ],
@@ -1385,19 +1415,19 @@
           "plannedDate": "2026-09-25",
           "plannedPrincipal": 101.9,
           "plannedInterest": 2.06,
-          "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualDate": "2026-09-28",
+          "actualPrincipal": 101.9,
+          "actualInterest": 2.06,
           "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "historicalDelayDays": 3
         },
         {
           "plannedDate": null,
           "plannedPrincipal": 101.9,
           "plannedInterest": 8.61,
           "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 6.55,
+          "actualPrincipal": 101.9,
+          "actualInterest": 8.61,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -1406,7 +1436,7 @@
       "durationMonths": 12,
       "paymentFrequency": "Q",
       "maxLtv": 60.0,
-      "repaidPrincipal": 0.0,
+      "repaidPrincipal": 203.8,
       "plannedInterest": 17.22,
       "sourceSheets": [
         "Piekrasta Rezidence, Ryga XII"
@@ -1417,18 +1447,18 @@
       "code": "Paskola P00001508",
       "name": "Dvibutis Didžiojoje Riešėje",
       "investmentType": "real_estate_project",
-      "status": "active",
+      "status": "completed",
       "currency": "EUR",
       "invested": 116.3,
-      "currentValue": 116.3,
-      "profit": 11.42,
+      "currentValue": 0.0,
+      "profit": 15.1,
       "investmentDate": "2025-12-12",
-      "completionDate": null,
+      "completionDate": "2026-09-07",
       "country": null,
       "interestRate": 9.0,
-      "incomeReceived": 11.42,
-      "outstanding": 116.3,
-      "delayDays": 0,
+      "incomeReceived": 15.1,
+      "outstanding": 0.0,
+      "delayDays": 1,
       "ltv": 72.0,
       "quantity": null,
       "averagePrice": null,
@@ -1448,6 +1478,18 @@
           "date": "2026-06-30",
           "type": "interest",
           "amount": 2.61,
+          "note": null
+        },
+        {
+          "date": "2026-09-07",
+          "type": "principal",
+          "amount": 116.3,
+          "note": null
+        },
+        {
+          "date": "2026-09-07",
+          "type": "interest",
+          "amount": 1.84,
           "note": null
         }
       ],
@@ -1476,7 +1518,7 @@
           "plannedDate": "2026-09-30",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.64,
-          "actualDate": null,
+          "actualDate": "2026-09-07",
           "actualPrincipal": 0.0,
           "actualInterest": 0.0,
           "actualExtra": 0.0,
@@ -1486,9 +1528,9 @@
           "plannedDate": "2026-12-11",
           "plannedPrincipal": 116.3,
           "plannedInterest": 2.06,
-          "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualDate": "2026-09-07",
+          "actualPrincipal": 116.3,
+          "actualInterest": 1.84,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -1497,8 +1539,8 @@
           "plannedPrincipal": 116.3,
           "plannedInterest": 10.41,
           "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 5.71,
+          "actualPrincipal": 116.3,
+          "actualInterest": 7.55,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -1507,7 +1549,7 @@
       "durationMonths": 12,
       "paymentFrequency": "Q",
       "maxLtv": 85.0,
-      "repaidPrincipal": 0.0,
+      "repaidPrincipal": 232.6,
       "plannedInterest": 20.82,
       "sourceSheets": [
         "Dvibutis Didžiojoje Riešėje"
@@ -1619,18 +1661,18 @@
       "code": "Paskola P00001480",
       "name": "Golf Hills Vilos, Alikantė",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 102.9,
       "currentValue": 102.9,
-      "profit": 6.02,
+      "profit": 11.0,
       "investmentDate": "2026-02-06",
       "completionDate": null,
       "country": null,
       "interestRate": 9.6,
-      "incomeReceived": 6.02,
+      "incomeReceived": 11.0,
       "outstanding": 102.9,
-      "delayDays": 1,
+      "delayDays": 0,
       "ltv": 43.0,
       "quantity": null,
       "averagePrice": null,
@@ -1651,6 +1693,12 @@
           "type": "other",
           "amount": 0.03,
           "note": "Papildoma išmoka"
+        },
+        {
+          "date": "2026-09-03",
+          "type": "interest",
+          "amount": 2.49,
+          "note": null
         }
       ],
       "paymentSchedule": [
@@ -1668,11 +1716,11 @@
           "plannedDate": "2026-08-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.49,
-          "actualDate": null,
+          "actualDate": "2026-09-03",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.49,
           "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "historicalDelayDays": 3
         },
         {
           "plannedDate": "2026-11-30",
@@ -1700,7 +1748,7 @@
           "plannedInterest": 9.82,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 2.98,
+          "actualInterest": 5.47,
           "actualExtra": 0.03,
           "historicalDelayDays": 0
         }
@@ -1821,18 +1869,18 @@
       "code": "Paskola P00001560",
       "name": "Brivibas 28, Jūrmala",
       "investmentType": "real_estate_project",
-      "status": "active",
+      "status": "delayed",
       "currency": "EUR",
       "invested": 135.7,
-      "currentValue": 135.7,
-      "profit": 10.68,
+      "currentValue": 37.78,
+      "profit": 12.22,
       "investmentDate": "2026-03-20",
       "completionDate": null,
       "country": null,
       "interestRate": 9.5,
-      "incomeReceived": 10.68,
-      "outstanding": 135.7,
-      "delayDays": 0,
+      "incomeReceived": 12.22,
+      "outstanding": 37.78,
+      "delayDays": 13,
       "ltv": 71.0,
       "quantity": null,
       "averagePrice": null,
@@ -1870,6 +1918,30 @@
           "date": "2026-09-01",
           "type": "interest",
           "amount": 1.05,
+          "note": null
+        },
+        {
+          "date": "2026-09-15",
+          "type": "principal",
+          "amount": 48.48,
+          "note": null
+        },
+        {
+          "date": "2026-09-15",
+          "type": "interest",
+          "amount": 0.12,
+          "note": null
+        },
+        {
+          "date": "2026-09-18",
+          "type": "principal",
+          "amount": 0.48,
+          "note": null
+        },
+        {
+          "date": "2026-09-29",
+          "type": "interest",
+          "amount": 0.65,
           "note": null
         }
       ],
@@ -1925,12 +1997,32 @@
           "historicalDelayDays": 1
         },
         {
+          "plannedDate": "2026-09-15",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualDate": "2026-09-15",
+          "actualPrincipal": 48.48,
+          "actualInterest": 0.12,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2026-09-18",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 1.01,
+          "actualDate": "2026-09-18",
+          "actualPrincipal": 0.48,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
           "plannedDate": "2026-09-30",
           "plannedPrincipal": 0.0,
           "plannedInterest": 1.01,
-          "actualDate": null,
+          "actualDate": "2026-09-29",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.65,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -1997,10 +2089,10 @@
         {
           "plannedDate": null,
           "plannedPrincipal": 135.7,
-          "plannedInterest": 12.27,
+          "plannedInterest": 13.28,
           "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 5.34,
+          "actualPrincipal": 48.96,
+          "actualInterest": 6.11,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -2009,8 +2101,8 @@
       "durationMonths": 12,
       "paymentFrequency": "M",
       "maxLtv": 71.0,
-      "repaidPrincipal": 0.0,
-      "plannedInterest": 24.54,
+      "repaidPrincipal": 97.92,
+      "plannedInterest": 26.56,
       "sourceSheets": [
         "Brivibas 28, Jūrmala"
       ]
@@ -2392,6 +2484,209 @@
       "plannedInterest": 22.22,
       "sourceSheets": [
         "Senvagės loftai, Panevėžys VIII"
+      ]
+    },
+    {
+      "id": "Paskola  P00001680",
+      "code": "Paskola  P00001680",
+      "name": "Daugiabučiai Lietaviškių g., Vilnius",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 131.8,
+      "currentValue": 131.8,
+      "profit": 0.0,
+      "investmentDate": "2026-09-07",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 0.0,
+      "outstanding": 131.8,
+      "delayDays": 0,
+      "ltv": 44.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A-",
+      "maturityDate": "2028-03-16",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2027-01-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 3.38,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-04-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.92,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-07-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.96,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2027-10-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.99,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2028-01-07",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 2.99,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": "2028-03-16",
+          "plannedPrincipal": 131.8,
+          "plannedInterest": 2.47,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 131.8,
+          "plannedInterest": 17.71,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-09-18",
+      "durationMonths": 18,
+      "paymentFrequency": "Q",
+      "maxLtv": 85.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 35.42,
+      "sourceSheets": [
+        "Daugiabučiai Lietaviškių g."
+      ]
+    },
+    {
+      "id": "Paskola  P00001671",
+      "code": "Paskola  P00001671",
+      "name": "Daugiabutis Brivibas 140, Ryga",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 118.8,
+      "currentValue": 118.8,
+      "profit": 0.0,
+      "investmentDate": "2026-09-15",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.0,
+      "incomeReceived": 0.0,
+      "outstanding": 118.8,
+      "delayDays": 0,
+      "ltv": 65.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "AA",
+      "maturityDate": "2027-09-15",
+      "payments": [],
+      "paymentSchedule": [
+        {
+          "plannedDate": "2027-09-15",
+          "plannedPrincipal": 118.8,
+          "plannedInterest": 10.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
+        {
+          "plannedDate": null,
+          "plannedPrincipal": 118.8,
+          "plannedInterest": 10.63,
+          "actualDate": null,
+          "actualPrincipal": 0.0,
+          "actualInterest": 0.0,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        }
+      ],
+      "interestStartDate": "2026-09-17",
+      "durationMonths": 12,
+      "paymentFrequency": "Termino pabaigoje",
+      "maxLtv": 65.0,
+      "repaidPrincipal": 0.0,
+      "plannedInterest": 21.26,
+      "sourceSheets": [
+        "Daugiabutis Brivibas 140, Ryga"
+      ]
+    },
+    {
+      "id": "Paskola P00001679",
+      "code": "Paskola P00001679",
+      "name": "Namas Laipu 2, Jūrmala",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 103.0,
+      "currentValue": 103.0,
+      "profit": 0,
+      "investmentDate": "2026-09-28",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 8.5,
+      "incomeReceived": 0,
+      "outstanding": 103.0,
+      "delayDays": 0,
+      "ltv": 15.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A+",
+      "maturityDate": null,
+      "payments": [],
+      "paymentSchedule": [],
+      "interestStartDate": null,
+      "durationMonths": 18,
+      "paymentFrequency": "Kas ketvirtį",
+      "maxLtv": 57.0,
+      "repaidPrincipal": 0,
+      "plannedInterest": 0,
+      "sourceSheets": [
+        "Namas Laipu 2, Jūrmala"
       ]
     }
   ]

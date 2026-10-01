@@ -3,24 +3,24 @@
   "type": "monthlyPortfolioHistory",
   "section": "Fondai",
   "currency": "EUR",
-  "generatedAt": "2026-09-01T19:39:55+00:00",
+  "generatedAt": "2026-10-01T18:38:48+00:00",
   "source": {
     "file": "Investavimas.xlsx",
     "sheet": "Investavimas"
   },
   "period": {
     "from": "2021-07-01",
-    "to": "2026-08-01",
-    "months": 63
+    "to": "2026-09-30",
+    "months": 64
   },
   "latest": {
-    "date": "2026-08-01",
-    "invested": 5264.42,
-    "monthlyContribution": 249.85,
-    "value": 5674.17,
-    "profit": 409.75,
-    "returnRate": 7.78,
-    "monthlyResult": 150.3
+    "date": "2026-09-30",
+    "invested": 5519.34,
+    "monthlyContribution": 254.92,
+    "value": 6049.55,
+    "profit": 530.21,
+    "returnRate": 9.61,
+    "monthlyResult": 120.46
   },
   "history": [
     {
@@ -582,13 +582,22 @@
       "monthlyResult": -222.92
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-08-31",
       "invested": 5264.42,
       "monthlyContribution": 249.85,
       "value": 5674.17,
       "profit": 409.75,
       "returnRate": 7.78,
       "monthlyResult": 150.3
+    },
+    {
+      "date": "2026-09-30",
+      "invested": 5519.34,
+      "monthlyContribution": 254.92,
+      "value": 6049.55,
+      "profit": 530.21,
+      "returnRate": 9.61,
+      "monthlyResult": 120.46
     }
   ]
 }

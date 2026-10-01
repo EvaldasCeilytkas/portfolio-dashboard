@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:40:35+03:00",
+  "generatedAt": "2026-10-01T21:39:31+03:00",
   "platform": {
     "id": "nordstreet",
     "slug": "nordstreet",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-09-19",
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-10-01",
     "website": "https://nordstreet.com"
   },
   "summary": {
     "invested": 620.0,
-    "currentValue": 698.99,
-    "profit": 78.99,
-    "returnRate": 12.7403,
-    "xirr": 15.8799,
-    "cash": 29.99,
-    "incomeReceived": 46.13,
-    "activeInvestments": 1,
-    "delayedInvestments": 3,
+    "currentValue": 704.91,
+    "profit": 84.91,
+    "returnRate": 13.6952,
+    "xirr": 15.4571,
+    "cash": 35.91,
+    "incomeReceived": 52.05,
+    "activeInvestments": 2,
+    "delayedInvestments": 2,
     "completedInvestments": 0,
     "averageRate": 11.6263,
     "averageLtv": 58.2212
   },
   "history": [
     {
-      "date": "2026-09-01",
+      "date": "2026-10-01",
       "invested": 620.0,
-      "value": 698.99,
-      "profit": 78.99,
-      "cash": 29.99,
+      "value": 704.91,
+      "profit": 84.91,
+      "cash": 35.91,
       "income": 0.0
     }
   ],
@@ -44,18 +44,18 @@
       "code": "LT-1123",
       "name": "Bistryčios g. 27, Vilnius, Lietuva (11 etapas)",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 200.0,
       "currentValue": 200.0,
-      "profit": 32.76,
+      "profit": 43.68,
       "investmentDate": "2025-09-15",
       "completionDate": null,
       "country": null,
       "interestRate": 11.0,
-      "incomeReceived": 32.76,
+      "incomeReceived": 43.68,
       "outstanding": 200.0,
-      "delayDays": 53,
+      "delayDays": 0,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -118,6 +118,18 @@
           "type": "interest",
           "amount": 1.86,
           "note": null
+        },
+        {
+          "date": "2026-09-21",
+          "type": "interest",
+          "amount": 3.2,
+          "note": null
+        },
+        {
+          "date": "2026-09-21",
+          "type": "other",
+          "amount": 2.26,
+          "note": "Papildoma išmoka"
         }
       ],
       "paymentSchedule": [
@@ -212,23 +224,23 @@
           "historicalDelayDays": 0
         },
         {
-          "plannedDate": "2026-07-10",
+          "plannedDate": "2026-09-10",
           "plannedPrincipal": 200.0,
-          "plannedInterest": 0.91,
-          "actualDate": null,
+          "plannedInterest": 3.2,
+          "actualDate": "2026-09-21",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 3.2,
+          "actualExtra": 2.26,
+          "historicalDelayDays": 11
         },
         {
           "plannedDate": null,
           "plannedPrincipal": 200.0,
-          "plannedInterest": 17.29,
+          "plannedInterest": 19.58,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 16.38,
-          "actualExtra": 0.0,
+          "actualInterest": 19.58,
+          "actualExtra": 2.26,
           "historicalDelayDays": 0
         }
       ],
@@ -237,7 +249,7 @@
       "paymentFrequency": "M",
       "maxLtv": null,
       "repaidPrincipal": 0.0,
-      "plannedInterest": 34.58,
+      "plannedInterest": 39.16,
       "sourceSheets": [
         "Birstyčios g. 27, Vilnius (11)"
       ]
@@ -258,7 +270,7 @@
       "interestRate": 12.0,
       "incomeReceived": 36.44,
       "outstanding": 200.0,
-      "delayDays": 44,
+      "delayDays": 74,
       "ltv": 65.0,
       "quantity": null,
       "averagePrice": null,
@@ -504,12 +516,12 @@
       "currency": "EUR",
       "invested": 50.0,
       "currentValue": 50.0,
-      "profit": 8.14,
+      "profit": 9.06,
       "investmentDate": "2025-10-27",
       "completionDate": null,
       "country": null,
       "interestRate": 11.0,
-      "incomeReceived": 8.14,
+      "incomeReceived": 9.06,
       "outstanding": 50.0,
       "delayDays": 0,
       "ltv": 60.0,
@@ -571,6 +583,12 @@
         },
         {
           "date": "2026-08-17",
+          "type": "interest",
+          "amount": 0.46,
+          "note": null
+        },
+        {
+          "date": "2026-09-17",
           "type": "interest",
           "amount": 0.46,
           "note": null
@@ -671,9 +689,9 @@
           "plannedDate": "2026-09-19",
           "plannedPrincipal": 0.0,
           "plannedInterest": 0.46,
-          "actualDate": null,
+          "actualDate": "2026-09-17",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 0.46,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -823,7 +841,7 @@
           "plannedInterest": 10.98,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 4.07,
+          "actualInterest": 4.53,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -854,7 +872,7 @@
       "interestRate": 12.0,
       "incomeReceived": 14.92,
       "outstanding": 219.0,
-      "delayDays": 60,
+      "delayDays": 90,
       "ltv": 50.0,
       "quantity": null,
       "averagePrice": null,

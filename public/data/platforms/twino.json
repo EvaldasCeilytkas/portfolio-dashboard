@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:39:43+03:00",
+  "generatedAt": "2026-10-01T21:38:36+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "twino",
@@ -13,17 +13,17 @@
     "active": true,
     "status": "active",
     "startDate": "2026-08-15",
-    "updatedAt": "2026-09-30",
+    "updatedAt": "2026-10-31",
     "website": "https://www.twino.eu"
   },
   "summary": {
     "invested": 30.0,
-    "currentValue": 30.03,
-    "profit": 0.03,
-    "returnRate": 0.1,
-    "xirr": 2.2494,
-    "cash": 0.03,
-    "incomeReceived": 0.03,
+    "currentValue": 30.16,
+    "profit": 0.16,
+    "returnRate": 0.5333,
+    "xirr": 4.273,
+    "cash": 0.16,
+    "incomeReceived": 0.16,
     "activeInvestments": 3,
     "delayedInvestments": 0,
     "completedInvestments": 0,
@@ -34,12 +34,12 @@
     "lifetimeInvested": 30.0,
     "outstandingPrincipal": 30.0,
     "principalReturned": 0.0,
-    "interestReceived": 0.03,
-    "grossInterestReceived": 0.04,
+    "interestReceived": 0.16,
+    "grossInterestReceived": 0.18,
     "bonuses": 0.0,
-    "fees": 0.01,
+    "fees": 0.02,
     "totalInvestments": 3,
-    "roi": 0.1
+    "roi": 0.5333
   },
   "history": [
     {
@@ -58,10 +58,23 @@
     {
       "date": "2026-09-30",
       "invested": 30.0,
-      "value": 30.03,
-      "profit": 0.03,
-      "cash": 0.03,
-      "income": 0.03,
+      "value": 30.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.16,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-10-31",
+      "invested": 30.0,
+      "value": 30.16,
+      "profit": 0.16,
+      "cash": 0.16,
+      "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
       "bonuses": 0.0,
@@ -70,12 +83,12 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-09-30",
+    "date": "2026-10-31",
     "invested": 30.0,
-    "value": 30.03,
-    "profit": 0.03,
-    "cash": 0.03,
-    "income": 0.03,
+    "value": 30.16,
+    "profit": 0.16,
+    "cash": 0.16,
+    "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
     "bonuses": 0.0,
@@ -102,9 +115,9 @@
     "currentValue": 10.0,
     "outstandingPrincipal": 10.0,
     "principalReturned": 0.0,
-    "interestReceived": 0.0,
-    "fees": 0.0,
-    "profit": 0.0,
+    "interestReceived": 0.07,
+    "fees": 0.01,
+    "profit": 0.06,
     "xirr": null,
     "status": "active",
     "delayDays": 0,
@@ -112,12 +125,12 @@
     "schedule": [
       {
         "plannedDate": "2026-09-08",
-        "actualDate": null,
-        "timingDays": 0,
+        "actualDate": "2026-09-07",
+        "timingDays": -1,
         "principal": 0.0,
-        "interest": 0.0,
-        "fee": 0.0,
-        "paid": false
+        "interest": 0.07,
+        "fee": 0.01,
+        "paid": true
       },
       {
         "plannedDate": "2026-10-08",
@@ -151,6 +164,11 @@
       {
         "date": "2026-08-17",
         "amount": -10.0,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-09-07",
+        "amount": 0.06,
         "delayDays": 0
       }
     ]
@@ -206,7 +224,7 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-10-01",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -233,9 +251,9 @@
       "currentValue": 10.0,
       "outstandingPrincipal": 10.0,
       "principalReturned": 0.0,
-      "interestReceived": 0.0,
-      "fees": 0.0,
-      "profit": 0.0,
+      "interestReceived": 0.07,
+      "fees": 0.01,
+      "profit": 0.06,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -243,12 +261,12 @@
       "schedule": [
         {
           "plannedDate": "2026-09-08",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-09-07",
+          "timingDays": -1,
           "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
+          "interest": 0.07,
+          "fee": 0.01,
+          "paid": true
         },
         {
           "plannedDate": "2026-10-08",
@@ -282,6 +300,11 @@
         {
           "date": "2026-08-17",
           "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-07",
+          "amount": 0.06,
           "delayDays": 0
         }
       ]
@@ -402,9 +425,9 @@
       "currentValue": 10.0,
       "outstandingPrincipal": 10.0,
       "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "interestReceived": 0.07,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.07,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -412,12 +435,12 @@
       "schedule": [
         {
           "plannedDate": "2026-09-09",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-09-07",
+          "timingDays": -2,
           "principal": 0.0,
-          "interest": 0.0,
+          "interest": 0.07,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-10-09",
@@ -524,6 +547,11 @@
           "date": "2026-08-17",
           "amount": -10.0,
           "delayDays": 0
+        },
+        {
+          "date": "2026-09-07",
+          "amount": 0.07,
+          "delayDays": 0
         }
       ]
     }
@@ -534,6 +562,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 3,
     "skippedSheets": [],
-    "generatedAt": "2026-09-01T22:39:43+03:00"
+    "generatedAt": "2026-10-01T21:38:36+03:00"
   }
 }

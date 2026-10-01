@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:40:16+03:00",
+  "generatedAt": "2026-10-01T21:39:10+03:00",
   "platform": {
     "id": "seb-fondai",
     "slug": "seb-fondai",
@@ -15,14 +15,14 @@
     "website": "https://www.seb.lt"
   },
   "summary": {
-    "invested": 570.0,
-    "netInvested": 570.0,
-    "totalContributed": 570.0,
-    "currentValue": 637.35,
-    "profit": 67.35,
-    "realizedProfit": 67.35,
-    "returnRate": 11.82,
-    "xirr": null,
+    "invested": 600.0,
+    "netInvested": 600.0,
+    "totalContributed": 600.0,
+    "currentValue": 660.22,
+    "profit": 60.22,
+    "realizedProfit": 60.22,
+    "returnRate": 10.04,
+    "xirr": 18.2,
     "cash": 0.0,
     "incomeReceived": 0.0,
     "fees": 0.0,
@@ -339,6 +339,23 @@
       "activeInvestments": 2,
       "delayedInvestments": 0,
       "completedInvestments": 0
+    },
+    {
+      "date": "2026-09-01",
+      "month": "2026-09",
+      "invested": 600.0,
+      "totalContributed": 600.0,
+      "currentValue": 660.22,
+      "profit": 60.22,
+      "returnRate": 10.0367,
+      "cash": 0.0,
+      "income": 0.0,
+      "fees": 0.0,
+      "contributions": 30.0,
+      "withdrawals": 0.0,
+      "activeInvestments": 2,
+      "delayedInvestments": 0,
+      "completedInvestments": 0
     }
   ],
   "investments": [
@@ -353,15 +370,15 @@
       "currency": "EUR",
       "startDate": "2025-03-01",
       "endDate": null,
-      "invested": 285.0,
-      "netInvested": 285.0,
-      "currentValue": 323.61,
-      "profit": 38.61,
-      "returnRate": 13.5474,
-      "quantity": 1.8244,
-      "purchasedUnits": 1.8244,
+      "invested": 300.0,
+      "netInvested": 300.0,
+      "currentValue": 335.05,
+      "profit": 35.05,
+      "returnRate": 11.6833,
+      "quantity": 1.9099,
+      "purchasedUnits": 1.9099,
       "soldUnits": 0.0,
-      "price": 177.3781,
+      "price": 175.4266,
       "realizedProceeds": 0.0,
       "dividends": 0.0,
       "fees": 0.0,
@@ -379,15 +396,15 @@
       "currency": "EUR",
       "startDate": "2025-03-01",
       "endDate": null,
-      "invested": 285.0,
-      "netInvested": 285.0,
-      "currentValue": 313.74,
-      "profit": 28.74,
-      "returnRate": 10.0842,
-      "quantity": 2.0597,
-      "purchasedUnits": 2.0597,
+      "invested": 300.0,
+      "netInvested": 300.0,
+      "currentValue": 325.17,
+      "profit": 25.17,
+      "returnRate": 8.39,
+      "quantity": 2.1589,
+      "purchasedUnits": 2.1589,
       "soldUnits": 0.0,
-      "price": 152.3216,
+      "price": 150.6192,
       "realizedProceeds": 0.0,
       "dividends": 0.0,
       "fees": 0.0,
@@ -401,7 +418,7 @@
         "key": "active",
         "label": "Aktyvūs",
         "count": 2,
-        "value": 637.35
+        "value": 660.22
       },
       {
         "key": "completed",
@@ -415,26 +432,26 @@
         "key": "SESA8FE",
         "label": "SESA8FE",
         "name": "SEB Active 80",
-        "value": 323.61,
-        "weight": 50.7743
+        "value": 335.05,
+        "weight": 50.7482
       },
       {
         "key": "SESA5FE",
         "label": "SESA5FE",
         "name": "SEB Active 55",
-        "value": 313.74,
-        "weight": 49.2257
+        "value": 325.17,
+        "weight": 49.2518
       }
     ]
   },
   "latestMonth": {
-    "date": "2026-08-01",
-    "month": "2026-08",
-    "invested": 570.0,
-    "totalContributed": 570.0,
-    "currentValue": 637.35,
-    "profit": 67.35,
-    "returnRate": 11.8158,
+    "date": "2026-09-01",
+    "month": "2026-09",
+    "invested": 600.0,
+    "totalContributed": 600.0,
+    "currentValue": 660.22,
+    "profit": 60.22,
+    "returnRate": 10.0367,
     "cash": 0.0,
     "income": 0.0,
     "fees": 0.0,
@@ -448,7 +465,7 @@
     "id": "seb-active-80",
     "ticker": "SESA8FE",
     "name": "SEB Active 80",
-    "currentValue": 323.61
+    "currentValue": 335.05
   },
   "source": {
     "file": "SEB Fondai Rima.xlsx",
@@ -458,6 +475,7 @@
       "SEB Active 80"
     ],
     "monthlySheets": [
+      "2026.09",
       "2026.08",
       "2026.07",
       "2026.06",

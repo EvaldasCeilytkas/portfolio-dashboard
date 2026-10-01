@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T22:40:28+03:00",
+  "generatedAt": "2026-10-01T21:39:25+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-08-30",
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-10-01",
     "website": "https://profitus.lt"
   },
   "summary": {
     "invested": 623.95,
-    "currentValue": 669.71,
-    "profit": 45.76,
-    "returnRate": 7.3339,
-    "xirr": 12.7978,
-    "cash": 2.91,
-    "incomeReceived": 20.76,
-    "activeInvestments": 4,
-    "delayedInvestments": 2,
+    "currentValue": 674.58,
+    "profit": 50.63,
+    "returnRate": 8.1144,
+    "xirr": 12.4099,
+    "cash": 7.78,
+    "incomeReceived": 25.63,
+    "activeInvestments": 5,
+    "delayedInvestments": 1,
     "completedInvestments": 2,
     "averageRate": 8.6129,
     "averageLtv": 62.4232
   },
   "history": [
     {
-      "date": "2026-09-01",
+      "date": "2026-10-01",
       "invested": 623.95,
-      "value": 669.71,
-      "profit": 45.76,
-      "cash": 2.91,
+      "value": 674.58,
+      "profit": 50.63,
+      "cash": 7.78,
       "income": 0.0
     }
   ],
@@ -55,7 +55,7 @@
       "interestRate": 9.5,
       "incomeReceived": 12.86,
       "outstanding": 0.0,
-      "delayDays": 63,
+      "delayDays": 93,
       "ltv": 57.0,
       "quantity": null,
       "averagePrice": null,
@@ -168,7 +168,7 @@
       "interestRate": 9.0,
       "incomeReceived": 17.12,
       "outstanding": 0.0,
-      "delayDays": 2,
+      "delayDays": 32,
       "ltv": 59.0,
       "quantity": null,
       "averagePrice": null,
@@ -287,7 +287,7 @@
       "interestRate": 9.0,
       "incomeReceived": 5.8,
       "outstanding": 125.0,
-      "delayDays": 93,
+      "delayDays": 123,
       "ltv": 42.0,
       "quantity": null,
       "averagePrice": null,
@@ -456,18 +456,18 @@
       "code": "Paskola P00001386-5",
       "name": "Daugiabutis Druskininkuose V",
       "investmentType": "real_estate_project",
-      "status": "delayed",
+      "status": "active",
       "currency": "EUR",
       "invested": 100.0,
       "currentValue": 100.0,
-      "profit": 0.0,
+      "profit": 4.78,
       "investmentDate": "2026-05-19",
       "completionDate": null,
       "country": null,
       "interestRate": 8.0,
-      "incomeReceived": 0.0,
+      "incomeReceived": 4.78,
       "outstanding": 100.0,
-      "delayDays": 1,
+      "delayDays": 0,
       "ltv": 65.0,
       "quantity": null,
       "averagePrice": null,
@@ -476,17 +476,30 @@
       "isin": null,
       "rating": "A+",
       "maturityDate": "2027-04-28",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-09-11",
+          "type": "interest",
+          "amount": 2.26,
+          "note": null
+        },
+        {
+          "date": "2026-09-11",
+          "type": "other",
+          "amount": 0.13,
+          "note": "Papildoma išmoka"
+        }
+      ],
       "paymentSchedule": [
         {
           "plannedDate": "2026-08-31",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.26,
-          "actualDate": null,
+          "actualDate": "2026-09-11",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
-          "historicalDelayDays": 0
+          "actualInterest": 2.26,
+          "actualExtra": 0.13,
+          "historicalDelayDays": 11
         },
         {
           "plannedDate": "2026-11-30",
@@ -524,8 +537,8 @@
           "plannedInterest": 7.51,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
-          "actualExtra": 0.0,
+          "actualInterest": 2.26,
+          "actualExtra": 0.13,
           "historicalDelayDays": 0
         }
       ],
@@ -548,12 +561,12 @@
       "currency": "EUR",
       "invested": 109.0,
       "currentValue": 109.0,
-      "profit": 0.0,
+      "profit": 4.96,
       "investmentDate": "2026-06-18",
       "completionDate": null,
       "country": null,
       "interestRate": 8.4,
-      "incomeReceived": 0.0,
+      "incomeReceived": 4.96,
       "outstanding": 109.0,
       "delayDays": 0,
       "ltv": 60.0,
@@ -564,15 +577,22 @@
       "isin": null,
       "rating": "A",
       "maturityDate": "2027-06-21",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-09-30",
+          "type": "interest",
+          "amount": 2.48,
+          "note": null
+        }
+      ],
       "paymentSchedule": [
         {
           "plannedDate": "2026-10-07",
           "plannedPrincipal": 0.0,
           "plannedInterest": 2.48,
-          "actualDate": null,
+          "actualDate": "2026-09-30",
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.48,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         },
@@ -612,7 +632,7 @@
           "plannedInterest": 9.11,
           "actualDate": null,
           "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualInterest": 2.48,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
