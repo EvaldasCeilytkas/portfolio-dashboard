@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:37:06+03:00",
+  "generatedAt": "2026-10-11T12:04:58+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lendermarket",
@@ -24,8 +24,8 @@
     "xirr": 49.196,
     "cash": 0.0,
     "incomeReceived": 13.83,
-    "activeInvestments": 8,
-    "delayedInvestments": 3,
+    "activeInvestments": 6,
+    "delayedInvestments": 5,
     "completedInvestments": 5,
     "averageRate": 11.485,
     "averageLtv": null,
@@ -364,13 +364,13 @@
     "status": [
       {
         "label": "active",
-        "count": 8,
-        "value": 92.83
+        "count": 6,
+        "value": 69.27
       },
       {
         "label": "delayed",
-        "count": 3,
-        "value": 21.0
+        "count": 5,
+        "value": 44.56
       }
     ]
   },
@@ -1042,7 +1042,7 @@
       "profit": 0.28,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 13,
+      "delayDays": 23,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1272,7 +1272,7 @@
       "profit": 0.18,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 2,
+      "delayDays": 12,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1359,8 +1359,8 @@
       "fees": 0.0,
       "profit": 0.28,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 6,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1515,8 +1515,8 @@
       "fees": 0.0,
       "profit": 0.31,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 2,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2088,7 +2088,7 @@
       "profit": 0.14,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 1,
+      "delayDays": 11,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2544,6 +2544,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 16,
     "skippedSheets": [],
-    "generatedAt": "2026-10-01T21:37:06+03:00"
+    "generatedAt": "2026-10-11T12:04:58+03:00"
   }
 }

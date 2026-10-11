@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:39:34+03:00",
+  "generatedAt": "2026-10-11T12:07:33+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -24,8 +24,8 @@
     "xirr": 4.1345,
     "cash": 0.0,
     "incomeReceived": 0.59,
-    "activeInvestments": 4,
-    "delayedInvestments": 4,
+    "activeInvestments": 3,
+    "delayedInvestments": 5,
     "completedInvestments": 5,
     "averageRate": 15.7573,
     "averageLtv": null,
@@ -163,13 +163,13 @@
     "status": [
       {
         "label": "active",
-        "count": 4,
-        "value": 50.59
+        "count": 3,
+        "value": 43.92
       },
       {
         "label": "delayed",
-        "count": 4,
-        "value": 50.0
+        "count": 5,
+        "value": 56.67
       }
     ]
   },
@@ -264,7 +264,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 21,
+      "delayDays": 31,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -328,7 +328,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 21,
+      "delayDays": 31,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -545,7 +545,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 21,
+      "delayDays": 31,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -608,8 +608,8 @@
       "fees": 0.0,
       "profit": 0.14,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 1,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -678,7 +678,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 21,
+      "delayDays": 31,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -944,6 +944,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 13,
     "skippedSheets": [],
-    "generatedAt": "2026-10-01T21:39:34+03:00"
+    "generatedAt": "2026-10-11T12:07:33+03:00"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:38:36+03:00",
+  "generatedAt": "2026-10-11T12:06:34+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "twino",
@@ -24,8 +24,8 @@
     "xirr": 4.273,
     "cash": 0.16,
     "incomeReceived": 0.16,
-    "activeInvestments": 3,
-    "delayedInvestments": 0,
+    "activeInvestments": 0,
+    "delayedInvestments": 3,
     "completedInvestments": 0,
     "averageRate": 11.3333,
     "averageLtv": null,
@@ -119,8 +119,8 @@
     "fees": 0.01,
     "profit": 0.06,
     "xirr": null,
-    "status": "active",
-    "delayDays": 0,
+    "status": "delayed",
+    "delayDays": 3,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -204,7 +204,7 @@
     ],
     "status": [
       {
-        "label": "active",
+        "label": "delayed",
         "count": 3,
         "value": 30.0
       }
@@ -255,8 +255,8 @@
       "fees": 0.01,
       "profit": 0.06,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 3,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -333,8 +333,8 @@
       "fees": 0.01,
       "profit": 0.03,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 9,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -429,8 +429,8 @@
       "fees": 0.0,
       "profit": 0.07,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 2,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -562,6 +562,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 3,
     "skippedSheets": [],
-    "generatedAt": "2026-10-01T21:38:36+03:00"
+    "generatedAt": "2026-10-11T12:06:34+03:00"
   }
 }

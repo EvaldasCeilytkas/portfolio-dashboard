@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:38:37+03:00",
+  "generatedAt": "2026-10-11T12:06:34+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "viainvest",
@@ -24,8 +24,8 @@
     "xirr": 9.232,
     "cash": 35.93,
     "incomeReceived": 24.74,
-    "activeInvestments": 11,
-    "delayedInvestments": 0,
+    "activeInvestments": 9,
+    "delayedInvestments": 2,
     "completedInvestments": 7,
     "averageRate": 10.6889,
     "averageLtv": null,
@@ -420,8 +420,13 @@
     "status": [
       {
         "label": "active",
-        "count": 11,
-        "value": 418.81
+        "count": 9,
+        "value": 339.59
+      },
+      {
+        "label": "delayed",
+        "count": 2,
+        "value": 79.22
       }
     ]
   },
@@ -1979,8 +1984,8 @@
       "fees": 0.08,
       "profit": 1.56,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 9,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2559,8 +2564,8 @@
       "fees": 0.02,
       "profit": 0.46,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2749,6 +2754,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 18,
     "skippedSheets": [],
-    "generatedAt": "2026-10-01T21:38:37+03:00"
+    "generatedAt": "2026-10-11T12:06:34+03:00"
   }
 }
