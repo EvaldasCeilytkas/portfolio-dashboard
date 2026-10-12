@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T12:07:24+03:00",
+  "generatedAt": "2026-10-12T17:46:34+03:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,7 +11,7 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-08-30",
-    "updatedAt": "2026-10-11",
+    "updatedAt": "2026-10-12",
     "website": "https://profitus.lt"
   },
   "summary": {
@@ -19,7 +19,7 @@
     "currentValue": 674.58,
     "profit": 50.63,
     "returnRate": 8.1144,
-    "xirr": 12.4099,
+    "xirr": 11.7997,
     "cash": 7.78,
     "incomeReceived": 25.63,
     "activeInvestments": 5,
@@ -55,7 +55,7 @@
       "interestRate": 9.5,
       "incomeReceived": 12.86,
       "outstanding": 0.0,
-      "delayDays": 103,
+      "delayDays": 104,
       "ltv": 57.0,
       "quantity": null,
       "averagePrice": null,
@@ -168,7 +168,7 @@
       "interestRate": 9.0,
       "incomeReceived": 17.12,
       "outstanding": 0.0,
-      "delayDays": 42,
+      "delayDays": 43,
       "ltv": 59.0,
       "quantity": null,
       "averagePrice": null,
@@ -287,7 +287,7 @@
       "interestRate": 9.0,
       "incomeReceived": 5.8,
       "outstanding": 125.0,
-      "delayDays": 133,
+      "delayDays": 134,
       "ltv": 42.0,
       "quantity": null,
       "averagePrice": null,

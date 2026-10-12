@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T12:06:34+03:00",
+  "generatedAt": "2026-10-12T17:45:44+03:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "twino",
@@ -120,7 +120,7 @@
     "profit": 0.06,
     "xirr": null,
     "status": "delayed",
-    "delayDays": 3,
+    "delayDays": 4,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -256,7 +256,7 @@
       "profit": 0.06,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 3,
+      "delayDays": 4,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -334,7 +334,7 @@
       "profit": 0.03,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 9,
+      "delayDays": 10,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -430,7 +430,7 @@
       "profit": 0.07,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 2,
+      "delayDays": 3,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -562,6 +562,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 3,
     "skippedSheets": [],
-    "generatedAt": "2026-10-11T12:06:34+03:00"
+    "generatedAt": "2026-10-12T17:45:44+03:00"
   }
 }
