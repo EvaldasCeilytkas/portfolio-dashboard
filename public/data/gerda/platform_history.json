@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "type": "platform_history",
   "currency": "EUR",
-  "generatedAt": "2026-10-12T14:46:45+00:00",
+  "generatedAt": "2026-11-02T21:04:33+00:00",
   "source": {
     "file": "Investavimas Gerda.xlsx",
     "sheet": "Investavimas",
@@ -50,6 +50,14 @@
           "value": 395.61,
           "profit": 45.3,
           "returnRate": 12.93,
+          "source": "Investavimas Gerda.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 470.31,
+          "value": 515.61,
+          "profit": 45.3,
+          "returnRate": 9.63,
           "source": "Investavimas Gerda.xlsx"
         }
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:43:56+03:00",
+  "generatedAt": "2026-11-02T23:01:37+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lande",
@@ -13,33 +13,33 @@
     "active": true,
     "status": "active",
     "startDate": "2026-07-15",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-30",
     "website": "https://lande.finance"
   },
   "summary": {
-    "invested": 100.0,
-    "currentValue": 107.24,
-    "profit": 7.24,
-    "returnRate": 7.24,
-    "xirr": 3622.7126,
-    "cash": 0.56,
-    "incomeReceived": 7.24,
-    "activeInvestments": 2,
+    "invested": 150.0,
+    "currentValue": 158.81,
+    "profit": 8.81,
+    "returnRate": 5.8733,
+    "xirr": 40.9592,
+    "cash": 1.36,
+    "incomeReceived": 8.81,
+    "activeInvestments": 3,
     "delayedInvestments": 0,
     "completedInvestments": 0,
-    "averageRate": 12.0262,
-    "averageLtv": 48.2625,
-    "deposited": 100.0,
+    "averageRate": 12.6643,
+    "averageLtv": 44.5962,
+    "deposited": 150.0,
     "withdrawn": 0.0,
-    "platformInvested": 106.68,
-    "calculatedOutstanding": 106.68,
-    "principalReturned": 0.26,
-    "interestReceived": 0.59,
-    "grossInterestReceived": 0.59,
-    "bonuses": 6.65,
+    "platformInvested": 157.45,
+    "calculatedOutstanding": 157.45,
+    "principalReturned": 0.52,
+    "interestReceived": 1.65,
+    "grossInterestReceived": 1.65,
+    "bonuses": 7.16,
     "fees": 0.0,
-    "totalInvestments": 2,
-    "roi": 7.24
+    "totalInvestments": 3,
+    "roi": 5.8733
   },
   "history": [
     {
@@ -83,10 +83,23 @@
     },
     {
       "date": "2026-10-31",
-      "invested": 100.0,
-      "value": 107.24,
-      "profit": 7.24,
-      "cash": 0.56,
+      "invested": 150.0,
+      "value": 157.16,
+      "profit": 7.16,
+      "cash": 0.0,
+      "income": 1.83,
+      "deposits": 50.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.51,
+      "monthlyProfit": 0.51,
+      "monthlyReturn": 0.33
+    },
+    {
+      "date": "2026-11-30",
+      "invested": 150.0,
+      "value": 158.81,
+      "profit": 8.81,
+      "cash": 1.36,
       "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
@@ -96,11 +109,11 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-10-31",
-    "invested": 100.0,
-    "value": 107.24,
-    "profit": 7.24,
-    "cash": 0.56,
+    "date": "2026-11-30",
+    "invested": 150.0,
+    "value": 158.81,
+    "profit": 8.81,
+    "cash": 1.36,
     "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
@@ -121,17 +134,17 @@
     "loanType": "Žemės ūkio paskola",
     "term": "1 m. 0 mėn. 9 d.",
     "investmentDate": "2026-07-16",
-    "startDate": null,
+    "startDate": "2026-07-21",
     "plannedEndDate": "2027-07-25",
     "actualEndDate": null,
     "rate": 13.0,
     "invested": 55.0,
-    "currentValue": 54.74,
-    "outstandingPrincipal": 54.74,
-    "principalReturned": 0.26,
-    "interestReceived": 0.59,
+    "currentValue": 54.48,
+    "outstandingPrincipal": 54.48,
+    "principalReturned": 0.52,
+    "interestReceived": 1.18,
     "fees": 0.0,
-    "profit": 0.59,
+    "profit": 1.18,
     "xirr": null,
     "status": "active",
     "delayDays": 0,
@@ -157,12 +170,21 @@
       },
       {
         "plannedDate": "2026-09-21",
-        "actualDate": null,
-        "timingDays": 0,
+        "actualDate": "2026-10-20",
+        "timingDays": 29,
         "principal": 0.0,
-        "interest": 0.0,
+        "interest": 0.23,
         "fee": 0.0,
-        "paid": false
+        "paid": true
+      },
+      {
+        "plannedDate": "2026-09-21",
+        "actualDate": "2026-10-22",
+        "timingDays": 31,
+        "principal": 0.26,
+        "interest": 0.36,
+        "fee": 0.0,
+        "paid": true
       },
       {
         "plannedDate": "2026-10-21",
@@ -252,6 +274,16 @@
         "date": "2026-09-13",
         "amount": 0.56,
         "delayDays": 0
+      },
+      {
+        "date": "2026-10-20",
+        "amount": 0.23,
+        "delayDays": 0
+      },
+      {
+        "date": "2026-10-22",
+        "amount": 0.62,
+        "delayDays": 0
       }
     ]
   },
@@ -264,15 +296,20 @@
       },
       {
         "label": "Poland",
-        "count": 1,
-        "value": 54.74
+        "count": 2,
+        "value": 105.51
       }
     ],
     "borrower": [
       {
+        "label": "CEZAR Cezary Szewczuk",
+        "count": 1,
+        "value": 51.03
+      },
+      {
         "label": "GOSPODARSTWO ROLNE KINGA SZYMAŃSKA",
         "count": 1,
-        "value": 54.74
+        "value": 54.48
       },
       {
         "label": "Maltas pagasta zemnieku saimniecība \"MARKĀNI\"",
@@ -288,22 +325,22 @@
       },
       {
         "label": "Žemė",
-        "count": 1,
-        "value": 54.74
+        "count": 2,
+        "value": 105.51
       }
     ],
     "loanType": [
       {
         "label": "Žemės ūkio paskola",
-        "count": 2,
-        "value": 106.68
+        "count": 3,
+        "value": 157.45
       }
     ],
     "status": [
       {
         "label": "active",
-        "count": 2,
-        "value": 106.68
+        "count": 3,
+        "value": 157.45
       }
     ]
   },
@@ -333,7 +370,19 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-10-15",
+      "deposited": 50.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-10-16",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.51
+    },
+    {
+      "date": "2026-11-02",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -353,17 +402,17 @@
       "loanType": "Žemės ūkio paskola",
       "term": "1 m. 0 mėn. 9 d.",
       "investmentDate": "2026-07-16",
-      "startDate": null,
+      "startDate": "2026-07-21",
       "plannedEndDate": "2027-07-25",
       "actualEndDate": null,
       "rate": 13.0,
       "invested": 55.0,
-      "currentValue": 54.74,
-      "outstandingPrincipal": 54.74,
-      "principalReturned": 0.26,
-      "interestReceived": 0.59,
+      "currentValue": 54.48,
+      "outstandingPrincipal": 54.48,
+      "principalReturned": 0.52,
+      "interestReceived": 1.18,
       "fees": 0.0,
-      "profit": 0.59,
+      "profit": 1.18,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -389,12 +438,21 @@
         },
         {
           "plannedDate": "2026-09-21",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-10-20",
+          "timingDays": 29,
           "principal": 0.0,
-          "interest": 0.0,
+          "interest": 0.23,
           "fee": 0.0,
-          "paid": false
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-09-21",
+          "actualDate": "2026-10-22",
+          "timingDays": 31,
+          "principal": 0.26,
+          "interest": 0.36,
+          "fee": 0.0,
+          "paid": true
         },
         {
           "plannedDate": "2026-10-21",
@@ -484,6 +542,16 @@
           "date": "2026-09-13",
           "amount": 0.56,
           "delayDays": 0
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 0.23,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 0.62,
+          "delayDays": 0
         }
       ]
     },
@@ -498,26 +566,35 @@
       "collateral": "Mašinos",
       "ltv": 38.0,
       "loanType": "Žemės ūkio paskola",
-      "term": "1 m. 5 mėn. 0 d.",
+      "term": "1 m. 5 mėn. 2 d.",
       "investmentDate": "2026-09-12",
-      "startDate": null,
-      "plannedEndDate": "2028-02-12",
+      "startDate": "2026-09-14",
+      "plannedEndDate": "2028-02-14",
       "actualEndDate": null,
       "rate": 11.0,
       "invested": 51.94,
       "currentValue": 51.94,
       "outstandingPrincipal": 51.94,
       "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "interestReceived": 0.47,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.47,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
-          "plannedDate": "2026-10-12",
+          "plannedDate": "2026-10-14",
+          "actualDate": "2026-10-15",
+          "timingDays": 1,
+          "principal": 0.0,
+          "interest": 0.47,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-11-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -526,7 +603,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2026-11-12",
+          "plannedDate": "2026-12-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -535,7 +612,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2026-12-12",
+          "plannedDate": "2027-01-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -544,7 +621,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-01-12",
+          "plannedDate": "2027-02-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -553,7 +630,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-02-12",
+          "plannedDate": "2027-03-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -562,7 +639,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-03-12",
+          "plannedDate": "2027-04-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -571,7 +648,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-04-12",
+          "plannedDate": "2027-05-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -580,7 +657,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-05-12",
+          "plannedDate": "2027-06-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -589,7 +666,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-06-12",
+          "plannedDate": "2027-07-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -598,7 +675,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-07-12",
+          "plannedDate": "2027-08-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -607,7 +684,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-08-12",
+          "plannedDate": "2027-09-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -616,7 +693,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-09-12",
+          "plannedDate": "2027-10-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -625,7 +702,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-10-12",
+          "plannedDate": "2027-11-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -634,7 +711,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-11-12",
+          "plannedDate": "2027-12-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -643,7 +720,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2027-12-12",
+          "plannedDate": "2028-01-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -652,16 +729,7 @@
           "paid": false
         },
         {
-          "plannedDate": "2028-01-12",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
-        },
-        {
-          "plannedDate": "2028-02-12",
+          "plannedDate": "2028-02-14",
           "actualDate": null,
           "timingDays": 0,
           "principal": 0.0,
@@ -675,6 +743,157 @@
           "date": "2026-09-12",
           "amount": -51.94,
           "delayDays": 0
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 0.47,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "42666781",
+      "slug": "42666781",
+      "loanCode": "42666781",
+      "name": "42666781",
+      "sourceSheet": "42666781",
+      "country": "Poland",
+      "borrower": "CEZAR Cezary Szewczuk",
+      "collateral": "Žemė",
+      "ltv": 37.0,
+      "loanType": "Žemės ūkio paskola",
+      "term": "1 m. 0 mėn. 3 d.",
+      "investmentDate": "2026-10-16",
+      "startDate": "2026-10-19",
+      "plannedEndDate": "2027-10-19",
+      "actualEndDate": null,
+      "rate": 14.0,
+      "invested": 51.03,
+      "currentValue": 51.03,
+      "outstandingPrincipal": 51.03,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-03-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-04-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-05-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-06-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-07-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-08-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-09-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-10-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-16",
+          "amount": -51.03,
+          "delayDays": 0
         }
       ]
     }
@@ -683,8 +902,8 @@
     "file": "Lande.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 2,
+    "loanSheets": 3,
     "skippedSheets": [],
-    "generatedAt": "2026-10-12T17:43:56+03:00"
+    "generatedAt": "2026-11-02T23:01:37+02:00"
   }
 }

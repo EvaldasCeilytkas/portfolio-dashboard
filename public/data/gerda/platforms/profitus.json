@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:46:53+03:00",
+  "generatedAt": "2026-11-02T23:04:42+02:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,30 +11,30 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-08-30",
-    "updatedAt": "2026-10-12",
+    "updatedAt": "2026-11-02",
     "website": "https://profitus.lt"
   },
   "summary": {
-    "invested": 350.31,
-    "currentValue": 395.61,
+    "invested": 470.31,
+    "currentValue": 515.61,
     "profit": 45.3,
-    "returnRate": 12.9314,
-    "xirr": 19.1958,
-    "cash": 5.31,
+    "returnRate": 9.6319,
+    "xirr": 16.3857,
+    "cash": 0.01,
     "incomeReceived": 20.3,
-    "activeInvestments": 3,
+    "activeInvestments": 4,
     "delayedInvestments": 0,
     "completedInvestments": 2,
-    "averageRate": 8.8447,
-    "averageLtv": 57.3115
+    "averageRate": 8.9594,
+    "averageLtv": 56.5566
   },
   "history": [
     {
-      "date": "2026-10-01",
-      "invested": 350.31,
-      "value": 395.61,
+      "date": "2026-11-01",
+      "invested": 470.31,
+      "value": 515.61,
       "profit": 45.3,
-      "cash": 5.31,
+      "cash": 0.01,
       "income": 0.0
     }
   ],
@@ -55,7 +55,7 @@
       "interestRate": 9.5,
       "incomeReceived": 12.86,
       "outstanding": 0.0,
-      "delayDays": 104,
+      "delayDays": 125,
       "ltv": 57.0,
       "quantity": null,
       "averagePrice": null,
@@ -168,7 +168,7 @@
       "interestRate": 9.0,
       "incomeReceived": 17.12,
       "outstanding": 0.0,
-      "delayDays": 43,
+      "delayDays": 64,
       "ltv": 59.0,
       "quantity": null,
       "averagePrice": null,
@@ -547,6 +547,43 @@
       "plannedInterest": 27.76,
       "sourceSheets": [
         "Svajonių Daugiabutis, Kaunas II"
+      ]
+    },
+    {
+      "id": "Paskola P00001341-35",
+      "code": "Paskola P00001341-35",
+      "name": "Piekrasta Rezidence, Ryga XXXV",
+      "investmentType": "real_estate_project",
+      "status": "active",
+      "currency": "EUR",
+      "invested": 125.3,
+      "currentValue": 125.3,
+      "profit": 0,
+      "investmentDate": "2026-10-09",
+      "completionDate": null,
+      "country": null,
+      "interestRate": 9.5,
+      "incomeReceived": 0,
+      "outstanding": 125.3,
+      "delayDays": 0,
+      "ltv": 53.0,
+      "quantity": null,
+      "averagePrice": null,
+      "marketPrice": null,
+      "ticker": null,
+      "isin": null,
+      "rating": "A+",
+      "maturityDate": null,
+      "payments": [],
+      "paymentSchedule": [],
+      "interestStartDate": null,
+      "durationMonths": 12,
+      "paymentFrequency": "Q",
+      "maxLtv": 60.0,
+      "repaidPrincipal": 0,
+      "plannedInterest": 0,
+      "sourceSheets": [
+        "Piekrasta Rezidence, Ryga XXXV"
       ]
     }
   ]

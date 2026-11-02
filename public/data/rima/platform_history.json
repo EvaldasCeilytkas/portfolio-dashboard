@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "type": "platform_history",
   "currency": "EUR",
-  "generatedAt": "2026-10-12T17:46:44+03:00",
+  "generatedAt": "2026-11-02T23:04:32+02:00",
   "source": {
     "file": "Investavimas Rima.xlsx",
     "sheet": "Investavimas"
@@ -162,6 +162,14 @@
           "profit": 60.22,
           "returnRate": 10.0367,
           "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 630.0,
+          "value": 701.0,
+          "profit": 71.0,
+          "returnRate": 11.2698,
+          "source": "Investavimas Rima.xlsx"
         }
       ]
     },
@@ -238,6 +246,14 @@
           "value": 974.4,
           "profit": 74.4,
           "returnRate": 8.2667,
+          "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 1000.0,
+          "value": 1069.93,
+          "profit": 69.93,
+          "returnRate": 6.993,
           "source": "Investavimas Rima.xlsx"
         }
       ]
@@ -396,6 +412,14 @@
           "profit": 55.35,
           "returnRate": 184.5,
           "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 30.0,
+          "value": 85.35,
+          "profit": 55.35,
+          "returnRate": 184.5,
+          "source": "Investavimas Rima.xlsx"
         }
       ]
     },
@@ -513,6 +537,14 @@
           "profit": 50.63,
           "returnRate": 8.1144,
           "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 623.95,
+          "value": 675.25,
+          "profit": 51.3,
+          "returnRate": 8.2218,
+          "source": "Investavimas Rima.xlsx"
         }
       ]
     },
@@ -521,106 +553,114 @@
       "history": [
         {
           "date": "2025-09-30",
-          "invested": 400.0,
-          "value": 401.7,
-          "profit": 1.7,
+          "invested": 200.0,
+          "value": 200.85,
+          "profit": 0.85,
           "returnRate": 0.425,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-10-31",
-          "invested": 420.0,
-          "value": 450.97,
-          "profit": 30.97,
-          "returnRate": 7.3738,
+          "invested": 220.0,
+          "value": 248.24,
+          "profit": 28.24,
+          "returnRate": 12.8364,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-11-30",
-          "invested": 420.0,
-          "value": 456.14,
-          "profit": 36.14,
-          "returnRate": 8.6048,
+          "invested": 220.0,
+          "value": 251.46,
+          "profit": 31.46,
+          "returnRate": 14.3,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-12-31",
-          "invested": 420.0,
-          "value": 460.39,
-          "profit": 40.39,
-          "returnRate": 9.6167,
+          "invested": 220.0,
+          "value": 253.82,
+          "profit": 33.82,
+          "returnRate": 15.3727,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-01-31",
-          "invested": 420.0,
-          "value": 464.76,
-          "profit": 44.76,
-          "returnRate": 10.6571,
+          "invested": 220.0,
+          "value": 256.23,
+          "profit": 36.23,
+          "returnRate": 16.4682,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-02-28",
-          "invested": 420.0,
-          "value": 469.11,
-          "profit": 49.11,
-          "returnRate": 11.6929,
+          "invested": 220.0,
+          "value": 258.63,
+          "profit": 38.63,
+          "returnRate": 17.5591,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-03-31",
-          "invested": 620.0,
-          "value": 677.43,
-          "profit": 57.43,
-          "returnRate": 9.2629,
+          "invested": 320.0,
+          "value": 363.0,
+          "profit": 43.0,
+          "returnRate": 13.4375,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-04-30",
-          "invested": 620.0,
-          "value": 679.75,
-          "profit": 59.75,
-          "returnRate": 9.6371,
+          "invested": 320.0,
+          "value": 364.39,
+          "profit": 44.39,
+          "returnRate": 13.8719,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-05-31",
-          "invested": 620.0,
-          "value": 684.13,
-          "profit": 64.13,
-          "returnRate": 10.3435,
+          "invested": 320.0,
+          "value": 366.8,
+          "profit": 46.8,
+          "returnRate": 14.625,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-06-30",
-          "invested": 620.0,
-          "value": 693.4,
-          "profit": 73.4,
-          "returnRate": 11.8387,
+          "invested": 320.0,
+          "value": 371.8,
+          "profit": 51.8,
+          "returnRate": 16.1875,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-07-31",
-          "invested": 620.0,
-          "value": 695.94,
-          "profit": 75.94,
-          "returnRate": 12.2484,
+          "invested": 320.0,
+          "value": 373.29,
+          "profit": 53.29,
+          "returnRate": 16.6531,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-08-31",
-          "invested": 620.0,
-          "value": 698.99,
-          "profit": 78.99,
-          "returnRate": 12.7403,
+          "invested": 320.0,
+          "value": 375.12,
+          "profit": 55.12,
+          "returnRate": 17.225,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-09-30",
-          "invested": 620.0,
-          "value": 704.91,
-          "profit": 84.91,
-          "returnRate": 13.6952,
+          "invested": 320.0,
+          "value": 378.31,
+          "profit": 58.31,
+          "returnRate": 18.2219,
+          "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 187.29,
+          "value": 253.38,
+          "profit": 66.09,
+          "returnRate": 35.2875,
           "source": "Investavimas Rima.xlsx"
         }
       ]
@@ -739,6 +779,14 @@
           "profit": 38.8,
           "returnRate": 12.7213,
           "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 305.0,
+          "value": 348.4,
+          "profit": 43.4,
+          "returnRate": 14.2295,
+          "source": "Investavimas Rima.xlsx"
         }
       ]
     },
@@ -800,6 +848,14 @@
           "profit": 13.44,
           "returnRate": 16.8,
           "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 80.0,
+          "value": 94.34,
+          "profit": 14.34,
+          "returnRate": 17.925,
+          "source": "Investavimas Rima.xlsx"
         }
       ]
     },
@@ -821,6 +877,14 @@
           "profit": 3.05,
           "returnRate": 1.525,
           "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 200.0,
+          "value": 205.23,
+          "profit": 5.23,
+          "returnRate": 2.615,
+          "source": "Investavimas Rima.xlsx"
         }
       ]
     },
@@ -841,6 +905,14 @@
           "value": 100.59,
           "profit": 0.59,
           "returnRate": 0.59,
+          "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 232.22,
+          "value": 234.53,
+          "profit": 2.31,
+          "returnRate": 0.9947,
           "source": "Investavimas Rima.xlsx"
         }
       ]
@@ -999,6 +1071,14 @@
           "profit": 134.62,
           "returnRate": 8.9747,
           "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 1630.0,
+          "value": 1770.93,
+          "profit": 140.93,
+          "returnRate": 8.646,
+          "source": "Investavimas Rima.xlsx"
         }
       ]
     },
@@ -1055,106 +1135,114 @@
         },
         {
           "date": "2025-09-30",
-          "invested": 935.0,
-          "value": 1002.75,
-          "profit": 67.75,
-          "returnRate": 7.246,
+          "invested": 735.0,
+          "value": 801.9,
+          "profit": 66.9,
+          "returnRate": 9.102,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-10-31",
-          "invested": 955.0,
-          "value": 1053.02,
-          "profit": 98.02,
-          "returnRate": 10.2639,
+          "invested": 755.0,
+          "value": 850.29,
+          "profit": 95.29,
+          "returnRate": 12.6212,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-11-30",
-          "invested": 1055.0,
-          "value": 1183.19,
-          "profit": 128.19,
-          "returnRate": 12.1507,
+          "invested": 855.0,
+          "value": 978.51,
+          "profit": 123.51,
+          "returnRate": 14.4456,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-12-31",
-          "invested": 1055.0,
-          "value": 1193.61,
-          "profit": 138.61,
-          "returnRate": 13.1384,
+          "invested": 855.0,
+          "value": 987.04,
+          "profit": 132.04,
+          "returnRate": 15.4433,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-01-31",
-          "invested": 1055.0,
-          "value": 1197.98,
-          "profit": 142.98,
-          "returnRate": 13.5526,
+          "invested": 855.0,
+          "value": 989.45,
+          "profit": 134.45,
+          "returnRate": 15.7251,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-02-28",
-          "invested": 1055.0,
-          "value": 1207.69,
-          "profit": 152.69,
-          "returnRate": 14.473,
+          "invested": 855.0,
+          "value": 997.21,
+          "profit": 142.21,
+          "returnRate": 16.6327,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-03-31",
-          "invested": 1255.0,
-          "value": 1436.0,
-          "profit": 181.0,
-          "returnRate": 14.4223,
+          "invested": 955.0,
+          "value": 1121.57,
+          "profit": 166.57,
+          "returnRate": 17.4419,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-04-30",
-          "invested": 1295.0,
-          "value": 1485.81,
-          "profit": 190.81,
-          "returnRate": 14.7344,
+          "invested": 995.0,
+          "value": 1170.45,
+          "profit": 175.45,
+          "returnRate": 17.6332,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-05-31",
-          "invested": 1539.99,
-          "value": 1737.61,
-          "profit": 197.62,
-          "returnRate": 12.8326,
+          "invested": 1239.99,
+          "value": 1420.28,
+          "profit": 180.29,
+          "returnRate": 14.5396,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-06-30",
-          "invested": 1648.95,
-          "value": 1857.56,
-          "profit": 208.61,
-          "returnRate": 12.6511,
+          "invested": 1348.95,
+          "value": 1535.96,
+          "profit": 187.01,
+          "returnRate": 13.8634,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-07-31",
-          "invested": 1648.95,
-          "value": 1863.92,
-          "profit": 214.97,
-          "returnRate": 13.0368,
+          "invested": 1348.95,
+          "value": 1541.27,
+          "profit": 192.32,
+          "returnRate": 14.257,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-08-31",
-          "invested": 1958.95,
-          "value": 2184.38,
-          "profit": 225.43,
-          "returnRate": 11.5077,
+          "invested": 1658.95,
+          "value": 1860.51,
+          "profit": 201.56,
+          "returnRate": 12.1499,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-09-30",
-          "invested": 1958.95,
-          "value": 2205.72,
-          "profit": 246.77,
-          "returnRate": 12.5971,
+          "invested": 1658.95,
+          "value": 1879.12,
+          "profit": 220.17,
+          "returnRate": 13.2716,
+          "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 1658.46,
+          "value": 1896.48,
+          "profit": 238.02,
+          "returnRate": 14.3519,
           "source": "Investavimas Rima.xlsx"
         }
       ]
@@ -1212,106 +1300,114 @@
         },
         {
           "date": "2025-09-30",
-          "invested": 1175.0,
-          "value": 1248.76,
-          "profit": 73.76,
-          "returnRate": 6.2774,
+          "invested": 975.0,
+          "value": 1047.91,
+          "profit": 72.91,
+          "returnRate": 7.4779,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-10-31",
-          "invested": 1225.0,
-          "value": 1337.76,
-          "profit": 112.76,
-          "returnRate": 9.2049,
+          "invested": 1025.0,
+          "value": 1135.03,
+          "profit": 110.03,
+          "returnRate": 10.7346,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-11-30",
-          "invested": 1355.0,
-          "value": 1496.3,
-          "profit": 141.3,
-          "returnRate": 10.428,
+          "invested": 1155.0,
+          "value": 1291.62,
+          "profit": 136.62,
+          "returnRate": 11.8286,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2025-12-31",
-          "invested": 1355.0,
-          "value": 1511.46,
-          "profit": 156.46,
-          "returnRate": 11.5469,
+          "invested": 1155.0,
+          "value": 1304.89,
+          "profit": 149.89,
+          "returnRate": 12.9775,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-01-31",
-          "invested": 1515.0,
-          "value": 1683.43,
-          "profit": 168.43,
-          "returnRate": 11.1175,
+          "invested": 1315.0,
+          "value": 1474.9,
+          "profit": 159.9,
+          "returnRate": 12.1597,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-02-28",
-          "invested": 1645.0,
-          "value": 1830.17,
-          "profit": 185.17,
-          "returnRate": 11.2565,
+          "invested": 1445.0,
+          "value": 1619.69,
+          "profit": 174.69,
+          "returnRate": 12.0893,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-03-31",
-          "invested": 1975.0,
-          "value": 2146.91,
-          "profit": 171.91,
-          "returnRate": 8.7043,
+          "invested": 1675.0,
+          "value": 1832.48,
+          "profit": 157.48,
+          "returnRate": 9.4018,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-04-30",
-          "invested": 2145.0,
-          "value": 2380.43,
-          "profit": 235.43,
-          "returnRate": 10.9758,
+          "invested": 1845.0,
+          "value": 2065.07,
+          "profit": 220.07,
+          "returnRate": 11.9279,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-05-31",
-          "invested": 2519.99,
-          "value": 2809.11,
-          "profit": 289.12,
-          "returnRate": 11.4731,
+          "invested": 2219.99,
+          "value": 2491.78,
+          "profit": 271.79,
+          "returnRate": 12.2428,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-06-30",
-          "invested": 2758.95,
-          "value": 3074.11,
-          "profit": 315.16,
-          "returnRate": 11.4232,
+          "invested": 2458.95,
+          "value": 2752.51,
+          "profit": 293.56,
+          "returnRate": 11.9384,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-07-31",
-          "invested": 2888.95,
-          "value": 3201.79,
-          "profit": 312.84,
-          "returnRate": 10.8288,
+          "invested": 2588.95,
+          "value": 2879.14,
+          "profit": 290.19,
+          "returnRate": 11.2088,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-08-31",
-          "invested": 3328.95,
-          "value": 3682.08,
-          "profit": 353.13,
-          "returnRate": 10.6078,
+          "invested": 3028.95,
+          "value": 3358.21,
+          "profit": 329.26,
+          "returnRate": 10.8704,
           "source": "Investavimas Rima.xlsx"
         },
         {
           "date": "2026-09-30",
-          "invested": 3458.95,
-          "value": 3840.34,
-          "profit": 381.39,
-          "returnRate": 11.0262,
+          "invested": 3158.95,
+          "value": 3513.74,
+          "profit": 354.79,
+          "returnRate": 11.2313,
+          "source": "Investavimas Rima.xlsx"
+        },
+        {
+          "date": "2026-10-31",
+          "invested": 3288.46,
+          "value": 3667.41,
+          "profit": 378.95,
+          "returnRate": 11.5236,
           "source": "Investavimas Rima.xlsx"
         }
       ]

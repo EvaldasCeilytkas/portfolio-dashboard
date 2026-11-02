@@ -3,7 +3,7 @@
   "type": "monthlyPortfolioHistory",
   "section": "Fondai",
   "currency": "EUR",
-  "generatedAt": "2026-10-12T14:46:45+00:00",
+  "generatedAt": "2026-11-02T21:04:33+00:00",
   "source": {
     "file": "Investavimas Gerda.xlsx",
     "sheet": "Investavimas",
@@ -11,11 +11,11 @@
   },
   "period": {
     "from": "2026-05-31",
-    "to": "2026-09-30",
-    "months": 5
+    "to": "2026-10-31",
+    "months": 6
   },
   "latest": {
-    "date": "2026-09-30",
+    "date": "2026-10-31",
     "invested": 0.0,
     "monthlyContribution": 0.0,
     "value": 0.0,
@@ -62,6 +62,15 @@
     },
     {
       "date": "2026-09-30",
+      "invested": 0.0,
+      "monthlyContribution": 0.0,
+      "value": 0.0,
+      "profit": 0.0,
+      "returnRate": 0.0,
+      "monthlyResult": 0.0
+    },
+    {
+      "date": "2026-10-31",
       "invested": 0.0,
       "monthlyContribution": 0.0,
       "value": 0.0,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:43:56+03:00",
+  "generatedAt": "2026-11-02T23:01:36+02:00",
   "moduleType": "indemo",
   "platform": {
     "id": "indemo",
@@ -14,7 +14,7 @@
     "website": "https://indemo.eu",
     "status": "active",
     "startDate": "2025-03-21",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-30",
     "healthScore": 100,
     "healthParts": {
       "diversification": 100,
@@ -23,36 +23,36 @@
     }
   },
   "summary": {
-    "invested": 636.74,
-    "currentValue": 637.06,
-    "profit": 87.06,
-    "returnRate": 13.67,
-    "xirr": 12.46,
-    "cash": 0.32,
-    "incomeReceived": 2.57,
+    "invested": 647.16,
+    "currentValue": 647.17,
+    "profit": 87.17,
+    "returnRate": 13.47,
+    "xirr": 11.69,
+    "cash": 0.01,
+    "incomeReceived": 2.68,
     "activeInvestments": 80,
     "delayedInvestments": 0,
-    "completedInvestments": 8,
+    "completedInvestments": 9,
     "averageRate": null,
-    "averageLtv": 0.5797,
-    "deposited": 550.0,
+    "averageLtv": 0.578,
+    "deposited": 560.0,
     "withdrawn": 0.0,
-    "totalInvested": 636.74,
-    "lifetimeInvested": 660.61,
-    "outstanding": 636.74,
+    "totalInvested": 647.16,
+    "lifetimeInvested": 671.52,
+    "outstanding": 647.16,
     "bonuses": 84.49,
-    "repaidPrincipal": 23.87,
-    "interestReceived": 2.57,
-    "extraReceived": 4.5,
-    "portfolioValue": 637.06,
-    "roi": 13.67,
-    "totalProjects": 88,
+    "repaidPrincipal": 24.36,
+    "interestReceived": 2.68,
+    "extraReceived": 4.66,
+    "portfolioValue": 647.17,
+    "roi": 13.47,
+    "totalProjects": 89,
     "activeProjects": 80,
     "delayedProjects": 0,
-    "repaidProjects": 8,
-    "completedProjects": 8,
-    "averagePtv": 0.5797,
-    "averagePdt": 0.6069
+    "repaidProjects": 9,
+    "completedProjects": 9,
+    "averagePtv": 0.578,
+    "averagePdt": 0.6066
   },
   "history": [
     {
@@ -361,10 +361,26 @@
     },
     {
       "date": "2026-10-31",
-      "invested": 550.0,
-      "value": 637.06,
-      "profit": 87.06,
-      "cash": 0.32,
+      "invested": 560.0,
+      "value": 651.83,
+      "profit": 91.83,
+      "cash": 0.0,
+      "income": 0.27,
+      "deposits": 10.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "principalRepaid": 0.49,
+      "interest": 0.11,
+      "extraIncome": 0.16,
+      "monthlyProfit": 0.27,
+      "monthlyReturn": 0.04
+    },
+    {
+      "date": "2026-11-30",
+      "invested": 560.0,
+      "value": 647.17,
+      "profit": 87.17,
+      "cash": 0.01,
       "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
@@ -377,11 +393,11 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-10-31",
-    "invested": 550.0,
-    "value": 637.06,
-    "profit": 87.06,
-    "cash": 0.32,
+    "date": "2026-11-30",
+    "invested": 560.0,
+    "value": 647.17,
+    "profit": 87.17,
+    "cash": 0.01,
     "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
@@ -523,9 +539,15 @@
       },
       {
         "label": "J",
-        "count": 32,
-        "value": 203.5,
-        "display": "203.50 €"
+        "count": 31,
+        "value": 203.01,
+        "display": "203.01 €"
+      },
+      {
+        "label": "P",
+        "count": 1,
+        "value": 10.91,
+        "display": "10.91 €"
       },
       {
         "label": "R",
@@ -556,8 +578,8 @@
       {
         "label": "≤50 %",
         "count": 10,
-        "value": 121.69,
-        "display": "121.69 €"
+        "value": 132.11,
+        "display": "132.11 €"
       }
     ],
     "pdt": [
@@ -569,9 +591,9 @@
       },
       {
         "label": "51–60 %",
-        "count": 15,
-        "value": 139.48,
-        "display": "139.48 €"
+        "count": 16,
+        "value": 150.39,
+        "display": "150.39 €"
       },
       {
         "label": ">60 %",
@@ -581,9 +603,9 @@
       },
       {
         "label": "≤40 %",
-        "count": 18,
-        "value": 58.46,
-        "display": "58.46 €"
+        "count": 17,
+        "value": 57.97,
+        "display": "57.97 €"
       }
     ]
   },
@@ -751,7 +773,13 @@
       "bonuses": 0.31
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-10-23",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonuses": 0.0
+    },
+    {
+      "date": "2026-10-29",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonuses": 0.0
@@ -2558,15 +2586,15 @@
       "pdt": 0.2,
       "investmentDate": "2025-04-01",
       "loanStartDate": "2024-09-16",
-      "actualRepayment": null,
-      "durationDays": null,
+      "actualRepayment": "2026-10-23",
+      "durationDays": 767,
       "invested": 0.49,
-      "repaidPrincipal": 0.0,
-      "outstanding": 0.49,
-      "interestReceived": 0.0,
-      "extraReceived": 0.0,
-      "xirr": 0.0,
-      "status": "active",
+      "repaidPrincipal": 0.49,
+      "outstanding": 0.0,
+      "interestReceived": 0.11,
+      "extraReceived": 0.16,
+      "xirr": 13.85,
+      "status": "repaid",
       "delayDays": 0,
       "investments": [
         {
@@ -2576,7 +2604,15 @@
           "amount": 0.49
         }
       ],
-      "repayments": []
+      "repayments": [
+        {
+          "date": "2026-10-23",
+          "principal": 0.49,
+          "interest": 0.11,
+          "extra": 0.16,
+          "days": 570
+        }
+      ]
     },
     {
       "id": "J076",
@@ -2665,6 +2701,37 @@
           "note": "LV0000104628",
           "date": "2025-05-27",
           "amount": 0.68
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "P117",
+      "slug": "p117",
+      "loanCode": "P117",
+      "sourceSheet": "P117",
+      "name": "House in Sevilla",
+      "loanGroup": "P",
+      "ptv": 0.48,
+      "pdt": 0.57,
+      "investmentDate": "2026-10-23",
+      "loanStartDate": "2026-10-19",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 10.91,
+      "repaidPrincipal": 0.0,
+      "outstanding": 10.91,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LVX0000W1DL8",
+          "date": "2026-10-23",
+          "amount": 10.91
         }
       ],
       "repayments": []
@@ -7311,15 +7378,15 @@
       "pdt": 0.2,
       "investmentDate": "2025-04-01",
       "loanStartDate": "2024-09-16",
-      "actualRepayment": null,
-      "durationDays": null,
+      "actualRepayment": "2026-10-23",
+      "durationDays": 767,
       "invested": 0.49,
-      "repaidPrincipal": 0.0,
-      "outstanding": 0.49,
-      "interestReceived": 0.0,
-      "extraReceived": 0.0,
-      "xirr": 0.0,
-      "status": "active",
+      "repaidPrincipal": 0.49,
+      "outstanding": 0.0,
+      "interestReceived": 0.11,
+      "extraReceived": 0.16,
+      "xirr": 13.85,
+      "status": "repaid",
       "delayDays": 0,
       "investments": [
         {
@@ -7329,7 +7396,15 @@
           "amount": 0.49
         }
       ],
-      "repayments": []
+      "repayments": [
+        {
+          "date": "2026-10-23",
+          "principal": 0.49,
+          "interest": 0.11,
+          "extra": 0.16,
+          "days": 570
+        }
+      ]
     },
     {
       "id": "J076",
@@ -7418,6 +7493,37 @@
           "note": "LV0000104628",
           "date": "2025-05-27",
           "amount": 0.68
+        }
+      ],
+      "repayments": []
+    },
+    {
+      "id": "P117",
+      "slug": "p117",
+      "loanCode": "P117",
+      "sourceSheet": "P117",
+      "name": "House in Sevilla",
+      "loanGroup": "P",
+      "ptv": 0.48,
+      "pdt": 0.57,
+      "investmentDate": "2026-10-23",
+      "loanStartDate": "2026-10-19",
+      "actualRepayment": null,
+      "durationDays": null,
+      "invested": 10.91,
+      "repaidPrincipal": 0.0,
+      "outstanding": 10.91,
+      "interestReceived": 0.0,
+      "extraReceived": 0.0,
+      "xirr": 0.0,
+      "status": "active",
+      "delayDays": 0,
+      "investments": [
+        {
+          "sequence": 1,
+          "note": "LVX0000W1DL8",
+          "date": "2026-10-23",
+          "amount": 10.91
         }
       ],
       "repayments": []
@@ -10267,8 +10373,8 @@
     "file": "Indemo.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "projectSheets": 88,
+    "projectSheets": 89,
     "skippedSheets": [],
-    "generatedAt": "2026-10-12T17:43:56+03:00"
+    "generatedAt": "2026-11-02T23:01:36+02:00"
   }
 }

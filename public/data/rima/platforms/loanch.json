@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:46:43+03:00",
+  "generatedAt": "2026-11-02T23:04:30+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -13,33 +13,33 @@
     "active": true,
     "status": "active",
     "startDate": "2026-08-08",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-30",
     "website": "https://loanch.com"
   },
   "summary": {
-    "invested": 100.0,
-    "currentValue": 100.59,
-    "profit": 0.59,
-    "returnRate": 0.59,
-    "xirr": 4.1345,
+    "invested": 232.22,
+    "currentValue": 234.53,
+    "profit": 2.31,
+    "returnRate": 0.9947,
+    "xirr": 7.2883,
     "cash": 0.0,
-    "incomeReceived": 0.59,
-    "activeInvestments": 3,
-    "delayedInvestments": 5,
-    "completedInvestments": 5,
-    "averageRate": 15.7573,
+    "incomeReceived": 2.31,
+    "activeInvestments": 12,
+    "delayedInvestments": 2,
+    "completedInvestments": 8,
+    "averageRate": 14.6601,
     "averageLtv": null,
-    "deposited": 100.0,
+    "deposited": 232.22,
     "withdrawn": 0.0,
-    "lifetimeInvested": 100.59,
-    "outstandingPrincipal": 100.59,
-    "principalReturned": 60.16,
-    "interestReceived": 0.59,
-    "grossInterestReceived": 0.59,
+    "lifetimeInvested": 234.53,
+    "outstandingPrincipal": 234.53,
+    "principalReturned": 123.68,
+    "interestReceived": 2.31,
+    "grossInterestReceived": 2.31,
     "bonuses": 0.0,
     "fees": 0.0,
-    "totalInvestments": 13,
-    "roi": 0.59
+    "totalInvestments": 22,
+    "roi": 0.9947
   },
   "history": [
     {
@@ -70,9 +70,22 @@
     },
     {
       "date": "2026-10-31",
-      "invested": 100.0,
-      "value": 100.59,
-      "profit": 0.59,
+      "invested": 232.22,
+      "value": 232.22,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 65.24,
+      "deposits": 132.22,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-11-30",
+      "invested": 232.22,
+      "value": 234.53,
+      "profit": 2.31,
       "cash": 0.0,
       "income": 0.0,
       "deposits": 0.0,
@@ -83,10 +96,10 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-10-31",
-    "invested": 100.0,
-    "value": 100.59,
-    "profit": 0.59,
+    "date": "2026-11-30",
+    "invested": 232.22,
+    "value": 234.53,
+    "profit": 2.31,
     "cash": 0.0,
     "income": 0.0,
     "deposits": 0.0,
@@ -96,24 +109,24 @@
     "monthlyReturn": 0.0
   },
   "largestInvestment": {
-    "id": "c1ca12e0...b6f6141fd52f",
-    "slug": "c1ca12e0...b6f6141fd52f",
-    "loanCode": "c1ca12e0...b6f6141fd52f",
+    "id": "337063fd...206944371f87",
+    "slug": "337063fd...206944371f87",
+    "loanCode": "337063fd...206944371f87",
     "externalId": null,
-    "sourceSheet": "c1ca12e0...b6f6141fd52f",
+    "sourceSheet": "337063fd...206944371f87",
     "country": "Malaysia",
     "lender": "Tambadana",
     "loanType": "Installment Loan",
     "trustScore": null,
-    "term": "0 m. 2 mėn. 6 d.",
-    "investmentDate": "2026-09-07",
-    "startDate": "2026-08-13",
-    "plannedEndDate": "2026-11-13",
+    "term": "0 m. 2 mėn. 0 d.",
+    "investmentDate": "2026-10-09",
+    "startDate": "2026-10-09",
+    "plannedEndDate": "2026-12-09",
     "actualEndDate": null,
-    "rate": 15.9,
-    "invested": 20.2,
-    "currentValue": 20.2,
-    "outstandingPrincipal": 20.2,
+    "rate": 14.5,
+    "invested": 30.0,
+    "currentValue": 30.0,
+    "outstandingPrincipal": 30.0,
     "principalReturned": 0.0,
     "interestReceived": 0.0,
     "fees": 0.0,
@@ -122,11 +135,30 @@
     "status": "active",
     "delayDays": 0,
     "earlyLateDays": 0,
-    "schedule": [],
+    "schedule": [
+      {
+        "plannedDate": "2026-11-09",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-12-09",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      }
+    ],
     "cashFlows": [
       {
-        "date": "2026-09-07",
-        "amount": -20.2,
+        "date": "2026-10-09",
+        "amount": -30.0,
         "delayDays": 0
       }
     ]
@@ -135,41 +167,41 @@
     "country": [
       {
         "label": "Malaysia",
-        "count": 8,
-        "value": 100.59
+        "count": 14,
+        "value": 234.53
       }
     ],
     "lender": [
       {
         "label": "Tambadana",
-        "count": 8,
-        "value": 100.59
+        "count": 14,
+        "value": 234.53
       }
     ],
     "loanType": [
       {
         "label": "Installment Loan",
-        "count": 8,
-        "value": 100.59
+        "count": 14,
+        "value": 234.53
       }
     ],
     "trustScore": [
       {
         "label": "Nenurodyta",
-        "count": 8,
-        "value": 100.59
+        "count": 14,
+        "value": 234.53
       }
     ],
     "status": [
       {
         "label": "active",
-        "count": 3,
-        "value": 43.92
+        "count": 12,
+        "value": 214.28
       },
       {
         "label": "delayed",
-        "count": 5,
-        "value": 56.67
+        "count": 2,
+        "value": 20.25
       }
     ]
   },
@@ -181,7 +213,13 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-10-08",
+      "deposited": 132.22,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-11-02",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -253,52 +291,67 @@
       "investmentDate": "2026-08-10",
       "startDate": "2026-08-10",
       "plannedEndDate": "2026-11-10",
-      "actualEndDate": null,
+      "actualEndDate": "2026-10-12",
       "rate": 15.9,
       "invested": 10.0,
-      "currentValue": 10.0,
-      "outstandingPrincipal": 10.0,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.0,
+      "interestReceived": 0.27,
       "fees": 0.0,
-      "profit": 0.0,
-      "xirr": null,
-      "status": "delayed",
-      "delayDays": 32,
-      "earlyLateDays": 0,
+      "profit": 0.27,
+      "xirr": 17.1881,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -29,
       "schedule": [
         {
           "plannedDate": "2026-09-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-10-07",
+          "timingDays": 27,
+          "principal": 3.33,
+          "interest": 0.14,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-10-10",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-10-12",
+          "timingDays": 2,
           "principal": 0.0,
           "interest": 0.0,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-11-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-10-12",
+          "timingDays": -29,
+          "principal": 6.67,
+          "interest": 0.13,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         }
       ],
       "cashFlows": [
         {
           "date": "2026-08-10",
           "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 3.47,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 6.8,
           "delayDays": 0
         }
       ]
@@ -320,34 +373,34 @@
       "actualEndDate": null,
       "rate": 15.9,
       "invested": 10.0,
-      "currentValue": 10.0,
-      "outstandingPrincipal": 10.0,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 3.34,
+      "outstandingPrincipal": 3.34,
+      "principalReturned": 6.66,
+      "interestReceived": 0.27,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.27,
       "xirr": null,
-      "status": "delayed",
-      "delayDays": 32,
+      "status": "active",
+      "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
           "plannedDate": "2026-09-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-10-10",
+          "timingDays": 30,
+          "principal": 3.33,
+          "interest": 0.14,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-10-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-10-12",
+          "timingDays": 2,
+          "principal": 3.33,
+          "interest": 0.13,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-11-10",
@@ -363,6 +416,16 @@
         {
           "date": "2026-08-10",
           "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-10",
+          "amount": 3.47,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 3.46,
           "delayDays": 0
         }
       ]
@@ -534,52 +597,67 @@
       "investmentDate": "2026-08-10",
       "startDate": "2026-08-10",
       "plannedEndDate": "2026-11-10",
-      "actualEndDate": null,
+      "actualEndDate": "2026-10-12",
       "rate": 15.9,
       "invested": 15.0,
-      "currentValue": 15.0,
-      "outstandingPrincipal": 15.0,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 15.0,
+      "interestReceived": 0.4,
       "fees": 0.0,
-      "profit": 0.0,
-      "xirr": null,
-      "status": "delayed",
-      "delayDays": 32,
-      "earlyLateDays": 0,
+      "profit": 0.4,
+      "xirr": 16.9615,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -29,
       "schedule": [
         {
           "plannedDate": "2026-09-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-10-07",
+          "timingDays": 27,
+          "principal": 5.0,
+          "interest": 0.2,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-10-10",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-10-12",
+          "timingDays": 2,
           "principal": 0.0,
           "interest": 0.0,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-11-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-10-12",
+          "timingDays": -29,
+          "principal": 10.0,
+          "interest": 0.2,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         }
       ],
       "cashFlows": [
         {
           "date": "2026-08-10",
           "amount": -15.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 5.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 10.2,
           "delayDays": 0
         }
       ]
@@ -598,19 +676,19 @@
       "investmentDate": "2026-08-10",
       "startDate": "2026-08-10",
       "plannedEndDate": "2026-11-10",
-      "actualEndDate": null,
+      "actualEndDate": "2026-10-09",
       "rate": 15.9,
       "invested": 10.0,
-      "currentValue": 6.67,
-      "outstandingPrincipal": 6.67,
-      "principalReturned": 3.33,
-      "interestReceived": 0.14,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.0,
+      "interestReceived": 0.23,
       "fees": 0.0,
-      "profit": 0.14,
-      "xirr": null,
-      "status": "delayed",
-      "delayDays": 2,
-      "earlyLateDays": 0,
+      "profit": 0.23,
+      "xirr": 17.8775,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -32,
       "schedule": [
         {
           "plannedDate": "2026-09-10",
@@ -618,6 +696,85 @@
           "timingDays": 1,
           "principal": 3.33,
           "interest": 0.14,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-10-10",
+          "actualDate": "2026-10-09",
+          "timingDays": -1,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-11-10",
+          "actualDate": "2026-10-09",
+          "timingDays": -32,
+          "principal": 6.67,
+          "interest": 0.09,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-08-10",
+          "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-11",
+          "amount": 3.47,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 6.76,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "eebd7526...eaf278164c4f",
+      "slug": "eebd7526...eaf278164c4f",
+      "loanCode": "eebd7526...eaf278164c4f",
+      "externalId": null,
+      "sourceSheet": "eebd7526...eaf278164c4f",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 3 mėn. 0 d.",
+      "investmentDate": "2026-08-10",
+      "startDate": "2026-08-10",
+      "plannedEndDate": "2026-11-10",
+      "actualEndDate": null,
+      "rate": 15.9,
+      "invested": 15.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 5.0,
+      "interestReceived": 0.2,
+      "fees": 0.0,
+      "profit": 0.2,
+      "xirr": null,
+      "status": "delayed",
+      "delayDays": 23,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-10",
+          "actualDate": "2026-10-07",
+          "timingDays": 27,
+          "principal": 5.0,
+          "interest": 0.2,
           "fee": 0.0,
           "paid": true
         },
@@ -643,76 +800,12 @@
       "cashFlows": [
         {
           "date": "2026-08-10",
-          "amount": -10.0,
-          "delayDays": 0
-        },
-        {
-          "date": "2026-09-11",
-          "amount": 3.47,
-          "delayDays": 0
-        }
-      ]
-    },
-    {
-      "id": "eebd7526...eaf278164c4f",
-      "slug": "eebd7526...eaf278164c4f",
-      "loanCode": "eebd7526...eaf278164c4f",
-      "externalId": null,
-      "sourceSheet": "eebd7526...eaf278164c4f",
-      "country": "Malaysia",
-      "lender": "Tambadana",
-      "loanType": "Installment Loan",
-      "trustScore": null,
-      "term": "0 m. 3 mėn. 0 d.",
-      "investmentDate": "2026-08-10",
-      "startDate": "2026-08-10",
-      "plannedEndDate": "2026-11-10",
-      "actualEndDate": null,
-      "rate": 15.9,
-      "invested": 15.0,
-      "currentValue": 15.0,
-      "outstandingPrincipal": 15.0,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
-      "fees": 0.0,
-      "profit": 0.0,
-      "xirr": null,
-      "status": "delayed",
-      "delayDays": 32,
-      "earlyLateDays": 0,
-      "schedule": [
-        {
-          "plannedDate": "2026-09-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
-        },
-        {
-          "plannedDate": "2026-10-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
-        },
-        {
-          "plannedDate": "2026-11-10",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
-        }
-      ],
-      "cashFlows": [
-        {
-          "date": "2026-08-10",
           "amount": -15.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 5.2,
           "delayDays": 0
         }
       ]
@@ -785,21 +878,59 @@
       "actualEndDate": null,
       "rate": 15.9,
       "invested": 20.2,
-      "currentValue": 20.2,
-      "outstandingPrincipal": 20.2,
-      "principalReturned": 0.0,
-      "interestReceived": 0.0,
+      "currentValue": 6.74,
+      "outstandingPrincipal": 6.74,
+      "principalReturned": 13.46,
+      "interestReceived": 0.31,
       "fees": 0.0,
-      "profit": 0.0,
+      "profit": 0.31,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
       "earlyLateDays": 0,
-      "schedule": [],
+      "schedule": [
+        {
+          "plannedDate": "2026-09-13",
+          "actualDate": "2026-10-13",
+          "timingDays": 30,
+          "principal": 6.73,
+          "interest": 0.05,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-10-13",
+          "actualDate": "2026-10-14",
+          "timingDays": 1,
+          "principal": 6.73,
+          "interest": 0.26,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-11-13",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
       "cashFlows": [
         {
           "date": "2026-09-07",
           "amount": -20.2,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 6.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 6.99,
           "delayDays": 0
         }
       ]
@@ -821,12 +952,12 @@
       "actualEndDate": null,
       "rate": 15.9,
       "invested": 20.2,
-      "currentValue": 13.47,
-      "outstandingPrincipal": 13.47,
-      "principalReturned": 6.73,
-      "interestReceived": 0.05,
+      "currentValue": 6.74,
+      "outstandingPrincipal": 6.74,
+      "principalReturned": 13.46,
+      "interestReceived": 0.23,
       "fees": 0.0,
-      "profit": 0.05,
+      "profit": 0.23,
       "xirr": null,
       "status": "active",
       "delayDays": 0,
@@ -843,12 +974,12 @@
         },
         {
           "plannedDate": "2026-10-13",
-          "actualDate": null,
-          "timingDays": 0,
-          "principal": 0.0,
-          "interest": 0.0,
+          "actualDate": "2026-10-14",
+          "timingDays": 1,
+          "principal": 6.73,
+          "interest": 0.18,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-11-13",
@@ -869,6 +1000,11 @@
         {
           "date": "2026-09-14",
           "amount": 6.78,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 6.91,
           "delayDays": 0
         }
       ]
@@ -897,8 +1033,8 @@
       "fees": 0.0,
       "profit": 0.0,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 19,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -936,14 +1072,509 @@
           "delayDays": 0
         }
       ]
+    },
+    {
+      "id": "0aa39d3f...47a155c9a7a5",
+      "slug": "0aa39d3f...47a155c9a7a5",
+      "loanCode": "0aa39d3f...47a155c9a7a5",
+      "externalId": null,
+      "sourceSheet": "0aa39d3f...47a155c9a7a5",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-09",
+      "startDate": "2026-10-09",
+      "plannedEndDate": "2026-12-09",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 12.85,
+      "currentValue": 12.85,
+      "outstandingPrincipal": 12.85,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-09",
+          "amount": -12.85,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "337063fd...206944371f87",
+      "slug": "337063fd...206944371f87",
+      "loanCode": "337063fd...206944371f87",
+      "externalId": null,
+      "sourceSheet": "337063fd...206944371f87",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-09",
+      "startDate": "2026-10-09",
+      "plannedEndDate": "2026-12-09",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 30.0,
+      "currentValue": 30.0,
+      "outstandingPrincipal": 30.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-09",
+          "amount": -30.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "492651cf...840959baed8d",
+      "slug": "492651cf...840959baed8d",
+      "loanCode": "492651cf...840959baed8d",
+      "externalId": null,
+      "sourceSheet": "492651cf...840959baed8d",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-09",
+      "startDate": "2026-10-09",
+      "plannedEndDate": "2026-12-09",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-09",
+          "amount": -20.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "63db5dff...e5d980f2c10a",
+      "slug": "63db5dff...e5d980f2c10a",
+      "loanCode": "63db5dff...e5d980f2c10a",
+      "externalId": null,
+      "sourceSheet": "63db5dff...e5d980f2c10a",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-09",
+      "startDate": "2026-10-09",
+      "plannedEndDate": "2026-12-09",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-09",
+          "amount": -20.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "6f19b36d...66235b8e82bc",
+      "slug": "6f19b36d...66235b8e82bc",
+      "loanCode": "6f19b36d...66235b8e82bc",
+      "externalId": null,
+      "sourceSheet": "6f19b36d...66235b8e82bc",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-09",
+      "startDate": "2026-10-09",
+      "plannedEndDate": "2026-12-09",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 30.0,
+      "currentValue": 30.0,
+      "outstandingPrincipal": 30.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-09",
+          "amount": -30.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "9b53b2fb...f27c000ae817",
+      "slug": "9b53b2fb...f27c000ae817",
+      "loanCode": "9b53b2fb...f27c000ae817",
+      "externalId": null,
+      "sourceSheet": "9b53b2fb...f27c000ae817",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-09",
+      "startDate": "2026-10-09",
+      "plannedEndDate": "2026-12-09",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-09",
+          "amount": -20.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "cd363ca4...ed862f017447",
+      "slug": "cd363ca4...ed862f017447",
+      "loanCode": "cd363ca4...ed862f017447",
+      "externalId": null,
+      "sourceSheet": "cd363ca4...ed862f017447",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-09",
+      "startDate": "2026-10-09",
+      "plannedEndDate": "2026-12-09",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 20.0,
+      "currentValue": 20.0,
+      "outstandingPrincipal": 20.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-09",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-09",
+          "amount": -20.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "c66cac2f...ec13c56be5f3",
+      "slug": "c66cac2f...ec13c56be5f3",
+      "loanCode": "c66cac2f...ec13c56be5f3",
+      "externalId": null,
+      "sourceSheet": "c66cac2f...ec13c56be5f3",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-12",
+      "startDate": "2026-10-12",
+      "plannedEndDate": "2026-12-12",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 23.93,
+      "currentValue": 23.93,
+      "outstandingPrincipal": 23.93,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-12",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-12",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-12",
+          "amount": -23.93,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "97936bcc...190b6277a335",
+      "slug": "97936bcc...190b6277a335",
+      "loanCode": "97936bcc...190b6277a335",
+      "externalId": null,
+      "sourceSheet": "97936bcc...190b6277a335",
+      "country": "Malaysia",
+      "lender": "Tambadana",
+      "loanType": "Installment Loan",
+      "trustScore": null,
+      "term": "0 m. 2 mėn. 0 d.",
+      "investmentDate": "2026-10-14",
+      "startDate": "2026-10-14",
+      "plannedEndDate": "2026-12-14",
+      "actualEndDate": null,
+      "rate": 14.5,
+      "invested": 20.68,
+      "currentValue": 20.68,
+      "outstandingPrincipal": 20.68,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-14",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-14",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-14",
+          "amount": -20.68,
+          "delayDays": 0
+        }
+      ]
     }
   ],
   "source": {
     "file": "Loanch Rima.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 13,
+    "loanSheets": 22,
     "skippedSheets": [],
-    "generatedAt": "2026-10-12T17:46:43+03:00"
+    "generatedAt": "2026-11-02T23:04:30+02:00"
   }
 }

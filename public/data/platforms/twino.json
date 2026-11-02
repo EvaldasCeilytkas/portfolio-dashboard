@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:45:44+03:00",
+  "generatedAt": "2026-11-02T23:03:27+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "twino",
@@ -13,33 +13,33 @@
     "active": true,
     "status": "active",
     "startDate": "2026-08-15",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-30",
     "website": "https://www.twino.eu"
   },
   "summary": {
-    "invested": 30.0,
-    "currentValue": 30.16,
-    "profit": 0.16,
-    "returnRate": 0.5333,
-    "xirr": 4.273,
-    "cash": 0.16,
-    "incomeReceived": 0.16,
-    "activeInvestments": 0,
-    "delayedInvestments": 3,
+    "invested": 69.57,
+    "currentValue": 70.07,
+    "profit": 0.5,
+    "returnRate": 0.7187,
+    "xirr": 5.9652,
+    "cash": 0.07,
+    "incomeReceived": 0.5,
+    "activeInvestments": 7,
+    "delayedInvestments": 0,
     "completedInvestments": 0,
-    "averageRate": 11.3333,
+    "averageRate": 11.7143,
     "averageLtv": null,
-    "deposited": 30.0,
+    "deposited": 69.57,
     "withdrawn": 0.0,
-    "lifetimeInvested": 30.0,
-    "outstandingPrincipal": 30.0,
+    "lifetimeInvested": 70.0,
+    "outstandingPrincipal": 70.0,
     "principalReturned": 0.0,
-    "interestReceived": 0.16,
-    "grossInterestReceived": 0.18,
+    "interestReceived": 0.5,
+    "grossInterestReceived": 0.54,
     "bonuses": 0.0,
-    "fees": 0.02,
-    "totalInvestments": 3,
-    "roi": 0.5333
+    "fees": 0.04,
+    "totalInvestments": 7,
+    "roi": 0.7187
   },
   "history": [
     {
@@ -70,10 +70,23 @@
     },
     {
       "date": "2026-10-31",
-      "invested": 30.0,
-      "value": 30.16,
-      "profit": 0.16,
-      "cash": 0.16,
+      "invested": 69.57,
+      "value": 69.57,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 0.34,
+      "deposits": 39.57,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-11-30",
+      "invested": 69.57,
+      "value": 70.07,
+      "profit": 0.5,
+      "cash": 0.07,
       "income": 0.0,
       "deposits": 0.0,
       "withdrawals": 0.0,
@@ -83,11 +96,11 @@
     }
   ],
   "latestMonth": {
-    "date": "2026-10-31",
-    "invested": 30.0,
-    "value": 30.16,
-    "profit": 0.16,
-    "cash": 0.16,
+    "date": "2026-11-30",
+    "invested": 69.57,
+    "value": 70.07,
+    "profit": 0.5,
+    "cash": 0.07,
     "income": 0.0,
     "deposits": 0.0,
     "withdrawals": 0.0,
@@ -115,12 +128,12 @@
     "currentValue": 10.0,
     "outstandingPrincipal": 10.0,
     "principalReturned": 0.0,
-    "interestReceived": 0.07,
+    "interestReceived": 0.17,
     "fees": 0.01,
-    "profit": 0.06,
+    "profit": 0.16,
     "xirr": null,
-    "status": "delayed",
-    "delayDays": 4,
+    "status": "active",
+    "delayDays": 0,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -134,12 +147,12 @@
       },
       {
         "plannedDate": "2026-10-08",
-        "actualDate": null,
-        "timingDays": 0,
+        "actualDate": "2026-10-07",
+        "timingDays": -1,
         "principal": 0.0,
-        "interest": 0.0,
+        "interest": 0.1,
         "fee": 0.0,
-        "paid": false
+        "paid": true
       },
       {
         "plannedDate": "2026-11-08",
@@ -170,6 +183,11 @@
         "date": "2026-09-07",
         "amount": 0.06,
         "delayDays": 0
+      },
+      {
+        "date": "2026-10-07",
+        "amount": 0.1,
+        "delayDays": 0
       }
     ]
   },
@@ -177,36 +195,36 @@
     "country": [
       {
         "label": "Poland",
-        "count": 3,
-        "value": 30.0
+        "count": 7,
+        "value": 70.0
       }
     ],
     "lender": [
       {
         "label": "Fincard Sp. z.o.o.",
-        "count": 3,
-        "value": 30.0
+        "count": 7,
+        "value": 70.0
       }
     ],
     "loanType": [
       {
         "label": "Loan (Asset Backed Securities)",
-        "count": 3,
-        "value": 30.0
+        "count": 7,
+        "value": 70.0
       }
     ],
     "trustScore": [
       {
         "label": "Nenurodyta",
-        "count": 3,
-        "value": 30.0
+        "count": 7,
+        "value": 70.0
       }
     ],
     "status": [
       {
-        "label": "delayed",
-        "count": 3,
-        "value": 30.0
+        "label": "active",
+        "count": 7,
+        "value": 70.0
       }
     ]
   },
@@ -224,7 +242,25 @@
       "bonus": 0.0
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-12",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-10-14",
+      "deposited": 9.57,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-10-15",
+      "deposited": 10.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-11-02",
       "deposited": 0.0,
       "withdrawn": 0.0,
       "bonus": 0.0
@@ -251,12 +287,12 @@
       "currentValue": 10.0,
       "outstandingPrincipal": 10.0,
       "principalReturned": 0.0,
-      "interestReceived": 0.07,
+      "interestReceived": 0.17,
       "fees": 0.01,
-      "profit": 0.06,
+      "profit": 0.16,
       "xirr": null,
-      "status": "delayed",
-      "delayDays": 4,
+      "status": "active",
+      "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -270,12 +306,12 @@
         },
         {
           "plannedDate": "2026-10-08",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-10-07",
+          "timingDays": -1,
           "principal": 0.0,
-          "interest": 0.0,
+          "interest": 0.1,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-11-08",
@@ -306,6 +342,11 @@
           "date": "2026-09-07",
           "amount": 0.06,
           "delayDays": 0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 0.1,
+          "delayDays": 0
         }
       ]
     },
@@ -329,12 +370,12 @@
       "currentValue": 10.0,
       "outstandingPrincipal": 10.0,
       "principalReturned": 0.0,
-      "interestReceived": 0.04,
-      "fees": 0.01,
-      "profit": 0.03,
+      "interestReceived": 0.2,
+      "fees": 0.02,
+      "profit": 0.18,
       "xirr": null,
-      "status": "delayed",
-      "delayDays": 10,
+      "status": "active",
+      "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -348,21 +389,21 @@
         },
         {
           "plannedDate": "2026-10-02",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-10-01",
+          "timingDays": -1,
           "principal": 0.0,
-          "interest": 0.0,
+          "interest": 0.08,
           "fee": 0.0,
-          "paid": false
+          "paid": true
         },
         {
           "plannedDate": "2026-11-02",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-10-29",
+          "timingDays": -4,
           "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
+          "interest": 0.08,
+          "fee": 0.01,
+          "paid": true
         },
         {
           "plannedDate": "2026-12-02",
@@ -402,6 +443,16 @@
           "date": "2026-09-01",
           "amount": 0.03,
           "delayDays": 0
+        },
+        {
+          "date": "2026-10-01",
+          "amount": 0.08,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 0.07,
+          "delayDays": 0
         }
       ]
     },
@@ -425,12 +476,12 @@
       "currentValue": 10.0,
       "outstandingPrincipal": 10.0,
       "principalReturned": 0.0,
-      "interestReceived": 0.07,
-      "fees": 0.0,
-      "profit": 0.07,
+      "interestReceived": 0.17,
+      "fees": 0.01,
+      "profit": 0.16,
       "xirr": null,
-      "status": "delayed",
-      "delayDays": 3,
+      "status": "active",
+      "delayDays": 0,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -444,12 +495,12 @@
         },
         {
           "plannedDate": "2026-10-09",
-          "actualDate": null,
-          "timingDays": 0,
+          "actualDate": "2026-10-08",
+          "timingDays": -1,
           "principal": 0.0,
-          "interest": 0.0,
-          "fee": 0.0,
-          "paid": false
+          "interest": 0.1,
+          "fee": 0.01,
+          "paid": true
         },
         {
           "plannedDate": "2026-11-09",
@@ -552,6 +603,591 @@
           "date": "2026-09-07",
           "amount": 0.07,
           "delayDays": 0
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 0.09,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000VYE63",
+      "slug": "lvx0000vye63",
+      "loanCode": "LVX0000VYE63",
+      "externalId": null,
+      "sourceSheet": "LVX0000VYE63",
+      "country": "Poland",
+      "lender": "Fincard Sp. z.o.o.",
+      "loanType": "Loan (Asset Backed Securities)",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 21 d.",
+      "investmentDate": "2026-10-13",
+      "startDate": "2026-10-05",
+      "plannedEndDate": "2027-10-04",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-03-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-04-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-05-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-06-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-07-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-08-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-09-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-10-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-13",
+          "amount": -10.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000VYE71",
+      "slug": "lvx0000vye71",
+      "loanCode": "LVX0000VYE71",
+      "externalId": null,
+      "sourceSheet": "LVX0000VYE71",
+      "country": "Poland",
+      "lender": "Fincard Sp. z.o.o.",
+      "loanType": "Loan (Asset Backed Securities)",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 21 d.",
+      "investmentDate": "2026-10-13",
+      "startDate": "2026-10-05",
+      "plannedEndDate": "2027-10-04",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-03-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-04-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-05-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-06-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-07-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-08-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-09-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-10-04",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-13",
+          "amount": -10.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000W0ZW0",
+      "slug": "lvx0000w0zw0",
+      "loanCode": "LVX0000W0ZW0",
+      "externalId": null,
+      "sourceSheet": "LVX0000W0ZW0",
+      "country": "Poland",
+      "lender": "Fincard Sp. z.o.o.",
+      "loanType": "Loan (Asset Backed Securities)",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 27 d.",
+      "investmentDate": "2026-10-14",
+      "startDate": "2026-10-13",
+      "plannedEndDate": "2027-10-11",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-03-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-04-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-05-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-06-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-07-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-08-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-09-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-10-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-14",
+          "amount": -10.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "LVX0000W0ZV2",
+      "slug": "lvx0000w0zv2",
+      "loanCode": "LVX0000W0ZV2",
+      "externalId": null,
+      "sourceSheet": "LVX0000W0ZV2",
+      "country": "Poland",
+      "lender": "Fincard Sp. z.o.o.",
+      "loanType": "Loan (Asset Backed Securities)",
+      "trustScore": null,
+      "term": "0 m. 11 mėn. 26 d.",
+      "investmentDate": "2026-10-15",
+      "startDate": "2026-10-13",
+      "plannedEndDate": "2027-10-11",
+      "actualEndDate": null,
+      "rate": 12.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-11-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-01-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-02-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-03-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-04-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-05-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-06-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-07-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-08-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-09-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2027-10-11",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-15",
+          "amount": -10.0,
+          "delayDays": 0
         }
       ]
     }
@@ -560,8 +1196,8 @@
     "file": "TWINO.xlsx",
     "overviewSheet": "Overview",
     "moneySheet": "Pinigai",
-    "loanSheets": 3,
+    "loanSheets": 7,
     "skippedSheets": [],
-    "generatedAt": "2026-10-12T17:45:44+03:00"
+    "generatedAt": "2026-11-02T23:03:27+02:00"
   }
 }

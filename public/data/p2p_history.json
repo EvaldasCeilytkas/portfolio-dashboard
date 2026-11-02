@@ -3,24 +3,24 @@
   "type": "monthlyPortfolioHistory",
   "section": "P2P",
   "currency": "EUR",
-  "generatedAt": "2026-10-12T14:46:10+00:00",
+  "generatedAt": "2026-11-02T21:03:52+00:00",
   "source": {
     "file": "Investavimas.xlsx",
     "sheet": "Investavimas"
   },
   "period": {
     "from": "2025-02-28",
-    "to": "2026-09-30",
-    "months": 20
+    "to": "2026-10-31",
+    "months": 21
   },
   "latest": {
-    "date": "2026-09-30",
-    "invested": 6873.21,
-    "monthlyContribution": 190.0,
-    "value": 7726.96,
-    "profit": 853.75,
-    "returnRate": 12.42,
-    "monthlyResult": 60.29
+    "date": "2026-10-31",
+    "invested": 7088.56,
+    "monthlyContribution": 215.35,
+    "value": 8003.57,
+    "profit": 915.01,
+    "returnRate": 12.91,
+    "monthlyResult": 60.09
   },
   "history": [
     {
@@ -180,28 +180,37 @@
       "date": "2026-07-31",
       "invested": 6564.21,
       "monthlyContribution": 229.14,
-      "value": 7312.95,
-      "profit": 748.74,
+      "value": 7313.0,
+      "profit": 748.79,
       "returnRate": 11.41,
-      "monthlyResult": 64.38
+      "monthlyResult": 64.43
     },
     {
       "date": "2026-08-31",
       "invested": 6683.21,
       "monthlyContribution": 119.0,
-      "value": 7476.67,
-      "profit": 793.46,
-      "returnRate": 11.87,
-      "monthlyResult": 44.72
+      "value": 7477.19,
+      "profit": 793.98,
+      "returnRate": 11.88,
+      "monthlyResult": 45.19
     },
     {
       "date": "2026-09-30",
       "invested": 6873.21,
       "monthlyContribution": 190.0,
-      "value": 7726.96,
-      "profit": 853.75,
-      "returnRate": 12.42,
-      "monthlyResult": 60.29
+      "value": 7728.13,
+      "profit": 854.92,
+      "returnRate": 12.44,
+      "monthlyResult": 60.94
+    },
+    {
+      "date": "2026-10-31",
+      "invested": 7088.56,
+      "monthlyContribution": 215.35,
+      "value": 8003.57,
+      "profit": 915.01,
+      "returnRate": 12.91,
+      "monthlyResult": 60.09
     }
   ]
 }

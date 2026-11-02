@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:46:34+03:00",
+  "generatedAt": "2026-11-02T23:04:21+02:00",
   "platform": {
     "id": "profitus",
     "slug": "profitus",
@@ -11,17 +11,17 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-08-30",
-    "updatedAt": "2026-10-12",
+    "updatedAt": "2026-11-02",
     "website": "https://profitus.lt"
   },
   "summary": {
     "invested": 623.95,
-    "currentValue": 674.58,
-    "profit": 50.63,
-    "returnRate": 8.1144,
-    "xirr": 11.7997,
-    "cash": 7.78,
-    "incomeReceived": 25.63,
+    "currentValue": 675.25,
+    "profit": 51.3,
+    "returnRate": 8.2218,
+    "xirr": 11.008,
+    "cash": 39.09,
+    "incomeReceived": 26.3,
     "activeInvestments": 5,
     "delayedInvestments": 1,
     "completedInvestments": 2,
@@ -30,11 +30,11 @@
   },
   "history": [
     {
-      "date": "2026-10-01",
+      "date": "2026-11-01",
       "invested": 623.95,
-      "value": 674.58,
-      "profit": 50.63,
-      "cash": 7.78,
+      "value": 675.25,
+      "profit": 51.3,
+      "cash": 39.09,
       "income": 0.0
     }
   ],
@@ -55,7 +55,7 @@
       "interestRate": 9.5,
       "incomeReceived": 12.86,
       "outstanding": 0.0,
-      "delayDays": 104,
+      "delayDays": 125,
       "ltv": 57.0,
       "quantity": null,
       "averagePrice": null,
@@ -168,7 +168,7 @@
       "interestRate": 9.0,
       "incomeReceived": 17.12,
       "outstanding": 0.0,
-      "delayDays": 43,
+      "delayDays": 64,
       "ltv": 59.0,
       "quantity": null,
       "averagePrice": null,
@@ -287,7 +287,7 @@
       "interestRate": 9.0,
       "incomeReceived": 5.8,
       "outstanding": 125.0,
-      "delayDays": 134,
+      "delayDays": 155,
       "ltv": 42.0,
       "quantity": null,
       "averagePrice": null,
@@ -743,14 +743,14 @@
       "status": "active",
       "currency": "EUR",
       "invested": 100.0,
-      "currentValue": 100.0,
-      "profit": 0.0,
+      "currentValue": 38.72,
+      "profit": 1.34,
       "investmentDate": "2026-08-14",
       "completionDate": null,
       "country": null,
       "interestRate": 8.7,
-      "incomeReceived": 0.0,
-      "outstanding": 100.0,
+      "incomeReceived": 1.34,
+      "outstanding": 38.72,
       "delayDays": 0,
       "ltv": 80.0,
       "quantity": null,
@@ -760,8 +760,31 @@
       "isin": null,
       "rating": "A",
       "maturityDate": "2027-08-16",
-      "payments": [],
+      "payments": [
+        {
+          "date": "2026-10-26",
+          "type": "principal",
+          "amount": 30.64,
+          "note": null
+        },
+        {
+          "date": "2026-10-26",
+          "type": "interest",
+          "amount": 0.67,
+          "note": null
+        }
+      ],
       "paymentSchedule": [
+        {
+          "plannedDate": "2026-10-26",
+          "plannedPrincipal": 0.0,
+          "plannedInterest": 0.0,
+          "actualDate": "2026-10-26",
+          "actualPrincipal": 30.64,
+          "actualInterest": 0.67,
+          "actualExtra": 0.0,
+          "historicalDelayDays": 0
+        },
         {
           "plannedDate": "2026-12-07",
           "plannedPrincipal": 0.0,
@@ -807,8 +830,8 @@
           "plannedPrincipal": 100.0,
           "plannedInterest": 8.66,
           "actualDate": null,
-          "actualPrincipal": 0.0,
-          "actualInterest": 0.0,
+          "actualPrincipal": 30.64,
+          "actualInterest": 0.67,
           "actualExtra": 0.0,
           "historicalDelayDays": 0
         }
@@ -817,7 +840,7 @@
       "durationMonths": 12,
       "paymentFrequency": "Q",
       "maxLtv": 80.0,
-      "repaidPrincipal": 0.0,
+      "repaidPrincipal": 61.28,
       "plannedInterest": 17.32,
       "sourceSheets": [
         "Dvibutis prie Neries, Vilniaus "

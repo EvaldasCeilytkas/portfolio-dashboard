@@ -3,24 +3,24 @@
   "type": "monthlyPortfolioHistory",
   "section": "Visas portfelis",
   "currency": "EUR",
-  "generatedAt": "2026-10-12T14:46:21+00:00",
+  "generatedAt": "2026-11-02T21:04:06+00:00",
   "source": {
     "file": "Investavimas.xlsx",
     "sheet": "Investavimas"
   },
   "period": {
     "from": "2021-06-30",
-    "to": "2026-09-30",
-    "months": 64
+    "to": "2026-10-31",
+    "months": 65
   },
   "latest": {
-    "date": "2026-09-30",
-    "invested": 12392.55,
-    "monthlyContribution": 444.92,
-    "value": 13776.51,
-    "profit": 1383.96,
-    "returnRate": 11.17,
-    "monthlyResult": 180.75
+    "date": "2026-10-31",
+    "invested": 12866.44,
+    "monthlyContribution": 473.89,
+    "value": 14202.21,
+    "profit": 1335.77,
+    "returnRate": 10.38,
+    "monthlyResult": -49.36
   },
   "history": [
     {
@@ -576,28 +576,37 @@
       "date": "2026-07-31",
       "invested": 11578.78,
       "monthlyContribution": 578.65,
-      "value": 12586.97,
-      "profit": 1008.19,
+      "value": 12587.02,
+      "profit": 1008.24,
       "returnRate": 8.71,
-      "monthlyResult": -158.54
+      "monthlyResult": -158.49
     },
     {
       "date": "2026-08-31",
       "invested": 11947.63,
       "monthlyContribution": 368.85,
-      "value": 13150.84,
-      "profit": 1203.21,
-      "returnRate": 10.07,
-      "monthlyResult": 195.02
+      "value": 13151.36,
+      "profit": 1203.73,
+      "returnRate": 10.08,
+      "monthlyResult": 195.49
     },
     {
       "date": "2026-09-30",
       "invested": 12392.55,
       "monthlyContribution": 444.92,
-      "value": 13776.51,
-      "profit": 1383.96,
-      "returnRate": 11.17,
-      "monthlyResult": 180.75
+      "value": 13777.68,
+      "profit": 1385.13,
+      "returnRate": 11.18,
+      "monthlyResult": 181.4
+    },
+    {
+      "date": "2026-10-31",
+      "invested": 12866.44,
+      "monthlyContribution": 473.89,
+      "value": 14202.21,
+      "profit": 1335.77,
+      "returnRate": 10.38,
+      "monthlyResult": -49.36
     }
   ]
 }
