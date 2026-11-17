@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T23:04:29+02:00",
+  "generatedAt": "2026-11-16T21:02:21+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lendermarket",
@@ -24,8 +24,8 @@
     "xirr": 41.5219,
     "cash": 4.29,
     "incomeReceived": 14.34,
-    "activeInvestments": 10,
-    "delayedInvestments": 0,
+    "activeInvestments": 2,
+    "delayedInvestments": 8,
     "completedInvestments": 8,
     "averageRate": 11.3927,
     "averageLtv": null,
@@ -197,8 +197,8 @@
     "fees": 0.0,
     "profit": 0.38,
     "xirr": null,
-    "status": "active",
-    "delayDays": 0,
+    "status": "delayed",
+    "delayDays": 3,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -634,8 +634,13 @@
     "status": [
       {
         "label": "active",
-        "count": 10,
-        "value": 90.05
+        "count": 2,
+        "value": 13.02
+      },
+      {
+        "label": "delayed",
+        "count": 8,
+        "value": 77.03
       }
     ]
   },
@@ -714,8 +719,8 @@
       "fees": 0.0,
       "profit": 0.47,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 4,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1475,8 +1480,8 @@
       "fees": 0.0,
       "profit": 0.41,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 7,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1794,8 +1799,8 @@
       "fees": 0.0,
       "profit": 0.36,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 11,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2110,8 +2115,8 @@
       "fees": 0.0,
       "profit": 0.22,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 4,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2261,8 +2266,8 @@
       "fees": 0.0,
       "profit": 0.38,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 3,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2655,8 +2660,8 @@
       "fees": 0.0,
       "profit": 0.16,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 3,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2792,8 +2797,8 @@
       "fees": 0.0,
       "profit": 0.09,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 4,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2942,8 +2947,8 @@
       "fees": 0.0,
       "profit": 0.0,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 1,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -3169,6 +3174,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 18,
     "skippedSheets": [],
-    "generatedAt": "2026-11-02T23:04:29+02:00"
+    "generatedAt": "2026-11-16T21:02:21+02:00"
   }
 }

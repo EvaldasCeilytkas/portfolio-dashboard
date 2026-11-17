@@ -54,6 +54,10 @@ def owner_jobs(registry: list[dict[str, Any]]) -> list[tuple[str, Path, Path, Pa
                 f"Platformai „{name or '?'}“ trūksta slug arba importer lauko."
             )
 
+        # Rimos Income naudoja atskira importeri; Evaldo registras nekeiciamas.
+        if slug == "income":
+            importer_name = "import_income_rima.py"
+
         jobs.append(
             (
                 f"{OWNER_NAME} – {name}",

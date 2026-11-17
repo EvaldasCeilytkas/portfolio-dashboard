@@ -302,8 +302,12 @@
     "logo": "",
     "website": "https://getincome.com",
     "owners": [
-      "evaldas"
-    ]
+      "evaldas",
+      "rima"
+    ],
+    "ownerSources": {
+      "rima": "Income Rima.xlsx"
+    }
   },
   {
     "id": "lande",

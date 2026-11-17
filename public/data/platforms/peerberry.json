@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T23:02:24+02:00",
+  "generatedAt": "2026-11-16T21:00:28+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "peerberry",
@@ -24,8 +24,8 @@
     "xirr": 6.3625,
     "cash": 0.14,
     "incomeReceived": 1.09,
-    "activeInvestments": 6,
-    "delayedInvestments": 0,
+    "activeInvestments": 1,
+    "delayedInvestments": 5,
     "completedInvestments": 2,
     "averageRate": 8.4489,
     "averageLtv": null,
@@ -158,8 +158,8 @@
     "fees": 0.0,
     "profit": 0.08,
     "xirr": null,
-    "status": "active",
-    "delayDays": 0,
+    "status": "delayed",
+    "delayDays": 5,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -356,8 +356,13 @@
     "status": [
       {
         "label": "active",
-        "count": 6,
-        "value": 100.95
+        "count": 1,
+        "value": 20.16
+      },
+      {
+        "label": "delayed",
+        "count": 5,
+        "value": 80.79
       }
     ]
   },
@@ -582,8 +587,8 @@
       "fees": 0.0,
       "profit": 0.14,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 3,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -683,8 +688,8 @@
       "fees": 0.0,
       "profit": 0.14,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 5,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -939,8 +944,8 @@
       "fees": 0.0,
       "profit": 0.08,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 5,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1089,8 +1094,8 @@
       "fees": 0.0,
       "profit": 0.0,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 7,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1234,8 +1239,8 @@
       "fees": 0.0,
       "profit": 0.0,
       "xirr": null,
-      "status": "active",
-      "delayDays": 0,
+      "status": "delayed",
+      "delayDays": 7,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1362,6 +1367,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 8,
     "skippedSheets": [],
-    "generatedAt": "2026-11-02T23:02:24+02:00"
+    "generatedAt": "2026-11-16T21:00:28+02:00"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T23:04:27+02:00",
+  "generatedAt": "2026-11-16T21:02:19+02:00",
   "platform": {
     "id": "nordstreet",
     "slug": "nordstreet",
@@ -11,7 +11,7 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-09-19",
-    "updatedAt": "2026-11-02",
+    "updatedAt": "2026-11-16",
     "website": "https://nordstreet.com"
   },
   "summary": {
@@ -22,8 +22,8 @@
     "xirr": 21.5769,
     "cash": 30.85,
     "incomeReceived": 36.27,
-    "activeInvestments": 2,
-    "delayedInvestments": 1,
+    "activeInvestments": 1,
+    "delayedInvestments": 2,
     "completedInvestments": 1,
     "averageRate": 11.5902,
     "averageLtv": 58.1967
@@ -44,7 +44,7 @@
       "code": "LT-1123",
       "name": "Bistryčios g. 27, Vilnius, Lietuva (11 etapas)",
       "investmentType": "real_estate_project",
-      "status": "active",
+      "status": "delayed",
       "currency": "EUR",
       "invested": 100.0,
       "currentValue": 100.0,
@@ -55,7 +55,7 @@
       "interestRate": 11.0,
       "incomeReceived": 24.48,
       "outstanding": 100.0,
-      "delayDays": 0,
+      "delayDays": 6,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -1044,7 +1044,7 @@
       "interestRate": 12.0,
       "incomeReceived": 7.88,
       "outstanding": 116.0,
-      "delayDays": 122,
+      "delayDays": 136,
       "ltv": 50.0,
       "quantity": null,
       "averagePrice": null,

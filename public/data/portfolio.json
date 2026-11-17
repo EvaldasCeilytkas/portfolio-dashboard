@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T23:03:28+02:00",
+  "generatedAt": "2026-11-16T21:01:30+02:00",
   "currency": "EUR",
   "summary": {
     "invested": 12953.6,
@@ -11,8 +11,8 @@
     "cash": 177.68,
     "incomeReceived": 742.09,
     "platformCount": 22,
-    "activeInvestments": 232,
-    "delayedInvestments": 16,
+    "activeInvestments": 200,
+    "delayedInvestments": 48,
     "completedInvestments": 191
   },
   "allocation": [
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-11-02",
+      "updatedAt": "2026-11-16",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-11-02",
+      "updatedAt": "2026-11-16",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -173,8 +173,8 @@
         "xirr": 11.7046,
         "cash": 2.17,
         "incomeReceived": 134.57,
-        "activeInvestments": 11,
-        "delayedInvestments": 2,
+        "activeInvestments": 8,
+        "delayedInvestments": 5,
         "completedInvestments": 15,
         "averageRate": 9.6699,
         "averageLtv": 57.1959
@@ -201,8 +201,8 @@
         "xirr": 14.4805,
         "cash": 0.99,
         "incomeReceived": 136.82,
-        "activeInvestments": 6,
-        "delayedInvestments": 0,
+        "activeInvestments": 0,
+        "delayedInvestments": 6,
         "completedInvestments": 11,
         "averageRate": 0.0,
         "averageLtv": null
@@ -218,7 +218,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-11-02",
+      "updatedAt": "2026-11-16",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -229,8 +229,8 @@
         "xirr": 14.3236,
         "cash": 114.78,
         "incomeReceived": 138.31,
-        "activeInvestments": 6,
-        "delayedInvestments": 10,
+        "activeInvestments": 2,
+        "delayedInvestments": 14,
         "completedInvestments": 10,
         "averageRate": 12.2685,
         "averageLtv": 57.4773
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-11-02",
+      "updatedAt": "2026-11-16",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {
@@ -257,8 +257,8 @@
         "xirr": 7.0068,
         "cash": 16.56,
         "incomeReceived": 38.35,
-        "activeInvestments": 6,
-        "delayedInvestments": 1,
+        "activeInvestments": 4,
+        "delayedInvestments": 3,
         "completedInvestments": 2,
         "averageRate": 7.0556,
         "averageLtv": 64.2222
@@ -481,8 +481,8 @@
         "xirr": 40.8597,
         "cash": 7.82,
         "incomeReceived": 15.13,
-        "activeInvestments": 11,
-        "delayedInvestments": 0,
+        "activeInvestments": 5,
+        "delayedInvestments": 6,
         "completedInvestments": 7,
         "averageRate": 11.5819,
         "averageLtv": null
@@ -509,8 +509,8 @@
         "xirr": 6.3625,
         "cash": 0.14,
         "incomeReceived": 1.09,
-        "activeInvestments": 6,
-        "delayedInvestments": 0,
+        "activeInvestments": 1,
+        "delayedInvestments": 5,
         "completedInvestments": 2,
         "averageRate": 8.4489,
         "averageLtv": null
@@ -565,8 +565,8 @@
         "xirr": 5.9652,
         "cash": 0.07,
         "incomeReceived": 0.5,
-        "activeInvestments": 7,
-        "delayedInvestments": 0,
+        "activeInvestments": 1,
+        "delayedInvestments": 6,
         "completedInvestments": 0,
         "averageRate": 11.7143,
         "averageLtv": null

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T23:01:37+02:00",
+  "generatedAt": "2026-11-16T20:59:57+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lande",
@@ -904,6 +904,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 3,
     "skippedSheets": [],
-    "generatedAt": "2026-11-02T23:01:37+02:00"
+    "generatedAt": "2026-11-16T20:59:57+02:00"
   }
 }
