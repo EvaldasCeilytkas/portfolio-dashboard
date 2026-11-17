@@ -1,11 +1,11 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
-title Portfolio Dashboard - Sync Center v1.2
+title Portfolio Dashboard - Sync Center v1.1
 color 0A
 cd /d "%~dp0"
 
 echo ================================================================
-echo        VISU PORTFELIU ATNAUJINIMAS - SYNC CENTER v1.2
+echo        VISU PORTFELIU ATNAUJINIMAS - SYNC CENTER v1.1
 echo ================================================================
 echo.
 echo Projekto aplankas:
@@ -32,7 +32,6 @@ echo.
 for %%F in (
     "scripts\update_all.py"
     "scripts\import_rima_dashboard.py"
-    "scripts\import_income_rima.py"
     "scripts\import_rima_portfolio.py"
     "scripts\update_gerda.py"
     "scripts\generate_sync_status.py"
@@ -44,58 +43,50 @@ for %%F in (
     )
 )
 
-echo [1/7] Atnaujinamas Evaldo portfelis...
+echo [1/6] Atnaujinamas Evaldo portfelis...
 %PYTHON% "scripts\update_all.py"
 if errorlevel 1 (
-    echo KLAIDA [1/7]: Evaldo portfelio atnaujinti nepavyko.
+    echo KLAIDA [1/6]: Evaldo portfelio atnaujinti nepavyko.
     goto failed
 )
 
 echo.
-echo [2/7] Atnaujinamas Rimos Dashboard...
+echo [2/6] Atnaujinamas Rimos Dashboard...
 %PYTHON% "scripts\import_rima_dashboard.py"
 if errorlevel 1 (
-    echo KLAIDA [2/7]: Rimos Dashboard atnaujinti nepavyko.
+    echo KLAIDA [2/6]: Rimos Dashboard atnaujinti nepavyko.
     goto failed
 )
 
 echo.
-echo [3/7] Atnaujinamas Rimos Income...
-%PYTHON% "scripts\import_income_rima.py"
-if errorlevel 1 (
-    echo KLAIDA [3/7]: Rimos Income atnaujinti nepavyko.
-    goto failed
-)
-
-echo.
-echo [4/7] Atnaujinamas Rimos portfelis...
+echo [3/6] Atnaujinamas Rimos portfelis...
 %PYTHON% "scripts\import_rima_portfolio.py"
 if errorlevel 1 (
-    echo KLAIDA [4/7]: Rimos portfelio atnaujinti nepavyko.
+    echo KLAIDA [3/6]: Rimos portfelio atnaujinti nepavyko.
     goto failed
 )
 
 echo.
-echo [5/7] Atnaujinamas Gerdos portfelis...
+echo [4/6] Atnaujinamas Gerdos portfelis...
 %PYTHON% "scripts\update_gerda.py"
 if errorlevel 1 (
-    echo KLAIDA [5/7]: Gerdos portfelio atnaujinti nepavyko.
+    echo KLAIDA [4/6]: Gerdos portfelio atnaujinti nepavyko.
     goto failed
 )
 
 echo.
-echo [6/7] Generuojama Sync Center v1.2 ataskaita...
+echo [5/6] Generuojama Sync Center v1.1 ataskaita...
 %PYTHON% "scripts\generate_sync_status.py"
 if errorlevel 1 (
-    echo KLAIDA [6/7]: Sync Center ataskaitos sugeneruoti nepavyko.
+    echo KLAIDA [5/6]: Sync Center ataskaitos sugeneruoti nepavyko.
     goto failed
 )
 
 echo.
-echo [7/7] Kuriamas build ir publikuojama i GitHub...
+echo [6/6] Kuriamas build ir publikuojama i GitHub...
 %PYTHON% "scripts\publish_dashboard.py"
 if errorlevel 1 (
-    echo KLAIDA [7/7]: Publikavimas i GitHub nepavyko.
+    echo KLAIDA [6/6]: Publikavimas i GitHub nepavyko.
     goto failed
 )
 
@@ -106,7 +97,6 @@ echo ================================================================
 echo.
 echo Evaldas     - OK
 echo Rima        - OK
-echo Rima Income - OK
 echo Gerda       - OK
 echo Sync Center - OK
 echo GitHub      - OK
