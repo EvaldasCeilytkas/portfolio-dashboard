@@ -1368,3 +1368,18 @@
   .family-p2p-summary-row { grid-template-columns: minmax(130px, 1.4fr) repeat(3, minmax(58px, .6fr)); padding: 0 10px; font-size: 12px; }
   .p2p-owner-badge { margin-left: 4px; padding: 2px 5px; font-size: 8px; }
 }
+
+/* Donut arc rendering: prevent rounded caps and filter overlap on narrow slices. */
+.p2p-donut-segment {
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  vector-effect: none;
+}
+.p2p-donut-segment:hover,
+.p2p-donut-segment.is-hovered {
+  stroke-width: 44;
+  filter: none;
+}
+.p2p-donut-svg {
+  transform: none;
+}

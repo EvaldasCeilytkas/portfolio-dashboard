@@ -606,16 +606,35 @@ function PlatformPieChart({ platforms, totalValue }) {
   const [activePlatformSlug, setActivePlatformSlug] = useState(null);
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const sorted = [...platforms].sort((a, b) => b.value - a.value);
+  // SVG arcs avoid stroke-dash overlap and rendering artifacts on small slices.
+  const positivePlatforms = sorted.filter((platform) => platform.value > 0);
+  const chartTotal = positivePlatforms.reduce((sum, platform) => sum + platform.value, 0);
   let cursor = 0;
-  const segments = sorted.map((platform, index) => {
-    const share = totalValue > 0 ? (platform.value / totalValue) * 100 : 0;
+  const segments = positivePlatforms.map((platform, index) => {
+    const share = chartTotal > 0 ? (platform.value / chartTotal) * 100 : 0;
     const start = cursor;
     cursor += share;
+    const end = cursor;
+    const radius = 72;
+    const center = 100;
+    const pointAt = (percent) => {
+      const angle = (percent / 100) * Math.PI * 2 - Math.PI / 2;
+      return [center + radius * Math.cos(angle), center + radius * Math.sin(angle)];
+    };
+    const [startX, startY] = pointAt(start);
+    // SVG arc cannot draw a full circle; two half-arcs handle 100% safely.
+    const path = share >= 99.999999
+      ? `M ${center} ${center - radius} A ${radius} ${radius} 0 1 1 ${center} ${center + radius} A ${radius} ${radius} 0 1 1 ${center} ${center - radius}`
+      : (() => {
+          const [endX, endY] = pointAt(end);
+          return `M ${startX} ${startY} A ${radius} ${radius} 0 ${share > 50 ? 1 : 0} 1 ${endX} ${endY}`;
+        })();
     return {
       ...platform,
       share,
       start,
-      end: cursor,
+      end,
+      path,
       color: PIE_COLORS[index % PIE_COLORS.length],
     };
   });
@@ -660,18 +679,13 @@ function PlatformPieChart({ platforms, totalValue }) {
           >
             <circle className="p2p-donut-track" cx="100" cy="100" r="72" />
             {segments.map((platform) => (
-              <circle
+              <path
                 key={platform.key || platform.slug}
                 className={`p2p-donut-segment ${
                   activePlatformSlug === (platform.key || platform.slug) ? "is-hovered" : ""
                 } ${activePlatformSlug && activePlatformSlug !== (platform.key || platform.slug) ? "is-dimmed" : ""}`}
-                cx="100"
-                cy="100"
-                r="72"
-                pathLength="100"
+                d={platform.path}
                 stroke={platform.color}
-                strokeDasharray={`${platform.share} ${100 - platform.share}`}
-                strokeDashoffset={-platform.start}
                 onMouseEnter={(event) => handleSegmentMove(event, platform)}
                 onMouseMove={(event) => handleSegmentMove(event, platform)}
               />
