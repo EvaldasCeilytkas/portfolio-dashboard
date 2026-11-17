@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T21:02:22+02:00",
+  "generatedAt": "2026-11-17T15:57:15+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "loanch",
@@ -133,7 +133,7 @@
     "profit": 0.0,
     "xirr": null,
     "status": "delayed",
-    "delayDays": 7,
+    "delayDays": 8,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -376,7 +376,7 @@
       "profit": 0.27,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 6,
+      "delayDays": 7,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -761,7 +761,7 @@
       "profit": 0.2,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 37,
+      "delayDays": 38,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -881,7 +881,7 @@
       "profit": 0.31,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 3,
+      "delayDays": 4,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -955,7 +955,7 @@
       "profit": 0.23,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 3,
+      "delayDays": 4,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1029,7 +1029,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 33,
+      "delayDays": 34,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1093,7 +1093,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 7,
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1148,7 +1148,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 7,
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1203,7 +1203,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 7,
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1258,7 +1258,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 7,
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1313,7 +1313,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 7,
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1368,7 +1368,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 7,
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1423,7 +1423,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 7,
+      "delayDays": 8,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1478,7 +1478,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 4,
+      "delayDays": 5,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1533,7 +1533,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 2,
+      "delayDays": 3,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1570,6 +1570,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 22,
     "skippedSheets": [],
-    "generatedAt": "2026-11-16T21:02:22+02:00"
+    "generatedAt": "2026-11-17T15:57:15+02:00"
   }
 }

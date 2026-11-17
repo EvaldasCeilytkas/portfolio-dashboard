@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T21:01:18+02:00",
+  "generatedAt": "2026-11-17T15:56:03+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "scramble",
@@ -315,7 +315,7 @@
     "profit": 0.0,
     "xirr": null,
     "status": "delayed",
-    "delayDays": 11,
+    "delayDays": 12,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -1965,7 +1965,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 11,
+      "delayDays": 12,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2081,7 +2081,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 11,
+      "delayDays": 12,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2192,7 +2192,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 11,
+      "delayDays": 12,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2298,7 +2298,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 11,
+      "delayDays": 12,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2399,7 +2399,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 11,
+      "delayDays": 12,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2495,7 +2495,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 11,
+      "delayDays": 12,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2568,6 +2568,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 17,
     "skippedSheets": [],
-    "generatedAt": "2026-11-16T21:01:18+02:00"
+    "generatedAt": "2026-11-17T15:56:03+02:00"
   }
 }
