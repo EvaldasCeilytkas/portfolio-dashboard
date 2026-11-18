@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import json
 import math
@@ -11,12 +12,12 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCEL_PATH = ROOT / "excel" / "Lendermarket.xlsx"
+EXCEL_PATH = excel_path(ROOT / "excel" / "Lendermarket.xlsx")
 PORTFOLIO_PATH = ROOT / "public" / "data" / "portfolio.json"
 PREVIEW_PATH = ROOT / "public" / "data" / "lendermarket-platform.json"
 MAIN_EXCEL_CANDIDATES = [
-    ROOT / "excel" / "Investavimas.xlsx",
-    *sorted((ROOT / "excel").glob("Investavimas*.xlsx")),
+    excel_path(ROOT / "excel" / "Investavimas.xlsx"),
+    *sorted(excel_glob(ROOT / "excel", "Investavimas*.xlsx")),
 ]
 
 

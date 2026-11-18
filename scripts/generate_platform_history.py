@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import json
 import re
@@ -11,7 +12,7 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_EXCEL = ROOT / "excel" / "Investavimas.xlsx"
+DEFAULT_EXCEL = excel_path(ROOT / "excel" / "Investavimas.xlsx")
 DEFAULT_OUTPUT = ROOT / "public" / "data" / "platform_history.json"
 
 

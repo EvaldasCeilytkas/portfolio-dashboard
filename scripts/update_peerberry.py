@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import json
 import math
@@ -11,8 +12,8 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCEL_PATH = ROOT / "excel" / "PeerBerry.xlsx"
-MAIN_EXCEL_PATH = ROOT / "excel" / "Investavimas.xlsx"
+EXCEL_PATH = excel_path(ROOT / "excel" / "PeerBerry.xlsx")
+MAIN_EXCEL_PATH = excel_path(ROOT / "excel" / "Investavimas.xlsx")
 
 
 def find_main_excel() -> Path:
@@ -21,7 +22,7 @@ def find_main_excel() -> Path:
         return MAIN_EXCEL_PATH
 
     candidates = sorted(
-        (ROOT / "excel").glob("Investavimas*.xlsx"),
+        excel_glob(ROOT / "excel", "Investavimas*.xlsx"),
         key=lambda item: item.stat().st_mtime,
         reverse=True,
     )

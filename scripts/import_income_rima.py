@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import argparse
 import sys
@@ -9,7 +10,7 @@ from import_income import load_income, write_json
 
 def main() -> int:
     root = Path(__file__).resolve().parent.parent
-    default_input = root / 'excel' / 'Income Rima.xlsx'
+    default_input = excel_path(root / 'excel' / 'Income Rima.xlsx')
     safe_output = root / 'public' / 'data' / 'rima' / 'platforms' / 'income.json'
 
     parser = argparse.ArgumentParser(description='Tik Rimos Income Excel importas')
@@ -17,12 +18,12 @@ def main() -> int:
     parser.add_argument('--output', default=str(safe_output))
     args = parser.parse_args()
 
-    source = Path(args.input).expanduser().resolve()
+    source = excel_path(Path(args.input).expanduser()).resolve()
     output = Path(args.output).expanduser().resolve()
     if output != safe_output.resolve():
         parser.error(f'Saugumo sumetimais leidziama rasyti tik i: {safe_output}')
-    if source.name.casefold() != 'income rima.xlsx':
-        parser.error('Rimos importeriui leidziamas tik Income Rima.xlsx failas.')
+    if source.name.casefold() not in {'income rima.xlsx', 'income rima.xlsm'}:
+        parser.error('Rimos importeriui leidziamas tik Income Rima.xlsx arba Income Rima.xlsm failas.')
     if not source.is_file():
         parser.error(f'Nerastas Excel failas: {source}')
 

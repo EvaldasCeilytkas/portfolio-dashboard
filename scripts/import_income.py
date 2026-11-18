@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import argparse
 import json
@@ -89,17 +90,17 @@ def month_range(start: date, end: date) -> Iterable[date]:
 
 def find_input(project_root: Path, explicit: str | None) -> Path:
     if explicit:
-        path = Path(explicit).expanduser().resolve()
+        path = excel_path(Path(explicit).expanduser()).resolve()
         if not path.is_file():
             raise FileNotFoundError(f"Nerastas Excel failas: {path}")
         return path
 
     excel_dir = project_root / "excel"
-    for path in (excel_dir / "Income.xlsx", project_root / "Income.xlsx"):
+    for path in (excel_path(excel_dir / "Income.xlsx"), excel_path(project_root / "Income.xlsx")):
         if path.is_file():
             return path
 
-    candidates = sorted(excel_dir.glob("Income*.xlsx")) if excel_dir.exists() else []
+    candidates = sorted(excel_glob(excel_dir, "Income*.xlsx")) if excel_dir.exists() else []
     if candidates:
         return candidates[-1]
 

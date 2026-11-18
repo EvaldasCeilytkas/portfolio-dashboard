@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import json
 import subprocess
@@ -103,7 +104,7 @@ def run_job(title: str, importer: Path, source: Path, output: Path) -> int:
 
 def generate_platform_history() -> int:
     print("\n--- Rima – platformų istoriniai grafikai ---")
-    source = PROJECT_ROOT / "excel" / "Investavimas Rima.xlsx"
+    source = excel_path(PROJECT_ROOT / "excel" / "Investavimas Rima.xlsx")
     output = PROJECT_ROOT / "public" / "data" / OWNER_ID / "platform_history.json"
     script = PROJECT_ROOT / "scripts" / "generate_platform_history.py"
 

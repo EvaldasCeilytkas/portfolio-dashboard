@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import sys
 from pathlib import Path
@@ -10,7 +11,7 @@ def main() -> int:
     scripts_dir = Path(__file__).resolve().parent
     project_root = scripts_dir.parent
 
-    excel_file = project_root / "excel" / "Debitum Rima.xlsx"
+    excel_file = excel_path(project_root / "excel" / "Debitum Rima.xlsx")
     output_file = project_root / "public" / "data" / "rima" / "platforms" / "debitum.json"
 
     print("=" * 64)

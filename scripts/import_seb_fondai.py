@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import argparse
 import json
@@ -16,7 +17,7 @@ EPSILON = 0.000001
 UNIT_TOLERANCE = 0.01
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT = PROJECT_ROOT / "excel" / "SEB Fondai.xlsx"
+DEFAULT_INPUT = excel_path(PROJECT_ROOT / "excel" / "SEB Fondai.xlsx")
 DEFAULT_OUTPUT = (
     PROJECT_ROOT / "public" / "data" / "platforms" / "seb-fondai.json"
 )

@@ -1,10 +1,11 @@
+from common.excel_paths import excel_path, excel_glob
 from pathlib import Path
 import json
 import statistics
 from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCEL_FILE = ROOT / "excel" / "Crowdpear.xlsx"
+EXCEL_FILE = excel_path(ROOT / "excel" / "Crowdpear.xlsx")
 OUTPUT_FILE = ROOT / "public" / "data" / "crowdpear.json"
 
 def iso(value):

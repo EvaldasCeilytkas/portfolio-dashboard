@@ -1,4 +1,5 @@
 from __future__ import annotations
+from scripts.common.excel_paths import excel_path, excel_glob
 
 from datetime import datetime
 from pathlib import Path
@@ -31,7 +32,7 @@ class SynergyImporter(BrokerImporter):
     PLATFORM_CATEGORY = "Investiciniai fondai"
     WEBSITE = None
 
-    DEFAULT_INPUT = PROJECT_ROOT / "excel" / "Synergy.xlsx"
+    DEFAULT_INPUT = excel_path(PROJECT_ROOT / "excel" / "Synergy.xlsx")
     DEFAULT_OUTPUT = (
         PROJECT_ROOT
         / "public"

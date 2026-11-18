@@ -1,11 +1,12 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 import argparse, json, math
 from datetime import date, datetime, timezone
 from pathlib import Path
 from openpyxl import load_workbook
 
 ROOT=Path(__file__).resolve().parents[1]
-DEFAULT_INPUT=ROOT/"excel"/"Investavimas Gerda.xlsx"
+DEFAULT_INPUT=excel_path(ROOT/"excel"/"Investavimas Gerda.xlsx")
 DEFAULT_OUTPUT=ROOT/"public"/"data"/"gerda"
 SHEET="Investavimas"
 SECTIONS=(("P2P","p2p_history.json","N","O","P","Q","R","S","T"),("Visas portfelis","portfolio_history.json","V","W","X","Y","Z","AA","AB"))

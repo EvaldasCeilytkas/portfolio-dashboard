@@ -1,4 +1,5 @@
 from __future__ import annotations
+from .excel_paths import excel_path, excel_glob
 
 import argparse
 import json
@@ -41,10 +42,10 @@ def configure(config: PlatformConfig) -> None:
     PLATFORM_SLUG = config.slug
     DEFAULT_OUTPUT = PROJECT_ROOT / "public" / "data" / "platforms" / f"{config.slug}.json"
     EXCEL_CANDIDATES = (
-        PROJECT_ROOT / "excel" / f"{config.excel_name}.xlsx",
-        PROJECT_ROOT / "excel" / f"{config.excel_name.lower()}.xlsx",
-        PROJECT_ROOT / f"{config.excel_name}.xlsx",
-        PROJECT_ROOT / f"{config.excel_name.lower()}.xlsx",
+        excel_path(PROJECT_ROOT / "excel" / f"{config.excel_name}.xlsx"),
+        excel_path(PROJECT_ROOT / "excel" / f"{config.excel_name.lower()}.xlsx"),
+        excel_path(PROJECT_ROOT / f"{config.excel_name}.xlsx"),
+        excel_path(PROJECT_ROOT / f"{config.excel_name.lower()}.xlsx"),
     )
 
 
@@ -195,7 +196,7 @@ def iso_date(value: Any, epoch: datetime) -> str | None:
 
 def find_input(explicit: str | None) -> Path:
     if explicit:
-        path = Path(explicit).expanduser().resolve()
+        path = excel_path(Path(explicit).expanduser()).resolve()
         if not path.is_file():
             raise FileNotFoundError(f"{CONFIG.name} Excel failas nerastas: {path}")
         return path
@@ -210,8 +211,8 @@ def find_input(explicit: str | None) -> Path:
     matches: list[Path] = []
     for root in search_roots:
         if root.is_dir():
-            matches.extend(root.glob(f"{CONFIG.excel_name}*.xlsx"))
-            matches.extend(root.glob(f"{CONFIG.excel_name.lower()}*.xlsx"))
+            matches.extend(excel_glob(root, f"{CONFIG.excel_name}*.xlsx"))
+            matches.extend(excel_glob(root, f"{CONFIG.excel_name.lower()}*.xlsx"))
 
     matches = sorted({path.resolve() for path in matches if path.is_file()})
     if matches:

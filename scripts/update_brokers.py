@@ -1,3 +1,4 @@
+from common.excel_paths import excel_path, excel_glob
 import json
 import re
 import shutil
@@ -9,7 +10,7 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parent.parent
 EXCEL = ROOT / "excel"
 PORTFOLIO = ROOT / "public" / "data" / "portfolio.json"
-MAIN = EXCEL / "Investavimas.xlsx"
+MAIN = excel_path(EXCEL / "Investavimas.xlsx")
 
 CONFIG = {
     "seb-robo": {"name":"SEB Robo","file":"SEB Robo.xlsx","type":"robo","category":"Robo Advisor","domain":"seb.lt","header_row":2,"positions_from":5,"positions_until":"Viso","invested":"Inešta","value":"Vertė","labels":{"SGAS":"iShares MSCI USA ESG Screened","SLMC":"iShares MSCI Europe ESG Screened","AYEM":"iShares MSCI EM IMI ESG Screened","SGAJ":"iShares MSCI Japan ESG Screened","EDMU":"iShares MSCI USA ESG Enhanced"}},
@@ -54,7 +55,7 @@ def latest_month_row(ws,start):
     raise ValueError(f"Lape „{ws.title}“ nerasta mėnesinių duomenų.")
 
 def parse_workbook(cfg):
-    path=EXCEL/cfg["file"]
+    path=excel_path(EXCEL/cfg["file"])
     if not path.exists(): raise FileNotFoundError(f"Nerastas excel/{cfg['file']}.")
     wb=load_workbook(path,data_only=True); ws=wb["Apžvalga"]
     hr=cfg["header_row"]; hm=headers(ws,hr); row=latest_month_row(ws,hr)

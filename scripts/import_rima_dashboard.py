@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import json
 import math
@@ -11,7 +12,7 @@ from openpyxl import load_workbook
 from openpyxl.utils.datetime import from_excel
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-EXCEL_FILE = PROJECT_ROOT / "excel" / "Investavimas Rima.xlsx"
+EXCEL_FILE = excel_path(PROJECT_ROOT / "excel" / "Investavimas Rima.xlsx")
 OUTPUT_DIR = PROJECT_ROOT / "public" / "data" / "rima"
 SHEET_NAME = "Investavimas"
 

@@ -7,6 +7,7 @@ import sys
 from dataclasses import dataclass
 from datetime import date, datetime, timezone
 from pathlib import Path
+from common.excel_paths import excel_path
 from typing import Any
 
 from openpyxl import load_workbook
@@ -14,8 +15,8 @@ from openpyxl import load_workbook
 
 SHEET_NAME = "Investavimas"
 DEFAULT_INPUT_CANDIDATES = (
-    Path("excel/Investavimas.xlsx"),
-    Path("Investavimas.xlsx"),
+    excel_path(Path("excel/Investavimas.xlsx")),
+    excel_path(Path("Investavimas.xlsx")),
 )
 DEFAULT_OUTPUT_DIR = Path("public/data")
 

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from common.excel_paths import excel_path, excel_glob
 
 import subprocess
 import sys
@@ -11,13 +12,13 @@ JOBS = (
     (
         "Rima – Revolut Brokerage",
         PROJECT_ROOT / "scripts" / "import_revolut_brokerage.py",
-        PROJECT_ROOT / "excel" / "Revolut Brokerage Rima.xlsx",
+        excel_path(PROJECT_ROOT / "excel" / "Revolut Brokerage Rima.xlsx"),
         PROJECT_ROOT / "public" / "data" / "rima" / "platforms" / "revolut-brokerage.json",
     ),
     (
         "Rima – SEB Fondai",
         PROJECT_ROOT / "scripts" / "import_seb_fondai.py",
-        PROJECT_ROOT / "excel" / "SEB Fondai Rima.xlsx",
+        excel_path(PROJECT_ROOT / "excel" / "SEB Fondai Rima.xlsx"),
         PROJECT_ROOT / "public" / "data" / "rima" / "platforms" / "seb-fondai.json",
     ),
 )
@@ -47,7 +48,7 @@ def main() -> int:
 
 
     print("\n--- Rima – platformų istoriniai grafikai ---")
-    history_source = PROJECT_ROOT / "excel" / "Investavimas Rima.xlsx"
+    history_source = excel_path(PROJECT_ROOT / "excel" / "Investavimas Rima.xlsx")
     history_output = PROJECT_ROOT / "public" / "data" / "rima" / "platform_history.json"
     history_script = PROJECT_ROOT / "scripts" / "generate_platform_history.py"
 

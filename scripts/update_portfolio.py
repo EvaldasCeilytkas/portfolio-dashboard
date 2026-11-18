@@ -1,3 +1,4 @@
+from common.excel_paths import excel_path, excel_glob
 import json
 import re
 import unicodedata
@@ -21,12 +22,12 @@ from analytics import (
 
 ROOT = Path(__file__).resolve().parent.parent
 
-EXCEL_FILE = ROOT / "excel" / "Investavimas.xlsx"
-SEB_MIKRO_FILE = ROOT / "excel" / "Mikro VPLT038884.xlsx"
-REVOLUT_BROKERAGE_FILE = ROOT / "excel" / "Revolut Brokerage.xlsx"
-AFRANGA_FILE = ROOT / "excel" / "Afranga.xlsx"
-DEBITUM_FILE = ROOT / "excel" / "Debitum.xlsx"
-INDEMO_FILE = ROOT / "excel" / "Indemo.xlsx"
+EXCEL_FILE = excel_path(ROOT / "excel" / "Investavimas.xlsx")
+SEB_MIKRO_FILE = excel_path(ROOT / "excel" / "Mikro VPLT038884.xlsx")
+REVOLUT_BROKERAGE_FILE = excel_path(ROOT / "excel" / "Revolut Brokerage.xlsx")
+AFRANGA_FILE = excel_path(ROOT / "excel" / "Afranga.xlsx")
+DEBITUM_FILE = excel_path(ROOT / "excel" / "Debitum.xlsx")
+INDEMO_FILE = excel_path(ROOT / "excel" / "Indemo.xlsx")
 OUTPUT_FILE = ROOT / "public" / "data" / "portfolio.json"
 SHEET_NAME = "Investavimas"
 
