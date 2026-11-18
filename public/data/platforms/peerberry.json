@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T16:03:32+02:00",
+  "generatedAt": "2026-11-18T17:12:41+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "peerberry",
@@ -159,7 +159,7 @@
     "profit": 0.08,
     "xirr": null,
     "status": "delayed",
-    "delayDays": 6,
+    "delayDays": 7,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -588,7 +588,7 @@
       "profit": 0.14,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 4,
+      "delayDays": 5,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -689,7 +689,7 @@
       "profit": 0.14,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 6,
+      "delayDays": 7,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -945,7 +945,7 @@
       "profit": 0.08,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 6,
+      "delayDays": 7,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1095,7 +1095,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 8,
+      "delayDays": 9,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1240,7 +1240,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 8,
+      "delayDays": 9,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1367,6 +1367,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 8,
     "skippedSheets": [],
-    "generatedAt": "2026-11-17T16:03:32+02:00"
+    "generatedAt": "2026-11-18T17:12:41+02:00"
   }
 }

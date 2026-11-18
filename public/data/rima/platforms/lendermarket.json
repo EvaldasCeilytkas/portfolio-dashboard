@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T16:05:34+02:00",
+  "generatedAt": "2026-11-18T17:14:52+02:00",
   "moduleType": "p2p_loans",
   "platform": {
     "id": "lendermarket",
@@ -198,7 +198,7 @@
     "profit": 0.38,
     "xirr": null,
     "status": "delayed",
-    "delayDays": 4,
+    "delayDays": 5,
     "earlyLateDays": 0,
     "schedule": [
       {
@@ -720,7 +720,7 @@
       "profit": 0.47,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 5,
+      "delayDays": 6,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1481,7 +1481,7 @@
       "profit": 0.41,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 8,
+      "delayDays": 9,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -1800,7 +1800,7 @@
       "profit": 0.36,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 12,
+      "delayDays": 13,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2116,7 +2116,7 @@
       "profit": 0.22,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 5,
+      "delayDays": 6,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2267,7 +2267,7 @@
       "profit": 0.38,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 4,
+      "delayDays": 5,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2661,7 +2661,7 @@
       "profit": 0.16,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 4,
+      "delayDays": 5,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2798,7 +2798,7 @@
       "profit": 0.09,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 5,
+      "delayDays": 6,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -2948,7 +2948,7 @@
       "profit": 0.0,
       "xirr": null,
       "status": "delayed",
-      "delayDays": 2,
+      "delayDays": 3,
       "earlyLateDays": 0,
       "schedule": [
         {
@@ -3174,6 +3174,6 @@
     "moneySheet": "Pinigai",
     "loanSheets": 18,
     "skippedSheets": [],
-    "generatedAt": "2026-11-17T16:05:34+02:00"
+    "generatedAt": "2026-11-18T17:14:52+02:00"
   }
 }

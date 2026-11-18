@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-17T20:36:57+02:00",
+  "moduleType": "p2p_loans",
+  "platform": {
+    "id": "income",
+    "slug": "income",
+    "name": "Income",
+    "group": "p2p",
+    "type": "p2p_loans",
+    "category": "P2P paskolos",
+    "currency": "EUR",
+    "active": true,
+    "status": "active",
+    "startDate": "2026-09-09",
+    "updatedAt": "2026-11-30",
+    "website": "https://getincome.com"
+  },
+  "summary": {
+    "invested": 20.0,
+    "currentValue": 30.05,
+    "profit": 10.05,
+    "returnRate": 50.25,
+    "xirr": 761.6343,
+    "cash": 0.0,
+    "incomeReceived": 10.05,
+    "activeInvestments": 3,
+    "delayedInvestments": 0,
+    "completedInvestments": 1,
+    "averageRate": 15.0,
+    "averageLtv": null,
+    "deposited": 20.0,
+    "withdrawn": 0.0,
+    "currentPrincipal": 30.05,
+    "outstandingPrincipal": 30.05,
+    "calculatedOutstanding": 30.05,
+    "principalReturned": 10.0,
+    "interestReceived": 0.05,
+    "grossInterestReceived": 0.05,
+    "bonuses": 10.0,
+    "fees": 0.0,
+    "totalInvestments": 4,
+    "roi": 50.25
+  },
+  "history": [
+    {
+      "date": "2026-09-30",
+      "invested": 20.0,
+      "value": 20.0,
+      "profit": 0.0,
+      "cash": 0.0,
+      "income": 10.05,
+      "deposits": 20.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    },
+    {
+      "date": "2026-10-31",
+      "invested": 20.0,
+      "value": 30.0,
+      "profit": 10.0,
+      "cash": 0.0,
+      "income": 10.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 10.0,
+      "monthlyProfit": 10.0,
+      "monthlyReturn": 50.0
+    },
+    {
+      "date": "2026-11-30",
+      "invested": 20.0,
+      "value": 30.05,
+      "profit": 10.05,
+      "cash": 0.0,
+      "income": 0.0,
+      "deposits": 0.0,
+      "withdrawals": 0.0,
+      "bonuses": 0.0,
+      "monthlyProfit": 0.0,
+      "monthlyReturn": 0.0
+    }
+  ],
+  "latestMonth": {
+    "date": "2026-11-30",
+    "invested": 20.0,
+    "value": 30.05,
+    "profit": 10.05,
+    "cash": 0.0,
+    "income": 0.0,
+    "deposits": 0.0,
+    "withdrawals": 0.0,
+    "bonuses": 0.0,
+    "monthlyProfit": 0.0,
+    "monthlyReturn": 0.0
+  },
+  "largestInvestment": {
+    "id": "21769237",
+    "slug": "21769237",
+    "loanCode": "21769237",
+    "name": "21769237",
+    "sourceSheet": "21769237",
+    "country": "Indonesia",
+    "lender": "Pinjam Yuk",
+    "loanType": "Installment loan, premium",
+    "term": "0 m. 2 mėn. 26 d.",
+    "investmentDate": "2026-09-24",
+    "startDate": "2026-09-24",
+    "plannedEndDate": "2026-12-20",
+    "actualEndDate": null,
+    "rate": 15.0,
+    "invested": 10.05,
+    "currentValue": 10.05,
+    "outstandingPrincipal": 10.05,
+    "principalReturned": 0.0,
+    "interestReceived": 0.0,
+    "fees": 0.0,
+    "profit": 0.0,
+    "xirr": null,
+    "status": "active",
+    "delayDays": 0,
+    "earlyLateDays": 0,
+    "schedule": [
+      {
+        "plannedDate": "2026-10-06",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-11-05",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      },
+      {
+        "plannedDate": "2026-12-20",
+        "actualDate": null,
+        "timingDays": 0,
+        "principal": 0.0,
+        "interest": 0.0,
+        "fee": 0.0,
+        "paid": false
+      }
+    ],
+    "cashFlows": [
+      {
+        "date": "2026-09-24",
+        "amount": -10.05,
+        "delayDays": 0
+      }
+    ]
+  },
+  "distributions": {
+    "country": [
+      {
+        "label": "Indonesia",
+        "count": 2,
+        "value": 20.05
+      },
+      {
+        "label": "United Kingdom",
+        "count": 1,
+        "value": 10.0
+      }
+    ],
+    "lender": [
+      {
+        "label": "Pinjam Yuk",
+        "count": 2,
+        "value": 20.05
+      },
+      {
+        "label": "Sandfield Capital",
+        "count": 1,
+        "value": 10.0
+      }
+    ],
+    "loanType": [
+      {
+        "label": "Installment loan, premium",
+        "count": 2,
+        "value": 20.05
+      },
+      {
+        "label": "Litigation loan",
+        "count": 1,
+        "value": 10.0
+      }
+    ],
+    "status": [
+      {
+        "label": "active",
+        "count": 3,
+        "value": 30.05
+      }
+    ]
+  },
+  "cashFlows": [
+    {
+      "date": "2026-09-09",
+      "deposited": 20.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    },
+    {
+      "date": "2026-10-20",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 10.0
+    },
+    {
+      "date": "2026-11-17",
+      "deposited": 0.0,
+      "withdrawn": 0.0,
+      "bonus": 0.0
+    }
+  ],
+  "investments": [
+    {
+      "id": "21419288",
+      "slug": "21419288",
+      "loanCode": "21419288",
+      "name": "21419288",
+      "sourceSheet": "21419288",
+      "country": "Indonesia",
+      "lender": "Pinjam Yuk",
+      "loanType": "Installment loan, premium",
+      "term": "0 m. 2 mėn. 21 d.",
+      "investmentDate": "2026-09-10",
+      "startDate": "2026-09-10",
+      "plannedEndDate": "2026-12-01",
+      "actualEndDate": "2026-09-22",
+      "rate": 15.0,
+      "invested": 10.0,
+      "currentValue": 0.0,
+      "outstandingPrincipal": 0.0,
+      "principalReturned": 10.0,
+      "interestReceived": 0.05,
+      "fees": 0.0,
+      "profit": 0.05,
+      "xirr": 16.3816,
+      "status": "completed",
+      "delayDays": 0,
+      "earlyLateDays": -70,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-17",
+          "actualDate": "2026-09-22",
+          "timingDays": 5,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-10-17",
+          "actualDate": "2026-09-22",
+          "timingDays": -25,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": true
+        },
+        {
+          "plannedDate": "2026-12-01",
+          "actualDate": "2026-09-22",
+          "timingDays": -70,
+          "principal": 10.0,
+          "interest": 0.05,
+          "fee": 0.0,
+          "paid": true
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-10",
+          "amount": -10.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-22",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-22",
+          "amount": 0.0,
+          "delayDays": 0
+        },
+        {
+          "date": "2026-09-22",
+          "amount": 10.05,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "21428636",
+      "slug": "21428636",
+      "loanCode": "21428636",
+      "name": "21428636",
+      "sourceSheet": "21428636",
+      "country": "Indonesia",
+      "lender": "Pinjam Yuk",
+      "loanType": "Installment loan, premium",
+      "term": "0 m. 2 mėn. 23 d.",
+      "investmentDate": "2026-09-10",
+      "startDate": "2026-09-10",
+      "plannedEndDate": "2026-12-03",
+      "actualEndDate": null,
+      "rate": 15.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-09-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-10-19",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-03",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-10",
+          "amount": -10.0,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "21769237",
+      "slug": "21769237",
+      "loanCode": "21769237",
+      "name": "21769237",
+      "sourceSheet": "21769237",
+      "country": "Indonesia",
+      "lender": "Pinjam Yuk",
+      "loanType": "Installment loan, premium",
+      "term": "0 m. 2 mėn. 26 d.",
+      "investmentDate": "2026-09-24",
+      "startDate": "2026-09-24",
+      "plannedEndDate": "2026-12-20",
+      "actualEndDate": null,
+      "rate": 15.0,
+      "invested": 10.05,
+      "currentValue": 10.05,
+      "outstandingPrincipal": 10.05,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2026-10-06",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-11-05",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        },
+        {
+          "plannedDate": "2026-12-20",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-09-24",
+          "amount": -10.05,
+          "delayDays": 0
+        }
+      ]
+    },
+    {
+      "id": "21942404",
+      "slug": "21942404",
+      "loanCode": "21942404",
+      "name": "21942404",
+      "sourceSheet": "21942404",
+      "country": "United Kingdom",
+      "lender": "Sandfield Capital",
+      "loanType": "Litigation loan",
+      "term": "1 m. 5 mėn. 13 d.",
+      "investmentDate": "2026-10-20",
+      "startDate": "2026-10-02",
+      "plannedEndDate": "2028-04-02",
+      "actualEndDate": null,
+      "rate": 15.0,
+      "invested": 10.0,
+      "currentValue": 10.0,
+      "outstandingPrincipal": 10.0,
+      "principalReturned": 0.0,
+      "interestReceived": 0.0,
+      "fees": 0.0,
+      "profit": 0.0,
+      "xirr": null,
+      "status": "active",
+      "delayDays": 0,
+      "earlyLateDays": 0,
+      "schedule": [
+        {
+          "plannedDate": "2028-04-02",
+          "actualDate": null,
+          "timingDays": 0,
+          "principal": 0.0,
+          "interest": 0.0,
+          "fee": 0.0,
+          "paid": false
+        }
+      ],
+      "cashFlows": [
+        {
+          "date": "2026-10-20",
+          "amount": -10.0,
+          "delayDays": 0
+        }
+      ]
+    }
+  ],
+  "source": {
+    "file": "Income Rima.xlsm",
+    "overviewSheet": "Overview",
+    "moneySheet": "Pinigai",
+    "loanSheets": 4,
+    "skippedSheets": [],
+    "generatedAt": "2026-11-17T20:36:57+02:00"
+  },
+  "owner": "rima"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T16:05:31+02:00",
+  "generatedAt": "2026-11-18T17:14:49+02:00",
   "platform": {
     "id": "nordstreet",
     "slug": "nordstreet",
@@ -11,7 +11,7 @@
     "currency": "EUR",
     "active": true,
     "startDate": "2025-09-19",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-18",
     "website": "https://nordstreet.com"
   },
   "summary": {
@@ -55,7 +55,7 @@
       "interestRate": 11.0,
       "incomeReceived": 24.48,
       "outstanding": 100.0,
-      "delayDays": 7,
+      "delayDays": 8,
       "ltv": 60.0,
       "quantity": null,
       "averagePrice": null,
@@ -1044,7 +1044,7 @@
       "interestRate": 12.0,
       "incomeReceived": 7.88,
       "outstanding": 116.0,
-      "delayDays": 137,
+      "delayDays": 138,
       "ltv": 50.0,
       "quantity": null,
       "averagePrice": null,

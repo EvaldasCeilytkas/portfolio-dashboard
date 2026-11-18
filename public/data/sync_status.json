@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-17T16:05:45.079759+02:00",
+  "generatedAt": "2026-11-18T17:15:10.557280+02:00",
   "durationSeconds": 42.228,
   "portfolios": [
     {
@@ -313,7 +313,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 9,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -326,7 +326,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 4,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -339,7 +339,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 26,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -352,7 +352,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 18,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -365,7 +365,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 22,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -378,7 +378,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 4,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -391,7 +391,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 8,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -404,7 +404,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 1,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -417,7 +417,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 15,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -430,7 +430,7 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 2,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
@@ -443,13 +443,18 @@
       "sourceFile": "Excel / JSON",
       "status": "ok",
       "records": 6,
-      "latestDataDate": "2026-11-17",
+      "latestDataDate": "2026-11-18",
       "durationSeconds": 0,
       "error": "",
       "task": "portfolio importer"
     }
   ],
   "history": [
+    {
+      "generatedAt": "2026-11-18T17:15:10.557280+02:00",
+      "durationSeconds": 42.228,
+      "status": "ok"
+    },
     {
       "generatedAt": "2026-11-17T16:05:45.079759+02:00",
       "durationSeconds": 42.228,
@@ -494,11 +499,6 @@
       "generatedAt": "2026-09-01T22:35:18.523156+03:00",
       "durationSeconds": 42.228,
       "status": "ok"
-    },
-    {
-      "generatedAt": "2026-09-01T20:46:15.825093+03:00",
-      "durationSeconds": 42.228,
-      "status": "ok"
     }
   ],
   "system": {
@@ -508,27 +508,27 @@
   },
   "log": [
     {
-      "time": "16:05:45",
+      "time": "17:15:10",
       "level": "info",
       "message": "Sync būsenos ataskaita sugeneruota."
     },
     {
-      "time": "16:05:45",
+      "time": "17:15:10",
       "level": "success",
       "message": "Evaldas: 21 platformų patikrinta."
     },
     {
-      "time": "16:05:45",
+      "time": "17:15:10",
       "level": "success",
       "message": "Rima: 10 platformų patikrinta."
     },
     {
-      "time": "16:05:45",
+      "time": "17:15:10",
       "level": "success",
       "message": "Gerda: 1 platformų patikrinta."
     },
     {
-      "time": "16:05:45",
+      "time": "17:15:10",
       "level": "success",
       "message": "Kritinių duomenų klaidų nerasta."
     }

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T16:04:35+02:00",
+  "generatedAt": "2026-11-18T17:13:51+02:00",
   "currency": "EUR",
   "summary": {
     "invested": 12953.6,
-    "currentValue": 14202.21,
-    "profit": 1798.93,
-    "returnRate": 13.8875,
-    "xirr": 12.4241,
-    "cash": 177.68,
-    "incomeReceived": 742.09,
+    "currentValue": 14205.16,
+    "profit": 1801.88,
+    "returnRate": 13.9103,
+    "xirr": 12.4347,
+    "cash": 156.17,
+    "incomeReceived": 745.04,
     "platformCount": 22,
-    "activeInvestments": 200,
+    "activeInvestments": 201,
     "delayedInvestments": 48,
-    "completedInvestments": 191
+    "completedInvestments": 192
   },
   "allocation": [
     {
@@ -23,7 +23,7 @@
       "currentValue": 5700.9,
       "profit": 273.02,
       "cash": 3.6,
-      "percentage": 40.1409,
+      "percentage": 40.1326,
       "platformCount": 2
     },
     {
@@ -33,17 +33,17 @@
       "currentValue": 4179.05,
       "profit": 540.06,
       "cash": 133.51,
-      "percentage": 29.4253,
+      "percentage": 29.4192,
       "platformCount": 4
     },
     {
       "group": "p2p",
       "name": "P2P",
       "invested": 3536.73,
-      "currentValue": 3824.52,
-      "profit": 374.95,
-      "cash": 40.57,
-      "percentage": 26.929,
+      "currentValue": 3827.47,
+      "profit": 377.9,
+      "cash": 19.06,
+      "percentage": 26.9442,
       "platformCount": 12
     },
     {
@@ -53,7 +53,7 @@
       "currentValue": 497.74,
       "profit": 459.54,
       "cash": 0.0,
-      "percentage": 3.5047,
+      "percentage": 3.5039,
       "platformCount": 2
     },
     {
@@ -134,7 +134,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-17",
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-18",
       "website": "https://profitus.lt",
       "sourceFile": "profitus.json",
       "summary": {
@@ -162,7 +162,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-03-03",
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-18",
       "website": "https://crowdpear.com",
       "sourceFile": "crowdpear.json",
       "summary": {
@@ -218,7 +218,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-02-28",
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-18",
       "website": "https://nordstreet.com",
       "sourceFile": "nordstreet.json",
       "summary": {
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "active": true,
       "startDate": "2025-11-03",
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-18",
       "website": "https://rontgen.lt",
       "sourceFile": "rontgen.json",
       "summary": {
@@ -335,16 +335,16 @@
       "sourceFile": "viainvest.json",
       "summary": {
         "invested": 450.0,
-        "currentValue": 478.45,
-        "profit": 28.45,
-        "returnRate": 6.3222,
-        "xirr": 9.2216,
-        "cash": 23.25,
-        "incomeReceived": 28.45,
-        "activeInvestments": 11,
+        "currentValue": 481.4,
+        "profit": 31.4,
+        "returnRate": 6.9778,
+        "xirr": 9.556,
+        "cash": 1.74,
+        "incomeReceived": 31.4,
+        "activeInvestments": 12,
         "delayedInvestments": 0,
-        "completedInvestments": 10,
-        "averageRate": 10.9608,
+        "completedInvestments": 11,
+        "averageRate": 10.9284,
         "averageLtv": null
       }
     },
@@ -1393,10 +1393,10 @@
     {
       "date": "2026-11-30",
       "invested": 12866.44,
-      "value": 8003.57,
-      "profit": 1798.93,
-      "cash": 177.68,
-      "income": 0.0
+      "value": 8006.52,
+      "profit": 1801.88,
+      "cash": 156.17,
+      "income": 87.96
     }
   ]
 }
